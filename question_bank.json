@@ -1,0 +1,2476 @@
+{
+ "questions": [
+  {
+   "q": "Which of these famous Indian monuments is actually taller than the Leaning Tower of Pisa?",
+   "options": [
+    "Taj Mahal",
+    "Gateway of India",
+    "Hawa Mahal"
+   ],
+   "answer": 0,
+   "fact": "The Taj Mahal stands at 73 meters tall, which makes it about 17 meters taller than Italy's Leaning Tower of Pisa.",
+   "emoji": "🕌",
+   "image_query": "taj mahal",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Leaning Tower of Pisa is approximately 56 meters tall. The Taj Mahal is approximately 73 meters tall, while the Gateway of India is 26 meters and the Hawa Mahal is 15 meters.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which country is the only one to win the Cricket World Cup in 60-over, 50-over, and 20-over formats?",
+   "options": [
+    "Australia",
+    "India",
+    "West Indies"
+   ],
+   "answer": 1,
+   "fact": "India won the 60-over World Cup in 1983, the T20 (20-over) World Cup in 2007, and the 50-over World Cup in 2011.",
+   "emoji": "🏏",
+   "image_query": "cricket stadium",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "India won the 1983 World Cup (60-over), 2011 World Cup (50-over), and 2007 T20 World Cup (20-over).",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Who was the first Indian ever to win an Academy Award (Oscar)?",
+   "options": [
+    "Satyajit Ray",
+    "A. R. Rahman",
+    "Bhanu Athaiya"
+   ],
+   "answer": 2,
+   "fact": "Costume designer Bhanu Athaiya won an Oscar in 1983 for her work on the legendary film 'Gandhi'.",
+   "emoji": "🏆",
+   "image_query": "oscar trophy",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Bhanu Athaiya won the Academy Award for Best Costume Design in 1983 for the film Gandhi, making her the first Indian to win an Oscar.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian state is home to the world's only floating national park?",
+   "options": [
+    "Kerala",
+    "Manipur",
+    "Assam"
+   ],
+   "answer": 1,
+   "fact": "The Keibul Lamjao National Park in Manipur floats on Loktak Lake and is famous for its unique floating landmasses.",
+   "emoji": "🦌",
+   "image_query": "floating lake",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Keibul Lamjao National Park is located in Manipur and is the world's only floating national park.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which popular board game was invented in ancient India to teach children about morality and karma?",
+   "options": [
+    "Chess",
+    "Ludo",
+    "Snakes and Ladders"
+   ],
+   "answer": 2,
+   "fact": "Originally called Moksha Patam, the game used ladders to represent good deeds and snakes to represent bad deeds.",
+   "emoji": "🎲",
+   "image_query": "board games",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Snakes and Ladders originated as 'Moksha Patam' in ancient India, designed to teach lessons about karma and morality.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which everyday cooking ingredient was actually brought to India by the Portuguese from South America?",
+   "options": [
+    "Turmeric",
+    "Chili pepper",
+    "Black pepper"
+   ],
+   "answer": 1,
+   "fact": "Chili peppers are native to South America and were introduced to Indian cuisine by Portuguese traders in the 15th century.",
+   "emoji": "🌶️",
+   "image_query": "red chilies",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Chili peppers were introduced to India by the Portuguese in the 16th century via the Columbian Exchange; turmeric and black pepper are native to the Indian subcontinent.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which is the only country in the world where both wild lions and wild tigers naturally live?",
+   "options": [
+    "India",
+    "South Africa",
+    "China"
+   ],
+   "answer": 0,
+   "fact": "India is the only nation on Earth where both Asiatic lions and Bengal tigers live in their natural wild habitats.",
+   "emoji": "🦁",
+   "image_query": "wild jungle",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "India is the only country with native populations of both Asiatic lions (Gir Forest) and Bengal tigers.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Before his international debut, which country did a 13-year-old Sachin Tendulkar play for as a substitute fielder?",
+   "options": [
+    "Pakistan",
+    "Australia",
+    "England"
+   ],
+   "answer": 0,
+   "fact": "During a practice match at Brabourne Stadium in 1987, Sachin Tendulkar was sent on as a substitute fielder for Pakistan.",
+   "emoji": "🏏",
+   "image_query": "cricket field",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sachin Tendulkar served as a substitute fielder for Pakistan during a practice match against India at the Brabourne Stadium in 1987.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "How many of his 10 career ODI centuries did MS Dhoni score outside of Asia?",
+   "options": [
+    "Zero",
+    "Three",
+    "Five"
+   ],
+   "answer": 0,
+   "fact": "All of MS Dhoni's 10 ODI centuries were scored in Asia, with none in countries like England, Australia, or South Africa.",
+   "emoji": "🏆",
+   "image_query": "cricket stadium lights",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "MS Dhoni scored all 10 of his ODI centuries within Asia (India, Pakistan, Bangladesh, and Sri Lanka).",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Who is the only bowler in cricket history to dismiss the legendary Don Bradman hit-wicket?",
+   "options": [
+    "Lala Amarnath",
+    "Shane Warne",
+    "Richard Hadlee"
+   ],
+   "answer": 0,
+   "fact": "Indian legend Lala Amarnath is the only bowler to dismiss Donald Bradman hit-wicket, during a test match in 1947.",
+   "emoji": "🧢",
+   "image_query": "vintage cricket bat",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Lala Amarnath is the only bowler to have dismissed Don Bradman hit-wicket in a Test match (Brisbane, 1947).",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian player took a wicket on his very first delivery in T20 Internationals, which was actually a wide?",
+   "options": [
+    "Virat Kohli",
+    "MS Dhoni",
+    "Hardik Pandya"
+   ],
+   "answer": 0,
+   "fact": "In 2011, Virat Kohli dismissed Kevin Pietersen off a wide ball on his very first delivery in T20Is before bowling a legal ball.",
+   "emoji": "👑",
+   "image_query": "cricket ball",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Virat Kohli took the wicket of Kevin Pietersen on his first ball in T20Is, which was a wide delivery.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Why is there no video footage of Kapil Dev's legendary 175-run knock against Zimbabwe in the 1983 World Cup?",
+   "options": [
+    "BBC broadcasters were on strike",
+    "The match was played at night",
+    "Heavy rain damaged the tapes"
+   ],
+   "answer": 0,
+   "fact": "The sole official broadcaster, BBC, was on strike that day, meaning one of cricket's greatest innings was never recorded.",
+   "emoji": "📺",
+   "image_query": "old video camera",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The BBC was on strike during the 1983 World Cup match between India and Zimbabwe, resulting in no video recording of the innings.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In 1985, which Indian cricketer won a luxury car that became so famous the Prime Minister waived its import tax?",
+   "options": [
+    "Ravi Shastri",
+    "Kapil Dev",
+    "Sunil Gavaskar"
+   ],
+   "answer": 0,
+   "fact": "Ravi Shastri won an Audi 100 in Australia, and Prime Minister Rajiv Gandhi waived the heavy import tax so he could bring it home.",
+   "emoji": "🚗",
+   "image_query": "retro luxury car",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Ravi Shastri was awarded an Audi 100 for being the Champion of Champions in the 1985 World Championship of Cricket in Australia, and Prime Minister Rajiv Gandhi waived the import duty.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian bowler holds the world record for bowling 21 consecutive maiden overs in a Test match?",
+   "options": [
+    "Bapu Nadkarni",
+    "Anil Kumble",
+    "Kapil Dev"
+   ],
+   "answer": 0,
+   "fact": "Bapu Nadkarni bowled 21 consecutive maiden overs (131 dot balls in a row) against England in Chennai in 1964.",
+   "emoji": "⏱️",
+   "image_query": "cricket scoreboard",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Bapu Nadkarni set this record against England in Chennai in 1964.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "At the 1987 World Cup, a young 14-year-old Sachin Tendulkar served on the field in what role?",
+   "options": [
+    "Ball boy",
+    "Water boy",
+    "Umpire's assistant"
+   ],
+   "answer": 0,
+   "fact": "At age 14, Sachin Tendulkar served as a ball boy during the 1987 World Cup match between India and Zimbabwe.",
+   "emoji": "🧒",
+   "image_query": "cricket stadium grass",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sachin Tendulkar served as a ball boy during the 1987 Cricket World Cup match between India and Zimbabwe at the Wankhede Stadium.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Who was the first Indian batsman to score a triple century (300 runs) in a Test match?",
+   "options": [
+    "Virender Sehwag",
+    "Sachin Tendulkar",
+    "VVS Laxman"
+   ],
+   "answer": 0,
+   "fact": "Virender Sehwag became the first Indian to score a triple century with his historic 309 against Pakistan in Multan in 2004.",
+   "emoji": "💯",
+   "image_query": "cricket helmet",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Virender Sehwag scored 309 against Pakistan in 2004, becoming the first Indian to reach a triple century in Test cricket.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Who was the first captain of the Indian Test cricket team during India's debut match in 1932?",
+   "options": [
+    "C.K. Nayudu",
+    "Lala Amarnath",
+    "Vijay Hazare"
+   ],
+   "answer": 0,
+   "fact": "Colonel C.K. Nayudu led India in their historic first-ever Test match against England at Lord's in 1932.",
+   "emoji": "📜",
+   "image_query": "vintage cricket photo",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "C.K. Nayudu led the Indian team in their inaugural Test match against England at Lord's in 1932.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Against which country did Anil Kumble take his historic 10 wickets in a single Test innings in 1999?",
+   "options": [
+    "Pakistan",
+    "Australia",
+    "England"
+   ],
+   "answer": 0,
+   "fact": "Anil Kumble became only the second bowler in history to take all 10 wickets in an innings, achieving it against Pakistan in Delhi.",
+   "emoji": "🎯",
+   "image_query": "cricket wickets",
+   "concept": "cricket",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Anil Kumble achieved this feat at the Feroz Shah Kotla ground in Delhi against Pakistan in February 1999.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian movie holds the world record for having the most songs in a single film?",
+   "options": [
+    "Indrasabha",
+    "Mughal-e-Azam",
+    "Hum Aapke Hain Koun"
+   ],
+   "answer": 0,
+   "fact": "The 1932 musical drama film Indrasabha features a record-breaking 71 songs.",
+   "emoji": "🎵",
+   "image_query": "vintage cinema",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The 1932 film Indrasabha holds the Guinness World Record for the most songs in a film, featuring 71 songs.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "For the iconic song 'Pyar Kiya To Darna Kya' in Mughal-e-Azam, the mirrors on the set were imported from which country?",
+   "options": [
+    "Belgium",
+    "Italy",
+    "France"
+   ],
+   "answer": 0,
+   "fact": "The legendary 'Sheesh Mahal' set was built using thousands of mirrors imported from Belgium.",
+   "emoji": "🪞",
+   "image_query": "palace mirrors",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Sheesh Mahal set for the song was famously constructed using mirrors imported from Belgium.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Bollywood movie has been running continuously in a Mumbai theatre for over 25 years?",
+   "options": [
+    "Dilwale Dulhania Le Jayenge",
+    "Sholay",
+    "Mughal-e-Azam"
+   ],
+   "answer": 0,
+   "fact": "Dilwale Dulhania Le Jayenge has been screened daily at Mumbai's Maratha Mandir theatre since its release in 1995.",
+   "emoji": "🚂",
+   "image_query": "cinema theater",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Dilwale Dulhania Le Jayenge held the record for the longest-running film at the Maratha Mandir theatre in Mumbai, surpassing 25 years.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Who was the first choice to play the iconic villain Gabbar Singh in the film 'Sholay'?",
+   "options": [
+    "Danny Denzongpa",
+    "Amrish Puri",
+    "Pran"
+   ],
+   "answer": 0,
+   "fact": "Danny Denzongpa was cast first but had to drop out because he was already shooting another film in Afghanistan.",
+   "emoji": "🤠",
+   "image_query": "rocky canyon",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Danny Denzongpa was the original choice for the role of Gabbar Singh but had to decline due to scheduling conflicts with the film Dharmatma.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Besides 'Mother India' and 'Salaam Bombay', which is the only other Indian film nominated for the Best Foreign Language Film Oscar?",
+   "options": [
+    "Lagaan",
+    "Devdas",
+    "Dangal"
+   ],
+   "answer": 0,
+   "fact": "Lagaan was nominated for the Academy Award in 2002, making it only the third Indian film to achieve this feat.",
+   "emoji": "🏏",
+   "image_query": "dusty cricket ground",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The question is slightly inaccurate as there are three films nominated in this category (Mother India, Salaam Bombay!, and Lagaan), but among the provided options, only Lagaan is correct.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What was the title of India's first-ever 3D film, released in 1984?",
+   "options": [
+    "My Dear Kuttichathan",
+    "Shiva",
+    "Vikram"
+   ],
+   "answer": 0,
+   "fact": "My Dear Kuttichathan was a Malayalam film that made history as India's very first 3D movie.",
+   "emoji": "🕶️",
+   "image_query": "3d glasses",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "My Dear Kuttichathan is widely recognized as India's first 3D film, released in 1984.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the real birth name of Oscar-winning actor Sir Ben Kingsley, who famously played Mahatma Gandhi?",
+   "options": [
+    "Krishna Pandit Bhanji",
+    "Rohan Shekhar",
+    "Devendra Patel"
+   ],
+   "answer": 0,
+   "fact": "Sir Ben Kingsley was born Krishna Pandit Bhanji to an English mother and a father of Gujarati Indian descent.",
+   "emoji": "🎭",
+   "image_query": "theatre stage",
+   "concept": "movies",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sir Ben Kingsley was born Krishna Pandit Bhanji.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In Indian cricket history, which player hit the first ever century in a World Cup for India?",
+   "options": [
+    "Sunil Gavaskar",
+    "Kapil Dev",
+    "Sachin Tendulkar"
+   ],
+   "answer": 1,
+   "fact": "Kapil Dev scored 175 not out against Zimbabwe in the 1983 World Cup, marking India's first individual century in the tournament.",
+   "emoji": "🏏",
+   "image_query": "cricket pitch stadium",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Kapil Dev scored India's first World Cup century in 1983 against Zimbabwe.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these common Indian kitchen ingredients is technically a fruit, not a vegetable?",
+   "options": [
+    "Ladyfinger",
+    "Potato",
+    "Ginger"
+   ],
+   "answer": 0,
+   "fact": "Botanically, okra (ladyfinger) is classified as a fruit because it contains seeds and develops from the flower of the plant.",
+   "emoji": "🥦",
+   "image_query": "fresh green vegetables",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Ladyfinger (okra) is botanically a fruit because it develops from the ovary of a flowering plant and contains seeds.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the only continent on Earth that has no active volcanoes?",
+   "options": [
+    "Australia",
+    "South America",
+    "Africa"
+   ],
+   "answer": 0,
+   "fact": "Australia is the only continent that does not have any active volcanoes because it sits in the middle of a tectonic plate.",
+   "emoji": "🌏",
+   "image_query": "world map globe",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Australia is the only continent without active volcanoes, although it has dormant ones.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which gas makes up the majority of the air we breathe?",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon Dioxide"
+   ],
+   "answer": 1,
+   "fact": "Earth's atmosphere is composed of approximately 78% Nitrogen, while Oxygen makes up only about 21%.",
+   "emoji": "💨",
+   "image_query": "blue sky clouds",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Nitrogen makes up approximately 78% of Earth's atmosphere.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "How many states in India share a coastline with the Arabian Sea?",
+   "options": [
+    "Three",
+    "Five",
+    "Seven"
+   ],
+   "answer": 1,
+   "fact": "Five Indian states—Gujarat, Maharashtra, Goa, Karnataka, and Kerala—border the Arabian Sea.",
+   "emoji": "🌊",
+   "image_query": "indian ocean coastline",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The five states are Gujarat, Maharashtra, Goa, Karnataka, and Kerala.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which human organ is the only one capable of regenerating itself?",
+   "options": [
+    "Heart",
+    "Liver",
+    "Kidney"
+   ],
+   "answer": 1,
+   "fact": "The liver is the only internal human organ with the remarkable ability to regenerate its lost tissue.",
+   "emoji": "🫀",
+   "image_query": "human anatomy biology",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The liver is widely recognized in medical science for its unique and extensive regenerative capacity compared to other human organs.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these animals can actually live for over 100 years?",
+   "options": [
+    "Giant Tortoise",
+    "Asian Elephant",
+    "Bengal Tiger"
+   ],
+   "answer": 0,
+   "fact": "Giant tortoises are famous for their longevity, with many individuals living well past 100 years in the wild.",
+   "emoji": "🐢",
+   "image_query": "nature wildlife sanctuary",
+   "concept": "science",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Giant tortoises are well-documented to live over 100 years, whereas Asian elephants and Bengal tigers have significantly shorter lifespans.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian city is the only one in the world that is home to both a Lion and a Tiger safari?",
+   "options": [
+    "Bengaluru",
+    "Hyderabad",
+    "Mumbai"
+   ],
+   "answer": 1,
+   "fact": "Hyderabad is the only city in the world to house the Nehru Zoological Park, which features both Lion and Tiger safari parks.",
+   "emoji": "🦁",
+   "image_query": "indian forest",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Nehru Zoological Park in Hyderabad is widely recognized for hosting both lion and tiger safari parks.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What was the very first feature-length film produced in India?",
+   "options": [
+    "Alam Ara",
+    "Raja Harishchandra",
+    "Kisan Kanya"
+   ],
+   "answer": 1,
+   "fact": "Dadasaheb Phalke's Raja Harishchandra, released in 1913, is officially recognized as the first full-length Indian silent film.",
+   "emoji": "🎬",
+   "image_query": "vintage cinema film",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Raja Harishchandra (1913) is widely recognized as the first full-length Indian feature film, directed by Dadasaheb Phalke.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which planet in our solar system has a day that is longer than its entire year?",
+   "options": [
+    "Venus",
+    "Mars",
+    "Mercury"
+   ],
+   "answer": 0,
+   "fact": "Venus rotates so slowly that one full rotation takes about 243 Earth days, while its orbit around the Sun takes 225 Earth days.",
+   "emoji": "🪐",
+   "image_query": "outer space planets",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Venus has a sidereal rotation period of approximately 243 Earth days and an orbital period of approximately 225 Earth days.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which legendary Indian cricketer has never scored a century at Lord's Cricket Ground?",
+   "options": [
+    "Sachin Tendulkar",
+    "Sunil Gavaskar",
+    "Virat Kohli"
+   ],
+   "answer": 0,
+   "fact": "Despite a prolific career, Sachin Tendulkar never managed to score a Test century at the historic Lord's Cricket Ground in London.",
+   "emoji": "🏏",
+   "image_query": "cricket pitch",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sachin Tendulkar never scored a Test century at Lord's. Sunil Gavaskar also never scored a Test century at Lord's, making the question technically flawed as there are multiple correct options.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these is the ONLY mammal that is capable of true flight?",
+   "options": [
+    "Flying Squirrel",
+    "Bat",
+    "Sugar Glider"
+   ],
+   "answer": 1,
+   "fact": "While other mammals like flying squirrels only glide, bats are the only mammals capable of sustained, powered flight.",
+   "emoji": "🦇",
+   "image_query": "night sky",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Bats are the only mammals capable of powered, true flight; flying squirrels and sugar gliders are only capable of gliding.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian landmark was built to commemorate the visit of King George V and Queen Mary?",
+   "options": [
+    "India Gate",
+    "Gateway of India",
+    "Victoria Memorial"
+   ],
+   "answer": 1,
+   "fact": "The Gateway of India in Mumbai was specifically constructed to welcome King George V and Queen Mary to India in 1911.",
+   "emoji": "🏛️",
+   "image_query": "arch architecture",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Gateway of India was specifically built to commemorate the visit of King George V and Queen Mary to Mumbai in 1911.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In the Mahabharata, who was the mother of the Pandavas?",
+   "options": [
+    "Kunti",
+    "Gandhari",
+    "Draupadi"
+   ],
+   "answer": 0,
+   "fact": "Kunti is the mother of the three eldest Pandavas, Yudhisthira, Bhima, and Arjuna, while the younger two were born to Madri.",
+   "emoji": "🏹",
+   "image_query": "ancient indian palace",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Kunti is the mother of the three eldest Pandavas (Yudhisthira, Bhima, and Arjuna), while Madri is the mother of the twins (Nakula and Sahadeva). Kunti is universally recognized as the primary mother f",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which major organ in the human body is the only one that can regenerate itself significantly?",
+   "options": [
+    "Heart",
+    "Liver",
+    "Brain"
+   ],
+   "answer": 1,
+   "fact": "The liver is the only internal human organ with the remarkable ability to regenerate lost tissue and grow back to its original size.",
+   "emoji": "🫀",
+   "image_query": "human biology science",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The liver is the only human organ capable of significant natural regeneration from as little as 25% of its original mass.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Mughal Emperor had the longest reign in Indian history?",
+   "options": [
+    "Akbar the Great",
+    "Aurangzeb",
+    "Shah Jahan"
+   ],
+   "answer": 1,
+   "fact": "Aurangzeb ruled the Mughal Empire for 49 years, the longest reign of any Mughal ruler, from 1658 to 1707.",
+   "emoji": "👑",
+   "image_query": "mughal architecture",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Aurangzeb reigned for 49 years, which is the longest among Mughal Emperors.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "The world's first university, established in 700 BC, was located in which ancient Indian kingdom?",
+   "options": [
+    "Taxila",
+    "Nalanda",
+    "Vikramshila"
+   ],
+   "answer": 0,
+   "fact": "Taxila (Takshashila) is widely cited by historians and UNESCO as the earliest center of higher learning in ancient India.",
+   "emoji": "🎓",
+   "image_query": "ancient ruins",
+   "concept": "history",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Taxila is widely recognized as the earliest center of higher learning in ancient India, though the 700 BC date is an estimate often cited in historical literature.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian city is famously known as the 'City of Seven Islands'?",
+   "options": [
+    "Mumbai",
+    "Kochi",
+    "Visakhapatnam"
+   ],
+   "answer": 0,
+   "fact": "Mumbai was originally an archipelago of seven separate islands before they were joined by land reclamation.",
+   "emoji": "🏝️",
+   "image_query": "indian coastline",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Mumbai was historically formed by the reclamation of seven islands.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which was the first feature-length Indian film to be shot entirely in color?",
+   "options": [
+    "Kisan Kanya",
+    "Raja Harishchandra",
+    "Alam Ara"
+   ],
+   "answer": 0,
+   "fact": "Kisan Kanya, released in 1937, holds the record as the first fully indigenous Indian color feature film.",
+   "emoji": "🎬",
+   "image_query": "vintage film camera",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Kisan Kanya (1937) is widely recognized as the first indigenously produced color feature film in India.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In Indian mythology, which bird is the vahana (vehicle) of Lord Vishnu?",
+   "options": [
+    "Garuda",
+    "Hamsa",
+    "Mayura"
+   ],
+   "answer": 0,
+   "fact": "Garuda, a divine eagle-like creature, is the vahana of Lord Vishnu.",
+   "emoji": "🦅",
+   "image_query": "ancient temple sculpture",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Garuda is universally recognized in Hindu mythology as the vahana of Lord Vishnu.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which chemical element is found in the highest quantity in the Earth's crust?",
+   "options": [
+    "Oxygen",
+    "Silicon",
+    "Iron"
+   ],
+   "answer": 0,
+   "fact": "Oxygen makes up nearly 47% of the Earth's crust by weight, primarily bonded in silicate minerals.",
+   "emoji": "🌍",
+   "image_query": "geology rock layers",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Oxygen makes up approximately 46.6% of the Earth's crust by weight, followed by silicon at approximately 27.7%.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these is the only continent on Earth without any active volcanoes?",
+   "options": [
+    "Australia",
+    "South America",
+    "Europe"
+   ],
+   "answer": 0,
+   "fact": "Australia is the only continent that does not have any currently active volcanoes on its mainland.",
+   "emoji": "🇦🇺",
+   "image_query": "outback desert landscape",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Australia is the only continent without active volcanoes, although it has dormant ones.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which planet in our solar system rotates on its side, almost at a 90-degree angle?",
+   "options": [
+    "Uranus",
+    "Neptune",
+    "Saturn"
+   ],
+   "answer": 0,
+   "fact": "Uranus has an axial tilt of 98 degrees, making it appear to roll like a ball as it orbits the Sun.",
+   "emoji": "🪐",
+   "image_query": "outer space cosmos",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Uranus has an axial tilt of approximately 98 degrees, causing it to rotate on its side.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which is the only metal that is liquid at standard room temperature?",
+   "options": [
+    "Mercury",
+    "Gallium",
+    "Lead"
+   ],
+   "answer": 0,
+   "fact": "Mercury is the only metallic element that remains in a liquid state at room temperature.",
+   "emoji": "🌡️",
+   "image_query": "laboratory glass beaker",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Mercury is the only metal that is liquid at standard room temperature (20-25°C). Gallium melts at approximately 29.76°C, which is slightly above standard room temperature.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In which Indian state is the famous 'Magnetic Hill' located?",
+   "options": [
+    "Ladakh",
+    "Himachal Pradesh",
+    "Uttarakhand"
+   ],
+   "answer": 0,
+   "fact": "Magnetic Hill, located near Leh in Ladakh, creates an optical illusion where vehicles appear to roll uphill.",
+   "emoji": "🚗",
+   "image_query": "mountain winding road",
+   "concept": "geography",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Ladakh is a Union Territory, but it is the correct geographical location for the Magnetic Hill.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which fruit was originally named 'Chinese gooseberry' before it became famous as Kiwi?",
+   "options": [
+    "Dragon fruit",
+    "Kiwi",
+    "Starfruit"
+   ],
+   "answer": 1,
+   "fact": "Kiwi was rebranded from Chinese gooseberry in the 1950s to make it more appealing for export markets.",
+   "emoji": "🥝",
+   "image_query": "fruit market",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The fruit known as the kiwi was originally called the Chinese gooseberry before being rebranded for marketing purposes.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which vegetable was the first to be grown in space by NASA astronauts?",
+   "options": [
+    "Potato",
+    "Tomato",
+    "Lettuce"
+   ],
+   "answer": 0,
+   "fact": "In 1995, the potato became the first vegetable successfully cultivated in space on the Space Shuttle Columbia.",
+   "emoji": "🥔",
+   "image_query": "space shuttle",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The potato was the first vegetable grown in space, specifically on the Space Shuttle Columbia in 1995.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the primary ingredient that gives yellow mustard its bright color?",
+   "options": [
+    "Turmeric",
+    "Saffron",
+    "Mustard seeds"
+   ],
+   "answer": 0,
+   "fact": "The vibrant yellow color of commercial mustard is primarily derived from turmeric, not the mustard seeds themselves.",
+   "emoji": "🌭",
+   "image_query": "diner table",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "While mustard seeds are the base ingredient, turmeric is the specific additive responsible for the characteristic bright yellow color of American-style yellow mustard.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which common kitchen nut is actually a seed that grows outside a fruit?",
+   "options": [
+    "Cashew",
+    "Almond",
+    "Walnut"
+   ],
+   "answer": 0,
+   "fact": "The cashew nut grows hanging from the bottom of the cashew apple, which is the swollen stem of the plant.",
+   "emoji": "🥜",
+   "image_query": "tropical orchard",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The cashew nut is botanically a seed that develops outside the cashew apple.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Honey never spoils because it has very low levels of what?",
+   "options": [
+    "Water",
+    "Sugar",
+    "Acid"
+   ],
+   "answer": 0,
+   "fact": "Honey is hygroscopic and contains very little moisture, preventing bacteria and microorganisms from surviving in it.",
+   "emoji": "🍯",
+   "image_query": "honeycomb",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Honey's low water content, combined with its acidity and hydrogen peroxide, prevents the growth of microorganisms.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which iconic soft drink was originally invented as a medicine for headaches?",
+   "options": [
+    "Coca-Cola",
+    "Pepsi",
+    "Limca"
+   ],
+   "answer": 0,
+   "fact": "John Pemberton created Coca-Cola in 1886 as a health tonic and headache cure using coca leaves and kola nuts.",
+   "emoji": "🥤",
+   "image_query": "old pharmacy",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Coca-Cola was created by John Pemberton in 1886 as a nerve tonic and headache remedy.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What do you call the 'strings' you peel off a banana before eating it?",
+   "options": [
+    "Phloem bundles",
+    "Xylem fibers",
+    "Fruit veins"
+   ],
+   "answer": 0,
+   "fact": "Those edible strings are called phloem bundles, which distribute nutrients throughout the fruit.",
+   "emoji": "🍌",
+   "image_query": "peeled banana",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "These strings are botanically identified as phloem bundles, which are responsible for transporting nutrients throughout the fruit.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which type of tea is the most consumed beverage in the world after water?",
+   "options": [
+    "Black tea",
+    "Green tea",
+    "Oolong tea"
+   ],
+   "answer": 0,
+   "fact": "Black tea accounts for over 75 percent of global tea consumption, making it the most popular drink after water.",
+   "emoji": "☕",
+   "image_query": "tea garden",
+   "concept": "food",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Black tea accounts for the vast majority of global tea consumption, particularly in Western markets and major tea-consuming nations like India and Turkey.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which is the only planet in our solar system that rotates clockwise?",
+   "options": [
+    "Venus",
+    "Mars",
+    "Neptune"
+   ],
+   "answer": 0,
+   "fact": "Venus rotates in the opposite direction to most other planets, likely due to a massive collision early in its history.",
+   "emoji": "🪐",
+   "image_query": "outer space",
+   "concept": "world",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Venus and Uranus both exhibit retrograde rotation, but Venus is the only one of the options provided that rotates clockwise.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In the Mahabharata, who was the teacher of the Pandavas and Kauravas?",
+   "options": [
+    "Dronacharya",
+    "Bheeshma",
+    "Parashurama"
+   ],
+   "answer": 0,
+   "fact": "Dronacharya served as the royal guru to the princes of the Kuru kingdom in the epic Mahabharata.",
+   "emoji": "🏹",
+   "image_query": "ancient indian sculpture",
+   "concept": "world",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Dronacharya was the royal preceptor appointed to teach the Kuru princes archery and warfare.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which element makes up the majority of the Sun's mass?",
+   "options": [
+    "Hydrogen",
+    "Helium",
+    "Oxygen"
+   ],
+   "answer": 0,
+   "fact": "Hydrogen accounts for about 73% of the Sun's mass, fueling the nuclear fusion that powers the star.",
+   "emoji": "☀️",
+   "image_query": "bright sun rays",
+   "concept": "world",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Hydrogen accounts for approximately 73-75% of the Sun's mass.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the hardest natural substance on Earth?",
+   "options": [
+    "Diamond",
+    "Granite",
+    "Quartz"
+   ],
+   "answer": 0,
+   "fact": "Diamond is composed of carbon atoms arranged in a crystal lattice, making it the hardest known natural mineral.",
+   "emoji": "💎",
+   "image_query": "geology rocks",
+   "concept": "world",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Diamond is the hardest known natural mineral on the Mohs scale.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which country gifted the Statue of Liberty to the USA?",
+   "options": [
+    "France",
+    "United Kingdom",
+    "Germany"
+   ],
+   "answer": 0,
+   "fact": "France gifted the Statue of Liberty to the United States in 1886 to commemorate the centennial of the Declaration of Independence.",
+   "emoji": "🗽",
+   "image_query": "harbor skyline",
+   "concept": "world",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Statue of Liberty was a gift from the people of France to the United States.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these animals is actually a mammal and gives birth to live babies?",
+   "options": [
+    "Platypus",
+    "Blue Whale",
+    "Shark"
+   ],
+   "answer": 1,
+   "fact": "Unlike fish or egg-laying monotremes, blue whales are mammals that nurse their young with milk.",
+   "emoji": "🐋",
+   "image_query": "deep blue ocean",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Platypuses are mammals but lay eggs, and sharks are fish. Blue whales are placental mammals that give birth to live young.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "How many chambers are in a cow's stomach?",
+   "options": [
+    "One",
+    "Two",
+    "Four"
+   ],
+   "answer": 2,
+   "fact": "Cows are ruminants and possess a complex digestive system consisting of four distinct compartments.",
+   "emoji": "🐄",
+   "image_query": "green farm field",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Cows are ruminants and possess a complex stomach consisting of four compartments: the rumen, reticulum, omasum, and abomasum.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which land animal holds the record for the loudest roar that can be heard up to 8 kilometers away?",
+   "options": [
+    "Tiger",
+    "Lion",
+    "Elephant"
+   ],
+   "answer": 1,
+   "fact": "A lion's roar is exceptionally powerful due to the shape of its vocal folds, allowing it to travel long distances.",
+   "emoji": "🦁",
+   "image_query": "african savanna sunrise",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The lion's roar is widely documented as the loudest among land animals, capable of being heard up to 8 kilometers (5 miles) away.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these animals can regenerate its limbs if they are cut off?",
+   "options": [
+    "Starfish",
+    "Snake",
+    "Rabbit"
+   ],
+   "answer": 0,
+   "fact": "Starfish possess remarkable regenerative capabilities, allowing them to regrow entire arms or even their body.",
+   "emoji": "⭐",
+   "image_query": "ocean tide pool",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Starfish (echinoderms) are well-known for their ability to regenerate lost limbs, whereas rabbits and snakes cannot.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which bird is the only one capable of flying backwards?",
+   "options": [
+    "Hummingbird",
+    "Kingfisher",
+    "Sparrow"
+   ],
+   "answer": 0,
+   "fact": "The unique wing structure of a hummingbird allows it to rotate its wings to hover and fly in any direction.",
+   "emoji": "🐦",
+   "image_query": "flower garden blooming",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Hummingbirds are the only birds with the specialized wing anatomy required for sustained backward flight.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What do sharks lack in their bodies entirely?",
+   "options": [
+    "Teeth",
+    "Bones",
+    "Gills"
+   ],
+   "answer": 1,
+   "fact": "Sharks have skeletons made entirely of cartilage, which is lighter and more flexible than bone.",
+   "emoji": "🦈",
+   "image_query": "ocean waves surface",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sharks are cartilaginous fish, meaning their skeletons are made of cartilage rather than bone.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which animal has fingerprints so similar to humans that they have been mistaken at crime scenes?",
+   "options": [
+    "Chimpanzee",
+    "Koala",
+    "Gorilla"
+   ],
+   "answer": 1,
+   "fact": "Koalas have unique ridges on their fingers that are indistinguishable from human prints even under a microscope.",
+   "emoji": "🐨",
+   "image_query": "eucalyptus forest trees",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Koala fingerprints are famously indistinguishable from human fingerprints even under electron microscopy, which has caused confusion in forensic investigations.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which animal's tongue weighs as much as an entire elephant?",
+   "options": [
+    "Blue Whale",
+    "Giraffe",
+    "Hippopotamus"
+   ],
+   "answer": 0,
+   "fact": "The tongue of an adult blue whale is massive, often weighing up to 2.7 metric tons.",
+   "emoji": "👅",
+   "image_query": "open sea water",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The blue whale's tongue is famously cited as weighing approximately 2.7 metric tons, which is comparable to the weight of an adult African bush elephant.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these insects is the only one known to be able to turn its head 180 degrees?",
+   "options": [
+    "Ant",
+    "Praying Mantis",
+    "Butterfly"
+   ],
+   "answer": 1,
+   "fact": "The praying mantis has a flexible joint between its head and thorax, allowing it to scan its surroundings.",
+   "emoji": "🦗",
+   "image_query": "macro garden plant",
+   "concept": "animals",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The praying mantis is the only insect with a flexible neck joint that allows it to rotate its head 180 degrees.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Hindu deity is the only one said to have a 'vahana' (vehicle) that is a mouse?",
+   "options": [
+    "Lord Ganesha",
+    "Lord Kartikeya",
+    "Lord Shiva"
+   ],
+   "answer": 0,
+   "fact": "Lord Ganesha is famously depicted riding a mouse, representing the ability to overcome obstacles of any size.",
+   "emoji": "🐭",
+   "image_query": "indian temple architecture",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Lord Ganesha is universally recognized in Hindu iconography as having the mouse (Mushika) as his vahana.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian film became the first to cross the 1000 crore mark globally at the box office?",
+   "options": [
+    "Baahubali 2: The Conclusion",
+    "Dangal",
+    "RRR"
+   ],
+   "answer": 0,
+   "fact": "Released in 2017, Baahubali 2 was the first Indian film to reach the 1000 crore milestone worldwide.",
+   "emoji": "⚔️",
+   "image_query": "golden trophy cinema",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Baahubali 2: The Conclusion was the first Indian film to reach the 1000 crore milestone globally.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which legendary Indian cricketer was the first to score a double century in an ODI match?",
+   "options": [
+    "Sachin Tendulkar",
+    "Virender Sehwag",
+    "Rohit Sharma"
+   ],
+   "answer": 0,
+   "fact": "Sachin Tendulkar made history in 2010 by becoming the first male player to score 200 runs in a single ODI innings.",
+   "emoji": "🏏",
+   "image_query": "cricket pitch stumps",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sachin Tendulkar was the first male cricketer to score a double century in an ODI match, achieving the feat against South Africa in 2010.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In which Indian city is the world's tallest statue, the Statue of Unity, located?",
+   "options": [
+    "Ahmedabad",
+    "Surat",
+    "Kevadia"
+   ],
+   "answer": 2,
+   "fact": "The Statue of Unity, dedicated to Sardar Vallabhbhai Patel, is situated in Kevadia, Gujarat.",
+   "emoji": "🗿",
+   "image_query": "large bronze statue",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Statue of Unity is located in Kevadia (now officially renamed Ekta Nagar), Gujarat.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which mythical bird is the mount (vahana) of Lord Vishnu?",
+   "options": [
+    "Garuda",
+    "Hamsa",
+    "Jatayu"
+   ],
+   "answer": 0,
+   "fact": "Garuda is the divine eagle-like creature that serves as the constant companion and vehicle for Lord Vishnu.",
+   "emoji": "🦅",
+   "image_query": "ancient indian sculpture",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Garuda is the well-established vahana of Lord Vishnu in Hindu mythology.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian state is famous for the 'Sun Temple' of Konark?",
+   "options": [
+    "Odisha",
+    "Tamil Nadu",
+    "Kerala"
+   ],
+   "answer": 0,
+   "fact": "The Konark Sun Temple, a UNESCO World Heritage site shaped like a giant chariot, is located in Odisha.",
+   "emoji": "☀️",
+   "image_query": "ancient stone carving",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Sun Temple of Konark is a UNESCO World Heritage site located in the state of Odisha.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "How many players are on the field for one team during a standard cricket match?",
+   "options": [
+    "9",
+    "11",
+    "12"
+   ],
+   "answer": 1,
+   "fact": "Cricket rules mandate that each team must have exactly 11 players on the field at any given time.",
+   "emoji": "🏏",
+   "image_query": "cricket ball grass",
+   "concept": "mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "A standard cricket team consists of 11 players on the field.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which planet in our solar system has the shortest day?",
+   "options": [
+    "Jupiter",
+    "Mars",
+    "Earth"
+   ],
+   "answer": 0,
+   "fact": "Jupiter rotates so quickly that one full day on the planet lasts less than 10 hours.",
+   "emoji": "🪐",
+   "image_query": "deep space galaxy",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Jupiter has the fastest rotation period of all planets in the solar system, approximately 9.9 hours.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these is the only planet that rotates on its side?",
+   "options": [
+    "Uranus",
+    "Neptune",
+    "Saturn"
+   ],
+   "answer": 0,
+   "fact": "Uranus has an extreme axial tilt of 98 degrees, making it appear to roll around the sun on its side.",
+   "emoji": "🔵",
+   "image_query": "astronomy star field",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Uranus has an axial tilt of approximately 98 degrees, causing it to rotate on its side relative to its orbital plane.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the primary gas that makes up the atmosphere of Mars?",
+   "options": [
+    "Oxygen",
+    "Carbon Dioxide",
+    "Nitrogen"
+   ],
+   "answer": 1,
+   "fact": "Mars' atmosphere is over 95 percent carbon dioxide, which is why it cannot support human life without protection.",
+   "emoji": "🔴",
+   "image_query": "rocky desert landscape",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Mars' atmosphere is approximately 95% carbon dioxide.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+   "options": [
+    "Venus",
+    "Mercury",
+    "Mars"
+   ],
+   "answer": 0,
+   "fact": "Venus is so bright that it is often the first 'star' seen after sunset or the last to fade at sunrise.",
+   "emoji": "✨",
+   "image_query": "twilight horizon sky",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Venus is historically and astronomically referred to as the Morning Star or Evening Star due to its visibility near sunrise or sunset.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "How many moons does the planet Mercury have?",
+   "options": [
+    "Zero",
+    "Two",
+    "Fourteen"
+   ],
+   "answer": 0,
+   "fact": "Mercury and Venus are the only planets in our solar system that do not have any natural moons.",
+   "emoji": "🌑",
+   "image_query": "cratered planetary surface",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Mercury is an inner planet with no natural satellites.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the largest volcano in our solar system?",
+   "options": [
+    "Olympus Mons",
+    "Mauna Kea",
+    "Mount Everest"
+   ],
+   "answer": 0,
+   "fact": "Located on Mars, Olympus Mons is a shield volcano that stands nearly three times the height of Mount Everest.",
+   "emoji": "🌋",
+   "image_query": "ancient mountain range",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Olympus Mons on Mars is widely recognized as the largest volcano in the solar system.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which planet has a storm system called the 'Great Red Spot'?",
+   "options": [
+    "Jupiter",
+    "Saturn",
+    "Neptune"
+   ],
+   "answer": 0,
+   "fact": "The Great Red Spot on Jupiter is a massive, persistent high-pressure storm that is larger than Earth itself.",
+   "emoji": "🌪️",
+   "image_query": "swirling clouds abstract",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Great Red Spot is a persistent high-pressure storm on Jupiter.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the coldest temperature recorded on a natural surface in the solar system?",
+   "options": [
+    "Moon craters",
+    "Mars poles",
+    "Pluto surface"
+   ],
+   "answer": 0,
+   "fact": "Permanently shadowed craters at the Moon's south pole reach temperatures colder than anything on Pluto.",
+   "emoji": "❄️",
+   "image_query": "frozen lunar landscape",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "In 2009, the Lunar Reconnaissance Orbiter measured temperatures as low as 26 K (-247 °C) in permanently shadowed craters at the Moon's south pole, which is colder than the surface temperatures typical",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which gas gives Neptune and Uranus their blue color?",
+   "options": [
+    "Methane",
+    "Helium",
+    "Hydrogen"
+   ],
+   "answer": 0,
+   "fact": "Methane in the upper atmosphere of these planets absorbs red light, which makes them appear blue to our eyes.",
+   "emoji": "🧪",
+   "image_query": "glowing neon gas",
+   "concept": "space",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Methane absorbs red light, which reflects the blue color back to observers.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which of these everyday items was originally invented as wallpaper cleaner?",
+   "options": [
+    "Play-Doh",
+    "Glue stick",
+    "Correction fluid"
+   ],
+   "answer": 0,
+   "fact": "Play-Doh was originally sold in the 1930s as a putty to clean coal soot off wallpaper.",
+   "emoji": "🧸",
+   "image_query": "vintage toy store",
+   "concept": "technology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Play-Doh was originally marketed as a wallpaper cleaner by Kutol Products before being repurposed as a children's toy.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which insect has the ability to recognize individual human faces?",
+   "options": [
+    "Honey bee",
+    "House fly",
+    "Cockroach"
+   ],
+   "answer": 0,
+   "fact": "Honey bees can learn to recognize human faces by identifying patterns and features in a process called configural processing.",
+   "emoji": "🐝",
+   "image_query": "honey bee close-up",
+   "concept": "technology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Research published in 2005 demonstrated that honey bees can learn to recognize human faces using configural processing.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "The world's first SMS (text message) sent in 1992 said what?",
+   "options": [
+    "Hello World",
+    "Merry Christmas",
+    "Call me now"
+   ],
+   "answer": 1,
+   "fact": "The first SMS was sent on December 3, 1992, and simply contained the greeting 'Merry Christmas'.",
+   "emoji": "📱",
+   "image_query": "vintage mobile phone",
+   "concept": "technology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The first SMS was sent by Neil Papworth on December 3, 1992, and contained the text 'Merry Christmas'.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "What is the only fruit that has its seeds on the outside?",
+   "options": [
+    "Strawberry",
+    "Dragon fruit",
+    "Kiwi"
+   ],
+   "answer": 0,
+   "fact": "The strawberry is the only fruit that bears its seeds on its exterior, with about 200 seeds per fruit.",
+   "emoji": "🍓",
+   "image_query": "fresh summer fruit",
+   "concept": "technology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Botanically, strawberries are aggregate accessory fruits with achenes (the 'seeds') on the exterior, whereas kiwis and dragon fruits have seeds internally.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In the game of cricket, what is the maximum number of stumps at the wicket?",
+   "options": [
+    "Two",
+    "Three",
+    "Four"
+   ],
+   "answer": 1,
+   "fact": "According to the Laws of Cricket, a wicket consists of three wooden stumps topped by two bails.",
+   "emoji": "🏏",
+   "image_query": "cricket field pitch",
+   "concept": "technology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The wicket consists of three wooden stumps placed in the ground.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which legendary cricketer was the first player to be dismissed by the 'Third Umpire' via TV replay?",
+   "options": [
+    "Sachin Tendulkar",
+    "Sunil Gavaskar",
+    "Kapil Dev"
+   ],
+   "answer": 0,
+   "fact": "Sachin Tendulkar became the first international cricketer to be given out by a third umpire in 1992.",
+   "emoji": "🏏",
+   "image_query": "cricket stumps",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Sachin Tendulkar was the first batsman to be given out by the third umpire in an international match (Test match vs South Africa in 1992).",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "The iconic song 'Jai Ho' from Slumdog Millionaire won an Oscar, but who originally composed it?",
+   "options": [
+    "A.R. Rahman",
+    "Ilaiyaraaja",
+    "Vishal-Shekhar"
+   ],
+   "answer": 0,
+   "fact": "A.R. Rahman won the Academy Award for Best Original Score and Best Original Song for Slumdog Millionaire in 2009.",
+   "emoji": "🎵",
+   "image_query": "music studio",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "A.R. Rahman composed the music for the film Slumdog Millionaire, including the song 'Jai Ho'.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which planet in our solar system has the longest day, taking longer to rotate than to orbit the Sun?",
+   "options": [
+    "Venus",
+    "Mars",
+    "Mercury"
+   ],
+   "answer": 0,
+   "fact": "Venus rotates so slowly that one full rotation on its axis takes about 243 Earth days, while its orbit takes 225 days.",
+   "emoji": "🪐",
+   "image_query": "deep space",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Venus has a rotation period of approximately 243 Earth days, while its orbital period is approximately 225 Earth days.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In Mahabharata, which Pandava brother was known as the master of mace fighting?",
+   "options": [
+    "Bhima",
+    "Arjuna",
+    "Yudhisthira"
+   ],
+   "answer": 0,
+   "fact": "Bhima is celebrated in Hindu mythology for his immense strength and his unparalleled skill with the Gada (mace).",
+   "emoji": "⚔️",
+   "image_query": "ancient india",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Bhima is universally recognized in the Mahabharata as the most skilled practitioner of Gada-yuddha (mace fighting).",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which Indian city is known as the 'Manchester of South India' due to its massive textile industry?",
+   "options": [
+    "Coimbatore",
+    "Madurai",
+    "Mysore"
+   ],
+   "answer": 0,
+   "fact": "Coimbatore is widely recognized as the Manchester of South India because of its numerous textile mills and historical industrial growth.",
+   "emoji": "🏭",
+   "image_query": "textile factory",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Coimbatore is widely recognized as the Manchester of South India due to its significant textile industry.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which animal has three hearts and blue-colored blood?",
+   "options": [
+    "Octopus",
+    "Squid",
+    "Crab"
+   ],
+   "answer": 0,
+   "fact": "An octopus has three hearts: two pump blood to the gills, and one pumps it to the rest of the body; the blood is blue due to copper-based hemocyanin.",
+   "emoji": "🐙",
+   "image_query": "underwater ocean",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Octopuses are well-known for having three hearts and hemocyanin-based blue blood. While some squids also have three hearts, the octopus is the primary and most commonly cited answer for this specific ",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "The game of 'Snakes and Ladders' originated in which country as 'Moksha Patam'?",
+   "options": [
+    "India",
+    "Egypt",
+    "China"
+   ],
+   "answer": 0,
+   "fact": "Snakes and Ladders originated in ancient India as a game of morality called Moksha Patam, representing the journey of life.",
+   "emoji": "🎲",
+   "image_query": "board game",
+   "concept": "sports",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Moksha Patam is historically documented as an ancient Indian game.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "In Indian mythology, who is considered the architect of the Gods?",
+   "options": [
+    "Vishwakarma",
+    "Brahma",
+    "Indra"
+   ],
+   "answer": 0,
+   "fact": "Lord Vishwakarma is revered as the divine engineer and the architect of the universe in Hindu scriptures.",
+   "emoji": "🔨",
+   "image_query": "ancient indian temple",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Vishwakarma is universally recognized in Hindu mythology as the divine architect and engineer of the gods.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which sport is played on the largest field in the world by surface area?",
+   "options": [
+    "Cricket",
+    "Football",
+    "Golf"
+   ],
+   "answer": 2,
+   "fact": "A standard golf course covers a much larger area, often spanning hundreds of acres, compared to the smaller enclosed fields of cricket or football.",
+   "emoji": "⛳",
+   "image_query": "golf course green",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Golf courses cover significantly more land area than the pitches used for football or cricket.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  },
+  {
+   "q": "Which river in India is known as the 'Dakshin Ganga'?",
+   "options": [
+    "Godavari",
+    "Krishna",
+    "Kaveri"
+   ],
+   "answer": 0,
+   "fact": "The Godavari is known as Dakshin Ganga (Ganges of the South) due to its length and the vast area it covers in peninsular India.",
+   "emoji": "🌊",
+   "image_query": "winding river landscape",
+   "concept": "india_gk",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Godavari is widely referred to as Dakshin Ganga due to its length and sacred status in South India.",
+    "verified_by": "gemini-3.1-flash-lite"
+   },
+   "created": "2026-07-15"
+  }
+ ]
+}

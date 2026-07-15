@@ -1,0 +1,46 @@
+__pycache__/
+client_secret.json
+gemini_api_key.txt
+gemini_api.txt
+auth_channel2.py
+CHANNEL_*_CONFIG.json
+token_*.json
+*.json
+!configs/
+# Analytics data bus: these MUST be tracked so GitHub Actions checkouts see
+# them (pipeline.py reads hook patterns + concept rankings from the repo).
+# The blanket *.json above blocked the analytics workflow from ever
+# committing its reports — root cause found 2026-07-05.
+!analytics_report.json
+!analytics_prev.json
+!intelligence_report.json
+!title_ab.json
+!affiliates.json
+# Playlist-id cache: must be tracked or every CI run starts cold and the
+# get-or-create fallback can mint duplicate playlists (found 2026-07-11).
+!playlist_map.json
+# Ledgers MUST be tracked or every Actions run picks the same daily topic
+# (avoid-last-15 sees an empty history) — found on first Actions run.
+!anim_ledger.json
+!topic_ledger.json
+# Same rule as the ledgers above: these are read by the pipeline in CI, so the
+# blanket *.json must not swallow them. bg_used.json stops the same Pexels photo
+# being reused across videos (repetitious-content risk); question_bank.json is
+# the approved question supply.
+!bg_used.json
+!question_bank.json
+.env
+github_pat.txt
+pexels_api.txt
+
+_preview/
+IMG_*.PNG
+IMG_*.png
+!performance.json
+
+# moviepy scratch files land in the cwd during renders
+tmp*TEMP_MPY*
+*.mp4
+
+# fetched Twemoji artwork for per-question emoji
+assets/emoji/cache/

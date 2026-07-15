@@ -1,0 +1,36 @@
+# YouTube Shorts Automation — requirements.txt
+# All versions pinned to prevent surprise breakage from library updates.
+# To update: test locally first, then bump versions here deliberately.
+# Last verified: April 2026
+
+# Video assembly — pinned to 1.x, v2 has breaking API changes
+moviepy==1.0.3
+
+# Google Gemini for script generation
+google-genai>=1.14.0
+
+# YouTube Data API upload
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+google-api-python-client==2.165.0
+
+# RSS news scraping
+feedparser==6.0.12
+requests==2.33.0
+
+# Text-to-speech voiceover
+edge-tts==7.2.8
+
+# Image processing
+Pillow==12.2.0
+numpy==2.4.4
+
+# Animated charts (Friday pipeline only)
+matplotlib==3.10.8
+opencv-python-headless==4.11.0.86
+
+# Google Trends keyword research (budget/news context, no tokens)
+pytrends>=4.9.2
+
+# Multi-channel YAML config support
+PyYAML>=6.0
