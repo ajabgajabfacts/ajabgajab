@@ -557,10 +557,12 @@ def build_segments(quiz):
     # retention drain (the expansion gate is average view duration), and the
     # comment ask is the one CTA that feeds the first-hour engagement signal.
     # "Follow" lives in the description + pinned comment instead.
+    # A single-fact reel has no score to count — "did you know?" is the CTA
+    # that fits one question (and matches the outro card + spoken outro).
     segs.append(("outro", -1,
-                 "Comment your score!"
-                 if quiz["format"] != "wyr" else
-                 "Comment your picks!"))
+                 "Comment your picks!" if quiz["format"] == "wyr" else
+                 ("Pata tha? Comment mein batao!" if len(quiz["questions"]) == 1 else
+                  "Comment your score!")))
     return segs
 
 
@@ -889,26 +891,38 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
             card(0.045, 0.62, 0.91, 0.16 + 0.062 * hk.count("\n"), CARD, "white", lw=0)
             ax.text(0.5, 0.62, hk, transform=ax.transAxes, color=INK,
                     fontsize=40, ha="center", va="center", fontweight="bold", zorder=5)
-            ax.text(0.5, 0.38, "3 QUESTIONS", transform=ax.transAxes, color="white",
+            _nq = len(quiz["questions"])
+            ax.text(0.5, 0.38, "AAJ KA SAWAAL" if _nq == 1 else f"{_nq} QUESTIONS",
+                    transform=ax.transAxes, color="white",
                     fontsize=44, ha="center", va="center", fontweight="bold", zorder=6,
                     bbox=dict(boxstyle="round,pad=0.40", facecolor=ah, edgecolor="none"))
             return []
         if kind == "outro":
-            # A "would you rather" has no score — the voice says "Comment your
-            # picks!", so the card must not demand a score out of 3.
+            # Copy matches the format: WYR has picks, a multi-question quiz has
+            # a score, and a single-fact reel has neither — it asks "did you
+            # know?", which is the comment bait that actually fits one question.
             _wyr = quiz["format"] == "wyr"
+            _one = len(quiz["questions"]) == 1
+            _big  = "YOUR PICKS?" if _wyr else ("PATA THA?" if _one else "YOUR SCORE?")
+            _sub  = ("Comment them below" if _wyr else
+                     ("Comment mein batao!" if _one else "Comment it below"))
             card(0.045, 0.52, 0.91, 0.20, CARD, "white", lw=0)
-            ax.text(0.5, 0.565, "YOUR PICKS?" if _wyr else "YOUR SCORE?",
+            ax.text(0.5, 0.565, _big,
                     transform=ax.transAxes, color=INK,
                     fontsize=46, ha="center", va="center", fontweight="bold", zorder=5)
-            ax.text(0.5, 0.470, "Comment them below" if _wyr else "Comment it below",
+            ax.text(0.5, 0.470, _sub,
                     transform=ax.transAxes, color=ah,
                     fontsize=26, ha="center", va="center", fontweight="bold", zorder=5)
             return []
 
         q = quiz["questions"][qi]
-        # round chip pinned to the very top
-        ax.text(0.5, 0.965, f"{'ROUND' if quiz['format'] == 'wyr' else 'QUESTION'} {qi + 1} OF 3",
+        # round chip pinned to the very top. A single-fact reel has no rounds —
+        # "QUESTION 1 OF 3" on a 1-question video reads broken — so it gets a
+        # CTA chip instead.
+        _nq = len(quiz["questions"])
+        _chip = ("GUESS KARO!" if _nq == 1 else
+                 f"{'ROUND' if quiz['format'] == 'wyr' else 'QUESTION'} {qi + 1} OF {_nq}")
+        ax.text(0.5, 0.965, _chip,
                 transform=ax.transAxes, color="white", fontsize=20, ha="center",
                 va="center", fontweight="bold", zorder=7,
                 bbox=dict(boxstyle="round,pad=0.45", facecolor=ah, edgecolor="none"))
@@ -1062,6 +1076,7 @@ def _india_quizzes():
             key=f"in_{_c}_{_idx[_c]}", format="trivia", concept=_CMAP.get(_c, "geography"),
             title=_hi.get("title") or f["q"],
             hook=_hi.get("hook") or "Sirf 10 mein se 1 hi ye sahi bata paata hai.",
+            outro=_hi.get("outro") or "Pata tha? Comment mein batao!",  # Roman, for card/caption
             voice=_voice,                         # spoken Devanagari; empty -> render-time fallback
             questions=[dict(q=_hi.get("q") or f["q"], options=f["options"], answer=f["answer"],
                             fact=_hi.get("fact") or f.get("fact", ""), emoji=f.get("emoji", ""),
@@ -1095,12 +1110,14 @@ ANIMATIONS = {
     q["key"]: {
         "topic":       q["title"],
         "title":       q["title"],
-        "description": (f"{q['hook']} Three rounds — count your score and drop it in the "
-                        "comments. A new quiz every day. "
+        "description": (f"{q['hook']} Kya aapko ye pata tha? Comment mein batao! "
+                        "Roz naye ajab gajab facts — India aur duniya ke sabse "
+                        "hairaan karne wale facts, sirf 30 second mein. "
                         "Answers verified before posting; general knowledge for entertainment."),
-        "tags": ["quiz", "trivia", "brain teaser", "riddles", "test your knowledge",
-                 "shorts", "challenge", q["concept"]],
-        "cta":         "Follow for a new quiz every day.",
+        "tags": ["ajab gajab facts", "amazing facts", "facts in hindi", "hinglish facts",
+                 "did you know", "gk facts", "india facts", "interesting facts",
+                 "shorts", q["concept"]],
+        "cta":         "Follow karo — roz naye ajab gajab facts!",
         "narration":   _narration(q),
         "concept":     q["concept"],
     }

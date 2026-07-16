@@ -137,7 +137,7 @@ def _get_or_create_playlist(yt, title: str, map_path) -> str | None:
             body={
                 "snippet": {
                     "title": title,
-                    "description": "A new 3-question quiz every day. Comment your score.",
+                    "description": "Roz naye ajab gajab facts. Pata tha? Comment mein batao!",
                 },
                 "status": {"privacyStatus": "public"},
             },
@@ -181,8 +181,8 @@ def _post_pinned_comment(yt, vid_id: str, meta: dict) -> None:
     import datetime as _dt
     today_str = _dt.date.today().strftime("%d %B %Y").lstrip("0")  # %-d is Linux-only
     text = (
-        f"Answers checked before posting (as at {today_str}). Think one is wrong? "
-        f"Make your case below — best correction gets pinned. Comment your score!"
+        f"Answers check karke post kiye hain (as at {today_str}). Koi galat lage? "
+        f"Neeche batao — best correction pin hogi. Pata tha? Comment karo!"
     )
     try:
         yt.commentThreads().insert(
@@ -217,15 +217,15 @@ def _post_affiliate_comment(yt, vid_id: str, concept: str) -> None:
 
 
 _AU_FINANCE_HASHTAGS = (
-    "#Quiz #Trivia #BrainTeaser #Riddles #Challenge #TestYourKnowledge "
-    "#QuizTime #GeneralKnowledge #Shorts #DidYouKnow #IQTest #GuessThe "
-    "#WouldYouRather #FactsQuiz #BrainGames"
+    "#AjabGajabFacts #AmazingFacts #FactsInHindi #HindiFacts #GKFacts "
+    "#IndiaFacts #DidYouKnow #RochakTathya #Facts #GK #Shorts #YTShortsIndia"
 )
 
 _CORE_TAGS = [
-    "quiz", "trivia", "brain teaser", "riddles", "challenge", "test your knowledge",
-    "general knowledge quiz", "would you rather", "guess the price", "iq test",
-    "shorts", "brain games", "trivia questions",
+    "ajab gajab facts", "amazing facts", "facts in hindi", "hindi facts",
+    "rochak tathya", "gk in hindi", "india facts", "did you know",
+    "interesting facts", "gk quiz hindi", "hinglish facts", "daily facts",
+    "shorts",
 ]
 
 
@@ -238,7 +238,7 @@ def _post_engagement_comment(yt, vid_id: str, title: str) -> None:
     elif "price" in t or "$" in t:
         q = "How far off were your guesses? Closest comment wins bragging rights."
     else:
-        q = "Score check: 0, 1, 2 or 3? Comment it — no shame in 0."
+        q = "Ye fact aapko pehle se pata tha? YES ya NO — comment karo!"
     try:
         yt.commentThreads().insert(
             part="snippet",
@@ -797,7 +797,7 @@ def frame_end_card_anim(accent: tuple) -> np.ndarray:
     draw.rectangle([(0, H - 12), (W, H)], fill=(*accent,))
 
     font  = load_font(72)
-    title = "Quizora"
+    title = "Ajab Gajab Facts"
     lines = wrap_text(title, font, W - 120)
     lh    = 90
     total = len(lines) * lh
@@ -810,7 +810,7 @@ def frame_end_card_anim(accent: tuple) -> np.ndarray:
         y += lh
 
     tag_font = load_font(38, bold=False)
-    tagline  = "3 Questions. 30 Seconds. Daily."
+    tagline  = "Roz Naye Ajab Gajab Facts."
     tag_bb   = draw.textbbox((0, 0), tagline, font=tag_font)
     tag_x    = (W - (tag_bb[2] - tag_bb[0])) // 2
     tag_y    = H // 2 + total // 2 + 20
@@ -829,7 +829,15 @@ def build_video(
     marks: list = None,
     bg_image: str = None,
     quiz_format: str = "trivia",
+    captions: list = None,
+    cta_text: str = None,
 ) -> None:
+    """captions: optional [(text, start, end)] — DISPLAY text per narration
+    segment, timed by the real TTS segment boundaries. Used when the SPOKEN
+    text must not be drawn: the Hinglish channel speaks Devanagari, which PIL
+    cannot shape (no Indic shaping -> tofu/broken matras even with a font
+    installed), so the burned-in captions show the Roman-Hinglish card text
+    instead. When absent, captions fall back to the spoken marks/narration."""
     audio          = AudioFileClip(audio_path)
     duration       = audio.duration
     chart_clip_raw = VideoFileClip(chart_path).without_audio()
@@ -937,10 +945,34 @@ def build_video(
     # Captions stop at the disclaimer bar to avoid stacking in the bottom band.
     try:
         _n = 0
-        if marks:
+        if captions:
+            # Pre-timed Roman display text (one entry per narration segment).
+            # Chunk each segment's text into 7-word pieces spread across its
+            # real window, so pacing still tracks the voice.
+            for _txt, _cs, _ce in captions:
+                _cs, _ce = float(_cs), min(float(_ce), disclaimer_start)
+                _wds = str(_txt).split()
+                if not _wds or _ce - _cs <= 0.15:
+                    continue
+                for _i in range(0, len(_wds), 7):
+                    _chunk = _wds[_i:_i + 7]
+                    _t   = _cs + (_ce - _cs) * (_i / len(_wds))
+                    _end = _cs + (_ce - _cs) * (min(_i + 7, len(_wds)) / len(_wds))
+                    if _end - _t > 0.15:
+                        layers.append(il(frame_caption_anim(" ".join(_chunk), accent),
+                                         _t, _end - _t))
+                        _n += 1
+            print(f"[Captions] {_n} chunks burned in (Roman display text, segment-timed)")
+        elif marks:
+            _deva_skipped = 0
             for _off, _sdur, _txt in marks:
                 if _off >= disclaimer_start:
                     break
+                # PIL cannot shape Devanagari — a chunk we can't draw is better
+                # skipped than burned in as tofu boxes.
+                if any('ऀ' <= _c <= 'ॿ' for _c in _txt):
+                    _deva_skipped += 1
+                    continue
                 _wds = _txt.split()
                 if not _wds:
                     continue
@@ -953,7 +985,8 @@ def build_video(
                         layers.append(il(frame_caption_anim(" ".join(_chunk), accent),
                                          _t, _end - _t))
                         _n += 1
-            print(f"[Captions] {_n} chunks burned in (real TTS sentence timings)")
+            print(f"[Captions] {_n} chunks burned in (real TTS sentence timings)"
+                  + (f"; {_deva_skipped} Devanagari chunks SKIPPED (undrawable)" if _deva_skipped else ""))
         else:
             import re as _re
             _narr  = anim_meta.get("narration", "")
@@ -986,12 +1019,12 @@ def build_video(
         layers.append(il(frame_mini_label(anim_meta["title"], accent), 0.0, cta_start))
 
     # Comment prompt, not a follow beg: engagement in the first hour is the
-    # heaviest expansion signal, and the score question is the natural quiz
-    # comment hook. The meta "cta" stays in descriptions/narration.
-    # A would-you-rather has no score to report — asking for one out of 3 while
-    # the narrator asks for picks makes the video contradict itself.
-    cta_text = ("Comment your picks: 1 or 2?" if quiz_format == "wyr"
-                else "Comment your score: 0, 1, 2 or 3?")
+    # heaviest expansion signal. cta_text is passed in by the orchestration
+    # (single-fact reels ask a YES/NO "did you know?", which gives the viewer a
+    # one-word comment action); the format defaults below are the fallback.
+    if not cta_text:
+        cta_text = ("Comment your picks: 1 or 2?" if quiz_format == "wyr"
+                    else "Comment your score: 0, 1, 2 or 3?")
     if cta_start < disclaimer_start:
         layers.append(il(frame_cta_animated(cta_text, accent), cta_start, disclaimer_start - cta_start))
 
@@ -1200,8 +1233,11 @@ def upload_to_youtube(
             "description":          full_description,
             "tags":                 merged_tags,
             "categoryId":           "27",
-            "defaultLanguage":      "en",
-            "defaultAudioLanguage": "en-US",
+            # Audience signal: titles/descriptions are Roman-Hinglish (hi-Latn),
+            # the narration is Hindi. "en"/"en-US" told YouTube this was US-English
+            # content — the exact wrong audience for this channel.
+            "defaultLanguage":      "hi-Latn",
+            "defaultAudioLanguage": "hi",
         },
         "status": {
             "privacyStatus":           "public",
@@ -1371,6 +1407,28 @@ async def run(channel_config_json: str) -> None:
             print(f"[SFX] skipped: {_se}")
         print(f"[1/5] Voiceover: {audio_duration:.1f}s")
 
+        # Roman caption track. The spoken narration is Devanagari, which the
+        # caption renderer cannot draw (PIL has no Indic shaping -> tofu), so
+        # the burned-in captions display the quiz's ROMAN-Hinglish text, timed
+        # by the same real segment boundaries the reveal/beeps use.
+        _captions = None
+        if _quiz and _segs and seg_starts:
+            _cap_txt = []
+            for (_kind, _qi, _t) in _segs:
+                if _kind == "intro":
+                    _cap_txt.append(_quiz.get("hook", ""))
+                elif _kind == "ask":
+                    _cap_txt.append(_quiz["questions"][_qi].get("q", ""))
+                elif _kind == "reveal":
+                    _qq = _quiz["questions"][_qi]
+                    _cap_txt.append(f"Sahi jawab: {_qq['options'][_qq['answer']]}! "
+                                    f"{_qq.get('fact', '')}")
+                else:  # outro
+                    _cap_txt.append(_quiz.get("outro", "Pata tha? Comment mein batao!"))
+            _ends = list(seg_starts[1:]) + [audio_duration]
+            _captions = [(_cap_txt[i], seg_starts[i], _ends[i])
+                         for i in range(len(_segs)) if _cap_txt[i].strip()]
+
         # 2. Photo background (Pexels). Dormant without a key — falls back to
         # the dark canvas, so this never blocks a post.
         bg_path = None
@@ -1411,9 +1469,12 @@ async def run(channel_config_json: str) -> None:
         fd, video_path = tempfile.mkstemp(suffix=".mp4")
         os.close(fd)
         temp_files.append(video_path)
+        _one_fact = bool(_quiz) and len(_quiz.get("questions") or []) == 1
         build_video(chart_path, audio_path, audio_duration, anim_meta, video_path, accent,
                     marks=marks, bg_image=bg_path,
-                    quiz_format=(_quiz or {}).get("format", "trivia"))
+                    quiz_format=(_quiz or {}).get("format", "trivia"),
+                    captions=_captions,
+                    cta_text="Pata tha? Comment: YES ya NO!" if _one_fact else None)
         print("[4/5] Video: assembled")
 
         # Media QA: silence/duration/audio levels. Warn, never block.
@@ -1456,9 +1517,11 @@ async def run(channel_config_json: str) -> None:
                                  "pre-baked hi.voice (or the Gemini key).")
             _cards = [anim_meta.get("title", "")]
             if _quiz:
-                _cards.append(_quiz.get("hook", ""))
+                _cards += [_quiz.get("hook", ""), _quiz.get("outro", "")]
                 for _q in _quiz.get("questions", []):
                     _cards += [_q.get("q", ""), _q.get("fact", "")] + list(_q.get("options") or [])
+            if _captions:
+                _cards += [t for (t, _s, _e) in _captions]
             _tofu = [s for s in _cards if _has_deva(s)]
             if _tofu:
                 raise SystemExit(f"[Lang] ABORT: card text has Devanagari (tofu in CI): {_tofu[:2]}")

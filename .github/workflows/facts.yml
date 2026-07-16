@@ -1,10 +1,16 @@
 name: "Ajab Gajab Facts — 4 Hinglish Reels Daily"
 
-# Primary trigger: cron-job.org → workflow_dispatch API at 02:00, 07:30, 13:00,
-# 16:00 UTC (India morning / lunch / evening / night — IST +5:30). Backup trigger:
-# GitHub schedule ~90 min after each slot; the SKIP_IF_POSTED_TODAY guard in
-# pipeline_animated.py exits cleanly when the slot already posted, and judges the
-# slot by TRIGGER_CRON (scheduled time), dropping runs delivered past UTC midnight.
+# Posting slots target India's four scroll peaks (IST = UTC+5:30), landing
+# ~30-60 min BEFORE each peak so the first-hour engagement window sits inside it:
+#   07:00 IST (01:30 UTC) — early-morning commute scroll (7:30-9:00)
+#   12:30 IST (07:00 UTC) — lunch break (13:00-14:00)
+#   17:30 IST (12:00 UTC) — evening commute (18:00-19:30)
+#   21:00 IST (15:30 UTC) — post-dinner scroll (21:00-23:00, the biggest peak)
+# Primary trigger: cron-job.org → workflow_dispatch API at those IST times.
+# Backup trigger: the GitHub schedule below, ~90 min after each slot; the
+# SKIP_IF_POSTED_TODAY guard in pipeline_animated.py exits cleanly when the slot
+# already posted, and judges the slot by TRIGGER_CRON (scheduled time), dropping
+# runs delivered past UTC midnight.
 on:
   workflow_dispatch:
     inputs:
@@ -17,10 +23,10 @@ on:
         type: string
         default: ""
   schedule:
-    - cron: "30 3 * * *"
-    - cron: "0 9 * * *"
-    - cron: "30 14 * * *"
-    - cron: "30 17 * * *"
+    - cron: "0 3 * * *"     # backup for the 01:30 UTC / 07:00 IST slot
+    - cron: "30 8 * * *"    # backup for the 07:00 UTC / 12:30 IST slot
+    - cron: "30 13 * * *"   # backup for the 12:00 UTC / 17:30 IST slot
+    - cron: "0 17 * * *"    # backup for the 15:30 UTC / 21:00 IST slot
 
 permissions:
   contents: write
