@@ -1032,7 +1032,10 @@ def build_video(
     if cta_start < _cta_stop:
         layers.append(il(frame_cta_animated(cta_text, accent), cta_start, _cta_stop - cta_start))
 
-    layers.append(il(frame_disclaimer_bar(DISCLAIMER), disclaimer_start, 2.2))
+    # No disclaimer bar: a 2.2s static English strip over the final seconds is
+    # retention poison on Shorts (the loop lands there on every rewatch) and the
+    # disclaimer already lives in the description. disclaimer_start still caps
+    # the captions/CTA above, so the video ends clean on the outro card.
 
     # No fullscreen end card: it blanked the reveal for the last 1.5s, broke
     # the loop-back-to-start illusion, and told viewers "it's over — swipe".
@@ -1506,8 +1509,12 @@ async def run(channel_config_json: str) -> None:
         for _pos   in _qr.positives: print(f"[QA] PASS {_pos}")
         # The video is already fully rendered here — discarding it over a script
         # score wastes the render AND the posting day. Warn-and-post above a
-        # hard floor; only true garbage (< 5.5) aborts.
-        if _qr.total < 5.5:
+        # hard floor. The floor is 4.0 (not quizora's 5.5): the scorer's hook/
+        # title heuristics are keyed to ENGLISH patterns and have not been
+        # validated on Hinglish text — an abort on an unvalidated scorer is a
+        # silently lost posting slot. Revisit once ~20 Hinglish reels have
+        # scored (first 5 ran 7.8-8.25, so the floor should rarely matter).
+        if _qr.total < 4.0:
             raise SystemExit(f"[QA] Score {_qr.total:.1f} below hard floor (5.5) — aborting. Weakest: {_qr.weakest_dimension}")
         if _qr.total < 6.5:
             print(f"[QA] WARN: {_qr.total:.1f} below gate (6.5) — posting anyway (render is sunk, missed day costs more). Weakest: {_qr.weakest_dimension}")

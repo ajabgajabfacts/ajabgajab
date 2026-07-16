@@ -311,7 +311,11 @@ def fetch(question: str, options: list, concept: str, out_path: str,
 
         recent = set(_used())
         fresh  = [p for p in photos if p["id"] not in recent] or photos
-        pick   = random.choice(fresh[:8])
+        # The people filter reads alt text — a photo with NO alt is unverifiable
+        # (a batting kid slipped through on an empty alt). Prefer described
+        # photos; fall back to undescribed only when nothing else survived.
+        described = [p for p in fresh if (p.get("alt") or "").strip()]
+        pick   = random.choice((described or fresh)[:8])
 
         # Take the ORIGINAL, not "portrait". Pexels' portrait size is 800x1200 —
         # filling a 1080x1920 frame from that is a 1.6x upscale, and Ken Burns

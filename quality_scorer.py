@@ -265,12 +265,15 @@ def score_media_artifacts(json_path: Path) -> dict:
             with VideoFileClip(str(mp4)) as clip:
                 dur = clip.duration
                 result["duration_s"] = round(dur, 1)
-                if 32 <= dur <= 45:
+                # 1-fact Hinglish reels run ~25-40s by design (the 32-45s band was
+                # tuned for 3-question quizzes and warned on EVERY reel — a check
+                # that always fires trains you to ignore the QA output).
+                if 22 <= dur <= 42:
                     result["duration_ok"] = True
                     result["duration_note"] = f"{dur:.1f}s — sweet spot"
-                elif dur < 32:
+                elif dur < 22:
                     result["duration_ok"] = False
-                    result["duration_note"] = f"{dur:.1f}s — too short (Shorts sweet spot 32-45s)"
+                    result["duration_note"] = f"{dur:.1f}s — too short (1-fact reel target 22-42s)"
                 else:
                     result["duration_ok"] = False
                     result["duration_note"] = f"{dur:.1f}s — too long (may not loop well)"

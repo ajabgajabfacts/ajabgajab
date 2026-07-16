@@ -648,29 +648,99 @@ def segment_starts(segs, duration, marks=None):
     if not marks:
         return word_share(), False
 
-    # cumulative word index at which each segment begins
+    # ── Hybrid anchoring (2026-07-16). The old matcher was all-or-nothing: every
+    # boundary had to land within ±2 cumulative words or the WHOLE video fell
+    # back to word share. Number-heavy text ("It's 9!", "120 yards — 100 plus
+    # two 10-yard end zones") drifts the cumulative count once and poisons every
+    # later boundary — us_sports_1 shipped with 10 good marks discarded. Now:
+    #   1. TEXT match first: each segment starts on a sentence boundary, so its
+    #      first sentence should BE some mark's text (normalised fuzzy match,
+    #      in order — one weird sentence can't poison the rest).
+    #   2. word-count match (±2) for what text missed.
+    #   3. Anchors must sit near the word-share prior (false-anchor guard: a
+    #      wrong-but-monotonic anchor pins a beep onto the wrong sentence,
+    #      which is worse than mushy drift).
+    #   4. Unanchored boundaries interpolate by word share BETWEEN anchors.
+    # Known limit: an interpolated boundary inside a span that contains a
+    # countdown gap can smear that gap across the span; text matching makes
+    # unanchored reveals rare in practice.
+    import re as _re, difflib as _dl
+    prior = word_share()
+    band  = max(2.5, 0.08 * duration)          # legit drift grows with length
+
+    def _norm(s):
+        return " ".join(_re.sub(r"[^a-z0-9ऀ-ॿ ]+", " ", s.lower()).split())
+
+    seg_first = []
+    for _k, _q, t in segs:
+        first = _re.split(r"(?<=[.!?])\s+", t.strip())[0]
+        seg_first.append(_norm(first))
+
+    anchors = {0: 0.0}                          # segment 0 starts at 0 by definition
+    mj = 0                                      # marks consumed so far (order constraint)
+    for i in range(1, len(segs)):
+        best = None
+        for j in range(mj, len(marks)):
+            off, _sd, txt = marks[j]
+            if abs(off - prior[i]) > band:
+                continue
+            r = _dl.SequenceMatcher(None, seg_first[i], _norm(txt)).ratio()
+            if r >= 0.80 and (best is None or r > best[1]):
+                best = (j, r)
+        if best:
+            anchors[i] = marks[best[0]][0]
+            mj = best[0] + 1
+
+    # word-count pass for boundaries text couldn't anchor
     starts_at, acc = [], 0
     for w in words:
         starts_at.append(acc)
         acc += w
-
-    real, cum = {}, 0
+    cum = 0
     for off, _sd, txt in marks:
         for i, sw in enumerate(starts_at):
-            if i not in real and abs(sw - cum) <= 2:   # tolerate minor tokenisation drift
-                real[i] = off
+            if i not in anchors and abs(sw - cum) <= 2 and abs(off - prior[i]) <= band:
+                anchors[i] = off
         cum += len(txt.split())
 
-    got = [real.get(i) for i in range(len(segs))]
-    # any gap, any backwards step, or an overrun means the alignment is not
-    # trustworthy — fall back rather than ship worse sync than we started with
-    if any(g is None for g in got):
+    # monotonicity repair: drop whichever offender sits further from the prior
+    idxs = sorted(anchors)
+    changed = True
+    while changed:
+        changed = False
+        idxs = sorted(anchors)
+        for a, b in zip(idxs, idxs[1:]):
+            if anchors[a] >= anchors[b] and b != 0:
+                worse = a if abs(anchors[a] - prior[a]) >= abs(anchors[b] - prior[b]) else b
+                if worse != 0:
+                    del anchors[worse]
+                    changed = True
+                    break
+
+    # interpolate the gaps by word share between surrounding anchors
+    starts = [None] * len(segs)
+    for i in sorted(anchors):
+        starts[i] = anchors[i]
+    idxs = sorted(anchors)
+    for i in range(len(segs)):
+        if starts[i] is not None:
+            continue
+        lo = max((j for j in idxs if j < i), default=0)
+        hi = min((j for j in idxs if j > i), default=None)
+        t0 = starts[lo] if starts[lo] is not None else 0.0
+        t1 = starts[hi] if hi is not None else duration
+        w0 = starts_at[lo]
+        w1 = starts_at[hi] if hi is not None else total
+        frac = (starts_at[i] - w0) / max(w1 - w0, 1)
+        starts[i] = min(max(t0 + (t1 - t0) * frac, t0), t1)
+
+    n_anchored = len(anchors)
+    if n_anchored < len(segs):
+        print(f"[Sync] {n_anchored}/{len(segs)} boundaries anchored to TTS marks; "
+              f"rest interpolated (was: total word-share fallback)")
+    if starts[-1] > duration:
         return word_share(), False
-    if any(got[i] > got[i + 1] for i in range(len(got) - 1)):
-        return word_share(), False
-    if got[-1] > duration:
-        return word_share(), False
-    return got, True
+    return starts, n_anchored >= max(2, len(segs) // 2)
 
 
 # ── Silent beep countdown ────────────────────────────────────────────────────
