@@ -905,7 +905,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
             _one = len(quiz["questions"]) == 1
             _big  = "YOUR PICKS?" if _wyr else ("PATA THA?" if _one else "YOUR SCORE?")
             _sub  = ("Comment them below" if _wyr else
-                     ("Comment mein batao!" if _one else "Comment it below"))
+                     ("Comment: YES ya NO!" if _one else "Comment it below"))
             card(0.045, 0.52, 0.91, 0.20, CARD, "white", lw=0)
             ax.text(0.5, 0.565, _big,
                     transform=ax.transAxes, color=INK,

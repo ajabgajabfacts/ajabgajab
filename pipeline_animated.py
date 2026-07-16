@@ -831,6 +831,7 @@ def build_video(
     quiz_format: str = "trivia",
     captions: list = None,
     cta_text: str = None,
+    cta_end: float = None,
 ) -> None:
     """captions: optional [(text, start, end)] — DISPLAY text per narration
     segment, timed by the real TTS segment boundaries. Used when the SPOKEN
@@ -1025,8 +1026,11 @@ def build_video(
     if not cta_text:
         cta_text = ("Comment your picks: 1 or 2?" if quiz_format == "wyr"
                     else "Comment your score: 0, 1, 2 or 3?")
-    if cta_start < disclaimer_start:
-        layers.append(il(frame_cta_animated(cta_text, accent), cta_start, disclaimer_start - cta_start))
+    # The bar hands off to the outro card (cta_end = outro start): showing the
+    # bar AND the card AND a caption all asking for a comment at once is spam.
+    _cta_stop = min(disclaimer_start, cta_end) if cta_end else disclaimer_start
+    if cta_start < _cta_stop:
+        layers.append(il(frame_cta_animated(cta_text, accent), cta_start, _cta_stop - cta_start))
 
     layers.append(il(frame_disclaimer_bar(DISCLAIMER), disclaimer_start, 2.2))
 
@@ -1412,9 +1416,10 @@ async def run(channel_config_json: str) -> None:
         # the burned-in captions display the quiz's ROMAN-Hinglish text, timed
         # by the same real segment boundaries the reveal/beeps use.
         _captions = None
+        _outro_start = None
         if _quiz and _segs and seg_starts:
             _cap_txt = []
-            for (_kind, _qi, _t) in _segs:
+            for _si, (_kind, _qi, _t) in enumerate(_segs):
                 if _kind == "intro":
                     _cap_txt.append(_quiz.get("hook", ""))
                 elif _kind == "ask":
@@ -1423,8 +1428,12 @@ async def run(channel_config_json: str) -> None:
                     _qq = _quiz["questions"][_qi]
                     _cap_txt.append(f"Sahi jawab: {_qq['options'][_qq['answer']]}! "
                                     f"{_qq.get('fact', '')}")
-                else:  # outro
-                    _cap_txt.append(_quiz.get("outro", "Pata tha? Comment mein batao!"))
+                else:
+                    # NO outro caption: the outro card says the same words, and
+                    # three simultaneous "comment!" prompts (card + CTA bar +
+                    # caption) read as spam. The card alone owns the outro.
+                    _cap_txt.append("")
+                    _outro_start = seg_starts[_si]
             _ends = list(seg_starts[1:]) + [audio_duration]
             _captions = [(_cap_txt[i], seg_starts[i], _ends[i])
                          for i in range(len(_segs)) if _cap_txt[i].strip()]
@@ -1474,7 +1483,8 @@ async def run(channel_config_json: str) -> None:
                     marks=marks, bg_image=bg_path,
                     quiz_format=(_quiz or {}).get("format", "trivia"),
                     captions=_captions,
-                    cta_text="Pata tha? Comment: YES ya NO!" if _one_fact else None)
+                    cta_text="Pata tha? Comment: YES ya NO!" if _one_fact else None,
+                    cta_end=_outro_start)
         print("[4/5] Video: assembled")
 
         # Media QA: silence/duration/audio levels. Warn, never block.
