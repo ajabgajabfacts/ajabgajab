@@ -277,16 +277,21 @@ def _search(query: str, key: str) -> list:
 
 
 def fetch(question: str, options: list, concept: str, out_path: str,
-          fmt: str = "trivia") -> str | None:
+          fmt: str = "trivia", query_override: str = "") -> str | None:
     """Download a relevant portrait photo, cropped to frame and darkened so the
     question card stays readable. Returns the path, or None to use the dark
-    canvas (no key, no result, or every candidate used recently)."""
+    canvas (no key, no result, or every candidate used recently).
+
+    query_override: a curated spoiler-free search term (the bank's image_query).
+    When present it is used verbatim instead of the query_for() heuristic, which
+    mangles fact-style questions ("...Leaning Tower of Pisa?" -> "Leaning Indian").
+    The people filter and recency de-dup still apply."""
     key = _key()
     if not key:
         print("[BG] no PEXELS_API_KEY — keeping the dark canvas")
         return None
 
-    query = query_for(question, options, concept, fmt)
+    query = (query_override or "").strip() or query_for(question, options, concept, fmt)
     try:
         photos = _search(query, key)
         if not photos:                      # nothing for e.g. "Aramaic" — widen

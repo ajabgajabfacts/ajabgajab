@@ -1323,11 +1323,20 @@ async def run(channel_config_json: str) -> None:
             print(f"[Quiz] lookup failed: {_qe}")
         if _quiz:
             _segs = build_segments(_quiz)
-            _loc = localize_segments_hinglish(
-                [("title", -1, anim_meta["title"])] + _segs, gemini_key)
-            anim_meta = dict(anim_meta)          # don't mutate the shared ANIMATIONS entry
-            anim_meta["title"] = _loc[0][2]
-            _segs = _loc[1:]
+            # Narration is PRE-BAKED Devanagari-Hinglish carried on the quiz
+            # (quiz["voice"] = one string per segment, same order as build_segments).
+            # This removes the live-Gemini dependency that silently shipped English
+            # when the deployed key was quota-dead. The on-screen cards stay Roman
+            # (set upstream in _india_quizzes); only the SPOKEN text is Devanagari.
+            _voice = _quiz.get("voice") or []
+            if len(_voice) == len(_segs):
+                _segs = [(k, qi, _voice[i]) for i, (k, qi, _t) in enumerate(_segs)]
+                print(f"[Hinglish] pre-baked Devanagari narration ({len(_segs)} segments)")
+            elif gemini_key:
+                _segs = localize_segments_hinglish(_segs, gemini_key)
+                print("[Hinglish] no pre-baked voice — fell back to live Gemini localisation")
+            else:
+                print("[Hinglish] WARNING: no pre-baked voice and no Gemini key — narration will be ENGLISH")
             narration_txt = " ".join(t for _k, _q, t in _segs)
         else:
             narration_txt = anim_meta["narration"]
@@ -1375,9 +1384,13 @@ async def run(channel_config_json: str) -> None:
             # One photo sits behind all three questions, so every option of every
             # question is a potential spoiler — bar the lot from the search.
             _opts = [o for _q in _qs for o in (_q.get("options") or [])]
+            # Prefer the curated per-fact image_query — the query_for() heuristic
+            # mangles fact questions ("...Leaning Tower of Pisa?" -> "Leaning
+            # Indian" -> a random street photo). image_query is spoiler-free.
             bg_path = fetch_bg(_q0.get("q", anim_meta["title"]), _opts,
                                (_quiz or {}).get("concept", ""), bg_path,
-                               fmt=(_quiz or {}).get("format", "trivia"))
+                               fmt=(_quiz or {}).get("format", "trivia"),
+                               query_override=_q0.get("image_query", ""))
         except Exception as _be:
             print(f"[BG] skipped: {_be}")
             bg_path = None
@@ -1427,6 +1440,29 @@ async def run(channel_config_json: str) -> None:
             raise SystemExit(f"[QA] Score {_qr.total:.1f} below hard floor (5.5) — aborting. Weakest: {_qr.weakest_dimension}")
         if _qr.total < 6.5:
             print(f"[QA] WARN: {_qr.total:.1f} below gate (6.5) — posting anyway (render is sunk, missed day costs more). Weakest: {_qr.weakest_dimension}")
+
+        # ── Language guard (Hinglish channel). A quota-dead Gemini key once
+        # silently shipped an all-ENGLISH reel on a green run; fail LOUD instead.
+        # Rule 1: spoken narration MUST contain Devanagari (catches the English
+        #         fallback exactly). Rule 2: on-screen card text must NOT contain
+        #         Devanagari — the CI runner has no Deva font, so it renders as
+        #         tofu boxes (invisible when eyeballed on Windows, which has one).
+        def _has_deva(s):
+            return any('ऀ' <= c <= 'ॿ' for c in (s or ""))
+        if (anim_key or "").startswith("in_"):
+            if not _has_deva(narration_txt):
+                raise SystemExit("[Lang] ABORT: narration contains NO Devanagari — an "
+                                 "English fallback was about to ship. Check the fact's "
+                                 "pre-baked hi.voice (or the Gemini key).")
+            _cards = [anim_meta.get("title", "")]
+            if _quiz:
+                _cards.append(_quiz.get("hook", ""))
+                for _q in _quiz.get("questions", []):
+                    _cards += [_q.get("q", ""), _q.get("fact", "")] + list(_q.get("options") or [])
+            _tofu = [s for s in _cards if _has_deva(s)]
+            if _tofu:
+                raise SystemExit(f"[Lang] ABORT: card text has Devanagari (tofu in CI): {_tofu[:2]}")
+            print("[Lang] OK — Devanagari narration + Roman/ASCII cards verified")
 
         # 5. Upload
         vid_id = upload_to_youtube(video_path, thumb_path, anim_meta, creds_data, channel_id,

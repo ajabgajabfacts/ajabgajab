@@ -22,7 +22,19 @@
     "note": "The Leaning Tower of Pisa is approximately 56 meters tall. The Taj Mahal is approximately 73 meters tall, while the Gateway of India is 26 meters and the Hawa Mahal is 15 meters.",
     "verified_by": "gemini-flash-lite-latest"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa Indian monument Pisa Tower se bhi ooncha hai?",
+    "q": "Inmein se kaunsa Indian monument Leaning Tower of Pisa se bhi ooncha hai?",
+    "hook": "10 mein se sirf 1 hi ye sahi bata paata hai!",
+    "fact": "Taj Mahal 73 meter ooncha hai - Pisa Tower se kareeb 17 meter zyada!",
+    "voice": [
+     "दस में से सिर्फ़ एक ही ये सही बता पाता है!",
+     "इनमें से कौन सा Indian monument, Leaning Tower of Pisa से भी ऊँचा है? Taj Mahal, Gateway of India, या Hawa Mahal?",
+     "सही जवाब है Taj Mahal! ताज महल तिहत्तर मीटर ऊँचा है, जो Pisa की झुकी हुई मीनार से करीब सत्रह मीटर ज़्यादा है।",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which country is the only one to win the Cricket World Cup in 60-over, 50-over, and 20-over formats?",
@@ -46,7 +58,19 @@
     "note": "India won the 1983 World Cup (60-over), 2011 World Cup (50-over), and 2007 T20 World Cup (20-over).",
     "verified_by": "gemini-flash-lite-latest"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa desh teeno World Cup formats jeeta hai?",
+    "q": "Kaunsa desh 60-over, 50-over aur 20-over teeno Cricket World Cup jeetne wala akela desh hai?",
+    "hook": "Cricket fans bhi yahan galti kar dete hain!",
+    "fact": "India ne 1983 mein 60-over, 2007 mein 20-over aur 2011 mein 50-over World Cup jeeta!",
+    "voice": [
+     "Cricket fans भी यहाँ गलती कर देते हैं!",
+     "कौन सा देश साठ ओवर, पचास ओवर और बीस ओवर, तीनों Cricket World Cup जीतने वाला अकेला देश है? Australia, India, या West Indies?",
+     "सही जवाब है India! India ने उन्नीस सौ तिरासी में साठ ओवर, दो हज़ार सात में बीस ओवर और दो हज़ार ग्यारह में पचास ओवर का World Cup जीता!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Who was the first Indian ever to win an Academy Award (Oscar)?",
@@ -190,7 +214,19 @@
     "note": "Sachin Tendulkar served as a substitute fielder for Pakistan during a practice match against India at the Brabourne Stadium in 1987.",
     "verified_by": "gemini-flash-lite-latest"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Sachin ne 13 saal ki umar mein kis desh ke liye field kiya?",
+    "q": "13 saal ke Sachin Tendulkar ne substitute fielder ke roop mein kis desh ke liye khela tha?",
+    "hook": "Sachin ka ye secret bahut kam log jaante hain!",
+    "fact": "1987 mein Brabourne Stadium ke practice match mein Sachin Pakistan ke liye substitute fielder bane the!",
+    "voice": [
+     "Sachin का ये secret बहुत कम लोग जानते हैं!",
+     "तेरह साल के Sachin Tendulkar ने substitute fielder के रूप में किस देश के लिए खेला था? Pakistan, Australia, या England?",
+     "सही जवाब है Pakistan! उन्नीस सौ सत्तासी में Brabourne Stadium के practice match में Sachin, Pakistan के लिए substitute fielder बने थे!",
+     "कितने सही हुए? comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "How many of his 10 career ODI centuries did MS Dhoni score outside of Asia?",
@@ -214,7 +250,19 @@
     "note": "MS Dhoni scored all 10 of his ODI centuries within Asia (India, Pakistan, Bangladesh, and Sri Lanka).",
     "verified_by": "gemini-flash-lite-latest"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Dhoni ne Asia ke bahar kitne ODI shatak lagaye?",
+    "q": "MS Dhoni ne apni 10 ODI centuries mein se kitni Asia ke bahar lagayi?",
+    "hook": "Ye answer sunke Dhoni fans bhi chaunk jaate hain!",
+    "fact": "Dhoni ki saari 10 ODI centuries Asia mein bani - England ya Australia mein ek bhi nahi!",
+    "voice": [
+     "ये answer सुनके Dhoni fans भी चौंक जाते हैं!",
+     "MS Dhoni ने अपनी दस ODI centuries में से कितनी Asia के बाहर लगायी? Zero, Three, या Five?",
+     "सही जवाब है Zero! Dhoni की सारी दस ODI centuries Asia में बनीं - England, Australia या South Africa में एक भी नहीं!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Who is the only bowler in cricket history to dismiss the legendary Don Bradman hit-wicket?",
@@ -454,7 +502,19 @@
     "note": "The 1932 film Indrasabha holds the Guinness World Record for the most songs in a film, featuring 71 songs.",
     "verified_by": "gemini-flash-lite-latest"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kis Indian film mein hai sabse zyada gaano ka record?",
+    "q": "Kaunsi Indian movie mein ek hi film mein sabse zyada gaano ka world record hai?",
+    "hook": "Is film mein gaane ginte ginte thak jaoge!",
+    "fact": "1932 ki musical film Indrasabha mein record-breaking 71 gaane hain!",
+    "voice": [
+     "इस film में गाने गिनते गिनते थक जाओगे!",
+     "किस Indian movie में एक ही film में सबसे ज़्यादा गानों का world record है? Indrasabha, Mughal-e-Azam, या Hum Aapke Hain Koun?",
+     "सही जवाब है Indrasabha! उन्नीस सौ बत्तीस की musical film Indrasabha में record तोड़ इकहत्तर गाने हैं!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "For the iconic song 'Pyar Kiya To Darna Kya' in Mughal-e-Azam, the mirrors on the set were imported from which country?",
@@ -478,7 +538,19 @@
     "note": "The Sheesh Mahal set for the song was famously constructed using mirrors imported from Belgium.",
     "verified_by": "gemini-flash-lite-latest"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Mughal-e-Azam ke Sheesh Mahal ke sheeshe kahan se aaye?",
+    "q": "'Pyar Kiya To Darna Kya' ke set ke sheeshe kis desh se import hue the?",
+    "hook": "Bollywood ka ye sach shayad hi koi jaanta hai!",
+    "fact": "Sheesh Mahal set hazaron mirrors se bana tha - sab Belgium se import kiye gaye!",
+    "voice": [
+     "Bollywood का ये सच शायद ही कोई जानता है!",
+     "'Pyar Kiya To Darna Kya' के set के शीशे किस देश से import हुए थे? Belgium, Italy, या France?",
+     "सही जवाब है Belgium! Sheesh Mahal set हज़ारों mirrors से बना था, जो सब Belgium से import किए गए थे!",
+     "दोस्तों को challenge करो, video share करो!"
+    ]
+   }
   },
   {
    "q": "Which Bollywood movie has been running continuously in a Mumbai theatre for over 25 years?",
@@ -622,7 +694,19 @@
     "note": "Kapil Dev scored India's first World Cup century in 1983 against Zimbabwe.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "India ke liye pehla World Cup shatak kisne lagaya?",
+    "q": "World Cup mein India ke liye sabse pehla century kisne banaya?",
+    "hook": "Naam sunke aap bhi bologe - sach mein?!",
+    "fact": "1983 World Cup mein Kapil Dev ne Zimbabwe ke khilaf 175 not out banaye - India ka pehla WC shatak!",
+    "voice": [
+     "नाम सुनके आप भी बोलोगे - सच में?!",
+     "World Cup में India के लिए सबसे पहला century किसने बनाया? Sunil Gavaskar, Kapil Dev, या Sachin Tendulkar?",
+     "सही जवाब है Kapil Dev! उन्नीस सौ तिरासी World Cup में Kapil Dev ने Zimbabwe के खिलाफ़ एक सौ पचहत्तर रन नाबाद बनाए - India का पहला World Cup शतक!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which of these common Indian kitchen ingredients is technically a fruit, not a vegetable?",
@@ -646,7 +730,19 @@
     "note": "Ladyfinger (okra) is botanically a fruit because it develops from the ovary of a flowering plant and contains seeds.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kitchen ki kaunsi cheez asal mein fruit hai, sabzi nahi?",
+    "q": "Inmein se kaunsi Indian kitchen ki cheez technically fruit hai, vegetable nahi?",
+    "hook": "Ye jawab aapki mummy ko bhi shock kar dega!",
+    "fact": "Bhindi (ladyfinger) botanically fruit hai - ye phool se banti hai aur isme seeds hote hain!",
+    "voice": [
+     "ये जवाब आपकी mummy को भी shock कर देगा!",
+     "इनमें से कौन सी Indian kitchen की चीज़ technically fruit है, vegetable नहीं? Ladyfinger, Potato, या Ginger?",
+     "सही जवाब है Ladyfinger! भिंडी botanically एक fruit है, क्योंकि ये फूल से बनती है और इसमें seeds होते हैं!",
+     "कितने सही हुए? comment में लिखो!"
+    ]
+   }
   },
   {
    "q": "What is the only continent on Earth that has no active volcanoes?",
@@ -790,7 +886,19 @@
     "note": "The Nehru Zoological Park in Hyderabad is widely recognized for hosting both lion and tiger safari parks.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa Indian sheher Lion aur Tiger dono safari wala hai?",
+    "q": "Duniya ka akela sheher jahan Lion aur Tiger dono ki safari hai - kaunsa Indian city?",
+    "hook": "Duniya mein aisa sheher sirf India mein hai!",
+    "fact": "Hyderabad ke Nehru Zoological Park mein Lion aur Tiger dono safari parks hain - duniya mein aur kahin nahi!",
+    "voice": [
+     "दुनिया में ऐसा शहर सिर्फ़ India में है!",
+     "दुनिया का अकेला शहर जहाँ Lion और Tiger दोनों की safari है - कौन सा Indian city? Bengaluru, Hyderabad, या Mumbai?",
+     "सही जवाब है Hyderabad! Hyderabad के Nehru Zoological Park में Lion और Tiger दोनों safari parks हैं - दुनिया में और कहीं नहीं!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "What was the very first feature-length film produced in India?",
@@ -814,7 +922,19 @@
     "note": "Raja Harishchandra (1913) is widely recognized as the first full-length Indian feature film, directed by Dadasaheb Phalke.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "India ki sabse pehli full-length film kaunsi thi?",
+    "q": "India mein bani sabse pehli feature-length film kaunsi thi?",
+    "hook": "Bollywood ki shuruaat yahin se hui thi!",
+    "fact": "Dadasaheb Phalke ki Raja Harishchandra (1913) India ki pehli full-length silent film hai!",
+    "voice": [
+     "Bollywood की शुरुआत यहीं से हुई थी!",
+     "India में बनी सबसे पहली feature-length film कौन सी थी? Alam Ara, Raja Harishchandra, या Kisan Kanya?",
+     "सही जवाब है Raja Harishchandra! Dadasaheb Phalke की Raja Harishchandra, उन्नीस सौ तेरह में release हुई - India की पहली full-length silent film!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which planet in our solar system has a day that is longer than its entire year?",
@@ -1030,7 +1150,19 @@
     "note": "Mumbai was historically formed by the reclamation of seven islands.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "'City of Seven Islands' kaunsa Indian sheher kehlata hai?",
+    "q": "Kaunsa Indian sheher 'City of Seven Islands' ke naam se mashhoor hai?",
+    "hook": "Ye sheher pehle 7 alag alag islands tha!",
+    "fact": "Mumbai pehle 7 alag islands ka group tha - baad mein zameen jodkar ek sheher banaya gaya!",
+    "voice": [
+     "ये शहर पहले सात अलग अलग islands था!",
+     "कौन सा Indian शहर 'City of Seven Islands' के नाम से मशहूर है? Mumbai, Kochi, या Visakhapatnam?",
+     "सही जवाब है Mumbai! Mumbai पहले सात अलग islands का group था, जिन्हें land reclamation से जोड़कर एक शहर बनाया गया!",
+     "कितने सही हुए? comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which was the first feature-length Indian film to be shot entirely in color?",
@@ -1054,7 +1186,19 @@
     "note": "Kisan Kanya (1937) is widely recognized as the first indigenously produced color feature film in India.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "India ki pehli poori color film kaunsi thi?",
+    "q": "Kaunsi pehli Indian feature film poori tarah color mein shoot hui thi?",
+    "hook": "Jawab Alam Ara nahi hai - dhyan se socho!",
+    "fact": "1937 mein aayi Kisan Kanya India ki pehli poori tarah indigenous color film hai!",
+    "voice": [
+     "जवाब Alam Ara नहीं है - ध्यान से सोचो!",
+     "कौन सी पहली Indian feature film पूरी तरह color में shoot हुई थी? Kisan Kanya, Raja Harishchandra, या Alam Ara?",
+     "सही जवाब है Kisan Kanya! उन्नीस सौ सैंतीस में आई Kisan Kanya, India की पहली पूरी तरह indigenous color film है!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "In Indian mythology, which bird is the vahana (vehicle) of Lord Vishnu?",
@@ -1222,7 +1366,19 @@
     "note": "The fruit known as the kiwi was originally called the Chinese gooseberry before being rebranded for marketing purposes.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa fruit pehle 'Chinese gooseberry' kehlata tha?",
+    "q": "Kaunsa fruit pehle 'Chinese gooseberry' ke naam se jaana jaata tha?",
+    "hook": "Is fruit ka asli naam sunke hairan reh jaoge!",
+    "fact": "Kiwi ka naam 1950s mein badla gaya - export markets mein bechne ke liye!",
+    "voice": [
+     "इस fruit का असली नाम सुनके हैरान रह जाओगे!",
+     "कौन सा fruit पहले 'Chinese gooseberry' के नाम से जाना जाता था? Dragon fruit, Kiwi, या Starfruit?",
+     "सही जवाब है Kiwi! Kiwi का नाम उन्नीस सौ पचास के दशक में बदला गया, ताकि export markets में ये ज़्यादा appealing लगे!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which vegetable was the first to be grown in space by NASA astronauts?",
@@ -1246,7 +1402,19 @@
     "note": "The potato was the first vegetable grown in space, specifically on the Space Shuttle Columbia in 1995.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Space mein sabse pehle kaunsi sabzi ugayi gayi?",
+    "q": "NASA astronauts ne space mein sabse pehle kaunsi vegetable ugayi?",
+    "hook": "Space mein ugne wali pehli sabzi ka naam pata hai?",
+    "fact": "1995 mein Space Shuttle Columbia par potato space mein ugayi gayi pehli vegetable bani!",
+    "voice": [
+     "Space में उगने वाली पहली सब्ज़ी का नाम पता है?",
+     "NASA astronauts ने space में सबसे पहले कौन सी vegetable उगायी? Potato, Tomato, या Lettuce?",
+     "सही जवाब है Potato! उन्नीस सौ पचानवे में Space Shuttle Columbia पर आलू space में उगायी गई पहली vegetable बनी!",
+     "कितने सही हुए? comment में लिखो!"
+    ]
+   }
   },
   {
    "q": "What is the primary ingredient that gives yellow mustard its bright color?",
@@ -1414,7 +1582,19 @@
     "note": "Venus and Uranus both exhibit retrograde rotation, but Venus is the only one of the options provided that rotates clockwise.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa planet ulta ghoomta hai - clockwise?",
+    "q": "Solar system ka akela planet jo clockwise ghoomta hai - kaunsa?",
+    "hook": "Ek planet baaki sab se ulta ghoomta hai!",
+    "fact": "Venus baaki planets se ulti direction mein ghoomta hai - shayad ek bade collision ki wajah se!",
+    "voice": [
+     "एक planet बाकी सब से उल्टा घूमता है!",
+     "Solar system का अकेला planet जो clockwise घूमता है - कौन सा? Venus, Mars, या Neptune?",
+     "सही जवाब है Venus! Venus बाकी planets से उल्टी direction में घूमता है - शायद शुरुआत में हुए एक बड़े collision की वजह से!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "In the Mahabharata, who was the teacher of the Pandavas and Kauravas?",
@@ -1438,7 +1618,19 @@
     "note": "Dronacharya was the royal preceptor appointed to teach the Kuru princes archery and warfare.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Pandavas aur Kauravas ke guru kaun the?",
+    "q": "Mahabharata mein Pandavas aur Kauravas ke guru kaun the?",
+    "hook": "Mahabharata ka ye sawal 90% log galat karte hain!",
+    "fact": "Dronacharya Kuru rajya ke rajkumaron ke royal guru the - Mahabharata ke mahaan teacher!",
+    "voice": [
+     "Mahabharata का ये सवाल नब्बे प्रतिशत लोग गलत करते हैं!",
+     "Mahabharata में Pandavas और Kauravas के गुरु कौन थे? Dronacharya, Bheeshma, या Parashurama?",
+     "सही जवाब है Dronacharya! Dronacharya, Kuru राज्य के राजकुमारों के royal guru थे - Mahabharata के महान teacher!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which element makes up the majority of the Sun's mass?",
@@ -1534,7 +1726,19 @@
     "note": "Platypuses are mammals but lay eggs, and sharks are fish. Blue whales are placental mammals that give birth to live young.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa jaanwar mammal hai aur bachon ko janm deta hai?",
+    "q": "Inmein se kaunsa animal asal mein mammal hai aur zinda bachon ko janm deta hai?",
+    "hook": "Samundar ka ye raaz aapko hila dega!",
+    "fact": "Blue whale machli nahi, mammal hai - apne bachon ko doodh pilati hai!",
+    "voice": [
+     "समुंदर का ये राज़ आपको हिला देगा!",
+     "इनमें से कौन सा animal असल में mammal है और ज़िंदा बच्चों को जन्म देता है? Platypus, Blue Whale, या Shark?",
+     "सही जवाब है Blue Whale! Blue whale मछली नहीं, mammal है - वो अपने बच्चों को दूध पिलाती है!",
+     "कितने सही हुए? comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "How many chambers are in a cow's stomach?",
@@ -1558,7 +1762,19 @@
     "note": "Cows are ruminants and possess a complex stomach consisting of four compartments: the rumen, reticulum, omasum, and abomasum.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Gaay ke pet mein kitne chambers hote hain?",
+    "q": "Cow ke stomach mein kitne chambers hote hain?",
+    "hook": "Gaay ke pet ka ye sach jaan ke chaunk jaoge!",
+    "fact": "Cow ruminant hai - uske digestive system mein 4 alag compartments hote hain!",
+    "voice": [
+     "गाय के पेट का ये सच जान के चौंक जाओगे!",
+     "Cow के stomach में कितने chambers होते हैं? One, Two, या Four?",
+     "सही जवाब है Four! गाय ruminant होती है - उसके digestive system में चार अलग compartments होते हैं!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which land animal holds the record for the loudest roar that can be heard up to 8 kilometers away?",
@@ -1750,7 +1966,19 @@
     "note": "Lord Ganesha is universally recognized in Hindu iconography as having the mouse (Mushika) as his vahana.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kis devta ka vahana ek chooha hai?",
+    "q": "Kaunse Hindu devta ka vahana ek mouse (chooha) hai?",
+    "hook": "Iska jawab bachhe bhi jaante hain - aap bhi?",
+    "fact": "Lord Ganesha chooha (Mushak) par sawaar dikhaye jaate hain - har rukavat paar karne ka prateek!",
+    "voice": [
+     "इसका जवाब बच्चे भी जानते हैं - आप भी?",
+     "कौन से Hindu देवता का वाहन एक mouse यानी चूहा है? Lord Ganesha, Lord Kartikeya, या Lord Shiva?",
+     "सही जवाब है Lord Ganesha! भगवान गणेश चूहे पर सवार दिखाए जाते हैं - जो हर रुकावट पार करने का प्रतीक है!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which Indian film became the first to cross the 1000 crore mark globally at the box office?",
@@ -1774,7 +2002,19 @@
     "note": "Baahubali 2: The Conclusion was the first Indian film to reach the 1000 crore milestone globally.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "1000 crore paar karne wali pehli Indian film kaunsi?",
+    "q": "Kaunsi Indian film sabse pehle globally 1000 crore paar kar gayi?",
+    "hook": "Is record ne Bollywood ko bhi peeche chhod diya!",
+    "fact": "2017 mein Baahubali 2 duniya bhar mein 1000 crore kamaane wali pehli Indian film bani!",
+    "voice": [
+     "इस record ने Bollywood को भी पीछे छोड़ दिया!",
+     "कौन सी Indian film सबसे पहले globally एक हज़ार करोड़ पार कर गयी? Baahubali Two: The Conclusion, Dangal, या RRR?",
+     "सही जवाब है Baahubali Two: The Conclusion! दो हज़ार सत्रह में release हुई Baahubali Two, दुनिया भर में एक हज़ार करोड़ कमाने वाली पहली Indian film बनी!",
+     "दोस्तों को challenge करो, video share करो!"
+    ]
+   }
   },
   {
    "q": "Which legendary Indian cricketer was the first to score a double century in an ODI match?",
@@ -1918,7 +2158,19 @@
     "note": "Jupiter has the fastest rotation period of all planets in the solar system, approximately 9.9 hours.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kis planet ka din sabse chhota hota hai?",
+    "q": "Solar system mein kis planet ka din sabse chhota hai?",
+    "hook": "Is planet par din sirf 10 ghante ka hota hai!",
+    "fact": "Jupiter itni tez ghoomta hai ki wahan ek din 10 ghante se bhi kam ka hota hai!",
+    "voice": [
+     "इस planet पर दिन सिर्फ़ दस घंटे का होता है!",
+     "Solar system में किस planet का दिन सबसे छोटा है? Jupiter, Mars, या Earth?",
+     "सही जवाब है Jupiter! Jupiter इतनी तेज़ घूमता है कि वहाँ एक दिन दस घंटे से भी कम का होता है!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which of these is the only planet that rotates on its side?",
@@ -1942,7 +2194,19 @@
     "note": "Uranus has an axial tilt of approximately 98 degrees, causing it to rotate on its side relative to its orbital plane.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa planet apni side par leta hua ghoomta hai?",
+    "q": "Inmein se kaunsa akela planet apni side par ghoomta hai?",
+    "hook": "Ek planet sota hua sa ghoomta hai - kaunsa?",
+    "fact": "Uranus ka axis 98 degree jhuka hai - wo sun ke chakkar lagate hue ludakta sa dikhta hai!",
+    "voice": [
+     "एक planet सोता हुआ सा घूमता है - कौन सा?",
+     "इनमें से कौन सा अकेला planet अपनी side पर घूमता है? Uranus, Neptune, या Saturn?",
+     "सही जवाब है Uranus! Uranus का axis अट्ठानवे degree झुका है - इसलिए वो sun के चक्कर लगाते हुए लुढ़कता सा दिखता है!",
+     "कितने सही हुए? comment में लिखो!"
+    ]
+   }
   },
   {
    "q": "What is the primary gas that makes up the atmosphere of Mars?",
@@ -2134,7 +2398,19 @@
     "note": "Play-Doh was originally marketed as a wallpaper cleaner by Kutol Products before being repurposed as a children's toy.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsi cheez pehle wallpaper cleaner ke liye bani thi?",
+    "q": "Inmein se kaunsi roz ki cheez asal mein wallpaper cleaner ke roop mein bani thi?",
+    "hook": "Bachpan ke is khilone ka sach ajeeb hai!",
+    "fact": "Play-Doh 1930s mein wallpaper se coal ki kaalik saaf karne ke liye bikta tha!",
+    "voice": [
+     "बचपन के इस खिलौने का सच अजीब है!",
+     "इनमें से कौन सी रोज़ की चीज़ असल में wallpaper cleaner के रूप में बनी थी? Play-Doh, Glue stick, या Correction fluid?",
+     "सही जवाब है Play-Doh! Play-Doh उन्नीस सौ तीस के दशक में wallpaper से कोयले की कालिख साफ़ करने के लिए बिकता था!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "Which insect has the ability to recognize individual human faces?",
@@ -2158,7 +2434,19 @@
     "note": "Research published in 2005 demonstrated that honey bees can learn to recognize human faces using configural processing.",
     "verified_by": "gemini-3.1-flash-lite"
    },
-   "created": "2026-07-15"
+   "created": "2026-07-15",
+   "hi": {
+    "title": "Kaunsa insect insaan ke chehre pehchan sakta hai?",
+    "q": "Kaunsa insect alag alag insaani chehre pehchan sakta hai?",
+    "hook": "Ye chhota sa keeda aapka chehra yaad rakhta hai!",
+    "fact": "Honey bees patterns aur features dekh kar insaani chehre pehchan leti hain - ise configural processing kehte hain!",
+    "voice": [
+     "ये छोटा सा कीड़ा आपका चेहरा याद रखता है!",
+     "कौन सा insect अलग अलग इंसानी चेहरे पहचान सकता है? Honey bee, House fly, या Cockroach?",
+     "सही जवाब है Honey bee! Honey bees, patterns और features देख कर इंसानी चेहरे पहचान लेती हैं - इसे configural processing कहते हैं!",
+     "अपना स्कोर comment में बताओ!"
+    ]
+   }
   },
   {
    "q": "The world's first SMS (text message) sent in 1992 said what?",

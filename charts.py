@@ -907,19 +907,29 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
             return []
 
         q = quiz["questions"][qi]
-        # round chip
+        # round chip pinned to the very top
         ax.text(0.5, 0.965, f"{'ROUND' if quiz['format'] == 'wyr' else 'QUESTION'} {qi + 1} OF 3",
                 transform=ax.transAxes, color="white", fontsize=20, ha="center",
-                va="center", fontweight="bold", zorder=6,
+                va="center", fontweight="bold", zorder=7,
                 bbox=dict(boxstyle="round,pad=0.45", facecolor=ah, edgecolor="none"))
 
-        # question on a solid white card — the single most important thing to read
-        qtext = wrap(q["q"], 20)
+        # Question on a solid white card, TOP-anchored just under the chip and
+        # growing DOWNWARD — a long question can then never rise up and collide
+        # with the chip (the old fixed-centre card grew both ways and did exactly
+        # that). Font + wrap width step down with length so it stays ~<=4 lines and
+        # clear of the option cards below.
+        _raw = q["q"]
+        if   len(_raw) <= 52: _fs, _ww = 34, 18
+        elif len(_raw) <= 80: _fs, _ww = 30, 22
+        else:                 _fs, _ww = 26, 26
+        qtext  = wrap(_raw, _ww)
         qlines = qtext.count("\n") + 1
-        qh = 0.055 + 0.052 * qlines
-        card(0.045, 0.845, 0.91, qh, CARD, "white", lw=0)
-        ax.text(0.5, 0.845, qtext, transform=ax.transAxes, color=INK,
-                fontsize=34, ha="center", va="center", fontweight="bold", zorder=5)
+        QTOP   = 0.928                                    # card top edge, below the chip
+        qh     = 0.045 + 0.049 * qlines
+        qcen   = QTOP - qh / 2
+        card(0.045, qcen, 0.91, qh, CARD, "white", lw=0)
+        ax.text(0.5, qcen, qtext, transform=ax.transAxes, color=INK,
+                fontsize=_fs, ha="center", va="center", fontweight="bold", zorder=5)
 
         # The emoji rides the card's top-left EDGE like a sticker. Sitting it
         # inside the card put it straight on top of the first line of the
@@ -932,7 +942,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
             import numpy as _np
             ax.add_artist(AnnotationBbox(
                 OffsetImage(_np.asarray(_art), zoom=0.8),
-                (0.115, 0.845 + qh / 2), xycoords=ax.transAxes,
+                (0.115, QTOP), xycoords=ax.transAxes,
                 frameon=False, box_alignment=(0.5, 0.5), zorder=6))
 
         if quiz["format"] == "wyr":
@@ -1029,21 +1039,39 @@ def _india_quizzes():
     _fs = [f for f in _fs if f.get("status") == "approved" and len(f.get("options") or []) == 3]
     if not _fs:
         return []
-    # ONE fact per reel (~25-30s) for max-reach Shorts. The question itself is the
-    # curiosity title (localised to Hinglish at render). Keyed per concept+index so
-    # the ledger/dedup stays stable as the bank grows.
-    _seen, _idx, _out = {}, {}, []
+    # ONE fact per reel (~25-30s) for max-reach Shorts. Content is PRE-BAKED
+    # Hinglish (generated offline, no live Gemini at render time — the deployed
+    # Gemini key was quota-dead and silently shipped English). Each fact carries an
+    # `hi` block:
+    #   hi.title / hi.q / hi.hook / hi.fact  -> ROMAN-Hinglish, shown ON CARDS
+    #       (Devanagari would render as tofu on the CI runner, which has no Deva
+    #        font; Roman Latin renders fine and reads naturally for this audience).
+    #   hi.voice = [hook, ask, reveal, outro] -> DEVANAGARI-Hinglish, SPOKEN only
+    #       (edge-tts hi-IN mispronounces romanised Hindi; Devanagari is correct).
+    # HINGLISH_ONLY keeps the rotation to fully-localised facts so a half-baked fact
+    # can never post as English; the pre-upload guard is the belt to this braces.
+    _idx, _out = {}, []
     for f in _fs:
+        _hi = f.get("hi") or {}
+        _voice = _hi.get("voice") or []
+        if HINGLISH_ONLY and not (_hi.get("q") and len(_voice) == 4):
+            continue
         _c = f.get("concept", "world")
         _idx[_c] = _idx.get(_c, 0) + 1
         _out.append(dict(
             key=f"in_{_c}_{_idx[_c]}", format="trivia", concept=_CMAP.get(_c, "geography"),
-            title=f["q"],
-            hook="Only one in ten gets this right.",
-            questions=[dict(q=f["q"], options=f["options"], answer=f["answer"],
-                            fact=f.get("fact", ""), emoji=f.get("emoji", ""),
+            title=_hi.get("title") or f["q"],
+            hook=_hi.get("hook") or "Sirf 10 mein se 1 hi ye sahi bata paata hai.",
+            voice=_voice,                         # spoken Devanagari; empty -> render-time fallback
+            questions=[dict(q=_hi.get("q") or f["q"], options=f["options"], answer=f["answer"],
+                            fact=_hi.get("fact") or f.get("fact", ""), emoji=f.get("emoji", ""),
                             image_query=f.get("image_query", ""))]))
     return _out
+
+
+# Only post fully pre-localised facts. Flip to False to let un-localised facts
+# through (they fall back to English narration + the pre-upload guard will block).
+HINGLISH_ONLY = True
 
 
 _india = _india_quizzes()
