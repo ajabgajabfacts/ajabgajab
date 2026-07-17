@@ -3810,6 +3810,1063 @@
     ],
     "outro": "Pata tha? Comment mein batao!"
    }
+  },
+  {
+   "q": "Where in India is the world's only floating post office located?",
+   "options": [
+    "Kochi",
+    "Srinagar",
+    "Guwahati"
+   ],
+   "answer": 1,
+   "fact": "The floating post office has been operating on a houseboat in Srinagar's Dal Lake since 2011.",
+   "emoji": "✉️",
+   "image_query": "lake boats",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The floating post office is located on Dal Lake in Srinagar, Jammu and Kashmir.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "India was the first country in the world to mine which precious gem?",
+   "options": [
+    "Diamonds",
+    "Rubies",
+    "Sapphires"
+   ],
+   "answer": 0,
+   "fact": "India was the world's only source of diamonds until they were discovered in Brazil in the 18th century.",
+   "emoji": "💎",
+   "image_query": "cave mine",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "India was the only known source of diamonds for many centuries until their discovery in Brazil in the 18th century.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Who is the only cricketer to have played Test cricket for both India and England?",
+   "options": [
+    "Ranjitsinhji",
+    "Duleepsinhji",
+    "Iftikhar Ali Khan Pataudi"
+   ],
+   "answer": 2,
+   "fact": "Iftikhar Ali Khan Pataudi, the grandfather of actor Saif Ali Khan, played Test matches for both England and India.",
+   "emoji": "🏏",
+   "image_query": "vintage cricket",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Iftikhar Ali Khan Pataudi is the only cricketer to have played Test cricket for both England and India. Ranjitsinhji and Duleepsinhji played Test cricket only for England.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which divine bow of Lord Shiva did Lord Rama break to marry Sita?",
+   "options": [
+    "Gandiva",
+    "Pinaka",
+    "Kodanda"
+   ],
+   "answer": 1,
+   "fact": "Lord Rama broke Shiva's sacred bow named Pinaka during the swayamvar to win Sita's hand in marriage.",
+   "emoji": "🏹",
+   "image_query": "ancient palace",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The bow of Lord Shiva is known as Pinaka. Kodanda is the name of Lord Rama's personal bow, and Gandiva is the bow of Arjuna.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Who was the first Indian woman to win an Olympic medal?",
+   "options": [
+    "Mary Kom",
+    "Saina Nehwal",
+    "Karnam Malleswari"
+   ],
+   "answer": 2,
+   "fact": "Weightlifter Karnam Malleswari won a bronze medal at the 2000 Sydney Olympics, becoming India's first female Olympic medalist.",
+   "emoji": "🏋️",
+   "image_query": "weightlifting arena",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Karnam Malleswari won a bronze medal in weightlifting at the 2000 Sydney Olympics, becoming the first Indian woman to win an Olympic medal.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which Indian city is globally recognized as the 'Yoga Capital of the World'?",
+   "options": [
+    "Varanasi",
+    "Rishikesh",
+    "Haridwar"
+   ],
+   "answer": 1,
+   "fact": "Rishikesh earned this title as it has attracted spiritual seekers and yoga practitioners from across the globe for decades.",
+   "emoji": "🧘",
+   "image_query": "mountain river",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Rishikesh is widely and officially recognized as the Yoga Capital of the World.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "In which country was the very first Cricket World Cup played in 1975?",
+   "options": [
+    "Australia",
+    "India",
+    "England"
+   ],
+   "answer": 2,
+   "fact": "England hosted the inaugural Cricket World Cup in June 1975, which was won by the West Indies.",
+   "emoji": "🏆",
+   "image_query": "cricket ground",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The 1975 Cricket World Cup was hosted by England.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which warrior in the Mahabharata was the son of Bhima and the giantess Hidimbi?",
+   "options": [
+    "Abhimanyu",
+    "Ghatotkacha",
+    "Babruvahana"
+   ],
+   "answer": 1,
+   "fact": "Ghatotkacha, who possessed magical powers and played a crucial role in the Kurukshetra war, was the son of Bhima and Hidimbi.",
+   "emoji": "👹",
+   "image_query": "dark forest",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Ghatotkacha is the well-established son of Bhima and Hidimbi in the Mahabharata epic.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "What was the name of India's first satellite, launched into space in 1975?",
+   "options": [
+    "Rohini",
+    "Bhaskara",
+    "Aryabhata"
+   ],
+   "answer": 2,
+   "fact": "India's first satellite, Aryabhata, was named after the famous ancient Indian astronomer and launched by the Soviet Union.",
+   "emoji": "🛰️",
+   "image_query": "earth from space",
+   "concept": "Indian history - surprising facts",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Aryabhata was launched on April 19, 1975, and is officially recognized as India's first satellite.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Where is the only active volcano in South Asia located?",
+   "options": [
+    "Andaman Islands",
+    "Lakshadweep",
+    "Maldives"
+   ],
+   "answer": 0,
+   "fact": "Barren Island in India's Andaman Sea is home to the only active volcano in South Asia.",
+   "emoji": "🌋",
+   "image_query": "volcanic island",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Barren Island in the Andaman Islands is the only confirmed active volcano in South Asia.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "According to Hindu mythology, what was the name of Ravana's flying chariot?",
+   "options": [
+    "Garuda Vimana",
+    "Pushpaka Vimana",
+    "Indra Vimana"
+   ],
+   "answer": 1,
+   "fact": "The Pushpaka Vimana was a magnificent flying chariot built by Vishwakarma, which Ravana took from Kubera.",
+   "emoji": "🏹",
+   "image_query": "ancient palace",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Pushpaka Vimana is the widely accepted name in the Ramayana.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "What color is the sunset on planet Mars?",
+   "options": [
+    "Green",
+    "Pink",
+    "Blue"
+   ],
+   "answer": 2,
+   "fact": "Due to fine dust in the Martian atmosphere, sunsets on Mars appear blue to human observers.",
+   "emoji": "🪐",
+   "image_query": "mars planet",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Due to the fine dust in the Martian atmosphere, the light scattering causes the sunset to appear blue to the human eye.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which famous Indian monument has 953 small windows called Jharokhas?",
+   "options": [
+    "Hawa Mahal",
+    "Taj Mahal",
+    "Gol Gumbaz"
+   ],
+   "answer": 0,
+   "fact": "Hawa Mahal in Jaipur was built with 953 windows to allow royal women to watch street festivals without being seen.",
+   "emoji": "🏰",
+   "image_query": "jaipur architecture",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Hawa Mahal is world-renowned for its 953 jharokhas.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "What is the official National Aquatic Animal of India?",
+   "options": [
+    "Gharial Crocodile",
+    "Ganges River Dolphin",
+    "Olive Ridley Turtle"
+   ],
+   "answer": 1,
+   "fact": "The Ganges River Dolphin was declared the National Aquatic Animal of India in 2009 to boost its conservation.",
+   "emoji": "🐬",
+   "image_query": "ganges river",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Ganges River Dolphin (Platanista gangetica) was declared the National Aquatic Animal of India in 2009.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Approximately how many bones is a human baby born with?",
+   "options": [
+    "206",
+    "300",
+    "150"
+   ],
+   "answer": 1,
+   "fact": "Babies are born with about 300 bones, many of which are made of cartilage that later fuse into 206 bones in adulthood.",
+   "emoji": "👶",
+   "image_query": "baby footsteps",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Human infants are born with approximately 270 to 300 bones, which fuse together as they grow into the 206 bones found in an adult.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "In the Ramayana, who was the king of Kishkindha before Sugriva?",
+   "options": [
+    "Angada",
+    "Jambavan",
+    "Vali"
+   ],
+   "answer": 2,
+   "fact": "Vali, the elder brother of Sugriva, was the powerful king of the vanaras in Kishkindha before his death.",
+   "emoji": "🐒",
+   "image_query": "ancient forest",
+   "concept": "cricket history and records",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Vali was the elder brother of Sugriva and the king of Kishkindha before Sugriva took the throne.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Who was the first Indian bowler to take a hat-trick in a World Cup match?",
+   "options": [
+    "Kapil Dev",
+    "Chetan Sharma",
+    "Anil Kumble"
+   ],
+   "answer": 1,
+   "fact": "Chetan Sharma took the first-ever World Cup hat-trick for India during the 1987 match against New Zealand.",
+   "emoji": "🏏",
+   "image_query": "cricket stadium pitch",
+   "concept": "Bollywood and Indian cinema trivia",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Chetan Sharma achieved this feat against New Zealand in the 1987 World Cup.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which chemical element was first discovered in India during a solar eclipse?",
+   "options": [
+    "Hydrogen",
+    "Oxygen",
+    "Helium"
+   ],
+   "answer": 2,
+   "fact": "Helium was first detected as a bright yellow line in the spectrum of the Sun during an eclipse in Guntur, India, in 1868.",
+   "emoji": "🎈",
+   "image_query": "solar eclipse",
+   "concept": "Bollywood and Indian cinema trivia",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Helium was first detected in the solar spectrum by Pierre Janssen during the solar eclipse of August 18, 1868, observed from Guntur, India.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "In Hindu mythology, who was the guru of the Asuras (demons)?",
+   "options": [
+    "Brihaspati",
+    "Shukracharya",
+    "Dronacharya"
+   ],
+   "answer": 1,
+   "fact": "Shukracharya, associated with the planet Venus, served as the chief advisor and guru of the Asuras.",
+   "emoji": "🏹",
+   "image_query": "ancient temple sculpture",
+   "concept": "Bollywood and Indian cinema trivia",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Shukracharya is universally recognized in Hindu Puranic literature as the preceptor and guru of the Asuras.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which of these animals naturally produces pink-colored milk?",
+   "options": [
+    "Hippopotamus",
+    "Yak",
+    "Platypus"
+   ],
+   "answer": 0,
+   "fact": "A hippopotamus secretes unique reddish acids that mix with its white milk, giving it a distinct pink color.",
+   "emoji": "🦛",
+   "image_query": "wildlife river",
+   "concept": "Bollywood and Indian cinema trivia",
+   "geo": "india",
+   "status": "rejected",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Hippopotamus milk contains hipposudoric acid and norhipposudoric acid, which give it a pinkish hue.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17",
+   "rejected_reason": "pink hippo milk is a popular myth, not an established fact - the reddish skin secretion is real but milk color is disputed"
+  },
+  {
+   "q": "Which iconic Indian monument was built using the same white Makrana marble as the Taj Mahal?",
+   "options": [
+    "Charminar",
+    "Lotus Temple",
+    "Victoria Memorial"
+   ],
+   "answer": 2,
+   "fact": "The Victoria Memorial in Kolkata was constructed using the exact same high-quality Makrana marble used for the Taj Mahal.",
+   "emoji": "🏛️",
+   "image_query": "kolkata monument",
+   "concept": "Bollywood and Indian cinema trivia",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Victoria Memorial in Kolkata is famously constructed from white Makrana marble, the same material used for the Taj Mahal.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which animal has the highest blood pressure in the world?",
+   "options": [
+    "Blue Whale",
+    "Giraffe",
+    "Elephant"
+   ],
+   "answer": 1,
+   "fact": "A giraffe's heart must pump blood 6 feet straight up to its brain, requiring blood pressure twice as high as a human's.",
+   "emoji": "🦒",
+   "image_query": "african savanna",
+   "concept": "Bollywood and Indian cinema trivia",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Giraffes require exceptionally high blood pressure to pump blood vertically against gravity to their brains.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which unique Indian lake was formed by a meteorite crash thousands of years ago?",
+   "options": [
+    "Chilika Lake",
+    "Lonar Lake",
+    "Dal Lake"
+   ],
+   "answer": 1,
+   "fact": "Lonar Lake in Maharashtra was created by a meteor impact during the Pleistocene Epoch and is a rare basaltic rock crater.",
+   "emoji": "☄️",
+   "image_query": "crater lake",
+   "concept": "Indian geography and landmarks",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Lonar Lake is a well-documented impact crater lake located in Maharashtra, India.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which was the first Indian film to be nominated for an Oscar in the Best Foreign Language Film category?",
+   "options": [
+    "Mughal-e-Azam",
+    "Lagaan",
+    "Mother India"
+   ],
+   "answer": 2,
+   "fact": "Mother India, directed by Mehboob Khan, was India's first-ever entry to be nominated for an Academy Award in 1958.",
+   "emoji": "🎬",
+   "image_query": "cinema theater",
+   "concept": "Indian geography and landmarks",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Mother India was the first Indian film to be nominated for the Academy Award for Best Foreign Language Film in 1958.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which is the largest river island in the world, located in India?",
+   "options": [
+    "Diu Island",
+    "Majuli Island",
+    "Munroe Island"
+   ],
+   "answer": 1,
+   "fact": "Majuli is a lush green island on the Brahmaputra River in Assam, recognized by Guinness World Records as the world's largest river island.",
+   "emoji": "🏝️",
+   "image_query": "river drone view",
+   "concept": "Indian geography and landmarks",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Majuli is widely recognized as the largest river island in the world.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "In which Indian state is the world's highest post office located?",
+   "options": [
+    "Uttarakhand",
+    "Sikkim",
+    "Himachal Pradesh"
+   ],
+   "answer": 2,
+   "fact": "The world's highest post office is situated in Hikkim village of Himachal Pradesh at an elevation of 14,567 feet.",
+   "emoji": "✉️",
+   "image_query": "snowy mountains",
+   "concept": "Indian geography and landmarks",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Hikkim post office in Himachal Pradesh is officially recognized as the world's highest post office.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "According to Hindu mythology, who wrote down the Mahabharata as Sage Vyasa dictated it?",
+   "options": [
+    "Lord Ganesha",
+    "Lord Murugan",
+    "Sage Valmiki"
+   ],
+   "answer": 0,
+   "fact": "Lord Ganesha agreed to write down the epic Mahabharata on the condition that Sage Vyasa dictated it without stopping.",
+   "emoji": "✍️",
+   "image_query": "ancient scroll",
+   "concept": "Indian geography and landmarks",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "According to the Mahabharata, Sage Vyasa requested Lord Ganesha to be the scribe, and Ganesha agreed on the condition that Vyasa would dictate without pause.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Who was the chief queen of the demon king Ravana in the Ramayana?",
+   "options": [
+    "Mandodari",
+    "Surpanakha",
+    "Urmila"
+   ],
+   "answer": 0,
+   "fact": "Mandodari was the beautiful and righteous wife of Ravana, known for her wisdom and devotion.",
+   "emoji": "👑",
+   "image_query": "ancient palace",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Mandodari is universally recognized in the Ramayana as the chief queen (pattarani) of Ravana.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "According to the Mahabharata, who was the royal father of Bhishma Pitamah?",
+   "options": [
+    "Shantanu",
+    "Pandu",
+    "Dhritarashtra"
+   ],
+   "answer": 0,
+   "fact": "King Shantanu of Hastinapur was the father of Bhishma, who took a life-long vow of celibacy for his father's happiness.",
+   "emoji": "👑",
+   "image_query": "royal throne",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Bhishma is the son of King Shantanu and the goddess Ganga.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "What toxic poison did Lord Shiva drink during the Sagar Manthan to save the universe?",
+   "options": [
+    "Soma",
+    "Halahal",
+    "Amrit"
+   ],
+   "answer": 1,
+   "fact": "Lord Shiva drank the highly toxic poison Halahal, which turned his neck blue and earned him the name Neelkanth.",
+   "emoji": "🧪",
+   "image_query": "ocean waves",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Halahal is the specific name of the poison that emerged from the churning of the ocean (Sagar Manthan).",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which of the five Pandava brothers was famous for his absolute mastery over astrology and prediction?",
+   "options": [
+    "Sahadeva",
+    "Nakula",
+    "Yudhisthira"
+   ],
+   "answer": 0,
+   "fact": "Sahadeva knew everything about the future, but was cursed to die if he revealed the events of the war beforehand.",
+   "emoji": "🌌",
+   "image_query": "starry night sky",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "In the Mahabharata, Sahadeva is explicitly described as the most intelligent of the Pandavas and an expert in astrology and the future.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which musical instrument was the demon king Ravana famously a master of playing?",
+   "options": [
+    "Flute",
+    "Veena",
+    "Damru"
+   ],
+   "answer": 1,
+   "fact": "Ravana was a highly skilled scholar and a master Veena player, often depicted with the instrument on his flag.",
+   "emoji": "🪕",
+   "image_query": "classical music",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Ravana is traditionally depicted as a master of the Veena, specifically the Ravanahatha or Rudra Veena, in Hindu mythology.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Who was the only Kaurava brother who chose to fight on the side of the Pandavas in the Mahabharata war?",
+   "options": [
+    "Vikarna",
+    "Yuyutsu",
+    "Dushasana"
+   ],
+   "answer": 1,
+   "fact": "Yuyutsu was the only half-brother of the Kauravas who defected to the righteous side of the Pandavas just before the war started.",
+   "emoji": "⚔️",
+   "image_query": "ancient chariot",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Yuyutsu was the only Kaurava brother who defected to the Pandava side before the war began.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "What is the traditional name of the ancient bridge built by Lord Rama's army to reach Lanka?",
+   "options": [
+    "Ram Setu",
+    "Lakshman Jhula",
+    "Pamban Bridge"
+   ],
+   "answer": 0,
+   "fact": "Ram Setu, also known as Adam's Bridge, was built using floating stones inscribed with Rama's name.",
+   "emoji": "🌉",
+   "image_query": "aerial ocean bridge",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Ram Setu, also known as Adam's Bridge, is the traditional name associated with the bridge built by Lord Rama's army in the Ramayana.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which of Lord Vishnu's avatars is uniquely depicted as half-man and half-lion?",
+   "options": [
+    "Varaha",
+    "Narasimha",
+    "Kurma"
+   ],
+   "answer": 1,
+   "fact": "Narasimha avatar descended to protect the young devotee Prahlada and bypass the unique boon of the demon king Hiranyakashipu.",
+   "emoji": "🦁",
+   "image_query": "temple pillar",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Narasimha is the fourth avatar of Vishnu and is defined by his half-man, half-lion form.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "What was the name of Arjuna's legendary bow, gifted to him by the water god Varuna?",
+   "options": [
+    "Pinaka",
+    "Gandiva",
+    "Kodanda"
+   ],
+   "answer": 1,
+   "fact": "The Gandiva bow was created by Lord Brahma, held by various gods, and finally gifted to Arjuna for the great war.",
+   "emoji": "🏹",
+   "image_query": "forest archery",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Gandiva is the bow famously associated with Arjuna in the Mahabharata, gifted by Varuna via Agni.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which highly destructive weapon did Lord Shiva gift to Arjuna after testing his skills in a disguise?",
+   "options": [
+    "Pashupatastra",
+    "Brahmastra",
+    "Narayanastra"
+   ],
+   "answer": 0,
+   "fact": "Arjuna received the unbeatable Pashupatastra directly from Lord Shiva after impressing him during a wrestling duel.",
+   "emoji": "☄️",
+   "image_query": "cosmic explosion",
+   "concept": "Indian mythology",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "In the Mahabharata, Lord Shiva tests Arjuna in the guise of a Kirata and subsequently grants him the Pashupatastra.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which part of the human body has no blood supply and gets oxygen directly from the air?",
+   "options": [
+    "Cornea",
+    "Earlobe",
+    "Tooth enamel"
+   ],
+   "answer": 0,
+   "fact": "The cornea of the eye has no blood vessels and receives its oxygen directly from the outside air.",
+   "emoji": "👁️",
+   "image_query": "human eye closeup",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The cornea is avascular and receives oxygen directly from the atmosphere through the tear film.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which country is the only one in the world to have a non-four-sided flag?",
+   "options": [
+    "Switzerland",
+    "Vatican City",
+    "Nepal"
+   ],
+   "answer": 2,
+   "fact": "Nepal is the only country in the world with a non-quadrilateral national flag, made of two stacked triangular shapes.",
+   "emoji": "🇳🇵",
+   "image_query": "himalaya mountains",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Nepal's flag is the only national flag that is not quadrilateral.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which ancient Indian temple is built entirely of granite, with no granite source within 60 kilometers?",
+   "options": [
+    "Brihadeeswarar Temple",
+    "Shore Temple",
+    "Meenakshi Temple"
+   ],
+   "answer": 0,
+   "fact": "The Brihadeeswarar Temple in Tanjore was built using over 130,000 tons of granite transported from over 60 kilometers away.",
+   "emoji": "🛕",
+   "image_query": "ancient stone temple",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Brihadeeswarar Temple in Thanjavur is famously constructed entirely of granite, despite the region being a deltaic plain with no natural granite deposits nearby.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which planet is the hottest in our solar system, even hotter than Mercury?",
+   "options": [
+    "Mercury",
+    "Venus",
+    "Mars"
+   ],
+   "answer": 1,
+   "fact": "Venus is the hottest planet because its thick greenhouse atmosphere traps heat, reaching temperatures of up to 462 degrees Celsius.",
+   "emoji": "🪐",
+   "image_query": "outer space planet",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Venus has a thick atmosphere that traps heat via the greenhouse effect, making it hotter than Mercury despite being further from the Sun.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "In which ancient country did the game of Chess originate?",
+   "options": [
+    "China",
+    "Egypt",
+    "India"
+   ],
+   "answer": 2,
+   "fact": "Chess originated in northern India during the Gupta Empire around the 6th century AD, where it was known as Chaturanga.",
+   "emoji": "♟️",
+   "image_query": "wooden chess pieces",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "Chess is widely accepted by historians to have originated in India as the game chaturanga.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "Which is the deepest oceanic trench on Earth?",
+   "options": [
+    "Mariana Trench",
+    "Java Trench",
+    "Puerto Rico Trench"
+   ],
+   "answer": 0,
+   "fact": "The Mariana Trench in the Pacific Ocean contains the Challenger Deep, which is the deepest known point on Earth at nearly 11,000 meters.",
+   "emoji": "🌊",
+   "image_query": "deep blue ocean",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The Mariana Trench contains the Challenger Deep, which is the deepest known point in the Earth's oceans.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
+  },
+  {
+   "q": "How many Earths could fit inside the Sun if the Sun were hollow?",
+   "options": [
+    "About 10,000",
+    "About 50,000",
+    "About 1.3 million"
+   ],
+   "answer": 2,
+   "fact": "The Sun is so massive that approximately 1.3 million Earths could fit inside its total volume.",
+   "emoji": "☀️",
+   "image_query": "sun space background",
+   "concept": "science and world records that amaze",
+   "geo": "india",
+   "status": "approved",
+   "checks": {
+    "verifier_agreed": true,
+    "confident": true,
+    "single_answer": true,
+    "stable": true,
+    "note": "The volume of the Sun is approximately 1.3 million times the volume of Earth.",
+    "verified_by": "gemini-flash-lite-latest"
+   },
+   "created": "2026-07-17"
   }
  ]
 }
