@@ -94,13 +94,21 @@ def ask_any(prompt: str, temperature: float, max_tokens: int = 2000,
     for model in MODEL_CHAIN:
         if model == exclude:
             continue
-        for attempt in range(2):
+        for attempt in range(3):
             try:
                 return _ask(model, prompt, temperature, max_tokens), model
             except Exception as e:
                 last = e
                 msg = str(e)
-                if "503" in msg or "UNAVAILABLE" in msg or "429" in msg:
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                    # Free tier is 15 req/min/model and the server says how long
+                    # to wait — waiting beats falling through the whole chain,
+                    # which just spends the other models' quota on the same
+                    # minute window.
+                    m = re.search(r"retry in (\d+)", msg)
+                    time.sleep(min(int(m.group(1)) + 2 if m else 50, 70))
+                    continue
+                if "503" in msg or "UNAVAILABLE" in msg:
                     time.sleep(2 + 3 * attempt)     # transient — worth a retry
                     continue
                 break                                # a real error; try the next model
@@ -138,16 +146,99 @@ def is_duplicate(q: str, existing: list[str], thresh: float = 0.6) -> bool:
 
 def existing_questions() -> list[str]:
     """Everything already asked — the hand-authored quizzes plus the bank."""
-    out = [r["q"] for r in load_bank()]
+    return [it["q"] for it in existing_items()]
+
+
+def existing_items() -> list[dict]:
+    """Every question already asked, WITH its fact and answer — the dedup
+    corpus. Question text alone is not enough: the YPP repetitious-content
+    risk is the same FACT re-asked in different words, which no wording
+    comparison can catch."""
+    out = []
+    for r in load_bank():
+        if r.get("status") == "rejected":
+            continue
+        out.append({"q": r["q"], "fact": r.get("fact", ""),
+                    "ans": str(r["options"][r["answer"]]) if r.get("options") else ""})
     try:
         from charts import QUIZZES
         for quiz in QUIZZES:
             for q in quiz.get("questions", []):
                 if q.get("q"):
-                    out.append(q["q"])
+                    ans = ""
+                    if q.get("options") and isinstance(q.get("answer"), int) and q["answer"] >= 0:
+                        ans = str(q["options"][q["answer"]])
+                    out.append({"q": q["q"], "fact": q.get("fact", ""), "ans": ans})
     except Exception as e:
         print(f"[Bank] could not read existing quizzes: {e}")
     return out
+
+
+# ── Semantic (same-fact) dedup ────────────────────────────────────────────────
+SAME_FACT_PROMPT = """A quiz channel must never re-test a fact it has already used —
+YouTube treats it as repetitious content. Below is one NEW question and a numbered
+list of EXISTING questions.
+
+NEW question: {q}
+NEW answer: {ans}
+NEW fact: {fact}
+
+EXISTING:
+{listing}
+
+Does the NEW question test the same underlying fact as ANY existing one? Same fact
+means a viewer who saw the existing video already knows this answer — different
+wording, same knowledge. Merely sharing a broad subject (both about cricket, both
+about the Moon) is NOT the same fact.
+
+Return JSON only: {{"same_fact": <true|false>, "of": <number or null>, "why": "<short>"}}"""
+
+
+def _fact_tokens(item: dict) -> set:
+    return _norm(f"{item.get('fact', '')} {item.get('ans', '')}")
+
+
+def same_fact_as_existing(cand: dict, corpus: list[dict],
+                          exclude: str = "") -> tuple[bool, str]:
+    """Fact-level dedup in two layers. Layer 1 is free: heavy token overlap on
+    fact+answer means the same fact regardless of question wording. Layer 2
+    shortlists mild overlaps and asks a model whether any tests the same
+    knowledge — one call per candidate, and only when the shortlist is
+    non-empty. Fails OPEN on model errors: dedup is a quality gate, not a
+    correctness gate, and a false 'duplicate' throws away verified work."""
+    c = {"fact": cand.get("fact", ""),
+         "ans": str(cand["options"][cand["answer"]])}
+    a = _fact_tokens(c)
+    if not a:
+        return False, ""
+    shortlist = []
+    for e in corpus:
+        b = _fact_tokens(e)
+        if not b:
+            continue
+        j = len(a & b) / len(a | b)
+        if j >= 0.5:
+            return True, f"fact tokens match existing: {e['q'][:60]}"
+        if j >= 0.18:
+            shortlist.append((j, e))
+    if not shortlist:
+        return False, ""
+    shortlist = [e for _, e in sorted(shortlist, key=lambda t: -t[0])[:8]]
+    listing = "\n".join(f"{i + 1}) {e['q']} -> {e['ans']}"
+                        for i, e in enumerate(shortlist))
+    try:
+        raw, _m = ask_any(
+            SAME_FACT_PROMPT.format(q=cand["q"], ans=c["ans"],
+                                    fact=c["fact"], listing=listing),
+            temperature=0.0, max_tokens=300, exclude=exclude)
+        v = json.loads(raw)
+    except (SystemExit, json.JSONDecodeError):
+        return False, ""    # fail open — see docstring
+    if v.get("same_fact"):
+        of = v.get("of")
+        which = shortlist[of - 1]["q"][:60] if isinstance(of, int) and 1 <= of <= len(shortlist) else "?"
+        return True, f"same fact as: {which} ({(v.get('why') or '')[:80]})"
+    return False, ""
 
 
 # ── Generation ────────────────────────────────────────────────────────────────
@@ -374,7 +465,8 @@ def verify(item: dict, wrote_it: str = "") -> tuple[bool, dict]:
 # ── Commands ──────────────────────────────────────────────────────────────────
 def cmd_generate(args) -> None:
     bank    = load_bank()
-    already = existing_questions()
+    corpus  = existing_items()
+    already = [it["q"] for it in corpus]
     print(f"[Bank] {len(bank)} in bank, {len(already)} questions already asked")
     print(f"[Gen] writing {args.n} × {args.concept} ({args.geo}) ...")
 
@@ -388,15 +480,29 @@ def cmd_generate(args) -> None:
             print(f"  [dup ] {c['q'][:62]}")
             dropped += 1
             continue
-        ok, checks = verify(c, wrote_it=wrote_it)
-        if not ok:
-            print(f"  [FAIL] {c['q'][:62]}\n         -> {checks.get('reason','?')}")
-            dropped += 1
-            continue
+        try:
+            # Same-fact check runs BEFORE the blind verify on purpose: a
+            # duplicate costs one model call here instead of three there.
+            same, which = same_fact_as_existing(c, corpus, exclude=wrote_it)
+            if same:
+                print(f"  [sema] {c['q'][:62]}\n         -> {which}")
+                dropped += 1
+                continue
+            ok, checks = verify(c, wrote_it=wrote_it)
+            if not ok:
+                print(f"  [FAIL] {c['q'][:62]}\n         -> {checks.get('reason','?')}")
+                dropped += 1
+                continue
 
-        # The reveal reads the fact aloud, so a fact that refutes its own answer
-        # ships a self-contradicting video. The blind verifier cannot see this.
-        fact_ok, why = fact_supports_answer(c, exclude=wrote_it)
+            # The reveal reads the fact aloud, so a fact that refutes its own answer
+            # ships a self-contradicting video. The blind verifier cannot see this.
+            fact_ok, why = fact_supports_answer(c, exclude=wrote_it)
+        except SystemExit as e:
+            # Quota exhausted mid-batch. Everything verified so far is already
+            # saved (see below) — losing the tail is fine, losing the batch is
+            # not (a 429 at candidate 8 of 15 used to discard 7 good questions).
+            print(f"\n[Gen] stopping early — {e}")
+            break
         if not fact_ok:
             print(f"  [FACT] {c['q'][:62]}\n         -> {why}")
             checks["fact_conflict"] = why
@@ -406,7 +512,10 @@ def cmd_generate(args) -> None:
                  created=datetime.date.today().isoformat())
         bank.append(c)
         already.append(c["q"])
+        corpus.append({"q": c["q"], "fact": c.get("fact", ""),
+                       "ans": str(c["options"][c["answer"]])})
         kept += 1
+        save_bank(bank)     # incremental — a crash must never cost verified work
         print(f"  [ok  ] {c['q'][:62]}\n         -> {c['options'][c['answer']]}")
 
     save_bank(bank)
