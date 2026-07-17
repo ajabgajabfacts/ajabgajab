@@ -753,7 +753,7 @@
    "image_query": "cinema theater",
    "concept": "movies",
    "geo": "india",
-   "status": "approved",
+   "status": "rejected",
    "checks": {
     "verifier_agreed": true,
     "confident": true,
@@ -775,7 +775,8 @@
      "क्या आपको ये पता था? Comment में बताओ!"
     ],
     "outro": "Pata tha? Comment mein batao!"
-   }
+   },
+   "rejected_reason": "duplicate: same fact as richer 2026-07-18 bollywood_bts version"
   },
   {
    "q": "Who was the first choice to play the iconic villain Gabbar Singh in the film 'Sholay'?",
@@ -790,7 +791,7 @@
    "image_query": "rocky canyon",
    "concept": "movies",
    "geo": "india",
-   "status": "approved",
+   "status": "rejected",
    "checks": {
     "verifier_agreed": true,
     "confident": true,
@@ -812,7 +813,8 @@
      "सही guess किया? Comment में बताओ!"
     ],
     "outro": "Sahi guess kiya? Comment mein batao!"
-   }
+   },
+   "rejected_reason": "duplicate: same fact as richer 2026-07-18 bollywood_bts version"
   },
   {
    "q": "Besides 'Mother India' and 'Salaam Bombay', which is the only other Indian film nominated for the Best Foreign Language Film Oscar?",
@@ -4881,7 +4883,7 @@
    "image_query": "vintage cinema hall",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Maratha Mandir run 1995-2020+ (1000+ weeks) is extensively documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -4914,7 +4916,7 @@
    "image_query": "college campus",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "3 Idiots released Dec 2009; Aamir born Mar 1965 = 44. Solid.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -4947,7 +4949,7 @@
    "image_query": "rocky canyon western",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Danny declining Gabbar due to Dharmatma's Afghanistan schedule is extensively documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -4980,7 +4982,7 @@
    "image_query": "retro advertisement",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Amjad Khan as Gabbar in Britannia Glucose ads is well documented (villain-as-endorser first).",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5013,7 +5015,7 @@
    "image_query": "wrestling arena",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Dangal 97kg / ~25kg loss, fat-suit refusal — widely documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5046,7 +5048,7 @@
    "image_query": "ancient palace fortress",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Prabhas's ~5-year exclusive Baahubali commitment is extensively documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5079,7 +5081,7 @@
    "image_query": "mughal palace architecture",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Production spanning ~1944-1960 with Partition recasting; 2-year Sheesh Mahal build documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5112,7 +5114,7 @@
    "image_query": "film awards red carpet",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "31 celebrities in Deewangi Deewangi is the standard documented count.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5145,7 +5147,7 @@
    "image_query": "golden trophy stage",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Naatu Naatu Best Original Song Oscar 2023; Slumdog is a UK production — the trick framing is accurate.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5178,7 +5180,7 @@
    "image_query": "retro bollywood poster style",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "The ~12-flops-before-Zanjeer arc and prior refusals of the role are standard documented lore.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5211,7 +5213,7 @@
    "image_query": "90s retro television",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "AAA's initial box-office failure + later cult status is well documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
@@ -5244,7 +5246,7 @@
    "image_query": "village cricket field",
    "concept": "movies",
    "geo": "india",
-   "status": "pending",
+   "status": "approved",
    "checks": {
     "note": "Lagaan's ~6-month single-schedule Bhuj shoot is well documented.",
     "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
