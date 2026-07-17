@@ -1109,7 +1109,7 @@ def _india_quizzes():
     import json as _json
     from pathlib import Path as _Path
     from collections import OrderedDict as _OD
-    _CMAP = {"india_gk": "geography", "movies": "history", "cricket": "sports",
+    _CMAP = {"india_gk": "geography", "movies": "movies", "cricket": "sports",
              "science": "tech", "history": "history", "geography": "geography",
              "food": "food", "world": "geography", "animals": "animals",
              "mythology": "history", "space": "space", "technology": "tech",
@@ -1170,7 +1170,7 @@ _GROUP_PLAYLISTS = {
     "price": "Guess the Price", "money": "Money Quizzes", "riddles": "Riddles",
     "wyr": "Would You Rather", "tech": "Tech Quizzes", "food": "Food Quizzes",
     "odds": "Odds & Probability", "sports": "Sports Quizzes",
-    "automotive": "Car Quizzes",
+    "automotive": "Car Quizzes", "movies": "Bollywood Facts",
 }
 CONCEPT_PLAYLISTS = dict(_GROUP_PLAYLISTS)
 CONCEPT_PLAYLISTS.update({q["key"]: _GROUP_PLAYLISTS[q["concept"]] for q in QUIZZES})

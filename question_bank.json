@@ -4867,6 +4867,402 @@
     "verified_by": "gemini-flash-lite-latest"
    },
    "created": "2026-07-17"
+  },
+  {
+   "q": "For how many years did DDLJ run continuously at Mumbai's Maratha Mandir cinema?",
+   "options": [
+    "5 saal",
+    "10 saal",
+    "25 saal se zyada"
+   ],
+   "answer": 2,
+   "fact": "Over 25 years and 1,000+ weeks — the longest theatrical run of any film in the world.",
+   "emoji": "🎬",
+   "image_query": "vintage cinema hall",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Maratha Mandir run 1995-2020+ (1000+ weeks) is extensively documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "DDLJ ek hi cinema mein kitne saal chali?",
+    "q": "DDLJ Mumbai ke Maratha Mandir cinema mein lagatar kitne saal chali?",
+    "hook": "Ye record shayad kabhi nahi tootega!",
+    "fact": "25 saal se zyada — 1000+ hafte, duniya ki sabse lambi theatrical run!",
+    "voice": [
+     "ये record शायद कभी नहीं टूटेगा!",
+     "DDLJ Mumbai के Maratha Mandir cinema में लगातार कितने साल चली? पाँच साल, दस साल, या पच्चीस साल से ज़्यादा?",
+     "सही जवाब है पच्चीस साल से ज़्यादा! एक हज़ार हफ़्तों से भी लंबी — दुनिया में किसी भी film की सबसे लंबी theatrical run!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "How old was Aamir Khan when he played college student Rancho in 3 Idiots?",
+   "options": [
+    "24",
+    "34",
+    "44"
+   ],
+   "answer": 2,
+   "fact": "44 — he played a 20-year-old engineering student at 44, and audiences bought it completely.",
+   "emoji": "🎓",
+   "image_query": "college campus",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "3 Idiots released Dec 2009; Aamir born Mar 1965 = 44. Solid.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "3 Idiots mein Rancho ki asli umar kitni thi?",
+    "q": "3 Idiots mein college student Rancho bante waqt Aamir Khan ki asli umar kya thi?",
+    "hook": "Rancho ki asli umar jaan ke shock lagega!",
+    "fact": "44 saal! 44 ke Aamir ne 20 saal ke engineering student ka role kiya.",
+    "voice": [
+     "Rancho की असली उमर जान के shock लगेगा!",
+     "3 Idiots में college student Rancho बनते वक़्त Aamir Khan की असली उमर क्या थी? चौबीस, चौंतीस, या चौवालीस?",
+     "सही जवाब है चौवालीस! चौवालीस साल के Aamir Khan ने बीस साल के engineering student का role किया — और किसी को अजीब भी नहीं लगा!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "Who was first offered the role of Gabbar Singh in Sholay?",
+   "options": [
+    "Danny Denzongpa",
+    "Amrish Puri",
+    "Shatrughan Sinha"
+   ],
+   "answer": 0,
+   "fact": "Danny Denzongpa — he was stuck shooting Dharmatma in Afghanistan, so the role went to Amjad Khan and became legend.",
+   "emoji": "🔫",
+   "image_query": "rocky canyon western",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Danny declining Gabbar due to Dharmatma's Afghanistan schedule is extensively documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Gabbar ka role pehle kise mila tha?",
+    "q": "Sholay ka Gabbar Singh role sabse pehle kis actor ko offer hua tha?",
+    "hook": "Gabbar asli mein koi aur hone wala tha!",
+    "fact": "Danny Denzongpa! Wo Afghanistan mein Dharmatma shoot kar rahe the — role Amjad Khan ko mila.",
+    "voice": [
+     "Gabbar असल में कोई और होने वाला था!",
+     "Sholay का Gabbar Singh role सबसे पहले किस actor को offer हुआ था? Danny Denzongpa, Amrish Puri, या Shatrughan Sinha?",
+     "सही जवाब है Danny Denzongpa! वो Afghanistan में Dharmatma की shooting में फँसे थे — और role Amjad Khan को मिला, जो history बन गया!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "After Sholay, villain Gabbar appeared in an ad selling what?",
+   "options": [
+    "Biscuits",
+    "Soap",
+    "Shampoo"
+   ],
+   "answer": 0,
+   "fact": "Britannia Glucose biscuits — India's most feared villain selling biscuits to kids was a first in Indian advertising.",
+   "emoji": "🍪",
+   "image_query": "retro advertisement",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Amjad Khan as Gabbar in Britannia Glucose ads is well documented (villain-as-endorser first).",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Gabbar ne kis cheez ka ad kiya tha?",
+    "q": "Sholay ke baad villain Gabbar kis cheez ke ad mein aaya tha?",
+    "hook": "India ka sabse khatarnak villain... ad mein?",
+    "fact": "Britannia Glucose biscuit! Villain se bachcho ko biscuit bikwana — India ka pehla aisa ad tha.",
+    "voice": [
+     "India का सबसे खतरनाक villain... ad में?",
+     "Sholay के बाद villain Gabbar किस चीज़ के ad में आया था? Biscuit, साबुन, या shampoo?",
+     "सही जवाब है biscuit! Britannia Glucose ने Gabbar से बच्चों को biscuit बिकवाए — India के ad history का पहला ऐसा कारनामा!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "How heavy did Aamir Khan get to play the older Mahavir in Dangal?",
+   "options": [
+    "77 kg",
+    "97 kg",
+    "117 kg"
+   ],
+   "answer": 1,
+   "fact": "97 kg — he refused a fat suit, genuinely gained the weight, then lost about 25 kg to shoot the young-wrestler scenes.",
+   "emoji": "🤼",
+   "image_query": "wrestling arena",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Dangal 97kg / ~25kg loss, fat-suit refusal — widely documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Dangal ke liye Aamir ka wazan kitna hua tha?",
+    "q": "Dangal mein bade Mahavir ke role ke liye Aamir Khan ka wazan kitna ho gaya tha?",
+    "hook": "Fat suit se mana kar diya tha Aamir ne!",
+    "fact": "97 kilo! Sach mein wazan badhaya, phir jawan scenes ke liye 25 kilo ghataya.",
+    "voice": [
+     "Fat suit से मना कर दिया था Aamir ने!",
+     "Dangal में बड़े Mahavir के role के लिए Aamir Khan का वज़न कितना हो गया था? सतहत्तर किलो, सत्तानवे किलो, या एक सौ सत्रह किलो?",
+     "सही जवाब है सत्तानवे किलो! Aamir ने fat suit से मना किया, सच में वज़न बढ़ाया — फिर जवान scenes के लिए पच्चीस किलो घटाया!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "For how many years did Prabhas work on ONLY Baahubali, signing no other film?",
+   "options": [
+    "1 saal",
+    "3 saal",
+    "5 saal"
+   ],
+   "answer": 2,
+   "fact": "5 years — he dedicated himself to both parts and turned down every other offer, a bet that made him a pan-India star.",
+   "emoji": "⚔️",
+   "image_query": "ancient palace fortress",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Prabhas's ~5-year exclusive Baahubali commitment is extensively documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Prabhas ne Baahubali ko kitne saal diye?",
+    "q": "Baahubali ke liye Prabhas ne kitne saal koi doosri film sign nahi ki?",
+    "hook": "Aisa commitment aaj kal koi nahi karta!",
+    "fact": "Poore 5 saal! Har doosri film thukra di — aur pan-India star ban gaye.",
+    "voice": [
+     "ऐसा commitment आज कल कोई नहीं करता!",
+     "Baahubali के लिए Prabhas ने कितने साल कोई दूसरी film sign नहीं की? एक साल, तीन साल, या पाँच साल?",
+     "सही जवाब है पाँच साल! Prabhas ने हर दूसरी film ठुकरा दी — और ये bet उन्हें pan-India superstar बना गई!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "How long did Mughal-e-Azam take to make?",
+   "options": [
+    "2 saal",
+    "8 saal",
+    "15 saal se zyada"
+   ],
+   "answer": 2,
+   "fact": "About 16 years — Partition changed the cast midway, and the Sheesh Mahal set alone took 2 years to build.",
+   "emoji": "👑",
+   "image_query": "mughal palace architecture",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Production spanning ~1944-1960 with Partition recasting; 2-year Sheesh Mahal build documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Mughal-e-Azam kitne saal mein bani thi?",
+    "q": "Mughal-e-Azam film ko poora banne mein kitna time laga tha?",
+    "hook": "Is film ke aage sab kuch chhota lagta hai!",
+    "fact": "Kareeb 16 saal! Sirf Sheesh Mahal set banne mein hi 2 saal lage the.",
+    "voice": [
+     "इस film के आगे सब कुछ छोटा लगता है!",
+     "Mughal-e-Azam film को पूरा बनने में कितना time लगा था? दो साल, आठ साल, या पंद्रह साल से ज़्यादा?",
+     "सही जवाब है पंद्रह साल से ज़्यादा! करीब सोलह साल लगे — और सिर्फ़ Sheesh Mahal का set बनने में ही दो साल!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "How many film stars appeared in Om Shanti Om's song 'Deewangi Deewangi'?",
+   "options": [
+    "11",
+    "21",
+    "31"
+   ],
+   "answer": 2,
+   "fact": "31 stars in one song — the biggest star gathering ever filmed for a single Bollywood track.",
+   "emoji": "✨",
+   "image_query": "film awards red carpet",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "31 celebrities in Deewangi Deewangi is the standard documented count.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Deewangi Deewangi mein kitne stars the?",
+    "q": "Om Shanti Om ke gaane 'Deewangi Deewangi' mein kitne film stars aaye the?",
+    "hook": "Ek gaane mein itne stars ki ginti bhool jaoge!",
+    "fact": "31 stars! Ek hi gaane mein — Bollywood ka sabse bada star gathering.",
+    "voice": [
+     "एक गाने में इतने stars की गिनती भूल जाओगे!",
+     "Om Shanti Om के गाने Deewangi Deewangi में कितने film stars आए थे? ग्यारह, इक्कीस, या इकतीस?",
+     "सही जवाब है इकतीस! इकतीस stars एक ही गाने में — Bollywood का सबसे बड़ा star gathering!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "Which was the FIRST song from an Indian film to win an Oscar?",
+   "options": [
+    "Jai Ho",
+    "Naatu Naatu",
+    "Chaiyya Chaiyya"
+   ],
+   "answer": 1,
+   "fact": "Naatu Naatu (RRR, 2023). Trick: Jai Ho won earlier, but Slumdog Millionaire is a British production.",
+   "emoji": "🏆",
+   "image_query": "golden trophy stage",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Naatu Naatu Best Original Song Oscar 2023; Slumdog is a UK production — the trick framing is accurate.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Indian film ka pehla Oscar-winning gaana?",
+    "q": "Kisi Indian film ka pehla gaana kaunsa hai jisne Oscar jeeta?",
+    "hook": "90% log iska galat jawab dete hain!",
+    "fact": "Naatu Naatu! Jai Ho British film Slumdog Millionaire ka tha — Indian film ka pehla Oscar song RRR ka hai.",
+    "voice": [
+     "नब्बे percent लोग इसका ग़लत जवाब देते हैं!",
+     "किसी Indian film का पहला गाना कौनसा है जिसने Oscar जीता? Jai Ho, Naatu Naatu, या Chaiyya Chaiyya?",
+     "सही जवाब है Naatu Naatu! Jai Ho British film Slumdog Millionaire का था — Indian film का पहला Oscar जीतने वाला गाना है RRR का Naatu Naatu, दो हज़ार तेईस में!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "Roughly how many flops did Amitabh Bachchan have before Zanjeer made him a star?",
+   "options": [
+    "3",
+    "7",
+    "12"
+   ],
+   "answer": 2,
+   "fact": "Around 12 — and Zanjeer itself came to him after several big stars turned the role down.",
+   "emoji": "🔥",
+   "image_query": "retro bollywood poster style",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "The ~12-flops-before-Zanjeer arc and prior refusals of the role are standard documented lore.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Zanjeer se pehle Amitabh ki kitni filmein flop thi?",
+    "q": "Superstar banne se pehle Amitabh Bachchan ki lagbhag kitni filmein flop hui thi?",
+    "hook": "Sadi ke Mahanayak ki shuruaat aisi thi!",
+    "fact": "Kareeb 12 flops! Aur Zanjeer ka role bhi kai bade stars thukra chuke the.",
+    "voice": [
+     "सदी के महानायक की शुरुआत ऐसी थी!",
+     "Superstar बनने से पहले Amitabh Bachchan की लगभग कितनी filmein flop हुई थीं? तीन, सात, या बारह?",
+     "सही जवाब है बारह! करीब बारह flops के बाद Zanjeer मिली — वो भी तब, जब कई बड़े stars ये role ठुकरा चुके थे!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "How did Andaz Apna Apna perform when it released in 1994?",
+   "options": [
+    "Blockbuster",
+    "Hit",
+    "Flop"
+   ],
+   "answer": 2,
+   "fact": "It flopped — the Aamir-Salman comedy bombed in theatres, then TV reruns turned it into an all-time cult classic.",
+   "emoji": "😂",
+   "image_query": "90s retro television",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "AAA's initial box-office failure + later cult status is well documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Andaz Apna Apna release par kaisi chali thi?",
+    "q": "1994 mein release hote hi Andaz Apna Apna box office par kaisi chali thi?",
+    "hook": "Is comedy ka sach sun ke yakeen nahi hoga!",
+    "fact": "Flop! Theatre mein pit gayi — phir TV ne isse cult classic bana diya.",
+    "voice": [
+     "इस comedy का सच सुन के यक़ीन नहीं होगा!",
+     "उन्नीस सौ चौरानवे में release होते ही Andaz Apna Apna box office पर कैसी चली थी? Blockbuster, hit, या flop?",
+     "सही जवाब है flop! Aamir और Salman की ये comedy theatre में पिट गई — फिर TV के rerun ने इसे all-time cult classic बना दिया!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
+  },
+  {
+   "q": "For how many months did the entire Lagaan cast stay together in Bhuj for one single shooting schedule?",
+   "options": [
+    "1 mahina",
+    "6 mahine",
+    "1 saal"
+   ],
+   "answer": 1,
+   "fact": "6 months — one continuous schedule with the whole cast living in Bhuj, almost unheard of in Bollywood at the time.",
+   "emoji": "🏏",
+   "image_query": "village cricket field",
+   "concept": "movies",
+   "geo": "india",
+   "status": "pending",
+   "checks": {
+    "note": "Lagaan's ~6-month single-schedule Bhuj shoot is well documented.",
+    "verified_by": "hand-written 2026-07-18 (bollywood_bts batch 1)"
+   },
+   "created": "2026-07-18",
+   "hi": {
+    "title": "Lagaan ki team kitne mahine Bhuj mein rahi?",
+    "q": "Lagaan ki poori cast ek hi schedule mein kitne mahine Bhuj mein rahi thi?",
+    "hook": "Bollywood mein aisa pehli baar hua tha!",
+    "fact": "6 mahine! Poori cast ek saath Bhuj mein — ek hi continuous schedule mein.",
+    "voice": [
+     "Bollywood में ऐसा पहली बार हुआ था!",
+     "Lagaan की पूरी cast एक ही schedule में कितने महीने Bhuj में रही थी? एक महीना, छह महीने, या एक साल?",
+     "सही जवाब है छह महीने! पूरी cast छह महीने एक साथ Bhuj में रही — एक ही continuous schedule, जो उस वक़्त Bollywood में almost unheard of था!",
+     "क्या आपको ये पता था? Comment में बताओ!"
+    ],
+    "outro": "Pata tha? Comment mein batao!"
+   }
   }
  ]
 }

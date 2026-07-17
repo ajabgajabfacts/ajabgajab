@@ -126,6 +126,7 @@ CONCEPT_QUERY = {
     "history":   "ancient ruins",
     "sports":    "stadium sport",
     "automotive": "classic sports car",
+    "movies":    "vintage cinema film reel",
 }
 
 
