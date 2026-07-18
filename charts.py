@@ -1060,9 +1060,11 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
                 state = ("correct" if oi == q["answer"] else "dim") if kind == "reveal" else "normal"
                 draw_option(y, "ABC"[oi], q["options"][oi], state, h=0.115)
             if kind == "reveal" and q["fact"]:
-                card(0.045, 0.185, 0.91, 0.10, "#111827", ah, lw=2)
-                ax.text(0.5, 0.185, wrap(q["fact"], 40), transform=ax.transAxes,
-                        color="white", fontsize=19, ha="center", va="center", zorder=5)
+                # The fact is the video's payoff — it was the SMALLEST text on
+                # screen (19pt) in the 2026-07-18 phone-viewer QA. Now legible.
+                card(0.045, 0.185, 0.91, 0.135, "#111827", ah, lw=2)
+                ax.text(0.5, 0.185, wrap(q["fact"], 34), transform=ax.transAxes,
+                        color="white", fontsize=24, ha="center", va="center", zorder=5)
 
         # countdown bar during the ask phase — chunky, with a smiley riding the
         # fill, so the time pressure is legible at a glance on a phone

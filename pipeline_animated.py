@@ -916,10 +916,13 @@ def build_video(
         watched muted, so the narration must be readable."""
         img  = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         draw = ImageDraw.Draw(img)
-        font = load_font(42)
-        lines = wrap_text(text, font, W - 160)[:2]
-        lh    = 56
-        y0    = int(H * 0.905) - (len(lines) * lh) // 2
+        # 52px + anchored at 84.5%: the old 42px band at 90.5% sat inside the
+        # Shorts UI overlay (video title/channel row paints over the bottom
+        # ~12% on phones) — captions were partially covered for real viewers.
+        font = load_font(52)
+        lines = wrap_text(text, font, W - 140)[:2]
+        lh    = 68
+        y0    = int(H * 0.845) - (len(lines) * lh) // 2
         for j, line in enumerate(lines):
             bb = draw.textbbox((0, 0), line, font=font)
             tw = bb[2] - bb[0]
@@ -1012,12 +1015,10 @@ def build_video(
     except Exception as _ce:
         print(f"[Captions] skipped: {_ce}")
 
-    # No fullscreen title card. It sat over the video for the first 6 seconds —
-    # a quarter of the runtime spent showing branding to a viewer whose swipe
-    # decision is made in the first second or two, and the chart's own intro
-    # already shows the hook. The small top label carries the title instead.
-    if cta_start > 0.5:
-        layers.append(il(frame_mini_label(anim_meta["title"], accent), 0.0, cta_start))
+    # No fullscreen title card, and (2026-07-18) no top mini-label either: the
+    # 36px title text sat in the phone notch/cutoff zone and was unreadable
+    # clutter on every screenshot in the visual QA. The card question IS the
+    # on-screen title.
 
     # Comment prompt, not a follow beg: engagement in the first hour is the
     # heaviest expansion signal. cta_text is passed in by the orchestration
