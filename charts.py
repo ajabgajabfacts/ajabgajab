@@ -881,8 +881,11 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
     # icon when a question carries no emoji of its own.
     _concept = (quiz or {}).get("concept", "default")
 
-    def art_for(q):
-        return emoji_image((q or {}).get("emoji", ""), _concept)
+    def art_for(q, spoiler_ok=False):
+        # A question's own emoji frequently depicts the ANSWER (octopus art on
+        # "which animal has three hearts?"), so it may only appear at the
+        # reveal. During the ask phase everything uses the neutral topic icon.
+        return emoji_image((q or {}).get("emoji", "") if spoiler_ok else "", _concept)
 
     import matplotlib.patches as mpatches
 
@@ -1020,7 +1023,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
         # question ("[burger]Which US state grows..."), which is unreadable — the
         # question text is centred and runs nearly the full width of the card, so
         # there is no room inside it for anything else.
-        _art = art_for(q)
+        _art = art_for(q, spoiler_ok=(kind == "reveal"))
         if _art is not None:
             from matplotlib.offsetbox import OffsetImage, AnnotationBbox
             import numpy as _np
