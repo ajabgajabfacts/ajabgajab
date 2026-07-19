@@ -29,8 +29,10 @@ LEDGER           = Path(__file__).parent / "compilation_ledger.json"
 
 # Cards stay Roman (CI runner has no Devanagari font); voice is Devanagari.
 HOOK_CARD   = "30 sawaal — kitne sahi kar paoge? Score gino!"
-INTRO_VOICE = ("तीस सवाल! ज़्यादातर लोग बीस भी सही नहीं कर पाते। "
-               "Score गिनते रहो — आख़िर में comment में बताना!")
+# One flowing comma-joined sentence — edge-tts turns every danda/full stop
+# into a flat robotic reset, which longer intros expose badly.
+INTRO_VOICE = ("तीस सवाल आ रहे हैं, और ज़्यादातर लोग बीस भी सही नहीं कर पाते, "
+               "तो score गिनते रहना, और आख़िर में अपना total comment में ज़रूर बताना!")
 OUTRO_VOICE = "तीस में से कितने सही हुए? Comment में ज़रूर बताओ!"
 TAGS_LINE   = ("#AjabGajabFacts #रोचकतथ्य #अजबगजब #GKQuiz #FactsInHindi "
                "#HindiQuiz #GeneralKnowledge #QuizTime")
