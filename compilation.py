@@ -132,6 +132,10 @@ async def main() -> None:
     picked = _pick_reels()
     if len(picked) < MIN_REELS:
         raise SystemExit(f"[Comp] only {len(picked)} eligible reels — not enough")
+    # Bank padding arrives in file order, which clumps topics (Mega Quiz #1
+    # ended on 11 straight cricket questions). Shuffle so topics interleave.
+    import random
+    random.shuffle(picked)
     quiz = _mega_quiz(picked, len(comp_rows) + 1)
     segs = build_segments(quiz)
     voice = _voice_lines(picked)
