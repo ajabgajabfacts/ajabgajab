@@ -1,0 +1,71 @@
+name: "Ajab Gajab — Weekly Mega Quiz (long-form)"
+
+# One 30-sawaal regular video per week from recent reels + the bank.
+# Sunday 13:30 UTC = Sunday 19:00 IST — Indian evening prime time.
+on:
+  workflow_dispatch:
+    inputs:
+      force_post:
+        description: "Post even if a compilation already went out today"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "30 13 * * 0"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ajabgajab-post        # share the daily pipeline's group: never race an upload
+  cancel-in-progress: false
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: System dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-liberation fonts-dejavu-core ffmpeg
+
+      - name: Python dependencies
+        run: pip install --quiet -r requirements.txt
+
+      - name: Render and upload compilation
+        env:
+          CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && '1' || '' }}
+        run: python compilation.py
+
+      - name: Commit compilation ledger
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+          [ -f compilation_ledger.json ] && git add compilation_ledger.json || true
+          git diff --staged --quiet || git commit -m "Update compilation ledger [skip ci]"
+          git push origin "${{ github.ref_name }}" && exit 0
+          echo "[Ledger] push rejected — rebasing and retrying"
+          git pull --rebase --autostash origin "${{ github.ref_name }}"
+          git push origin "${{ github.ref_name }}"
+
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "::error::Compilation pipeline failed."
+          TITLE="Compilation failed: $(date -u '+%F %H:%M') — Ajab Gajab"
+          BODY="Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue create --title "$TITLE" --body "$BODY" --repo "${{ github.repository }}" || true
