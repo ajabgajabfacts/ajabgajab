@@ -844,13 +844,17 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
     # exactly the slice of the photo that will sit behind it — otherwise the
     # two copies disagree and you see a seam. That slice is CHART_BAND.
     kb = None
+    kb_multi = None      # [(t0, t1, base)] — per-question photos (compilations)
     if bg_image:
         try:
             from backgrounds import kb_base
-            kb = kb_base(bg_image)
+            if isinstance(bg_image, (list, tuple)):
+                kb_multi = [(t0, t1, kb_base(p)) for (t0, t1, p) in bg_image]
+            else:
+                kb = kb_base(bg_image)
         except Exception as _be:
             print(f"[Anim] photo background skipped: {_be}")
-            kb = None
+            kb = kb_multi = None
 
     _band_cache: dict = {}
 
@@ -863,7 +867,15 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
         """
         from backgrounds import kb_frame
         import numpy as _np
-        frame_img = kb_frame(kb, t, target_duration)
+        if kb_multi is not None:
+            t0, t1, base = kb_multi[-1]
+            for w in kb_multi:
+                if t < w[1]:
+                    t0, t1, base = w
+                    break
+            frame_img = kb_frame(base, max(t - t0, 0.0), max(t1 - t0, 0.1))
+        else:
+            frame_img = kb_frame(kb, t, target_duration)
         key = id(frame_img)                       # kb_frame reuses the object per step
         band = _band_cache.get(key)
         if band is None:
@@ -945,7 +957,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
 
     def animate(frame):
         ax.cla()
-        if kb is not None:
+        if kb is not None or kb_multi:
             paint_bg(frame / fps)      # drifting photo, redrawn each frame
             ax.patch.set_alpha(0)      # let it show through the axes
         else:

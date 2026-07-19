@@ -91,15 +91,35 @@ def _voice_lines(picked: list) -> list:
     return lines
 
 
-def _thumbnail(accent: tuple) -> str:
+def _thumbnail(accent: tuple, photo=None) -> str:
+    """Photo-backed 16:9 clickbait thumbnail (Roman text — CI has no Devanagari
+    font); falls back to the flat card when no photo was fetched."""
     W, H = 1280, 720
-    img = Image.new("RGB", (W, H), "#12121C")
+    if photo:
+        img = Image.open(photo).convert("RGB")
+        th = int(img.width * H / W)
+        if th <= img.height:
+            top = max((img.height - th) // 3, 0)
+            img = img.crop((0, top, img.width, top + th))
+        img = img.resize((W, H), Image.LANCZOS)
+        grad = Image.new("L", (W, 1))
+        for x in range(W):
+            grad.putpixel((x, 0), int(215 - 155 * x / W))
+        img = Image.composite(Image.new("RGB", (W, H), "#0B0B14"), img,
+                              grad.resize((W, H)))
+    else:
+        img = Image.new("RGB", (W, H), "#12121C")
     d = ImageDraw.Draw(img)
     ax = "#%02X%02X%02X" % tuple(accent)
-    d.rectangle([0, H - 26, W, H], fill=ax)
-    d.text((W // 2, 200), "30 SAWAAL", font=load_font(140), fill="white", anchor="mm")
-    d.text((W // 2, 380), "KITNE SAHI KAR PAOGE?", font=load_font(66), fill=ax, anchor="mm")
-    d.text((W // 2, 540), "MEGA GK QUIZ", font=load_font(54), fill="#9CA3AF", anchor="mm")
+    d.rectangle([0, H - 22, W, H], fill=ax)
+    d.text((64, 170), "30 SAWAAL", font=load_font(120), fill="white",
+           anchor="lm", stroke_width=6, stroke_fill="#0B0B14")
+    d.text((64, 340), "20+ SAHI", font=load_font(110), fill=ax,
+           anchor="lm", stroke_width=6, stroke_fill="#0B0B14")
+    d.text((64, 470), "KARKE DIKHAO!", font=load_font(86), fill="white",
+           anchor="lm", stroke_width=5, stroke_fill="#0B0B14")
+    d.text((64, 620), "99% LOG POORA SAHI NAHI KAR PATE", font=load_font(40),
+           fill="#E5E7EB", anchor="lm", stroke_width=3, stroke_fill="#0B0B14")
     fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd)
     img.save(p, "PNG")
     return p
@@ -163,37 +183,71 @@ async def main() -> None:
         print(f"[Comp] narration {audio_duration/60:.1f} min "
               f"({'real TTS' if _real else 'word-share'} timings)")
 
-        bg_path = None
+        # 3-4 generic quiz-suitable photos rotating through the video;
+        # switches snap to question boundaries.
+        bg_files = []
         try:
             from backgrounds import fetch as fetch_bg
-            fd, bg_path = tempfile.mkstemp(suffix=".jpg"); os.close(fd)
-            temp_files.append(bg_path)
-            opts = [o for q in quiz["questions"] for o in q.get("options", [])]
-            bg_path = fetch_bg("india knowledge quiz", opts, "geography", bg_path,
-                               fmt="trivia")
+            for query in ("india gate monument evening", "colorful indian pattern art",
+                          "night sky stars", "vintage world map"):
+                fd, bp = tempfile.mkstemp(suffix=".jpg"); os.close(fd)
+                temp_files.append(bp)
+                try:
+                    got = fetch_bg(query, [], "geography", bp, fmt="trivia")
+                except Exception:
+                    got = None
+                if got:
+                    bg_files.append(got)
         except Exception as e:
             print(f"[Comp] BG skipped: {e}")
-            bg_path = None
+        bg_arg = None
+        if bg_files:
+            ask_starts = [starts[i] for i, sg in enumerate(segs) if sg[0] == "ask"]
+            def _snap(t):
+                return min(ask_starts, key=lambda a: abs(a - t)) if ask_starts else t
+            nb = len(bg_files)
+            bounds = ([0.0] + [_snap(audio_duration * i / nb) for i in range(1, nb)]
+                      + [audio_duration])
+            bg_arg = [(bounds[i], bounds[i + 1], bg_files[i]) for i in range(nb)]
+        print(f"[Comp] backgrounds: {len(bg_files)} photos")
 
         fd, video_path = tempfile.mkstemp(suffix=".mp4"); os.close(fd)
         temp_files.append(video_path)
         partial(render_quiz, quiz=quiz)(video_path, accent, audio_duration,
-                                        seg_starts=starts, bg_image=bg_path)
+                                        seg_starts=starts, bg_image=bg_arg)
 
+        # 16:9 blurred-self-fill canvas + low BGM bed (same tracks and 0.08
+        # volume the daily pipeline mixes; normalize=0 keeps the voice level).
         fd, final_path = tempfile.mkstemp(suffix=".mp4"); os.close(fd)
         temp_files.append(final_path)
+        import random as _rnd
         import subprocess
-        # 16:9 canvas with blurred self-fill — long-form is watched on
-        # desktop/TV where a bare 9:16 strip reads as repurposed content.
-        subprocess.run(["ffmpeg", "-y", "-i", video_path, "-i", audio_path,
-                        "-filter_complex",
-                        "[0:v]scale=1920:1080,boxblur=24:4[bg];"
-                        "[0:v]scale=-2:1080[fg];[bg][fg]overlay=(W-w)/2:0",
-                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                        "-c:a", "aac", "-b:a", "192k", "-shortest", final_path],
-                       check=True, capture_output=True)
+        music_dir = Path(__file__).parent / "music"
+        tracks = sorted(music_dir.glob("*.mp3")) if music_dir.exists() else []
+        cmd = ["ffmpeg", "-y", "-i", video_path, "-i", audio_path]
+        if tracks:
+            track = _rnd.choice(tracks)
+            print(f"[Comp] BGM: {track.name}")
+            cmd += ["-stream_loop", "-1", "-i", str(track)]
+            afilter = ("[2:a]volume=0.08[m];"
+                       "[1:a][m]amix=inputs=2:duration=first:"
+                       "dropout_transition=3:normalize=0[aout]")
+        else:
+            afilter = "[1:a]anull[aout]"
+        cmd += ["-filter_complex",
+                "[0:v]scale=1920:1080,boxblur=24:4[bg];"
+                "[0:v]scale=-2:1080[fg];[bg][fg]overlay=(W-w)/2:0[vout];" + afilter,
+                "-map", "[vout]", "-map", "[aout]",
+                "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                "-c:a", "aac", "-b:a", "192k", "-shortest", final_path]
+        subprocess.run(cmd, check=True, capture_output=True)
+        try:
+            from shared import _loudnorm_in_place
+            _loudnorm_in_place(final_path)
+        except Exception as e:
+            print(f"[Comp] loudnorm skipped: {e}")
 
-        thumb_path = _thumbnail(accent)
+        thumb_path = _thumbnail(accent, photo=bg_files[0] if bg_files else None)
         temp_files.append(thumb_path)
 
         description = (
