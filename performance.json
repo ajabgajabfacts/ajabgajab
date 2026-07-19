@@ -7,8 +7,8 @@
     "views": 10,
     "likes": 1,
     "comments": 2,
-    "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "avg_view_pct": 79.87,
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "v4ydz9cDN58",
@@ -18,8 +18,8 @@
     "views": 5,
     "likes": 1,
     "comments": 3,
-    "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "avg_view_pct": 94.35,
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "LkYyEKnINMU",
@@ -29,8 +29,8 @@
     "views": 4,
     "likes": 1,
     "comments": 3,
-    "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "avg_view_pct": 221.62,
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "0Kese3jMDRg",
@@ -41,7 +41,7 @@
     "likes": 1,
     "comments": 3,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "Au_a3g1-QbM",
@@ -51,8 +51,8 @@
     "views": 8,
     "likes": 1,
     "comments": 3,
-    "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "avg_view_pct": 108.74999999999999,
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "VO59mxsV4Cg",
@@ -63,7 +63,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "XLzBkmBQXVo",
@@ -74,7 +74,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "7zO2nayWwf4",
@@ -85,7 +85,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "C6b8zhUJkEU",
@@ -96,7 +96,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "C1VWz-Jbp2I",
@@ -107,17 +107,28 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
   },
   {
     "video_id": "1tVcpVkFDZM",
     "key": "in_food_6",
     "title": "Kaunsi soft drink pehle headache ki dawa thi?",
     "published": "2026-07-18T12:04:46Z",
-    "views": 5,
+    "views": 6,
     "likes": 0,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-18T16:01:22+00:00"
+    "fetched": "2026-07-19T01:31:23+00:00"
+  },
+  {
+    "video_id": "H2dgvecuvgg",
+    "key": "in_movies_7",
+    "title": "3 Idiots mein Rancho ki asli umar kitni thi?",
+    "published": "2026-07-18T16:05:03Z",
+    "views": 1,
+    "likes": 1,
+    "comments": 2,
+    "avg_view_pct": null,
+    "fetched": "2026-07-19T01:31:23+00:00"
   }
 ]
