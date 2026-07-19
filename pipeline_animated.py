@@ -16,7 +16,7 @@ Changelog v7:
 
 __version__ = "7.0.0"
 
-import os, json, asyncio, hashlib, datetime, tempfile, random, math, copy
+import os, re, json, asyncio, hashlib, datetime, tempfile, random, math, copy
 from pathlib import Path
 from quality_scorer import score_pipeline_output
 from shared import add_to_ledger as _add_to_topic_ledger
@@ -216,16 +216,19 @@ def _post_affiliate_comment(yt, vid_id: str, concept: str) -> None:
         print(f"[Comment] Affiliate comment skipped: {e}")
 
 
-_AU_FINANCE_HASHTAGS = (
-    "#AjabGajabFacts #AmazingFacts #FactsInHindi #HindiFacts #GKFacts "
-    "#IndiaFacts #DidYouKnow #RochakTathya #Facts #GK #Shorts #YTShortsIndia"
+# First 3 hashtags surface above the title in the Shorts UI — keep one brand
+# tag + two Devanagari tags there so the visible strip reads Hindi.
+_HASHTAGS = (
+    "#AjabGajabFacts #रोचकतथ्य #अजबगजब #AmazingFacts #FactsInHindi #HindiFacts "
+    "#हिंदीफैक्ट्स #GKFacts #IndiaFacts #DidYouKnow #RochakTathya #Facts #GK "
+    "#Shorts #YTShortsIndia"
 )
 
 _CORE_TAGS = [
     "ajab gajab facts", "amazing facts", "facts in hindi", "hindi facts",
     "rochak tathya", "gk in hindi", "india facts", "did you know",
     "interesting facts", "gk quiz hindi", "hinglish facts", "daily facts",
-    "shorts",
+    "shorts", "रोचक तथ्य", "अजब गजब", "हिंदी में जानकारी", "जीके क्विज",
 ]
 
 
@@ -1227,11 +1230,24 @@ def upload_to_youtube(
     merged_tags = list(dict.fromkeys(meta.get("tags", []) + _CORE_TAGS))[:30]
     affiliate_block = build_affiliate_block(meta.get("concept", ""))
     affiliate_part  = f"{affiliate_block}\n\n" if affiliate_block else ""
+
+    # Devanagari block: first sentence of the spoken-Hindi narration (this
+    # video's actual hook) when available, plus a fixed Hindi channel line.
+    deva_narr = (meta.get("narration_devanagari") or "").strip()
+    deva_hook = ""
+    if deva_narr:
+        deva_hook = re.split(r"(?<=[।?!.])\s", deva_narr, maxsplit=1)[0][:140].strip()
+    deva_block = (
+        (f"{deva_hook}\n" if deva_hook else "")
+        + "रोज़ नए अजब-गजब तथ्य और सवाल — हिंदी में! जवाब comment में लिखो।\n\n"
+    )
+
     full_description = (
         f"{hook_teaser}\n\n"
+        f"{deva_block}"
         f"{meta['description']}\n\n"
         f"{affiliate_part}"
-        f"{_AU_FINANCE_HASHTAGS}\n\n"
+        f"{_HASHTAGS}\n\n"
         f"(!) {DISCLAIMER}"
     )
 
@@ -1382,6 +1398,12 @@ async def run(channel_config_json: str) -> None:
             else:
                 print("[Hinglish] WARNING: no pre-baked voice and no Gemini key — narration will be ENGLISH")
             narration_txt = " ".join(t for _k, _q, t in _segs)
+            # Carry the Devanagari narration to upload_to_youtube so the
+            # description gets a native-script block (language/geo signal +
+            # Hindi search). Guarded: if localisation fell back to English
+            # there is no Devanagari to ship.
+            if re.search(r"[ऀ-ॿ]", narration_txt):
+                anim_meta["narration_devanagari"] = narration_txt
         else:
             narration_txt = anim_meta["narration"]
 
