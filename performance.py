@@ -163,5 +163,15 @@ def retired_keys() -> set:
     return dead
 
 
+# Deliberate topic tilt, multiplied on top of the data-driven category weights.
+# Movies is the channel's first breakout ("3 Idiots" reel, 280 views on 2026-07-20)
+# and the audience signal so far is Bollywood; this steers the rotation toward it
+# without waiting for enough matured videos to move category_weights on its own.
+# It COMPOSES with the live weighting — if movies proves out the data amplifies it
+# further, if it fades the data pulls it back. Set to 1.0 to remove the tilt.
+_MANUAL_BOOST = {"movies": 2.0}
+
+
 def weight_for_key(key: str, weights: dict) -> float:
-    return weights.get(_KEY_TO_CATEGORY.get(key, ""), 1.0)
+    cat = _KEY_TO_CATEGORY.get(key, "")
+    return weights.get(cat, 1.0) * _MANUAL_BOOST.get(cat, 1.0)

@@ -567,13 +567,16 @@ def pick_animation_type(channel_id: str, rng) -> str:
     # rest by their category's live track record (performance.py). Neutral on
     # any failure — the chooser must never block a post.
     try:
-        from performance import category_weights, retired_keys, weight_for_key
+        from performance import category_weights, retired_keys, weight_for_key, _MANUAL_BOOST
         dead  = retired_keys()
         alive = [k for k in pool if k not in dead]
         if alive:
             pool = alive
         weights = category_weights()
-        if weights:
+        # Fire the weighted pick when EITHER the data has a verdict or a manual
+        # tilt is set — otherwise a young channel (empty category_weights) would
+        # ignore the deliberate movie boost until enough videos matured.
+        if weights or _MANUAL_BOOST:
             chosen = rng.choices(pool, weights=[weight_for_key(k, weights) for k in pool], k=1)[0]
             print(f"[AnimLedger] Weighted pick ({len(dead)} retired, "
                   f"cat weights {weights}) -> {chosen}")
