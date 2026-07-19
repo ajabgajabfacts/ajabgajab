@@ -18,7 +18,7 @@ from PIL import Image, ImageDraw
 
 from charts import (QUIZZES, build_segments, insert_countdown_gaps,
                     mix_quiz_sfx, render_quiz, segment_starts)
-from pipeline_animated import (DEFAULT_ACCENT, _build_creds, _post_engagement_comment,
+from pipeline_animated import (DEFAULT_ACCENT, _build_creds,
                                _upload_with_retry, generate_voiceover, load_font)
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -150,7 +150,8 @@ async def main() -> None:
                                                       audio_duration)
         starts, _real = segment_starts(segs, audio_duration, marks)
         try:
-            mix_quiz_sfx(audio_path, quiz["key"], audio_duration, seg_starts=starts)
+            mix_quiz_sfx(audio_path, quiz["key"], audio_duration,
+                         seg_starts=starts, quiz=quiz)
         except Exception as e:
             print(f"[Comp] SFX skipped: {e}")
         print(f"[Comp] narration {audio_duration/60:.1f} min "
@@ -176,9 +177,14 @@ async def main() -> None:
         fd, final_path = tempfile.mkstemp(suffix=".mp4"); os.close(fd)
         temp_files.append(final_path)
         import subprocess
+        # 16:9 canvas with blurred self-fill — long-form is watched on
+        # desktop/TV where a bare 9:16 strip reads as repurposed content.
         subprocess.run(["ffmpeg", "-y", "-i", video_path, "-i", audio_path,
-                        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-                        "-shortest", final_path],
+                        "-filter_complex",
+                        "[0:v]scale=1920:1080,boxblur=24:4[bg];"
+                        "[0:v]scale=-2:1080[fg];[bg][fg]overlay=(W-w)/2:0",
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                        "-c:a", "aac", "-b:a", "192k", "-shortest", final_path],
                        check=True, capture_output=True)
 
         thumb_path = _thumbnail(accent)
@@ -216,8 +222,14 @@ async def main() -> None:
                                                            mimetype="image/png")).execute()
         except Exception as e:
             print(f"[Comp] thumbnail failed: {e}")
+        # The shorts comment helper's score text is per-video — the mega quiz
+        # posts its own 30-question CTA.
         try:
-            _post_engagement_comment(yt, vid_id, quiz["title"])
+            n = len(quiz["questions"])
+            yt.commentThreads().insert(part="snippet", body={"snippet": {
+                "videoId": vid_id, "topLevelComment": {"snippet": {"textOriginal":
+                    f"{n} mein se kitne sahi hue? Comment mein batao — "
+                    "sabse tricky kaunsa laga?"}}}}).execute()
         except Exception as e:
             print(f"[Comp] comment failed: {e}")
 

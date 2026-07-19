@@ -1304,9 +1304,13 @@ if WYR_ENABLED:
 # ── Synthesized SFX: ticking under countdowns, ding on reveals ───────────────
 # Pure sine synthesis — zero copyright surface. Timing uses the same
 # word-share model as the renderer, so sound and visuals stay aligned.
-def mix_quiz_sfx(audio_path: str, anim_key: str, duration: float, seg_starts=None) -> None:
+def mix_quiz_sfx(audio_path: str, anim_key: str, duration: float, seg_starts=None,
+                 quiz=None) -> None:
+    # quiz may be passed directly for ad-hoc quizzes (e.g. the weekly
+    # compilation) whose key is not in QUIZZES — the lookup alone returned
+    # silently for those, shipping a compilation with no beeps or dings.
     import numpy as np, wave, tempfile, os
-    quiz = next((q for q in QUIZZES if q["key"] == anim_key), None)
+    quiz = quiz or next((q for q in QUIZZES if q["key"] == anim_key), None)
     if not quiz or duration <= 0:
         return
     segs   = build_segments(quiz)

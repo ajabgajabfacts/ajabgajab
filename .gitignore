@@ -23,6 +23,7 @@ token_*.json
 # (avoid-last-15 sees an empty history) — found on first Actions run.
 !anim_ledger.json
 !topic_ledger.json
+!compilation_ledger.json
 # Same rule as the ledgers above: these are read by the pipeline in CI, so the
 # blanket *.json must not swallow them. bg_used.json stops the same Pexels photo
 # being reused across videos (repetitious-content risk); question_bank.json is
