@@ -8,7 +8,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": 79.87,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "v4ydz9cDN58",
@@ -19,7 +19,7 @@
     "likes": 1,
     "comments": 4,
     "avg_view_pct": 94.35,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "LkYyEKnINMU",
@@ -30,7 +30,7 @@
     "likes": 1,
     "comments": 4,
     "avg_view_pct": 221.62,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "0Kese3jMDRg",
@@ -41,18 +41,18 @@
     "likes": 1,
     "comments": 4,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "Au_a3g1-QbM",
     "key": "in_animals_1",
     "title": "Kaunsa jaanwar mammal hai aur bachon ko janm deta hai?",
     "published": "2026-07-17T01:35:18Z",
-    "views": 11,
+    "views": 12,
     "likes": 1,
     "comments": 4,
-    "avg_view_pct": 108.74999999999999,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "avg_view_pct": 102.23,
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "VO59mxsV4Cg",
@@ -62,8 +62,8 @@
     "views": 3,
     "likes": 1,
     "comments": 2,
-    "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "avg_view_pct": 0.0,
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "XLzBkmBQXVo",
@@ -74,7 +74,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "7zO2nayWwf4",
@@ -84,8 +84,8 @@
     "views": 13,
     "likes": 1,
     "comments": 2,
-    "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "avg_view_pct": 0.0,
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "C6b8zhUJkEU",
@@ -96,7 +96,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "C1VWz-Jbp2I",
@@ -107,7 +107,7 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "1tVcpVkFDZM",
@@ -118,18 +118,18 @@
     "likes": 0,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "H2dgvecuvgg",
     "key": "in_movies_7",
     "title": "3 Idiots mein Rancho ki asli umar kitni thi?",
     "published": "2026-07-18T16:05:03Z",
-    "views": 280,
+    "views": 278,
     "likes": 3,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "BIuhJ8-lDxo",
@@ -140,28 +140,39 @@
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "13tk2-gc0Ok",
     "key": "in_india_gk_3",
     "title": "India ka pehla Oscar kisne jeeta tha?",
     "published": "2026-07-19T07:03:54Z",
-    "views": 4,
+    "views": 7,
     "likes": 1,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
   },
   {
     "video_id": "LLAl7pbne-k",
     "key": "in_india_gk_4",
     "title": "Duniya ka ekmatra floating national park kahan hai?",
     "published": "2026-07-19T12:04:26Z",
-    "views": 1,
+    "views": 2,
     "likes": 0,
     "comments": 2,
     "avg_view_pct": null,
-    "fetched": "2026-07-19T16:12:39+00:00"
+    "fetched": "2026-07-20T01:31:16+00:00"
+  },
+  {
+    "video_id": "AJ8hM6Cj4g0",
+    "key": "in_india_gk_5",
+    "title": "Kaunsa board game ancient India mein bana tha?",
+    "published": "2026-07-19T16:15:59Z",
+    "views": 2,
+    "likes": 0,
+    "comments": 2,
+    "avg_view_pct": null,
+    "fetched": "2026-07-20T01:31:16+00:00"
   }
 ]
