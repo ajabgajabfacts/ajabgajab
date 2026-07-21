@@ -251,5 +251,16 @@
     "curriculum": 1,
     "quality_score": 7.95,
     "video_id": "zIk7fOoS04I"
+  },
+  {
+    "date": "2026-07-21",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "title": "India ki pehli 3D film kaunsi thi?",
+    "hook": "Ye Bollywood film nahi thi! Question 1",
+    "source": "animated",
+    "concept": "in_movies_4",
+    "curriculum": 1,
+    "quality_score": 8.0,
+    "video_id": "-26dDC8BdyI"
   }
 ]
