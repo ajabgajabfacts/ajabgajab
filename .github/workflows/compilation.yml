@@ -1,7 +1,8 @@
-name: "Ajab Gajab — Weekly Mega Quiz (long-form)"
+name: "Ajab Gajab — Weekly Mega Quiz Short"
 
-# One 30-sawaal regular video per week from recent reels + the bank.
-# Sunday 13:30 UTC = Sunday 19:00 IST — Indian evening prime time.
+# One longer play-along Short per week from recent reels + the bank. Must
+# stay under 3 minutes and vertical or it is not a Short (see
+# compilation.py). Sunday 13:30 UTC = Sunday 19:00 IST — Indian prime time.
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +10,11 @@ on:
         description: "Post even if a compilation already went out today"
         type: boolean
         default: false
+      privacy:
+        description: "Upload visibility (use unlisted to test without publishing)"
+        type: choice
+        default: "public"
+        options: ["public", "unlisted", "private"]
   schedule:
     - cron: "30 13 * * 0"
 
@@ -45,6 +51,7 @@ jobs:
           CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && '1' || '' }}
+          COMP_PRIVACY: ${{ github.event_name == 'workflow_dispatch' && inputs.privacy || 'public' }}
         run: python compilation.py
 
       - name: Commit compilation ledger
