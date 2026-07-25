@@ -804,6 +804,63 @@ def insert_countdown_gaps(audio_path, segs, marks, duration):
 
 
 # ── Generic quiz renderer ─────────────────────────────────────────────────────
+# ── Text fitting ──────────────────────────────────────────────────────────────
+# Ported from Quizora 2026-07-25. The question card is a fixed pixel width but
+# the wrap counted CHARACTERS, and the two only agree for average-width glyphs —
+# on Quizora's bank 28 question lines rendered past the edge of the white card.
+# The length-based (font, wrap) ladder this replaces has the same flaw: it keys
+# off len(text), which does not know how wide those characters actually are.
+_measure_fig = None
+
+
+def _measure():
+    global _measure_fig
+    if _measure_fig is None:
+        _measure_fig = plt.figure(figsize=(W_PX / DPI, H_PX / DPI), dpi=DPI)
+        _measure_fig.add_subplot(111)
+        _measure_fig.canvas.draw()
+    return _measure_fig, _measure_fig.axes[0], _measure_fig.canvas.get_renderer()
+
+
+def _text_px(s: str, fontsize: int) -> float:
+    fig, ax, rend = _measure()
+    t = ax.text(0.5, 0.5, s, transform=ax.transAxes, fontsize=fontsize,
+                fontweight="bold", ha="center", va="center")
+    w = t.get_window_extent(renderer=rend).width
+    t.remove()
+    return w
+
+
+def card_inner_px(frac: float = 0.91, margin: float = 24.0) -> float:
+    _, ax, _ = _measure()
+    return frac * ax.get_window_extent().width - margin
+
+
+def _wrap_px(text: str, fontsize: int, max_px: float) -> list:
+    words, lines, cur = str(text).split(), [], ""
+    for w in words:
+        trial = f"{cur} {w}".strip()
+        if cur and _text_px(trial, fontsize) > max_px:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = trial
+    if cur:
+        lines.append(cur)
+    return lines or [""]
+
+
+def fit_question(text: str, max_px: float = None, max_lines: int = 4) -> tuple:
+    """(wrapped_text, fontsize, n_lines) fitting both card width and line budget."""
+    max_px = card_inner_px() if max_px is None else max_px
+    lines = None
+    for fs in (34, 32, 30, 28, 26):
+        lines = _wrap_px(text, fs, max_px)
+        if len(lines) <= max_lines:
+            return "\n".join(lines), fs, len(lines)
+    return "\n".join(lines), 26, len(lines)
+
+
 def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts=None,
                 bg_image=None):
     ah   = _hex(accent)
@@ -1017,12 +1074,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
         # with the chip (the old fixed-centre card grew both ways and did exactly
         # that). Font + wrap width step down with length so it stays ~<=4 lines and
         # clear of the option cards below.
-        _raw = q["q"]
-        if   len(_raw) <= 52: _fs, _ww = 34, 18
-        elif len(_raw) <= 80: _fs, _ww = 30, 22
-        else:                 _fs, _ww = 26, 26
-        qtext  = wrap(_raw, _ww)
-        qlines = qtext.count("\n") + 1
+        qtext, _fs, qlines = fit_question(q["q"])
         QTOP   = 0.928                                    # card top edge, below the chip
         qh     = 0.045 + 0.049 * qlines
         qcen   = QTOP - qh / 2
