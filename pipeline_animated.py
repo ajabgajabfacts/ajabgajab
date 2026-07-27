@@ -1074,9 +1074,18 @@ def build_video(
             except Exception as e:
                 print(f"[Music] Mix failed: {e}")
 
+    # preset/bitrate matter more than they look, because YouTube RE-ENCODES what
+    # we upload: a soft source becomes a softer stream. Measured on a real render,
+    # x264 "ultrafast" at default CRF produced a 2,362KB file where "veryfast"
+    # produced 482KB of the same quality target — ultrafast was spending ~5x the
+    # bits inefficiently, not buying quality with them. "medium" costs about a
+    # second per render here, which is nothing against the Actions budget.
+    # 10 Mbps is YouTube's own recommendation for 1080p SDR upload; audio at
+    # 192k because the default 128k is audible on speech sibilance.
     final.write_videofile(
-        out_path, fps=FPS, codec="libx264",
-        audio_codec="aac", preset="ultrafast", threads=2, logger=None,
+        out_path, fps=FPS, codec="libx264", bitrate="10M",
+        audio_codec="aac", audio_bitrate="192k",
+        preset="medium", threads=2, logger=None,
     )
     from shared import _loudnorm_in_place
     _loudnorm_in_place(out_path)
