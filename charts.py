@@ -576,8 +576,23 @@ def _narration(quiz):
 # on Windows.
 _EMOJI_DIR   = Path(__file__).parent / "assets" / "emoji"
 _EMOJI_CACHE = _EMOJI_DIR / "cache"
+# 72px artwork was being upscaled on a 1020x1400 canvas. Noto publishes the same
+# emoji at 512px, so the artwork is downscaled instead of stretched — no new
+# dependency, same fetch-and-cache path. Twemoji stays as the fallback.
+_NOTO        = "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/512/emoji_u{}.png"
 _TWEMOJI     = "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/{}.png"
 _emoji_memo: dict = {}
+
+
+def emoji_zoom(img, target_px: float) -> float:
+    """OffsetImage zoom that renders `img` at `target_px` on-canvas pixels.
+
+    zoom is relative to the SOURCE image's size, so it is not a stable knob once
+    artwork resolution changes: the zoom=0.8 that drew a 72px Twemoji at 77px
+    would draw a 512px Noto at ~546px and cover the frame.
+    """
+    src = max(img.size[0], 1)
+    return target_px / (src * (DPI / 72.0))
 
 
 def emoji_image(char: str, concept: str = "default"):
@@ -594,15 +609,26 @@ def emoji_image(char: str, concept: str = "default"):
 
     img = None
     if char:
-        code = "-".join(f"{ord(c):x}" for c in char if ord(c) not in (0xFE0F, 0x200D))
+        pts  = [ord(c) for c in char if ord(c) not in (0xFE0F, 0x200D)]
+        code = "-".join(f"{c:x}" for c in pts)
+        noto = "_".join(f"{c:x}" for c in pts)
         try:
             _EMOJI_CACHE.mkdir(parents=True, exist_ok=True)
             path = _EMOJI_CACHE / f"{code}.png"
             if not path.exists():
                 import urllib.request
-                req = urllib.request.Request(_TWEMOJI.format(code),
-                                             headers={"User-Agent": "Mozilla/5.0"})
-                path.write_bytes(urllib.request.urlopen(req, timeout=15).read())
+                last = None
+                for url in (_NOTO.format(noto), _TWEMOJI.format(code)):
+                    try:
+                        req = urllib.request.Request(
+                            url, headers={"User-Agent": "Mozilla/5.0"})
+                        path.write_bytes(urllib.request.urlopen(req, timeout=15).read())
+                        last = None
+                        break
+                    except Exception as _ue:
+                        last = _ue
+                if last is not None:
+                    raise last
             img = Image.open(path).convert("RGBA")
         except Exception as e:
             print(f"[Emoji] '{char}' unavailable ({e}) — using the {concept} icon")
@@ -1007,7 +1033,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
         ImageDraw.Draw(mask).ellipse((0, 0, img.size[0] - 1, img.size[1] - 1), fill=255)
         img = img.copy()
         img.putalpha(Image.composite(img.getchannel("A"), mask, mask))
-        ab = AnnotationBbox(OffsetImage(_np.asarray(img), zoom=0.95),
+        ab = AnnotationBbox(OffsetImage(_np.asarray(img), zoom=emoji_zoom(img, 91)),
                             (x, y), xycoords=ax.transAxes,
                             frameon=False, box_alignment=(0.5, 0.5), zorder=8)
         ax.add_artist(ab)
@@ -1092,7 +1118,7 @@ def render_quiz(out_path, accent, target_duration, fps=24, quiz=None, seg_starts
             from matplotlib.offsetbox import OffsetImage, AnnotationBbox
             import numpy as _np
             ax.add_artist(AnnotationBbox(
-                OffsetImage(_np.asarray(_art), zoom=0.8),
+                OffsetImage(_np.asarray(_art), zoom=emoji_zoom(_art, 77)),
                 (0.115, QTOP), xycoords=ax.transAxes,
                 frameon=False, box_alignment=(0.5, 0.5), zorder=6))
 
