@@ -1,11 +1,5 @@
 [
   {
-    "date": "2026-07-20",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_science_4",
-    "quality_score": 8.05
-  },
-  {
     "date": "2026-07-21",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_movies_1",
@@ -178,5 +172,11 @@
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_food_8",
     "quality_score": 8.05
+  },
+  {
+    "date": "2026-07-28",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_world_2",
+    "quality_score": 8.4
   }
 ]
