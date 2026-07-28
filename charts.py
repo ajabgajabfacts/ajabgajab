@@ -23,6 +23,37 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import animation
 
+
+def _install_font() -> str:
+    """Register the bundled Poppins and make it matplotlib's default.
+
+    Without this the renderer silently used matplotlib's built-in DejaVu Sans,
+    which is both dated and WIDE. On Quizora, measured across all 228 live
+    questions, DejaVu forced 9 of them below the 34pt top size while Poppins fits
+    228/228 — the wrapper steps the size down when lines stop fitting, so a wide
+    face costs legibility silently rather than overflowing visibly.
+
+    The .ttf is committed because CI runs on a bare Linux image with no Poppins
+    and none of load_font's other candidates installed.
+    """
+    try:
+        from matplotlib import font_manager
+        d = Path(__file__).parent / "assets" / "fonts"
+        picked = None
+        for f in sorted(d.glob("*.ttf")):
+            font_manager.fontManager.addfont(str(f))
+            if f.name == "Poppins-Bold.ttf":
+                picked = font_manager.FontProperties(fname=str(f)).get_name()
+        if picked:
+            matplotlib.rcParams["font.family"] = picked
+            return picked
+    except Exception as e:
+        print(f"[Font] Poppins unavailable ({e}) — falling back to the default")
+    return "default"
+
+
+FONT_FAMILY = _install_font()
+
 W_PX, H_PX, DPI = 1020, 1400, 96
 BG = "#0C0E1C"
 

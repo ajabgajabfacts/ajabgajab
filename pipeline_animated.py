@@ -266,6 +266,11 @@ def load_font(size: int, bold: bool = True) -> ImageFont.FreeTypeFont:
     weight   = "Bold" if bold else "Regular"
     weight_l = "bold" if bold else ""
     candidates = [
+        # Bundled Poppins first, so burned-in overlays match the card text and CI
+        # (a bare Linux image with none of the system fonts below) gets a known
+        # face instead of an arbitrary fallback.
+        str(Path(__file__).parent / "assets" / "fonts" /
+            ("Poppins-Bold.ttf" if bold else "Poppins-SemiBold.ttf")),
         f"/usr/share/fonts/truetype/liberation/LiberationSans-{weight}.ttf",
         f"/usr/share/fonts/truetype/dejavu/DejaVuSans{'-Bold' if bold else ''}.ttf",
         f"/System/Library/Fonts/Supplemental/Arial{' Bold' if bold else ''}.ttf",
