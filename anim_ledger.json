@@ -2,12 +2,6 @@
   {
     "date": "2026-07-28",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_world_2",
-    "quality_score": 8.4
-  },
-  {
-    "date": "2026-07-28",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_world_3",
     "quality_score": 8.05
   },
@@ -178,5 +172,11 @@
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_movies_4",
     "quality_score": 8.0
+  },
+  {
+    "date": "2026-08-04",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_movies_1",
+    "quality_score": 7.8
   }
 ]
