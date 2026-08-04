@@ -85,6 +85,14 @@ def _loudnorm_in_place(mp4_path: str) -> None:
             ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
              "-i", mp4_path,
              "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+             # -ar 48000 IS LOAD-BEARING. ffmpeg's loudnorm filter upsamples
+             # internally to 192 kHz, and with no explicit rate the AAC encoder
+             # clamps to its 96 kHz maximum — so every video this pipeline has
+             # produced shipped as 96 kHz AAC. It decodes fine and YouTube
+             # transcodes it, but Windows' built-in players decode 96 kHz AAC as
+             # SILENCE, which makes local review of a render impossible.
+             # 48 kHz is YouTube's recommendation and plays everywhere.
+             "-ar", "48000",
              "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
              tmp],
             capture_output=True, timeout=120,
