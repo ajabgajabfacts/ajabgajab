@@ -2,12 +2,6 @@
   {
     "date": "2026-07-29",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_science_4",
-    "quality_score": 8.05
-  },
-  {
-    "date": "2026-07-29",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_science_5",
     "quality_score": 8.1
   },
@@ -178,5 +172,11 @@
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_sports_6",
     "quality_score": 8.0
+  },
+  {
+    "date": "2026-08-05",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_sports_7",
+    "quality_score": 7.8
   }
 ]
