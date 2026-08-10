@@ -2,12 +2,6 @@
   {
     "date": "2026-08-02",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_science_4",
-    "quality_score": 8.05
-  },
-  {
-    "date": "2026-08-02",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_science_5",
     "quality_score": 8.1
   },
@@ -177,6 +171,12 @@
     "date": "2026-08-10",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_movies_16",
+    "quality_score": 7.8
+  },
+  {
+    "date": "2026-08-10",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_movies_15",
     "quality_score": 7.8
   }
 ]
