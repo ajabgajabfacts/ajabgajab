@@ -2,12 +2,6 @@
   {
     "date": "2026-08-10",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_movies_15",
-    "quality_score": 7.8
-  },
-  {
-    "date": "2026-08-10",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_movies_14",
     "quality_score": 8.4
   },
@@ -177,6 +171,12 @@
     "date": "2026-08-17",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_history_3",
+    "quality_score": 7.8
+  },
+  {
+    "date": "2026-08-17",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_history_4",
     "quality_score": 7.8
   }
 ]
