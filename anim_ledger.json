@@ -2,12 +2,6 @@
   {
     "date": "2026-08-09",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_food_6",
-    "quality_score": 7.8
-  },
-  {
-    "date": "2026-08-09",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_food_7",
     "quality_score": 7.8
   },
@@ -178,5 +172,11 @@
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_animals_3",
     "quality_score": 8.15
+  },
+  {
+    "date": "2026-08-17",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_history_1",
+    "quality_score": 7.8
   }
 ]
