@@ -15,8 +15,9 @@ on:
         type: choice
         default: "public"
         options: ["public", "unlisted", "private"]
-  schedule:
-    - cron: "30 13 * * 0"
+  # PAUSED 2026-08-18 with the daily arm — same note.
+  # schedule:
+  #   - cron: "30 13 * * 0"
 
 permissions:
   contents: write

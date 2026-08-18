@@ -1628,7 +1628,32 @@ async def run(channel_config_json: str) -> None:
                 pass
 
 
+# ── PAUSED 2026-08-18 ─────────────────────────────────────────────────────────
+# 138 videos, 1,368 lifetime views, 5 subscribers. Daily medians over the last
+# fortnight: 6, 1, 2, 0, 4, 18, 0, 12, 4, 1, 1, 1. The channel gained SEVEN views
+# in the 20 hours to 2026-08-18 06:47 UTC.
+#
+# This is not a distribution problem waiting on a fix. The 2026-08-06 audit
+# already established that topic choice does not move the median here, and the
+# 2026-08-03 decision was to revive it as a zoomed-picture general-audience
+# channel — a rebuild that was never started. Until that rebuild happens, every
+# run spends Gemini calls, Pexels calls and YouTube quota to produce a video
+# with a median of one view, and the duplicate-upload defect (22.7-28%) means a
+# share of them are not even new.
+#
+# The guard lives HERE and not only in the workflow crons because the PRIMARY
+# trigger is cron-job.org calling workflow_dispatch — commenting out the GitHub
+# backup schedule would not stop a single real run. This does.
+#
+# To revive: set PAUSED = False. FORCE_POST=1 still overrides it for a one-off
+# test render, so the pipeline stays exercisable while it is parked.
+PAUSED = True
+
 if __name__ == "__main__":
+    if PAUSED and os.environ.get("FORCE_POST") != "1":
+        print("[Guard] Channel PAUSED (see the PAUSED note in this file) — "
+              "exiting cleanly without posting. FORCE_POST=1 overrides.")
+        raise SystemExit(0)
     config = os.environ.get("CHANNEL_CONFIG")
     if not config:
         raise SystemExit("ERROR: CHANNEL_CONFIG environment variable not set.")

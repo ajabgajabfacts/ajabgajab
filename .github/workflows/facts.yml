@@ -22,11 +22,17 @@ on:
         description: "Force a specific reel key (blank = normal rotation)"
         type: string
         default: ""
-  schedule:
-    - cron: "0 3 * * *"     # backup for the 01:30 UTC / 07:00 IST slot
-    - cron: "30 8 * * *"    # backup for the 07:00 UTC / 12:30 IST slot
-    - cron: "30 13 * * *"   # backup for the 12:00 UTC / 17:30 IST slot
-    - cron: "0 17 * * *"    # backup for the 15:30 UTC / 21:00 IST slot
+  # PAUSED 2026-08-18 — see the PAUSED note at the bottom of
+  # pipeline_animated.py for the numbers. Disabled here as well as in the
+  # pipeline so a paused channel is not burning four Actions runs a day doing
+  # nothing; the pipeline guard is what actually stops a post, because the
+  # PRIMARY trigger is cron-job.org, not this schedule. Those cron-job.org jobs
+  # must be switched off by hand — this file cannot reach them.
+  # schedule:
+  #   - cron: "0 3 * * *"     # backup for the 01:30 UTC / 07:00 IST slot
+  #   - cron: "30 8 * * *"    # backup for the 07:00 UTC / 12:30 IST slot
+  #   - cron: "30 13 * * *"   # backup for the 12:00 UTC / 17:30 IST slot
+  #   - cron: "0 17 * * *"    # backup for the 15:30 UTC / 21:00 IST slot
 
 permissions:
   contents: write
