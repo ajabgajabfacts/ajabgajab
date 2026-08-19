@@ -1,11 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
-    "anim_key": "in_geography_4",
-    "quality_score": 8.05
-  },
-  {
     "date": "2026-08-12",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_sports_1",
@@ -177,6 +171,12 @@
     "date": "2026-08-19",
     "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
     "anim_key": "in_technology_3",
+    "quality_score": 7.8
+  },
+  {
+    "date": "2026-08-19",
+    "channel_id": "UCv1kIT84T2MYlB9YDjtn23A",
+    "anim_key": "in_sports_1",
     "quality_score": 7.8
   }
 ]
