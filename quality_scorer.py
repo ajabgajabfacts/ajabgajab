@@ -238,7 +238,32 @@ def score_viral_hook(hook: str) -> tuple[float, list[str]]:
 
     pts = min(10.0, pts)
 
-    # Load viral_patterns.json for pattern match bonus
+    # Pattern-match bonus. DELIBERATELY UNPOPULATED ON THIS CHANNEL — the file
+    # does not exist here and should not be copied in. Decided 2026-09-06 after
+    # measuring, not guessing.
+    #
+    # The only viral_patterns.json in the project lives in week_test/files and is
+    # Australian-superannuation copy (`boss_shorting_super`, `division 296`,
+    # `most aussies`). Run against every shipped hook in each repo's topic
+    # ledger, those 20 patterns score:
+    #
+    #     level3challenge     0 of 178 hooks matched
+    #     ajabgajab           0 of 153 hooks matched
+    #     quizora             5 of 176, and all five are FALSE POSITIVES
+    #                         ("How long does sunlight take to reach Earth?"
+    #                          matched how_long_super_lasts; "...to fill the
+    #                          price gap" matched retirement_gap)
+    #
+    # The structural reason it does not port, which matters more than the
+    # keywords: this bonus rewards a FREELY WRITTEN hook for containing a phrase
+    # that has been shown to work. Money Sorted's scripts are written per video,
+    # so its hooks vary and the bonus carries signal. This channel draws its
+    # hooks and titles from FIXED POOLS, so any pattern file tuned to them would
+    # match every video (a constant +0.5, which is identical to no bonus) or none
+    # at all. A constant is not a signal.
+    #
+    # The `if exists()` guard below is kept so the path stays live if that ever
+    # changes. Do not re-propose the copy without new evidence.
     patterns_file = Path(__file__).parent / "viral_patterns.json"
     if patterns_file.exists():
         try:
