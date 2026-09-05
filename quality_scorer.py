@@ -1,8 +1,15 @@
 """
 Quality Scorer — zero AI tokens, pure rule-based analysis.
 Scores generated scripts/videos 0-10 before upload decision.
-Self-updating: reads analytics_report.json to reinforce patterns that
-are actually working on the channel (1-hour cache, no AI tokens).
+DORMANT self-updating path: _load_channel_learnings() reads
+analytics_report.json to reinforce title patterns that are actually working
+(1-hour cache, no AI tokens). **Nothing in this repo writes that file** — there
+is no analytics workflow here, it was the Money Sorted workflow's data bus — so
+the function has always returned {} and the scorer has never once self-updated.
+Verified 2026-09-06 by calling it. Kept rather than deleted (Quizora deleted its
+copy on 2026-08-02) because it is latent, not broken: add an analytics workflow
+that writes the report and it starts working. Until then, do not reason about
+this scorer as if it adapts.
 """
 import os, re, json, time
 from dataclasses import dataclass, field

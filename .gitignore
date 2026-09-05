@@ -7,14 +7,17 @@ CHANNEL_*_CONFIG.json
 token_*.json
 *.json
 !configs/
-# Analytics data bus: these MUST be tracked so GitHub Actions checkouts see
-# them (pipeline.py reads hook patterns + concept rankings from the repo).
-# The blanket *.json above blocked the analytics workflow from ever
-# committing its reports — root cause found 2026-07-05.
-!analytics_report.json
-!analytics_prev.json
-!intelligence_report.json
-!title_ab.json
+# Removed 2026-09-06: negations for analytics_report.json, analytics_prev.json,
+# intelligence_report.json and title_ab.json. They were added 2026-07-05 for a
+# real bug — the blanket *.json above stopped the analytics workflow committing
+# its reports — but THERE IS NO ANALYTICS WORKFLOW IN THIS REPO. All four files
+# are untracked, absent, and written by nothing here; they were the Money Sorted
+# workflow's data bus. Quizora dropped the same four on 2026-08-02.
+#
+# The one surviving reader, quality_scorer._load_channel_learnings(), is guarded
+# and returns {} — it has never fired. **If an analytics workflow is ever added
+# to this repo, restore these four negations first**, or the blanket *.json will
+# swallow its output and reproduce the 2026-07-05 bug exactly.
 !affiliates.json
 # Playlist-id cache: must be tracked or every CI run starts cold and the
 # get-or-create fallback can mint duplicate playlists (found 2026-07-11).
