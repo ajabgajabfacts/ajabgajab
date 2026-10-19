@@ -48,3 +48,7 @@ tmp*TEMP_MPY*
 
 # fetched Twemoji artwork for per-question emoji
 assets/emoji/cache/
+# Katha story Shorts (2026-10-19): the ledger is what stops a story being re-posted
+# in the same language, so CI must commit it; renders stay local.
+!katha/ledger.json
+katha/out/
