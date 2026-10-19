@@ -11,6 +11,8 @@ the source does not support.
 
 Deliberately left out: living people, figures whose legacy is a live political
 or communal fight, and anything that needs a claim about another faith.
+Removed 2026-10-19: kashi_vishwanath - its source leads straight into the Gyanvapi
+well/demolition history, a live communal and legal dispute.
 """
 
 S = []
@@ -54,7 +56,6 @@ add("draupadi_akshaya", "all", "myth", ["Akshaya Patra"], ["Draupadi Krishna pai
 
 # ── Hindi belt ──────────────────────────────────────────────────────────────
 add("lakshmibai", "hi", "history", ["Rani of Jhansi"], ["Rani of Jhansi painting", "Lakshmibai"])
-add("kashi_vishwanath", "hi", "wonder", ["Kashi Vishwanath Temple"], ["Kashi Vishwanath Temple", "Varanasi ghats painting"])
 add("tulsidas", "hi", "saint", ["Tulsidas"], ["Tulsidas painting", "Ramcharitmanas manuscript"])
 add("kabir", "hi", "saint", ["Kabir"], ["Kabir painting", "Kabir weaving"])
 add("meera", "hi", "saint", ["Meera"], ["Mirabai painting", "Meera bai"])

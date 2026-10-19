@@ -32,6 +32,9 @@ HARD RULES
   never as historical fact. History and places: only what the source states as fact.
 - Respectful toward every deity, faith, community and region. No claims about other religions.
   No miracle/medical/superstition claims stated as true. No politics. No living people.
+- NEVER touch disputed religious sites or episodes of temple/mosque destruction, conversion or
+  conflict between communities (e.g. Ayodhya, Gyanvapi, Mathura, invasions framed as faith vs faith).
+  If the source goes there, leave that part out entirely and tell a different part of the story.
 - Make it RELATABLE to this audience: where it fits naturally, connect to their region, festival,
   temple, food or saying - but only with facts the source supports.
 - {ending_rule}
@@ -72,6 +75,7 @@ Check:
    fact; only the explanation (how/why/who) should wait for the reveal near the end. Do not flag a hook for stating
    the fact itself. Rounded numbers marked "about/around/more than" that stay true to the source are fine; each sentence must follow logically. No graphic violence/gore/blood/sexual detail.
 4. Nothing disrespectful to any faith/community, no politics, no living people, no medical/miracle claims as fact.
+   REJECT anything touching disputed religious sites or temple/mosque destruction or inter-community conflict.
 5. Title and hook are true to the story (no false clickbait).
 
 Return JSON: {{"ok": true/false, "problems": ["specific problem + fix"], "fixed_sentences": [only if ok is false
