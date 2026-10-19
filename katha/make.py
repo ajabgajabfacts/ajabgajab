@@ -47,7 +47,7 @@ def credits(sources, shots):
     return "\n".join(lines)
 
 
-def upload(mp4, meta, cfg_json):
+def upload(mp4, meta, cfg_json, thumb=None):
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
     from googleapiclient.discovery import build
@@ -75,6 +75,11 @@ def upload(mp4, meta, cfg_json):
                 raise
             print("[upload] retry", str(e)[:100]); time.sleep(10 * (attempt + 1))
     vid = resp["id"]
+    if thumb:
+        try:                                     # custom thumbnails need a phone-verified channel
+            yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(thumb), mimetype="image/jpeg")).execute()
+        except Exception as e:
+            print("[upload] thumbnail failed:", str(e)[:150])
     if meta.get("comment"):
         try:
             yt.commentThreads().insert(part="snippet", body={"snippet": {"videoId": vid, "topLevelComment": {

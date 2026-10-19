@@ -71,6 +71,7 @@ use=false if ANY of these:
 - skeletons, bones, skulls, corpses, blood, wounds, weapons in use on a person, violence, gore, death scenes;
 - any nudity or sexualised content (including in sculpture or painting);
 - a map, diagram, chart, document/page scan, coin, stamp, book cover, modern signboard or poster;
+- a collage, grid, stereo pair, before/after comparison or any multi-panel image (it must be ONE picture);
 - modern people as a subject: tourists, selfies, a child or family in frame, crowds, anyone posing or walking through
   (tiny distant figures for scale are fine);
 - large readable text, a watermark or logo; blurry, tiny or very dark.
@@ -98,6 +99,8 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
             break
     # A file whose name shares no word with the story is usually a different place ("Mystery Lake,
     # New Zealand" for Roopkund). Keep those only if too few named files exist.
+    junk = ("stereo", "collage", "montage", "comparison", "composite", "anaglyph", "diagram", "map of", "logo")
+    cands = [c for c in cands if not any(j in c["file"].lower() for j in junk)]
     named = [c for c in cands if any(k in c["file"].lower() for k in kws)]
     cands = named + ([c for c in cands if c not in named] if len(named) < need else [])
     picked = []

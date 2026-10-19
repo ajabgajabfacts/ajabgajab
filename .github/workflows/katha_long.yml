@@ -1,0 +1,84 @@
+name: "Ajab Gajab — Long-form Stories"
+
+# Two long videos a week (~8-10 min, 7 fact-checked chapters, landscape):
+#   Sunday    05:35 UTC = 11:05 IST  Hindi
+#   Wednesday 05:35 UTC = 11:05 IST  regional, rotating weekly through the nine languages
+# Collections rotate per language (katha/longform.py ORDER), so no theme repeats back to back.
+on:
+  schedule:
+    - cron: "35 5 * * 0"
+    - cron: "35 5 * * 3"
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: "Language (hi, mr, bn, ta, te, kn, ml, gu, or, pa); blank = today's rotation"
+        type: string
+        default: ""
+      collection:
+        description: "Collection (mysteries, gods, marvels, mahabharata, wild, devotion, legends, food); blank = next"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ajabgajab-katha-long
+  cancel-in-progress: false
+
+jobs:
+  long:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: katha/requirements.txt
+      - name: ffmpeg
+        run: |
+          sudo apt-get update -qq || true
+          sudo apt-get install -y -qq ffmpeg
+      - name: Python dependencies
+        run: pip install --quiet -r katha/requirements.txt
+      - name: Pick language
+        id: lang
+        run: |
+          if [ -n "${{ inputs.lang }}" ]; then L="${{ inputs.lang }}"
+          elif [ "$(date -u +%u)" = "7" ]; then L=hi
+          else L=$(python -c "import datetime as d;r=['ta','te','bn','mr','kn','ml','gu','or','pa'];print(r[d.date.today().isocalendar()[1]%len(r)])")
+          fi
+          echo "l=$L" >> "$GITHUB_OUTPUT"; echo "language: $L"
+      - name: Write, check, render and upload
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
+        run: |
+          ARGS="--lang ${{ steps.lang.outputs.l }}"
+          [ -n "${{ inputs.collection }}" ] && ARGS="$ARGS --collection ${{ inputs.collection }}"
+          python katha/longform.py $ARGS
+      - name: Commit ledger
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          [ -f katha/longform_ledger.json ] && git add katha/longform_ledger.json
+          git diff --staged --quiet && exit 0
+          git commit -m "katha: update long-form ledger [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}" && exit 0
+            sleep 5
+          done
+          exit 1
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "${{ github.repository }}" \
+            --title "Long-form story failed: $(date -u '+%F %H:%M') ${{ steps.lang.outputs.l }}" \
+            --body "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

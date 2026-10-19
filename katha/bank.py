@@ -228,3 +228,61 @@ ANGLES = {
 }
 for _s in S:
     _s["angle"] = ANGLES.get(_s["key"], "")
+
+# ── Beyond history (2026-10-19, owner: "do not restrict ourselves to history") ─
+# science | nature | animal | space | engineering | food | sport | record | people
+# Same rules: Wikipedia-grounded, no living people, family-clean. `angle` is the spine.
+def add2(key, lang, kind, wiki, art, angle):
+    add(key, lang, kind, wiki, art); ANGLES[key] = angle; S[-1]["angle"] = angle
+
+# Space & science (pan-Indian)
+add2("chandrayaan3", "all", "space", ["Chandrayaan-3"], ["Chandrayaan-3 Vikram lander", "Chandrayaan-3 launch"], "the first landing near the Moon's south pole")
+add2("mangalyaan", "all", "space", ["Mars Orbiter Mission"], ["Mars Orbiter Mission spacecraft", "Mars Orbiter Mission launch PSLV"], "reaching Mars on the first attempt, on a tiny budget")
+add2("aryabhata_sat", "all", "space", ["Aryabhata (satellite)"], ["Aryabhata satellite", "Aryabhata satellite stamp"], "India's first satellite and how it got to space")
+add2("ramanujan", "all", "people", ["Srinivasa Ramanujan"], ["Srinivasa Ramanujan", "Ramanujan Trinity College"], "a self-taught clerk whose letter stunned Cambridge")
+add2("raman_effect", "all", "science", ["C. V. Raman", "Raman scattering"], ["C. V. Raman", "Raman spectroscopy"], "a Nobel Prize from a question about why the sea is blue")
+add2("zero", "all", "science", ["0", "Brahmagupta"], ["Brahmagupta", "Bakhshali manuscript"], "how India gave the world zero as a number")
+add2("bakhshali", "all", "science", ["Bakhshali manuscript"], ["Bakhshali manuscript", "Bakhshali manuscript zero"], "the oldest surviving written zero, found in a field")
+add2("sushruta", "all", "science", ["Sushruta Samhita"], ["Sushruta statue", "Sushruta Samhita manuscript"], "an ancient text describing plastic surgery of the nose")
+# Nature & animals
+add2("mawsynram", "all", "nature", ["Mawsynram"], ["Mawsynram", "Meghalaya clouds"], "one of the wettest places on Earth")
+add2("amur_falcon", "all", "animal", ["Amur falcon"], ["Amur falcon", "Amur falcon Nagaland"], "a tiny falcon that flies non-stop across an ocean to Africa")
+add2("king_cobra", "all", "animal", ["King cobra"], ["King cobra", "King cobra Ophiophagus"], "the only snake that builds a nest")
+add2("gir_lions", "gu", "animal", ["Asiatic lion", "Gir National Park"], ["Asiatic lion Gir", "Gir National Park lion"], "the last wild Asiatic lions on Earth live only in Gujarat")
+add2("olive_ridley", "or", "animal", ["Olive ridley sea turtle", "Gahirmatha Marine Wildlife Sanctuary"], ["Olive ridley arribada", "Olive ridley sea turtle"], "hundreds of thousands of turtles arriving on one beach at once")
+add2("nilgiri_tahr", "ta", "animal", ["Nilgiri tahr"], ["Nilgiri tahr", "Eravikulam Nilgiri tahr"], "Tamil Nadu's state animal that lives on sheer cliffs")
+add2("neelakurinji", "ml", "nature", ["Strobilanthes kunthiana"], ["Neelakurinji", "Neelakurinji Munnar"], "a flower that blooms only once in twelve years")
+add2("jog_falls", "kn", "nature", ["Jog Falls"], ["Jog Falls", "Jog Falls monsoon"], "one of India's highest plunge waterfalls")
+add2("sundarbans_mangrove", "bn", "nature", ["Sundarbans"], ["Sundarbans mangrove", "Sundarbans Royal Bengal tiger"], "the largest mangrove forest in the world")
+add2("kaziranga_rhino", "bn", "animal", ["Kaziranga National Park", "Indian rhinoceros"], ["Kaziranga rhinoceros", "Indian rhinoceros"], "two-thirds of the world's one-horned rhinos live in one park")
+add2("blackbuck", "pa", "animal", ["Blackbuck"], ["Blackbuck", "Blackbuck running"], "one of the fastest animals on land")
+add2("lonar_salt", "mr", "nature", ["Lonar Lake"], ["Lonar lake pink", "Lonar crater"], "the crater lake that turned pink overnight in 2020")
+# Engineering & records
+add2("pamban_bridge", "ta", "engineering", ["Pamban Bridge"], ["Pamban Bridge", "Pamban rail bridge"], "a sea bridge that lifts open for ships")
+add2("chenab_bridge", "all", "engineering", ["Chenab Rail Bridge"], ["Chenab Rail Bridge", "Chenab bridge arch"], "the world's highest railway arch bridge")
+add2("atal_tunnel", "all", "engineering", ["Atal Tunnel"], ["Atal Tunnel", "Atal Tunnel Rohtang"], "the world's longest highway tunnel above 10,000 feet")
+add2("statue_unity", "gu", "engineering", ["Statue of Unity"], ["Statue of Unity", "Statue of Unity Narmada"], "the tallest statue in the world")
+add2("howrah_bridge", "bn", "engineering", ["Howrah Bridge"], ["Howrah Bridge", "Howrah Bridge night"], "a giant bridge built without a single nut or bolt")
+add2("dabbawala", "mr", "record", ["Dabbawala"], ["Mumbai dabbawala", "Dabbawala lunch boxes"], "a lunchbox delivery system with almost no mistakes")
+add2("konkan_railway", "mr", "engineering", ["Konkan Railway"], ["Konkan Railway tunnel", "Konkan Railway bridge"], "a railway through 2,000 bridges and 90 tunnels")
+add2("golconda_diamonds", "te", "history", ["Golconda", "Koh-i-Noor"], ["Golconda fort", "Golconda Fort clapping portico"], "the fort whose mines gave the world the Koh-i-Noor")
+add2("charminar", "te", "engineering", ["Charminar"], ["Charminar", "Charminar night"], "why a 400-year-old monument was built in the middle of a city")
+add2("mysore_palace", "kn", "engineering", ["Mysore Palace"], ["Mysore Palace illuminated", "Mysore Palace"], "a palace lit by nearly 100,000 bulbs")
+add2("vembanad_boat", "ml", "sport", ["Nehru Trophy Boat Race", "Chundan vallam"], ["Snake boat race Kerala", "Nehru Trophy Boat Race"], "snake boats over 100 feet long rowed by 100 people")
+# Food origins
+add2("biryani", "all", "food", ["Biryani"], ["Hyderabadi biryani", "Biryani"], "how biryani travelled and changed across India")
+add2("chai_india", "all", "food", ["Masala chai"], ["Masala chai", "Assam tea garden"], "chai only became India's drink in the 20th century")
+add2("rasgulla", "or", "food", ["Rasgulla"], ["Rasgulla", "Pahala rasagola"], "the sweet that Odisha and Bengal both claim")
+add2("mysore_pak", "kn", "food", ["Mysore pak"], ["Mysore pak", "Mysore pak sweet"], "a sweet invented in a palace kitchen")
+add2("vada_pav", "mr", "food", ["Vada pav"], ["Vada pav", "Vada pav Mumbai"], "the snack invented outside a Mumbai railway station")
+add2("idli", "ta", "food", ["Idli"], ["Idli", "Idli sambar"], "where the idli really came from")
+add2("hyderabadi_haleem", "te", "food", ["Haleem"], ["Hyderabadi haleem", "Haleem"], "the first Indian dish with a GI tag for a meat dish")
+add2("langar_food", "pa", "food", ["Langar (Sikhism)"], ["Langar kitchen", "Langar Amritsar"], "a kitchen that feeds everyone for free, every day")
+# Sport legends (deceased only)
+add2("dhyan_chand", "all", "sport", ["Dhyan Chand"], ["Dhyan Chand", "Dhyan Chand statue"], "the hockey wizard whose stick was broken open to check for a magnet")
+add2("milkha_singh", "pa", "sport", ["Milkha Singh"], ["Milkha Singh", "Milkha Singh 1960 Rome"], "the Flying Sikh and the race he lost by a fraction")
+add2("kd_jadhav", "mr", "sport", ["Khashaba Dadasaheb Jadhav"], ["Khashaba Dadasaheb Jadhav", "Khashaba Jadhav statue"], "independent India's first individual Olympic medal")
+add2("chuni_goswami", "bn", "sport", ["Chuni Goswami"], ["Chuni Goswami", "Mohun Bagan"], "a footballer who also played first-class cricket")
+add2("kalam", "ta", "people", ["A. P. J. Abdul Kalam"], ["A. P. J. Abdul Kalam", "Kalam Rameswaram house"], "from selling newspapers in Rameswaram to President")
+add2("tagore_anthems", "bn", "people", ["Rabindranath Tagore"], ["Rabindranath Tagore", "Tagore painting"], "one poet wrote the national anthems of two countries")
+add2("satyajit_ray", "bn", "people", ["Satyajit Ray"], ["Satyajit Ray", "Pather Panchali"], "an honorary Oscar delivered to his hospital bed")

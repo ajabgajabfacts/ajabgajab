@@ -19,6 +19,23 @@ SAFFRON = (255, 176, 0)
 GOLD = (232, 185, 92)
 CARD_CY = 975          # landscape art centre; spans ~400-1550
 HOOK_Y, CAP_Y, CTA_Y = 300, 1530, 1405
+BRAND_X, BRAND_Y, CAP_X, CAP_W, HOOK_W = 60, 178, 520, 860, 900
+LANDSCAPE = False
+
+
+def set_canvas(landscape):
+    """Shorts (1080x1920, clear of the Shorts UI) or long-form (1920x1080)."""
+    global W, H, CARD_CY, HOOK_Y, CAP_Y, CTA_Y, BRAND_X, BRAND_Y, CAP_X, CAP_W, HOOK_W, LANDSCAPE
+    LANDSCAPE = landscape
+    if landscape:
+        W, H = 1920, 1080
+        HOOK_Y, CAP_Y, CTA_Y = 200, 945, 830
+        BRAND_X, BRAND_Y, CAP_X, CAP_W, HOOK_W = 70, 70, 960, 1500, 1600
+    else:
+        W, H = 1080, 1920
+        CARD_CY = 975
+        HOOK_Y, CAP_Y, CTA_Y = 300, 1530, 1405
+        BRAND_X, BRAND_Y, CAP_X, CAP_W, HOOK_W = 60, 178, 520, 860, 900
 FONTS = Path(__file__).parent / "fonts"
 
 
@@ -122,13 +139,25 @@ class Shot:
         rgb = grade(np.array(pil_img.convert("RGB")))
         ih, iw = rgb.shape[:2]
         self.rng = random.Random(seed)
-        self.mode = "cover" if ih / iw >= 1.15 else "card"
+        if LANDSCAPE:
+            self.mode = "cover" if iw / ih >= 1.25 else "pillar"
+        else:
+            self.mode = "cover" if ih / iw >= 1.15 else "card"
         bg = cover(rgb, W, H, 1.1)
         y0, x0 = (bg.shape[0] - H) // 2, (bg.shape[1] - W) // 2
         bg = cv2.GaussianBlur(bg[y0:y0 + H, x0:x0 + W], (0, 0), 38)
         self.bg = (bg.astype(np.float32) * 0.42).astype(np.uint8)
         if self.mode == "cover":
             self.big = cover(rgb, W, H, 1.0)
+        elif self.mode == "pillar":
+            # Tall art on a wide canvas: a full-height column with feathered sides.
+            ch = H; cw = int(min(W * 0.62, max(W * 0.45, H * iw / ih * 1.25)))
+            self.cw, self.ch = cw, ch
+            self.big = cover(rgb, cw, ch, 1.0)
+            fe = 140
+            ramp = np.ones(cw, np.float32)
+            ramp[:fe] = np.linspace(0, 1, fe) ** 1.6; ramp[-fe:] = np.linspace(1, 0, fe) ** 1.6
+            self.mask = np.repeat(ramp[None, :], ch, axis=0)[:, :, None]
         else:
             # Full-bleed width with feathered top/bottom edges: fills the screen without
             # cropping a landscape painting down to a sliver.
@@ -158,6 +187,11 @@ class Shot:
             return self._kb(self.big, W, H, p)
         f = self.bg.copy()
         card = self._kb(self.big, self.cw, self.ch, p)
+        if self.mode == "pillar":
+            x0 = W // 2 - self.cw // 2
+            roi = f[:, x0:x0 + self.cw].astype(np.float32)
+            f[:, x0:x0 + self.cw] = (roi * (1 - self.mask) + card * self.mask).astype(np.uint8)
+            return f
         y0 = CARD_CY - self.ch // 2
         roi = f[y0:y0 + self.ch].astype(np.float32)
         f[y0:y0 + self.ch] = (roi * (1 - self.mask) + card * self.mask).astype(np.uint8)
@@ -239,6 +273,7 @@ def chunks(sentences, maxn=6, maxc=30):
 def render(job, out_mp4, work):
     """job: L, sentences, word_times (per word over all sentences), sentence_word_counts, hook_text,
     kicker, cta, shots (PIL images), voice wav, music path, duration."""
+    set_canvas(bool(job.get("landscape")))
     L = job["L"]
     D = job["duration"]
     words = [w for s in job["sentences"] for w in s.split()]
@@ -261,17 +296,17 @@ def render(job, out_mp4, work):
     shots = [Shot(imgs[i % len(imgs)], seed=i) for i in range(len(cuts))]
     seg = list(zip(cuts, cuts[1:] + [D]))
 
-    f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cap = font(L, 84); f_cta = font(L, 48)
+    f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cap = font(L, 70 if LANDSCAPE else 84); f_cta = font(L, 48)
     brand = text_rgba([L["brand"]], f_brand, 900, color=(255, 236, 200), stroke=5)
     kicker = pill(job["kicker"], f_kick, SAFFRON)
     hw = job["hook_text"].split()
     hs = 100
-    while hs > 60 and len(wrap(hw, f_hook, 900)) > 2:     # the hook gets two lines, never three
+    while hs > 60 and len(wrap(hw, f_hook, HOOK_W)) > 2:     # the hook gets two lines, never three
         hs -= 8; f_hook = font(L, hs)
-    hook = text_rgba(hw, f_hook, 900, stroke=12, glow=(255, 120, 0),
+    hook = text_rgba(hw, f_hook, HOOK_W, stroke=12, glow=(255, 120, 0),
                      line_colors=[(255, 255, 255), SAFFRON, (255, 255, 255)])
     cta = pill(job["cta"], f_cta, (255, 255, 255), fg=(10, 10, 10)) if job.get("cta") else None
-    caps = chunks(job["sentences"])
+    caps = chunks(job["sentences"], maxn=9 if LANDSCAPE else 6, maxc=48 if LANDSCAPE else 30)
     cap_of_word = {}
     for ci, c in enumerate(caps):
         for wi in c:
@@ -298,8 +333,8 @@ def render(job, out_mp4, work):
         fr = (fr.astype(np.float32) * vig).astype(np.uint8)
         emb.draw(fr, t)
 
-        blit(fr, brand, 60 + brand.shape[1] / 2 - 10, 178)
-        blit(fr, kicker, 60 + brand.shape[1] + kicker.shape[1] / 2, 178)
+        blit(fr, brand, BRAND_X + brand.shape[1] / 2 - 10, BRAND_Y)
+        blit(fr, kicker, BRAND_X + brand.shape[1] + kicker.shape[1] / 2, BRAND_Y)
 
         if t < hook_end + 0.25:
             p = t / 0.22
@@ -316,11 +351,11 @@ def render(job, out_mp4, work):
             if ci > 0 or cap_start[0] >= hook_end - 0.05 or t >= cap_start[0]:
                 key = (ci, hi)
                 if key not in cache:
-                    cache[key] = text_rgba([words[i] for i in caps[ci]], f_cap, 860, hi=hi)
+                    cache[key] = text_rgba([words[i] for i in caps[ci]], f_cap, CAP_W, hi=hi)
                 pop = min(1.0, (t - cap_start[ci]) / 0.12) if t >= cap_start[ci] else 1.0
-                blit(fr, cache[key], W / 2 - 20, CAP_Y, alpha=min(1, 0.4 + pop), scale=0.88 + 0.12 * pop)
+                blit(fr, cache[key], CAP_X, CAP_Y, alpha=min(1, 0.4 + pop), scale=0.88 + 0.12 * pop)
         if cta is not None and t >= last_start:
-            blit(fr, cta, W / 2 - 20, CTA_Y, scale=1.0 + 0.05 * math.sin((t - last_start) * 7))
+            blit(fr, cta, CAP_X, CTA_Y, scale=1.0 + 0.05 * math.sin((t - last_start) * 7))
         ff.stdin.write(fr.tobytes())
     ff.stdin.close(); ff.wait()
 

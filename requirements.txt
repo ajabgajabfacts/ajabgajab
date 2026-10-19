@@ -1,36 +1,36 @@
-# YouTube Shorts Automation — requirements.txt
-# All versions pinned to prevent surprise breakage from library updates.
-# To update: test locally first, then bump versions here deliberately.
-# Last verified: April 2026
+# Ajab Gajab — legacy Hinglish facts pipeline (PAUSED 2026-08-18; story Shorts live in katha/).
+# Versions pinned to prevent surprise breakage from library updates.
+# Last verified: 2026-10-19 — aligned to Quizora's set (same forked code, CI-proven daily
+# on Python 3.12 since 2026-10-12). Newer releases of google-genai / google-auth /
+# edge-tts / Pillow 13 were all < 1 week old on 2026-10-19: deliberately not taken.
 
-# Video assembly — pinned to 1.x, v2 has breaking API changes
+# Video assembly — pinned to 1.x on purpose: moviepy 2.x deleted `moviepy.editor`,
+# which charts.py imports. A migration, not a version bump.
 moviepy==1.0.3
 
-# Google Gemini for script generation
-google-genai>=1.14.0
+google-genai==2.29.0
 
 # YouTube Data API upload
-google-auth-oauthlib==1.2.1
-google-auth-httplib2==0.2.0
-google-api-python-client==2.165.0
+google-auth-oauthlib==1.5.0
+google-auth-httplib2==0.4.4
+google-api-python-client==2.201.0
 
 # RSS news scraping
-feedparser==6.0.12
-requests==2.33.0
+feedparser==6.0.14
+requests==2.34.2
 
 # Text-to-speech voiceover
 edge-tts==7.2.8
 
-# Image processing
-Pillow==12.2.0
-numpy==2.4.4
+# Image processing — numpy 2.5 has no Python 3.11 wheel; CI is on 3.12 (facts.yml).
+Pillow==12.3.0
+numpy==2.5.4
 
-# Animated charts (Friday pipeline only)
-matplotlib==3.10.8
-opencv-python-headless==4.11.0.86
+matplotlib==3.11.2
+# Runtime dependency of moviepy's resizer (soft import) — see quizora/requirements.txt.
+opencv-python-headless==5.0.0.93
 
-# Google Trends keyword research (budget/news context, no tokens)
-pytrends>=4.9.2
+# Google Trends keyword research
+pytrends==4.9.2
 
-# Multi-channel YAML config support
-PyYAML>=6.0
+PyYAML==6.0.3
