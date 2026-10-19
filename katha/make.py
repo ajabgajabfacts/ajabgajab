@@ -177,7 +177,7 @@ def produce(a, L, e):
     for attempt in range(2):
         if a.reuse and voice.exists() and (work / "asr.json").exists():
             D = media.duration(voice); asr = json.loads((work / "asr.json").read_text(encoding="utf-8")); break
-        D = media.narrate(text, voice)
+        D = media.narrate(text, voice, edge_voice=L.get("edge"))
         asr = media.asr(voice, L["whisper"])
         if asr:
             (work / "asr.json").write_text(json.dumps(asr, ensure_ascii=False), encoding="utf-8")

@@ -82,7 +82,7 @@ def segment(L, sentences, shots, hook, kicker, work, name, cta=None):
     """Narrate + render one landscape segment; returns (mp4, seconds)."""
     text = " ".join(sentences)
     voice = work / f"{name}.wav"
-    D = media.narrate(text, voice)
+    D = media.narrate(text, voice, edge_voice=L.get("edge"))
     asr = media.asr(voice, L["whisper"])
     wt = media.word_times(text.split(), asr, D)
     music = MUSIC / random.Random(name).choice(MUSIC_OK)

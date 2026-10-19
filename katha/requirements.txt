@@ -9,3 +9,5 @@ requests==2.34.2
 pillow==12.3.0
 numpy==2.5.4
 opencv-python-headless==5.0.0.93
+# Fallback narration when Gemini TTS's free daily quota is spent (7.2.8 now gets 403 from Microsoft)
+edge-tts==7.3.1

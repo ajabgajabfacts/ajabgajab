@@ -1,5 +1,5 @@
 """Source text, images, narration and word timings."""
-import io, json, os, re, subprocess, wave
+import io, json, os, re, subprocess, sys, wave
 from pathlib import Path
 import requests
 from PIL import Image
@@ -63,10 +63,10 @@ def commons(query, limit=14):
     return out
 
 
-VET = """Candidate visual for a family-friendly YouTube Short about: {story}.
-Wikimedia file name: "{fname}".
-Return JSON {{"use": bool, "score": 0-10, "what": "5 words"}}.
-use=false if ANY of these:
+VET = """Candidate visuals for a family-friendly YouTube Short about: {story}.
+You get {n} images, numbered 0..{last} in order; their Wikimedia file names:
+{names}
+Judge EACH image. use=false if ANY of these:
 - it is not specifically THIS story/place/person (a generic or different location, e.g. another lake, does NOT count);
 - skeletons, bones, skulls, corpses, blood, wounds, weapons in use on a person, violence, gore, death scenes;
 - any nudity or sexualised content (including in sculpture or painting);
@@ -75,17 +75,20 @@ use=false if ANY of these:
 - modern people as a subject: tourists, selfies, a child or family in frame, crowds, anyone posing or walking through
   (tiny distant figures for scale are fine);
 - large readable text, a watermark or logo; blurry, tiny or very dark.
-score = how cinematic and scroll-stopping it is full-screen on a phone (10 = stunning)."""
+score = how cinematic and scroll-stopping it is full-screen on a phone (10 = stunning).
+Return JSON {{"results": [{{"i": 0, "use": bool, "score": 0-10, "what": "5 words"}}, ...one per image]}}"""
 
 
 def _keywords(entry):
-    import unicodedata
     ws = set(entry["key"].split("_"))
     for t in entry["wiki"]:
         ws |= set(re.findall(r"[A-Za-z]+", t))
     stop = {"temple", "lake", "fort", "the", "and", "of", "india", "group", "monuments", "national", "park", "goddess",
             "village", "story", "caves", "mahabharata", "sikhism", "hill"}
     return {w.lower() for w in ws if len(w) >= 4 and w.lower() not in stop}
+
+
+BATCH = 6     # images per vision call: the free tier is ~20 requests/day/model, one call per image burned it
 
 
 def images(entry, extra_queries, story_en, need=6, cache=None):
@@ -97,28 +100,39 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
                 seen.add(c["file"]); cands.append(c)
         if len(cands) >= 30:
             break
-    # A file whose name shares no word with the story is usually a different place ("Mystery Lake,
-    # New Zealand" for Roopkund). Keep those only if too few named files exist.
     junk = ("stereo", "collage", "montage", "comparison", "composite", "anaglyph", "diagram", "map of", "logo")
     cands = [c for c in cands if not any(j in c["file"].lower() for j in junk)]
+    # A file whose name shares no word with the story is usually a different place ("Mystery Lake,
+    # New Zealand" for Roopkund). Keep those only if too few named files exist.
     named = [c for c in cands if any(k in c["file"].lower() for k in kws)]
     cands = named + ([c for c in cands if c not in named] if len(named) < need else [])
     picked = []
-    for c in cands[:30]:
+    pool = []
+    for c in cands[:24]:
         try:
             raw = requests.get(c["url"], headers=UA, timeout=60).content
-            im = Image.open(io.BytesIO(raw)).convert("RGB")
+            c["img"] = Image.open(io.BytesIO(raw)).convert("RGB")
+            pool.append(c)
         except Exception:
             continue
-        small = im.copy(); small.thumbnail((640, 640)); b = io.BytesIO(); small.save(b, "JPEG", quality=80)
+    for i in range(0, len(pool), BATCH):
+        group = pool[i:i + BATCH]
+        parts = []
+        for c in group:
+            small = c["img"].copy(); small.thumbnail((512, 512)); b = io.BytesIO(); small.save(b, "JPEG", quality=78)
+            parts.append(ai.image_part(b.getvalue()))
         try:
-            v = ai.json_call(VET.format(story=story_en, fname=c["file"][5:]), models=ai.VISION_MODELS,
-                             parts=[ai.image_part(b.getvalue())], temperature=0.1)
+            v = ai.json_call(VET.format(story=story_en, n=len(group), last=len(group) - 1,
+                                        names="\n".join(f"{j}: {c['file'][5:]}" for j, c in enumerate(group))),
+                             models=ai.VISION_MODELS, parts=parts, temperature=0.1)
         except Exception as e:
             print("[img] vet failed", str(e)[:80]); continue
-        print(f"[img] {v.get('use')!s:5} {v.get('score')}  {c['file'][5:60]}  ({v.get('what')})")
-        if v.get("use") and v.get("score", 0) >= 5:
-            c["img"], c["score"] = im, v["score"]; picked.append(c)
+        res = {r.get("i"): r for r in v.get("results", []) if isinstance(r, dict)}
+        for j, c in enumerate(group):
+            r = res.get(j, {})
+            print(f"[img] {r.get('use')!s:5} {r.get('score')}  {c['file'][5:60]}  ({r.get('what')})")
+            if r.get("use") and (r.get("score") or 0) >= 5:
+                c["score"] = r["score"]; picked.append(c)
         if len([p for p in picked if p["score"] >= 7]) >= need:
             break
     picked.sort(key=lambda c: -c["score"])
@@ -126,9 +140,19 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
 
 
 # ── Narration ───────────────────────────────────────────────────────────────
-def narrate(text, out_wav, tempo=1.08, voice="Charon"):
-    raw = ai.tts(text, voice=voice)
-    src = out_wav.with_suffix(".src.wav"); src.write_bytes(raw)
+def narrate(text, out_wav, tempo=1.08, voice="Charon", edge_voice=None):
+    """Gemini TTS; when its free daily quota is spent, Microsoft edge-tts (free, no quota)."""
+    src = out_wav.with_suffix(".src.wav")
+    try:
+        src.write_bytes(ai.tts(text, voice=voice))
+    except Exception as e:
+        if not edge_voice:
+            raise
+        print(f"[voice] Gemini TTS unavailable ({str(e)[:60]}) -> edge-tts {edge_voice}")
+        mp3 = out_wav.with_suffix(".edge.mp3")
+        subprocess.run([sys.executable, "-m", "edge_tts", "--voice", edge_voice, "--rate", "+4%",
+                        "--text", text, "--write-media", str(mp3)], check=True)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(mp3), "-ac", "1", str(src)], check=True)
     # Trim edge silence, speed up a touch (to-the-point pacing), 48 kHz for the mix.
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(src), "-af",
                     f"silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,atempo={tempo},aresample=48000",

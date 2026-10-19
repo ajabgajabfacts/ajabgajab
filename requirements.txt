@@ -20,7 +20,7 @@ feedparser==6.0.14
 requests==2.34.2
 
 # Text-to-speech voiceover
-edge-tts==7.2.8
+edge-tts==7.3.1
 
 # Image processing — numpy 2.5 has no Python 3.11 wheel; CI is on 3.12 (facts.yml).
 Pillow==12.3.0
