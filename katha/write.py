@@ -101,14 +101,14 @@ def write(entry, lang, L, source, max_rounds=4, chapter=False):
         script = "\n".join(s["sentences"])
         c = ai.json_call(CHECK.format(lang_name=L["name"], w0=w0, w1=w1, source=source[:14000], script=script, **mode,
                                       claims="\n".join("- " + x for x in s.get("claims_en", []))),
-                         temperature=0.1)
+                         models=ai.CHECK_MODELS, temperature=0.1)
         print(f"[write] round {rnd + 1}: {len(script.split())} words, ok={c.get('ok')} {c.get('problems', [])[:3]}")
         if c.get("ok"):
             return s, c
         if c.get("fixed_sentences") and rnd == max_rounds - 1:
             s["sentences"] = c["fixed_sentences"]
             c2 = ai.json_call(CHECK.format(lang_name=L["name"], w0=w0, w1=w1, **mode, source=source[:14000], script="\n".join(s["sentences"]),
-                                           claims="\n".join("- " + x for x in s.get("claims_en", []))), temperature=0.1)
+                                           claims="\n".join("- " + x for x in s.get("claims_en", []))), models=ai.CHECK_MODELS, temperature=0.1)
             if c2.get("ok"):
                 return s, c2
         feedback = ("\nYour previous draft:\n" + script + "\n\nA checker REJECTED it. EDIT that draft minimally to fix ALL "

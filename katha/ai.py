@@ -4,39 +4,49 @@ from pathlib import Path
 from google import genai
 from google.genai import types as gt
 
-TEXT_MODELS = ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-latest"]
+# Free tier = ~20 requests/day PER MODEL PER PROJECT for the flash models (found 2026-10-19:
+# "GenerateRequestsPerDayPerProjectPerModel-FreeTier, limit 20"). Capacity therefore comes
+# from spreading calls over several models and two projects, not from retrying one.
+TEXT_MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3-flash-preview",
+               "gemini-3.5-flash", "gemini-flash-latest"]
+# The checker starts on a different model family from the writer: more capacity, and a
+# more independent second opinion.
+CHECK_MODELS = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3-flash-preview", "gemini-3.7-flash",
+                "gemini-3.8-flash", "gemini-flash-latest"]
 VISION_MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
 TTS_MODELS = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview"]
 
 
 def _keys():
-    ks = [os.environ.get("GEMINI_API_KEY", "")]
+    """Ajab Gajab's key, then Money Sorted's (that channel is paused; its quota is idle).
+    Never Quizora's: its quota funds Quizora's daily narration."""
+    ks = [os.environ.get("GEMINI_API_KEY", ""), os.environ.get("GEMINI_API_KEY_2", "")]
     root = Path(__file__).resolve().parents[2]          # YT_project, when run locally
-    # Ajab Gajab's own key only. Quizora's quota funds Quizora's daily narration and
-    # must never be spent here (it ran dry on 3.8-flash on 2026-10-19).
-    for f in ("ajabgajab/gemini_api.txt",):
-        p = root / f
-        if p.exists():
-            ks.append(p.read_text().strip())
+    p = root / "ajabgajab/gemini_api.txt"
+    if p.exists():
+        ks.append(p.read_text().strip())
+    env = root / "week_test/files/.env"
+    if env.exists():
+        for ln in env.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if ln.startswith("GEMINI_API_KEY="):
+                ks.append(ln.split("=", 1)[1].strip().strip('"'))
     return list(dict.fromkeys(k for k in ks if k))
 
 
 KEYS = _keys()
-_ki = 0
 # The SDK has NO default timeout: an overloaded model (3.8-flash took 37 s to say "OK"
-# on 2026-10-19) hung a long-form run for 25 min. Every call is bounded and falls back.
+# on 2026-10-19) hung a long-form run for 25 min. Every call is bounded.
 TIMEOUT_MS = {"text": 90_000, "vision": 45_000, "tts": 180_000}
-
-
-def _mk(key):
-    return {k: genai.Client(api_key=key, http_options=gt.HttpOptions(timeout=v)) for k, v in TIMEOUT_MS.items()}
-
-
-_client = _mk(KEYS[0]) if KEYS else None
-
-
+_clients = {}
+_spent = set()                                   # (key index, model) whose daily quota is gone
 _last_call = [0.0]
-MIN_GAP_S = 4.0          # free-tier per-minute limits: ~15 RPM; long-form bursts tripped them
+MIN_GAP_S = 4.0                                  # stay under the per-minute limits too
+
+
+def _client(ki, kind):
+    if (ki, kind) not in _clients:
+        _clients[(ki, kind)] = genai.Client(api_key=KEYS[ki], http_options=gt.HttpOptions(timeout=TIMEOUT_MS[kind]))
+    return _clients[(ki, kind)]
 
 
 def _pace():
@@ -47,33 +57,35 @@ def _pace():
 
 
 def _call(models, contents, config, kind="text"):
-    """Try each model in turn.
-    - per-MINUTE quota (429 ...PerMinute...): wait and retry the SAME model. Treating it as
-      "move on" cascaded through every model in seconds and skipped 48 stories (2026-10-19).
-    - per-DAY quota: next key if there is one, else next model.
-    - timeout: next model. 5xx: brief backoff, retry."""
-    global _ki, _client
+    """Each model on each key, in order.
+    - per-DAY quota: remember (key, model) as spent and move on.
+    - per-MINUTE quota: wait and retry the same pair (treating it as "move on" once cascaded
+      through every model in seconds and skipped 48 stories).
+    - timeout: next model. 5xx: brief backoff and retry."""
     last = None
     for m in models:
-        attempt = 0
-        while attempt < 5:
-            attempt += 1
-            _pace()
-            try:
-                return _client[kind].models.generate_content(model=m, contents=contents, config=config)
-            except Exception as e:
-                last = e; s = str(e)
-                if "RESOURCE_EXHAUSTED" in s or "429" in s:
-                    if "PerDay" in s or "per_day" in s.lower():
-                        if _ki + 1 < len(KEYS):
-                            _ki += 1; _client = _mk(KEYS[_ki]); attempt = 0; continue
-                        print(f"[ai] {m}: daily quota spent -> next model"); break
-                    print(f"[ai] {m}: per-minute limit, waiting 35s"); time.sleep(35); continue
-                if "imeout" in s or "timed out" in s:
-                    print(f"[ai] {m}: timeout -> next model"); break
-                if "503" in s or "500" in s:
-                    time.sleep(6 * attempt); continue
-                break                                    # 404/400: this model won't work, try the next
+        for ki in range(len(KEYS)):
+            if (ki, m) in _spent:
+                continue
+            for attempt in range(1, 5):
+                _pace()
+                try:
+                    return _client(ki, kind).models.generate_content(model=m, contents=contents, config=config)
+                except Exception as e:
+                    last = e; s = str(e)
+                    if "RESOURCE_EXHAUSTED" in s or "429" in s:
+                        if "PerDay" in s:
+                            _spent.add((ki, m)); print(f"[ai] {m} key{ki + 1}: daily quota spent"); break
+                        print(f"[ai] {m} key{ki + 1}: per-minute limit, waiting 35s"); time.sleep(35); continue
+                    if "imeout" in s or "timed out" in s:
+                        print(f"[ai] {m}: timeout"); break
+                    if "503" in s or "500" in s:
+                        time.sleep(6 * attempt); continue
+                    break                                # 404/400: not usable, next
+            else:
+                continue
+    if last is None:
+        raise RuntimeError("all Gemini models/keys exhausted for today")
     raise last
 
 
