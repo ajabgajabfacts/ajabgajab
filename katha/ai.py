@@ -35,24 +35,44 @@ def _mk(key):
 _client = _mk(KEYS[0]) if KEYS else None
 
 
+_last_call = [0.0]
+MIN_GAP_S = 4.0          # free-tier per-minute limits: ~15 RPM; long-form bursts tripped them
+
+
+def _pace():
+    wait = _last_call[0] + MIN_GAP_S - time.time()
+    if wait > 0:
+        time.sleep(wait)
+    _last_call[0] = time.time()
+
+
 def _call(models, contents, config, kind="text"):
-    """Try each model; on a daily-quota 429 move to the next key, on a timeout or quota
-    exhaustion move to the next model. Raises the last error."""
+    """Try each model in turn.
+    - per-MINUTE quota (429 ...PerMinute...): wait and retry the SAME model. Treating it as
+      "move on" cascaded through every model in seconds and skipped 48 stories (2026-10-19).
+    - per-DAY quota: next key if there is one, else next model.
+    - timeout: next model. 5xx: brief backoff, retry."""
     global _ki, _client
     last = None
     for m in models:
-        for attempt in range(2):
+        attempt = 0
+        while attempt < 5:
+            attempt += 1
+            _pace()
             try:
                 return _client[kind].models.generate_content(model=m, contents=contents, config=config)
             except Exception as e:
                 last = e; s = str(e)
-                if "PerDay" in s and _ki + 1 < len(KEYS):
-                    _ki += 1; _client = _mk(KEYS[_ki]); continue
-                if "RESOURCE_EXHAUSTED" in s or "imeout" in s or "timed out" in s:
-                    print(f"[ai] {m}: {'timeout' if 'imeout' in s or 'timed out' in s else 'quota'} -> next model")
-                    break
-                if "503" in s or "500" in s or "429" in s:
-                    time.sleep(6 * (attempt + 1)); continue
+                if "RESOURCE_EXHAUSTED" in s or "429" in s:
+                    if "PerDay" in s or "per_day" in s.lower():
+                        if _ki + 1 < len(KEYS):
+                            _ki += 1; _client = _mk(KEYS[_ki]); attempt = 0; continue
+                        print(f"[ai] {m}: daily quota spent -> next model"); break
+                    print(f"[ai] {m}: per-minute limit, waiting 35s"); time.sleep(35); continue
+                if "imeout" in s or "timed out" in s:
+                    print(f"[ai] {m}: timeout -> next model"); break
+                if "503" in s or "500" in s:
+                    time.sleep(6 * attempt); continue
                 break                                    # 404/400: this model won't work, try the next
     raise last
 
