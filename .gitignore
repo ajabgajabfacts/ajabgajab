@@ -52,4 +52,5 @@ assets/emoji/cache/
 # in the same language, so CI must commit it; renders stay local.
 !katha/ledger.json
 !katha/longform_ledger.json
+!katha/playlists.json
 katha/out/

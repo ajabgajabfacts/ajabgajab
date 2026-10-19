@@ -47,6 +47,33 @@ def credits(sources, shots):
     return "\n".join(lines)
 
 
+PLAYLISTS = HERE / "playlists.json"
+
+
+def add_to_playlist(yt, vid, lang):
+    """One playlist per language, so a viewer who likes one Tamil story can binge the rest.
+    IDs are cached in playlists.json (tracked) so CI never mints duplicates."""
+    from langs import LANGS
+    cache = json.loads(PLAYLISTS.read_text(encoding="utf-8")) if PLAYLISTS.exists() else {}
+    L = LANGS[lang]
+    pid = cache.get(lang)
+    try:
+        if not pid:
+            title = f"{L['name']} Stories | {L['brand']}"
+            pl = yt.playlists().insert(part="snippet,status", body={
+                "snippet": {"title": title, "description": f"Ajab Gajab stories in {L['name']}: myths, legends, "
+                            "real places, science and more. Fact-checked against Wikipedia.",
+                            "defaultLanguage": lang},
+                "status": {"privacyStatus": "public"}}).execute()
+            pid = cache[lang] = pl["id"]
+            PLAYLISTS.write_text(json.dumps(cache, indent=1), encoding="utf-8")
+            print(f"[playlist] created {title} ({pid})")
+        yt.playlistItems().insert(part="snippet", body={"snippet": {
+            "playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+    except Exception as e:
+        print("[playlist] failed:", str(e)[:150])
+
+
 def upload(mp4, meta, cfg_json, thumb=None):
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
@@ -80,6 +107,7 @@ def upload(mp4, meta, cfg_json, thumb=None):
             yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(str(thumb), mimetype="image/jpeg")).execute()
         except Exception as e:
             print("[upload] thumbnail failed:", str(e)[:150])
+    add_to_playlist(yt, vid, meta["lang"])
     if meta.get("comment"):
         try:
             yt.commentThreads().insert(part="snippet", body={"snippet": {"videoId": vid, "topLevelComment": {

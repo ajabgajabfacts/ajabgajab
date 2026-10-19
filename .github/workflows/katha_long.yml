@@ -68,6 +68,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           [ -f katha/longform_ledger.json ] && git add katha/longform_ledger.json
+          [ -f katha/playlists.json ] && git add katha/playlists.json
           git diff --staged --quiet && exit 0
           git commit -m "katha: update long-form ledger [skip ci]"
           for i in 1 2 3; do
