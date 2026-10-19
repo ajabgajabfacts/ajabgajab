@@ -2,7 +2,8 @@
 # Versions pinned to prevent surprise breakage from library updates.
 # Last verified: 2026-10-19 — aligned to Quizora's set (same forked code, CI-proven daily
 # on Python 3.12 since 2026-10-12). Newer releases of google-genai / google-auth /
-# edge-tts / Pillow 13 were all < 1 week old on 2026-10-19: deliberately not taken.
+# Pillow 13 were all < 1 week old on 2026-10-19: deliberately not taken. edge-tts IS on
+# 7.3.1 regardless: 7.2.8 gets HTTP 403 from Microsoft (cost Quizora two Shorts).
 
 # Video assembly — pinned to 1.x on purpose: moviepy 2.x deleted `moviepy.editor`,
 # which charts.py imports. A migration, not a version bump.
