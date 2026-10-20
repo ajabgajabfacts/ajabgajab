@@ -47,7 +47,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      # Check out the branch HEAD, not the triggering sha: a run queued behind another one in this
+      # concurrency group otherwise reads the ledger from before that run's push and posts the same
+      # slot again (2026-10-19 slot 3: Kannappa went up twice, issue #3).
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
       - name: Pick slot
         id: slot
         run: |

@@ -33,6 +33,8 @@ jobs:
     timeout-minutes: 150
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}   # branch HEAD, not the triggering sha (see katha.yml)
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"

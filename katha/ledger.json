@@ -45,6 +45,18 @@
   "slot": 3
  },
  {
+  "key": "kannappa",
+  "lang": "te",
+  "date": "2026-10-19",
+  "utc": "19:07",
+  "status": "posted",
+  "video_id": "mPah9AIzlXM",
+  "title": "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
+  "seconds": 34.5,
+  "slot": 3,
+  "note": "duplicate of slot 3 (checkout race, issue #3); ledger commit had conflicted"
+ },
+ {
   "key": "samudra_manthan",
   "lang": "hi",
   "date": "2026-10-20",
