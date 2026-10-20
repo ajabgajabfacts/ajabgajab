@@ -117,15 +117,26 @@ def upload(mp4, meta, cfg_json, thumb=None):
     return vid
 
 
-# 4 slots a day on one channel: Hindi twice (the biggest audience), two regional
-# languages rotating so each comes round every ~4.5 days.
+# 4 slots a day on one channel. From 2026-10-20 (slot 3 onward): Telugu every evening (slot 3, 20:35 IST), Hindi once
+# (slot 2), and the other eight languages rotating through slots 0 and 1, each every 4 days.
+# Why: first two days, Hindi 3 posts all under 40 views; Kannappa in Telugu 1,370 in 18 h, Tamil 326.
+# Before 10-20 it was Hindi on 0 and 2 with nine regional languages on 1 and 3 (kept for old dates).
 REGIONAL = ["ta", "te", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
 EPOCH = dt.date(2026, 10, 19)
+ROTATING = ["ta", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
+EPOCH2 = dt.date(2026, 10, 20)
 
 
 def slot_lang(slot, day=None):
-    d = ((day or dt.date.today()) - EPOCH).days
-    return "hi" if slot in (0, 2) else REGIONAL[(2 * d + (slot == 3)) % len(REGIONAL)]
+    day = day or dt.date.today()
+    if day < EPOCH2:
+        d = (day - EPOCH).days
+        return "hi" if slot in (0, 2) else REGIONAL[(2 * d + (slot == 3)) % len(REGIONAL)]
+    if slot == 3:
+        return "te"
+    if slot == 2:
+        return "hi"
+    return ROTATING[(2 * (day - EPOCH2).days + slot) % len(ROTATING)]
 
 
 class StoryFailed(Exception):

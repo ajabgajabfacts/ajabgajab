@@ -287,3 +287,11 @@ add2("chuni_goswami", "bn", "sport", ["Chuni Goswami"], ["Chuni Goswami", "Mohun
 add2("kalam", "ta", "people", ["A. P. J. Abdul Kalam"], ["A. P. J. Abdul Kalam", "Kalam Rameswaram house"], "from selling newspapers in Rameswaram to President")
 add2("tagore_anthems", "bn", "people", ["Rabindranath Tagore"], ["Rabindranath Tagore", "Tagore painting"], "one poet wrote the national anthems of two countries")
 add2("satyajit_ray", "bn", "people", ["Satyajit Ray"], ["Satyajit Ray", "Pather Panchali"], "an honorary Oscar delivered to his hospital bed")
+# Telugu devotees (2026-10-20): Kannappa in Telugu (mPah9AIzlXM) out-drew every other post; more of the same
+# kind. Each angle was checked against its article before adding.
+add2("ramadasu", "te", "saint", ["Bhadrachala Ramadasu"], ["Bhadrachalam temple", "Bhadrachala Ramadasu"], "he built the Bhadrachalam temple with tax money and was jailed until it was repaid; legend says Rama and Lakshmana paid it")
+add2("simhachalam_chandanam", "te", "wonder", ["Varaha Lakshmi Narasimha temple, Simhachalam"], ["Simhachalam temple", "Simhachalam gopuram"], "a deity kept under sandalwood paste all year, seen in its true form for only 12 hours")
+add2("pothana", "te", "saint", ["Pothana"], ["Bammera Pothana", "Pothana statue"], "the poet who refused to dedicate his Bhagavatam to the king and gave it to Rama")
+add2("molla", "te", "saint", ["Atukuri Molla"], ["Atukuri Molla statue", "Molla Ramayanam"], "a potter's daughter who wrote a Telugu Ramayana and would not dedicate it to any king")
+add2("tyagaraja_nidhi", "te", "saint", ["Tyagaraja"], ["Tyagaraja", "Thiruvaiyaru Tyagaraja"], "he turned down a king's wealth with a song asking 'does wealth bring happiness?'")
+add2("vengamamba", "te", "saint", ["Tarigonda Vengamamba"], ["Tarigonda Vengamamba", "Tirumala Vengamamba annaprasadam"], "the poet-devotee whose name is on Tirumala's free food hall")

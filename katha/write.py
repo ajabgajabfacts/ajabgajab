@@ -42,7 +42,7 @@ HARD RULES
   they are everyday in spoken {lang_name}.
 
 Return JSON:
-{{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story",
+{{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story; name the concrete surprising act (who did what) rather than vague words like secret/mystery",
  "hook_text": "on-screen hook, max 6 words, {lang_name}",
  "kicker": "1-2 word label in {lang_name}, e.g. the equivalent of MYSTERY / TRUE STORY / LEGEND",
  "sentences": ["..."],
