@@ -77,5 +77,23 @@
   "title": "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
   "seconds": 39.1,
   "slot": 1
+ },
+ {
+  "key": "prithviraj_samyukta",
+  "lang": "hi",
+  "date": "2026-10-20",
+  "status": "failed_check",
+  "why": "no source text"
+ },
+ {
+  "key": "karni_mata",
+  "lang": "hi",
+  "date": "2026-10-20",
+  "utc": "17:39",
+  "status": "posted",
+  "video_id": "j9O18XJ0yh8",
+  "title": "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
+  "seconds": 29.9,
+  "slot": 2
  }
 ]
