@@ -8,7 +8,7 @@ whoosh on every cut and a music bed ducked under the narration.
 Layout keeps clear of the Shorts UI: nothing important above y=140, below
 y=1600, or right of x=960 between y=900 and 1700 (the action buttons).
 """
-import math, random, subprocess
+import math, random, subprocess, unicodedata
 from pathlib import Path
 import cv2
 import numpy as np
@@ -51,6 +51,13 @@ def font(L, size):
     return f
 
 
+def clean(text):
+    """Drop emoji and other symbols: the Indic fonts have no glyph for them and draw a box.
+    ZWJ/ZWNJ stay - Telugu and Kannada need them to join conjuncts."""
+    return "".join(ch for ch in text if unicodedata.category(ch) not in ("So", "Sk", "Cs", "Co")
+                   and ch not in "\ufe0e\ufe0f").strip()
+
+
 def wrap(words, f, maxw):
     lines, cur = [], []
     for w in words:
@@ -61,12 +68,17 @@ def wrap(words, f, maxw):
             cur.append(w)
     if cur:
         lines.append(cur)
+    if len(lines) == 2:                                   # even the two lines: no lone word on line 2
+        ws = lines[0] + lines[1]
+        lines = min(([ws[:i], ws[i:]] for i in range(1, len(ws))),
+                    key=lambda p: max(f.getlength(" ".join(p[0])), f.getlength(" ".join(p[1]))))
     return lines
 
 
 def text_rgba(words, f, maxw, color=(255, 255, 255), hi=None, hi_color=SAFFRON, stroke=9,
               glow=None, line_colors=None, align="center"):
     """RGBA image of wrapped words; word index `hi` drawn in hi_color."""
+    words = [clean(w) for w in words]                  # keep the count: `hi` indexes into it
     lines = wrap(words, f, maxw)
     asc, desc = f.getmetrics()
     lh = int((asc + desc) * 1.08)
@@ -92,6 +104,7 @@ def text_rgba(words, f, maxw, color=(255, 255, 255), hi=None, hi_color=SAFFRON, 
 
 
 def pill(text, f, bg, fg=(20, 12, 0), padx=34, pady=14):
+    text = clean(text)
     l, t, r, b = f.getbbox(text)
     w, h = int(r - l) + 2 * padx, int(b - t) + 2 * pady
     im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
@@ -146,7 +159,7 @@ class Shot:
         bg = cover(rgb, W, H, 1.1)
         y0, x0 = (bg.shape[0] - H) // 2, (bg.shape[1] - W) // 2
         bg = cv2.GaussianBlur(bg[y0:y0 + H, x0:x0 + W], (0, 0), 38)
-        self.bg = (bg.astype(np.float32) * 0.42).astype(np.uint8)
+        self.bg = (bg.astype(np.float32) * 0.55).astype(np.uint8)
         if self.mode == "cover":
             self.big = cover(rgb, W, H, 1.0)
         elif self.mode == "pillar":
@@ -161,7 +174,7 @@ class Shot:
         else:
             # Full-bleed width with feathered top/bottom edges: fills the screen without
             # cropping a landscape painting down to a sliver.
-            cw = W; ch = int(min(1150, max(980, W * ih / iw * 1.3)))
+            cw = W; ch = int(min(1400, max(1150, W * ih / iw * 1.45)))
             self.cw, self.ch = cw, ch
             self.big = cover(rgb, cw, ch, 1.0)
             fe = 110
@@ -293,10 +306,19 @@ def render(job, out_mp4, work):
         if t - cuts[-1] >= 1.8 and t < D - 0.5:
             cuts.append(t)
     imgs = job["shots"]
+    # Fewer images than shots repeated a picture (Roopkund showed its lake three times). Merge the
+    # shortest neighbouring pair while it stays under 6.5s; only then fall back to repeating.
+    while len(cuts) > len(imgs):
+        ends = cuts[1:] + [D]
+        pairs = [(ends[i + 1] - cuts[i], i) for i in range(len(cuts) - 1)]
+        span, i = min(pairs)
+        if span > 6.5:
+            break
+        del cuts[i + 1]
     shots = [Shot(imgs[i % len(imgs)], seed=i) for i in range(len(cuts))]
     seg = list(zip(cuts, cuts[1:] + [D]))
 
-    f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cap = font(L, 70 if LANDSCAPE else 84); f_cta = font(L, 48)
+    f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cap = font(L, 70 if LANDSCAPE else L.get("cap", (84, 30))[0]); f_cta = font(L, 48)
     brand = text_rgba([L["brand"]], f_brand, 900, color=(255, 236, 200), stroke=5)
     kicker = pill(job["kicker"], f_kick, SAFFRON)
     hw = job["hook_text"].split()
@@ -305,6 +327,8 @@ def render(job, out_mp4, work):
         hs -= 8; f_hook = font(L, hs)
     hook = text_rgba(hw, f_hook, HOOK_W, stroke=12, glow=(255, 120, 0),
                      line_colors=[(255, 255, 255), SAFFRON, (255, 255, 255)])
+    # text_rgba pads stroke+30 px on every side; the visible top must clear the brand pill (~35 px below BRAND_Y)
+    hook_y = max(HOOK_Y, BRAND_Y + 60 - 42 + hook.shape[0] / 2)
     cta = pill(job["cta"], f_cta, (255, 255, 255), fg=(10, 10, 10)) if job.get("cta") else None
     sub = None
     if job.get("subscribe"):
@@ -312,12 +336,21 @@ def render(job, out_mp4, work):
         while (sub := pill(job["subscribe"], font(L, fs), SAFFRON)).shape[1] > 800 and fs > 32:
             fs -= 4
     sub_start = max(last_start, D - 1.8)         # the subscribe ask owns the last 1.8s, above the comment pill
-    caps = chunks(job["sentences"], maxn=9 if LANDSCAPE else 6, maxc=48 if LANDSCAPE else 30)
+    caps = chunks(job["sentences"], maxn=9 if LANDSCAPE else 6, maxc=48 if LANDSCAPE else L.get("cap", (84, 30))[1])
     cap_of_word = {}
     for ci, c in enumerate(caps):
         for wi in c:
             cap_of_word[wi] = ci
     cap_start = [wt[c[0]][0] for c in caps]
+    # The CTA used a fixed y and covered two-line captions (Tamil). Stack the pills above the
+    # tallest caption the last sentence will show; text_rgba pads 9+30 px around the ink.
+    last_h = max(text_rgba([words[i] for i in c], f_cap, CAP_W).shape[0] for c in caps if c[0] >= sent_ranges[-1][0])
+    y = CAP_Y - last_h / 2 + 39 - 14
+    cta_y = sub_y = None
+    if cta is not None:
+        cta_y = y - cta.shape[0] / 2; y -= cta.shape[0] + 14
+    if sub is not None:
+        sub_y = y - sub.shape[0] / 2
     cache = {}
 
     vig = vignette(); emb = Embers()
@@ -346,7 +379,7 @@ def render(job, out_mp4, work):
             p = t / 0.22
             sc = 1.35 - 0.35 * min(1, p) if p < 1 else 1.0 + 0.012 * math.sin(t * 9)
             al = min(1.0, p * 1.4) * (1 - max(0.0, (t - hook_end) / 0.25))
-            blit(fr, hook, W / 2, HOOK_Y, alpha=al, scale=sc)
+            blit(fr, hook, W / 2, hook_y, alpha=al, scale=sc)
         else:
             wi = next((i for i, (s0, s1) in enumerate(wt) if s0 <= t < s1), None)
             if wi is None:
@@ -361,10 +394,10 @@ def render(job, out_mp4, work):
                 pop = min(1.0, (t - cap_start[ci]) / 0.12) if t >= cap_start[ci] else 1.0
                 blit(fr, cache[key], CAP_X, CAP_Y, alpha=min(1, 0.4 + pop), scale=0.88 + 0.12 * pop)
         if cta is not None and t >= last_start:
-            blit(fr, cta, CAP_X, CTA_Y, scale=1.0 + 0.05 * math.sin((t - last_start) * 7))
+            blit(fr, cta, CAP_X, cta_y, scale=1.0 + 0.05 * math.sin((t - last_start) * 7))
         if sub is not None and t >= sub_start:
             p = min(1.0, (t - sub_start) / 0.18)
-            blit(fr, sub, CAP_X, CTA_Y - 115, alpha=p, scale=1.3 - 0.3 * p if p < 1 else 1.0 + 0.04 * math.sin(t * 7))
+            blit(fr, sub, CAP_X, sub_y, alpha=p, scale=1.3 - 0.3 * p if p < 1 else 1.0 + 0.04 * math.sin(t * 7))
         ff.stdin.write(fr.tobytes())
     ff.stdin.close(); ff.wait()
 

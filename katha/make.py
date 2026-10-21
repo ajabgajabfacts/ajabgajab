@@ -204,7 +204,7 @@ def produce(a, L, e):
         for i, c in enumerate(shots):
             c["img"] = Image.open(work / f"img_{i}.jpg")
     else:
-        shots = media.images(e, s.get("visuals"), story_en, need=6)
+        shots = media.images(e, s.get("visuals"), story_en, need=8)
         for i, c in enumerate(shots):
             c["img"].save(work / f"img_{i}.jpg", quality=92)
         sh.write_text(json.dumps([{k: v for k, v in c.items() if k != "img"} for c in shots], ensure_ascii=False, indent=1), encoding="utf-8")
