@@ -295,3 +295,32 @@ add2("pothana", "te", "saint", ["Pothana"], ["Bammera Pothana", "Pothana statue"
 add2("molla", "te", "saint", ["Atukuri Molla"], ["Atukuri Molla statue", "Molla Ramayanam"], "a potter's daughter who wrote a Telugu Ramayana and would not dedicate it to any king")
 add2("tyagaraja_nidhi", "te", "saint", ["Tyagaraja"], ["Tyagaraja", "Thiruvaiyaru Tyagaraja"], "he turned down a king's wealth with a song asking 'does wealth bring happiness?'")
 add2("vengamamba", "te", "saint", ["Tarigonda Vengamamba"], ["Tarigonda Vengamamba", "Tirumala Vengamamba annaprasadam"], "the poet-devotee whose name is on Tirumala's free food hall")
+
+# ── Devotees and temples (2026-10-21) ────────────────────────────────────────
+# The two breakout Shorts were a devotee story (Kannappa, Telugu, 1,370) and a temple
+# with one striking custom (Karni Mata, Hindi, 1,266); the epic myths and "mystery"
+# places flopped (Samudra Manthan 9, Ravana lifting Kailash 50, Bhangarh 39). Every
+# angle below was checked against its Wikipedia text before adding. Legends and beliefs
+# (Yaganti's Nandi, Banke Bihari's curtain) are told as what devotees believe, never as fact.
+# Left out on purpose: Arasavalli (its article leads into a temple destruction) and
+# Mantralayam/Dwaraka Tirumala/Sri Kurmam/Vemulawada (articles too thin to carry a story).
+# Barbarika, Sudama and Shabari would fit here but are already pan-Indian entries above.
+add2("sammakka_saralamma", "te", "folk", ["Sammakka Saralamma Jatara"], ["Medaram jatara", "Sammakka Saralamma"], "devotees offer jaggery equal to their own body weight to two tribal goddesses")
+add2("ahobilam", "te", "myth", ["Ahobilam"], ["Ahobilam temple", "Ahobilam Narasimha"], "nine shrines of Narasimha on one hill, where he is said to have appeared from the pillar")
+add2("siddhendra_yogi", "te", "saint", ["Kuchipudi"], ["Kuchipudi dance", "Kuchipudi village"], "an orphan named Siddhendra Yogi who shaped Kuchipudi, Andhra's classical dance")
+add2("annavaram", "te", "myth", ["Satyanarayana Temple, Annavaram"], ["Annavaram temple", "Annavaram Satyanarayana"], "the god who told a devotee in a dream that he would appear on Ratnagiri hill")
+add2("yaganti", "te", "wonder", ["Yaganti temple"], ["Yaganti temple", "Yaganti Nandi"], "a stone Nandi that devotees believe keeps growing, and the legend of why no crows come")
+add2("pancharama", "te", "myth", ["Pancharama Kshetras"], ["Draksharamam temple", "Pancharama temple"], "Tarakasura's linga broke into five pieces, and each became a temple in Andhra")
+add2("vontimitta", "te", "wonder", ["Kodandarama Temple, Vontimitta"], ["Vontimitta temple", "Kodandarama temple Vontimitta"], "a Rama temple where Hanuman is missing from the sanctum")
+add2("mahanandi", "te", "engineering", ["Mahanandi"], ["Mahanandi temple", "Mahanandi pushkarini"], "a temple tank whose water is always kept exactly five feet deep")
+add2("thousand_pillar", "te", "engineering", ["Thousand Pillar Temple"], ["Thousand Pillar Temple Hanamkonda", "Thousand pillar temple Nandi"], "Kakatiya builders laid its foundation on a bed of sand")
+add2("kotappakonda", "te", "folk", ["Kotappakonda"], ["Kotappakonda temple", "Kotappakonda prabha"], "villages build giant Prabha towers for Shivaratri and over a million devotees come")
+add2("surdas", "hi", "saint", ["Surdas"], ["Surdas painting", "Surdas"], "the blind poet whose songs describe the child Krishna")
+add2("banke_bihari", "hi", "wonder", ["Banke Bihari Temple"], ["Banke Bihari temple Vrindavan", "Banke Bihari Vrindavan"], "the curtain is drawn in front of the deity every five minutes, and why devotees believe it must be")
+add2("kedarnath", "hi", "wonder", ["Kedarnath Temple"], ["Kedarnath temple", "Kedarnath"], "a stone temple high in the Himalayas that stood through the 2013 floods")
+add2("mahakaleshwar", "hi", "wonder", ["Mahakaleshwar Jyotirlinga"], ["Mahakaleshwar temple Ujjain", "Mahakaleshwar"], "the Jyotirlinga whose deity faces south")
+add2("omkareshwar", "hi", "wonder", ["Omkareshwar Temple"], ["Omkareshwar temple", "Omkareshwar island"], "a Jyotirlinga on a Narmada island said to be shaped like the symbol Om")
+add2("vaishno_devi", "hi", "wonder", ["Vaishno Devi Temple"], ["Vaishno Devi temple", "Vaishno Devi Trikuta"], "the cave shrine on Trikuta mountain that pilgrims climb to")
+add2("tungnath", "hi", "wonder", ["Tungnath"], ["Tungnath temple", "Tungnath"], "the highest of the five Panch Kedar temples, among the highest Shiva temples in the world")
+add2("badrinath", "hi", "wonder", ["Badrinath Temple"], ["Badrinath temple", "Badrinath Tapt Kund"], "hot sulphur springs bubbling just below a temple in the snowbound Himalayas")
+add2("neelkanth", "hi", "myth", ["Neelkanth Mahadev Temple"], ["Neelkanth Mahadev temple", "Neelkanth Mahadev Rishikesh"], "the spot where Shiva is said to have drunk the poison from the churning of the ocean")
