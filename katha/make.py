@@ -229,16 +229,16 @@ def produce(a, L, e):
     total = D + 0.8
     music = MUSIC / random.Random(e["key"]).choice(MUSIC_OK)
     job = dict(L=L, sentences=s["sentences"], word_times=wt, hook_text=s["hook_text"], kicker=s["kicker"],
-               cta=s.get("cta"), shots=[c["img"] for c in shots], voice=voice,
+               cta=s.get("cta"), subscribe=L["sub"], shots=[c["img"] for c in shots], voice=voice,
                music=music if music.exists() else None, duration=total)
     t0 = time.time()
     mp4 = render.render(job, work / "short.mp4", work)
     print(f"[render] {mp4} in {time.time() - t0:.0f}s")
 
     tags = [h.lstrip("#").strip() for h in s.get("hashtags", [])]
-    desc = s["description"] + "\n\n" + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots)
+    desc = s["description"] + "\n\n🔔 " + L["sub"] + "\n\n" + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots)
     meta = dict(title=s["title"], description=desc, tags=tags + ["shorts", "ajab gajab", L["name"]], lang=a.lang,
-                comment=s["sentences"][-1])
+                comment=s["sentences"][-1] + "\n\n🔔 " + L["sub"])
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.no_upload:
         return

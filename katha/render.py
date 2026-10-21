@@ -272,7 +272,7 @@ def chunks(sentences, maxn=6, maxc=30):
 
 def render(job, out_mp4, work):
     """job: L, sentences, word_times (per word over all sentences), sentence_word_counts, hook_text,
-    kicker, cta, shots (PIL images), voice wav, music path, duration."""
+    kicker, cta, subscribe, shots (PIL images), voice wav, music path, duration."""
     set_canvas(bool(job.get("landscape")))
     L = job["L"]
     D = job["duration"]
@@ -306,6 +306,12 @@ def render(job, out_mp4, work):
     hook = text_rgba(hw, f_hook, HOOK_W, stroke=12, glow=(255, 120, 0),
                      line_colors=[(255, 255, 255), SAFFRON, (255, 255, 255)])
     cta = pill(job["cta"], f_cta, (255, 255, 255), fg=(10, 10, 10)) if job.get("cta") else None
+    sub = None
+    if job.get("subscribe"):
+        fs = 48                                   # stay clear of the Shorts button column on the right
+        while (sub := pill(job["subscribe"], font(L, fs), SAFFRON)).shape[1] > 800 and fs > 32:
+            fs -= 4
+    sub_start = max(last_start, D - 1.8)         # the subscribe ask owns the last 1.8s, above the comment pill
     caps = chunks(job["sentences"], maxn=9 if LANDSCAPE else 6, maxc=48 if LANDSCAPE else 30)
     cap_of_word = {}
     for ci, c in enumerate(caps):
@@ -356,6 +362,9 @@ def render(job, out_mp4, work):
                 blit(fr, cache[key], CAP_X, CAP_Y, alpha=min(1, 0.4 + pop), scale=0.88 + 0.12 * pop)
         if cta is not None and t >= last_start:
             blit(fr, cta, CAP_X, CTA_Y, scale=1.0 + 0.05 * math.sin((t - last_start) * 7))
+        if sub is not None and t >= sub_start:
+            p = min(1.0, (t - sub_start) / 0.18)
+            blit(fr, sub, CAP_X, CTA_Y - 115, alpha=p, scale=1.3 - 0.3 * p if p < 1 else 1.0 + 0.04 * math.sin(t * 7))
         ff.stdin.write(fr.tobytes())
     ff.stdin.close(); ff.wait()
 
