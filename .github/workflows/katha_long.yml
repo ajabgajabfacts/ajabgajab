@@ -2,7 +2,7 @@ name: "Ajab Gajab — Long-form Stories"
 
 # Two long videos a week (~8-10 min, 7 fact-checked chapters, landscape):
 #   Sunday    05:35 UTC = 11:05 IST  Hindi
-#   Wednesday 05:35 UTC = 11:05 IST  regional, rotating weekly through the nine languages
+#   Wednesday 05:35 UTC = 11:05 IST  Telugu (owner best bet 2026-10-21; was a weekly regional rotation)
 # Collections rotate per language (katha/longform.py ORDER), so no theme repeats back to back.
 on:
   schedule:
@@ -49,11 +49,15 @@ jobs:
       - name: Pick language
         id: lang
         run: |
+          # Owner 2026-10-21 "best bets": until the long-form has data, each slot goes to what the Shorts proved.
+          # Sunday = Hindi mysteries (Karni Mata 1,296 views); Wednesday = Telugu devotion (Kannappa's eyes 1,372,
+          # Telugu the strongest language) instead of the weekly regional rotation. Review after 2026-11-02.
+          C="${{ inputs.collection }}"
           if [ -n "${{ inputs.lang }}" ]; then L="${{ inputs.lang }}"
-          elif [ "$(date -u +%u)" = "7" ]; then L=hi
-          else L=$(python -c "import datetime as d;r=['ta','te','bn','mr','kn','ml','gu','or','pa'];print(r[d.date.today().isocalendar()[1]%len(r)])")
+          elif [ "$(date -u +%u)" = "7" ]; then L=hi; C="${C:-mysteries}"
+          else L=te; C="${C:-devotion}"
           fi
-          echo "l=$L" >> "$GITHUB_OUTPUT"; echo "language: $L"
+          echo "l=$L" >> "$GITHUB_OUTPUT"; echo "c=$C" >> "$GITHUB_OUTPUT"; echo "language: $L  collection: ${C:-rotation}"
       - name: Write, check, render and upload
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -62,7 +66,7 @@ jobs:
           CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
         run: |
           ARGS="--lang ${{ steps.lang.outputs.l }}"
-          [ -n "${{ inputs.collection }}" ] && ARGS="$ARGS --collection ${{ inputs.collection }}"
+          [ -n "${{ steps.lang.outputs.c }}" ] && ARGS="$ARGS --collection ${{ steps.lang.outputs.c }}"
           python katha/longform.py $ARGS
       - name: Commit ledger
         if: always()
