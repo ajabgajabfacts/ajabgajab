@@ -269,6 +269,14 @@ add2("konkan_railway", "mr", "engineering", ["Konkan Railway"], ["Konkan Railway
 add2("golconda_diamonds", "te", "history", ["Golconda", "Koh-i-Noor"], ["Golconda fort", "Golconda Fort clapping portico"], "the fort whose mines gave the world the Koh-i-Noor")
 add2("charminar", "te", "engineering", ["Charminar"], ["Charminar", "Charminar night"], "why a 400-year-old monument was built in the middle of a city")
 add2("mysore_palace", "kn", "engineering", ["Mysore Palace"], ["Mysore Palace illuminated", "Mysore Palace"], "a palace lit by nearly 100,000 bulbs")
+# 2026-10-23: Mysore Palace (the 1897 fire during a royal wedding) hit 14.3k views, ~10x the next best.
+# More of that shape: a landmark Kannada viewers know, plus a dramatic true event at it.
+add2("mysore_dasara", "kn", "history", ["Mysore Dasara"], ["Mysore Dasara Jamboo Savari", "Mysore Dasara elephant"], "the elephant that carries a golden howdah through Mysore")
+add2("shivanasamudra", "kn", "engineering", ["Shivanasamudra Falls"], ["Shivanasamudra Falls", "Shivanasamudra hydroelectric"], "the waterfall that powered one of Asia's first hydroelectric stations")
+add2("krs_dam", "kn", "engineering", ["Krishna Raja Sagara", "M. Visvesvaraya"], ["Krishna Raja Sagara dam", "Brindavan Gardens"], "the dam built with Visvesvaraya's automatic gates")
+add2("belur_temple", "kn", "wonder", ["Chennakeshava Temple, Belur"], ["Chennakeshava Temple Belur", "Belur temple carvings"], "a temple that took 103 years to finish")
+add2("gol_gumbaz", "kn", "engineering", ["Gol Gumbaz"], ["Gol Gumbaz", "Gol Gumbaz whispering gallery"], "a dome where a whisper carries across the hall")
+add2("badami_caves", "kn", "wonder", ["Badami cave temples"], ["Badami cave temples", "Badami cave temple carving"], "temples cut straight into a sandstone cliff 1,400 years ago")
 add2("vembanad_boat", "ml", "sport", ["Nehru Trophy Boat Race", "Chundan vallam"], ["Snake boat race Kerala", "Nehru Trophy Boat Race"], "snake boats over 100 feet long rowed by 100 people")
 # Food origins
 add2("biryani", "all", "food", ["Biryani"], ["Hyderabadi biryani", "Biryani"], "how biryani travelled and changed across India")

@@ -123,7 +123,8 @@ def upload(mp4, meta, cfg_json, thumb=None):
 # Before 10-20 it was Hindi on 0 and 2 with nine regional languages on 1 and 3 (kept for old dates).
 REGIONAL = ["ta", "te", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
 EPOCH = dt.date(2026, 10, 19)
-ROTATING = ["ta", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
+# kn twice: Mysore Palace (14.3k, 2026-10-21) is the channel record; ta and bn were next best of the rotation.
+ROTATING = ["ta", "kn", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
 EPOCH2 = dt.date(2026, 10, 20)
 
 
