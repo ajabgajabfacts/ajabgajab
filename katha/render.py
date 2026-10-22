@@ -3,7 +3,8 @@
 Look: painted/photographed art in slow Ken Burns motion over a blurred, graded
 backdrop (landscape art sits in a gold-framed card), floating embers, vignette,
 a punch-in hook title, word-by-word highlighted captions, a pulsing comment CTA,
-whoosh on every cut and a music bed ducked under the narration.
+and a music bed ducked under the narration. (The synthetic white-noise whoosh on
+every cut was dropped 2026-10-23: the owner heard it as a weird static hiss.)
 
 Layout keeps clear of the Shorts UI: nothing important above y=140, below
 y=1600, or right of x=960 between y=900 and 1700 (the action buttons).
@@ -249,23 +250,6 @@ class Embers:
                 f[fy0:fy1, fx0:fx1] = np.clip(roi, 0, 255).astype(np.uint8)
 
 
-def whooshes(times, total, out_wav, sr=48000):
-    rng = np.random.default_rng(3)
-    y = np.zeros(int(total * sr) + sr, np.float32)
-    n = int(0.45 * sr)
-    for t in times:
-        noise = rng.standard_normal(n).astype(np.float32)
-        # sweep: crude band shaping via running mean of decreasing width, swelling envelope
-        env = np.sin(np.linspace(0, np.pi, n)) ** 2
-        k = np.convolve(noise, np.ones(24) / 24, mode="same") - np.convolve(noise, np.ones(220) / 220, mode="same")
-        s = (k * env * 0.35).astype(np.float32)
-        i = max(0, int((t - 0.22) * sr)); y[i:i + n] += s[:len(y) - i]
-    y = np.clip(y, -1, 1)
-    import wave
-    with wave.open(str(out_wav), "wb") as w:
-        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((y * 32767).astype(np.int16).tobytes())
-
-
 # ── main render ─────────────────────────────────────────────────────────────
 def chunks(sentences, maxn=6, maxc=30):
     """Word-index groups that never cross a sentence and break at commas when possible."""
@@ -401,17 +385,15 @@ def render(job, out_mp4, work):
         ff.stdin.write(fr.tobytes())
     ff.stdin.close(); ff.wait()
 
-    sfx = Path(work) / "sfx.wav"
-    whooshes(cuts[1:], D, sfx)
     music = job.get("music")
-    inputs = ["-i", str(vid), "-i", str(job["voice"]), "-i", str(sfx)]
+    inputs = ["-i", str(vid), "-i", str(job["voice"])]
     if music:
         inputs += ["-stream_loop", "-1", "-i", str(music)]
-        fc = (f"[1:a]apad,asplit=2[v1][v2];[3:a]aresample=48000,volume=0.30,afade=t=in:d=0.8,afade=t=out:st={D - 1.6:.2f}:d=1.6[m];"
+        fc = (f"[1:a]apad,asplit=2[v1][v2];[2:a]aresample=48000,volume=0.30,afade=t=in:d=0.8,afade=t=out:st={D - 1.6:.2f}:d=1.6[m];"
               f"[m][v2]sidechaincompress=threshold=0.025:ratio=7:attack=12:release=380[md];"
-              f"[v1][md][2:a]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+              f"[v1][md]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
     else:
-        fc = "[1:a]apad[v1];[v1][2:a]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+        fc = "[1:a]apad,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inputs, "-filter_complex", fc, "-map", "0:v", "-map", "[a]",
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{D:.2f}", str(out_mp4)], check=True)
     return out_mp4
