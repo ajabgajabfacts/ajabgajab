@@ -22,8 +22,7 @@ HARD RULES
      astonishing fact; what it withholds is the explanation (how / why / who), which is the reveal.
      No greeting, no "आज हम", no channel name, no "दोस्तों". Start mid-action.
   2. CONTEXT (1-2 sentences): where/when/who, concrete names and numbers from the source.
-  3. ESCALATION (the bulk of the piece): each sentence adds a stranger detail, a turn or a wrong guess;
-     never give away the answer.
+  3. ESCALATION (2-3 sentences): each adds a stranger detail or a wrong guess; never give away the answer.
   4. REVEAL (second-to-last sentence): the answer/twist, clearly stated - the moment the hook pays off.
   5. {ending_struct}
   Every sentence must follow logically from the one before; a viewer must never feel lost.
@@ -43,8 +42,7 @@ HARD RULES
   they are everyday in spoken {lang_name}.
 
 Return JSON:
-{{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story; name the concrete surprising act (who did what) rather than vague words like secret/mystery. A why/how question that the story answers works best (e.g. the equivalent of 'Why did X do Y?')",
- "emoji": "ONE emoji that fits the story, from: 🚩 😱 🙏 🔱 😳 🦚 🔥",
+{{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story; name the concrete surprising act (who did what) rather than vague words like secret/mystery",
  "hook_text": "on-screen hook, max 6 words, {lang_name}",
  "kicker": "1-2 word label in {lang_name}, e.g. the equivalent of MYSTERY / TRUE STORY / LEGEND",
  "sentences": ["..."],
@@ -84,7 +82,7 @@ Return JSON: {{"ok": true/false, "problems": ["specific problem + fix"], "fixed_
 and the problems are small wording issues: the corrected full sentence list, else []]}}"""
 
 
-SHORT = dict(fmt="Shorts", nsent="14-18", ending_struct="QUESTION (last sentence): one short question for the comments.",
+SHORT = dict(fmt="Shorts", nsent="7-9", ending_struct="QUESTION (last sentence): one short question for the comments.",
              ending_rule='Last sentence = one short question viewers answer in the comments (opinion or "had you heard this?").',
              ending_check="ends with a question", ending_name="question")
 # A chapter of a long video: deeper, and it lands instead of asking (one question at the very end of the video).
@@ -97,9 +95,7 @@ def write(entry, lang, L, source, max_rounds=4, chapter=False):
     """Return (script dict, check dict) or raise if no version passes."""
     feedback = ""
     mode = CHAPTER if chapter else SHORT
-    # 2026-10-21 competitor scan: the devotional story Shorts with 100k-900k medians run 70-180 s (Hindu Trendz,
-    # Telugu Vedam, Dev Kathan, Divya Kathayein); ours ran 30-40 s. LANGS words are sized for ~35 s, so x2.0 ~ 75 s.
-    scale = 1.8 if chapter else 2.0
+    scale = 1.8 if chapter else 1.0
     hint = entry["key"].replace("_", " ")
     for rnd in range(max_rounds):
         w0, w1 = (int(x * scale) for x in L.get("words", (85, 110)))

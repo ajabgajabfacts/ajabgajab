@@ -39,16 +39,6 @@ def pick(lang, force_key=None):
     return random.Random(f"{lang}{n}").choice(pool)
 
 
-def title_line(s, tags):
-    """Emoji + title + #shorts and two topic hashtags, the form the top devotional story channels use
-    ("🚩 क्यों मिलता है गया में पिंडदान से मोक्ष? #shorts #bhakti"; competitor scan 2026-10-21). Max 100 chars."""
-    t = (s.get("emoji", "").strip() + " " + s["title"].strip()).strip()
-    for h in ["shorts"] + [x.replace(" ", "") for x in tags[:2]]:
-        if len(t) + len(h) + 2 <= 100:
-            t += " #" + h
-    return t
-
-
 def credits(sources, shots):
     lines = ["Source: " + ", ".join(f"Wikipedia - {s['title']} (CC BY-SA 4.0)" for s in sources)]
     lines.append("Images (Wikimedia Commons):")
@@ -214,7 +204,7 @@ def produce(a, L, e):
         for i, c in enumerate(shots):
             c["img"] = Image.open(work / f"img_{i}.jpg")
     else:
-        shots = media.images(e, s.get("visuals"), story_en, need=14)   # ~75 s Shorts (write.py) need more pictures
+        shots = media.images(e, s.get("visuals"), story_en, need=8)
         for i, c in enumerate(shots):
             c["img"].save(work / f"img_{i}.jpg", quality=92)
         sh.write_text(json.dumps([{k: v for k, v in c.items() if k != "img"} for c in shots], ensure_ascii=False, indent=1), encoding="utf-8")
@@ -247,7 +237,7 @@ def produce(a, L, e):
 
     tags = [h.lstrip("#").strip() for h in s.get("hashtags", [])]
     desc = s["description"] + "\n\n🔔 " + L["sub"] + "\n\n" + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots)
-    meta = dict(title=title_line(s, tags), description=desc, tags=tags + ["shorts", "ajab gajab", L["name"]], lang=a.lang,
+    meta = dict(title=s["title"], description=desc, tags=tags + ["shorts", "ajab gajab", L["name"]], lang=a.lang,
                 comment=s["sentences"][-1] + "\n\n🔔 " + L["sub"])
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.no_upload:
