@@ -16,6 +16,9 @@
            Tamil, whose wide glyphs wrap to two lines.
   words    script length. Dravidian languages pack more into each word (agglutinative),
            so the same ~35 s needs far fewer words (Tamil at 103 words ran 55 s).
+  channel  (en only) the YouTube channel the language posts to, when it is not Ajab Gajab;
+           also its config file for local runs (CI passes CHANNEL_CONFIG).
+  voice    storyteller register for the writer prompt; default is the Indian-language one.
 """
 
 LANGS = {
@@ -39,4 +42,10 @@ LANGS = {
                brand="ଅଜବ ଗଜବ", audience="Odia speakers in Odisha; everyday spoken Odia"),
     "pa": dict(cap=(100, 18), sub="ਹੋਰ ਕਹਾਣੀਆਂ ਲਈ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ", name="Punjabi", edge=None, words=(85, 110), whisper="pa", font="NotoSansGurmukhi.ttf", wght=800,
                brand="ਅਜਬ ਗਜਬ", audience="Punjabi speakers in Punjab (India); everyday spoken Punjabi in Gurmukhi script"),
+    # 2026-10-23: English goes to its own channel, Strange But True (the renamed Money Sorted), not Ajab Gajab.
+    "en": dict(sub="Subscribe for more true stories", name="English", edge="en-US-AndrewNeural", words=(80, 100), whisper="en",
+               font="Mukta-ExtraBold.ttf", wght=None, brand="Strange But True",
+               channel=("Strange But True", "week_test/files/CHANNEL_Money_Sorted_AU_CONFIG.json"),
+               voice="Plain, vivid conversational English, like a friend telling the best story they know. No filler, no 'did you know'.",
+               audience="English speakers in the US, UK, Canada and Australia who like history and famous places"),
 }

@@ -38,8 +38,7 @@ HARD RULES
 - Make it RELATABLE to this audience: where it fits naturally, connect to their region, festival,
   temple, food or saying - but only with facts the source supports.
 - {ending_rule}
-- Natural spoken {lang_name}, like a gripping storyteller at a chai stall. No English words unless
-  they are everyday in spoken {lang_name}.
+- {voice}
 
 Return JSON:
 {{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story; name the concrete surprising act (who did what) rather than vague words like secret/mystery",
@@ -99,7 +98,9 @@ def write(entry, lang, L, source, max_rounds=4, chapter=False):
     hint = entry["key"].replace("_", " ")
     for rnd in range(max_rounds):
         w0, w1 = (int(x * scale) for x in L.get("words", (85, 110)))
-        s = ai.json_call(WRITE.format(audience=L["audience"], lang_name=L["name"], source=source[:14000],
+        voice = L.get("voice") or (f"Natural spoken {L['name']}, like a gripping storyteller at a chai stall. No English "
+                                   f"words unless they are everyday in spoken {L['name']}.")
+        s = ai.json_call(WRITE.format(audience=L["audience"], lang_name=L["name"], source=source[:14000], voice=voice,
                                       topic_hint=hint, w0=w0, w1=w1, feedback=feedback, **mode,
                                       angle_line=f"ANGLE (build on this): {entry['angle']}" if entry.get("angle") else ""))
         script = "\n".join(s["sentences"])

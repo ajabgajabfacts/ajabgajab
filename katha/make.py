@@ -30,7 +30,8 @@ def pick(lang, force_key=None):
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
     regional = [s for s in bank.S if s["lang"] == lang and (s["key"], lang) not in done]
-    common = [s for s in bank.S if s["lang"] == "all" and (s["key"], lang) not in done]
+    # "all" means pan-Indian; English is a different channel with its own world stories.
+    common = [s for s in bank.S if s["lang"] == "all" and (s["key"], lang) not in done] if lang != "en" else []
     n = len([r for r in ledger() if r["lang"] == lang])
     # Regional first 2 of every 3 slots: their own place/saint/king is what this audience relates to.
     pool = regional if (regional and (n % 3 != 2 or not common)) else (common or regional)
@@ -61,7 +62,7 @@ def add_to_playlist(yt, vid, lang):
         if not pid:
             title = f"{L['name']} Stories | {L['brand']}"
             pl = yt.playlists().insert(part="snippet,status", body={
-                "snippet": {"title": title, "description": f"Ajab Gajab stories in {L['name']}: myths, legends, "
+                "snippet": {"title": title, "description": f"{L.get('channel', ('Ajab Gajab',))[0]} stories in {L['name']}: myths, legends, "
                             "real places, science and more. Fact-checked against Wikipedia.",
                             "defaultLanguage": lang},
                 "status": {"privacyStatus": "public"}}).execute()
@@ -238,12 +239,13 @@ def produce(a, L, e):
 
     tags = [h.lstrip("#").strip() for h in s.get("hashtags", [])]
     desc = s["description"] + "\n\n🔔 " + L["sub"] + "\n\n" + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots)
-    meta = dict(title=s["title"], description=desc, tags=tags + ["shorts", "ajab gajab", L["name"]], lang=a.lang,
+    meta = dict(title=s["title"], description=desc, tags=tags + ["shorts", L.get("channel", ("ajab gajab",))[0].lower(), L["name"]], lang=a.lang,
                 comment=s["sentences"][-1] + "\n\n🔔 " + L["sub"])
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.no_upload:
         return
-    cfg = os.environ.get("CHANNEL_CONFIG") or (HERE.parent / "CHANNEL_Ajab_Gajab_Facts_CONFIG.json").read_text()
+    local = HERE.parent.parent / L["channel"][1] if L.get("channel") else HERE.parent / "CHANNEL_Ajab_Gajab_Facts_CONFIG.json"
+    cfg = os.environ.get("CHANNEL_CONFIG") or local.read_text()
     vid = upload(mp4, meta, cfg)
     print(f"[upload] https://youtube.com/shorts/{vid}")
     led = ledger()
