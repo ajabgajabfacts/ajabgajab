@@ -58,6 +58,15 @@ jobs:
         run: |
           sudo apt-get update -qq || true
           sudo apt-get install -y -qq ffmpeg
+      - name: PhotoCraft CLI (image clean-up; optional, katha/media.py enhance)
+        if: steps.due.outputs.skip != 'true' || inputs.force_post
+        continue-on-error: true
+        run: |
+          curl -fsSL -o /tmp/pc.tgz https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-linux-x86_64.tar.gz
+          echo "3d1f60a76c25aafbf53f23cfedd3687bd99eb6f5309920e140d588bd3212c936  /tmp/pc.tgz" | sha256sum -c -
+          tar xzf /tmp/pc.tgz -C /tmp photocraft-0.14.0-linux-x86_64/bin/photocraft-cli
+          sudo install /tmp/photocraft-0.14.0-linux-x86_64/bin/photocraft-cli /usr/local/bin/
+          photocraft-cli commands --filter autoTone
       - name: Python dependencies
         if: steps.due.outputs.skip != 'true' || inputs.force_post
         run: pip install --quiet -r katha/requirements.txt

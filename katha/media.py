@@ -136,7 +136,38 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
         if len([p for p in picked if p["score"] >= 7]) >= need:
             break
     picked.sort(key=lambda c: -c["score"])
-    return picked[:need]
+    return enhance(picked[:need])
+
+
+# PhotoCraft (github.com/storytold/photocraft) headless clean-up before render's own grade():
+# Auto Tone, a gentle shadow lift and Smart Sharpen. Tested 2026-10-23 on 18 story images: dark
+# cave/temple shots got their carvings back and hazy mountains their depth; already-harsh shots
+# barely change. Optional: no CLI on PATH, or any failure, keeps the originals.
+PC_ACTIONS = [["image.autoTone", {}],
+              ["image.adjustments.shadowsHighlights", {"shadowAmount": 20, "highlightAmount": 10}],
+              ["filter.sharpen.smartSharpen", {"amount": 60, "radius": 1.0, "reduceNoise": 15}]]
+
+
+def enhance(shots):
+    import shutil, tempfile
+    cli = os.environ.get("PHOTOCRAFT_CLI") or shutil.which("photocraft-cli")
+    if not (cli and shots):
+        return shots
+    try:
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d); (d / "in").mkdir(); (d / "out").mkdir()
+            (d / "a.json").write_text(json.dumps(PC_ACTIONS))
+            for i, c in enumerate(shots):
+                c["img"].save(d / "in" / f"{i:02d}.png")
+            subprocess.run([cli, "batch", "--actions", str(d / "a.json"), "--in", str(d / "in"), "--out", str(d / "out"),
+                            "--format", "png"], check=True, capture_output=True, timeout=240)
+            out = [Image.open(d / "out" / f"{i:02d}.png").convert("RGB") for i in range(len(shots))]
+        for c, im in zip(shots, out):
+            c["img"] = im
+        print(f"[img] PhotoCraft enhanced {len(out)} images")
+    except Exception as e:
+        print("[img] PhotoCraft skipped:", str(e)[:120])
+    return shots
 
 
 # ── Narration ───────────────────────────────────────────────────────────────
