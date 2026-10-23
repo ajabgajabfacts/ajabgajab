@@ -21,6 +21,26 @@ MUSIC_OK = ["Dream Escape - The Tides.mp3", "Horizons - Alex Jones _ Xander Jone
             "The Light - Alex Jones _ Xander Jones.mp3", "Rain Over Kyoto Station - The Mini Vandals.mp3"]
 
 
+# Story Shorts use our own synthesised music (genmusic.py, copied from quizora/), the mood picked
+# from the story's kind; the library tracks above are only the fallback. Owner approved the
+# mystery / epic / devotional / wonder samples 2026-10-23.
+MOOD_BY_KIND = {"myth": "devotional", "saint": "devotional", "history": "epic", "people": "epic", "sport": "epic",
+                "folk": "mystery"}          # everything else (wonder, engineering, nature, food, space...) -> "wonder"
+
+
+def story_music(e, seconds, work):
+    try:
+        import genmusic, zlib
+        mood = MOOD_BY_KIND.get(e.get("kind"), "wonder")
+        p = genmusic.generate(Path(work) / "music.wav", seconds + 1, seed=zlib.crc32(e["key"].encode()), mood=mood)
+        print(f"[music] genmusic {mood}")
+        return p
+    except Exception as ex:
+        print(f"[music] genmusic failed ({ex}); library track")
+        m = MUSIC / random.Random(e["key"]).choice(MUSIC_OK)
+        return m if m.exists() else None
+
+
 def ledger():
     return json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else []
 
@@ -229,10 +249,9 @@ def produce(a, L, e):
     words = text.split()
     wt = media.word_times(words, asr, D)
     total = D + 0.8
-    music = MUSIC / random.Random(e["key"]).choice(MUSIC_OK)
     job = dict(L=L, sentences=s["sentences"], word_times=wt, hook_text=s["hook_text"], kicker=s["kicker"],
                cta=s.get("cta"), subscribe=L["sub"], shots=[c["img"] for c in shots], voice=voice,
-               music=music if music.exists() else None, duration=total)
+               music=story_music(e, total, work), duration=total)
     t0 = time.time()
     mp4 = render.render(job, work / "short.mp4", work)
     print(f"[render] {mp4} in {time.time() - t0:.0f}s")
