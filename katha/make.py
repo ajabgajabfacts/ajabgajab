@@ -11,7 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import bank, media, render, write
+import bank, insights, media, render, write
 from langs import LANGS
 
 LEDGER = HERE / "ledger.json"
@@ -57,7 +57,10 @@ def pick(lang, force_key=None):
     pool = regional if (regional and (n % 3 != 2 or not common)) else (common or regional)
     if not pool:
         raise SystemExit(f"bank exhausted for {lang}")
-    return random.Random(f"{lang}{n}").choice(pool)
+    # Story types that did well on our channel get picked more often (katha/insights.py); a kind
+    # with no data yet stays at 1.0. English is its own channel, so it reads its own weights.
+    kw = (insights.load().get("channels", {}).get("en" if lang == "en" else "ajab", {}) or {}).get("kind_weights") or {}
+    return random.Random(f"{lang}{n}").choices(pool, [kw.get(s["kind"], {}).get("w", 1.0) for s in pool])[0]
 
 
 def credits(sources, shots):
@@ -158,6 +161,15 @@ def slot_lang(slot, day=None):
         return "te"
     if slot == 2:
         return "hi"
+    # From 2026-10-23 the rotating slots follow katha/insights.py's language weights (our own
+    # views, shrunk and clamped so every language keeps being tested). Seeded by the date, so a
+    # retry the same day gets the same language; slot 1 never repeats slot 0's language.
+    lw = (insights.load().get("channels", {}).get("ajab", {}) or {}).get("lang_weights") or {}
+    if lw:
+        langs = sorted(lw)
+        if slot == 1:
+            langs.remove(slot_lang(0, day))
+        return random.Random(f"{day}/{slot}").choices(langs, [lw[l]["w"] for l in langs])[0]
     return ROTATING[(2 * (day - EPOCH2).days + slot) % len(ROTATING)]
 
 
@@ -200,6 +212,9 @@ def main():
 def produce(a, L, e):
     print(f"[katha] {a.lang} / {e['key']} ({e['kind']})")
     work = Path(a.out) / f"{dt.date.today()}_{a.lang}_{e['key']}"; work.mkdir(parents=True, exist_ok=True)
+    # Our best titles in this language so far, as style examples for the writer (katha/insights.py).
+    ch = insights.load().get("channels", {}).get("en" if a.lang == "en" else "ajab", {}) or {}
+    e = dict(e, proven=(ch.get("proven_titles") or {}).get(a.lang, []))
 
     sources = media.wiki(e["wiki"])
     if not sources:

@@ -1,7 +1,7 @@
 name: "Ajab Gajab — Story Shorts (all Indian languages)"
 
 # 4 slots a day, one channel. Slot 3 is Telugu, slot 2 Hindi; 0 and 1 rotate through the
-# other regional languages (katha/make.py slot_lang, changed 2026-10-20). Times are IST peaks:
+# other regional languages, weighted by our own numbers (katha/make.py slot_lang + insights.py, 2026-10-23). Times are IST peaks:
 #   slot 0  02:35 UTC = 08:05 IST    slot 1  06:35 UTC = 12:05 IST
 #   slot 2  12:35 UTC = 18:05 IST    slot 3  15:05 UTC = 20:35 IST
 # A slot posts at most once a day (ledger guard), so a late or repeated trigger is harmless.

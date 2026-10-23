@@ -10,7 +10,7 @@ STORY SOURCE (English Wikipedia; the ONLY facts you may use):
 >>>
 
 Write a {lang_name} {fmt} about: {topic_hint}
-{angle_line}
+{angle_line}{proven_line}
 SPINE: build the whole story on the ONE most astonishing, specific fact in the source - a physical oddity, an
 impossible-seeming feat, an unsolved question, a shocking twist. NOT generic praise, heritage-list status,
 "beautiful architecture", district names, distances or administrative detail.
@@ -102,7 +102,10 @@ def write(entry, lang, L, source, max_rounds=4, chapter=False):
                                    f"words unless they are everyday in spoken {L['name']}.")
         s = ai.json_call(WRITE.format(audience=L["audience"], lang_name=L["name"], source=source[:14000], voice=voice,
                                       topic_hint=hint, w0=w0, w1=w1, feedback=feedback, **mode,
-                                      angle_line=f"ANGLE (build on this): {entry['angle']}" if entry.get("angle") else ""))
+                                      angle_line=f"ANGLE (build on this): {entry['angle']}" if entry.get("angle") else "",
+                                      proven_line=("\nTITLES THAT GOT THE MOST VIEWS ON THIS CHANNEL (match their style and "
+                                                   "curiosity gap, never copy their topic): " + " | ".join(entry["proven"]))
+                                      if entry.get("proven") else ""))
         script = "\n".join(s["sentences"])
         c = ai.json_call(CHECK.format(lang_name=L["name"], w0=w0, w1=w1, source=source[:14000], script=script, **mode,
                                       claims="\n".join("- " + x for x in s.get("claims_en", []))),

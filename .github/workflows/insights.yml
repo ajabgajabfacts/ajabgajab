@@ -1,0 +1,60 @@
+name: "Ajab Gajab — Daily insights (self-tuning)"
+
+# katha/insights.py reads YouTube Analytics (% watched, retention, subscribers, traffic,
+# searches, audience) and Facebook Reel views for every story Short, then writes
+# katha/insights.json: the language and story-type weights make.py picks with, plus the
+# best titles the writer is shown. katha/INSIGHTS.md is the readable summary.
+# 01:50 UTC = before slot 0 (02:35), so each day's first Short already uses fresh weights.
+on:
+  schedule:
+    - cron: "50 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ajabgajab-katha        # same group as the posting runs: never race their ledger commit
+  cancel-in-progress: false
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Python dependencies
+        # Only the API clients: this job renders nothing.
+        run: pip install --quiet google-api-python-client==2.201.0 google-auth==2.61.0 google-auth-httplib2==0.4.4 requests==2.34.2
+      - name: Learn from our own numbers
+        env:
+          CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
+          CHANNEL_CONFIG_EN: ${{ secrets.CHANNEL_CONFIG_EN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN_AJAB }}
+        run: python katha/insights.py --print
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add katha/insights.json katha/INSIGHTS.md
+          git diff --staged --quiet && exit 0
+          git commit -m "katha: daily insights [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}" && exit 0
+            sleep 5
+          done
+          exit 1
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --repo "${{ github.repository }}" \
+            --title "Insights failed: $(date -u '+%F %H:%M')" \
+            --body "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

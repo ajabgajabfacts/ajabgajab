@@ -1,0 +1,735 @@
+{
+ "updated": "2026-10-23T06:10Z",
+ "channels": {
+  "ajab": {
+   "videos": [
+    {
+     "video_id": "ne6UInSmLIM",
+     "title": "ಮದುವೆಯ ಸಂಭ್ರಮದಲ್ಲಿ ಹೊತ್ತಿ ಉರಿದ ಮೈಸೂರು ಅರಮನೆ!",
+     "key": "mysore_palace",
+     "lang": "kn",
+     "kind": "engineering",
+     "seconds": 35.6,
+     "slot": 1,
+     "age_h": 46,
+     "yt": 18491,
+     "fb": null,
+     "total": 18491,
+     "likes": 263,
+     "comments": 5,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null,
+     "retention": null
+    },
+    {
+     "video_id": "mPah9AIzlXM",
+     "title": "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
+     "key": "kannappa",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 34.5,
+     "slot": 3,
+     "age_h": 83,
+     "yt": 1655,
+     "fb": null,
+     "total": 1655,
+     "likes": 44,
+     "comments": 1,
+     "avp": 67.76,
+     "avd": 23,
+     "subs": 1,
+     "shares": 0,
+     "retention": {
+      "10%": 1.22,
+      "50%": 0.59,
+      "90%": 0.46
+     }
+    },
+    {
+     "video_id": "KmUw84flf1o",
+     "title": "750 ಕೆಜಿ ಚಿನ್ನ ಹೊರುವ ಮೈಸೂರಿನ ಆನೆ ಯಾರನ್ನು ಹೊತ್ತೊಯ್ಯುತ್ತದೆ?",
+     "key": "mysore_dasara",
+     "lang": "kn",
+     "kind": "history",
+     "seconds": 40.6,
+     "slot": 0,
+     "age_h": 6,
+     "yt": 1463,
+     "fb": null,
+     "total": 1463,
+     "likes": 44,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "j9O18XJ0yh8",
+     "title": "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
+     "key": "karni_mata",
+     "lang": "hi",
+     "kind": "wonder",
+     "seconds": 29.9,
+     "slot": 2,
+     "age_h": 61,
+     "yt": 1321,
+     "fb": null,
+     "total": 1321,
+     "likes": 14,
+     "comments": 3,
+     "avp": 52.1,
+     "avd": 15,
+     "subs": 4,
+     "shares": 1,
+     "retention": {
+      "10%": 1.1,
+      "50%": 0.42,
+      "90%": 0.27
+     }
+    },
+    {
+     "video_id": "6Td4hjNTlRE",
+     "title": "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!",
+     "key": "karikala_kallanai",
+     "lang": "ta",
+     "kind": "history",
+     "seconds": 31.9,
+     "slot": 1,
+     "age_h": 96,
+     "yt": 552,
+     "fb": null,
+     "total": 552,
+     "likes": 8,
+     "comments": 1,
+     "avp": 55.76,
+     "avd": 17,
+     "subs": 1,
+     "shares": 1
+    },
+    {
+     "video_id": "zJ1o_5EW6zc",
+     "title": "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
+     "key": "jatinga",
+     "lang": "bn",
+     "kind": "wonder",
+     "seconds": 39.1,
+     "slot": 1,
+     "age_h": 70,
+     "yt": 508,
+     "fb": null,
+     "total": 508,
+     "likes": 4,
+     "comments": 1,
+     "avp": 30.459999999999997,
+     "avd": 12,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "f_5ZyAO7IWE",
+     "title": "అన్నమయ్య పాటలు 300 ఏళ్లుగా ఎక్కడ దాగి ఉన్నాయో తెలుసా?",
+     "key": "annamacharya",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 70.9,
+     "slot": 3,
+     "age_h": 36,
+     "yt": 276,
+     "fb": null,
+     "total": 276,
+     "likes": 3,
+     "comments": 3,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "pBYZrE-NoKo",
+     "title": "નરસિંહ મહેતાએ નકલી વેપારી પર ૭૦૦ રૂપિયાની હૂંડી કેમ લખી?",
+     "key": "narsinh_mehta",
+     "lang": "gu",
+     "kind": "saint",
+     "seconds": 86.5,
+     "slot": 1,
+     "age_h": 22,
+     "yt": 134,
+     "fb": null,
+     "total": 134,
+     "likes": 3,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "EfAlBz3CY2I",
+     "title": "భక్త కన్నప్ప త్యాగం వెనుక ఉన్న అసలు రహస్యం!",
+     "key": "kannappa",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 34.5,
+     "slot": 3,
+     "age_h": 83,
+     "yt": 133,
+     "fb": null,
+     "total": 133,
+     "likes": 3,
+     "comments": 1,
+     "avp": 52.790000000000006,
+     "avd": 18,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "lsAAygSYC-M",
+     "title": "ശിവൻ സ്വന്തം സ്ഥലം ഒഴിഞ്ഞുകൊടുത്തത് ആർക്കുവേണ്ടി?",
+     "key": "guruvayurappan",
+     "lang": "ml",
+     "kind": "myth",
+     "seconds": 65.8,
+     "slot": 0,
+     "age_h": 25,
+     "yt": 125,
+     "fb": null,
+     "total": 125,
+     "likes": 1,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "4pwBrxbAG2I",
+     "title": "రావణుడు కైలాస పర్వతాన్ని ఎత్తినప్పుడు ఏం జరిగింది?",
+     "key": "ravana_kailash",
+     "lang": "te",
+     "kind": "myth",
+     "seconds": 39.6,
+     "slot": 3,
+     "age_h": 60,
+     "yt": 84,
+     "fb": null,
+     "total": 84,
+     "likes": 1,
+     "comments": 1,
+     "avp": 30.630000000000003,
+     "avd": 12,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "-FKZryAaYj0",
+     "title": "सती जाणाऱ्या अहिल्याबाईंनी थेट तोफखाना कसा चालवला?",
+     "key": "ahilyabai",
+     "lang": "mr",
+     "kind": "history",
+     "seconds": 39.4,
+     "slot": 0,
+     "age_h": 46,
+     "yt": 77,
+     "fb": null,
+     "total": 77,
+     "likes": 3,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "l9DndD20K04",
+     "title": "రాయలు తన మంత్రిని ఎందుకు అంధుడిని చేశారు?",
+     "key": "krishnadevaraya",
+     "lang": "te",
+     "kind": "history",
+     "seconds": 60.8,
+     "slot": 3,
+     "age_h": 12,
+     "yt": 51,
+     "fb": null,
+     "total": 51,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "wF4SXqX4FVI",
+     "title": "एक परछाई ने भानगढ़ को कैसे बर्बाद कर दिया?",
+     "key": "bhangarh",
+     "lang": "hi",
+     "kind": "folk",
+     "seconds": 33.9,
+     "slot": 2,
+     "age_h": 88,
+     "yt": 40,
+     "fb": null,
+     "total": 40,
+     "likes": 1,
+     "comments": 1,
+     "avp": 51.019999999999996,
+     "avd": 17,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "oHmpvuPLUD4",
+     "title": "अंधे होकर भी सूरदास ने बाल कृष्ण का सुंदर रूप कैसे रचा?",
+     "key": "surdas",
+     "lang": "hi",
+     "kind": "saint",
+     "seconds": 66.5,
+     "slot": 2,
+     "age_h": 12,
+     "yt": 38,
+     "fb": null,
+     "total": 38,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "hlxBJbcPMlI",
+     "title": "मछली के पेट से राजा को अपनी भूली पत्नी कैसे याद आई?",
+     "key": "shakuntala",
+     "lang": "hi",
+     "kind": "myth",
+     "seconds": 76.0,
+     "slot": 2,
+     "age_h": 40,
+     "yt": 28,
+     "fb": null,
+     "total": 28,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null,
+     "retention": null
+    },
+    {
+     "video_id": "PuXYM7yF72Q",
+     "title": "अमृत पीते ही असुर के दो टुकड़े क्यों हुए?",
+     "key": "samudra_manthan",
+     "lang": "hi",
+     "kind": "myth",
+     "seconds": 32.8,
+     "slot": 0,
+     "age_h": 73,
+     "yt": 19,
+     "fb": null,
+     "total": 19,
+     "likes": 1,
+     "comments": 1,
+     "avp": 54.52,
+     "avd": 17,
+     "subs": 0,
+     "shares": 0,
+     "retention": null
+    },
+    {
+     "video_id": "qDn6fFjJ5eg",
+     "title": "ऊपर से नीचे कैसे तराशा गया यह विशालकाय मंदिर?",
+     "key": "kailasa_monolith",
+     "lang": "hi",
+     "kind": "wonder",
+     "seconds": 34.5,
+     "slot": 0,
+     "age_h": 96,
+     "yt": 12,
+     "fb": null,
+     "total": 12,
+     "likes": 0,
+     "comments": 1,
+     "avp": 0,
+     "avd": 0,
+     "subs": 0,
+     "shares": 0,
+     "retention": null
+    },
+    {
+     "video_id": "Oe3_8GCTZX4",
+     "title": "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?",
+     "key": "rani_ki_vav",
+     "lang": "gu",
+     "kind": "wonder",
+     "seconds": 39.8,
+     "slot": 0,
+     "age_h": 0,
+     "yt": 2,
+     "fb": null,
+     "total": 2,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    }
+   ],
+   "channel": {
+    "traffic": [
+     {
+      "insightTrafficSourceType": "SHORTS",
+      "views": 3650
+     },
+     {
+      "insightTrafficSourceType": "YT_SEARCH",
+      "views": 73
+     },
+     {
+      "insightTrafficSourceType": "RELATED_VIDEO",
+      "views": 12
+     },
+     {
+      "insightTrafficSourceType": "EXT_URL",
+      "views": 9
+     },
+     {
+      "insightTrafficSourceType": "SUBSCRIBER",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceType": "YT_OTHER_PAGE",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceType": "NO_LINK_OTHER",
+      "views": 1
+     }
+    ],
+    "searches": [
+     {
+      "insightTrafficSourceDetail": "autokaran channel",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "animal meeting video",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "bangla chobi",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "bhangarh ki kahani",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "cartoon",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "cjp",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "comatozze",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "dr posani",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "drawing games",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "ethir neechal today promo",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "ganapathi patalu",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "ramdev ji bhajan",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "seetharamayya gari manavaralu serial",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "shruti hassan live",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "spider-man",
+      "views": 1
+     }
+    ],
+    "related": [
+     {
+      "insightTrafficSourceDetail": "6nXUssKDijo",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "Ffi5TJDs67A",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "Ge7z_ZiHymk",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "RoOlbRmFEdM",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "U6CehUHmUoY",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "dyhvaOOnT_g",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "iJar05aidwQ",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "uuhfL6DwLrU",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "v8WnWGyw75s",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "yMAEQcVe7x4",
+      "views": 1
+     }
+    ],
+    "audience": [
+     {
+      "ageGroup": "age13-17",
+      "gender": "male",
+      "viewerPercentage": 1.2
+     },
+     {
+      "ageGroup": "age18-24",
+      "gender": "female",
+      "viewerPercentage": 2.6
+     },
+     {
+      "ageGroup": "age18-24",
+      "gender": "male",
+      "viewerPercentage": 7
+     },
+     {
+      "ageGroup": "age25-34",
+      "gender": "female",
+      "viewerPercentage": 7.3
+     },
+     {
+      "ageGroup": "age25-34",
+      "gender": "male",
+      "viewerPercentage": 20.2
+     },
+     {
+      "ageGroup": "age35-44",
+      "gender": "female",
+      "viewerPercentage": 5.2
+     },
+     {
+      "ageGroup": "age35-44",
+      "gender": "male",
+      "viewerPercentage": 17.9
+     },
+     {
+      "ageGroup": "age45-54",
+      "gender": "female",
+      "viewerPercentage": 3.3
+     },
+     {
+      "ageGroup": "age45-54",
+      "gender": "male",
+      "viewerPercentage": 12.9
+     },
+     {
+      "ageGroup": "age55-64",
+      "gender": "female",
+      "viewerPercentage": 2.9
+     },
+     {
+      "ageGroup": "age55-64",
+      "gender": "male",
+      "viewerPercentage": 9.3
+     },
+     {
+      "ageGroup": "age65-",
+      "gender": "female",
+      "viewerPercentage": 2
+     },
+     {
+      "ageGroup": "age65-",
+      "gender": "male",
+      "viewerPercentage": 8.1
+     }
+    ],
+    "countries": [
+     {
+      "country": "IN",
+      "views": 2927
+     },
+     {
+      "country": "US",
+      "views": 314
+     },
+     {
+      "country": "BD",
+      "views": 252
+     },
+     {
+      "country": "GB",
+      "views": 46
+     }
+    ]
+   },
+   "lang_weights": {
+    "or": {
+     "w": 1.0,
+     "n": 0,
+     "median": null
+    },
+    "pa": {
+     "w": 1.0,
+     "n": 0,
+     "median": null
+    },
+    "bn": {
+     "w": 0.99,
+     "n": 1,
+     "median": 508
+    },
+    "gu": {
+     "w": 1.0,
+     "n": 0,
+     "median": null
+    },
+    "mr": {
+     "w": 0.71,
+     "n": 1,
+     "median": 77
+    },
+    "ml": {
+     "w": 1.0,
+     "n": 0,
+     "median": null
+    },
+    "ta": {
+     "w": 1.01,
+     "n": 1,
+     "median": 552
+    },
+    "kn": {
+     "w": 2.38,
+     "n": 1,
+     "median": 18491
+    }
+   },
+   "kind_weights": {
+    "engineering": {
+     "w": 1.41,
+     "n": 1,
+     "median": 18491
+    },
+    "wonder": {
+     "w": 1.25,
+     "n": 3,
+     "median": 508
+    },
+    "history": {
+     "w": 1.18,
+     "n": 2,
+     "median": 314
+    },
+    "folk": {
+     "w": 0.74,
+     "n": 1,
+     "median": 40
+    },
+    "saint": {
+     "w": 1.42,
+     "n": 3,
+     "median": 276
+    },
+    "myth": {
+     "w": 0.58,
+     "n": 3,
+     "median": 28
+    }
+   },
+   "proven_titles": {
+    "kn": [
+     "ಮದುವೆಯ ಸಂಭ್ರಮದಲ್ಲಿ ಹೊತ್ತಿ ಉರಿದ ಮೈಸೂರು ಅರಮನೆ!"
+    ],
+    "te": [
+     "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
+     "అన్నమయ్య పాటలు 300 ఏళ్లుగా ఎక్కడ దాగి ఉన్నాయో తెలుసా?",
+     "భక్త కన్నప్ప త్యాగం వెనుక ఉన్న అసలు రహస్యం!"
+    ],
+    "hi": [
+     "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!"
+    ],
+    "ta": [
+     "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!"
+    ],
+    "bn": [
+     "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?"
+    ],
+    "mr": []
+   },
+   "median_views": 133
+  },
+  "en": {
+   "videos": [
+    {
+     "video_id": "3HRiGnU6ZcM",
+     "title": "When a 25-Foot Wave of Molasses Flooded Boston",
+     "key": "molasses_flood",
+     "lang": "en",
+     "kind": "history",
+     "seconds": 34.8,
+     "slot": 4,
+     "age_h": 6,
+     "yt": 110,
+     "fb": null,
+     "total": 110,
+     "likes": 6,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    }
+   ],
+   "channel": {
+    "traffic": [
+     {
+      "insightTrafficSourceType": "SUBSCRIBER",
+      "views": 3
+     }
+    ],
+    "searches": [],
+    "related": [],
+    "audience": [],
+    "countries": []
+   }
+  }
+ }
+}
