@@ -215,3 +215,64 @@ def word_times(script_words, asr_json, total):
         def t(f):
             return 0.05 + f * (total - 0.15)
     return [(t(cum[i]), t(cum[i + 1])) for i in range(len(script_words))]
+
+
+def pauses(wav, db=-38, min_d=0.12):
+    """(start, end) of every silence in the clean narration track (before music is mixed in)."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(wav), "-af", f"silencedetect=n={db}dB:d={min_d}",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r.stderr)]
+    en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r.stderr)]
+    out = []
+    for a, b in zip(st, en):                      # a breath blip splits one pause in two; rejoin
+        if out and a - out[-1][1] < 0.2:
+            out[-1] = (out[-1][0], b)
+        else:
+            out.append((a, b))
+    return out
+
+
+def sentence_word_times(sentences, wav, total):
+    """Start/end per script word, anchored on the narrator's pauses between sentences.
+
+    Whisper's word timestamps on long Hindi/Telugu narration sometimes skip or squash a whole
+    stretch (Surdas hi and Krishnadevaraya te, 2026-10-22: captions ran ~15 s ahead of the voice,
+    then froze on one line for 16 s). Pauses in the clean TTS track don't drift: each sentence
+    boundary snaps to the strongest pause near where its character share says it should fall,
+    and words are spread by characters inside the sentence, so any error stays within one
+    sentence. Returns None when there aren't enough pauses to anchor on."""
+    n = len(sentences)
+    if n < 2:
+        return None
+    ps = [(a, b) for a, b in pauses(wav) if 0.3 < a and b < total - 0.3]
+    if len(ps) < n - 1:
+        return None
+    w = [len(s) + 1 for s in sentences]
+    exp = [sum(w[:i + 1]) / sum(w) * total for i in range(n - 1)]
+    # Pick n-1 pauses in order (DP): close to the expected boundary, longer pauses preferred.
+    cost = lambda i, j: abs((ps[j][0] + ps[j][1]) / 2 - exp[i]) - 2.5 * min(ps[j][1] - ps[j][0], 0.8)
+    INF = float("inf"); m = len(ps)
+    best = [[INF] * m for _ in range(n - 1)]; back = [[-1] * m for _ in range(n - 1)]
+    for j in range(m):
+        best[0][j] = cost(0, j)
+    for i in range(1, n - 1):
+        run, arg = INF, -1
+        for j in range(m):
+            if j > 0 and best[i - 1][j - 1] < run:
+                run, arg = best[i - 1][j - 1], j - 1
+            if arg >= 0:
+                best[i][j] = run + cost(i, j); back[i][j] = arg
+    j = min(range(m), key=lambda k: best[n - 2][k])
+    if best[n - 2][j] == INF:
+        return None
+    pick = []
+    for i in range(n - 2, -1, -1):
+        pick.append(ps[j]); j = back[i][j]
+    pick.reverse()
+    spans = [(0.05 if i == 0 else pick[i - 1][1], pick[i][0] if i < n - 1 else total - 0.1) for i in range(n)]
+    out = []
+    for s, (a, b) in zip(sentences, spans):
+        ws = s.split(); lens = [len(x) + 1 for x in ws]; tot = sum(lens); c = 0
+        for L in lens:
+            out.append((a + (b - a) * c / tot, a + (b - a) * (c + L) / tot)); c += L
+    return out

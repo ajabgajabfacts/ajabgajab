@@ -262,7 +262,8 @@ def produce(a, L, e):
         if sim is None or sim >= 0.55:
             break
     words = text.split()
-    wt = media.word_times(words, asr, D)
+    # Pause-anchored sentences first; Whisper word times drifted ~15 s on long hi/te narration.
+    wt = media.sentence_word_times(s["sentences"], voice, D) or media.word_times(words, asr, D)
     total = D + 0.8
     job = dict(L=L, sentences=s["sentences"], word_times=wt, hook_text=s["hook_text"], kicker=s["kicker"],
                cta=s.get("cta"), subscribe=L["sub"], shots=[c["img"] for c in shots], voice=voice,

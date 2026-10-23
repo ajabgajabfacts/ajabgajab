@@ -84,7 +84,7 @@ def segment(L, sentences, shots, hook, kicker, work, name, cta=None):
     voice = work / f"{name}.wav"
     D = media.narrate(text, voice, edge_voice=L.get("edge"))
     asr = media.asr(voice, L["whisper"])
-    wt = media.word_times(text.split(), asr, D)
+    wt = media.sentence_word_times(sentences, voice, D) or media.word_times(text.split(), asr, D)
     music = MUSIC / random.Random(name).choice(MUSIC_OK)
     job = dict(L=L, sentences=sentences, word_times=wt, hook_text=hook, kicker=kicker, cta=cta,
                shots=shots, voice=voice, music=music if music.exists() else None, duration=D + 0.9, landscape=True)
