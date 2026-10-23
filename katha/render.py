@@ -1,7 +1,7 @@
 """Cinematic vertical renderer (1080x1920, 30 fps).
 
 Look: painted/photographed art in slow Ken Burns motion over a blurred, graded
-backdrop (landscape art sits in a gold-framed card), floating embers, vignette,
+backdrop (landscape art sits in a gold-framed card), vignette,
 a punch-in hook title, word-by-word highlighted captions, a pulsing comment CTA,
 and a music bed ducked under the narration. (The synthetic white-noise whoosh on
 every cut was dropped 2026-10-23: the owner heard it as a weird static hiss.)
@@ -186,8 +186,9 @@ class Shot:
         self.dx, self.dy = self.rng.uniform(-1, 1), self.rng.uniform(-1, 1)
 
     def _kb(self, src, ow, oh, p):
-        z = (1.0 + 0.13 * p) if self.zin else (1.13 - 0.13 * p)
-        z *= 1.0 + 0.05 * max(0.0, 1 - p * 8)                           # punch at the cut
+        # A slow, steady drift only. The punch-zoom at each cut and the floating embers were cut
+        # 2026-10-23: the owner found them weird.
+        z = (1.0 + 0.08 * p) if self.zin else (1.08 - 0.08 * p)
         sh, sw = src.shape[:2]
         s = max(ow / sw, oh / sh) * z
         ex, ey = sw * s - ow, sh * s - oh
@@ -337,7 +338,7 @@ def render(job, out_mp4, work):
         sub_y = y - sub.shape[0] / 2
     cache = {}
 
-    vig = vignette(); emb = Embers()
+    vig = vignette()
     vid = Path(work) / "video.mp4"
     ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
                            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium",
@@ -354,7 +355,6 @@ def render(job, out_mp4, work):
             m = (t - (b - XF)) / XF
             fr = cv2.addWeighted(fr, 1 - m, nxt, m, 0)
         fr = (fr.astype(np.float32) * vig).astype(np.uint8)
-        emb.draw(fr, t)
 
         blit(fr, brand, BRAND_X + brand.shape[1] / 2 - 10, BRAND_Y)
         blit(fr, kicker, BRAND_X + brand.shape[1] + kicker.shape[1] / 2, BRAND_Y)
@@ -375,8 +375,9 @@ def render(job, out_mp4, work):
                 key = (ci, hi)
                 if key not in cache:
                     cache[key] = text_rgba([words[i] for i in caps[ci]], f_cap, CAP_W, hi=hi)
-                pop = min(1.0, (t - cap_start[ci]) / 0.12) if t >= cap_start[ci] else 1.0
-                blit(fr, cache[key], CAP_X, CAP_Y, alpha=min(1, 0.4 + pop), scale=0.88 + 0.12 * pop)
+                # A short fade in, no pop-in scale (owner, 2026-10-23).
+                fade = min(1.0, (t - cap_start[ci]) / 0.10) if t >= cap_start[ci] else 1.0
+                blit(fr, cache[key], CAP_X, CAP_Y, alpha=min(1, 0.5 + fade))
         if cta is not None and t >= last_start:
             blit(fr, cta, CAP_X, cta_y, scale=1.0 + 0.05 * math.sin((t - last_start) * 7))
         if sub is not None and t >= sub_start:
