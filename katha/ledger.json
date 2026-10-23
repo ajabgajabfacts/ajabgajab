@@ -145,55 +145,60 @@
   "lang": "te",
   "date": "2026-10-21",
   "utc": "17:44",
-  "status": "posted",
+  "status": "redo",
   "video_id": "f_5ZyAO7IWE",
   "title": "అన్నమయ్య పాటలు 300 ఏళ్లుగా ఎక్కడ దాగి ఉన్నాయో తెలుసా?",
   "seconds": 70.9,
-  "slot": 3
+  "slot": 3,
+  "why": "captions drifted off the voice (Whisper word times); deleted 2026-10-23 for a repost"
  },
  {
   "key": "guruvayurappan",
   "lang": "ml",
   "date": "2026-10-22",
   "utc": "05:35",
-  "status": "posted",
+  "status": "redo",
   "video_id": "lsAAygSYC-M",
   "title": "ശിവൻ സ്വന്തം സ്ഥലം ഒഴിഞ്ഞുകൊടുത്തത് ആർക്കുവേണ്ടി?",
   "seconds": 65.8,
-  "slot": 0
+  "slot": 0,
+  "why": "captions drifted off the voice (Whisper word times); deleted 2026-10-23 for a repost"
  },
  {
   "key": "narsinh_mehta",
   "lang": "gu",
   "date": "2026-10-22",
   "utc": "07:59",
-  "status": "posted",
+  "status": "redo",
   "video_id": "pBYZrE-NoKo",
   "title": "નરસિંહ મહેતાએ નકલી વેપારી પર ૭૦૦ રૂપિયાની હૂંડી કેમ લખી?",
   "seconds": 86.5,
-  "slot": 1
+  "slot": 1,
+  "why": "captions drifted off the voice (Whisper word times); deleted 2026-10-23 for a repost"
  },
  {
   "key": "surdas",
   "lang": "hi",
   "date": "2026-10-22",
   "utc": "17:52",
-  "status": "posted",
+  "status": "redo",
   "video_id": "oHmpvuPLUD4",
   "title": "अंधे होकर भी सूरदास ने बाल कृष्ण का सुंदर रूप कैसे रचा?",
   "seconds": 66.5,
-  "slot": 2
+  "slot": 2,
+  "why": "captions drifted off the voice (Whisper word times); deleted 2026-10-23 for a repost"
  },
  {
   "key": "krishnadevaraya",
   "lang": "te",
   "date": "2026-10-22",
   "utc": "18:06",
-  "status": "posted",
+  "status": "redo",
   "video_id": "l9DndD20K04",
   "title": "రాయలు తన మంత్రిని ఎందుకు అంధుడిని చేశారు?",
   "seconds": 60.8,
-  "slot": 3
+  "slot": 3,
+  "why": "captions drifted off the voice (Whisper word times); deleted 2026-10-23 for a repost"
  },
  {
   "key": "mysore_dasara",

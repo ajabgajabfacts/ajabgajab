@@ -45,10 +45,27 @@ def ledger():
     return json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else []
 
 
+def redos(day=None):
+    """(key, lang) of deleted Shorts to post again, oldest first, until the repost is in the ledger.
+    A repost made today still counts, so a slot's language stays the same on a same-day retry.
+    (2026-10-23: five 60-86 s Shorts whose captions drifted off the voice were deleted for reposting.)"""
+    day = str(day or dt.date.today()); led = ledger()
+    done = {(r["key"], r["lang"]) for r in led if r.get("status") == "posted" and r.get("date", "") < day}
+    out = []
+    for r in led:
+        k = (r["key"], r["lang"])
+        if r.get("status") == "redo" and k not in done and k not in out:
+            out.append(k)
+    return out
+
+
 def pick(lang, force_key=None):
     if force_key:
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
+    for k, l in redos():
+        if l == lang and (k, l) not in done:
+            return next(s for s in bank.S if s["key"] == k)
     regional = [s for s in bank.S if s["lang"] == lang and (s["key"], lang) not in done]
     # "all" means pan-Indian; English is a different channel with its own world stories.
     common = [s for s in bank.S if s["lang"] == "all" and (s["key"], lang) not in done] if lang != "en" else []
@@ -161,6 +178,11 @@ def slot_lang(slot, day=None):
         return "te"
     if slot == 2:
         return "hi"
+    # Reposts of deleted Shorts in the rotating languages go first: slot 0 the oldest, slot 1 the next.
+    rot = [l for k, l in redos(day) if l not in ("te", "hi", "en")]
+    rot = list(dict.fromkeys(rot))
+    if len(rot) > slot:
+        return rot[slot]
     # From 2026-10-23 the rotating slots follow katha/insights.py's language weights (our own
     # views, shrunk and clamped so every language keeps being tested). Seeded by the date, so a
     # retry the same day gets the same language; slot 1 never repeats slot 0's language.
