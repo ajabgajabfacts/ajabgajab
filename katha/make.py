@@ -267,6 +267,12 @@ def produce(a, L, e):
     cfg = os.environ.get("CHANNEL_CONFIG") or local.read_text()
     vid = upload(mp4, meta, cfg)
     print(f"[upload] https://youtube.com/shorts/{vid}")
+    # Same file to the Ajab Gajab Stories Facebook Page (katha/fb.py: slots 1 and 3 only, never raises).
+    # The caption keeps the Wikimedia credits and drops YouTube's subscribe line.
+    import fb
+    fb.post_reel(mp4, s["title"] + "\n\n" + s["description"] + "\n\n"
+                 + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots),
+                 slot=a.slot, lang=a.lang)
     led = ledger()
     led.append(dict(key=e["key"], lang=a.lang, date=str(dt.date.today()), utc=dt.datetime.now(dt.timezone.utc).strftime("%H:%M"),
                     status="posted", video_id=vid, title=s["title"], seconds=round(total, 1),

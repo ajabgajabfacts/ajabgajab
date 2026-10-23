@@ -75,6 +75,26 @@ def banner(out, title, tagline, footer):
     img.save(out)
 
 
+def fb_cover(out, title, tagline, left=(), right=()):
+    """Facebook Page cover, 1640x624. The new Page layout centres the profile picture over the
+    cover's lower middle (it covered half of a centred banner), and the phone view crops ~12% off
+    each side. So: title and tagline in the top 45%, side items flanking the picture, all inside
+    the middle 75%."""
+    W, H = 1640, 624
+    img = backdrop(W, H)
+    d = ImageDraw.Draw(img)
+    centred(d, W // 2, 40, title, font("Mukta-ExtraBold.ttf", 120), SAFFRON)
+    centred(d, W // 2, 190, tagline, font("Mukta-Bold.ttf", 46), (255, 240, 220))
+    d.line([(W // 2 - 430, 268), (W // 2 + 430, 268)], fill=GOLD, width=3)
+    for items, x0, x1 in ((left, 230, 650), (right, 990, 1410)):
+        for i, (t, fn, w) in enumerate(items):
+            f = font(fn, 40, w)
+            row, col = divmod(i, 2)
+            cx = x0 + (x1 - x0) * (0.25 + 0.5 * col)
+            centred(d, cx, 330 + row * 78, t, f, GOLD)
+    img.save(out)
+
+
 if __name__ == "__main__":
     out = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
     out.mkdir(parents=True, exist_ok=True)

@@ -54,3 +54,6 @@ assets/emoji/cache/
 !katha/longform_ledger.json
 !katha/playlists.json
 katha/out/
+
+# Facebook Page token (2026-10-23): never commit
+fb_page_token.txt
