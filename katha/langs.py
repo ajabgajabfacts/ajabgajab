@@ -3,6 +3,8 @@
   whisper  Groq whisper-large-v3 language code for word timings, or None when
            Whisper has no model for it (Odia) -> captions fall back to
            character-proportional timing over the speech span.
+           Malayalam too (2026-10-23): on a clean edge-tts voice Whisper dropped a sentence and wrote
+           the rest in Gurmukhi, so its asr-match (0.15) only forced a wasted second narration.
   font     file in katha/fonts; wght is applied to variable Noto fonts.
   brand    the channel name in the language's own script (top-left tag).
   audience who the script is written for, given to the writer verbatim.
@@ -34,7 +36,7 @@ LANGS = {
                brand="అజబ్ గజబ్", audience="Telugu speakers in Andhra Pradesh and Telangana; everyday spoken Telugu"),
     "kn": dict(cap=(100, 19), sub="ಹೆಚ್ಚಿನ ಕಥೆಗಳಿಗೆ ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ", name="Kannada", edge='kn-IN-GaganNeural', words=(55, 75), whisper="kn", font="NotoSansKannada.ttf", wght=800,
                brand="ಅಜಬ್ ಗಜಬ್", audience="Kannada speakers in Karnataka; everyday spoken Kannada"),
-    "ml": dict(sub="സബ്സ്ക്രൈബ് ചെയ്യൂ", name="Malayalam", edge='ml-IN-MidhunNeural', words=(55, 75), whisper="ml", font="NotoSansMalayalam.ttf", wght=800,
+    "ml": dict(sub="സബ്സ്ക്രൈബ് ചെയ്യൂ", name="Malayalam", edge='ml-IN-MidhunNeural', words=(55, 75), whisper=None, font="NotoSansMalayalam.ttf", wght=800,
                brand="അജബ് ഗജബ്", audience="Malayalam speakers in Kerala; everyday spoken Malayalam"),
     "gu": dict(cap=(100, 21), sub="વધુ વાર્તાઓ માટે સબસ્ક્રાઇબ કરો", name="Gujarati", edge='gu-IN-NiranjanNeural', words=(85, 110), whisper="gu", font="NotoSansGujarati.ttf", wght=800,
                brand="અજબ ગજબ", audience="Gujarati speakers in Gujarat; everyday spoken Gujarati"),
