@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T06:33Z",
+ "updated": "2026-10-25T06:59Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,20 +11,20 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 70,
-     "yt": 54417,
-     "fb": null,
-     "total": 54417,
-     "likes": 547,
+     "age_h": 95,
+     "yt": 63755,
+     "fb": 0,
+     "total": 63755,
+     "likes": 631,
      "comments": 7,
-     "avp": 78.59,
+     "avp": 78.26,
      "avd": 28,
-     "subs": 2,
-     "shares": 0,
+     "subs": 25,
+     "shares": 19,
      "retention": {
-      "10%": 1.22,
+      "10%": 1.23,
       "50%": 0.72,
-      "90%": 0.59
+      "90%": 0.58
      }
     },
     {
@@ -35,16 +35,21 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 31,
-     "yt": 5615,
+     "age_h": 55,
+     "yt": 16751,
      "fb": null,
-     "total": 5615,
-     "likes": 146,
+     "total": 16751,
+     "likes": 328,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 61.53999999999999,
+     "avd": 25,
+     "subs": 0,
+     "shares": 0,
+     "retention": {
+      "10%": 1.08,
+      "50%": 0.53,
+      "90%": 0.43
+     }
     },
     {
      "video_id": "mPah9AIzlXM",
@@ -54,20 +59,20 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 107,
-     "yt": 1675,
+     "age_h": 132,
+     "yt": 1679,
      "fb": null,
-     "total": 1675,
+     "total": 1679,
      "likes": 45,
      "comments": 3,
-     "avp": 67.78,
+     "avp": 69.66,
      "avd": 23,
      "subs": 2,
      "shares": 0,
      "retention": {
       "10%": 1.22,
-      "50%": 0.59,
-      "90%": 0.46
+      "50%": 0.61,
+      "90%": 0.48
      }
     },
     {
@@ -78,21 +83,16 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 85,
-     "yt": 1339,
+     "age_h": 109,
+     "yt": 1340,
      "fb": null,
-     "total": 1339,
+     "total": 1340,
      "likes": 15,
      "comments": 3,
-     "avp": 52.300000000000004,
+     "avp": 52.28,
      "avd": 15,
      "subs": 4,
-     "shares": 1,
-     "retention": {
-      "10%": 1.1,
-      "50%": 0.42,
-      "90%": 0.27
-     }
+     "shares": 0
     },
     {
      "video_id": "seShlAM_DX8",
@@ -102,10 +102,10 @@
      "kind": "wonder",
      "seconds": 45.0,
      "slot": 1,
-     "age_h": 24,
-     "yt": 672,
+     "age_h": 49,
+     "yt": 694,
      "fb": 0,
-     "total": 672,
+     "total": 694,
      "likes": 6,
      "comments": 1,
      "avp": null,
@@ -121,7 +121,7 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 120,
+     "age_h": 145,
      "yt": 554,
      "fb": null,
      "total": 554,
@@ -133,25 +133,6 @@
      "shares": 1
     },
     {
-     "video_id": "zJ1o_5EW6zc",
-     "title": "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
-     "key": "jatinga",
-     "lang": "bn",
-     "kind": "wonder",
-     "seconds": 39.1,
-     "slot": 1,
-     "age_h": 94,
-     "yt": 514,
-     "fb": null,
-     "total": 514,
-     "likes": 4,
-     "comments": 1,
-     "avp": 32.41,
-     "avd": 12,
-     "subs": 0,
-     "shares": 0
-    },
-    {
      "video_id": "Aw4U-tFHkxc",
      "title": "झांसी की रानी को अंग्रेजों ने खुद क्यों सौंपा था राज?",
      "key": "lakshmibai",
@@ -159,11 +140,68 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 17,
-     "yt": 344,
+     "age_h": 41,
+     "yt": 532,
      "fb": null,
-     "total": 344,
-     "likes": 9,
+     "total": 532,
+     "likes": 12,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "zJ1o_5EW6zc",
+     "title": "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
+     "key": "jatinga",
+     "lang": "bn",
+     "kind": "wonder",
+     "seconds": 39.1,
+     "slot": 1,
+     "age_h": 119,
+     "yt": 514,
+     "fb": null,
+     "total": 514,
+     "likes": 4,
+     "comments": 1,
+     "avp": 31.95,
+     "avd": 12,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "0AIKyx5ChG4",
+     "title": "బాబర్ దృష్టిలో భారతదేశంలో అత్యంత శక్తివంతమైన రాజు ఎవరు?",
+     "key": "krishnadevaraya",
+     "lang": "te",
+     "kind": "history",
+     "seconds": 34.5,
+     "slot": 3,
+     "age_h": 15,
+     "yt": 357,
+     "fb": 0,
+     "total": 357,
+     "likes": 4,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "njWNXyqgMSU",
+     "title": "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!",
+     "key": "annamacharya",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 38.1,
+     "slot": 3,
+     "age_h": 40,
+     "yt": 143,
+     "fb": 0,
+     "total": 143,
+     "likes": 7,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -178,35 +216,16 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 108,
+     "age_h": 132,
      "yt": 137,
      "fb": null,
      "total": 137,
      "likes": 3,
      "comments": 1,
-     "avp": 52.790000000000006,
+     "avp": 51.690000000000005,
      "avd": 18,
      "subs": 0,
      "shares": 0
-    },
-    {
-     "video_id": "njWNXyqgMSU",
-     "title": "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!",
-     "key": "annamacharya",
-     "lang": "te",
-     "kind": "saint",
-     "seconds": 38.1,
-     "slot": 3,
-     "age_h": 15,
-     "yt": 106,
-     "fb": 0,
-     "total": 106,
-     "likes": 6,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     },
     {
      "video_id": "4pwBrxbAG2I",
@@ -216,13 +235,13 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 85,
+     "age_h": 109,
      "yt": 92,
      "fb": null,
      "total": 92,
      "likes": 1,
      "comments": 1,
-     "avp": 50.3,
+     "avp": 50.39,
      "avd": 20,
      "subs": 0,
      "shares": 0
@@ -235,16 +254,35 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 70,
+     "age_h": 95,
      "yt": 84,
      "fb": null,
      "total": 84,
      "likes": 3,
      "comments": 1,
-     "avp": 80.19,
-     "avd": 32,
+     "avp": 63.78,
+     "avd": 25,
      "subs": 0,
      "shares": 0
+    },
+    {
+     "video_id": "C_8tZLsAObU",
+     "title": "ഗുരുവായൂരപ്പനായി ശിവൻ ഒഴിഞ്ഞുകൊടുത്ത പുണ്യഭൂമി!",
+     "key": "guruvayurappan",
+     "lang": "ml",
+     "kind": "myth",
+     "seconds": 38.9,
+     "slot": 0,
+     "age_h": 23,
+     "yt": 79,
+     "fb": null,
+     "total": 79,
+     "likes": 1,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "Oe3_8GCTZX4",
@@ -254,11 +292,30 @@
      "kind": "wonder",
      "seconds": 39.8,
      "slot": 0,
-     "age_h": 25,
-     "yt": 64,
+     "age_h": 49,
+     "yt": 74,
      "fb": null,
-     "total": 64,
+     "total": 74,
      "likes": 0,
+     "comments": 1,
+     "avp": 42.13,
+     "avd": 16,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "s0nQf_eHlgI",
+     "title": "નરસિંહ મહેતાનો હાથ સળગ્યો છતાં દર્દ કેમ ન થયો?",
+     "key": "narsinh_mehta",
+     "lang": "gu",
+     "kind": "saint",
+     "seconds": 36.7,
+     "slot": 1,
+     "age_h": 23,
+     "yt": 58,
+     "fb": 0,
+     "total": 58,
+     "likes": 1,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -273,7 +330,7 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 113,
+     "age_h": 137,
      "yt": 42,
      "fb": null,
      "total": 42,
@@ -292,17 +349,21 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 64,
+     "age_h": 89,
      "yt": 39,
      "fb": null,
      "total": 39,
      "likes": 0,
      "comments": 1,
-     "avp": 37.01,
-     "avd": 28,
+     "avp": 34.9,
+     "avd": 26,
      "subs": 0,
      "shares": 0,
-     "retention": null
+     "retention": {
+      "10%": 0.67,
+      "50%": 0.2,
+      "90%": 0.2
+     }
     },
     {
      "video_id": "PuXYM7yF72Q",
@@ -312,14 +373,14 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 97,
+     "age_h": 122,
      "yt": 24,
      "fb": null,
      "total": 24,
      "likes": 1,
      "comments": 1,
-     "avp": 54.52,
-     "avd": 17,
+     "avp": 54.97,
+     "avd": 18,
      "subs": 0,
      "shares": 0,
      "retention": null
@@ -332,7 +393,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 121,
+     "age_h": 145,
      "yt": 15,
      "fb": null,
      "total": 15,
@@ -343,62 +404,136 @@
      "subs": 0,
      "shares": 0,
      "retention": null
+    },
+    {
+     "video_id": "Qy8ZLR_LUp4",
+     "title": "अंधे सूरदास ने साधारण ब्रज भाषा को कैसे अमर बना दिया?",
+     "key": "surdas",
+     "lang": "hi",
+     "kind": "saint",
+     "seconds": 31.3,
+     "slot": 2,
+     "age_h": 18,
+     "yt": 7,
+     "fb": null,
+     "total": 7,
+     "likes": 0,
+     "comments": 0,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "pfYKgjZGru0",
+     "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
+     "key": "palani_bhogar",
+     "lang": "ta",
+     "kind": "saint",
+     "seconds": 30.2,
+     "slot": 0,
+     "age_h": 2,
+     "yt": 0,
+     "fb": null,
+     "total": 0,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     }
    ],
    "channel": {
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 8009
+      "views": 29792
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 233
+      "views": 533
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 21
+      "views": 44
+     },
+     {
+      "insightTrafficSourceType": "YT_CHANNEL",
+      "views": 40
      },
      {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 11
-     },
-     {
-      "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 5
-     },
-     {
-      "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 5
+      "views": 39
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 4
+      "views": 16
+     },
+     {
+      "insightTrafficSourceType": "YT_OTHER_PAGE",
+      "views": 16
+     },
+     {
+      "insightTrafficSourceType": "SOUND_PAGE",
+      "views": 8
+     },
+     {
+      "insightTrafficSourceType": "PLAYLIST",
+      "views": 7
      },
      {
       "insightTrafficSourceType": "NO_LINK_OTHER",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceType": "HASHTAGS",
       "views": 2
      }
     ],
     "searches": [
      {
       "insightTrafficSourceDetail": "ಮೈಸೂರು ಅರಮನೆ",
-      "views": 6
+      "views": 9
      },
      {
       "insightTrafficSourceDetail": "mysore dussehra festival",
       "views": 5
      },
      {
+      "insightTrafficSourceDetail": "mysore history in kannada",
+      "views": 5
+     },
+     {
+      "insightTrafficSourceDetail": "virat kohli dance",
+      "views": 4
+     },
+     {
       "insightTrafficSourceDetail": "history of mysore palace in kannada",
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "mysore history in kannada",
+      "insightTrafficSourceDetail": "kannada song",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "mysore dussehra video",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "mysore palace",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "mysore palace history",
       "views": 3
      },
      {
       "insightTrafficSourceDetail": "mysore palace history in kannada",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "ಮೈಸೂರ್ ಅರಮನೆ",
       "views": 3
      },
      {
@@ -410,39 +545,31 @@
       "views": 2
      },
      {
+      "insightTrafficSourceDetail": "bigg boss season 13 kannada",
+      "views": 2
+     },
+     {
       "insightTrafficSourceDetail": "court job",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "dr homi bhabha",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "magic book",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "mysore palace fire accident",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "mysore palace full video",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "mysore palace history",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "mysore palace story in kannada",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "ಮೈಸೂರ್ ಅರಮನೆ",
       "views": 2
      }
     ],
     "related": [
+     {
+      "insightTrafficSourceDetail": "dxueJxQqvPo",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "gDxnG_sY9fc",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "dyhvaOOnT_g",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "zjZaA1wwk1w",
+      "views": 2
+     },
      {
       "insightTrafficSourceDetail": "-gYt0dHjJXA",
       "views": 1
@@ -452,35 +579,19 @@
       "views": 1
      },
      {
+      "insightTrafficSourceDetail": "2CZwgyNVGn8",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "2bvRsasRsWY",
+      "views": 1
+     },
+     {
       "insightTrafficSourceDetail": "5KUh7onblmw",
       "views": 1
      },
      {
       "insightTrafficSourceDetail": "6nXUssKDijo",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "Ffi5TJDs67A",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "Ge7z_ZiHymk",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "Lb1NLfuZIVk",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "Nnk0PfqLnIA",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "RoOlbRmFEdM",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "U6CehUHmUoY",
       "views": 1
      }
     ],
@@ -488,90 +599,94 @@
      {
       "ageGroup": "age13-17",
       "gender": "female",
-      "viewerPercentage": 0.3
+      "viewerPercentage": 0.6
      },
      {
       "ageGroup": "age13-17",
       "gender": "male",
-      "viewerPercentage": 1.1
+      "viewerPercentage": 1.2
      },
      {
       "ageGroup": "age18-24",
       "gender": "female",
-      "viewerPercentage": 2.5
+      "viewerPercentage": 3.2
      },
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 5.7
+      "viewerPercentage": 5
      },
      {
       "ageGroup": "age25-34",
       "gender": "female",
-      "viewerPercentage": 6
+      "viewerPercentage": 6.5
      },
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 16.5
+      "viewerPercentage": 13.5
      },
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 5.6
+      "viewerPercentage": 7
      },
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 16.6
+      "viewerPercentage": 14.5
      },
      {
       "ageGroup": "age45-54",
+      "gender": "female",
+      "viewerPercentage": 6.4
+     },
+     {
+      "ageGroup": "age45-54",
+      "gender": "male",
+      "viewerPercentage": 13.5
+     },
+     {
+      "ageGroup": "age55-64",
+      "gender": "female",
+      "viewerPercentage": 4.6
+     },
+     {
+      "ageGroup": "age55-64",
+      "gender": "male",
+      "viewerPercentage": 11.2
+     },
+     {
+      "ageGroup": "age65-",
       "gender": "female",
       "viewerPercentage": 3.8
      },
      {
-      "ageGroup": "age45-54",
-      "gender": "male",
-      "viewerPercentage": 14.3
-     },
-     {
-      "ageGroup": "age55-64",
-      "gender": "female",
-      "viewerPercentage": 3.6
-     },
-     {
-      "ageGroup": "age55-64",
-      "gender": "male",
-      "viewerPercentage": 10.8
-     },
-     {
-      "ageGroup": "age65-",
-      "gender": "female",
-      "viewerPercentage": 3
-     },
-     {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 10.3
+      "viewerPercentage": 9
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 7164
+      "views": 29087
+     },
+     {
+      "country": "US",
+      "views": 491
      },
      {
       "country": "BD",
       "views": 448
      },
      {
-      "country": "US",
-      "views": 350
-     },
-     {
       "country": "GB",
       "views": 46
+     },
+     {
+      "country": "AE",
+      "views": 22
      }
     ]
    },
@@ -581,84 +696,89 @@
      "n": 1,
      "median": 84
     },
-    "ta": {
-     "w": 1.01,
-     "n": 1,
-     "median": 554
+    "kn": {
+     "w": 2.5,
+     "n": 2,
+     "median": 40253
     },
     "ml": {
      "w": 1.0,
      "n": 0,
      "median": null
     },
-    "or": {
+    "gu": {
+     "w": 0.71,
+     "n": 1,
+     "median": 74
+    },
+    "ta": {
      "w": 1.0,
-     "n": 0,
-     "median": null
+     "n": 1,
+     "median": 554
+    },
+    "bn": {
+     "w": 0.98,
+     "n": 1,
+     "median": 514
+    },
+    "or": {
+     "w": 1.06,
+     "n": 1,
+     "median": 694
     },
     "pa": {
      "w": 1.0,
      "n": 0,
      "median": null
-    },
-    "gu": {
-     "w": 1.0,
-     "n": 0,
-     "median": null
-    },
-    "bn": {
-     "w": 0.99,
-     "n": 1,
-     "median": 514
-    },
-    "kn": {
-     "w": 2.38,
-     "n": 1,
-     "median": 54417
     }
    },
    "kind_weights": {
     "engineering": {
      "w": 1.41,
      "n": 1,
-     "median": 54417
+     "median": 63755
+    },
+    "wonder": {
+     "w": 1.29,
+     "n": 5,
+     "median": 514
     },
     "saint": {
-     "w": 1.37,
-     "n": 2,
-     "median": 906
-    },
-    "history": {
-     "w": 1.24,
-     "n": 2,
-     "median": 319
+     "w": 1.25,
+     "n": 3,
+     "median": 143
     },
     "myth": {
-     "w": 0.64,
+     "w": 0.6,
      "n": 3,
      "median": 39
     },
     "folk": {
-     "w": 0.78,
+     "w": 0.74,
      "n": 1,
      "median": 42
     },
-    "wonder": {
-     "w": 1.26,
-     "n": 3,
-     "median": 514
+    "history": {
+     "w": 1.65,
+     "n": 4,
+     "median": 543
     }
    },
    "proven_titles": {
     "kn": [
-     "ಮದುವೆಯ ಸಂಭ್ರಮದಲ್ಲಿ ಹೊತ್ತಿ ಉರಿದ ಮೈಸೂರು ಅರಮನೆ!"
+     "ಮದುವೆಯ ಸಂಭ್ರಮದಲ್ಲಿ ಹೊತ್ತಿ ಉರಿದ ಮೈಸೂರು ಅರಮನೆ!",
+     "750 ಕೆಜಿ ಚಿನ್ನ ಹೊರುವ ಮೈಸೂರಿನ ಆನೆ ಯಾರನ್ನು ಹೊತ್ತೊಯ್ಯುತ್ತದೆ?"
     ],
     "te": [
      "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
-     "భక్త కన్నప్ప త్యాగం వెనుక ఉన్న అసలు రహస్యం!"
+     "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!"
     ],
     "hi": [
-     "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!"
+     "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
+     "झांसी की रानी को अंग्रेजों ने खुद क्यों सौंपा था राज?"
+    ],
+    "or": [
+     "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?"
     ],
     "ta": [
      "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!"
@@ -666,9 +786,10 @@
     "bn": [
      "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?"
     ],
-    "mr": []
+    "mr": [],
+    "gu": []
    },
-   "median_views": 114
+   "median_views": 143
   },
   "en": {
    "videos": [
@@ -680,11 +801,30 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 6,
-     "yt": 407,
+     "age_h": 30,
+     "yt": 677,
      "fb": null,
-     "total": 407,
-     "likes": 19,
+     "total": 677,
+     "likes": 22,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "QuK0ISv5OAQ",
+     "title": "How an Elevator Operator Survived a 75-Story Plunge",
+     "key": "empire_state_crash",
+     "lang": "en",
+     "kind": "history",
+     "seconds": 35.2,
+     "slot": 4,
+     "age_h": 7,
+     "yt": 606,
+     "fb": null,
+     "total": 606,
+     "likes": 23,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -699,29 +839,50 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 30,
-     "yt": 193,
+     "age_h": 55,
+     "yt": 226,
      "fb": null,
-     "total": 193,
+     "total": 226,
      "likes": 6,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 61.31999999999999,
+     "avd": 21,
+     "subs": 1,
+     "shares": 0
     }
    ],
    "channel": {
     "traffic": [
      {
+      "insightTrafficSourceType": "SHORTS",
+      "views": 140
+     },
+     {
       "insightTrafficSourceType": "SUBSCRIBER",
       "views": 2
+     },
+     {
+      "insightTrafficSourceType": "YT_CHANNEL",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceType": "YT_OTHER_PAGE",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceType": "NO_LINK_OTHER",
+      "views": 0
      }
     ],
     "searches": [],
     "related": [],
     "audience": [],
-    "countries": []
+    "countries": [
+     {
+      "country": "US",
+      "views": 126
+     }
+    ]
    }
   }
  }
