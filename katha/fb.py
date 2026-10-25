@@ -9,6 +9,9 @@ Built 2026-10-23, same Graph API Reels flow as quizora/fb.py (start -> upload
   - Only FB_SLOTS go: slot 1 (12:05 IST, the rotating regional languages that made the
     Mysore Palace record) and slot 3 (20:35 IST, Telugu, India's evening peak).
   - At most MAX_PER_DAY per UTC day, counted from the Page, so re-runs can't double-post.
+    Raised 2 -> 3 on 2026-10-25 (new Page, 0 followers: frequency helps it get found).
+  - While katha/fb_backfill.json still has queued top Shorts, the slot cross-post stands
+    down so the cap goes to the proven Shorts first (Mysore Palace kn etc.).
   - English (Strange But True) has no Page here and never posts.
   - The caption carries the Wikimedia credits: CC BY-SA requires them wherever the images go.
 """
@@ -17,7 +20,7 @@ from pathlib import Path
 import requests
 
 G = "https://graph.facebook.com/v23.0"
-MAX_PER_DAY = 2
+MAX_PER_DAY = 3
 FB_SLOTS = {1, 3}
 
 
@@ -37,12 +40,16 @@ def posted_today(cfg):
     return sum(1 for v in r.json().get("data", []) if v.get("created_time", "").startswith(today))
 
 
-def post_reel(video_path, caption, slot=None, lang=None):
+def post_reel(video_path, caption, slot=None, lang=None, backfill=False):
     try:
         if os.environ.get("FB_DISABLE") or lang == "en":
             return None
-        if slot not in FB_SLOTS and not os.environ.get("FB_FORCE"):
-            print(f"[FB] slot {slot} is not a Facebook slot - skipped"); return None
+        if not backfill:
+            if slot not in FB_SLOTS and not os.environ.get("FB_FORCE"):
+                print(f"[FB] slot {slot} is not a Facebook slot - skipped"); return None
+            import fb_backfill                    # the proven top Shorts get the daily cap first
+            if fb_backfill.pending():
+                print(f"[FB] {len(fb_backfill.pending())} top Shorts still queued for Facebook - new Short skipped"); return None
         cfg = _cfg()
         if not cfg:
             print("[FB] no Page token - skipped"); return None
