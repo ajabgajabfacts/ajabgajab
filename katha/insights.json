@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T06:59Z",
+ "updated": "2026-10-26T07:05Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,19 +11,19 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 95,
-     "yt": 63755,
+     "age_h": 119,
+     "yt": 71027,
      "fb": 0,
-     "total": 63755,
-     "likes": 631,
+     "total": 71027,
+     "likes": 681,
      "comments": 7,
-     "avp": 78.26,
-     "avd": 28,
-     "subs": 25,
-     "shares": 19,
+     "avp": 77.67,
+     "avd": 27,
+     "subs": 58,
+     "shares": 51,
      "retention": {
       "10%": 1.23,
-      "50%": 0.72,
+      "50%": 0.71,
       "90%": 0.58
      }
     },
@@ -35,20 +35,20 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 55,
-     "yt": 16751,
-     "fb": null,
-     "total": 16751,
-     "likes": 328,
+     "age_h": 79,
+     "yt": 22501,
+     "fb": 0,
+     "total": 22501,
+     "likes": 373,
      "comments": 1,
-     "avp": 61.53999999999999,
-     "avd": 25,
-     "subs": 0,
-     "shares": 0,
+     "avp": 70.06,
+     "avd": 28,
+     "subs": 5,
+     "shares": 2,
      "retention": {
-      "10%": 1.08,
-      "50%": 0.53,
-      "90%": 0.43
+      "10%": 1.15,
+      "50%": 0.62,
+      "90%": 0.51
      }
     },
     {
@@ -59,13 +59,13 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 132,
-     "yt": 1679,
-     "fb": null,
-     "total": 1679,
+     "age_h": 156,
+     "yt": 1681,
+     "fb": 0,
+     "total": 1681,
      "likes": 45,
      "comments": 3,
-     "avp": 69.66,
+     "avp": 69.6,
      "avd": 23,
      "subs": 2,
      "shares": 0,
@@ -83,91 +83,15 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 109,
-     "yt": 1340,
+     "age_h": 133,
+     "yt": 1341,
      "fb": null,
-     "total": 1340,
+     "total": 1341,
      "likes": 15,
      "comments": 3,
-     "avp": 52.28,
+     "avp": 52.11,
      "avd": 15,
      "subs": 4,
-     "shares": 0
-    },
-    {
-     "video_id": "seShlAM_DX8",
-     "title": "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?",
-     "key": "konark",
-     "lang": "or",
-     "kind": "wonder",
-     "seconds": 45.0,
-     "slot": 1,
-     "age_h": 49,
-     "yt": 694,
-     "fb": 0,
-     "total": 694,
-     "likes": 6,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
-     "video_id": "6Td4hjNTlRE",
-     "title": "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!",
-     "key": "karikala_kallanai",
-     "lang": "ta",
-     "kind": "history",
-     "seconds": 31.9,
-     "slot": 1,
-     "age_h": 145,
-     "yt": 554,
-     "fb": null,
-     "total": 554,
-     "likes": 8,
-     "comments": 1,
-     "avp": 55.57,
-     "avd": 17,
-     "subs": 1,
-     "shares": 1
-    },
-    {
-     "video_id": "Aw4U-tFHkxc",
-     "title": "झांसी की रानी को अंग्रेजों ने खुद क्यों सौंपा था राज?",
-     "key": "lakshmibai",
-     "lang": "hi",
-     "kind": "history",
-     "seconds": 31.0,
-     "slot": 2,
-     "age_h": 41,
-     "yt": 532,
-     "fb": null,
-     "total": 532,
-     "likes": 12,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
-     "video_id": "zJ1o_5EW6zc",
-     "title": "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
-     "key": "jatinga",
-     "lang": "bn",
-     "kind": "wonder",
-     "seconds": 39.1,
-     "slot": 1,
-     "age_h": 119,
-     "yt": 514,
-     "fb": null,
-     "total": 514,
-     "likes": 4,
-     "comments": 1,
-     "avp": 31.95,
-     "avd": 12,
-     "subs": 0,
      "shares": 0
     },
     {
@@ -178,16 +102,92 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 15,
-     "yt": 357,
+     "age_h": 39,
+     "yt": 956,
      "fb": 0,
-     "total": 357,
-     "likes": 4,
+     "total": 956,
+     "likes": 14,
      "comments": 1,
      "avp": null,
      "avd": null,
      "subs": null,
      "shares": null
+    },
+    {
+     "video_id": "seShlAM_DX8",
+     "title": "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?",
+     "key": "konark",
+     "lang": "or",
+     "kind": "wonder",
+     "seconds": 45.0,
+     "slot": 1,
+     "age_h": 73,
+     "yt": 711,
+     "fb": 0,
+     "total": 711,
+     "likes": 6,
+     "comments": 1,
+     "avp": 54.29999999999999,
+     "avd": 24,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "Aw4U-tFHkxc",
+     "title": "झांसी की रानी को अंग्रेजों ने खुद क्यों सौंपा था राज?",
+     "key": "lakshmibai",
+     "lang": "hi",
+     "kind": "history",
+     "seconds": 31.0,
+     "slot": 2,
+     "age_h": 65,
+     "yt": 608,
+     "fb": null,
+     "total": 608,
+     "likes": 13,
+     "comments": 1,
+     "avp": 55.09,
+     "avd": 17,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "6Td4hjNTlRE",
+     "title": "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!",
+     "key": "karikala_kallanai",
+     "lang": "ta",
+     "kind": "history",
+     "seconds": 31.9,
+     "slot": 1,
+     "age_h": 169,
+     "yt": 557,
+     "fb": null,
+     "total": 557,
+     "likes": 8,
+     "comments": 1,
+     "avp": 55.57,
+     "avd": 17,
+     "subs": 1,
+     "shares": 1
+    },
+    {
+     "video_id": "zJ1o_5EW6zc",
+     "title": "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
+     "key": "jatinga",
+     "lang": "bn",
+     "kind": "wonder",
+     "seconds": 39.1,
+     "slot": 1,
+     "age_h": 143,
+     "yt": 515,
+     "fb": null,
+     "total": 515,
+     "likes": 4,
+     "comments": 1,
+     "avp": 32.02,
+     "avd": 12,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "njWNXyqgMSU",
@@ -197,16 +197,16 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 40,
-     "yt": 143,
+     "age_h": 64,
+     "yt": 148,
      "fb": 0,
-     "total": 143,
-     "likes": 7,
+     "total": 148,
+     "likes": 8,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 72.97,
+     "avd": 28,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "EfAlBz3CY2I",
@@ -216,16 +216,73 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 132,
-     "yt": 137,
+     "age_h": 156,
+     "yt": 138,
      "fb": null,
-     "total": 137,
+     "total": 138,
      "likes": 3,
      "comments": 1,
-     "avp": 51.690000000000005,
+     "avp": 51.57000000000001,
      "avd": 18,
      "subs": 0,
      "shares": 0
+    },
+    {
+     "video_id": "pfYKgjZGru0",
+     "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
+     "key": "palani_bhogar",
+     "lang": "ta",
+     "kind": "saint",
+     "seconds": 30.2,
+     "slot": 0,
+     "age_h": 26,
+     "yt": 129,
+     "fb": null,
+     "total": 129,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "s0nQf_eHlgI",
+     "title": "નરસિંહ મહેતાનો હાથ સળગ્યો છતાં દર્દ કેમ ન થયો?",
+     "key": "narsinh_mehta",
+     "lang": "gu",
+     "kind": "saint",
+     "seconds": 36.7,
+     "slot": 1,
+     "age_h": 47,
+     "yt": 106,
+     "fb": 0,
+     "total": 106,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "C_8tZLsAObU",
+     "title": "ഗുരുവായൂരപ്പനായി ശിവൻ ഒഴിഞ്ഞുകൊടുത്ത പുണ്യഭൂമി!",
+     "key": "guruvayurappan",
+     "lang": "ml",
+     "kind": "myth",
+     "seconds": 38.9,
+     "slot": 0,
+     "age_h": 47,
+     "yt": 100,
+     "fb": null,
+     "total": 100,
+     "likes": 1,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "4pwBrxbAG2I",
@@ -235,13 +292,13 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 109,
-     "yt": 92,
+     "age_h": 133,
+     "yt": 93,
      "fb": null,
-     "total": 92,
+     "total": 93,
      "likes": 1,
      "comments": 1,
-     "avp": 50.39,
+     "avp": 50.03999999999999,
      "avd": 20,
      "subs": 0,
      "shares": 0
@@ -254,35 +311,16 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 95,
-     "yt": 84,
+     "age_h": 119,
+     "yt": 86,
      "fb": null,
-     "total": 84,
+     "total": 86,
      "likes": 3,
      "comments": 1,
-     "avp": 63.78,
-     "avd": 25,
+     "avp": 65.26,
+     "avd": 26,
      "subs": 0,
      "shares": 0
-    },
-    {
-     "video_id": "C_8tZLsAObU",
-     "title": "ഗുരുവായൂരപ്പനായി ശിവൻ ഒഴിഞ്ഞുകൊടുത്ത പുണ്യഭൂമി!",
-     "key": "guruvayurappan",
-     "lang": "ml",
-     "kind": "myth",
-     "seconds": 38.9,
-     "slot": 0,
-     "age_h": 23,
-     "yt": 79,
-     "fb": null,
-     "total": 79,
-     "likes": 1,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     },
     {
      "video_id": "Oe3_8GCTZX4",
@@ -292,35 +330,16 @@
      "kind": "wonder",
      "seconds": 39.8,
      "slot": 0,
-     "age_h": 49,
-     "yt": 74,
+     "age_h": 73,
+     "yt": 80,
      "fb": null,
-     "total": 74,
-     "likes": 0,
-     "comments": 1,
-     "avp": 42.13,
-     "avd": 16,
-     "subs": 0,
-     "shares": 0
-    },
-    {
-     "video_id": "s0nQf_eHlgI",
-     "title": "નરસિંહ મહેતાનો હાથ સળગ્યો છતાં દર્દ કેમ ન થયો?",
-     "key": "narsinh_mehta",
-     "lang": "gu",
-     "kind": "saint",
-     "seconds": 36.7,
-     "slot": 1,
-     "age_h": 23,
-     "yt": 58,
-     "fb": 0,
-     "total": 58,
+     "total": 80,
      "likes": 1,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 43.06,
+     "avd": 17,
+     "subs": 0,
+     "shares": 1
     },
     {
      "video_id": "wF4SXqX4FVI",
@@ -330,10 +349,10 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 137,
-     "yt": 42,
+     "age_h": 161,
+     "yt": 43,
      "fb": null,
-     "total": 42,
+     "total": 43,
      "likes": 1,
      "comments": 1,
      "avp": 51.019999999999996,
@@ -349,10 +368,10 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 89,
-     "yt": 39,
+     "age_h": 113,
+     "yt": 41,
      "fb": null,
-     "total": 39,
+     "total": 41,
      "likes": 0,
      "comments": 1,
      "avp": 34.9,
@@ -373,17 +392,36 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 122,
-     "yt": 24,
+     "age_h": 146,
+     "yt": 26,
      "fb": null,
-     "total": 24,
+     "total": 26,
      "likes": 1,
      "comments": 1,
-     "avp": 54.97,
-     "avd": 18,
+     "avp": 50,
+     "avd": 16,
      "subs": 0,
      "shares": 0,
      "retention": null
+    },
+    {
+     "video_id": "7b9q_RsNtsk",
+     "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
+     "key": "dholavira",
+     "lang": "gu",
+     "kind": "history",
+     "seconds": 38.2,
+     "slot": 1,
+     "age_h": 23,
+     "yt": 21,
+     "fb": null,
+     "total": 21,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "qDn6fFjJ5eg",
@@ -393,7 +431,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 145,
+     "age_h": 169,
      "yt": 15,
      "fb": null,
      "total": 15,
@@ -406,37 +444,18 @@
      "retention": null
     },
     {
-     "video_id": "Qy8ZLR_LUp4",
-     "title": "अंधे सूरदास ने साधारण ब्रज भाषा को कैसे अमर बना दिया?",
-     "key": "surdas",
-     "lang": "hi",
-     "kind": "saint",
-     "seconds": 31.3,
-     "slot": 2,
-     "age_h": 18,
-     "yt": 7,
-     "fb": null,
-     "total": 7,
-     "likes": 0,
-     "comments": 0,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
-     "video_id": "pfYKgjZGru0",
-     "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
-     "key": "palani_bhogar",
-     "lang": "ta",
-     "kind": "saint",
-     "seconds": 30.2,
+     "video_id": "olO9Lk3x7S4",
+     "title": "1600 ವರ್ಷ ತುಕ್ಕು ಹಿಡಿಯದ ದೆಹಲಿಯ ಕಬ್ಬಿಣದ ಕಂಬದ ರಹಸ್ಯ!",
+     "key": "iron_pillar",
+     "lang": "kn",
+     "kind": "wonder",
+     "seconds": 31.6,
      "slot": 0,
      "age_h": 2,
-     "yt": 0,
+     "yt": 10,
      "fb": null,
-     "total": 0,
-     "likes": 0,
+     "total": 10,
+     "likes": 1,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -448,35 +467,35 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 29792
+      "views": 68011
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 533
-     },
-     {
-      "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 44
+      "views": 1097
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 40
+      "views": 137
      },
      {
-      "insightTrafficSourceType": "EXT_URL",
-      "views": 39
+      "insightTrafficSourceType": "RELATED_VIDEO",
+      "views": 91
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 16
+      "views": 72
+     },
+     {
+      "insightTrafficSourceType": "EXT_URL",
+      "views": 66
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 16
+      "views": 24
      },
      {
       "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 8
+      "views": 14
      },
      {
       "insightTrafficSourceType": "PLAYLIST",
@@ -484,7 +503,7 @@
      },
      {
       "insightTrafficSourceType": "NO_LINK_OTHER",
-      "views": 4
+      "views": 6
      },
      {
       "insightTrafficSourceType": "HASHTAGS",
@@ -494,22 +513,42 @@
     "searches": [
      {
       "insightTrafficSourceDetail": "ಮೈಸೂರು ಅರಮನೆ",
+      "views": 13
+     },
+     {
+      "insightTrafficSourceDetail": "mysore palace history",
+      "views": 12
+     },
+     {
+      "insightTrafficSourceDetail": "mysore history in kannada",
       "views": 9
+     },
+     {
+      "insightTrafficSourceDetail": "mysore palace history in kannada",
+      "views": 6
      },
      {
       "insightTrafficSourceDetail": "mysore dussehra festival",
       "views": 5
      },
      {
-      "insightTrafficSourceDetail": "mysore history in kannada",
-      "views": 5
+      "insightTrafficSourceDetail": "history of mysore palace in kannada",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "mysore aramane story",
+      "views": 4
      },
      {
       "insightTrafficSourceDetail": "virat kohli dance",
       "views": 4
      },
      {
-      "insightTrafficSourceDetail": "history of mysore palace in kannada",
+      "insightTrafficSourceDetail": "ಶಿವಮೊಗ್ಗ ದಸರಾ 2026",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "bigg boss season 13 kannada",
       "views": 3
      },
      {
@@ -525,45 +564,45 @@
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "mysore palace history",
+      "insightTrafficSourceDetail": "mysore palace story in kannada",
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "mysore palace history in kannada",
+      "insightTrafficSourceDetail": "premada orally film",
       "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "ಮೈಸೂರ್ ಅರಮನೆ",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "autokaran channel",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "bhayanak bhoot bhoot",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "bigg boss season 13 kannada",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "court job",
-      "views": 2
      }
     ],
     "related": [
      {
+      "insightTrafficSourceDetail": "F8sXs0dY_TQ",
+      "views": 13
+     },
+     {
       "insightTrafficSourceDetail": "dxueJxQqvPo",
-      "views": 3
+      "views": 6
      },
      {
       "insightTrafficSourceDetail": "gDxnG_sY9fc",
-      "views": 3
+      "views": 6
      },
      {
       "insightTrafficSourceDetail": "dyhvaOOnT_g",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "6nXUssKDijo",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "OPp_6t77jHk",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "VYF_FMSPs-k",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "_KvRSd96nt0",
       "views": 2
      },
      {
@@ -571,27 +610,7 @@
       "views": 2
      },
      {
-      "insightTrafficSourceDetail": "-gYt0dHjJXA",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "0-kU1OR__Pk",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "2CZwgyNVGn8",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "2bvRsasRsWY",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "5KUh7onblmw",
-      "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "6nXUssKDijo",
+      "insightTrafficSourceDetail": "-SNeBSpUnKs",
       "views": 1
      }
     ],
@@ -599,7 +618,7 @@
      {
       "ageGroup": "age13-17",
       "gender": "female",
-      "viewerPercentage": 0.6
+      "viewerPercentage": 0.7
      },
      {
       "ageGroup": "age13-17",
@@ -609,84 +628,84 @@
      {
       "ageGroup": "age18-24",
       "gender": "female",
-      "viewerPercentage": 3.2
+      "viewerPercentage": 3.7
      },
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 5
+      "viewerPercentage": 4.8
      },
      {
       "ageGroup": "age25-34",
       "gender": "female",
-      "viewerPercentage": 6.5
+      "viewerPercentage": 7.4
      },
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 13.5
+      "viewerPercentage": 12.1
      },
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 7
+      "viewerPercentage": 8.4
      },
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 14.5
-     },
-     {
-      "ageGroup": "age45-54",
-      "gender": "female",
-      "viewerPercentage": 6.4
-     },
-     {
-      "ageGroup": "age45-54",
-      "gender": "male",
       "viewerPercentage": 13.5
      },
      {
+      "ageGroup": "age45-54",
+      "gender": "female",
+      "viewerPercentage": 7.7
+     },
+     {
+      "ageGroup": "age45-54",
+      "gender": "male",
+      "viewerPercentage": 13
+     },
+     {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 4.6
+      "viewerPercentage": 5.2
      },
      {
       "ageGroup": "age55-64",
       "gender": "male",
-      "viewerPercentage": 11.2
+      "viewerPercentage": 10.3
      },
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 3.8
+      "viewerPercentage": 4
      },
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 9
+      "viewerPercentage": 8
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 29087
+      "views": 67972
      },
      {
       "country": "US",
-      "views": 491
+      "views": 572
      },
      {
       "country": "BD",
       "views": 448
      },
      {
-      "country": "GB",
-      "views": 46
+      "country": "AE",
+      "views": 48
      },
      {
-      "country": "AE",
-      "views": 22
+      "country": "GB",
+      "views": 46
      }
     ]
    },
@@ -694,74 +713,74 @@
     "mr": {
      "w": 0.71,
      "n": 1,
-     "median": 84
+     "median": 86
     },
     "kn": {
      "w": 2.5,
      "n": 2,
-     "median": 40253
-    },
-    "ml": {
-     "w": 1.0,
-     "n": 0,
-     "median": null
-    },
-    "gu": {
-     "w": 0.71,
-     "n": 1,
-     "median": 74
-    },
-    "ta": {
-     "w": 1.0,
-     "n": 1,
-     "median": 554
-    },
-    "bn": {
-     "w": 0.98,
-     "n": 1,
-     "median": 514
-    },
-    "or": {
-     "w": 1.06,
-     "n": 1,
-     "median": 694
+     "median": 46764
     },
     "pa": {
      "w": 1.0,
      "n": 0,
      "median": null
+    },
+    "ta": {
+     "w": 1.02,
+     "n": 1,
+     "median": 557
+    },
+    "ml": {
+     "w": 0.71,
+     "n": 1,
+     "median": 100
+    },
+    "gu": {
+     "w": 0.57,
+     "n": 2,
+     "median": 93
+    },
+    "or": {
+     "w": 1.08,
+     "n": 1,
+     "median": 711
+    },
+    "bn": {
+     "w": 1.0,
+     "n": 1,
+     "median": 515
     }
    },
    "kind_weights": {
+    "saint": {
+     "w": 1.17,
+     "n": 4,
+     "median": 143
+    },
     "engineering": {
      "w": 1.41,
      "n": 1,
-     "median": 63755
+     "median": 71027
     },
-    "wonder": {
-     "w": 1.29,
+    "history": {
+     "w": 1.87,
      "n": 5,
-     "median": 514
-    },
-    "saint": {
-     "w": 1.25,
-     "n": 3,
-     "median": 143
-    },
-    "myth": {
-     "w": 0.6,
-     "n": 3,
-     "median": 39
+     "median": 608
     },
     "folk": {
      "w": 0.74,
      "n": 1,
-     "median": 42
+     "median": 43
     },
-    "history": {
-     "w": 1.65,
+    "wonder": {
+     "w": 1.3,
+     "n": 5,
+     "median": 515
+    },
+    "myth": {
+     "w": 0.62,
      "n": 4,
-     "median": 543
+     "median": 67
     }
    },
    "proven_titles": {
@@ -771,6 +790,7 @@
     ],
     "te": [
      "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
+     "బాబర్ దృష్టిలో భారతదేశంలో అత్యంత శక్తివంతమైన రాజు ఎవరు?",
      "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!"
     ],
     "hi": [
@@ -786,32 +806,14 @@
     "bn": [
      "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?"
     ],
-    "mr": [],
-    "gu": []
+    "gu": [],
+    "ml": [],
+    "mr": []
    },
    "median_views": 143
   },
   "en": {
    "videos": [
-    {
-     "video_id": "_feULT1yOTQ",
-     "title": "Scientists Found a Hidden Abyss Under Chichen Itza",
-     "key": "chichen_itza",
-     "lang": "en",
-     "kind": "wonder",
-     "seconds": 37.7,
-     "slot": 4,
-     "age_h": 30,
-     "yt": 677,
-     "fb": null,
-     "total": 677,
-     "likes": 22,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
     {
      "video_id": "QuK0ISv5OAQ",
      "title": "How an Elevator Operator Survived a 75-Story Plunge",
@@ -820,16 +822,35 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 7,
-     "yt": 606,
+     "age_h": 31,
+     "yt": 887,
      "fb": null,
-     "total": 606,
-     "likes": 23,
+     "total": 887,
+     "likes": 27,
      "comments": 1,
      "avp": null,
      "avd": null,
      "subs": null,
      "shares": null
+    },
+    {
+     "video_id": "_feULT1yOTQ",
+     "title": "Scientists Found a Hidden Abyss Under Chichen Itza",
+     "key": "chichen_itza",
+     "lang": "en",
+     "kind": "wonder",
+     "seconds": 37.7,
+     "slot": 4,
+     "age_h": 54,
+     "yt": 720,
+     "fb": null,
+     "total": 720,
+     "likes": 22,
+     "comments": 1,
+     "avp": 72.69,
+     "avd": 27,
+     "subs": 3,
+     "shares": 0
     },
     {
      "video_id": "3HRiGnU6ZcM",
@@ -839,13 +860,13 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 55,
+     "age_h": 79,
      "yt": 226,
      "fb": null,
      "total": 226,
      "likes": 6,
      "comments": 1,
-     "avp": 61.31999999999999,
+     "avp": 61.480000000000004,
      "avd": 21,
      "subs": 1,
      "shares": 0
@@ -855,7 +876,15 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 140
+      "views": 645
+     },
+     {
+      "insightTrafficSourceType": "YT_SEARCH",
+      "views": 10
+     },
+     {
+      "insightTrafficSourceType": "YT_OTHER_PAGE",
+      "views": 6
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
@@ -866,21 +895,48 @@
       "views": 2
      },
      {
-      "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 1
-     },
-     {
       "insightTrafficSourceType": "NO_LINK_OTHER",
       "views": 0
      }
     ],
     "searches": [],
     "related": [],
-    "audience": [],
+    "audience": [
+     {
+      "ageGroup": "age35-44",
+      "gender": "female",
+      "viewerPercentage": 9.1
+     },
+     {
+      "ageGroup": "age35-44",
+      "gender": "male",
+      "viewerPercentage": 16.9
+     },
+     {
+      "ageGroup": "age45-54",
+      "gender": "female",
+      "viewerPercentage": 7.8
+     },
+     {
+      "ageGroup": "age45-54",
+      "gender": "male",
+      "viewerPercentage": 16.4
+     },
+     {
+      "ageGroup": "age65-",
+      "gender": "female",
+      "viewerPercentage": 13.7
+     },
+     {
+      "ageGroup": "age65-",
+      "gender": "male",
+      "viewerPercentage": 36.1
+     }
+    ],
     "countries": [
      {
       "country": "US",
-      "views": 126
+      "views": 515
      }
     ]
    }
