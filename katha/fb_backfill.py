@@ -21,6 +21,16 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 QUEUE = HERE / "fb_backfill.json"
 MIN_VIEWS = 500
+# 2026-10-26 (owner): skip the backfill on long-form days. Each re-render costs ~7 Gemini calls and a
+# long-form ~50; on Sunday 10-25 together they spent the free quota by 16:42 UTC, and the Hindi,
+# Telugu and Strange But True Shorts after that all failed. Gemini's day starts at Pacific midnight
+# (07:00 UTC in PDT, 08:00 in PST; every backfill cron lands on the same day either way).
+LONG_DAYS = (6, 2)   # Sunday, Wednesday - keep in sync with katha_long.yml
+
+
+def long_form_day(now=None):
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    return (now - datetime.timedelta(hours=7)).weekday() in LONG_DAYS
 
 
 def load():
@@ -77,6 +87,8 @@ def build():
 def next_one():
     sys.path.insert(0, str(HERE))
     import fb
+    if long_form_day() and not os.environ.get("FORCE_BACKFILL"):
+        print("[backfill] long-form day - leaving the Gemini quota to the Shorts and the long-form"); return
     q = load()
     item = next((x for x in q if x["status"] == "queued"), None)
     if not item:

@@ -1,13 +1,15 @@
 name: "Ajab Gajab — Long-form Stories"
 
 # Two long videos a week (~8-10 min, 7 fact-checked chapters, landscape):
-#   Sunday    05:35 UTC = 11:05 IST  Hindi
-#   Wednesday 05:35 UTC = 11:05 IST  Telugu (owner best bet 2026-10-21; was a weekly regional rotation)
+#   Sunday    15:35 UTC = 21:05 IST  Hindi
+#   Wednesday 15:35 UTC = 21:05 IST  Telugu (owner best bet 2026-10-21; was a weekly regional rotation)
+# Moved from 05:35 on 2026-10-26: at ~50 Gemini calls it spent the free quota before the 12:35 and
+# 15:05 Shorts slots. Now it runs after them; fb_backfill.py also skips these days.
 # Collections rotate per language (katha/longform.py ORDER), so no theme repeats back to back.
 on:
   schedule:
-    - cron: "35 5 * * 0"
-    - cron: "35 5 * * 3"
+    - cron: "35 15 * * 0"
+    - cron: "35 15 * * 3"
   workflow_dispatch:
     inputs:
       lang:
