@@ -394,5 +394,23 @@
   "title": "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?",
   "seconds": 29.5,
   "slot": 2
+ },
+ {
+  "key": "sammakka_saralamma",
+  "lang": "te",
+  "date": "2026-10-26",
+  "status": "failed_check",
+  "why": "only 1 usable images"
+ },
+ {
+  "key": "roopkund",
+  "lang": "te",
+  "date": "2026-10-26",
+  "utc": "18:59",
+  "status": "posted",
+  "video_id": "VpX_oWnDFao",
+  "title": "హిమాలయాల్లో వందలాది అస్థిపంజరాలు ఉన్న సరస్సు రహస్యం!",
+  "seconds": 33.6,
+  "slot": 3
  }
 ]
