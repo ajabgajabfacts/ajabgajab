@@ -59,15 +59,20 @@ def commons(query, limit=14):
             continue
         out.append(dict(file=p["title"], url=ii.get("thumburl") or ii["url"], page=ii.get("descriptionurl"),
                         w=ii["width"], h=ii["height"], license=lic,
-                        artist=_strip(m.get("Artist", {}).get("value", ""))[:80] or "unknown"))
+                        artist=_strip(m.get("Artist", {}).get("value", ""))[:80] or "unknown",
+                        desc=" ".join(_strip(m.get("ImageDescription", {}).get("value", "")).split())[:140]))
     return out
 
 
 VET = """Candidate visuals for a family-friendly YouTube Short about: {story}.
-You get {n} images, numbered 0..{last} in order; their Wikimedia file names:
+You get {n} images, numbered 0..{last} in order; their Wikimedia file names and descriptions:
 {names}
+First, for EACH image, say in "where" what it really shows and where, using its file name and description
+(e.g. "Soor stream near Eupen, Belgium"). Then set match=true only if that is THIS story's own place,
+person, event or characters (a painting of them counts). Same-looking scenery elsewhere is match=false:
+another country's river, another temple, another king, an unrelated epic scene.
 Judge EACH image. use=false if ANY of these:
-- it is not specifically THIS story/place/person (a generic or different location, e.g. another lake, does NOT count);
+- match is false;
 - skeletons, bones, skulls, corpses, blood, wounds, weapons in use on a person, violence, gore, death scenes;
 - any nudity or sexualised content (including in sculpture or painting);
 - a map, diagram, chart, document/page scan, coin, stamp, book cover, modern signboard or poster;
@@ -76,7 +81,8 @@ Judge EACH image. use=false if ANY of these:
   (tiny distant figures for scale are fine);
 - large readable text, a watermark or logo; blurry, tiny or very dark.
 score = how cinematic and scroll-stopping it is full-screen on a phone (10 = stunning).
-Return JSON {{"results": [{{"i": 0, "use": bool, "score": 0-10, "what": "5 words"}}, ...one per image]}}"""
+Return JSON {{"results": [{{"i": 0, "where": "what and where", "match": bool, "use": bool, "score": 0-10,
+"what": "5 words"}}, ...one per image]}}"""
 
 
 def _keywords(entry):
@@ -123,15 +129,20 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
             parts.append(ai.image_part(b.getvalue()))
         try:
             v = ai.json_call(VET.format(story=story_en, n=len(group), last=len(group) - 1,
-                                        names="\n".join(f"{j}: {c['file'][5:]}" for j, c in enumerate(group))),
+                                        names="\n".join(f"{j}: {c['file'][5:]}" + (f" | {c['desc']}" if c.get("desc") else "")
+                                                        for j, c in enumerate(group))),
                              models=ai.VISION_MODELS, parts=parts, temperature=0.1)
         except Exception as e:
             print("[img] vet failed", str(e)[:80]); continue
         res = {r.get("i"): r for r in v.get("results", []) if isinstance(r, dict)}
         for j, c in enumerate(group):
             r = res.get(j, {})
-            print(f"[img] {r.get('use')!s:5} {r.get('score')}  {c['file'][5:60]}  ({r.get('what')})")
-            if r.get("use") and (r.get("score") or 0) >= 5:
+            print(f"[img] {r.get('use')!s:5} {r.get('score')}  {c['file'][5:60]}  ({r.get('where') or r.get('what')})")
+            # 2026-10-26: the Surdas Short used "Soor bei Eupen" (a Belgian stream, scored 8) because
+            # the vet judged mood, not subject. Now it must name the place first, and a file whose name
+            # shares no word with the story needs a higher bar.
+            bar = 5 if any(k in c["file"].lower() for k in kws) else 7
+            if r.get("use") and r.get("match") is not False and (r.get("score") or 0) >= bar:
                 c["score"] = r["score"]; picked.append(c)
         if len([p for p in picked if p["score"] >= 7]) >= need:
             break
