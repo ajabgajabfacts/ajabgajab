@@ -167,6 +167,7 @@ EPOCH = dt.date(2026, 10, 19)
 # kn twice: Mysore Palace (14.3k, 2026-10-21) is the channel record; ta and bn were next best of the rotation.
 ROTATING = ["ta", "kn", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
 EPOCH2 = dt.date(2026, 10, 20)
+KN_DAILY = dt.date(2026, 10, 26)
 
 
 def slot_lang(slot, day=None):
@@ -178,10 +179,18 @@ def slot_lang(slot, day=None):
         return "te"
     if slot == 2:
         return "hi"
+    # From 2026-10-26 slot 0 is Kannada every day (owner): kn is the channel's record language
+    # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
+    if slot == 0 and day >= KN_DAILY:
+        return "kn"
     # Reposts of deleted Shorts in the rotating languages go first: slot 0 the oldest, slot 1 the next.
     rot = [l for k, l in redos(day) if l not in ("te", "hi", "en")]
     rot = list(dict.fromkeys(rot))
-    if len(rot) > slot:
+    if day >= KN_DAILY:
+        rot = [l for l in rot if l != "kn"]
+        if rot:
+            return rot[0]
+    elif len(rot) > slot:
         return rot[slot]
     # From 2026-10-23 the rotating slots follow katha/insights.py's language weights (our own
     # views, shrunk and clamped so every language keeps being tested). Seeded by the date, so a

@@ -9,6 +9,9 @@ on:
   schedule:
     - cron: "5 22 * * *"
     - cron: "35 23 * * *"
+    # One-off: the 10-26 post died on Gemini's spent free quota at 00:06 UTC. Re-run at 1 pm ET.
+    # Fires only on Oct 26; the ledger guard makes it a no-op if 10-26 already posted.
+    - cron: "0 17 26 10 *"
   workflow_dispatch:
     inputs:
       key:
