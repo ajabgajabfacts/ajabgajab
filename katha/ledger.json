@@ -376,5 +376,23 @@
   "title": "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव",
   "seconds": 36.8,
   "slot": 1
+ },
+ {
+  "key": "surdas",
+  "lang": "hi",
+  "date": "2026-10-26",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "kuldhara",
+  "lang": "hi",
+  "date": "2026-10-26",
+  "utc": "14:13",
+  "status": "posted",
+  "video_id": "WhIsN3HJA2A",
+  "title": "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?",
+  "seconds": 29.5,
+  "slot": 2
  }
 ]
