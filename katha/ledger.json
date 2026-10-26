@@ -304,11 +304,12 @@
   "lang": "hi",
   "date": "2026-10-24",
   "utc": "13:03",
-  "status": "posted",
+  "status": "redo",
   "video_id": "Qy8ZLR_LUp4",
   "title": "अंधे सूरदास ने साधारण ब्रज भाषा को कैसे अमर बना दिया?",
   "seconds": 31.3,
-  "slot": 2
+  "slot": 2,
+  "why": "images included a Belgian stream ('Soor bei Eupen') and a Persian Razmnama page; deleted 2026-10-26 for a repost with the stricter image vet (8142f79)"
  },
  {
   "key": "krishnadevaraya",
