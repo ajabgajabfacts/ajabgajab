@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:05Z",
+ "updated": "2026-10-27T06:52Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,20 +11,20 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 119,
-     "yt": 71027,
+     "age_h": 142,
+     "yt": 80157,
      "fb": 0,
-     "total": 71027,
-     "likes": 681,
+     "total": 80157,
+     "likes": 725,
      "comments": 7,
-     "avp": 77.67,
-     "avd": 27,
-     "subs": 58,
-     "shares": 51,
+     "avp": 78.9,
+     "avd": 28,
+     "subs": 66,
+     "shares": 55,
      "retention": {
-      "10%": 1.23,
-      "50%": 0.71,
-      "90%": 0.58
+      "10%": 1.24,
+      "50%": 0.72,
+      "90%": 0.59
      }
     },
     {
@@ -35,19 +35,19 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 79,
-     "yt": 22501,
+     "age_h": 103,
+     "yt": 25753,
      "fb": 0,
-     "total": 22501,
-     "likes": 373,
+     "total": 25753,
+     "likes": 403,
      "comments": 1,
-     "avp": 70.06,
+     "avp": 70.31,
      "avd": 28,
-     "subs": 5,
-     "shares": 2,
+     "subs": 18,
+     "shares": 6,
      "retention": {
-      "10%": 1.15,
-      "50%": 0.62,
+      "10%": 1.16,
+      "50%": 0.63,
       "90%": 0.51
      }
     },
@@ -59,13 +59,13 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 156,
-     "yt": 1681,
+     "age_h": 180,
+     "yt": 1683,
      "fb": 0,
-     "total": 1681,
+     "total": 1683,
      "likes": 45,
      "comments": 3,
-     "avp": 69.6,
+     "avp": 69.62,
      "avd": 23,
      "subs": 2,
      "shares": 0,
@@ -83,16 +83,35 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 133,
+     "age_h": 157,
      "yt": 1341,
-     "fb": null,
+     "fb": 0,
      "total": 1341,
      "likes": 15,
      "comments": 3,
-     "avp": 52.11,
+     "avp": 52.07000000000001,
      "avd": 15,
      "subs": 4,
      "shares": 0
+    },
+    {
+     "video_id": "olO9Lk3x7S4",
+     "title": "1600 ವರ್ಷ ತುಕ್ಕು ಹಿಡಿಯದ ದೆಹಲಿಯ ಕಬ್ಬಿಣದ ಕಂಬದ ರಹಸ್ಯ!",
+     "key": "iron_pillar",
+     "lang": "kn",
+     "kind": "wonder",
+     "seconds": 31.6,
+     "slot": 0,
+     "age_h": 25,
+     "yt": 1058,
+     "fb": null,
+     "total": 1058,
+     "likes": 18,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "0AIKyx5ChG4",
@@ -102,16 +121,16 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 39,
-     "yt": 956,
+     "age_h": 62,
+     "yt": 991,
      "fb": 0,
-     "total": 956,
-     "likes": 14,
+     "total": 991,
+     "likes": 16,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 78.54,
+     "avd": 27,
+     "subs": 1,
+     "shares": 0
     },
     {
      "video_id": "seShlAM_DX8",
@@ -121,13 +140,13 @@
      "kind": "wonder",
      "seconds": 45.0,
      "slot": 1,
-     "age_h": 73,
-     "yt": 711,
+     "age_h": 97,
+     "yt": 798,
      "fb": 0,
-     "total": 711,
-     "likes": 6,
+     "total": 798,
+     "likes": 7,
      "comments": 1,
-     "avp": 54.29999999999999,
+     "avp": 54,
      "avd": 24,
      "subs": 0,
      "shares": 0
@@ -140,15 +159,15 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 65,
-     "yt": 608,
+     "age_h": 89,
+     "yt": 651,
      "fb": null,
-     "total": 608,
-     "likes": 13,
+     "total": 651,
+     "likes": 18,
      "comments": 1,
-     "avp": 55.09,
+     "avp": 55.1,
      "avd": 17,
-     "subs": 0,
+     "subs": 1,
      "shares": 0
     },
     {
@@ -159,10 +178,10 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 169,
-     "yt": 557,
-     "fb": null,
-     "total": 557,
+     "age_h": 193,
+     "yt": 558,
+     "fb": 0,
+     "total": 558,
      "likes": 8,
      "comments": 1,
      "avp": 55.57,
@@ -178,14 +197,52 @@
      "kind": "wonder",
      "seconds": 39.1,
      "slot": 1,
-     "age_h": 143,
+     "age_h": 167,
      "yt": 515,
-     "fb": null,
+     "fb": 0,
      "total": 515,
      "likes": 4,
      "comments": 1,
      "avp": 32.02,
      "avd": 12,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "Vt27rHcF7aA",
+     "title": "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव",
+     "key": "shani_shingnapur",
+     "lang": "mr",
+     "kind": "wonder",
+     "seconds": 36.8,
+     "slot": 1,
+     "age_h": 23,
+     "yt": 440,
+     "fb": null,
+     "total": 440,
+     "likes": 5,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "pfYKgjZGru0",
+     "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
+     "key": "palani_bhogar",
+     "lang": "ta",
+     "kind": "saint",
+     "seconds": 30.2,
+     "slot": 0,
+     "age_h": 49,
+     "yt": 252,
+     "fb": null,
+     "total": 252,
+     "likes": 6,
+     "comments": 1,
+     "avp": 19.42,
+     "avd": 6,
      "subs": 0,
      "shares": 0
     },
@@ -197,13 +254,13 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 64,
-     "yt": 148,
+     "age_h": 87,
+     "yt": 149,
      "fb": 0,
-     "total": 148,
+     "total": 149,
      "likes": 8,
      "comments": 1,
-     "avp": 72.97,
+     "avp": 72.67,
      "avd": 28,
      "subs": 0,
      "shares": 0
@@ -216,35 +273,16 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 156,
-     "yt": 138,
+     "age_h": 180,
+     "yt": 139,
      "fb": null,
-     "total": 138,
+     "total": 139,
      "likes": 3,
      "comments": 1,
      "avp": 51.57000000000001,
      "avd": 18,
      "subs": 0,
      "shares": 0
-    },
-    {
-     "video_id": "pfYKgjZGru0",
-     "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
-     "key": "palani_bhogar",
-     "lang": "ta",
-     "kind": "saint",
-     "seconds": 30.2,
-     "slot": 0,
-     "age_h": 26,
-     "yt": 129,
-     "fb": null,
-     "total": 129,
-     "likes": 2,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     },
     {
      "video_id": "s0nQf_eHlgI",
@@ -254,16 +292,16 @@
      "kind": "saint",
      "seconds": 36.7,
      "slot": 1,
-     "age_h": 47,
-     "yt": 106,
+     "age_h": 71,
+     "yt": 118,
      "fb": 0,
-     "total": 106,
+     "total": 118,
      "likes": 2,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 38.07,
+     "avd": 14,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "C_8tZLsAObU",
@@ -273,16 +311,16 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 47,
-     "yt": 100,
+     "age_h": 71,
+     "yt": 107,
      "fb": null,
-     "total": 100,
+     "total": 107,
      "likes": 1,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 83.55,
+     "avd": 32,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "4pwBrxbAG2I",
@@ -292,7 +330,7 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 133,
+     "age_h": 157,
      "yt": 93,
      "fb": null,
      "total": 93,
@@ -311,10 +349,10 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 119,
-     "yt": 86,
+     "age_h": 143,
+     "yt": 87,
      "fb": null,
-     "total": 86,
+     "total": 87,
      "likes": 3,
      "comments": 1,
      "avp": 65.26,
@@ -330,35 +368,54 @@
      "kind": "wonder",
      "seconds": 39.8,
      "slot": 0,
-     "age_h": 73,
-     "yt": 80,
+     "age_h": 97,
+     "yt": 86,
      "fb": null,
-     "total": 80,
+     "total": 86,
      "likes": 1,
      "comments": 1,
-     "avp": 43.06,
+     "avp": 44.6,
      "avd": 17,
      "subs": 0,
      "shares": 1
     },
     {
-     "video_id": "wF4SXqX4FVI",
-     "title": "एक परछाई ने भानगढ़ को कैसे बर्बाद कर दिया?",
-     "key": "bhangarh",
+     "video_id": "WhIsN3HJA2A",
+     "title": "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?",
+     "key": "kuldhara",
      "lang": "hi",
      "kind": "folk",
-     "seconds": 33.9,
+     "seconds": 29.5,
      "slot": 2,
-     "age_h": 161,
-     "yt": 43,
+     "age_h": 17,
+     "yt": 85,
      "fb": null,
-     "total": 43,
-     "likes": 1,
+     "total": 85,
+     "likes": 0,
      "comments": 1,
-     "avp": 51.019999999999996,
-     "avd": 17,
-     "subs": 0,
-     "shares": 0
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "7b9q_RsNtsk",
+     "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
+     "key": "dholavira",
+     "lang": "gu",
+     "kind": "history",
+     "seconds": 38.2,
+     "slot": 1,
+     "age_h": 47,
+     "yt": 73,
+     "fb": null,
+     "total": 73,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "hlxBJbcPMlI",
@@ -368,20 +425,39 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 113,
-     "yt": 41,
+     "age_h": 137,
+     "yt": 44,
      "fb": null,
-     "total": 41,
+     "total": 44,
      "likes": 0,
      "comments": 1,
      "avp": 34.9,
      "avd": 26,
      "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "wF4SXqX4FVI",
+     "title": "एक परछाई ने भानगढ़ को कैसे बर्बाद कर दिया?",
+     "key": "bhangarh",
+     "lang": "hi",
+     "kind": "folk",
+     "seconds": 33.9,
+     "slot": 2,
+     "age_h": 185,
+     "yt": 43,
+     "fb": null,
+     "total": 43,
+     "likes": 1,
+     "comments": 1,
+     "avp": 51.019999999999996,
+     "avd": 17,
+     "subs": 0,
      "shares": 0,
      "retention": {
-      "10%": 0.67,
-      "50%": 0.2,
-      "90%": 0.2
+      "10%": 1.0,
+      "50%": 0.42,
+      "90%": 0.17
      }
     },
     {
@@ -392,7 +468,7 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 146,
+     "age_h": 169,
      "yt": 26,
      "fb": null,
      "total": 26,
@@ -405,25 +481,6 @@
      "retention": null
     },
     {
-     "video_id": "7b9q_RsNtsk",
-     "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
-     "key": "dholavira",
-     "lang": "gu",
-     "kind": "history",
-     "seconds": 38.2,
-     "slot": 1,
-     "age_h": 23,
-     "yt": 21,
-     "fb": null,
-     "total": 21,
-     "likes": 0,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "qDn6fFjJ5eg",
      "title": "ऊपर से नीचे कैसे तराशा गया यह विशालकाय मंदिर?",
      "key": "kailasa_monolith",
@@ -431,7 +488,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 169,
+     "age_h": 193,
      "yt": 15,
      "fb": null,
      "total": 15,
@@ -444,18 +501,37 @@
      "retention": null
     },
     {
-     "video_id": "olO9Lk3x7S4",
-     "title": "1600 ವರ್ಷ ತುಕ್ಕು ಹಿಡಿಯದ ದೆಹಲಿಯ ಕಬ್ಬಿಣದ ಕಂಬದ ರಹಸ್ಯ!",
-     "key": "iron_pillar",
-     "lang": "kn",
+     "video_id": "VpX_oWnDFao",
+     "title": "హిమాలయాల్లో వందలాది అస్థిపంజరాలు ఉన్న సరస్సు రహస్యం!",
+     "key": "roopkund",
+     "lang": "te",
      "kind": "wonder",
-     "seconds": 31.6,
-     "slot": 0,
-     "age_h": 2,
-     "yt": 10,
+     "seconds": 33.6,
+     "slot": 3,
+     "age_h": 12,
+     "yt": 5,
      "fb": null,
-     "total": 10,
-     "likes": 1,
+     "total": 5,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "1zVAtZAH8dA",
+     "title": "12ನೇ ಶತಮಾನದಲ್ಲೇ ಗುಡಿ-ಪೂಜೆ ಬೇಡ ಎಂದ ಬಸವಣ್ಣನವರ ಕ್ರಾಂತಿ ಏನು?",
+     "key": "basavanna",
+     "lang": "kn",
+     "kind": "saint",
+     "seconds": 37.2,
+     "slot": 0,
+     "age_h": 1,
+     "yt": 0,
+     "fb": null,
+     "total": 0,
+     "likes": 0,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -467,43 +543,43 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 68011
+      "views": 87887
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 1097
+      "views": 1418
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 137
+      "views": 152
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 91
+      "views": 148
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 72
+      "views": 121
      },
      {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 66
+      "views": 77
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 24
+      "views": 35
      },
      {
       "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 14
+      "views": 19
+     },
+     {
+      "insightTrafficSourceType": "NO_LINK_OTHER",
+      "views": 8
      },
      {
       "insightTrafficSourceType": "PLAYLIST",
       "views": 7
-     },
-     {
-      "insightTrafficSourceType": "NO_LINK_OTHER",
-      "views": 6
      },
      {
       "insightTrafficSourceType": "HASHTAGS",
@@ -516,12 +592,12 @@
       "views": 13
      },
      {
-      "insightTrafficSourceDetail": "mysore palace history",
+      "insightTrafficSourceDetail": "mysore history in kannada",
       "views": 12
      },
      {
-      "insightTrafficSourceDetail": "mysore history in kannada",
-      "views": 9
+      "insightTrafficSourceDetail": "mysore palace history",
+      "views": 12
      },
      {
       "insightTrafficSourceDetail": "mysore palace history in kannada",
@@ -529,6 +605,10 @@
      },
      {
       "insightTrafficSourceDetail": "mysore dussehra festival",
+      "views": 5
+     },
+     {
+      "insightTrafficSourceDetail": "mysore palace",
       "views": 5
      },
      {
@@ -548,6 +628,10 @@
       "views": 4
      },
      {
+      "insightTrafficSourceDetail": "alamelamma statue in mysore palace",
+      "views": 3
+     },
+     {
       "insightTrafficSourceDetail": "bigg boss season 13 kannada",
       "views": 3
      },
@@ -556,38 +640,46 @@
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "mysore dussehra video",
+      "insightTrafficSourceDetail": "mysore aramane story kannada",
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "mysore palace",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "mysore palace story in kannada",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "premada orally film",
+      "insightTrafficSourceDetail": "mysore dasara 2026",
       "views": 3
      }
     ],
     "related": [
      {
       "insightTrafficSourceDetail": "F8sXs0dY_TQ",
-      "views": 13
+      "views": 34
      },
      {
       "insightTrafficSourceDetail": "dxueJxQqvPo",
-      "views": 6
+      "views": 8
      },
      {
       "insightTrafficSourceDetail": "gDxnG_sY9fc",
+      "views": 7
+     },
+     {
+      "insightTrafficSourceDetail": "jUd6r1YvFBI",
       "views": 6
      },
      {
       "insightTrafficSourceDetail": "dyhvaOOnT_g",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "_KvRSd96nt0",
       "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "aS03bwwXY-E",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "2bvRsasRsWY",
+      "views": 2
      },
      {
       "insightTrafficSourceDetail": "6nXUssKDijo",
@@ -596,22 +688,6 @@
      {
       "insightTrafficSourceDetail": "OPp_6t77jHk",
       "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "VYF_FMSPs-k",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "_KvRSd96nt0",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "zjZaA1wwk1w",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "-SNeBSpUnKs",
-      "views": 1
      }
     ],
     "audience": [
@@ -628,12 +704,12 @@
      {
       "ageGroup": "age18-24",
       "gender": "female",
-      "viewerPercentage": 3.7
+      "viewerPercentage": 3.8
      },
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 4.8
+      "viewerPercentage": 4.9
      },
      {
       "ageGroup": "age25-34",
@@ -643,37 +719,37 @@
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 12.1
+      "viewerPercentage": 12.2
      },
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 8.4
+      "viewerPercentage": 8.5
      },
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 13.5
+      "viewerPercentage": 13.4
      },
      {
       "ageGroup": "age45-54",
       "gender": "female",
-      "viewerPercentage": 7.7
+      "viewerPercentage": 7.9
      },
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 13
+      "viewerPercentage": 12.7
      },
      {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 5.2
+      "viewerPercentage": 5.3
      },
      {
       "ageGroup": "age55-64",
       "gender": "male",
-      "viewerPercentage": 10.3
+      "viewerPercentage": 10
      },
      {
       "ageGroup": "age65-",
@@ -683,17 +759,17 @@
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 8
+      "viewerPercentage": 7.8
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 67972
+      "views": 88162
      },
      {
       "country": "US",
-      "views": 572
+      "views": 637
      },
      {
       "country": "BD",
@@ -706,81 +782,85 @@
      {
       "country": "GB",
       "views": 46
+     },
+     {
+      "country": "LK",
+      "views": 0
      }
     ]
    },
    "lang_weights": {
-    "mr": {
-     "w": 0.71,
+    "bn": {
+     "w": 1.2,
      "n": 1,
-     "median": 86
+     "median": 515
     },
-    "kn": {
-     "w": 2.5,
-     "n": 2,
-     "median": 46764
+    "gu": {
+     "w": 0.6,
+     "n": 3,
+     "median": 86
     },
     "pa": {
      "w": 1.0,
      "n": 0,
      "median": null
     },
-    "ta": {
-     "w": 1.02,
-     "n": 1,
-     "median": 557
-    },
     "ml": {
-     "w": 0.71,
+     "w": 0.81,
      "n": 1,
-     "median": 100
+     "median": 107
     },
-    "gu": {
-     "w": 0.57,
+    "ta": {
+     "w": 1.17,
      "n": 2,
-     "median": 93
+     "median": 405
+    },
+    "kn": {
+     "w": 2.5,
+     "n": 2,
+     "median": 52955
     },
     "or": {
-     "w": 1.08,
+     "w": 1.33,
      "n": 1,
-     "median": 711
+     "median": 798
     },
-    "bn": {
-     "w": 1.0,
+    "mr": {
+     "w": 0.77,
      "n": 1,
-     "median": 515
+     "median": 87
     }
    },
    "kind_weights": {
     "saint": {
-     "w": 1.17,
-     "n": 4,
-     "median": 143
-    },
-    "engineering": {
-     "w": 1.41,
-     "n": 1,
-     "median": 71027
+     "w": 1.24,
+     "n": 5,
+     "median": 149
     },
     "history": {
-     "w": 1.87,
-     "n": 5,
-     "median": 608
+     "w": 1.62,
+     "n": 6,
+     "median": 604
     },
     "folk": {
      "w": 0.74,
      "n": 1,
      "median": 43
     },
+    "myth": {
+     "w": 0.63,
+     "n": 4,
+     "median": 68
+    },
     "wonder": {
-     "w": 1.3,
+     "w": 1.31,
      "n": 5,
      "median": 515
     },
-    "myth": {
-     "w": 0.62,
-     "n": 4,
-     "median": 67
+    "engineering": {
+     "w": 1.41,
+     "n": 1,
+     "median": 80157
     }
    },
    "proven_titles": {
@@ -801,7 +881,8 @@
      "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?"
     ],
     "ta": [
-     "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!"
+     "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!",
+     "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!"
     ],
     "bn": [
      "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?"
@@ -810,7 +891,7 @@
     "ml": [],
     "mr": []
    },
-   "median_views": 143
+   "median_views": 144
   },
   "en": {
    "videos": [
@@ -822,16 +903,16 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 31,
-     "yt": 887,
+     "age_h": 54,
+     "yt": 936,
      "fb": null,
-     "total": 887,
-     "likes": 27,
+     "total": 936,
+     "likes": 29,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 57.11999999999999,
+     "avd": 20,
+     "subs": 1,
+     "shares": 3
     },
     {
      "video_id": "_feULT1yOTQ",
@@ -841,15 +922,15 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 54,
-     "yt": 720,
+     "age_h": 78,
+     "yt": 723,
      "fb": null,
-     "total": 720,
+     "total": 723,
      "likes": 22,
      "comments": 1,
-     "avp": 72.69,
+     "avp": 73.46,
      "avd": 27,
-     "subs": 3,
+     "subs": 4,
      "shares": 0
     },
     {
@@ -860,38 +941,61 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 79,
+     "age_h": 102,
      "yt": 226,
      "fb": null,
      "total": 226,
      "likes": 6,
      "comments": 1,
-     "avp": 61.480000000000004,
-     "avd": 21,
+     "avp": 66.03,
+     "avd": 23,
      "subs": 1,
      "shares": 0
+    },
+    {
+     "video_id": "slr_sN6Kun8",
+     "title": "Why London's Big Ben Clock Uses Old Pennies to Keep Time",
+     "key": "big_ben_pennies",
+     "lang": "en",
+     "kind": "engineering",
+     "seconds": 33.5,
+     "slot": 4,
+     "age_h": 5,
+     "yt": 99,
+     "fb": null,
+     "total": 99,
+     "likes": 7,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     }
    ],
    "channel": {
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 645
+      "views": 1545
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 10
+      "views": 45
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 6
+      "views": 8
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 2
+      "views": 3
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceType": "EXT_URL",
       "views": 2
      },
      {
@@ -899,44 +1003,82 @@
       "views": 0
      }
     ],
-    "searches": [],
+    "searches": [
+     {
+      "insightTrafficSourceDetail": "chichen itza",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "hranice abyss",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "oliver tree",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "rotting food",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "villain defeats",
+      "views": 1
+     }
+    ],
     "related": [],
     "audience": [
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 9.1
+      "viewerPercentage": 10.3
      },
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 16.9
+      "viewerPercentage": 17.3
      },
      {
       "ageGroup": "age45-54",
       "gender": "female",
-      "viewerPercentage": 7.8
+      "viewerPercentage": 7.9
      },
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 16.4
+      "viewerPercentage": 17.3
+     },
+     {
+      "ageGroup": "age55-64",
+      "gender": "male",
+      "viewerPercentage": 10.6
      },
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 13.7
+      "viewerPercentage": 8.5
      },
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 36.1
+      "viewerPercentage": 28
      }
     ],
     "countries": [
      {
       "country": "US",
-      "views": 515
+      "views": 1152
+     },
+     {
+      "country": "PH",
+      "views": 48
+     },
+     {
+      "country": "CA",
+      "views": 28
+     },
+     {
+      "country": "GB",
+      "views": 28
      }
     ]
    }
