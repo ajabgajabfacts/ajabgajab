@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "The Con Man Who Sold the Eiffel Tower for Scrap",
+  "hook_text": "He sold the Eiffel Tower",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "In 1925, a con man sold the Eiffel Tower for scrap.",
+   "Victor Lustig had read in a Paris newspaper that the tower was costly to maintain.",
+   "He had a forger make fake government stationery.",
+   "Posing as a government official, he met scrap metal dealers at an expensive hotel.",
+   "He said the government wished to sell the tower secretly, to avoid public outcry.",
+   "Dealer André Poisson paid a large bribe plus around 70,000 francs, and Lustig fled to Austria.",
+   "The twist: no newspaper reported the con, so Lustig returned and found a second buyer!",
+   "Would you have fallen for it?"
+  ],
+  "cta": "Comment below",
+  "description": "In 1925, Victor Lustig sold the Eiffel Tower for scrap.\nThen he came back to sell it again.",
+  "hashtags": [
+   "EiffelTower",
+   "Paris",
+   "StrangeButTrue",
+   "ConMan",
+   "History"
+  ],
+  "visuals": [
+   "Victor Lustig",
+   "Eiffel Tower 1920s",
+   "Eiffel Tower painting 1925"
+  ],
+  "claims_en": [
+   "In 1925 Victor Lustig, a con artist, sold the Eiffel Tower to a scrap metal dealer in a scam.",
+   "In Paris he read a newspaper article about the problems of maintaining the Eiffel Tower; the city found it increasingly expensive to maintain and repaint.",
+   "He hired a forger to produce fake government stationery.",
+   "He invited scrap metal dealers to a confidential meeting at an expensive hotel, posing as a government official (Deputy Director-General of the Ministry of Posts and Telegraphs).",
+   "He told them the French government wished to sell the tower for scrap, and that nothing could be disclosed because the deal would likely spark public outcry.",
+   "André Poisson paid a large bribe and the funds for the sale, around 70,000 francs.",
+   "Lustig then fled to Austria.",
+   "He could find no reference to the con in newspapers, so he returned to Paris to pull off the scheme again.",
+   "On the second attempt he found another mark willing to buy the Eiffel Tower."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-27T19:47Z",
+ "for_slot": "backup"
+}
