@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "30 ದೇವಾಲಯಗಳನ್ನು ನುಂಗಿದ ಮರಳು: ತಲಕಾಡಿನ ಶಾಪದ ಕಥೆ",
+  "hook_text": "ಮರಳಿನಡಿ 30 ದೇವಾಲಯಗಳು!",
+  "kicker": "ಶಾಪದ ಕಥೆ",
+  "sentences": [
+   "ತಲಕಾಡಿನಲ್ಲಿ ಮೂವತ್ತಕ್ಕೂ ಹೆಚ್ಚು ದೇವಾಲಯಗಳು ಮರಳಿನಡಿ ಹೂತುಹೋಗಿವೆ!",
+   "ಕಾವೇರಿ ದಡದ ಈ ಊರು ಒಂದು ಕಾಲದಲ್ಲಿ ಗಂಗರ ರಾಜಧಾನಿಯಾಗಿತ್ತು.",
+   "ಆದರೆ ಮರಳಿನ ದಿಬ್ಬಗಳು ವರ್ಷಕ್ಕೆ ಒಂಬತ್ತು-ಹತ್ತು ಅಡಿ ಊರಿನತ್ತ ನುಗ್ಗುತ್ತಿದ್ದವು.",
+   "ಜನರು ಮತ್ತೆ ಮತ್ತೆ ಮನೆ ಬಿಟ್ಟು ಹಿಂದೆ ಸರಿಯಬೇಕಾಯಿತು.",
+   "ಹಳೆಯ ಊರು ಪೂರ್ತಿ ಮುಳುಗಿ, ಎರಡು ಗೋಪುರಗಳ ತುದಿ ಮಾತ್ರ ಕಾಣುತ್ತಿತ್ತು.",
+   "ಇದಕ್ಕೆಲ್ಲ ಒಂದು ಶಾಪವೇ ಕಾರಣ ಎನ್ನುತ್ತದೆ ಜನರ ನಂಬಿಕೆ.",
+   "1610ರಲ್ಲಿ ರಾಣಿ ಅಲಮೇಲಮ್ಮ ತಮ್ಮ ಆಭರಣಗಳನ್ನು ಕಾವೇರಿಗೆ ಎಸೆದು, ನದಿಗೆ ಹಾರಿದರು.",
+   "ಹೋಗುವ ಮುನ್ನ ಅವರು ಶಪಿಸಿದರು: \"ತಲಕಾಡು ಮರಳಾಗಿ, ಮಾಲಿಂಗಿ ಮಡುವಾಗಿ, ಮೈಸೂರು ದೊರೆಗೆ ಮಕ್ಕಳಾಗದೆ ಹೋಗಲಿ!\"",
+   "ನೀವು ಈ ಶಾಪದ ಕಥೆಯನ್ನು ಮೊದಲೇ ಕೇಳಿದ್ದೀರಾ?"
+  ],
+  "cta": "ಕೆಳಗೆ ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಮೂವತ್ತಕ್ಕೂ ಹೆಚ್ಚು ದೇವಾಲಯಗಳು ಮರಳಿನಡಿ ಹೂತುಹೋದ ತಲಕಾಡಿನ ಕಥೆ.\nರಾಣಿ ಅಲಮೇಲಮ್ಮನ ಶಾಪದ ಜನಪದ ನಂಬಿಕೆ ಏನು?",
+  "hashtags": [
+   "ತಲಕಾಡು",
+   "ಅಲಮೇಲಮ್ಮ",
+   "Talakadu",
+   "KarnatakaHistory",
+   "KannadaKathe"
+  ],
+  "visuals": [
+   "Talakadu temple sand",
+   "Vaidyeshwara temple Talakadu",
+   "Kaveri river Talakadu"
+  ],
+  "claims_en": [
+   "More than thirty temples at Talakadu are buried beneath the sand",
+   "Talakadu is on the bank of the Kaveri and was the capital of the Ganga kings",
+   "Sand hills advanced on the town at 9 or 10 feet a year",
+   "Inhabitants were constantly forced to abandon their houses and retreat",
+   "The old city was buried, with only the tops of two gopuras visible",
+   "Popular belief attributes this to a curse",
+   "In 1610 Rani Alamelamma threw her jewels into the Kaveri and drowned herself",
+   "Her curse: Let Talakadu become sand, Malangi a whirlpool, and the Mysore kings bear no heirs"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude (session 2026-10-27), passed the Gemini CHECK prompt"
+ },
+ "written": "2026-10-27T00:40+00:00",
+ "by": "claude"
+}

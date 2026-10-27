@@ -16,6 +16,7 @@ from langs import LANGS
 
 LEDGER = HERE / "ledger.json"
 PREWRITTEN = HERE / "prewritten"         # scripts written ahead with spare quota (prewrite.py)
+BACKUP = HERE / "backup"                 # emergency scripts from the weekly Claude routine (backup.py)
 MUSIC = HERE.parent / "music"
 # Calm/cinematic beds only; the upbeat tracks fight a story voice.
 MUSIC_OK = ["Dream Escape - The Tides.mp3", "Horizons - Alex Jones _ Xander Jones.mp3",
@@ -65,6 +66,8 @@ def pick(lang, force_key=None, exclude=()):
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
     done |= {(k, lang) for k in exclude}
+    # Backup stories are held for a day Gemini can't write; main() moves one into PREWRITTEN then.
+    done |= {(p.stem[len(lang) + 1:], lang) for p in BACKUP.glob(f"{lang}_*.json")}
     for k, l in redos():
         if l == lang and (k, l) not in done:
             return next(s for s in bank.S if s["key"] == k)
@@ -216,6 +219,10 @@ class StoryFailed(Exception):
     pass
 
 
+class GeminiDown(Exception):
+    """The writer could not reach a model (quota, outage) - not the story's fault, so never retire it."""
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--lang", default="hi", help="language code, or 'auto' to use --slot's rotation")
@@ -239,6 +246,13 @@ def main():
         e = pick(a.lang, a.key)
         try:
             return produce(a, L, e)
+        except GeminiDown as err:
+            spare = sorted(BACKUP.glob(f"{a.lang}_*.json"))
+            if a.key or not spare:
+                raise
+            PREWRITTEN.mkdir(exist_ok=True)
+            spare[0].rename(PREWRITTEN / spare[0].name)
+            print(f"[katha] Gemini can't write ({str(err)[:80]}) -> backup script {spare[0].name}")
         except StoryFailed as err:
             print(f"[katha] {e['key']}/{a.lang} FAILED: {err}")
             if a.key or a.no_upload:
@@ -270,7 +284,13 @@ def produce(a, L, e):
         else:
             s, chk = write.write(e, a.lang, L, src)
     except RuntimeError as err:
+        # Only a checker rejection is the story's fault. Before 2026-10-27 "all Gemini models/keys
+        # exhausted" also landed here and retired good stories as failed_check.
+        if not str(err).startswith("no script passed"):
+            raise GeminiDown(err)
         raise StoryFailed(err)
+    except Exception as err:                      # 429/5xx from the SDK
+        raise GeminiDown(err)
     (work / "script.json").write_text(json.dumps(dict(script=s, check=chk), ensure_ascii=False, indent=1), encoding="utf-8")
     print("\n".join(s["sentences"]))
     if a.dry:
@@ -338,6 +358,7 @@ def produce(a, L, e):
                     slot=a.slot if a.slot >= 0 else None))
     LEDGER.write_text(json.dumps(led, ensure_ascii=False, indent=1), encoding="utf-8")
     (PREWRITTEN / f"{a.lang}_{e['key']}.json").unlink(missing_ok=True)
+    (BACKUP / f"{a.lang}_{e['key']}.json").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

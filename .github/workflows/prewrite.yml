@@ -44,6 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           [ -d katha/prewritten ] && git add -A -f katha/prewritten
+          [ -d katha/backup ] && git add -A -f katha/backup   # make.py moves a backup into prewritten on a Gemini-down day
           [ -f katha/ledger.json ] && git add katha/ledger.json
           git diff --staged --quiet && exit 0
           git commit -m "katha: prewritten scripts [skip ci]"

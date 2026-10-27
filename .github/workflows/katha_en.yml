@@ -94,6 +94,7 @@ jobs:
           [ -f katha/ledger.json ] && git add katha/ledger.json
           [ -f katha/playlists.json ] && git add katha/playlists.json
           [ -d katha/prewritten ] && git add -A -f katha/prewritten   # a used prewritten script is deleted
+          [ -d katha/backup ] && git add -A -f katha/backup   # make.py moves a backup into prewritten on a Gemini-down day
           git diff --staged --quiet && exit 0
           git commit -m "katha: update ledger [skip ci]"
           for i in 1 2 3; do
