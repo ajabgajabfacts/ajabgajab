@@ -1,14 +1,18 @@
-name: "Ajab Gajab — Prewrite tomorrow's scripts (spare Gemini quota)"
+name: "Ajab Gajab — Verify + prewrite tomorrow's scripts"
 
 # The free Gemini quota resets about 07:00 UTC. This writes + fact-checks the scripts for the
 # rest of today's and all of tomorrow's Short slots (katha/prewrite.py) with whatever text quota
 # the day left, so a post on a quota-starved day still goes up (2026-10-25). Fires 03:15 UTC;
 # GitHub runs it up to ~2 h late, which still lands before the reset.
+# From 2026-10-27 the daily Claude routine (~19:30 UTC) writes most scripts; the 21:30 run only
+# double-checks those with Gemini (katha/prewrite.py --verify-only), the 03:15 run verifies
+# anything left and fills the gaps.
 # Same concurrency group as katha.yml: both write ledger.json. A post this displaces from the
 # queue is made up by katha.yml's 2-hourly backup cron (due.py).
 on:
   schedule:
     - cron: "15 3 * * *"
+    - cron: "30 21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -37,7 +41,12 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
-        run: python katha/prewrite.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 21 * * *" ]; then
+            python katha/prewrite.py --verify-only
+          else
+            python katha/prewrite.py
+          fi
       - name: Commit scripts
         if: always()
         run: |

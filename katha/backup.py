@@ -8,7 +8,7 @@ Needs only the standard library + requests, so the routine runs it without the r
 
     python katha/backup.py status            # stock per language, target, what to write next
     python katha/backup.py source <key>      # the English Wikipedia text a script may use
-    python katha/backup.py validate          # shape + word-count check of every backup file
+    python katha/backup.py validate          # shape + word-count check of backup/ and prewritten/ files
 """
 import json, re, sys
 from pathlib import Path
@@ -68,8 +68,9 @@ def source(key):
 
 
 def validate():
+    """Every Claude-written file in backup/ and prewritten/ (the routine runs this before committing)."""
     bad = 0
-    for p in sorted(DIR.glob("*.json")):
+    for p in sorted(DIR.glob("*.json")) + sorted((HERE / "prewritten").glob("*.json")):
         lang, key = p.stem.split("_", 1)
         try:
             d = json.loads(p.read_text(encoding="utf-8")); s = d["script"]

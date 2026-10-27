@@ -71,11 +71,12 @@ def pick(lang, force_key=None, exclude=()):
     for k, l in redos():
         if l == lang and (k, l) not in done:
             return next(s for s in bank.S if s["key"] == k)
-    # A script prewrite.py already wrote and checked goes next: it costs this run no text quota.
+    # A script written ahead (prewrite.py) goes next: it costs this run no text quota. One the Claude
+    # routine wrote waits for Gemini's double-check ("verified"), unless Gemini is down (main()).
     for p in sorted(PREWRITTEN.glob(f"{lang}_*.json")):
         k = p.stem[len(lang) + 1:]
         s = next((s for s in bank.S if s["key"] == k), None)
-        if s and (k, lang) not in done:
+        if s and (k, lang) not in done and (ALLOW_UNVERIFIED or _verified(p)):
             return s
     regional = [s for s in bank.S if s["lang"] == lang and (s["key"], lang) not in done]
     # "all" means pan-Indian; English is a different channel with its own world stories.
@@ -219,6 +220,16 @@ class StoryFailed(Exception):
     pass
 
 
+ALLOW_UNVERIFIED = False
+
+
+def _verified(p):
+    try:
+        return json.loads(p.read_text(encoding="utf-8")).get("verified", True)
+    except Exception:
+        return False
+
+
 class GeminiDown(Exception):
     """The writer could not reach a model (quota, outage) - not the story's fault, so never retire it."""
 
@@ -247,12 +258,21 @@ def main():
         try:
             return produce(a, L, e)
         except GeminiDown as err:
-            spare = sorted(BACKUP.glob(f"{a.lang}_*.json"))
-            if a.key or not spare:
+            if a.key:
                 raise
-            PREWRITTEN.mkdir(exist_ok=True)
-            spare[0].rename(PREWRITTEN / spare[0].name)
-            print(f"[katha] Gemini can't write ({str(err)[:80]}) -> backup script {spare[0].name}")
+            global ALLOW_UNVERIFIED
+            unverified = [p for p in PREWRITTEN.glob(f"{a.lang}_*.json") if not _verified(p)]
+            spare = sorted(BACKUP.glob(f"{a.lang}_*.json"))
+            if unverified and not ALLOW_UNVERIFIED:
+                ALLOW_UNVERIFIED = True              # Claude's self-checked script beats no post
+                print(f"[katha] Gemini can't write ({str(err)[:80]}) -> unverified Claude script")
+            elif spare:
+                ALLOW_UNVERIFIED = True              # a backup may not have had Gemini's check yet
+                PREWRITTEN.mkdir(exist_ok=True)
+                spare[0].rename(PREWRITTEN / spare[0].name)
+                print(f"[katha] Gemini can't write ({str(err)[:80]}) -> backup script {spare[0].name}")
+            else:
+                raise
         except StoryFailed as err:
             print(f"[katha] {e['key']}/{a.lang} FAILED: {err}")
             if a.key or a.no_upload:

@@ -1,23 +1,26 @@
-"""Write the next story scripts tonight, with the Gemini quota the day left unused.
+"""Scripts written ahead of their slot: by the daily Claude routine, then gaps filled by Gemini.
 
-The free tier resets about 07:00 UTC, and most days the posts leave text quota spare. This
-runs shortly before the reset and writes + fact-checks scripts for the rest of today's and
-all of tomorrow's slots, into katha/prewritten/<lang>_<key>.json. make.py picks those
-stories first and skips its own writer, so a post on a day whose quota runs out (2026-10-25:
-every run from 16:42 failed) still goes up: it only needs the vision and TTS models, which
-have their own quotas, and edge-tts covers TTS too.
+Owner, 2026-10-27: Claude writes the main scripts (a daily claude.ai routine, ~19:30 UTC, using
+`--plan --json` to see what is needed and backup.py to fetch sources), and Gemini double-checks
+each one with write.py's CHECK prompt (one call each) - an independent model, as before.
 
-Same writer, same checker (write.py) - nothing about the script changes, only when it is written.
+  ~19:30 UTC  Claude routine writes katha/prewritten/<lang>_<key>.json with "verified": false
+  21:30 UTC   prewrite.yml --verify-only: Gemini CHECK; pass -> verified, fail -> deleted
+  03:15 UTC   prewrite.yml: verify anything left, then write the remaining gaps with Gemini, using
+              the quota the day left before its ~07:00 UTC reset
 
-    python katha/prewrite.py           # fill the stock for the next slots
-    python katha/prewrite.py --plan    # show what it would write, write nothing
+make.py posts verified scripts first and only falls back to an unverified one on a day Gemini is down.
+
+    python katha/prewrite.py                 # verify, then fill the gaps with Gemini
+    python katha/prewrite.py --verify-only
+    python katha/prewrite.py --plan [--json] # what is still needed (the routine reads --json)
 """
 import argparse, datetime as dt, json, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import make, media, write
+import ai, make, media, write
 from langs import LANGS
 
 DIR = make.PREWRITTEN
@@ -28,8 +31,7 @@ EN_SLOT = 4                          # Strange But True (katha_en.yml)
 def upcoming():
     """(day, slot, lang) still to post today and all of tomorrow, soonest first."""
     today = dt.date.today()
-    led = make.ledger()
-    posted = {(r.get("date"), r.get("slot")) for r in led if r.get("status") == "posted"}
+    posted = {(r.get("date"), r.get("slot")) for r in make.ledger() if r.get("status") == "posted"}
     out = []
     for day in (today, today + dt.timedelta(days=1)):
         for slot in (0, 1, 2, 3):
@@ -53,37 +55,89 @@ def stock():
     return have
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--plan", action="store_true")
-    a = ap.parse_args()
-    DIR.mkdir(exist_ok=True)
+def plan():
+    """The slots no prewritten script covers yet, each with the story make.py would pick for it."""
     have = stock()
     left = {l: len(k) for l, k in have.items()}
-    todo = []
+    taken = {l: list(k) for l, k in have.items()}
+    out = []
     for day, slot, lang in upcoming():
         if left.get(lang, 0) > 0:
             left[lang] -= 1                                   # this slot is covered
+            continue
+        e = make.pick(lang, exclude=taken.get(lang, []))
+        taken.setdefault(lang, []).append(e["key"])
+        ch = make.insights.load().get("channels", {}).get("en" if lang == "en" else "ajab", {}) or {}
+        out.append(dict(day=str(day), slot=slot, lang=lang,
+                        entry=dict(e, proven=(ch.get("proven_titles") or {}).get(lang, []))))
+    return out
+
+
+def source_text(e):
+    sources = media.wiki(e["wiki"])
+    return "\n\n".join(f"### {s['title']}\n{s['text']}" for s in sources) if sources else ""
+
+
+def verify():
+    """Gemini CHECK on every script the Claude routine wrote (prewritten and backup). False if Gemini is down."""
+    for p in sorted(DIR.glob("*.json")) + sorted(make.BACKUP.glob("*.json")):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        if d.get("verified", True):
+            continue
+        lang, key = p.stem.split("_", 1)
+        e = next((x for x in make.bank.S if x["key"] == key), None)
+        src = source_text(e) if e else ""
+        if not src:
+            p.unlink(); print(f"[verify] {p.name}: no bank entry / source, removed"); continue
+        L = LANGS[lang]; s = d["script"]
+        w0, w1 = L.get("words", (85, 110))
+        try:
+            c = ai.json_call(write.CHECK.format(
+                lang_name=L["name"], w0=w0, w1=w1, source=src[:14000], script="\n".join(s["sentences"]),
+                claims="\n".join("- " + x for x in s.get("claims_en", [])), **write.SHORT),
+                models=ai.CHECK_MODELS, temperature=0.1)
+        except Exception as err:
+            print(f"[verify] stopping, Gemini unavailable: {str(err)[:120]}"); return False
+        if c.get("ok"):
+            d.update(verified=True, gemini_check=c)
+            p.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"[verify] {p.name}: passed")
         else:
-            todo.append((day, slot, lang))
-    print(f"[prewrite] in stock: { {l: len(k) for l, k in have.items()} }  to write: {[(str(d), s, l) for d, s, l in todo]}")
+            # Deleted, not retired: the 03:15 run (or tomorrow's routine) writes the story afresh.
+            p.unlink(); print(f"[verify] {p.name}: REJECTED, removed: {c.get('problems', [])[:3]}")
+    return True
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--plan", action="store_true")
+    ap.add_argument("--json", action="store_true", help="with --plan: machine-readable, for the routine")
+    ap.add_argument("--verify-only", action="store_true")
+    a = ap.parse_args()
+    DIR.mkdir(exist_ok=True)
     if a.plan:
+        todo = plan()
+        if a.json:
+            print(json.dumps([dict(t, words=list(LANGS[t["lang"]].get("words", (85, 110))),
+                                   lang_name=LANGS[t["lang"]]["name"], audience=LANGS[t["lang"]].get("audience"))
+                              for t in todo], ensure_ascii=False, indent=1))
+        else:
+            print(f"[prewrite] in stock: { {l: len(k) for l, k in stock().items()} }  "
+                  f"to write: {[(t['day'], t['slot'], t['lang'], t['entry']['key']) for t in todo]}")
+        return
+    if not verify() or a.verify_only:
         return
 
     written = 0
-    for day, slot, lang in todo:
+    for t in plan():
         if written >= MAX_WRITES:
             break
-        L = LANGS[lang]
-        e = make.pick(lang, exclude=have.get(lang, []))
-        ch = make.insights.load().get("channels", {}).get("en" if lang == "en" else "ajab", {}) or {}
-        e = dict(e, proven=(ch.get("proven_titles") or {}).get(lang, []))
-        sources = media.wiki(e["wiki"])
-        if not sources:
+        lang, e = t["lang"], t["entry"]
+        src = source_text(e)
+        if not src:
             print(f"[prewrite] {lang}/{e['key']}: no source text, skipped"); continue
-        src = "\n\n".join(f"### {s['title']}\n{s['text']}" for s in sources)
         try:
-            s, chk = write.write(e, lang, L, src)
+            s, chk = write.write(e, lang, LANGS[lang], src)
         except Exception as err:
             if str(err).startswith("no script passed"):
                 # Retired the same way make.py retires it, so neither picks it again.
@@ -94,10 +148,11 @@ def main():
                 print(f"[prewrite] {lang}/{e['key']}: failed the check, retired"); continue
             print(f"[prewrite] stopping, Gemini unavailable: {str(err)[:120]}"); break
         (DIR / f"{lang}_{e['key']}.json").write_text(json.dumps(dict(
-            script=s, check=chk, written=dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
-            for_slot=f"{day} slot {slot}"), ensure_ascii=False, indent=1), encoding="utf-8")
-        have.setdefault(lang, []).append(e["key"]); written += 1
-        print(f"[prewrite] wrote {lang}/{e['key']} (for {day} slot {slot}): {s['title']}")
+            script=s, check=chk, verified=True, by="gemini",
+            written=dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
+            for_slot=f"{t['day']} slot {t['slot']}"), ensure_ascii=False, indent=1), encoding="utf-8")
+        written += 1
+        print(f"[prewrite] wrote {lang}/{e['key']} (for {t['day']} slot {t['slot']}): {s['title']}")
     print(f"[prewrite] {written} written")
 
 
