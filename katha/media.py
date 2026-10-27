@@ -192,7 +192,10 @@ def narrate(text, out_wav, tempo=1.08, voice="Charon", edge_voice=None):
             raise
         print(f"[voice] Gemini TTS unavailable ({str(e)[:60]}) -> edge-tts {edge_voice}")
         mp3 = out_wav.with_suffix(".edge.mp3")
-        subprocess.run([sys.executable, "-m", "edge_tts", "--voice", edge_voice, "--rate", "+4%",
+        # The Multilingual voices (newer generation, 2026-10-27) read ~8% slower than the old ones at
+        # the same rate, so they get +12% to keep the +4% pacing.
+        rate = "+12%" if "Multilingual" in edge_voice else "+4%"
+        subprocess.run([sys.executable, "-m", "edge_tts", "--voice", edge_voice, "--rate", rate,
                         "--text", text, "--write-media", str(mp3)], check=True)
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(mp3), "-ac", "1", str(src)], check=True)
     # Trim edge silence, speed up a touch (to-the-point pacing), 48 kHz for the mix.
