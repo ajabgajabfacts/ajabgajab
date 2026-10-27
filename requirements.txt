@@ -9,7 +9,7 @@
 # which charts.py imports. A migration, not a version bump.
 moviepy==1.0.3
 
-google-genai==2.29.0
+google-genai==2.33.0
 
 # YouTube Data API upload
 google-auth-oauthlib==1.5.0
@@ -24,7 +24,7 @@ requests==2.34.2
 edge-tts==7.3.1
 
 # Image processing — numpy 2.5 has no Python 3.11 wheel; CI is on 3.12 (facts.yml).
-Pillow==12.3.0
+Pillow==13.0.0
 numpy==2.5.4
 
 matplotlib==3.11.2

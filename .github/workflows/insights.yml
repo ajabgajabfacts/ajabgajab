@@ -31,7 +31,7 @@ jobs:
           python-version: "3.12"
       - name: Python dependencies
         # Only the API clients: this job renders nothing.
-        run: pip install --quiet google-api-python-client==2.201.0 google-auth==2.61.0 google-auth-httplib2==0.4.4 requests==2.34.2
+        run: pip install --quiet google-api-python-client==2.201.0 google-auth==2.62.0 google-auth-httplib2==0.4.4 requests==2.34.2
       - name: Learn from our own numbers
         env:
           CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
