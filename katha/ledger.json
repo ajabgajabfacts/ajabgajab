@@ -445,5 +445,23 @@
   "title": "কাশী যাত্রা আটকে রানি রাসমণি কেন বানালেন দক্ষিণেশ্বর মন্দির?",
   "seconds": 38.4,
   "slot": 1
+ },
+ {
+  "key": "ashwatthama",
+  "lang": "hi",
+  "date": "2026-10-27",
+  "status": "failed_check",
+  "why": "only 1 usable images"
+ },
+ {
+  "key": "gandhari",
+  "lang": "hi",
+  "date": "2026-10-27",
+  "utc": "13:10",
+  "status": "posted",
+  "video_id": "fJd-TXfAz8g",
+  "title": "गांधारी की एक नज़र से नीला पड़ा युधिष्ठिर का अंगूठा!",
+  "seconds": 32.3,
+  "slot": 2
  }
 ]
