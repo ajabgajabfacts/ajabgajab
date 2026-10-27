@@ -15,6 +15,7 @@ import bank, insights, media, render, write
 from langs import LANGS
 
 LEDGER = HERE / "ledger.json"
+PREWRITTEN = HERE / "prewritten"         # scripts written ahead with spare quota (prewrite.py)
 MUSIC = HERE.parent / "music"
 # Calm/cinematic beds only; the upbeat tracks fight a story voice.
 MUSIC_OK = ["Dream Escape - The Tides.mp3", "Horizons - Alex Jones _ Xander Jones.mp3",
@@ -59,13 +60,20 @@ def redos(day=None):
     return out
 
 
-def pick(lang, force_key=None):
+def pick(lang, force_key=None, exclude=()):
     if force_key:
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
+    done |= {(k, lang) for k in exclude}
     for k, l in redos():
         if l == lang and (k, l) not in done:
             return next(s for s in bank.S if s["key"] == k)
+    # A script prewrite.py already wrote and checked goes next: it costs this run no text quota.
+    for p in sorted(PREWRITTEN.glob(f"{lang}_*.json")):
+        k = p.stem[len(lang) + 1:]
+        s = next((s for s in bank.S if s["key"] == k), None)
+        if s and (k, lang) not in done:
+            return s
     regional = [s for s in bank.S if s["lang"] == lang and (s["key"], lang) not in done]
     # "all" means pan-Indian; English is a different channel with its own world stories.
     common = [s for s in bank.S if s["lang"] == "all" and (s["key"], lang) not in done] if lang != "en" else []
@@ -253,8 +261,12 @@ def produce(a, L, e):
     src = "\n\n".join(f"### {s['title']}\n{s['text']}" for s in sources)
     sj = work / "script.json"
     try:
+        pre = PREWRITTEN / f"{a.lang}_{e['key']}.json"
         if a.reuse and sj.exists():
             d = json.loads(sj.read_text(encoding="utf-8")); s, chk = d["script"], d["check"]
+        elif pre.exists():
+            d = json.loads(pre.read_text(encoding="utf-8")); s, chk = d["script"], d["check"]
+            print(f"[katha] prewritten script ({d.get('written')})")
         else:
             s, chk = write.write(e, a.lang, L, src)
     except RuntimeError as err:
@@ -325,6 +337,7 @@ def produce(a, L, e):
                     status="posted", video_id=vid, title=s["title"], seconds=round(total, 1),
                     slot=a.slot if a.slot >= 0 else None))
     LEDGER.write_text(json.dumps(led, ensure_ascii=False, indent=1), encoding="utf-8")
+    (PREWRITTEN / f"{a.lang}_{e['key']}.json").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":

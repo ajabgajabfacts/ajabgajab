@@ -1,0 +1,54 @@
+name: "Ajab Gajab — Prewrite tomorrow's scripts (spare Gemini quota)"
+
+# The free Gemini quota resets about 07:00 UTC. This writes + fact-checks the scripts for the
+# rest of today's and all of tomorrow's Short slots (katha/prewrite.py) with whatever text quota
+# the day left, so a post on a quota-starved day still goes up (2026-10-25). Fires 03:15 UTC;
+# GitHub runs it up to ~2 h late, which still lands before the reset.
+# Same concurrency group as katha.yml: both write ledger.json. A post this displaces from the
+# queue is made up by katha.yml's 2-hourly backup cron (due.py).
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ajabgajab-katha
+  cancel-in-progress: false
+
+jobs:
+  prewrite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: katha/requirements.txt
+      - name: Python dependencies
+        run: pip install --quiet -r katha/requirements.txt
+      - name: Write and check scripts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+        run: python katha/prewrite.py
+      - name: Commit scripts
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          [ -d katha/prewritten ] && git add -A -f katha/prewritten
+          [ -f katha/ledger.json ] && git add katha/ledger.json
+          git diff --staged --quiet && exit 0
+          git commit -m "katha: prewritten scripts [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}" && exit 0
+            sleep 5
+          done
+          exit 1
