@@ -55,12 +55,28 @@ def status():
         print(f"{lang}: {len(got)}/{want} in stock {got}  write {need}: {nxt}")
 
 
+# Wikimedia 429s a vague User-Agent (the routine's first real run, 2026-10-27); this is media.py's,
+# which names the project and a contact as their policy asks. Same back-off as media._get_json.
+UA = {"User-Agent": "AjabGajabStories/1.0 (https://github.com/ajabgajabfacts/ajabgajab; story research bot)"}
+
+
+def _get_json(params, tries=5):
+    import time
+    for i in range(tries):
+        try:
+            r = requests.get("https://en.wikipedia.org/w/api.php", params=params, headers=UA, timeout=60)
+            if r.status_code == 200:
+                return r.json()
+        except (requests.RequestException, ValueError):
+            pass
+        time.sleep(5 * (i + 1))
+    raise SystemExit("Wikipedia did not answer after retries (rate limit or network policy)")
+
+
 def source(key):
     e = next(s for s in bank.S if s["key"] == key)
     for t in e["wiki"]:
-        r = requests.get("https://en.wikipedia.org/w/api.php", params=dict(
-            action="query", format="json", prop="extracts", explaintext=1, redirects=1, titles=t),
-            headers={"User-Agent": "ajabgajab-katha-backup/1.0"}, timeout=30).json()
+        r = _get_json(dict(action="query", format="json", prop="extracts", explaintext=1, redirects=1, titles=t))
         p = list(r["query"]["pages"].values())[0]
         txt = re.sub(r"\n==+ (See also|References|External links|Notes|Further reading|Bibliography) ==+[\s\S]*", "",
                      p.get("extract", ""))
