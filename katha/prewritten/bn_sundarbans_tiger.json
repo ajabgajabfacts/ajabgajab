@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "সুন্দরবনের এক-তৃতীয়াংশ জমি রোজ কোথায় হারিয়ে যায়?",
+  "hook_text": "রোজ ডুবে যায় জমি!",
+  "kicker": "সত্যি ঘটনা",
+  "sentences": [
+   "এই জঙ্গলের প্রায় এক-তৃতীয়াংশ জমি রোজ ডুবে যায়, আবার ভেসে ওঠে!",
+   "এটা আমাদের সুন্দরবন, পৃথিবীর সবচেয়ে বড় ম্যানগ্রোভ অরণ্য।",
+   "গঙ্গা, ব্রহ্মপুত্র আর মেঘনার মোহনায় প্রায় ১০,২৭৭ বর্গকিলোমিটার জুড়ে এই বন।",
+   "এখানে বাঘ, কুমির, চিতল হরিণ আর সাপের বাস, আর প্রায় সব কোণে নৌকায় পৌঁছানো যায়।",
+   "প্রায় ২০০ বছর আগে মাপা এই বন আজ মাত্র এক-তৃতীয়াংশে নেমে এসেছে।",
+   "তবু এই ম্যানগ্রোভই কলকাতা আর খুলনার লক্ষ লক্ষ মানুষকে ঘূর্ণিঝড়ের বন্যা থেকে আগলে রাখে।",
+   "আর রোজ জমি হারানোর রহস্য হল বিশাল জোয়ার-ভাটা: জোয়ারে কাদার চর ডুবে যায়, ভাটায় আবার জেগে ওঠে।",
+   "আপনি কি কখনো নৌকায় সুন্দরবন ঘুরেছেন?"
+  ],
+  "cta": "কমেন্টে লিখুন",
+  "description": "সুন্দরবনের এক-তৃতীয়াংশ জমি রোজ ডোবে আর ভাসে।\nপৃথিবীর সবচেয়ে বড় ম্যানগ্রোভ অরণ্যের আশ্চর্য সত্যি।",
+  "hashtags": [
+   "সুন্দরবন",
+   "পশ্চিমবঙ্গ",
+   "Sundarbans",
+   "Mangrove",
+   "TrueStory"
+  ],
+  "visuals": [
+   "Sundarbans mangrove tide",
+   "Sundarbans mudflat low tide",
+   "Sundarbans boat river"
+  ],
+  "claims_en": [
+   "Approximately one third of the Sundarbans land disappears and reappears every day because the tides are so large.",
+   "The Sundarbans is at the confluence of the Ganges, Brahmaputra and Meghna rivers.",
+   "It is the world's largest mangrove forest.",
+   "It spans 10,277 km2, with the larger part in Bangladesh and the rest in India's West Bengal.",
+   "The area is known for the Bengal tiger, crocodiles, chital and snakes.",
+   "The network of waterways makes almost every corner of the forest accessible by boat.",
+   "Originally measured about 200 years ago, it has dwindled to about one-third of its original size.",
+   "The mangroves shield millions of residents in and around Kolkata and Khulna from cyclone-induced flooding.",
+   "Mudflats are submerged in high tides and exposed in low tides."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-27T01:14Z",
+ "for_slot": "2026-10-27 slot 1"
+}

@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "Wars Saved the Leaning Tower of Pisa From Toppling",
+  "hook_text": "Wars saved this leaning tower",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "Wars may be why the Leaning Tower of Pisa still stands.",
+   "Its foundations were laid on 9 August 1173.",
+   "By 1178, when building reached the second floor, the tower had already begun to sink.",
+   "Its foundation was a mere three metres deep, set in weak, unstable subsoil.",
+   "The tilt kept growing, reaching 5.5 degrees by 1990.",
+   "But the real rescue came early: construction halted for the better part of a century while Pisa fought Genoa, Lucca and Florence.",
+   "That pause gave the soil time to settle; otherwise, the tower would almost certainly have toppled.",
+   "Would you climb it?"
+  ],
+  "cta": "Comment below",
+  "description": "The Leaning Tower of Pisa began sinking by its second floor.\nA century-long pause, forced by wars, likely saved it.",
+  "hashtags": [
+   "Pisa",
+   "LeaningTower",
+   "StrangeButTrue",
+   "Italy",
+   "History"
+  ],
+  "visuals": [
+   "Leaning Tower of Pisa",
+   "Pisa tower foundation",
+   "Piazza del Duomo Pisa"
+  ],
+  "claims_en": [
+   "The foundations of the tower were laid on 9 August 1173.",
+   "In 1178 the tower began to sink after construction progressed to the second floor.",
+   "The foundation was a mere three metres, set in weak, unstable subsoil.",
+   "By 1990 the tilt had reached 5.5 degrees.",
+   "Construction was halted for the better part of a century as Pisa was almost continually engaged in battles with Genoa, Lucca and Florence.",
+   "This allowed time for the soil to settle; otherwise the tower would almost certainly have toppled."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-27T01:26Z",
+ "for_slot": "backup"
+}

@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "जन्म लेते ही 'राम' बोलने वाले बालक रामबोला की कथा",
+  "hook_text": "जन्म लेते ही बोला 'राम'!",
+  "kicker": "संत कथा",
+  "sentences": [
+   "कथा है, जन्म लेते ही यह बालक रोया नहीं, 'राम' बोला!",
+   "मान्यता है कि जन्म के समय उसके मुँह में पूरे बत्तीस दाँत थे।",
+   "इसीलिए उसका नाम रखा गया रामबोला, यानी जो राम बोले।",
+   "पर चौथी रात ही माता-पिता ने उसे घर की सेविका चुनिया के साथ भेज दिया।",
+   "साढ़े पाँच साल बाद चुनिया चल बसीं, और वह अनाथ बालक काम और भिक्षा के लिए दर-दर भटकने लगा।",
+   "बाद में उसे वैरागी दीक्षा और एक नया नाम मिला।",
+   "वही रामबोला आगे चलकर बने गोस्वामी तुलसीदास जी, जिन्होंने हनुमान चालीसा और रामचरितमानस की रचना की!",
+   "क्या आप जानते थे कि तुलसीदास जी का बचपन का नाम रामबोला था?"
+  ],
+  "cta": "कमेंट में बताएं",
+  "description": "जन्म लेते ही 'राम' बोलने वाला अनाथ बालक रामबोला।\nजो आगे चलकर बने गोस्वामी तुलसीदास।",
+  "hashtags": [
+   "तुलसीदास",
+   "रामचरितमानस",
+   "Tulsidas",
+   "HanumanChalisa",
+   "Bhakti"
+  ],
+  "visuals": [
+   "Tulsidas painting",
+   "Tulsidas Ramcharitmanas manuscript",
+   "Tulsi Ghat Varanasi"
+  ],
+  "claims_en": [
+   "Legend goes that Tulsidas did not cry at birth but uttered Rama instead.",
+   "Legend says he had all thirty-two teeth in his mouth at birth.",
+   "He was therefore named Rambola (he who uttered Rama).",
+   "On the fourth night he was sent away by his parents with Chuniya, a female house-help.",
+   "Chuniya looked after him for five and a half years and then died; he became an orphan wandering door to door for menial jobs and alms.",
+   "He was given the Virakta (Vairagi) initiation with the new name Tulsidas.",
+   "Tulsidas is the author of the Hanuman Chalisa and the Ramcharitmanas."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-27T01:26Z",
+ "for_slot": "backup"
+}

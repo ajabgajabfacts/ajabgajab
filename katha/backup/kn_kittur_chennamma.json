@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "20,797 ಸೈನಿಕರ ಬ್ರಿಟಿಷ್ ಪಡೆಯನ್ನು ಸೋಲಿಸಿದ ಕಿತ್ತೂರು ರಾಣಿ!",
+  "hook_text": "ಸಾವಿರಾರು ಸೈನಿಕರ ಎದುರು ರಾಣಿ!",
+  "kicker": "ನಿಜ ಕಥೆ",
+  "sentences": [
+   "ಇಪ್ಪತ್ತು ಸಾವಿರಕ್ಕೂ ಹೆಚ್ಚು ಸೈನಿಕರ ಎದುರು ನಿಂತ ಒಬ್ಬ ಕನ್ನಡದ ರಾಣಿ!",
+   "ಅವರೇ ಕಿತ್ತೂರು ರಾಣಿ ಚೆನ್ನಮ್ಮ, ಚಿಕ್ಕಂದಿನಿಂದಲೇ ಕುದುರೆ ಸವಾರಿ, ಕತ್ತಿವರಸೆ, ಬಿಲ್ಲುವಿದ್ಯೆ ಕಲಿತವರು.",
+   "1824ರಲ್ಲಿ ಮಗ ತೀರಿಕೊಂಡಾಗ, ಅವರು ಶಿವಲಿಂಗಪ್ಪನನ್ನು ದತ್ತು ಪಡೆದು ಸಿಂಹಾಸನಕ್ಕೆ ವಾರಸುದಾರನನ್ನಾಗಿ ಮಾಡಿದರು.",
+   "ಇದನ್ನು ಒಪ್ಪದ ಈಸ್ಟ್ ಇಂಡಿಯಾ ಕಂಪನಿ, ಕಿತ್ತೂರು ತಮ್ಮ ಆಡಳಿತ ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು ಎಂದಿತು.",
+   "ರಾಣಿಯ ಮನವಿ ತಿರಸ್ಕೃತವಾಗಿ ಯುದ್ಧ ಶುರುವಾಯಿತು; ಬ್ರಿಟಿಷರು 20,797 ಸೈನಿಕರು, 437 ಫಿರಂಗಿಗಳನ್ನು ಸೇರಿಸಿದರು.",
+   "ಆದರೂ ಅಕ್ಟೋಬರ್ 1824ರ ಮೊದಲ ಯುದ್ಧದಲ್ಲಿ ಬ್ರಿಟಿಷರೇ ಭಾರೀ ನಷ್ಟ ಅನುಭವಿಸಿದರು, ಕಲೆಕ್ಟರ್ ಥ್ಯಾಕರೆ ಕೂಡ ಹತರಾದರು!",
+   "ಆ ಗೆಲುವನ್ನು ನೆನೆಯುವ ಕಿತ್ತೂರು ಉತ್ಸವಕ್ಕೆ ನೀವು ಹೋಗಿದ್ದೀರಾ?"
+  ],
+  "cta": "ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಬ್ರಿಟಿಷರ ಭಾರೀ ಸೈನ್ಯವನ್ನು ಮೊದಲ ಯುದ್ಧದಲ್ಲಿ ಸೋಲಿಸಿದ ರಾಣಿ.\nಕಿತ್ತೂರು ರಾಣಿ ಚೆನ್ನಮ್ಮನ ನಿಜ ಕಥೆ.",
+  "hashtags": [
+   "ಕಿತ್ತೂರುಚೆನ್ನಮ್ಮ",
+   "ಕರ್ನಾಟಕ",
+   "KitturChennamma",
+   "Karnataka",
+   "History"
+  ],
+  "visuals": [
+   "Kittur Chennamma statue",
+   "Kittur fort",
+   "Kittur Chennamma painting"
+  ],
+  "claims_en": [
+   "The British East India Company mustered a force of 20,797 men and 437 guns for the war.",
+   "Chennamma was the Queen of Kittur and trained in horse riding, sword fighting and archery from a young age.",
+   "After her son's death in 1824 she adopted Shivalingappa and made him heir to the throne.",
+   "The East India Company did not accept this and notified Kittur to accept British control.",
+   "Her plea to Elphinstone was turned down and war broke out.",
+   "In the first round of war in October 1824 British forces lost heavily and collector St John Thackeray was killed.",
+   "Chennamma's first victory is commemorated at the Kittur Utsava every year."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-27T01:26Z",
+ "for_slot": "backup"
+}
