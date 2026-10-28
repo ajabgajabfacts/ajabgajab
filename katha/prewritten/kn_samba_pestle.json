@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "ಋಷಿಗಳಿಗೆ ತಮಾಷೆ ಮಾಡಿ ಇಡೀ ಯಾದವ ವಂಶವನ್ನೇ ಅಳಿಸಿಹಾಕಿದ ಸಾಂಬ!",
+  "hook_text": "ಕಬ್ಬಿಣದ ಒನಕೆಗೆ ಜನ್ಮ ನೀಡಿದ ಸಾಂಬ!",
+  "kicker": "ಪೌರಾಣಿಕ ಕಥೆ",
+  "sentences": [
+   "ಶ್ರೀಕೃಷ್ಣನ ಮಗ ಗಂಡಸಾಗಿದ್ದರೂ ಕಬ್ಬಿಣದ ಒನಕೆಗೆ ಜನ್ಮ ನೀಡಿದ್ದ.",
+   "ಮಹಾಭಾರತದ ಪ್ರಕಾರ, ಸಾಂಬ ಒಮ್ಮೆ ಹೆಂಗಸಿನ ವೇಷ ಹಾಕಿ ಋಷಿಗಳನ್ನು ಗೇಲಿ ಮಾಡಿದ.",
+   "ತಾನು ಗರ್ಭಿಣಿ ಎಂದು ನಟಿಸಿ ಮಗುವಿನ ಲಿಂಗ ಏನೆಂದು ಕೇಳಿದ.",
+   "ಸಿಟ್ಟಿಗೆದ್ದ ಮುನಿಗಳು \"ನಿನ್ನ ಕುಲವನ್ನೇ ಅಳಿಸುವ ಒನಕೆ ಹುಟ್ಟಲಿ\" ಎಂದು ಶಾಪ ಕೊಟ್ಟರು.",
+   "ಮರುದಿನ ಸಾಂಬ ನಿಜವಾಗಿಯೂ ಕಬ್ಬಿಣದ ತುಂಡನ್ನು ಹೊರಹಾಕಿದ.",
+   "ಅದನ್ನು ಪುಡಿ ಮಾಡಿ ಸಮುದ್ರಕ್ಕೆ ಎಸೆದರೂ, ಅದು ಚೂಪಾದ ಹುಲ್ಲಾಗಿ ಬೆಳೆಯಿತು.",
+   "ಕೊನೆಗೆ ಯಾದವರು ಅದೇ ಹುಲ್ಲಿನಿಂದ ಹೊಡೆದಾಡಿಕೊಂಡು ಸಂಪೂರ್ಣವಾಗಿ ನಾಶವಾದರು.",
+   "ಒಂದು ಸಣ್ಣ ತಮಾಷೆ ಇಡೀ ವಂಶವನ್ನೇ ಮುಗಿಸಿಬಿಟ್ಟಿತು."
+  ],
+  "cta": "ಕೆಳಗೆ ಕಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಮಹಾಭಾರತದಲ್ಲಿ ಸಾಂಬ ಮಾಡಿದ ಒಂದು ತಮಾಷೆ ಯಾದವ ವಂಶದ ವಿನಾಶಕ್ಕೆ ಹೇಗೆ ಕಾರಣವಾಯಿತು?\nಈ ವಿನಾಶಕಾರಿ ಶಾಪದ ಸಂಪೂರ್ಣ ಕಥೆಯನ್ನು ಇಲ್ಲಿದೆ ನೋಡಿ.",
+  "hashtags": [
+   "Mahabharata",
+   "Samba",
+   "KannadaStories",
+   "Krishna",
+   "YadavaVamsha"
+  ],
+  "visuals": [
+   "Samba dressed as a woman sitting before sages painting",
+   "Yadavas fighting with eraka grass painting Mahabharata",
+   "Dvaraka ocean shore India ancient painting"
+  ],
+  "claims_en": [
+   "According to the Mahabharata, Krishna's son Samba dressed up as a woman to prank visiting sages.",
+   "Samba pretended to be pregnant and asked the sages to predict the baby's gender.",
+   "Enraged sages cursed Samba that he would give birth to an iron pestle that would destroy his entire clan.",
+   "Samba gave birth to an iron bolt/rod the next day.",
+   "The iron rod was crushed into powder and thrown into the sea by King Ugrasena's order.",
+   "The powder grew into sharp eraka grass on the seashore.",
+   "During a intoxicated fight, the Yadavas killed each other using that grass."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-28T09:43+00:00",
+ "for_slot": "2026-10-29 slot 0"
+}

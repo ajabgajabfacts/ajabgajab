@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "How Six Companies Built Hoover Dam Two Years Early",
+  "hook_text": "Building a 660-Foot Concrete Dam",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "In 1931, workers started building a concrete dam 660 feet thick.",
+   "The Hoover Dam stood in Nevada's scorching Black Canyon, where summer heat reached 120 degrees.",
+   "No one had ever built a concrete structure this massive before.",
+   "Some of the engineering techniques they used were unproven.",
+   "A consortium called Six Companies hired over five thousand workers in extreme conditions.",
+   "Yet they handed the completed dam to the government in 1936, over two years ahead of schedule.",
+   "That is how Six Companies beat a seven-year deadline in 120-degree heat."
+  ],
+  "cta": "Comment below",
+  "description": "How workers built the massive Hoover Dam years ahead of schedule.\nLearn about the extreme engineering feat in Nevada's Black Canyon.",
+  "hashtags": [
+   "HooverDam",
+   "HistoryShorts",
+   "AmericanHistory",
+   "Engineering",
+   "Nevada"
+  ],
+  "visuals": [
+   "Hoover Dam construction 1930s high resolution photo",
+   "Six Companies workers Black Canyon Nevada 1931",
+   "Hoover Dam historical aerial photo Bureau of Reclamation"
+  ],
+  "claims_en": [
+   "In 1931 workers began constructing Hoover Dam, which is 660 feet thick at the bottom.",
+   "Hoover Dam is located in Black Canyon on the Nevada-Arizona border where summer high temperatures averaged 119.9 degrees Fahrenheit in 1931.",
+   "A concrete structure as large as Hoover Dam had never been built before.",
+   "Some techniques used to construct Hoover Dam were unproven at the time.",
+   "A consortium named Six Companies, Inc. managed the construction, with employment peaking at 5,251 workers in July 1934.",
+   "The dam was turned over to the federal government on March 1, 1936, over two years ahead of the seven-year schedule.",
+   "Six Companies completed the project ahead of their seven-year contract limit under extreme desert conditions."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-28T10:08+00:00",
+ "for_slot": "2026-10-29 slot 4"
+}

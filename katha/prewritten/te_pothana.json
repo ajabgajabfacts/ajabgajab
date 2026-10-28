@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "రాజు ఆజ్ఞను ధిక్కరించి భాగవతాన్ని రాముడికే ఇచ్చిన పోతన",
+  "hook_text": "రాజు ఆజ్ఞను ధిక్కరించిన కవి",
+  "kicker": "చరిత్ర",
+  "sentences": [
+   "ఒక రైతు రాజు ఆజ్ఞను ధిక్కరించి తను రాసిన గ్రంథాన్ని కాపాడుకున్నాడు.",
+   "పదిహేనో శతాబ్దంలో రాచకొండ రాజు భాగవతాన్ని తనకే అంకితం ఇవ్వాలని పోతనను కోరాడు.",
+   "ఆ రాజు స్వయంగా పండితుడు, సంస్కృత నాటకాలు రాసిన మేధావి.",
+   "రాజు మాట వింటే పోతనకు రాజభోగాలు, ఎనలేని సంపద దక్కేవి.",
+   "కానీ పోతన దర్బారు కంటే మట్టిలో వ్యవసాయం చేయడానికే ఇష్టపడ్డాడు.",
+   "మానవులైన రాజుల కోసం తన కవిత్వాన్ని అమ్మే ప్రసక్తే లేదన్నాడు.",
+   "ఆ భాగవతాన్ని ఆయన కేవలం శ్రీరాముడికే సమర్పించాడు.",
+   "రాజుల సంపద కంటే శ్రీరాముడి పాదాలే తనకు గొప్ప అని నిరూపించాడు."
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "రాచకొండ రాజు కోరికను కాదని శ్రీరాముడికి భాగవతాన్ని అంకితమిచ్చిన పోతన కథ.\nఅధికారానికి లొంగని ఆయన భక్తి విశేషాలు.",
+  "hashtags": [
+   "Pothana",
+   "TeluguPoet",
+   "Bhagavatam",
+   "TelanganaHistory",
+   "TeluguLiterature"
+  ],
+  "visuals": [
+   "Bammera Pothana writing Bhagavatam illustration",
+   "Rachakonda fort ruins Telangana",
+   "Lord Rama devotional painting traditional Indian art"
+  ],
+  "claims_en": [
+   "Pothana was a farmer-poet who refused a king's order regarding his literary work.",
+   "In the 15th century, the king of Rachakonda wanted Pothana to dedicate the Bhagavatam to him.",
+   "The king himself was a scholar who wrote Sanskrit plays.",
+   "Obeying the king would have brought Pothana royal riches and comforts.",
+   "Pothana preferred working in the agricultural fields over living in royal courts.",
+   "Pothana refused to dedicate his poetry to mortal kings.",
+   "He dedicated the Sri Maha Bhagavatam solely to Lord Rama.",
+   "Pothana proved that devotion to Lord Rama was far greater than royal wealth."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-28T10:06+00:00",
+ "for_slot": "2026-10-29 slot 3"
+}
