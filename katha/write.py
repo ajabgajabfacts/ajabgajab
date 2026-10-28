@@ -1,4 +1,6 @@
 """Script writer + independent fact/language checker."""
+import re
+
 import ai
 
 WRITE = """You write viral YouTube {fmt} narration for {audience}.
@@ -39,6 +41,13 @@ HARD RULES
   temple, food or saying - but only with facts the source supports.
 - {ending_rule}
 - {voice}
+- SOUND LIKE A PERSON, NOT AN AI (owner, 2026-10-28: viewers were calling the channels "AI slop"). Tell it the way
+  a sharp friend would across a table: plain words, one idea per sentence, sentence lengths that vary (a 3-word line
+  next to a 15-word one). Specific nouns beat adjectives. One dry aside or reaction of your own is welcome.
+  NEVER use these AI tells (or their equivalent in {lang_name}): "the twist", "here's the thing", "but here's where it
+  gets", "little did they know", "what happened next", "you won't believe", "a testament to", "stands as",
+  "to this day remains", "a mere", "delve", "unravel", "shrouded in mystery", "the real X? ...", "not just X, but Y",
+  lists of three adjectives, a colon reveal ("The answer: ..."), an exclamation mark, or a moral at the end.
 
 Return JSON:
 {{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story; name the concrete surprising act (who did what) rather than vague words like secret/mystery",
@@ -76,18 +85,39 @@ Check:
 4. Nothing disrespectful to any faith/community, no politics, no living people, no medical/miracle claims as fact.
    REJECT anything touching disputed religious sites or temple/mosque destruction or inter-community conflict.
 5. Title and hook are true to the story (no false clickbait).
+6. Voice: reject ONLY if the script uses a stock AI phrase ("the twist", "here's the thing", "little did they know",
+   "a testament to", "a mere", "shrouded in mystery", "not just X but Y", a colon reveal, an exclamation mark) or its
+   {lang_name} equivalent; name the phrase and give a plain replacement. Do not reject for style otherwise.
 
 Return JSON: {{"ok": true/false, "problems": ["specific problem + fix"], "fixed_sentences": [only if ok is false
 and the problems are small wording issues: the corrected full sentence list, else []]}}"""
 
 
-SHORT = dict(fmt="Shorts", nsent="7-9", ending_struct="QUESTION (last sentence): one short question for the comments.",
-             ending_rule='Last sentence = one short question viewers answer in the comments (opinion or "had you heard this?").',
-             ending_check="ends with a question", ending_name="question")
+# Ending (2026-10-28): every Short closing on "Would you...?" was itself a template viewers spotted. The question
+# must be one only THIS story could prompt; a dry closing line is allowed when it lands harder.
+SHORT = dict(fmt="Shorts", nsent="7-9", ending_struct="ENDING (last sentence): a short question only THIS story could prompt, or a dry closing line that lands the reveal.",
+             ending_rule='Last sentence = either a question only this story could prompt (never generic: no "Would you...?", "Had you heard?", "What do you think?") or one dry, specific closing line. Pick whichever is stronger.',
+             ending_check="ends with a story-specific question or a dry closing line (never a generic question)", ending_name="ending")
 # A chapter of a long video: deeper, and it lands instead of asking (one question at the very end of the video).
 CHAPTER = dict(fmt="long-video chapter", nsent="12-16", ending_struct="LANDING (last sentence): one line that lands the chapter with a sense of wonder - no question, no 'comment'.",
                ending_rule="Last sentence lands the chapter with a sense of wonder. No question, no call to comment or subscribe.",
                ending_check="ends by landing the chapter (no question needed)", ending_name="landing line")
+
+
+# Deterministic backstop for the voice rule above, English only (the checker covers the other languages).
+AI_TELLS = re.compile(r"\b(the twist|here'?s the thing|here'?s where it gets|little did (they|he|she) know|what happened next|"
+                      r"you won'?t believe|a testament to|stands as a|a mere|delve|unravel|shrouded in mystery|"
+                      r"would you have|had you heard|what do you think)\b|!|\bnot just\b.{1,40}\bbut\b", re.I)
+
+
+def ai_tells(sentences):
+    """Stock AI phrasings found in an English script, as checker-style problems."""
+    out = []
+    for x in sentences:
+        m = AI_TELLS.search(x)
+        if m:
+            out.append(f'Remove the stock phrasing "{m.group(0)}" in: {x}')
+    return out
 
 
 def write(entry, lang, L, source, max_rounds=4, chapter=False):
@@ -110,6 +140,8 @@ def write(entry, lang, L, source, max_rounds=4, chapter=False):
         c = ai.json_call(CHECK.format(lang_name=L["name"], w0=w0, w1=w1, source=source[:14000], script=script, **mode,
                                       claims="\n".join("- " + x for x in s.get("claims_en", []))),
                          models=ai.CHECK_MODELS, temperature=0.1)
+        if lang == "en" and (tells := ai_tells(s["sentences"])):
+            c = {"ok": False, "problems": c.get("problems", []) + tells, "fixed_sentences": []}
         print(f"[write] round {rnd + 1}: {len(script.split())} words, ok={c.get('ok')} {c.get('problems', [])[:3]}")
         if c.get("ok"):
             return s, c

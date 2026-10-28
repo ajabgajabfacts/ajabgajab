@@ -10,8 +10,8 @@
    "Posing as a government official, he met scrap metal dealers at an expensive hotel.",
    "He said the government wished to sell the tower secretly, to avoid public outcry.",
    "Dealer André Poisson paid a large bribe plus around 70,000 francs, and Lustig fled to Austria.",
-   "The twist: no newspaper reported the con, so Lustig returned and found a second buyer!",
-   "Would you have fallen for it?"
+   "No newspaper ever mentioned the con.",
+   "So he went back to Paris and found a second buyer for the same tower."
   ],
   "cta": "Comment below",
   "description": "In 1925, Victor Lustig sold the Eiffel Tower for scrap.\nThen he came back to sell it again.",
@@ -42,9 +42,9 @@
  "check": {
   "ok": true,
   "problems": [],
-  "by": "claude self-check"
+  "by": "claude self-check (voice edit 10-28, facts unchanged)"
  },
- "verified": true,
+ "verified": false,
  "by": "claude-routine",
  "written": "2026-10-27T19:47Z",
  "for_slot": "backup",
