@@ -44,10 +44,10 @@ LANGS = {
                brand="ଅଜବ ଗଜବ", audience="Odia speakers in Odisha; everyday spoken Odia"),
     "pa": dict(cap=(100, 18), sub="ਹੋਰ ਕਹਾਣੀਆਂ ਲਈ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ", name="Punjabi", edge=None, words=(85, 110), whisper="pa", font="NotoSansGurmukhi.ttf", wght=800,
                brand="ਅਜਬ ਗਜਬ", audience="Punjabi speakers in Punjab (India); everyday spoken Punjabi in Gurmukhi script"),
-    # 2026-10-23: English goes to its own channel, Strange But True (the renamed Money Sorted), not Ajab Gajab.
+    # 2026-10-23: English goes to its own channel (Money Sorted, renamed Strange But True, then "Wait, That's Real?" on 10-28; handle @strangebuttrue.stories), not Ajab Gajab.
     "en": dict(sub="Subscribe for more true stories", name="English", edge="en-US-AndrewMultilingualNeural", words=(80, 100), whisper="en",
-               font="Mukta-ExtraBold.ttf", wght=None, brand="Strange But True",
-               channel=("Strange But True", "week_test/files/CHANNEL_Money_Sorted_AU_CONFIG.json"),
+               font="Mukta-ExtraBold.ttf", wght=None, brand="Wait, That's Real?",
+               channel=("Wait, That's Real?", "week_test/files/CHANNEL_Money_Sorted_AU_CONFIG.json"),
                voice="Plain, vivid conversational English, like a friend telling the best story they know. No filler, no 'did you know'.",
                audience="English speakers in the US, UK, Canada and Australia who like history and famous places"),
 }

@@ -63,7 +63,10 @@ def banner(out, title, tagline, footer):
     # thin gold rules framing the text block inside the safe area
     d.line([(cx - 700, top + 18), (cx + 700, top + 18)], fill=GOLD, width=3)
     d.line([(cx - 700, top + 418), (cx + 700, top + 418)], fill=GOLD, width=3)
-    centred(d, cx, top + 40, title, font("Mukta-ExtraBold.ttf", 170), SAFFRON)
+    size = 170                                    # shrink long names to stay inside the 1235 px safe width
+    while size > 90 and d.textlength(title, font=font("Mukta-ExtraBold.ttf", size)) > 1200:
+        size -= 10
+    centred(d, cx, top + 40 + (170 - size) // 2, title, font("Mukta-ExtraBold.ttf", size), SAFFRON)
     centred(d, cx, top + 245, tagline, font("Mukta-Bold.ttf", 64), (255, 240, 220))
     parts = [(footer, "Mukta-Bold.ttf", None)] if isinstance(footer, str) else footer
     fs = [font(fn, 46, w) for _, fn, w in parts]
@@ -99,7 +102,7 @@ if __name__ == "__main__":
     out = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
     out.mkdir(parents=True, exist_ok=True)
     avatar(out / "strange_avatar.png")
-    banner(out / "strange_banner.png", "STRANGE BUT TRUE",
+    banner(out / "strange_banner.png", "WAIT, THAT'S REAL?",
            "Famous places. The true stories behind them.", "A new true story every day")
     banner(out / "ajab_banner.png", "अजब गजब", "Stories from India, in your language",
            [("తెలుగు", "NotoSansTelugu.ttf", 700), ("हिंदी", "Mukta-Bold.ttf", None), ("ಕನ್ನಡ", "NotoSansKannada.ttf", 700),

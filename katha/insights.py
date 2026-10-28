@@ -201,7 +201,7 @@ def build(print_md=False):
 
 
 def summary(name, info):
-    title = {"ajab": "Ajab Gajab Facts", "en": "Strange But True"}[name]
+    title = {"ajab": "Ajab Gajab Facts", "en": "Wait, That's Real?"}[name]
     v = info["videos"]
     out = [f"## {title}", ""]
     if "median_views" not in info:
