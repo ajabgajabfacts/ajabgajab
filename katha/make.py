@@ -127,6 +127,38 @@ def add_to_playlist(yt, vid, lang):
         print("[playlist] failed:", str(e)[:150])
 
 
+def upscale_4k(src):
+    """2x lanczos upscale for the YouTube upload only (owner, 2026-10-23: Shorts in 4K too).
+
+    YouTube serves 4K uploads with VP9/AV1 at a higher bitrate, so even 1080p viewers get a cleaner stream.
+    Facebook keeps the 1080p file: Reels cap at 1080x1920. Anything already above 1080p, or any ffmpeg
+    failure, returns the original path, so an upload is never lost to this step.
+    """
+    import subprocess
+    from pathlib import Path
+    src = Path(src)
+    try:
+        w, h = map(int, subprocess.check_output(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+             "-of", "csv=p=0:s=x", str(src)], text=True).strip().split("x"))
+        secs = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                              "-of", "csv=p=0", str(src)], text=True))
+        # Shorts encode at medium in a few minutes on a 2-core runner; a 10-minute long-form at medium could
+        # take most of the job, so long videos use veryfast at a lower CRF. Shorts get at most 10 minutes.
+        preset, crf, limit = ("medium", "16", 600) if secs <= 120 else ("veryfast", "15", 5400)
+        if max(w, h) > 1920:
+            return src
+        dst = src.with_name(src.stem + "_4k.mp4")
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(src), "-vf", f"scale={w * 2}:{h * 2}:flags=lanczos",
+                        "-c:v", "libx264", "-preset", preset, "-crf", crf, "-pix_fmt", "yuv420p",
+                        "-c:a", "copy", "-movflags", "+faststart", str(dst)], check=True, timeout=limit)
+        print(f"[4K] {w}x{h} -> {w * 2}x{h * 2}: {dst.name}")
+        return dst
+    except Exception as e:
+        print(f"[4K] skipped ({e}); uploading the original")
+        return src
+
+
 def upload(mp4, meta, cfg_json, thumb=None):
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
@@ -143,7 +175,7 @@ def upload(mp4, meta, cfg_json, thumb=None):
             "status": {"privacyStatus": meta.get("privacy", "public"), "selfDeclaredMadeForKids": False,
                        "containsSyntheticMedia": False}}
     req = yt.videos().insert(part="snippet,status", body=body,
-                             media_body=MediaFileUpload(str(mp4), chunksize=-1, resumable=True, mimetype="video/mp4"))
+                             media_body=MediaFileUpload(str(upscale_4k(mp4)), chunksize=-1, resumable=True, mimetype="video/mp4"))
     resp = None
     for attempt in range(5):
         try:
