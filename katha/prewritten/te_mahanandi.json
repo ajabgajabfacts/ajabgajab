@@ -1,0 +1,30 @@
+{"script": {
+ "title": "శివలింగం కింద పుట్టి 2,000 ఎకరాలు తడిపే కోనేరు",
+ "hook_text": "లోతు ఎప్పుడూ ఐదు అడుగులే",
+ "kicker": "నిజమైన కథ",
+ "sentences": [
+  "ఈ గుడి కోనేరులో నీళ్ళు ఎప్పుడూ ఐదు అడుగుల లోతులోనే ఉంటాయి.",
+  "ఇది నల్లమల కొండలకు తూర్పున ఉన్న మహానంది శివాలయం, 1,500 ఏళ్ళకు పైగా పాతది.",
+  "కాలం ఏదైనా సరే, ఇక్కడ నీటి ప్రవాహం మాత్రం మారదు.",
+  "బయటికి వెళ్ళిన ఆ నీళ్ళు చుట్టూ 2,000 ఎకరాల పొలాలను తడుపుతాయి.",
+  "మరి ఇంత నీరు ఎక్కడ పుడుతోంది?",
+  "గర్భగుడిలో స్వయంభూ లింగం కిందే ఆ నీటి ఊట ఉంది.",
+  "లోతు మారకుండా ఉండేలా కోనేరులోకి నీళ్ళు వచ్చే దారులు, బయటికి పోయే దారులు లెక్కగా అమర్చారు.",
+  "ఇంత ఏర్పాటు ఎందుకంటే, భక్తులు హాయిగా స్నానం చేయడానికే."
+ ],
+ "cta": "కామెంట్ చేయండి",
+ "description": "మహానంది కోనేరులో నీటి లోతు ఎప్పుడూ ఐదు అడుగులే.\nఆ నీరు ఎక్కడి నుంచి వస్తుందో తెలుసుకోండి.",
+ "hashtags": ["మహానంది", "Mahanandi", "నంద్యాల", "AndhraPradesh", "TeluguFacts"],
+ "visuals": ["Mahanandi temple pushkarini", "Mahanandiswara Swamy temple Nandyal", "Mahanandi temple tank mandapa"],
+ "claims_en": [
+  "The depth of the water in the Mahanandi temple tank is constantly kept at five feet.",
+  "Mahanandi is east of the Nallamala Hills.",
+  "The Mahanandiswara Swamy Temple dates back over 1,500 years and is a Shiva temple (Swayambhu Linga, symbol of Shiva).",
+  "The water source has a constant flow irrespective of the change of seasons.",
+  "The outgoing water irrigates 2,000 acres of land surrounding the village.",
+  "The water source originates at the Garbhagruha (inner shrine) just below the Swayambhu Linga.",
+  "The inlets and outlets of the tank are arranged so that the depth stays at five feet.",
+  "This enables pilgrims to bathe in the holy waters."
+ ]},
+ "check": {"ok": true, "problems": [], "by": "claude self-check"},
+ "verified": false, "by": "claude-routine", "written": "2026-10-28T19:44", "for_slot": "2026-10-29 slot 3"}

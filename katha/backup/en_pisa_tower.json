@@ -1,0 +1,31 @@
+{"script": {
+ "title": "Why the Leaning Tower of Pisa Is Also Curved",
+ "hook_text": "Sinking at floor two",
+ "kicker": "TRUE STORY",
+ "sentences": [
+  "The tower was only two floors high when it started sinking.",
+  "This was Pisa in 1178, and its three-metre foundation sat in weak, unstable soil.",
+  "Then construction stopped for the better part of a century.",
+  "When work resumed, engineers built the upper floors taller on one side to make up for the tilt.",
+  "So the tower is actually curved.",
+  "The job took 199 years in all.",
+  "That long pause happened because Pisa was almost always at war with Genoa, Lucca and Florence, and it let the soil settle.",
+  "Without it, the tower would almost certainly have toppled."
+ ],
+ "cta": "Comment below",
+ "description": "The Leaning Tower of Pisa began to sink in 1178.\nA century-long pause is the reason it is still standing.",
+ "hashtags": ["LeaningTowerOfPisa", "Pisa", "Italy", "TrueStory", "History"],
+ "visuals": ["Leaning Tower of Pisa", "Piazza del Duomo Pisa", "Leaning Tower of Pisa close up arcades"],
+ "claims_en": [
+  "In 1178 the tower began to sink after construction progressed to the second floor.",
+  "The tower had a three-metre foundation set in weak, unstable subsoil.",
+  "Construction was halted for the better part of a century.",
+  "To compensate for the tilt, engineers built upper floors with one side taller than the other.",
+  "Because of this, the tower is curved.",
+  "Construction occurred in three stages over 199 years.",
+  "Construction was halted because the Republic of Pisa was almost continually engaged in battles with Genoa, Lucca and Florence.",
+  "The halt allowed time for the underlying soil to settle.",
+  "Otherwise, the tower would almost certainly have toppled."
+ ]},
+ "check": {"ok": true, "problems": [], "by": "claude self-check"},
+ "verified": false, "by": "claude-routine", "written": "2026-10-28T19:48", "for_slot": "backup"}
