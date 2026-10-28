@@ -1,3 +1,8 @@
+> **2026-10-28:** the Hinglish quiz pipeline this checklist launched (pipeline_animated.py, facts.yml,
+> compilation.yml) was retired and removed; the channel runs only `katha/` now. It is still in git
+> history (before this commit). Sections 1-6 still describe the accounts, keys and `auth_setup.py`
+> re-auth the katha workflows use; the cron-job.org jobs in section 7 that triggered facts.yml can go.
+
 # ajabgajab — launch setup checklist
 
 Status: render engine is **built + verified** locally (103 one-fact Hinglish reels,
