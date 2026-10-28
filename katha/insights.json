@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:52Z",
+ "updated": "2026-10-28T07:33Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,19 +11,19 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 142,
-     "yt": 80157,
+     "age_h": 167,
+     "yt": 84097,
      "fb": 0,
-     "total": 80157,
-     "likes": 725,
+     "total": 84097,
+     "likes": 751,
      "comments": 7,
-     "avp": 78.9,
+     "avp": 79.2,
      "avd": 28,
-     "subs": 66,
-     "shares": 55,
+     "subs": 79,
+     "shares": 70,
      "retention": {
-      "10%": 1.24,
-      "50%": 0.72,
+      "10%": 1.25,
+      "50%": 0.73,
       "90%": 0.59
      }
     },
@@ -35,20 +35,20 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 103,
-     "yt": 25753,
+     "age_h": 128,
+     "yt": 27401,
      "fb": 0,
-     "total": 25753,
-     "likes": 403,
+     "total": 27401,
+     "likes": 410,
      "comments": 1,
-     "avp": 70.31,
-     "avd": 28,
+     "avp": 70.81,
+     "avd": 29,
      "subs": 18,
      "shares": 6,
      "retention": {
       "10%": 1.16,
       "50%": 0.63,
-      "90%": 0.51
+      "90%": 0.52
      }
     },
     {
@@ -59,10 +59,10 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 180,
-     "yt": 1683,
+     "age_h": 204,
+     "yt": 1682,
      "fb": 0,
-     "total": 1683,
+     "total": 1682,
      "likes": 45,
      "comments": 3,
      "avp": 69.62,
@@ -83,7 +83,7 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 157,
+     "age_h": 182,
      "yt": 1341,
      "fb": 0,
      "total": 1341,
@@ -102,16 +102,16 @@
      "kind": "wonder",
      "seconds": 31.6,
      "slot": 0,
-     "age_h": 25,
-     "yt": 1058,
+     "age_h": 50,
+     "yt": 1215,
      "fb": null,
-     "total": 1058,
-     "likes": 18,
+     "total": 1215,
+     "likes": 23,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 70.82,
+     "avd": 22,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "0AIKyx5ChG4",
@@ -121,14 +121,14 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 62,
-     "yt": 991,
+     "age_h": 87,
+     "yt": 1007,
      "fb": 0,
-     "total": 991,
-     "likes": 16,
+     "total": 1007,
+     "likes": 17,
      "comments": 1,
-     "avp": 78.54,
-     "avd": 27,
+     "avp": 70.89,
+     "avd": 24,
      "subs": 1,
      "shares": 0
     },
@@ -140,16 +140,35 @@
      "kind": "wonder",
      "seconds": 45.0,
      "slot": 1,
-     "age_h": 97,
-     "yt": 798,
+     "age_h": 121,
+     "yt": 807,
      "fb": 0,
-     "total": 798,
+     "total": 807,
      "likes": 7,
      "comments": 1,
-     "avp": 54,
+     "avp": 54.04,
      "avd": 24,
      "subs": 0,
      "shares": 0
+    },
+    {
+     "video_id": "Vt27rHcF7aA",
+     "title": "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव",
+     "key": "shani_shingnapur",
+     "lang": "mr",
+     "kind": "wonder",
+     "seconds": 36.8,
+     "slot": 1,
+     "age_h": 47,
+     "yt": 750,
+     "fb": null,
+     "total": 750,
+     "likes": 9,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "Aw4U-tFHkxc",
@@ -159,13 +178,13 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 89,
-     "yt": 651,
-     "fb": null,
-     "total": 651,
+     "age_h": 114,
+     "yt": 664,
+     "fb": 0,
+     "total": 664,
      "likes": 18,
      "comments": 1,
-     "avp": 55.1,
+     "avp": 54.32,
      "avd": 17,
      "subs": 1,
      "shares": 0
@@ -178,13 +197,13 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 193,
+     "age_h": 217,
      "yt": 558,
      "fb": 0,
      "total": 558,
      "likes": 8,
      "comments": 1,
-     "avp": 55.57,
+     "avp": 55.50999999999999,
      "avd": 17,
      "subs": 1,
      "shares": 1
@@ -197,7 +216,7 @@
      "kind": "wonder",
      "seconds": 39.1,
      "slot": 1,
-     "age_h": 167,
+     "age_h": 191,
      "yt": 515,
      "fb": 0,
      "total": 515,
@@ -209,25 +228,6 @@
      "shares": 0
     },
     {
-     "video_id": "Vt27rHcF7aA",
-     "title": "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव",
-     "key": "shani_shingnapur",
-     "lang": "mr",
-     "kind": "wonder",
-     "seconds": 36.8,
-     "slot": 1,
-     "age_h": 23,
-     "yt": 440,
-     "fb": null,
-     "total": 440,
-     "likes": 5,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "pfYKgjZGru0",
      "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
      "key": "palani_bhogar",
@@ -235,14 +235,14 @@
      "kind": "saint",
      "seconds": 30.2,
      "slot": 0,
-     "age_h": 49,
-     "yt": 252,
+     "age_h": 74,
+     "yt": 258,
      "fb": null,
-     "total": 252,
+     "total": 258,
      "likes": 6,
      "comments": 1,
-     "avp": 19.42,
-     "avd": 6,
+     "avp": 69.76,
+     "avd": 21,
      "subs": 0,
      "shares": 0
     },
@@ -254,13 +254,13 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 87,
+     "age_h": 112,
      "yt": 149,
      "fb": 0,
      "total": 149,
      "likes": 8,
      "comments": 1,
-     "avp": 72.67,
+     "avp": 72.58,
      "avd": 28,
      "subs": 0,
      "shares": 0
@@ -273,7 +273,7 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 180,
+     "age_h": 205,
      "yt": 139,
      "fb": null,
      "total": 139,
@@ -292,14 +292,14 @@
      "kind": "saint",
      "seconds": 36.7,
      "slot": 1,
-     "age_h": 71,
-     "yt": 118,
+     "age_h": 96,
+     "yt": 121,
      "fb": 0,
-     "total": 118,
+     "total": 121,
      "likes": 2,
      "comments": 1,
-     "avp": 38.07,
-     "avd": 14,
+     "avp": 35.26,
+     "avd": 13,
      "subs": 0,
      "shares": 0
     },
@@ -311,16 +311,54 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 71,
-     "yt": 107,
+     "age_h": 96,
+     "yt": 112,
      "fb": null,
-     "total": 107,
+     "total": 112,
      "likes": 1,
      "comments": 1,
-     "avp": 83.55,
-     "avd": 32,
+     "avp": 78.94,
+     "avd": 30,
      "subs": 0,
      "shares": 0
+    },
+    {
+     "video_id": "pVtaibXIf5Q",
+     "title": "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!",
+     "key": "ahobilam",
+     "lang": "te",
+     "kind": "myth",
+     "seconds": 41.2,
+     "slot": 3,
+     "age_h": 13,
+     "yt": 111,
+     "fb": 0,
+     "total": 111,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "WhIsN3HJA2A",
+     "title": "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?",
+     "key": "kuldhara",
+     "lang": "hi",
+     "kind": "folk",
+     "seconds": 29.5,
+     "slot": 2,
+     "age_h": 41,
+     "yt": 100,
+     "fb": null,
+     "total": 100,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "4pwBrxbAG2I",
@@ -330,7 +368,7 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 157,
+     "age_h": 182,
      "yt": 93,
      "fb": null,
      "total": 93,
@@ -342,6 +380,25 @@
      "shares": 0
     },
     {
+     "video_id": "Oe3_8GCTZX4",
+     "title": "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?",
+     "key": "rani_ki_vav",
+     "lang": "gu",
+     "kind": "wonder",
+     "seconds": 39.8,
+     "slot": 0,
+     "age_h": 122,
+     "yt": 91,
+     "fb": null,
+     "total": 91,
+     "likes": 1,
+     "comments": 1,
+     "avp": 46.54,
+     "avd": 18,
+     "subs": 0,
+     "shares": 1
+    },
+    {
      "video_id": "-FKZryAaYj0",
      "title": "सती जाणाऱ्या अहिल्याबाईंनी थेट तोफखाना कसा चालवला?",
      "key": "ahilyabai",
@@ -349,7 +406,7 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 143,
+     "age_h": 167,
      "yt": 87,
      "fb": null,
      "total": 87,
@@ -361,44 +418,6 @@
      "shares": 0
     },
     {
-     "video_id": "Oe3_8GCTZX4",
-     "title": "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?",
-     "key": "rani_ki_vav",
-     "lang": "gu",
-     "kind": "wonder",
-     "seconds": 39.8,
-     "slot": 0,
-     "age_h": 97,
-     "yt": 86,
-     "fb": null,
-     "total": 86,
-     "likes": 1,
-     "comments": 1,
-     "avp": 44.6,
-     "avd": 17,
-     "subs": 0,
-     "shares": 1
-    },
-    {
-     "video_id": "WhIsN3HJA2A",
-     "title": "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?",
-     "key": "kuldhara",
-     "lang": "hi",
-     "kind": "folk",
-     "seconds": 29.5,
-     "slot": 2,
-     "age_h": 17,
-     "yt": 85,
-     "fb": null,
-     "total": 85,
-     "likes": 0,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "7b9q_RsNtsk",
      "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
      "key": "dholavira",
@@ -406,11 +425,30 @@
      "kind": "history",
      "seconds": 38.2,
      "slot": 1,
-     "age_h": 47,
-     "yt": 73,
+     "age_h": 72,
+     "yt": 76,
      "fb": null,
-     "total": 73,
+     "total": 76,
      "likes": 0,
+     "comments": 1,
+     "avp": 64.31,
+     "avd": 25,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "UglCh39hs_o",
+     "title": "কাশী যাত্রা আটকে রানি রাসমণি কেন বানালেন দক্ষিণেশ্বর মন্দির?",
+     "key": "kali_dakshineswar",
+     "lang": "bn",
+     "kind": "myth",
+     "seconds": 38.4,
+     "slot": 1,
+     "age_h": 23,
+     "yt": 53,
+     "fb": null,
+     "total": 53,
+     "likes": 1,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -425,7 +463,7 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 137,
+     "age_h": 161,
      "yt": 44,
      "fb": null,
      "total": 44,
@@ -444,7 +482,7 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 185,
+     "age_h": 210,
      "yt": 43,
      "fb": null,
      "total": 43,
@@ -453,12 +491,26 @@
      "avp": 51.019999999999996,
      "avd": 17,
      "subs": 0,
-     "shares": 0,
-     "retention": {
-      "10%": 1.0,
-      "50%": 0.42,
-      "90%": 0.17
-     }
+     "shares": 0
+    },
+    {
+     "video_id": "1zVAtZAH8dA",
+     "title": "12ನೇ ಶತಮಾನದಲ್ಲೇ ಗುಡಿ-ಪೂಜೆ ಬೇಡ ಎಂದ ಬಸವಣ್ಣನವರ ಕ್ರಾಂತಿ ಏನು?",
+     "key": "basavanna",
+     "lang": "kn",
+     "kind": "saint",
+     "seconds": 37.2,
+     "slot": 0,
+     "age_h": 26,
+     "yt": 28,
+     "fb": null,
+     "total": 28,
+     "likes": 1,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "PuXYM7yF72Q",
@@ -468,7 +520,7 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 169,
+     "age_h": 194,
      "yt": 26,
      "fb": null,
      "total": 26,
@@ -488,7 +540,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 193,
+     "age_h": 218,
      "yt": 15,
      "fb": null,
      "total": 15,
@@ -508,29 +560,30 @@
      "kind": "wonder",
      "seconds": 33.6,
      "slot": 3,
-     "age_h": 12,
-     "yt": 5,
+     "age_h": 37,
+     "yt": 12,
      "fb": null,
-     "total": 5,
+     "total": 12,
      "likes": 0,
      "comments": 1,
      "avp": null,
      "avd": null,
      "subs": null,
-     "shares": null
+     "shares": null,
+     "retention": null
     },
     {
-     "video_id": "1zVAtZAH8dA",
-     "title": "12ನೇ ಶತಮಾನದಲ್ಲೇ ಗುಡಿ-ಪೂಜೆ ಬೇಡ ಎಂದ ಬಸವಣ್ಣನವರ ಕ್ರಾಂತಿ ಏನು?",
-     "key": "basavanna",
-     "lang": "kn",
-     "kind": "saint",
-     "seconds": 37.2,
-     "slot": 0,
-     "age_h": 1,
-     "yt": 0,
+     "video_id": "fJd-TXfAz8g",
+     "title": "गांधारी की एक नज़र से नीला पड़ा युधिष्ठिर का अंगूठा!",
+     "key": "gandhari",
+     "lang": "hi",
+     "kind": "myth",
+     "seconds": 32.3,
+     "slot": 2,
+     "age_h": 18,
+     "yt": 12,
      "fb": null,
-     "total": 0,
+     "total": 12,
      "likes": 0,
      "comments": 1,
      "avp": null,
@@ -543,35 +596,35 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 87887
+      "views": 100767
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 1418
-     },
-     {
-      "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 152
+      "views": 1608
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 148
+      "views": 202
+     },
+     {
+      "insightTrafficSourceType": "YT_CHANNEL",
+      "views": 191
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 121
+      "views": 176
      },
      {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 77
+      "views": 83
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 35
+      "views": 41
      },
      {
       "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 19
+      "views": 25
      },
      {
       "insightTrafficSourceType": "NO_LINK_OTHER",
@@ -583,25 +636,29 @@
      },
      {
       "insightTrafficSourceType": "HASHTAGS",
-      "views": 2
+      "views": 3
      }
     ],
     "searches": [
      {
+      "insightTrafficSourceDetail": "mysore palace history",
+      "views": 16
+     },
+     {
       "insightTrafficSourceDetail": "ಮೈಸೂರು ಅರಮನೆ",
-      "views": 13
+      "views": 14
      },
      {
       "insightTrafficSourceDetail": "mysore history in kannada",
-      "views": 12
-     },
-     {
-      "insightTrafficSourceDetail": "mysore palace history",
-      "views": 12
+      "views": 13
      },
      {
       "insightTrafficSourceDetail": "mysore palace history in kannada",
       "views": 6
+     },
+     {
+      "insightTrafficSourceDetail": "arjuna elephant",
+      "views": 5
      },
      {
       "insightTrafficSourceDetail": "mysore dussehra festival",
@@ -642,32 +699,32 @@
      {
       "insightTrafficSourceDetail": "mysore aramane story kannada",
       "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "mysore dasara 2026",
-      "views": 3
      }
     ],
     "related": [
      {
       "insightTrafficSourceDetail": "F8sXs0dY_TQ",
-      "views": 34
-     },
-     {
-      "insightTrafficSourceDetail": "dxueJxQqvPo",
-      "views": 8
-     },
-     {
-      "insightTrafficSourceDetail": "gDxnG_sY9fc",
-      "views": 7
+      "views": 37
      },
      {
       "insightTrafficSourceDetail": "jUd6r1YvFBI",
-      "views": 6
+      "views": 28
+     },
+     {
+      "insightTrafficSourceDetail": "dxueJxQqvPo",
+      "views": 9
+     },
+     {
+      "insightTrafficSourceDetail": "gDxnG_sY9fc",
+      "views": 9
      },
      {
       "insightTrafficSourceDetail": "dyhvaOOnT_g",
       "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "2bvRsasRsWY",
+      "views": 3
      },
      {
       "insightTrafficSourceDetail": "_KvRSd96nt0",
@@ -676,10 +733,6 @@
      {
       "insightTrafficSourceDetail": "aS03bwwXY-E",
       "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "2bvRsasRsWY",
-      "views": 2
      },
      {
       "insightTrafficSourceDetail": "6nXUssKDijo",
@@ -704,12 +757,12 @@
      {
       "ageGroup": "age18-24",
       "gender": "female",
-      "viewerPercentage": 3.8
+      "viewerPercentage": 3.7
      },
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 4.9
+      "viewerPercentage": 4.8
      },
      {
       "ageGroup": "age25-34",
@@ -719,32 +772,32 @@
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 12.2
+      "viewerPercentage": 12.1
      },
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 8.5
+      "viewerPercentage": 8.4
      },
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 13.4
+      "viewerPercentage": 13.2
      },
      {
       "ageGroup": "age45-54",
       "gender": "female",
-      "viewerPercentage": 7.9
+      "viewerPercentage": 8
      },
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 12.7
+      "viewerPercentage": 12.6
      },
      {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 5.3
+      "viewerPercentage": 5.5
      },
      {
       "ageGroup": "age55-64",
@@ -754,22 +807,22 @@
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 4
+      "viewerPercentage": 4.2
      },
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 7.8
+      "viewerPercentage": 8
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 88162
+      "views": 101316
      },
      {
       "country": "US",
-      "views": 637
+      "views": 666
      },
      {
       "country": "BD",
@@ -790,15 +843,15 @@
     ]
    },
    "lang_weights": {
-    "bn": {
-     "w": 1.2,
-     "n": 1,
-     "median": 515
+    "mr": {
+     "w": 0.82,
+     "n": 2,
+     "median": 418
     },
-    "gu": {
-     "w": 0.6,
-     "n": 3,
-     "median": 86
+    "or": {
+     "w": 1.12,
+     "n": 1,
+     "median": 807
     },
     "pa": {
      "w": 1.0,
@@ -806,46 +859,46 @@
      "median": null
     },
     "ml": {
-     "w": 0.81,
+     "w": 0.71,
      "n": 1,
-     "median": 107
+     "median": 112
+    },
+    "gu": {
+     "w": 0.5,
+     "n": 3,
+     "median": 91
     },
     "ta": {
-     "w": 1.17,
+     "w": 0.89,
      "n": 2,
-     "median": 405
+     "median": 408
+    },
+    "bn": {
+     "w": 1.0,
+     "n": 1,
+     "median": 515
     },
     "kn": {
      "w": 2.5,
-     "n": 2,
-     "median": 52955
-    },
-    "or": {
-     "w": 1.33,
-     "n": 1,
-     "median": 798
-    },
-    "mr": {
-     "w": 0.77,
-     "n": 1,
-     "median": 87
+     "n": 3,
+     "median": 27401
     }
    },
    "kind_weights": {
-    "saint": {
-     "w": 1.24,
-     "n": 5,
-     "median": 149
-    },
     "history": {
-     "w": 1.62,
+     "w": 1.63,
      "n": 6,
-     "median": 604
+     "median": 611
     },
     "folk": {
-     "w": 0.74,
-     "n": 1,
-     "median": 43
+     "w": 0.73,
+     "n": 2,
+     "median": 71
+    },
+    "saint": {
+     "w": 1.25,
+     "n": 5,
+     "median": 149
     },
     "myth": {
      "w": 0.63,
@@ -853,20 +906,21 @@
      "median": 68
     },
     "wonder": {
-     "w": 1.31,
-     "n": 5,
-     "median": 515
+     "w": 1.39,
+     "n": 8,
+     "median": 632
     },
     "engineering": {
      "w": 1.41,
      "n": 1,
-     "median": 80157
+     "median": 84097
     }
    },
    "proven_titles": {
     "kn": [
      "ಮದುವೆಯ ಸಂಭ್ರಮದಲ್ಲಿ ಹೊತ್ತಿ ಉರಿದ ಮೈಸೂರು ಅರಮನೆ!",
-     "750 ಕೆಜಿ ಚಿನ್ನ ಹೊರುವ ಮೈಸೂರಿನ ಆನೆ ಯಾರನ್ನು ಹೊತ್ತೊಯ್ಯುತ್ತದೆ?"
+     "750 ಕೆಜಿ ಚಿನ್ನ ಹೊರುವ ಮೈಸೂರಿನ ಆನೆ ಯಾರನ್ನು ಹೊತ್ತೊಯ್ಯುತ್ತದೆ?",
+     "1600 ವರ್ಷ ತುಕ್ಕು ಹಿಡಿಯದ ದೆಹಲಿಯ ಕಬ್ಬಿಣದ ಕಂಬದ ರಹಸ್ಯ!"
     ],
     "te": [
      "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
@@ -880,6 +934,9 @@
     "or": [
      "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?"
     ],
+    "mr": [
+     "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव"
+    ],
     "ta": [
      "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!",
      "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!"
@@ -888,8 +945,7 @@
      "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?"
     ],
     "gu": [],
-    "ml": [],
-    "mr": []
+    "ml": []
    },
    "median_views": 144
   },
@@ -903,14 +959,14 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 54,
-     "yt": 936,
+     "age_h": 79,
+     "yt": 937,
      "fb": null,
-     "total": 936,
+     "total": 937,
      "likes": 29,
      "comments": 1,
-     "avp": 57.11999999999999,
-     "avd": 20,
+     "avp": 53.71,
+     "avd": 19,
      "subs": 1,
      "shares": 3
     },
@@ -922,16 +978,35 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 78,
-     "yt": 723,
+     "age_h": 103,
+     "yt": 724,
      "fb": null,
-     "total": 723,
+     "total": 724,
      "likes": 22,
      "comments": 1,
-     "avp": 73.46,
-     "avd": 27,
+     "avp": 74.41,
+     "avd": 28,
      "subs": 4,
      "shares": 0
+    },
+    {
+     "video_id": "De3Jpvenw9U",
+     "title": "He Hated the Eiffel Tower, So He Ate Lunch Inside It",
+     "key": "eiffel_temporary",
+     "lang": "en",
+     "kind": "engineering",
+     "seconds": 33.1,
+     "slot": 4,
+     "age_h": 6,
+     "yt": 445,
+     "fb": null,
+     "total": 445,
+     "likes": 9,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "3HRiGnU6ZcM",
@@ -941,7 +1016,7 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 102,
+     "age_h": 127,
      "yt": 226,
      "fb": null,
      "total": 226,
@@ -960,10 +1035,10 @@
      "kind": "engineering",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 5,
-     "yt": 99,
+     "age_h": 30,
+     "yt": 159,
      "fb": null,
-     "total": 99,
+     "total": 159,
      "likes": 7,
      "comments": 1,
      "avp": null,
@@ -976,15 +1051,15 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 1545
+      "views": 1789
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 45
+      "views": 51
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 8
+      "views": 7
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
@@ -1006,6 +1081,14 @@
     "searches": [
      {
       "insightTrafficSourceDetail": "chichen itza",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "doomsday chess board",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "elevator accident free fall",
       "views": 1
      },
      {
@@ -1066,7 +1149,11 @@
     "countries": [
      {
       "country": "US",
-      "views": 1152
+      "views": 1220
+     },
+     {
+      "country": "GB",
+      "views": 55
      },
      {
       "country": "PH",
@@ -1074,10 +1161,6 @@
      },
      {
       "country": "CA",
-      "views": 28
-     },
-     {
-      "country": "GB",
       "views": 28
      }
     ]
