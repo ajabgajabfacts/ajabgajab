@@ -231,7 +231,13 @@ def over(base_rgb, rgba):
 
 
 def preview(channel, video, out, lang=None):
-    """Hold the last frame for DUR more seconds and play the sign-off over it, as the pipeline will."""
+    """Hold the last frame for DUR more seconds and play the sign-off over it (katha does this inside render)."""
+    return append(channel, video, out, lang)
+
+
+def append(channel, video, out, lang=None):
+    """Post-process a finished render: hold its last frame DUR s, blurred, with the card and sting over it.
+    Quizora's pipelines use this. The original audio fades over its last 0.3 s so the bed never cuts dead."""
     import json, tempfile
     probe = json.loads(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
                                        "stream=width,height:format=duration", "-of", "json", str(video)],
@@ -255,7 +261,7 @@ def preview(channel, video, out, lang=None):
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(video), "-framerate", str(FPS), "-i", str(tmp / "f%03d.png"),
                     "-i", str(tmp / "sting.wav"), "-filter_complex",
                     f"[0:v]tpad=stop_mode=clone:stop_duration={DUR},gblur=sigma=14:enable='gte(t,{t0})',eq=brightness=-0.12:enable='gte(t,{t0})'[base];[1:v]setpts=PTS+{t0}/TB[o];[base][o]overlay=0:0:eof_action=pass[v];"
-                    f"[0:a]apad=pad_dur={DUR}[b];[2:a]adelay={int(t0 * 1000)}|{int(t0 * 1000)}[s];"
+                    f"[0:a]afade=t=out:st={max(0.0, D - 0.3):.3f}:d=0.3,apad=pad_dur={DUR}[b];[2:a]adelay={int(t0 * 1000)}|{int(t0 * 1000)}[s];"
                     f"[b][s]amix=inputs=2:duration=longest:normalize=0[a]",
                     "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", str(out)],
                    check=True)
