@@ -350,7 +350,8 @@ def produce(a, L, e):
     total = D + 0.8
     job = dict(L=L, sentences=s["sentences"], word_times=wt, hook_text=s["hook_text"], kicker=s["kicker"],
                cta=s.get("cta"), subscribe=L["sub"], shots=[c["img"] for c in shots], voice=voice,
-               music=story_music(e, total, work), duration=total)
+               music=story_music(e, total, work), duration=total,
+               endcard="wtr" if a.lang == "en" else "ajab")     # like + subscribe sign-off (owner, 2026-10-28)
     t0 = time.time()
     mp4 = render.render(job, work / "short.mp4", work)
     print(f"[render] {mp4} in {time.time() - t0:.0f}s")

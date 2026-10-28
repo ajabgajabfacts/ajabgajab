@@ -270,10 +270,18 @@ def chunks(sentences, maxn=6, maxc=30):
 
 def render(job, out_mp4, work):
     """job: L, sentences, word_times (per word over all sentences), sentence_word_counts, hook_text,
-    kicker, cta, subscribe, shots (PIL images), voice wav, music path, duration."""
+    kicker, cta, subscribe, shots (PIL images), voice wav, music path, duration.
+    endcard: "ajab" / "wtr" adds endcard.DUR seconds of like + subscribe sign-off after the last line (Shorts only)."""
     set_canvas(bool(job.get("landscape")))
     L = job["L"]
     D = job["duration"]
+    ec = job.get("endcard") if not LANDSCAPE else None
+    if ec:
+        import endcard
+        ec_frames = endcard.frames(ec, W, H, tag=L["sub"] if ec == "ajab" else None,
+                                   tag_font=font(L, 34) if ec == "ajab" else None,
+                                   name=L["brand"] if ec == "ajab" else None, name_font=font(L, 60) if ec == "ajab" else None)
+        job = dict(job, subscribe=None)          # the card asks for the subscribe; no second pill
     words = [w for s in job["sentences"] for w in s.split()]
     wt = job["word_times"]
     sent_ranges, k = [], 0
@@ -345,6 +353,7 @@ def render(job, out_mp4, work):
                            "-crf", "19", "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(vid)], stdin=subprocess.PIPE)
     nfr = int(D * FPS)
     XF = 0.28
+    fr = None
     for fi in range(nfr):
         t = fi / FPS
         si = max(i for i, (a, b) in enumerate(seg) if a <= t)
@@ -384,10 +393,15 @@ def render(job, out_mp4, work):
             p = min(1.0, (t - sub_start) / 0.18)
             blit(fr, sub, CAP_X, sub_y, alpha=p, scale=1.3 - 0.3 * p if p < 1 else 1.0 + 0.04 * math.sin(t * 7))
         ff.stdin.write(fr.tobytes())
+    if ec:
+        base = endcard.held(fr)
+        for o in ec_frames:
+            ff.stdin.write(endcard.over(base, o).tobytes())
     ff.stdin.close(); ff.wait()
 
     music = job.get("music")
     inputs = ["-i", str(vid), "-i", str(job["voice"])]
+    T = D + (endcard.DUR if ec else 0)
     if music:
         inputs += ["-stream_loop", "-1", "-i", str(music)]
         fc = (f"[1:a]apad,asplit=2[v1][v2];[2:a]aresample=48000,volume=0.30,afade=t=in:d=0.8,afade=t=out:st={D - 1.6:.2f}:d=1.6[m];"
@@ -395,6 +409,14 @@ def render(job, out_mp4, work):
               f"[v1][md]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
     else:
         fc = "[1:a]apad,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+    if ec:
+        # The sting goes in AFTER loudnorm: the bed has faded out by D, so nothing quiet is left for it to pump up.
+        sting = Path(work) / "sting.wav"
+        endcard.write_wav(sting, endcard.sting(ec))
+        inputs += ["-i", str(sting)]
+        si = 3 if music else 2
+        fc = (fc[:-3] + f"[n];[{si}:a]aresample=48000,adelay={int(D * 1000)}|{int(D * 1000)},volume=0.55[s];"
+              f"[n][s]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.89[a]")
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inputs, "-filter_complex", fc, "-map", "0:v", "-map", "[a]",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{D:.2f}", str(out_mp4)], check=True)
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{T:.2f}", str(out_mp4)], check=True)
     return out_mp4
