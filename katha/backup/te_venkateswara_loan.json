@@ -1,30 +1,55 @@
-{"script": {
- "title": "పెళ్ళి కోసం కుబేరుడి దగ్గర అప్పు చేసిన శ్రీనివాసుడు",
- "hook_text": "ఏడుకొండలవాడి అప్పు",
- "kicker": "పురాణ కథ",
- "sentences": [
-  "కథ ప్రకారం, ఏడుకొండలవాడు కూడా ఒకసారి అప్పు చేశారు.",
-  "శ్రీనివాసుడిగా ఉన్నప్పుడు, ఒకరోజు అడవిలో ఏనుగును వెంటాడుతూ ఆయన ఒక రాజ ఉద్యానవనంలోకి వెళ్ళారు.",
-  "అక్కడ పూలు కోస్తున్న ఆకాశరాజు కూతురు పద్మావతిని చూసి ఆయన మనసు పారేసుకున్నారు.",
-  "తర్వాత ఆయన సోది చెప్పేవారి వేషంలో రాజభవనంలోకి అడుగుపెట్టారు.",
-  "పద్మావతి శ్రీనివాసుడినే పెళ్ళి చేసుకోవడానికి పుట్టారని ఆ సోదిలో చెప్పారు.",
-  "వకుళాదేవి సంబంధం అడిగితే ఆకాశరాజు సంతోషంగా ఒప్పుకున్నారు.",
-  "పెళ్ళి ఖర్చులకూ, తన సంపదకు రుజువు చూపించడానికీ, శ్రీనివాసుడు ధనానికి అధిపతి కుబేరుడి దగ్గర పెద్ద అప్పు తీసుకున్నారు.",
-  "ఆ పెళ్ళి నారాయణవనంలో జరిగింది, తర్వాత ఆ దంపతులు తిరుమలకు వెళ్ళారు."
- ],
- "cta": "కామెంట్ చేయండి",
- "description": "పురాణ కథ ప్రకారం శ్రీనివాసుడు కుబేరుడి దగ్గర అప్పు తీసుకున్నారు.\nపద్మావతితో పెళ్ళి కోసం ఎందుకో తెలుసుకోండి.",
- "hashtags": ["వెంకటేశ్వర", "Venkateswara", "తిరుమల", "Tirumala", "TeluguStories"],
- "visuals": ["Venkateswara Padmavati wedding painting", "Kubera painting", "Kalyana Venkateswara Temple Narayanavanam"],
- "claims_en": [
-  "According to legend, Venkateswara (Lord of the Seven Hills) obtained a loan.",
-  "Srinivasa was hunting in the forest chasing a wild elephant, which led him into a royal garden.",
-  "Princess Padmavati, daughter of Akasha Raja, was picking flowers there, and Srinivasa fell in love with her.",
-  "The deity came in the disguise of a fortune-teller and was invited into the palace.",
-  "The fortune-teller revealed that Padmavathi was born to marry Vishnu in his avatar as Srinivasa.",
-  "Vakula Devi asked the king for his daughter's hand for Srinivasa and the overjoyed king agreed.",
-  "Srinivasa obtained a large loan from Kubera, the god of wealth, towards the wedding expenses and to provide proof of his wealth.",
-  "According to legends, Venkateswara married Padmavathi at Narayanavanam, after which they moved to Tirumala."
- ]},
- "check": {"ok": true, "problems": [], "by": "claude self-check"},
- "verified": false, "by": "claude-routine", "written": "2026-10-28T19:48", "for_slot": "backup"}
+{
+ "script": {
+  "title": "పెళ్ళి కోసం కుబేరుడి దగ్గర అప్పు చేసిన శ్రీనివాసుడు",
+  "hook_text": "ఏడుకొండలవాడి అప్పు",
+  "kicker": "పురాణ కథ",
+  "sentences": [
+   "కథ ప్రకారం, ఏడుకొండలవాడు కూడా ఒకసారి అప్పు చేశారు.",
+   "శ్రీనివాసుడిగా ఉన్నప్పుడు, ఒకరోజు అడవిలో ఏనుగును వెంటాడుతూ ఆయన ఒక రాజ ఉద్యానవనంలోకి వెళ్ళారు.",
+   "అక్కడ పూలు కోస్తున్న ఆకాశరాజు కూతురు పద్మావతిని చూసి ఆయన మనసు పారేసుకున్నారు.",
+   "తర్వాత ఆయన సోది చెప్పేవారి వేషంలో రాజభవనంలోకి అడుగుపెట్టారు.",
+   "పద్మావతి శ్రీనివాసుడినే పెళ్ళి చేసుకోవడానికి పుట్టారని ఆ సోదిలో చెప్పారు.",
+   "వకుళాదేవి సంబంధం అడిగితే ఆకాశరాజు సంతోషంగా ఒప్పుకున్నారు.",
+   "పెళ్ళి ఖర్చులకూ, తన సంపదకు రుజువు చూపించడానికీ, శ్రీనివాసుడు ధనానికి అధిపతి కుబేరుడి దగ్గర పెద్ద అప్పు తీసుకున్నారు.",
+   "ఆ పెళ్ళి నారాయణవనంలో జరిగింది, తర్వాత ఆ దంపతులు తిరుమలకు వెళ్ళారు."
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "పురాణ కథ ప్రకారం శ్రీనివాసుడు కుబేరుడి దగ్గర అప్పు తీసుకున్నారు.\nపద్మావతితో పెళ్ళి కోసం ఎందుకో తెలుసుకోండి.",
+  "hashtags": [
+   "వెంకటేశ్వర",
+   "Venkateswara",
+   "తిరుమల",
+   "Tirumala",
+   "TeluguStories"
+  ],
+  "visuals": [
+   "Venkateswara Padmavati wedding painting",
+   "Kubera painting",
+   "Kalyana Venkateswara Temple Narayanavanam"
+  ],
+  "claims_en": [
+   "According to legend, Venkateswara (Lord of the Seven Hills) obtained a loan.",
+   "Srinivasa was hunting in the forest chasing a wild elephant, which led him into a royal garden.",
+   "Princess Padmavati, daughter of Akasha Raja, was picking flowers there, and Srinivasa fell in love with her.",
+   "The deity came in the disguise of a fortune-teller and was invited into the palace.",
+   "The fortune-teller revealed that Padmavathi was born to marry Vishnu in his avatar as Srinivasa.",
+   "Vakula Devi asked the king for his daughter's hand for Srinivasa and the overjoyed king agreed.",
+   "Srinivasa obtained a large loan from Kubera, the god of wealth, towards the wedding expenses and to provide proof of his wealth.",
+   "According to legends, Venkateswara married Padmavathi at Narayanavanam, after which they moved to Tirumala."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": true,
+ "by": "claude-routine",
+ "written": "2026-10-28T19:48",
+ "for_slot": "backup",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
+}
