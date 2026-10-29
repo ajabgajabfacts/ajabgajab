@@ -28,6 +28,9 @@ from longcollections import COLLECTIONS, FRAME, ledger, pick_collection
 DIR = HERE / "prewritten_long"
 # katha_long.yml's crons: Sunday Hindi, Wednesday Telugu (Python weekday: Mon=0 ... Sun=6).
 LONG_DAYS = {6: "hi", 2: "te"}
+# One-off runs outside that schedule, dispatched by hand: (date, lang). 2026-10-30 Telugu replaces the 10-28
+# slot GitHub never fired; the 10-29 manual Gemini-written retry ran out of quota after 6 chapters.
+EXTRA = [("2026-10-30", "te")]
 CHAPTERS = 7
 SCALE = 1.8                                  # write.write(chapter=True) scales the Short word range by this
 FRAME_KEYS = ["title", "intro", "outro", "thumb_text", "kicker", "chapter_word", "intro_label", "outro_label",
@@ -45,7 +48,7 @@ def due(days=3):
     out = []
     for i in range(days + 1):
         d = today + dt.timedelta(days=i)
-        lang = LONG_DAYS.get(d.weekday())
+        lang = LONG_DAYS.get(d.weekday()) or dict(EXTRA).get(str(d))
         if not lang or (DIR / f"{lang}_{d}.json").exists():
             continue
         cid = pick_collection(lang)
