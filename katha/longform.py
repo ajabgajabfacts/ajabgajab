@@ -18,64 +18,7 @@ import ai, bank, media, render, write
 from langs import LANGS
 from make import MUSIC, MUSIC_OK, upload
 
-LEDGER = HERE / "longform_ledger.json"
-
-# Collections. `pool(lang)` returns candidate stories in preference order; regional
-# stories are welcome in any language in long-form (a Tamil viewer will watch 9
-# minutes about Konark), but the language's own region goes first.
-def _by(kinds=None, keys=None):
-    def pool(lang):
-        c = [s for s in bank.S if (keys and s["key"] in keys) or (kinds and s["kind"] in kinds)]
-        return sorted(c, key=lambda s: (s["lang"] not in (lang,), s["lang"] != "all"))
-    return pool
-
-COLLECTIONS = {
-    "mysteries": dict(theme="India's most mysterious and unbelievable places", pool=_by(kinds={"wonder", "folk"})),
-    "mahabharata": dict(theme="untold stories of the Mahabharata", pool=_by(keys={
-        "ekalavya", "karna_kavacha", "barbarika", "bhishma_vow", "abhimanyu", "ashwatthama", "gandhari", "yaksha_prashna",
-        "draupadi_akshaya", "karna_after", "krishna_last_day", "samba_pestle", "ganesha_scribe"})),
-    "gods": dict(theme="surprising stories of the gods and their families", pool=_by(keys={
-        "ganesha_head", "ganesha_kartikeya_race", "riddhi_siddhi", "kartikeya_wives", "hanuman_sun", "hanuman_son",
-        "shiva_ganga_jata", "alakshmi", "garuda_vishnu", "ravana_kailash", "vamana_bali", "samudra_manthan", "parashurama"})),
-    "devotion": dict(theme="legends of devotion that moved the gods", pool=_by(keys={
-        "gajendra_moksha", "dhruva", "prahlada_narasimha", "prahlad_after", "markandeya", "savitri_satyavan", "nachiketa",
-        "sudama", "shabari", "jatayu", "kannappa", "meera", "tukaram", "kanhopatra", "andal", "narsinh_mehta"})),
-    "marvels": dict(theme="India's mind-blowing engineering, science and space feats", pool=_by(kinds={"engineering", "space", "science"})),
-    "wild": dict(theme="India's most incredible animals and natural wonders", pool=_by(kinds={"animal", "nature"})),
-    "legends": dict(theme="real Indian legends - kings, queens, saints and sportspeople", pool=_by(kinds={"history", "saint", "sport", "people"})),
-    "food": dict(theme="the surprising origins of India's favourite foods", pool=_by(kinds={"food"})),
-}
-ORDER = ["mysteries", "gods", "marvels", "mahabharata", "wild", "devotion", "legends", "food"]
-
-FRAME = """You write the opening and closing of a {lang_name} YouTube story video for {audience}.
-Theme: {theme}. The chapters, in order (their {lang_name} titles):
-{chapters}
-
-Write in natural spoken {lang_name}, native script. Do NOT state any fact that is not in a chapter title:
-the intro TEASES, it never informs.
-Return JSON:
-{{"title": "{lang_name} video title, max 70 chars, curiosity-driven, true to the chapters",
- "intro": ["3-4 short spoken sentences, 35-55 words total: a gripping hook for the whole video, teasing 2-3 chapters"],
- "outro": ["2 sentences: ask which story amazed them most (comment), then a short line to subscribe for more stories"],
- "thumb_text": "2-4 punchy words in {lang_name} for the thumbnail",
- "kicker": "1-2 word {lang_name} label for the series, like STORIES / MYSTERIES",
- "chapter_word": "the {lang_name} word for 'chapter'",
- "intro_label": "the {lang_name} word for 'introduction'",
- "outro_label": "the {lang_name} word for 'conclusion'",
- "subscribe": "max 3 words in {lang_name}: subscribe",
- "description": "3 lines in {lang_name} describing the video",
- "hashtags": ["6 hashtags without #, mix {lang_name} and English"]}}"""
-
-
-def ledger():
-    return json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else []
-
-
-def pick_collection(lang, force=None):
-    if force:
-        return force
-    n = len([r for r in ledger() if r["lang"] == lang])
-    return ORDER[n % len(ORDER)]
+from longcollections import COLLECTIONS, FRAME, LEDGER, ORDER, ledger, pick_collection   # noqa: F401
 
 
 def segment(L, sentences, shots, hook, kicker, work, name, cta=None):
@@ -141,7 +84,12 @@ def main():
     ap.add_argument("--out", default=str(HERE / "out"))
     a = ap.parse_args()
     L = LANGS[a.lang]
-    cid = pick_collection(a.lang, a.collection)
+    # Claude-written long-form for today (experiment from 2026-10-29, see longplan.py): its collection wins.
+    pre_p = HERE / "prewritten_long" / f"{a.lang}_{dt.datetime.now(dt.timezone.utc).date()}.json"
+    pre = json.loads(pre_p.read_text(encoding="utf-8")) if pre_p.exists() and not a.collection else None
+    if pre:
+        print(f"[long] using Claude-written {pre_p.name}: {len(pre['chapters'])} chapters, {pre['collection']}")
+    cid = pre["collection"] if pre else pick_collection(a.lang, a.collection)
     col = COLLECTIONS[cid]
     used = {k for r in ledger() if r["lang"] == a.lang for k in r["keys"]}
     cands = [s for s in col["pool"](a.lang) if s["key"] not in used] or col["pool"](a.lang)
@@ -149,6 +97,12 @@ def main():
     print(f"[long] {a.lang} / {cid}: {len(cands)} candidates")
 
     chapters = []                                    # (entry, script, shots, sources)
+    claude_n = 0
+    if pre:
+        by_key = {x["key"]: x for x in bank.S}
+        order = [by_key[c["key"]] for c in pre["chapters"] if c["key"] in by_key]
+        scripts = {c["key"]: c["script"] for c in pre["chapters"]}
+        cands = order + [x for x in cands if x["key"] not in scripts]      # spares if a chapter fails
     for e in cands:
         if len(chapters) >= a.chapters:
             break
@@ -157,7 +111,22 @@ def main():
             if not sources:
                 continue
             src = "\n\n".join(f"### {x['title']}\n{x['text']}" for x in sources)
-            s, _ = write.write(e, a.lang, L, src, chapter=True)
+            s = None
+            if pre and e["key"] in scripts:
+                # One Gemini CHECK instead of the writer's rounds; a failing chapter is rewritten as before.
+                w0, w1 = (int(x * 1.8) for x in L.get("words", (85, 110)))
+                sc = scripts[e["key"]]
+                c = ai.json_call(write.CHECK.format(lang_name=L["name"], w0=w0, w1=w1, source=src[:14000],
+                                                    script="\n".join(sc["sentences"]), **write.CHAPTER,
+                                                    claims="\n".join("- " + x for x in sc.get("claims_en", []))),
+                                 models=ai.CHECK_MODELS, temperature=0.1)
+                if c.get("ok"):
+                    s = sc; claude_n += 1
+                    print(f"[long] Claude chapter {e['key']} passed the check")
+                else:
+                    print(f"[long] Claude chapter {e['key']} failed the check, Gemini rewrites it: {c.get('problems', [])[:2]}")
+            if s is None:
+                s, _ = write.write(e, a.lang, L, src, chapter=True)
             story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", [])[:4])
             shots = media.images(e, s.get("visuals"), story_en, need=8)
             if len(shots) < 4:
@@ -169,8 +138,13 @@ def main():
     if len(chapters) < min(3, a.chapters):
         raise SystemExit(f"only {len(chapters)} chapters passed")
 
-    fr = ai.json_call(FRAME.format(lang_name=L["name"], audience=L["audience"], theme=col["theme"],
-                                   chapters="\n".join(f"{i + 1}. {c[1]['title']}" for i, c in enumerate(chapters))))
+    # The Claude frame teases its own chapter titles, so it only stands if every chapter is Claude's, in order.
+    if pre and pre.get("frame") and [c[0]["key"] for c in chapters] == [c["key"] for c in pre["chapters"]][:len(chapters)] \
+            and claude_n == len(chapters):
+        fr = pre["frame"]
+    else:
+        fr = ai.json_call(FRAME.format(lang_name=L["name"], audience=L["audience"], theme=col["theme"],
+                                       chapters="\n".join(f"{i + 1}. {c[1]['title']}" for i, c in enumerate(chapters))))
     (work / "frame.json").write_text(json.dumps(fr, ensure_ascii=False, indent=1), encoding="utf-8")
     best = sorted([sh for c in chapters for sh in c[2]], key=lambda x: -x["score"])
 
@@ -214,7 +188,9 @@ def main():
     print(f"[upload] https://youtube.com/watch?v={vid}")
     led = ledger()
     led.append(dict(date=str(dt.date.today()), lang=a.lang, collection=cid, keys=[c[0]["key"] for c in chapters],
-                    video_id=vid, title=fr["title"], minutes=round(t / 60, 1)))
+                    video_id=vid, title=fr["title"], minutes=round(t / 60, 1),
+                    by="claude" if pre and claude_n == len(chapters) else ("mixed" if claude_n else "gemini"),
+                    claude_chapters=claude_n))
     LEDGER.write_text(json.dumps(led, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
