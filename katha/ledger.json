@@ -554,5 +554,23 @@
   "title": "How Six Companies Built Hoover Dam Two Years Early",
   "seconds": 34.3,
   "slot": 4
+ },
+ {
+  "key": "samba_pestle",
+  "lang": "kn",
+  "date": "2026-10-29",
+  "status": "failed_check",
+  "why": "only 0 usable images"
+ },
+ {
+  "key": "kempegowda",
+  "lang": "kn",
+  "date": "2026-10-29",
+  "utc": "06:47",
+  "status": "posted",
+  "video_id": "BSBO3DSZ95c",
+  "title": "ಎತ್ತುಗಳಿಂದ ಉಳುಮೆ ಮಾಡಿಸಿ ಬೆಂಗಳೂರು ರಸ್ತೆಗಳನ್ನು ನಿರ್ಮಿಸಿದ ಕೆಂಪೇಗೌಡ",
+  "seconds": 38.6,
+  "slot": 0
  }
 ]
