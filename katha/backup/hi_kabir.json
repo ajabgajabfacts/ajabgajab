@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "कबीर के नाम की सौ कविताएँ, असली शायद सिर्फ़ छह",
+  "hook_text": "कबीर के दोहे लिखे नहीं गए",
+  "kicker": "सच्ची कहानी",
+  "sentences": [
+   "संत कबीर के दोहे लिखे नहीं गए थे, बोले गए थे।",
+   "पंद्रहवीं सदी में वाराणसी में जन्मे कबीर जी, स्वामी रामानंद के शिष्य माने जाते हैं।",
+   "उनकी बानियाँ सत्रहवीं सदी तक मुँह-ज़बानी ही आगे बढ़ती रहीं।",
+   "रास्ते में दोहे बदले, और अनजान लोगों ने नए दोहे जोड़कर कबीर के नाम कर दिए।",
+   "विद्वान कहते हैं कि ये बेईमानी नहीं, कबीर के लिए इज़्ज़त थी।",
+   "1915 में टैगोर ने सौ कविताओं का अंग्रेज़ी संग्रह छापा, सॉन्ग्स ऑफ़ कबीर।",
+   "एक आलोचक, वी. सी. मिश्र, का कहना है कि उनमें से सिर्फ़ छह ही असली हैं।",
+   "आपका पसंदीदा कबीर का दोहा सच में उनका है, या किसी चाहने वाले का?"
+  ],
+  "cta": "नीचे कमेंट करें",
+  "description": "कबीर के दोहे सदियों तक सिर्फ़ ज़ुबानी चले।\nटैगोर की सौ कविताओं में असली कितनी?",
+  "hashtags": [
+   "कबीर",
+   "कबीरदास",
+   "Kabir",
+   "SantKabir",
+   "IndianHistory"
+  ],
+  "visuals": [
+   "Kabir painting",
+   "Kabir weaving",
+   "Kabir Chaura Varanasi"
+  ],
+  "claims_en": [
+   "Kabir's poems were verbally composed, not written",
+   "Kabir lived in the 15th century and was born in Varanasi",
+   "Kabir is believed to have been a disciple of Swami Ramananda",
+   "His poems were transmitted viva voce through the 17th century",
+   "Over time poems changed and unknown authors inserted new couplets attributed to Kabir",
+   "Scholars say this was not dishonesty but out of respect for him",
+   "Tagore's English translation and compilation Songs of Kabir was first published in 1915 and has a hundred poems",
+   "Critic V.C. Mishra suggested only six of its hundred poems are authentic"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-29T19:47+00:00",
+ "for_slot": "backup"
+}

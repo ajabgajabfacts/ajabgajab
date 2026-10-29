@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "ಮೈಸೂರು ಹೆಸರಿನ ಹಿಂದಿದೆ ಮಹಿಷಾಸುರನ ಕಥೆ",
+  "hook_text": "ಮೈಸೂರು ಹೆಸರಿನ ಹಿಂದೆ ರಾಕ್ಷಸ",
+  "kicker": "ಪುರಾಣ ಕಥೆ",
+  "sentences": [
+   "ಮೈಸೂರಿಗೆ ಹೆಸರು ಕೊಟ್ಟವನು ಒಬ್ಬ ರಾಕ್ಷಸ ರಾಜ.",
+   "ಅರಮನೆ ನಗರದಿಂದ ಸುಮಾರು 13 ಕಿಲೋಮೀಟರ್ ದೂರದ ಚಾಮುಂಡಿ ಬೆಟ್ಟದ ಮೇಲೆ ಚಾಮುಂಡೇಶ್ವರಿ ದೇವಾಲಯ ಇದೆ.",
+   "ಕರ್ನಾಟಕದ ಜನ ತಾಯಿ ಚಾಮುಂಡೇಶ್ವರಿಯನ್ನು ನಾಡದೇವಿ ಅಂತ ಕರೆಯುತ್ತಾರೆ.",
+   "1659ರಲ್ಲಿ ಬೆಟ್ಟ ಹತ್ತಲು ಸಾವಿರ ಮೆಟ್ಟಿಲುಗಳನ್ನು ಕಟ್ಟಲಾಯಿತು.",
+   "700ನೇ ಮೆಟ್ಟಿಲ ಬಳಿ ಒಂದು ದೊಡ್ಡ ಗ್ರಾನೈಟ್ ನಂದಿ ಕುಳಿತಿದೆ.",
+   "ನಂಬಿಕೆಯ ಪ್ರಕಾರ, ಈ ಬೆಟ್ಟವನ್ನು ಒಂದು ಕಾಲದಲ್ಲಿ ಮಹಿಷಾಸುರ ಆಳುತ್ತಿದ್ದ.",
+   "ಇಲ್ಲೇ ದುರ್ಗಾದೇವಿ ಅವನನ್ನು ಸಂಹರಿಸಿದರು ಎನ್ನಲಾಗುತ್ತದೆ, ಹೀಗಾಗಿ ಈ ಜಾಗ ಮಹಿಷೂರು ಆಯಿತು, ನಂತರ ಮೈಸೂರು.",
+   "ಆಮೇಲೆ ಬ್ರಿಟಿಷರ ಬಾಯಲ್ಲಿ ಅದು ಮೈಸೋರ್ ಆಗಿಬಿಟ್ಟಿತು."
+  ],
+  "cta": "ಕೆಳಗೆ ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಚಾಮುಂಡಿ ಬೆಟ್ಟ ಮತ್ತು ಮೈಸೂರು ಎಂಬ ಹೆಸರಿನ ಹಿಂದಿನ ಪುರಾಣ ಕಥೆ.\nಮಹಿಷೂರು ಹೇಗೆ ಮೈಸೂರು ಆಯಿತು?",
+  "hashtags": [
+   "ಚಾಮುಂಡೇಶ್ವರಿ",
+   "ಮೈಸೂರು",
+   "Mysuru",
+   "ChamundiHills",
+   "KannadaKathe"
+  ],
+  "visuals": [
+   "Chamundeshwari Temple Mysore",
+   "Chamundi Hills Nandi statue",
+   "Mahishasura statue Chamundi Hills"
+  ],
+  "claims_en": [
+   "The Chamundeshwari Temple is on top of Chamundi Hills, about 13 km from the palace city of Mysuru",
+   "People of Karnataka call Chamundeshwari Nada Devi (state goddess)",
+   "In 1659 a staircase of one thousand steps was built up the hill",
+   "There is a huge granite Nandi on the 700th step",
+   "It is believed the hill was ruled by the demon king Mahishasura",
+   "It is believed Goddess Durga slew Mahishasura on top of this hill",
+   "The place was later known as Mahishooru and then Mysuru",
+   "The British anglicized it to Mysore",
+   "The name Mysuru comes from Mahishasura (Place of Mahisha)"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-29T19:47+00:00",
+ "for_slot": "backup"
+}

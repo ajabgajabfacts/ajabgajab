@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "He Found the Lost City of Petra in Disguise, With a Goat",
+  "hook_text": "He found a lost city",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "A Swiss traveller went looking for a lost city with a goat.",
+   "It was 1812, and Johann Ludwig Burckhardt was on his way to explore the Niger River.",
+   "Then he heard about a dead city that held the tomb of the Prophet Aaron.",
+   "The West had not known it for centuries.",
+   "He already spoke fluent Arabic, so he dressed as a local.",
+   "The goat came along to be sacrificed in honor of Aaron's Tomb.",
+   "One day of exploring was enough to convince him he had found Petra.",
+   "Close to a million tourists visit every year now, no goat needed."
+  ],
+  "cta": "Comment below",
+  "description": "In 1812 a Swiss traveller in disguise found a city unknown to the West for centuries.\nHis plan involved fluent Arabic and a goat.",
+  "hashtags": [
+   "Petra",
+   "Jordan",
+   "history",
+   "lostcity",
+   "truestory"
+  ],
+  "visuals": [
+   "Petra Al-Khazneh Treasury",
+   "Johann Ludwig Burckhardt portrait",
+   "David Roberts Petra lithograph"
+  ],
+  "claims_en": [
+   "In 1812 Swiss traveller Johann Ludwig Burckhardt reached Petra.",
+   "He brought a goat with him.",
+   "He was on his way to explore the Niger River.",
+   "He heard stories of a dead city that held the tomb of the Prophet Aaron.",
+   "Petra remained unknown to the western world until 1812, after being abandoned by the early Islamic era.",
+   "Burckhardt already spoke Arabic fluently.",
+   "He dressed himself up as a local.",
+   "He intended to sacrifice the goat in honor of Aaron's Tomb.",
+   "After one day of exploring he was convinced he had found the lost city of Petra.",
+   "Close to a million tourists visit Petra every year."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-29T19:44+00:00",
+ "for_slot": "2026-10-30 slot 4"
+}

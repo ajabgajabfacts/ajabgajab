@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "బడికి వెళ్లని తెనాలి రామకృష్ణ రాసిన మహాకావ్యం",
+  "hook_text": "బడి చదువు లేని మహాకవి",
+  "kicker": "నిజమైన కథ",
+  "sentences": [
+   "బడికి వెళ్లని ఓ కవి, తెలుగు పంచకావ్యాల్లో ఒకటి రాశారు.",
+   "ఆయనే తెనాలి రామకృష్ణ, అసలు పేరు గార్లపాటి రామకృష్ణ.",
+   "చిన్నప్పుడే తండ్రి పోవడంతో, తల్లి లక్ష్మమ్మ ఆయన్ని విజయనగరానికి తీసుకెళ్లారు.",
+   "ఒక సాధువు మాటతో ఆయన కాళీమాతను పూజించారని, అమ్మవారు ఆయన గొప్ప కవి అవుతారని దీవించారని కథ చెబుతుంది.",
+   "తర్వాత శ్రీకృష్ణదేవరాయల ఆస్థానంలో అష్టదిగ్గజాల్లో ఒకరయ్యారు.",
+   "అక్కడ ఆయన చమత్కారానికి వికటకవి అనే బిరుదు వచ్చింది.",
+   "కానీ ఆయన రాసిన పాండురంగ మాహాత్మ్యాన్ని తెలుగు పంచకావ్యాల్లో ఒకటిగా లెక్కిస్తారు.",
+   "తెనాలి రామకృష్ణ కథల్లో మీకు బాగా గుర్తున్నది ఏది?"
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "బడి చదువు లేకుండానే మహాకవి అయిన తెనాలి రామకృష్ణ కథ.\nవికటకవి రాసిన పాండురంగ మాహాత్మ్యం.",
+  "hashtags": [
+   "తెనాలిరామకృష్ణ",
+   "వికటకవి",
+   "TenaliRama",
+   "TeluguKatha",
+   "Vijayanagara"
+  ],
+  "visuals": [
+   "Tenali Ramakrishna",
+   "Krishnadevaraya court painting",
+   "Vijayanagara Hampi ruins"
+  ],
+  "claims_en": [
+   "Tenali Ramakrishna did not receive formal education",
+   "His Panduranga Mahatmyam is regarded as one of the five great Telugu Kavyas",
+   "He was born Garlapati Ramakrishna",
+   "After his father's death in his childhood, his mother Lakshmamma took him to Vijayanagara",
+   "As per popular legend, a sage advised him to worship Goddess Kali, and she blessed him, predicting he would become a great poet",
+   "He became one of the Ashtadiggajas in Sri Krishnadevaraya's court",
+   "He earned the title Vikatakavi (jester poet) for his sharp wit and humour"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-29T19:47+00:00",
+ "for_slot": "backup"
+}
