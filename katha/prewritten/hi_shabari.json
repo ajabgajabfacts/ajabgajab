@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "श्री राम ने सैकड़ों ऋषियों को छोड़ शबरी के जूठे बेर क्यों खाए?",
+  "hook_text": "श्री राम ने जूठे फल क्यों खाए?",
+  "kicker": "पौराणिक कथा",
+  "sentences": [
+   "मान्यता है कि श्री राम ने महान ज्ञानियों को छोड़कर जूठे फल खाए।",
+   "कथा के अनुसार, शबरी नाम की वृद्धा ऋष्यमूक पर्वत पर रहती थी।",
+   "वह अपने गुरु मातंग के कहे अनुसार सालों से राम का इंतज़ार कर रही थी।",
+   "वह रोज़ जंगल से बेर चुनती और हर बेर को पहले खुद चखती।",
+   "कड़वे फल फेंककर वह सिर्फ मीठे बेर अपनी टोकरी में रखती थी।",
+   "उसे नहीं पता था कि भगवान को चखा हुआ भोजन नहीं चढ़ाते।",
+   "सैकड़ों योगियों को छोड़कर राम सिर्फ शबरी की कुटिया में आए।",
+   "लक्ष्मण के ऐतराज़ पर राम ने कहा कि भक्ति से मिले इन बेरों से स्वादिष्ट कुछ नहीं।",
+   "क्या किसी का निष्कपट प्रेम नियमों से भी बड़ा हो सकता है?"
+  ],
+  "cta": "नीचे टिप्पणी करें",
+  "description": "रामायण के अनुसार शबरी के अनन्य प्रेम और श्री राम के दर्शन की पौराणिक कथा।",
+  "hashtags": [
+   "Ramayana",
+   "Shabari",
+   "ShriRam",
+   "HindiStories",
+   "Bhakti"
+  ],
+  "visuals": [
+   "Shabari offering berries to Rama painting",
+   "Sage Matanga ashram Ramayana illustration",
+   "Rama eating berries from Shabari artwork"
+  ],
+  "claims_en": [
+   "According to legend, Lord Rama ate berries tasted by Shabari, leaving behind many yogis.",
+   "Shabari lived near Mount Rishyamukha at Sage Matanga's ashram.",
+   "She waited for Rama's arrival for years following her guru Matanga's advice.",
+   "She collected berries daily with a walking stick and tasted each one.",
+   "She kept sweet berries and discarded bitter ones, unaware that offerings must not be tasted.",
+   "Rama bypassed hundreds of other yogis to visit Shabari's ashram due to her sincere devotion.",
+   "When Lakshmana raised concern about tasted berries, Rama stated that nothing equaled berries offered with devotion.",
+   "The story illustrates that in devotion, deities do not see faults."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-29T10:16+00:00",
+ "for_slot": "2026-10-30 slot 2"
+}

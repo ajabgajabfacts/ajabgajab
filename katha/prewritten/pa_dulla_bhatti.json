@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "ਅਕਬਰ ਨੇ ਸ਼ਹਿਜ਼ਾਦੇ ਨੂੰ ਬਾਗੀ ਦੀ ਮਾਂ ਦਾ ਦੁੱਧ ਕਿਉਂ ਪਿਲਾਇਆ?",
+  "hook_text": "ਬਾਗੀ ਦੀ ਮਾਂ ਦਾ ਦੁੱਧ",
+  "kicker": "ਪੰਜਾਬੀ ਲੋਕ ਕਥਾ",
+  "sentences": [
+   "ਅਕਬਰ ਨੇ ਆਪਣੇ ਸ਼ਹਿਜ਼ਾਦੇ ਨੂੰ ਇੱਕ ਬਾਗੀ ਦੀ ਵਿਧਵਾ ਦਾ ਦੁੱਧ ਪਿਲਾਇਆ।",
+   "ਇਹ ਔਰਤ ਲਾਢੀ ਸੀ, ਜਿਸ ਦਾ ਪੁੱਤਰ ਦੁੱਲਾ ਭੱਟੀ ਉਸੇ ਦਿਨ ਜੰਮਿਆ ਸੀ।",
+   "ਦਰਬਾਰੀਆਂ ਦੀ ਸਲਾਹ ਸੀ ਕਿ ਸ਼ਹਿਜ਼ਾਦੇ ਸ਼ੇਖੂ ਦੀ ਬਹਾਦਰੀ ਲਈ ਇਹ ਦੁੱਧ ਜ਼ਰੂਰੀ ਹੈ।",
+   "ਅਕਬਰ ਨੇ ਸੋਚਿਆ ਸੀ ਕਿ ਇਸ ਮਹਿਰਬਾਨੀ ਨਾਲ ਭੱਟੀ ਪਰਿਵਾਰ ਦੀ ਦੁਸ਼ਮਣੀ ਖ਼ਤਮ ਹੋ ਜਾਵੇਗੀ।",
+   "ਪਰ ਵੱਡਾ ਹੋ ਕੇ ਦੁੱਲਾ ਅਕਬਰ ਦੇ ਖ਼ਿਲਾਫ਼ ਹੀ ਸਭ ਤੋਂ ਵੱਡਾ ਬਾਗੀ ਬਣ ਗਿਆ।",
+   "ਉਸ ਨੇ ਅਮੀਰਾਂ ਨੂੰ ਲੁੱਟ ਕੇ ਗ਼ਰੀਬ ਧੀਆਂ ਦੇ ਵਿਆਹ ਕਰਵਾਏ।",
+   "ਸੰਨ 1599 ਵਿੱਚ ਲਾਹੌਰ ਵਿੱਚ ਉਸ ਨੂੰ ਫਾਂਸੀ ਦਿੱਤੀ ਗਈ।",
+   "ਅੱਜ ਵੀ ਲੋਹੜੀ 'ਤੇ 'ਸੁੰਦਰੀ-ਮੁੰਦਰੀਏ' ਗਾ ਕੇ ਪੰਜਾਬ ਉਸੇ ਦੁੱਲੇ ਨੂੰ ਯਾਦ ਕਰਦਾ ਹੈ।"
+  ],
+  "cta": "ਹੇਠਾਂ ਕਮੈਂਟ ਕਰੋ",
+  "description": "ਦੁੱਲਾ ਭੱਟੀ ਅਤੇ ਅਕਬਰ ਦੀ ਇਤਿਹਾਸਿਕ ਕਹਾਣੀ।\nਲੋਹੜੀ ਦੇ ਤਿਉਹਾਰ ਨਾਲ ਜੁੜੀ ਦੁੱਲੇ ਭੱਟੀ ਦੀ ਅਨੋਖੀ ਗਾਥਾ।",
+  "hashtags": [
+   "DullaBhatti",
+   "Lohri",
+   "PunjabHistory",
+   "PunjabiFolklore",
+   "Akbar"
+  ],
+  "visuals": [
+   "Dulla Bhatti painting folklore",
+   "Akbar Mughal emperor court illustration",
+   "Lohri festival bonfire Punjab"
+  ],
+  "claims_en": [
+   "Akbar had his newborn son Shaikhu wet-nursed by Ladhi, whose husband was executed by Akbar for rebelling.",
+   "Ladhi's son Dulla Bhatti was born on the same day as Prince Shaikhu.",
+   "Courtiers advised Akbar that the prince's future bravery depended on being fed by a woman whose son was born on the same day.",
+   "Akbar believed royal patronage would offset future rebellion from the Bhatti family.",
+   "Dulla Bhatti grew up to rebel against Mughal Emperor Akbar.",
+   "Dulla Bhatti engaged in social banditry by robbing the rich and helping poor girls get married.",
+   "Dulla Bhatti was hanged in Lahore in the year 1599.",
+   "The Lohri song 'Sundri-Mundri' is sung in tribute to Dulla Bhatti."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-29T10:09+00:00",
+ "for_slot": "2026-10-30 slot 1"
+}
