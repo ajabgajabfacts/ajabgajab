@@ -1,0 +1,332 @@
+{
+ "lang": "te",
+ "date": "2026-10-30",
+ "collection": "mysteries",
+ "by": "claude-routine",
+ "written": "2026-10-29T19:03Z",
+ "chapters": [
+  {
+   "key": "ramappa",
+   "script": {
+    "title": "నీళ్లలో తేలే ఇటుకలతో శిఖరం కట్టిన శిల్పి రామప్ప",
+    "hook_text": "నీళ్లలో తేలే ఇటుకలు",
+    "kicker": "అద్భుతం",
+    "sentences": [
+     "ఈ గుడి శిఖరంలోని ఇటుకలను నీళ్లలో వేస్తే మునగవు, తేలుతాయి.",
+     "ఇది తెలంగాణలోని పాలంపేట గ్రామంలో ఉన్న రామప్ప గుడి.",
+     "1213లో కాకతీయ సేనాని రేచర్ల రుద్రుడు దీని పని మొదలుపెట్టాడు.",
+     "గణపతిదేవుడి పాలనలో ఇది పూర్తి కావడానికి నలభై ఏళ్లు పట్టింది.",
+     "ప్రధాన కట్టడానికి ఎర్ర ఇసుకరాయి, స్తంభాలకు గ్రానైట్, శిల్పాలకు నల్లటి డోలరైట్ రాయి వాడారు.",
+     "ఆ శిల్పాలు ఎనిమిది వందల ఏళ్లు దాటినా ఇంకా అద్దంలా మెరుస్తున్నాయి.",
+     "పునాదిలో ఇసుక నింపారు, భూకంపం వస్తే అది పరుపులా దెబ్బను పీల్చుకుంటుంది.",
+     "పదిహేడో శతాబ్దంలో పెద్ద భూకంపం వచ్చింది, గుడి తట్టుకుని నిలబడింది.",
+     "కానీ రాతి పైకప్పు మీద ఐదంతస్తుల శిఖరం పెడితే, ఆ బరువు ఎవరు మోస్తారు?",
+     "అక్కడ వాళ్లు ఇటుకనే కొత్తగా తయారుచేశారు.",
+     "బంకమట్టిలో చెట్టు జిగురు, జనపనార, వరి పొట్టు కలిపి కాల్చారు.",
+     "మంటలో జిగురు కాలిపోయి, ఇటుక లోపల చిన్న చిన్న గాలి గుంటలు మిగిలాయి.",
+     "అందుకే ఆ ఇటుకలు నీటికన్నా తేలిక, పైకప్పు మీద భారం తగ్గింది.",
+     "ఇంత తెలివి చూపిన శిల్పి పేరు రామప్ప, గుడికి ఆయన పేరే నిలిచింది.",
+     "దేశంలో తనను కట్టిన శిల్పి పేరుతో పిలవబడే గుడి ఇదొక్కటే."
+    ],
+    "visuals": [
+     "Ramappa Temple Palampet",
+     "Ramappa temple bracket figures madanika",
+     "Rudreshwara temple Warangal vimana"
+    ],
+    "claims_en": [
+     "The vimana of the Ramappa Temple was built with lightweight bricks whose density is below that of water (they float).",
+     "The Ramappa Temple is in Palampet village in Telangana.",
+     "It was commissioned in 1213 by Recherla Rudra, a Kakatiya general.",
+     "It was built over 40 years during the reign of Ganapati.",
+     "The main structure used red/pink sandstone, granite for columns, and dolerite for carved elements.",
+     "The dolerite sculptures have retained a mirror-like polish for more than 800 years.",
+     "The foundation used sand as a cushion to absorb earthquake loads.",
+     "The temple survived a significant earthquake in the 17th century.",
+     "The vimana is five-storied and the lightweight bricks reduced the load on the stone roof.",
+     "The bricks were made of clay mixed with tree gum, jute fiber and rice husks and fired; the gum burned away leaving air pockets.",
+     "The temple is named after the sculptor Ramappa who built it, the only temple in India named after its craftsman."
+    ]
+   }
+  },
+  {
+   "key": "lepakshi",
+   "script": {
+    "title": "నేలను పూర్తిగా తాకని లేపాక్షి స్తంభం",
+    "hook_text": "స్తంభం కింద గుడ్డ దూరుతుంది",
+    "kicker": "రహస్యం",
+    "sentences": [
+     "ఈ గుడిలో ఒక రాతి స్తంభం కింద నుంచి గుడ్డను అటు నుంచి ఇటు లాగొచ్చు.",
+     "ఇది ఆంధ్రప్రదేశ్‌లోని లేపాక్షిలో ఉన్న వీరభద్రస్వామి ఆలయం.",
+     "1530 ప్రాంతంలో విజయనగర రాజు అచ్యుతదేవరాయల కాలంలో దీన్ని కట్టారు.",
+     "కట్టించింది విరూపణ్ణ, వీరణ్ణ అనే అన్నదమ్ములు, వాళ్లు రాజాస్థానంలో అధికారులు.",
+     "గుడి తాబేలు ఆకారంలో ఉన్న గ్రానైట్ గుట్ట మీద ఉంది, అందుకే దాన్ని కూర్మశైలం అంటారు.",
+     "లోపల ప్రతి స్తంభం మీదా, పైకప్పు మీదా శిల్పాలూ రంగుల బొమ్మలే.",
+     "పైకప్పు మీద వీరభద్రుడి ఒక్క బొమ్మే సుమారు 24 అడుగుల పొడవు, 14 అడుగుల వెడల్పు.",
+     "ఆసియాలో ఒకే ఆకారం ఉన్న కుడ్యచిత్రాల్లో ఇదే అతి పెద్దదని భావిస్తారు.",
+     "గుడికి రెండు వందల మీటర్ల దూరంలో ఒకే రాతిలో చెక్కిన నంది ఉంది, దాని ఎత్తు 20 అడుగులు.",
+     "అయినా జనం ఎక్కువగా ఆగేది ఆ ఒక్క స్తంభం దగ్గరే.",
+     "కాగితం అయినా, గుడ్డ అయినా దాని కింద నుంచి దూరిపోతుంది.",
+     "మరి ఆ స్తంభం గాల్లో వేలాడుతోందా?",
+     "లేదు, అది కొద్దిగా పక్కకు జరిగింది, ఒక వైపు మాత్రమే నేలను తాకుతోంది.",
+     "అంత బరువైన రాతి స్తంభం, ఒక్క అంచు మీద ఆనుకుని అలాగే నిలబడి ఉంది."
+    ],
+    "visuals": [
+     "Lepakshi hanging pillar",
+     "Veerabhadra Temple Lepakshi",
+     "Lepakshi Nandi monolith"
+    ],
+    "claims_en": [
+     "Cloth and paper can be passed through a gap between the base of a pillar and the ground at the Lepakshi temple.",
+     "The Veerabhadra temple is in Lepakshi, Andhra Pradesh.",
+     "It was built around 1530 during the reign of Achyuta Deva Raya of the Vijayanagara Empire.",
+     "It was built by brothers Virupanna and Viranna, courtiers of the empire.",
+     "The temple is on a tortoise-shaped granite hillock called Kurma Saila.",
+     "Carvings and paintings cover the pillars and ceilings.",
+     "The Veerabhadra fresco on the ceiling measures roughly 24 by 14 feet and is considered the largest single-figure fresco in Asia.",
+     "A monolithic Nandi 20 feet high stands about 200 metres from the temple.",
+     "The hanging pillar is slightly dislodged and touches the ground only on one side."
+    ]
+   }
+  },
+  {
+   "key": "simhachalam_chandanam",
+   "script": {
+    "title": "ఏడాదంతా చందనం కింద దాగే సింహాచలం స్వామి",
+    "hook_text": "ఏడాదికి ఒక్కరోజే నిజరూపం",
+    "kicker": "పురాణం",
+    "sentences": [
+     "ఈ స్వామి నిజరూపం ఏడాదికి ఒక్క రోజే కనిపిస్తుంది.",
+     "విశాఖపట్నంలో సింహాచలం కొండ మీద శ్రీ వరాహ లక్ష్మీ నరసింహస్వామి కొలువై ఉన్నారు.",
+     "అక్షయ తృతీయ తప్ప మిగతా రోజులన్నీ స్వామి విగ్రహం నిండా చందనం పూసి ఉంచుతారు.",
+     "ఆ చందనం పూతతో విగ్రహం చూడటానికి లింగంలా ఉంటుంది.",
+     "ఇప్పుడున్న ఆలయాన్ని పదమూడో శతాబ్దంలో తూర్పు గంగ వంశ రాజు నరసింహదేవుడు కట్టించారు.",
+     "1268లో ఆయన కుమారుడు భానుదేవుడు ప్రతిష్ఠ చేశారు.",
+     "స్థలపురాణం ప్రకారం, ప్రహ్లాదుడు కోరగా విష్ణుమూర్తి వరాహం, నరసింహం కలిసిన ఒకే రూపంలో వెలిశారు.",
+     "మొదట ఇక్కడ గుడి కట్టింది ప్రహ్లాదుడేనని పురాణం చెబుతుంది.",
+     "కాలక్రమంలో ఆ గుడి శిథిలమై, విగ్రహం మట్టి కింద కప్పబడిపోయిందట.",
+     "తర్వాత పురూరవ మహారాజు, ఊర్వశి ఇక్కడికి వచ్చారు, ఊర్వశికి వచ్చిన కలతో విగ్రహం దొరికింది.",
+     "ఎంత వెతికినా స్వామి పాదాలు మాత్రం దొరకలేదు.",
+     "ఈ రూపంలోనే స్వామి మోక్షం ఇవ్వగలరని ఒక దివ్యవాణి ఊరడించిందని కథ.",
+     "విగ్రహాన్ని ఏడాదంతా చందనంతో కప్పి ఉంచాలని, వైశాఖ మాసం మూడో రోజు మాత్రమే తీయాలని ఊర్వశికి కలలో ఆజ్ఞ వచ్చిందట.",
+     "ఆ ఆచారం ఇప్పటికీ నిష్ఠగా జరుగుతోంది, స్వామి అసలు రూపం ఆ ఒక్క రోజుకే."
+    ],
+    "visuals": [
+     "Simhachalam temple Visakhapatnam",
+     "Varaha Lakshmi Narasimha temple Simhachalam gopuram",
+     "Simhachalam hill temple"
+    ],
+    "claims_en": [
+     "The idol of Varaha Narasimha at Simhachalam is covered with sandalwood paste all year except on Akshaya Tritiya.",
+     "The temple is on the Simhachalam hill in Visakhapatnam and the deity is Varaha Lakshmi Narasimha.",
+     "Covered with the paste, the idol resembles a linga.",
+     "The present temple was built by Eastern Ganga king Narasingha Deva I in the 13th century.",
+     "It was consecrated by his son Bhanudeva I in 1268.",
+     "Legend: at Prahlada's request Vishnu took the combined form of Varaha and Narasimha, and Prahlada built the first temple.",
+     "Legend: the temple decayed and the idol was covered with earth.",
+     "Legend: King Pururava and Urvasi came here and Urvasi located the idol after a dream.",
+     "Legend: Pururava could not find the idol's feet and a divine voice said the deity can give salvation in this form.",
+     "Legend: Urvasi was instructed in a dream that the idol be covered with sandalwood paste all year except the third day of Vaisakha.",
+     "The custom is practiced strictly even today."
+    ]
+   }
+  },
+  {
+   "key": "yaganti",
+   "script": {
+    "title": "పెరుగుతోందని నమ్మే యాగంటి నంది",
+    "hook_text": "పెరుగుతున్న రాతి నంది",
+    "kicker": "నమ్మకం",
+    "sentences": [
+     "యాగంటిలో ఒక రాతి నంది పెరుగుతూనే ఉందని భక్తుల నమ్మకం.",
+     "ఇది నంద్యాల జిల్లాలోని శ్రీ యాగంటి ఉమామహేశ్వర ఆలయం.",
+     "పదిహేనో శతాబ్దంలో సంగమ వంశానికి చెందిన హరిహర బుక్కరాయలు దీన్ని కట్టించారు.",
+     "కథ ప్రకారం, అగస్త్య మహర్షి ఇక్కడ వేంకటేశ్వరస్వామికి గుడి కట్టాలనుకున్నారు.",
+     "కానీ చేయించిన విగ్రహం కాలి గోరు విరిగింది, దాన్ని ప్రతిష్ఠించలేకపోయారు.",
+     "ఆయన తపస్సు చేయగా శివుడు ప్రత్యక్షమై, ఈ చోటు కైలాసంలా ఉంది, శివుడికే సరిపోతుంది అన్నారట.",
+     "అలా ఉమామహేశ్వరులు ఒకే రాతిలో వెలిశారని చెబుతారు.",
+     "కొండ అడుగు నుంచి ఒక నంది నోటి గుండా ఏడాదంతా కోనేట్లోకి నీళ్లు వస్తాయి.",
+     "ఆ నీళ్లు అక్కడికి ఎలా చేరుతున్నాయో ఎవరికీ తెలియదు.",
+     "తపస్సుకు కాకులు అడ్డు వచ్చాయని అగస్త్యుడు శపించారని, అందుకే ఇక్కడికి కాకులు రావని ఐతిహ్యం.",
+     "ఇక గుడి ముందున్న నంది మొదట్లో చాలా చిన్నగా ఉండేదని స్థానికులు చెబుతారు.",
+     "ఒకప్పుడు జనం దాని చుట్టూ ప్రదక్షిణలు చేసేవారట.",
+     "నంది పెరిగిందని ఆలయ సిబ్బంది ఒక స్తంభాన్నే తొలగించారని అంటారు.",
+     "కలియుగం ముగిసినప్పుడు ఈ బసవన్న ప్రాణం పోసుకుని రంకె వేస్తాడని పోతులూరి వీరబ్రహ్మేంద్రస్వామి చెప్పారని భక్తుల విశ్వాసం."
+    ],
+    "visuals": [
+     "Yaganti temple Nandi",
+     "Yaganti Uma Maheswara temple",
+     "Yaganti caves Kurnool"
+    ],
+    "claims_en": [
+     "Devotees believe the stone Nandi at Yaganti keeps increasing in size.",
+     "The temple is the Yaganti Uma Maheswara temple in Nandyal district.",
+     "It was built in the 15th century by Harihara Bukka Raya of the Sangama dynasty.",
+     "Legend: Sage Agastya wanted to build a temple for Venkateswara here but the idol's toe nail broke, so it could not be installed.",
+     "Legend: after Agastya's penance Shiva appeared and said the place suits Shiva as it resembles Kailash.",
+     "Legend: Uma Maheswara were given in a single stone.",
+     "Water flows into the Pushkarini from the bottom of the hill through the mouth of a Nandi all year; no one knows how.",
+     "Legend: Agastya cursed crows that disturbed his penance so they cannot enter the place.",
+     "Locals say the Nandi was initially much smaller and people once did rounds around it.",
+     "It is said the temple staff removed one pillar as the Nandi grew.",
+     "Per Veerabrahmendra Swami, the stone Nandi will come alive and shout when Kali Yuga ends (belief)."
+    ]
+   }
+  },
+  {
+   "key": "belum_caves",
+   "script": {
+    "title": "పొలాల కింద నది తవ్విన బెలుం గుహలు",
+    "hook_text": "నేల కింద మూడు కిలోమీటర్లు",
+    "kicker": "అద్భుతం",
+    "sentences": [
+     "చదునైన నేల కింద మూడు కిలోమీటర్లకు పైగా చీకటి దారులు దాగి ఉన్నాయి.",
+     "ఇవి నంద్యాల జిల్లాలోని బెలుం గుహలు.",
+     "3.23 కిలోమీటర్ల పొడవుతో ఇవి దేశంలోనే రెండో అతిపెద్ద గుహల వ్యవస్థ.",
+     "పైన చూస్తే నేల సమంగానే ఉంటుంది, లోపలికి మూడు సహజ ద్వారాలు మాత్రమే ఉన్నాయి.",
+     "లోపల అన్నిటికంటే లోతైన చోటు నేల నుంచి 150 మీటర్ల కింద ఉంది.",
+     "ఇక్కడ దొరికిన వస్తువులు క్రీస్తుపూర్వం 4500 నాటివి.",
+     "తర్వాతి కాలంలో బౌద్ధ, జైన సన్యాసులు ఈ గుహల్లో ఉండేవారు.",
+     "ఊరి వాళ్లకు ఇవి ఎప్పటినుంచో తెలుసు, 1884లో బ్రిటిష్ భూగర్భ శాస్త్రవేత్త రాబర్ట్ బ్రూస్ ఫుట్ మొదటిసారి రాతలో నమోదు చేశారు.",
+     "1982 నుంచి 1984 వరకు హెర్బర్ట్ డేనియల్ గెబావర్ నాయకత్వంలో ఒక జర్మన్ బృందం వీటి మ్యాప్ గీసింది.",
+     "2015లో ఇక్కడ ఒక కొత్త జీవజాతి దొరికింది, దానికి ఆయన పేరే పెట్టారు.",
+     "మరి ఇంత పొడవైన సొరంగాలు ఎవరు తవ్వారు?",
+     "ఎవరూ కాదు, నీళ్లే తవ్వాయి.",
+     "ఒకప్పటి తడి వాతావరణంలో భూగర్భ జలం సున్నపురాయిని కరిగిస్తూ ఈ దారులు తొలిచింది.",
+     "లోపల నేల మీద పరుచుకున్న మట్టి పొరలు, ఒకప్పుడు ఈ గుహ గుండా పారిన చిత్రావతి నది వదిలినవేనని భావిస్తారు."
+    ],
+    "visuals": [
+     "Belum Caves",
+     "Belum caves stalactites Andhra Pradesh",
+     "Belum caves entrance Kurnool"
+    ],
+    "claims_en": [
+     "The Belum cave system extends 3.23 km under flat terrain.",
+     "Belum Caves are in Nandyal district.",
+     "It is the second-largest cave system in India.",
+     "It has three natural entrances on the ground.",
+     "The deepest point is 150 m below ground.",
+     "Artifacts dated to 4500 BCE were found.",
+     "The caves were later used by Buddhist and Jain ascetics.",
+     "Locals long knew of the caves; British geologist Robert Bruce Foote first documented them in 1884.",
+     "A German team led by Herbert Daniel Gebauer mapped them between 1982 and 1984.",
+     "A new species found in 2015 was named after Gebauer.",
+     "The caves were formed by groundwater dissolving limestone under wetter climatic conditions.",
+     "The sediments inside are interpreted as deposits of the Chitravathi River that once flowed through the cave."
+    ]
+   }
+  },
+  {
+   "key": "vontimitta",
+   "script": {
+    "title": "ఆంజనేయుడు లేని ఒంటిమిట్ట గర్భగుడి",
+    "hook_text": "హనుమ లేని రామాలయం",
+    "kicker": "విశేషం",
+    "sentences": [
+     "ఈ రామాలయం గర్భగుడిలో సీతారామలక్ష్మణులు ఉన్నారు, ఆంజనేయస్వామి మాత్రం కనిపించరు.",
+     "ఇది కడప జిల్లాలోని ఒంటిమిట్ట కోదండరామాలయం, పదహారో శతాబ్దం నాటిది.",
+     "ఆ ప్రాంతంలోనే అతిపెద్ద గుడి అని చెబుతారు.",
+     "తూర్పు వైపు ఉన్న ప్రధాన గోపురం ఐదు అంతస్తులు.",
+     "రంగమండపం 32 స్తంభాల మీద నిలబడి ఉంది, వాటి మీద అప్సరసలు, దేవతల శిల్పాలు.",
+     "స్థానిక కథ ప్రకారం, ఈ గుడిని కట్టింది ఒంటుడు, మిట్టుడు అనే ఇద్దరు బోయ వంశం వాళ్లు.",
+     "ఒకప్పుడు దొంగలుగా బతికి, తర్వాత రామభక్తులుగా మారారట.",
+     "గుడి పూర్తయ్యాక ఆ ఇద్దరూ రాళ్లుగా మారిపోయారని కథ.",
+     "బమ్మెర పోతన ఒంటిమిట్టలోనే ఉంటూ తన మహాభాగవతాన్ని శ్రీరాముడికి అంకితం చేశారు.",
+     "అన్నమాచార్యులు కూడా ఇక్కడికి వచ్చి కీర్తనలు పాడారని చెబుతారు.",
+     "1652లో ఫ్రెంచ్ యాత్రికుడు టావెర్నియర్ ఈ గుడి నిర్మాణాన్ని మెచ్చుకున్నాడు.",
+     "ఇంత పెద్ద గుడిలో ఒక్క లోటు మాత్రం భక్తులకు వెంటనే కనిపిస్తుంది.",
+     "గర్భగుడిలో సీతారామలక్ష్మణుల్ని ముగ్గుర్నీ ఒకే రాతిలో కలిపి చెక్కారు, ఆ శిల్పంలో ఆంజనేయుడు లేరు.",
+     "రాముడి పక్కన లేని ఆంజనేయస్వామికి మాత్రం ఇదే ఊళ్లో విడిగా సొంత గుడి ఉంది."
+    ],
+    "visuals": [
+     "Kodandarama Temple Vontimitta",
+     "Vontimitta temple gopuram",
+     "Vontimitta Rangamantapam pillars"
+    ],
+    "claims_en": [
+     "Hanuman, generally shown with Rama, Sita and Lakshmana, is missing from the sanctum at Vontimitta.",
+     "The Kodandarama Temple is in Vontimitta, Kadapa district, dated to the 16th century.",
+     "It is stated to be the largest temple in the region.",
+     "The east-facing central gopuram has five tiers.",
+     "The Rangamantapam rests on 32 pillars with carvings of apsaras and deities.",
+     "Local legend: it was built by Vontudu and Mittudu of the Boya (nishada) clan, robbers-turned-devotees of Rama, who turned to stone after building it.",
+     "Bammera Potana lived in Vontimitta and dedicated his Maha Bhagavatham to Rama.",
+     "Annamacharya is said to have visited and sung kirtans here.",
+     "French traveller Tavernier visited in 1652 and praised the architecture.",
+     "Rama, Sita and Lakshmana are carved as a composite image from a single rock.",
+     "There is a separate temple for Hanuman here."
+    ]
+   }
+  },
+  {
+   "key": "tenali_rama",
+   "script": {
+    "title": "నవ్వించిన వికటకవి రాసిన మహాకావ్యం",
+    "hook_text": "బడి చదువు లేని మహాకవి",
+    "kicker": "నిజ కథ",
+    "sentences": [
+     "బడి చదువు లేని ఒక కుర్రాడు, తెలుగులో గొప్ప కావ్యాల్లో ఒకటి రాశాడు.",
+     "ఆయన పుట్టిన పేరు గార్లపాటి రామకృష్ణ, ఊరు తెనాలి.",
+     "1480లో పుట్టారు, చిన్నతనంలోనే తండ్రి రామయ్య చనిపోయారు.",
+     "తల్లి లక్ష్మమ్మ ఆ పిల్లవాణ్ని విజయనగరానికి తీసుకెళ్లారు.",
+     "చదువు లేకపోయినా, తెలుసుకోవాలనే ఆకలి ఆయన్ని పండితుణ్ని చేసింది.",
+     "కాళికాదేవిని పూజించగా, అమ్మవారు గొప్ప కవివి అవుతావని దీవించిందని ఒక ఐతిహ్యం.",
+     "తర్వాత శ్రీకృష్ణదేవరాయల ఆస్థానంలో కవిగా, సలహాదారుగా చేరారు.",
+     "రాయల సభలోని ఎనిమిది మంది కవులు, అష్టదిగ్గజాల్లో ఆయన ఒకరు.",
+     "ఆయన చురుకైన హాస్యానికి వచ్చిన బిరుదు వికటకవి.",
+     "రాజపురోహితుడు తాతాచార్యులతో ఆయన సరదా పోటీల కథలు దేశమంతా ప్రసిద్ధి.",
+     "1956లో అక్కినేని నాగేశ్వరరావు ఆయన పాత్రలో సినిమా కూడా వచ్చింది.",
+     "1528లో పాము కాటుతో చనిపోయారని భావిస్తారు, రాయల కంటే ఒక్క ఏడాది ముందు.",
+     "చాలామందికి ఆయన నవ్వించే మనిషిగానే తెలుసు.",
+     "కానీ ఆయన రాసిన పాండురంగ మాహాత్మ్యం, తెలుగు పంచ మహాకావ్యాల్లో ఒకటిగా నిలిచింది.",
+     "నవ్వుల కథల వెనక ఉన్న ఆ మనిషి, మనకు వదిలి వెళ్లింది ఒక మహాకావ్యం."
+    ],
+    "visuals": [
+     "Tenali Ramakrishna statue",
+     "Krishnadevaraya court painting",
+     "Vijayanagara Hampi ruins"
+    ],
+    "claims_en": [
+     "Tenali Ramakrishna had no formal education yet wrote Panduranga Mahatmyam, one of the five great Telugu Kavyas.",
+     "He was born Garlapati Ramakrishna, from Tenali.",
+     "He was born in 1480; his father Garlapati Ramayya died in his childhood.",
+     "His mother Lakshmamma took him to Vijayanagara.",
+     "His thirst for knowledge made him a renowned scholar.",
+     "Legend: Goddess Kali blessed him and predicted he would become a great poet.",
+     "He was a poet and advisor in Krishnadevaraya's court and one of the Ashtadiggajas, eight celebrated poets.",
+     "He earned the title Vikatakavi for his wit and humour.",
+     "Folk tales of his friendly rivalry with Royal Priest Venkata Tathacharya are popular in India.",
+     "A 1956 Telugu film Tenali Ramakrishna starred A. Nageswara Rao.",
+     "He is believed to have died in 1528 from a snakebite, a year before Krishnadevaraya."
+    ]
+   }
+  }
+ ],
+ "frame": {
+  "title": "నీళ్లలో తేలే ఇటుకలు, నేల తాకని స్తంభం | తెలుగు నేల 7 వింతలు",
+  "intro": [
+   "నీళ్లలో తేలే ఇటుకలతో కట్టిన శిఖరం ఒకటి ఉంది.",
+   "నేలను పూర్తిగా తాకని రాతి స్తంభం ఇంకొకటి.",
+   "ఏడాదంతా చందనం కింద దాగే స్వామి, పెరుగుతోందని భక్తులు నమ్మే నంది కూడా ఈ కథల్లో ఉన్నాయి.",
+   "మన తెలుగు నేల మీది ఏడు వింత కథల్లోకి ఇప్పుడే వెళ్దాం."
+  ],
+  "outro": [
+   "ఈ ఏడు కథల్లో మిమ్మల్ని ఎక్కువగా ఆశ్చర్యపరిచింది ఏదో కామెంట్‌లో చెప్పండి.",
+   "ఇలాంటి మరిన్ని కథల కోసం ఛానెల్‌ని సబ్‌స్క్రైబ్ చేయండి."
+  ],
+  "thumb_text": "తేలే ఇటుకలు",
+  "kicker": "రహస్యాలు",
+  "chapter_word": "అధ్యాయం",
+  "intro_label": "పరిచయం",
+  "outro_label": "ముగింపు",
+  "subscribe": "సబ్‌స్క్రైబ్ చేయండి",
+  "description": "నీళ్లలో తేలే ఇటుకలు, నేలను పూర్తిగా తాకని స్తంభం, చందనం కింద దాగే స్వామి.\nరామప్ప, లేపాక్షి, సింహాచలం, యాగంటి, బెలుం గుహలు, ఒంటిమిట్ట, తెనాలి రామకృష్ణ కథలు.\nతెలుగు నేల మీది ఏడు వింతలు, ఒకే వీడియోలో.",
+  "hashtags": [
+   "తెలుగుకథలు",
+   "Ramappa",
+   "Lepakshi",
+   "అద్భుతాలు",
+   "AndhraPradesh",
+   "Telangana"
+  ]
+ }
+}

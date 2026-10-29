@@ -1,0 +1,331 @@
+{
+ "lang": "hi",
+ "date": "2026-11-01",
+ "collection": "marvels",
+ "by": "claude-routine",
+ "written": "2026-10-29T19:03Z",
+ "chapters": [
+  {
+   "key": "zero",
+   "script": {
+    "title": "30 साल के ब्रह्मगुप्त ने शून्य को संख्या बना दिया",
+    "hook_text": "शून्य को संख्या किसने बनाया",
+    "kicker": "गणित",
+    "sentences": [
+     "शून्य को पूरी संख्या मानने वाली सबसे पुरानी ज्ञात किताब एक भारतीय ने लिखी।",
+     "लिखने वाले थे ब्रह्मगुप्त, जो 598 में आज के राजस्थान के भीनमाल में पैदा हुए।",
+     "628 में, सिर्फ 30 साल की उम्र में, उन्होंने ब्राह्मस्फुटसिद्धांत लिखा।",
+     "शून्य जैसे निशान पहले भी थे।",
+     "बेबीलोन के लोग अंकों के बीच बस खाली जगह या एक निशान छोड़ देते थे।",
+     "टॉलेमी और रोमन लोग इसे किसी चीज़ के न होने का चिह्न मानते थे।",
+     "ब्रह्मगुप्त ने शून्य के साथ जोड़ने, घटाने और गुणा करने के बाकायदा नियम लिख दिए।",
+     "शून्य में शून्य जोड़ो तो शून्य, किसी संख्या को शून्य से गुणा करो तो भी शून्य।",
+     "माइनस वाली संख्याओं के नियम भी इसी किताब में मिलते हैं।",
+     "एक जगह वह आज के गणित से अलग चले, उन्होंने शून्य भाग शून्य को शून्य माना।",
+     "फिर उनकी किताबें अरबी में अनुवाद हुईं, और अरबी में शून्य को सिफ्र कहा गया।",
+     "अल-ख़्वारिज़्मी ने भारतीय गिनती पर किताब लिखी, जो बाद में लैटिन में अनुवाद हुई।",
+     "इन्हीं रास्तों से दस अंकों वाली गिनती पूरी दुनिया में फैल गई।",
+     "भीनमाल के उस तीस साल के खगोलशास्त्री की बात आज दुनिया भर की गिनती में ज़िंदा है।"
+    ],
+    "visuals": [
+     "Brahmagupta",
+     "Brahmasphutasiddhanta manuscript",
+     "Bhinmal Rajasthan"
+    ],
+    "claims_en": [
+     "Brahmagupta's Brahmasphutasiddhanta is the earliest known text to treat zero as a number in its own right.",
+     "Brahmagupta was born in 598 in Bhillamala, modern Bhinmal in Rajasthan.",
+     "He composed the Brahmasphutasiddhanta in 628 at age 30.",
+     "The book has 24 chapters and 1008 verses, mostly astronomy with key mathematics chapters.",
+     "Babylonians indicated zero by a space between numerals and later used placeholder signs, not considered a number.",
+     "Ptolemy and the Romans used zero as a symbol for lack of quantity.",
+     "Brahmagupta gave rules for addition, subtraction and multiplication with zero (e.g. sum of two zeros is zero; product of zero and a positive is zero).",
+     "The book is the first to give rules for arithmetic with negative numbers.",
+     "He stated that 0/0 = 0, which differs from modern mathematics.",
+     "His texts were translated into Arabic; the Arabic word sifr came to mean zero as a translation of shunya.",
+     "Al-Khwarizmi wrote a text on Indian arithmetic that was translated into Latin in the 13th century.",
+     "Through these texts the decimal system and Brahmagupta's algorithms spread throughout the world."
+    ]
+   }
+  },
+  {
+   "key": "sushruta",
+   "script": {
+    "title": "गाल की चमड़ी से नई नाक बनाने वाली प्राचीन किताब",
+    "hook_text": "गाल की चमड़ी से नई नाक",
+    "kicker": "विज्ञान",
+    "sentences": [
+     "गाल की चमड़ी से नई नाक बनाना, यह तरीका एक प्राचीन किताब में लिखा है।",
+     "किताब का नाम है सुश्रुत संहिता, आयुर्वेद के बुनियादी ग्रंथों में से एक।",
+     "इसकी सबसे पुरानी बची हुई पांडुलिपि ताड़ के पत्तों पर है, नेपाल की कैसर लाइब्रेरी में।",
+     "लिखने वाले ने इसे रविवार, 13 अप्रैल 878 को पूरा किया था।",
+     "ग्रंथ खुद इससे पुराना है, इसे कई सदियों में कई लोगों ने गढ़ा।",
+     "इसमें 186 अध्याय हैं, 1,120 बीमारियों और 700 औषधीय पौधों का ज़िक्र है।",
+     "चरक संहिता में सर्जरी का बस छोटा सा ज़िक्र है, पर सुश्रुत संहिता में औज़ार, तरीके और ट्रेनिंग, सब का पूरा ब्योरा है।",
+     "ट्रेनिंग का तरीका सुनकर आप मुस्कुरा देंगे।",
+     "चीरा लगाना सीखना है, तो पहले कद्दू, लौकी और ककड़ी पर हाथ साफ करो।",
+     "फिर पानी भरी चमड़े की थैलियों पर अभ्यास करो।",
+     "सर्जरी वाले हिस्से में चमड़ी को खिसकाकर या घुमाकर जोड़ने के कई तरीके दर्ज हैं।",
+     "उन्हीं में वह तरीका भी है, जिसमें कटी हुई नाक को गाल की चमड़ी का एक टुकड़ा लेकर फिर से बनाया जाता है।",
+     "आज जिसे राइनोप्लास्टी कहते हैं, उसका ब्योरा इस पुराने ग्रंथ में पहले से लिखा मिलता है।"
+    ],
+    "visuals": [
+     "Sushruta Samhita manuscript",
+     "Sushruta statue",
+     "palm leaf manuscript Nepal"
+    ],
+    "claims_en": [
+     "The Sushruta Samhita describes reconstructing a nose that has been cut off using a flap of skin from the cheek (rhinoplasty).",
+     "The Sushruta Samhita is one of the foundational texts of Ayurveda.",
+     "Its oldest surviving manuscript is a palm-leaf manuscript at the Kaiser Library, Kathmandu, Nepal.",
+     "The scribe completed it on Sunday, April 13, 878 CE.",
+     "The text is older and was the work of many authors over several centuries.",
+     "It has 186 chapters and describes 1,120 illnesses and 700 medicinal plants.",
+     "The Charaka Samhita mentions surgery only briefly; the Sushruta Samhita describes surgical instruments, procedures and training in detail.",
+     "Students practised incisions on squash, gourd, cucumber and leather bags filled with fluid.",
+     "The text says a physician should put as much effort into preventing disease as curing it.",
+     "It mentions sliding and rotation grafts."
+    ]
+   }
+  },
+  {
+   "key": "raman_effect",
+   "script": {
+    "title": "जहाज़ से समुद्र देखते रमन ने बड़े वैज्ञानिक को गलत पाया",
+    "hook_text": "समुद्र नीला क्यों है",
+    "kicker": "सच्ची कहानी",
+    "sentences": [
+     "जहाज़ से भूमध्य सागर देखते हुए रमन को एक बड़े वैज्ञानिक की बात गलत लगी।",
+     "सी. वी. रमन का जन्म 1888 में तिरुचिरापल्ली में हुआ था।",
+     "19 साल की उम्र में वह कलकत्ता में सरकारी हिसाब-किताब के अफसर बन गए।",
+     "खाली वक्त में, कई बार अजीब घंटों में, वह एक रिसर्च संस्था में प्रयोग करते।",
+     "सितंबर 1921 में वह एस. एस. नारकुंडा जहाज़ से इंग्लैंड से लौट रहे थे।",
+     "तब लॉर्ड रेले का जवाब माना जाता था कि समुद्र बस आसमान की नीली रोशनी लौटाता है।",
+     "रमन के पास थे बस जेब में आने वाला एक स्पेक्ट्रोस्कोप और एक निकॉल प्रिज़्म।",
+     "उन्हीं से उन्होंने समुद्र के पानी को परखा और पुराने जवाब को गलत माना।",
+     "रोशनी पर यह उनकी पहली बड़ी खोज थी, आगे की खोज और बड़ी निकली।",
+     "1928 में छात्र के. एस. कृष्णन के साथ उन्होंने देखा कि पारदर्शी चीज़ से गुज़रकर मुड़ी रोशनी का वेवलेंथ बदल जाता है।",
+     "लेज़र तब थे ही नहीं, उनके पास बस पारे का लैंप और फोटो प्लेट थे।",
+     "इसे रमन इफेक्ट कहा गया, और 1930 में रमन भौतिकी का नोबेल पाने वाले पहले एशियाई बने।",
+     "28 फरवरी 1928 की उस खोज का दिन आज राष्ट्रीय विज्ञान दिवस है।"
+    ],
+    "visuals": [
+     "C. V. Raman",
+     "Raman spectroscope",
+     "Mediterranean Sea ship 1920s"
+    ],
+    "claims_en": [
+     "On a voyage, viewing the Mediterranean Sea, Raman identified the prevailing explanation of the sea's blue colour as incorrect.",
+     "C. V. Raman was born in 1888 in Tiruchirappalli.",
+     "His father was a teacher with a modest income.",
+     "At 19 he joined the Indian Finance Service in Calcutta as Assistant Accountant General.",
+     "He did research at IACS in his own time, even at very unusual hours.",
+     "He had no PhD and had never studied abroad.",
+     "In September 1921 he was returning from England aboard the S. S. Narkunda.",
+     "The prevailing explanation (Lord Rayleigh's) was that the sea's blue was reflected light from the sky.",
+     "He used a pocket-sized spectroscope and a Nicol prism to study the sea water.",
+     "The blue colour of seawater was his first major discovery in the physics of light.",
+     "In 1928 he and his student K. S. Krishnan found that light deflected by a transparent material changes its wavelength.",
+     "Raman and Krishnan used a mercury lamp and photographic plates; lasers did not exist yet; early spectra took hours or days.",
+     "This became the Raman effect; in 1930 Raman won the Nobel Prize in Physics, the first Asian to do so.",
+     "The discovery of 28 February 1928 is celebrated as National Science Day."
+    ]
+   }
+  },
+  {
+   "key": "aryabhata_sat",
+   "script": {
+    "title": "भारत का पहला उपग्रह जो सिर्फ पांच दिन बोला",
+    "hook_text": "पहला उपग्रह, पराई ज़मीन से",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "भारत का पहला उपग्रह सोवियत संघ की ज़मीन से अंतरिक्ष में गया।",
+     "नाम था आर्यभट, छठी सदी के खगोलशास्त्री और गणितज्ञ आर्यभट के नाम पर।",
+     "इसे इसरो ने बनाया, और 19 अप्रैल 1975 को कापुस्तिन यार से सोवियत रॉकेट कॉसमॉस-3एम ने छोड़ा।",
+     "1972 के एक समझौते में सोवियत संघ भारत के उपग्रह छोड़ने को राज़ी हुआ, बदले में उसके जहाज़ भारतीय बंदरगाहों का इस्तेमाल करते।",
+     "उपग्रह की शक्ल भी अनोखी थी, 26 पहलुओं वाला ढांचा, जिसका व्यास 1.4 मीटर था।",
+     "उड़ते ही मुसीबत आई, उपग्रह लड़खड़ाकर घूमने लगा और एक उपकरण की बिजली चली गई।",
+     "इंजीनियरों ने 45वें चक्कर तक उसे संभाल लिया, और वह एक मिनट में 50 बार घूमते हुए स्थिर हो गया।",
+     "पर चार दिन और 60 चक्करों के बाद बिजली की खराबी से सारे प्रयोग रुक गए।",
+     "पांच दिन बाद उससे सिग्नल आने भी बंद हो गए।",
+     "उसका मुख्य ढांचा मार्च 1981 तक चालू रहा।",
+     "1976 से 1997 तक दो रुपये के नोट के पीछे आर्यभट की तस्वीर छपी रहती थी।",
+     "जो उपग्रह सिर्फ पांच दिन बोला, वह इक्कीस साल तक लोगों के हाथों में घूमता रहा।"
+    ],
+    "visuals": [
+     "Aryabhata satellite",
+     "Aryabhata satellite two rupee note",
+     "Kapustin Yar Kosmos-3M"
+    ],
+    "claims_en": [
+     "India's first satellite, Aryabhata, was launched from Soviet territory (Kapustin Yar).",
+     "It was named after the 6th-century astronomer and mathematician Aryabhata.",
+     "It was built by ISRO and launched on 19 April 1975 on a Kosmos-3M rocket.",
+     "The launch was based on an agreement signed in 1972.",
+     "The USSR agreed to launch Indian satellites in exchange for using Indian ports for its ships.",
+     "The satellite was a 26-sided polyhedron 1.4 metres in diameter.",
+     "All faces except the top and bottom were covered with solar cells.",
+     "After launch it tumbled and the aeronomy instrument's power supply failed.",
+     "Engineers stabilised it at 50 revolutions per minute by the 45th orbit.",
+     "A power failure halted experiments after four days and 60 orbits.",
+     "All signals were lost after five days.",
+     "The mainframe remained active till March 1981; it re-entered the atmosphere on 10 February 1992.",
+     "Its image appeared on the reverse of Indian two-rupee notes from 1976 to 1997."
+    ]
+   }
+  },
+  {
+   "key": "mangalyaan",
+   "script": {
+    "title": "कमज़ोर रॉकेट से मंगल तक पहुंचा मंगलयान",
+    "hook_text": "कमज़ोर रॉकेट, मंगल तक सफर",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "मंगलयान का रॉकेट उसे सीधे मंगल भेजने लायक ताकतवर नहीं था।",
+     "यह इसरो का मार्स ऑर्बिटर मिशन था, किसी दूसरे ग्रह के लिए भारत का पहला मिशन।",
+     "इसरो पहले जीएसएलवी से भेजना चाहता था, पर 2010 में वह दो बार नाकाम हुआ, और इंतज़ार में कम से कम तीन साल लगते।",
+     "तो चुना गया पीएसएलवी, जिसमें इतना दम नहीं था।",
+     "5 नवंबर 2013 को यह श्रीहरिकोटा से उड़ा, पर मंगल की तरफ नहीं।",
+     "यह धरती के चारों तरफ एक लंबे अंडाकार चक्कर में करीब एक महीना घूमता रहा।",
+     "पर हर बार धरती के पास आते ही यान अपना इंजन चलाता, और उसका चक्कर बड़ा होता जाता।",
+     "सात बार ऐसा करके, 30 नवंबर 2013 को उसने खुद को मंगल के रास्ते पर धकेल दिया।",
+     "298 दिन के सफर के बाद, 24 सितंबर 2014 को यह मंगल की कक्षा में पहुंच गया।",
+     "भारत मंगल तक पहुंचने वाला एशिया का पहला देश बना, और इसरो पहली ही कोशिश में कामयाब दूसरी एजेंसी।",
+     "करीब 450 करोड़ रुपये का यह मिशन अब तक का सबसे सस्ता मंगल मिशन है।",
+     "जो रॉकेट मंगल तक नहीं पहुंचा सकता था, उसी से निकला यान करीब आठ साल मंगल के चक्कर लगाता रहा।"
+    ],
+    "visuals": [
+     "Mars Orbiter Mission spacecraft",
+     "PSLV-C25 launch",
+     "Mangalyaan Mars image"
+    ],
+    "claims_en": [
+     "The PSLV used for the Mars Orbiter Mission was not powerful enough to place it on a direct-to-Mars trajectory.",
+     "The Mars Orbiter Mission was India's first interplanetary mission, by ISRO.",
+     "ISRO originally intended to use the GSLV.",
+     "The GSLV failed twice in 2010; waiting would have delayed the mission at least three years.",
+     "ISRO switched to the less-powerful PSLV.",
+     "The spacecraft was completed in a record 15 months.",
+     "It launched on 5 November 2013 from Sriharikota into a highly elliptical Earth orbit.",
+     "It spent about a month in Earth orbit.",
+     "It used its own thrusters over multiple perigee burns; seven apogee-raising manoeuvres preceded trans-Mars injection on 30 November 2013.",
+     "After a 298-day transit it entered Mars orbit on 24 September 2014.",
+     "India became the first Asian nation to reach Martian orbit; ISRO was the second agency to succeed on its maiden attempt.",
+     "The mission cost about ₹450 crore, the least-expensive Mars mission to date.",
+     "It orbited Mars for about eight years (since 2014; lost contact in 2022)."
+    ]
+   }
+  },
+  {
+   "key": "chandrayaan3",
+   "script": {
+    "title": "चांद पर उतरने से पहले 30 सेकंड हवा में रुका विक्रम",
+    "hook_text": "चांद के ऊपर 30 सेकंड ठहराव",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "चांद से करीब 150 मीटर ऊपर विक्रम लैंडर आधा मिनट हवा में ठहरा रहा।",
+     "यह चंद्रयान-3 था, जो 14 जुलाई 2023 को श्रीहरिकोटा से रवाना हुआ।",
+     "2019 में चंद्रयान-2 का लैंडर उतरते वक्त रास्ते से भटककर टकरा गया था।",
+     "इस बार लैंडर की टांगें और मज़बूत बनाई गईं, और उतरने के लिए 16 वर्ग किलोमीटर का एक तय इलाका चुना गया।",
+     "निशाना भी आसान नहीं था, चांद का दक्षिणी ध्रुव।",
+     "वहां पहाड़ और गड्ढे ऐसी बेतरतीब रोशनी बनाते हैं कि उतरना बहुत मुश्किल हो जाता है।",
+     "23 अगस्त 2023 को चांद से 30 किलोमीटर ऊपर विक्रम के चारों इंजन ब्रेक की तरह चले।",
+     "साढ़े ग्यारह मिनट बाद वह 7.2 किलोमीटर की ऊंचाई पर था, और लेटी हालत से घूमकर सीधा खड़ा हो गया।",
+     "फिर दो इंजनों से रफ्तार घटाते हुए वह करीब 150 मीटर पर आकर रुक गया।",
+     "धरती पर बैठे लोगों के लिए वह आधा मिनट बहुत लंबा रहा होगा।",
+     "उन करीब 30 सेकंड में लैंडर ने नीचे उतरने की सबसे अच्छी जगह ढूंढी, और फिर धीरे से उतर गया।",
+     "इसके साथ इसरो चांद पर उतरने वाली चौथी अंतरिक्ष एजेंसी बनी, और दक्षिणी ध्रुव के पास नरम लैंडिंग करने वाली इंसानी इतिहास में पहली।"
+    ],
+    "visuals": [
+     "Chandrayaan-3 Vikram lander",
+     "Chandrayaan-3 LVM3 launch",
+     "Pragyan rover Moon"
+    ],
+    "claims_en": [
+     "The Vikram lander hovered at roughly 150 metres above the Moon for about 30 seconds before landing.",
+     "Chandrayaan-3 launched on 14 July 2023 from Sriharikota.",
+     "In 2019 Chandrayaan-2's lander deviated from its trajectory and crashed.",
+     "Chandrayaan-3's impact legs were made stronger and it targeted a 16 km² landing region.",
+     "The landing target was near the lunar south pole.",
+     "Mountains and craters there create unpredictable lighting that makes landing challenging.",
+     "Studies show large amounts of ice there, which could be a source of water, oxygen and fuel.",
+     "On 23 August 2023 the four engines fired as a braking manoeuvre at 30 km above the surface.",
+     "After 11.5 minutes the lander was at 7.2 km and rotated from horizontal to vertical.",
+     "It used two engines to slow to roughly 150 m, hovered about 30 seconds and located an optimal landing spot.",
+     "ISRO became the fourth national space agency to land on the Moon and the first to soft-land near the lunar south pole."
+    ]
+   }
+  },
+  {
+   "key": "chenab_bridge",
+   "script": {
+    "title": "नदी से 359 मीटर ऊपर दौड़ती रेल, चिनाब पुल",
+    "hook_text": "दुनिया का सबसे ऊंचा रेल पुल",
+    "kicker": "इंजीनियरिंग",
+    "sentences": [
+     "चिनाब नदी की तलहटी से 359 मीटर ऊपर रेलगाड़ियां दौड़ती हैं।",
+     "यह जम्मू-कश्मीर के रियासी ज़िले में बना चिनाब रेल पुल है, दुनिया का सबसे ऊंचा रेल पुल।",
+     "इसकी कुल लंबाई 1,315 मीटर है।",
+     "यह रेल लाइन 1970 के दशक के आखिर में सोची गई, क्योंकि सर्दियों में बर्फ से सड़क अक्सर कट जाती थी।",
+     "पर रास्ते में हिमालय की पीर पंजाल पहाड़ियां थीं, और चिनाब की गहरी खाई।",
+     "ज़मीन भूकंप के सबसे खतरनाक ज़ोन पांच में थी, और चट्टानें दरारों से भरी।",
+     "2008 के आखिर में सुरक्षा की चिंता से काम रुक गया, और 2010 में डिज़ाइन बदलकर फिर शुरू हुआ।",
+     "पर असली सवाल था, खाई के ऊपर 467 मीटर का मुख्य हिस्सा कैसे जोड़ा जाए।",
+     "पहले स्टील के खंभे खड़े किए गए, फिर एक डेरिक क्रेन ने मेहराब के टुकड़े एक-एक कर लगाए।",
+     "मेहराब पूरा होने तक अस्थायी तारों ने टुकड़ों को थामे रखा।",
+     "इसमें करीब 28,660 टन स्टील और 84 किलोमीटर बोल्ट और तार लगे।",
+     "यह पुल 8 तीव्रता तक का भूकंप और 266 किलोमीटर प्रति घंटे की हवा झेलने के लिए बना है।",
+     "1970 के दशक का सपना अब उस खाई के ऊपर 120 साल चलने के लिए खड़ा है।"
+    ],
+    "visuals": [
+     "Chenab Rail Bridge",
+     "Chenab bridge arch Reasi",
+     "Chenab river gorge Jammu Kashmir"
+    ],
+    "claims_en": [
+     "The deck of the Chenab Rail Bridge is 359 m above the river bed.",
+     "It is in Reasi district of Jammu and Kashmir and is the highest rail bridge in the world.",
+     "It is 1,315 m long, including a 785 m deck arch bridge.",
+     "The rail line was planned in the late 1970s; the road link is often cut off by snowfall in winter.",
+     "The line passes through the Pir Panjal range and crosses the deep Chenab gorge.",
+     "The site is in seismic zone V with fractured geology.",
+     "Construction halted in late 2008 over safety concerns and resumed in 2010 after design modifications.",
+     "Workshops were set up on either side of the valley; electricity was generated locally and water piped from the river.",
+     "The main span is 467 m.",
+     "After steel columns were built, a derrick crane installed the arch sections with temporary cables holding them; special high-strength bolts joined the two ends of the arch.",
+     "About 28,660 tonnes of steel and 84 km of bolts and cables were used.",
+     "It is designed for earthquakes up to magnitude 8 and winds up to 266 km/h.",
+     "It is designed to have a life of 120 years."
+    ]
+   }
+  }
+ ],
+ "frame": {
+  "title": "शून्य से चांद तक, भारत के 7 हैरान करने वाले कारनामे",
+  "intro": [
+   "एक तीस साल के गणितज्ञ ने शून्य को संख्या बना दिया।",
+   "एक प्राचीन किताब गाल की चमड़ी से नई नाक बनाना सिखाती है।",
+   "और एक कमज़ोर रॉकेट के सहारे एक यान मंगल तक जा पहुंचा।",
+   "आज की सात कहानियां शून्य से शुरू होंगी और नदी से 359 मीटर ऊपर दौड़ती रेल पर खत्म।"
+  ],
+  "outro": [
+   "इन सात कहानियों में से किसने आपको सबसे ज़्यादा हैरान किया, कमेंट में ज़रूर बताइए।",
+   "ऐसी और कहानियों के लिए चैनल को सब्सक्राइब कर लीजिए।"
+  ],
+  "thumb_text": "शून्य से चांद तक",
+  "kicker": "कमाल",
+  "chapter_word": "अध्याय",
+  "intro_label": "परिचय",
+  "outro_label": "समापन",
+  "subscribe": "सब्सक्राइब करें",
+  "description": "ब्रह्मगुप्त का शून्य, सुश्रुत संहिता, रमन की खोज और भारत का पहला उपग्रह आर्यभट।\nमंगलयान, चंद्रयान-3 और दुनिया का सबसे ऊंचा रेल पुल, चिनाब ब्रिज।\nभारत के सात कारनामे, एक ही वीडियो में।",
+  "hashtags": [
+   "भारत",
+   "विज्ञान",
+   "ISRO",
+   "Chandrayaan3",
+   "Mangalyaan",
+   "IndianScience"
+  ]
+ }
+}
