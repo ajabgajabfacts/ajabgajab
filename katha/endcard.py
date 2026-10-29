@@ -30,6 +30,7 @@ CHANNELS = {
     "quizora": dict(name="Quizora", tag="A new quiz every day", accent=(46, 230, 192), avatar="brand/avatar_quizora.png"),
     "ajab":    dict(name="अजब गजब", tag=None, accent=(255, 170, 40), avatar="brand/avatar_ajab.png"),
     "wtr":     dict(name="Wait, That's Real?", tag="A new true story every day", accent=(255, 176, 0), avatar="brand/strange_avatar.png"),
+    "l3c":     dict(name="Level 3 Challenge", tag="A new puzzle every day", accent=(40, 200, 170), avatar="brand/avatar_l3c.png"),
 }
 
 
@@ -163,6 +164,7 @@ MOTIFS = {
     "quizora": ([72, 76, 79, 84], [0.05, 0.25, 0.7, 1.2], "pluck"),       # bright rising major arpeggio
     "ajab":    ([62, 64, 66, 69], [0.05, 0.35, 0.7, 1.2], "bell"),        # Sa Re Ga Pa over a drone
     "wtr":     ([57, 60, 64, 63], [0.05, 0.35, 0.7, 1.2], "piano"),       # minor, ending on a raised question
+    "l3c":     ([72, 79, 76, 84], [0.05, 0.2, 0.7, 1.2], "chip"),         # 8-bit "level up" (2026-10-29)
 }
 
 
@@ -177,6 +179,9 @@ def _note(f, n, timbre):
     elif timbre == "bell":
         sig = (np.sin(2 * np.pi * f * t) + 0.5 * np.sin(2 * np.pi * f * 2.76 * t) * np.exp(-t * 4)
                + 0.25 * np.sin(2 * np.pi * f * 5.4 * t) * np.exp(-t * 8)) * np.exp(-t * 2.2)
+    elif timbre == "chip":    # soft square wave, a game's level-up blip
+        sq = np.sign(np.sin(2 * np.pi * f * t)) * 0.5 + 0.5 * np.sin(2 * np.pi * f * t)
+        sig = sq * np.exp(-t * 6) * 0.6
     else:   # soft piano
         sig = sum(np.sin(2 * np.pi * f * h * t * (1 + 0.0004 * h * h)) / h ** 1.8 for h in range(1, 7)) * np.exp(-t * 3)
     a = int(0.006 * SR)
