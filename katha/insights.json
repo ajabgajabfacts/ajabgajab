@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T07:33Z",
+ "updated": "2026-10-29T07:41Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,16 +11,16 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 167,
-     "yt": 84097,
+     "age_h": 191,
+     "yt": 86645,
      "fb": 0,
-     "total": 84097,
-     "likes": 751,
+     "total": 86645,
+     "likes": 764,
      "comments": 7,
-     "avp": 79.2,
+     "avp": 79.46,
      "avd": 28,
-     "subs": 79,
-     "shares": 70,
+     "subs": 90,
+     "shares": 80,
      "retention": {
       "10%": 1.25,
       "50%": 0.73,
@@ -35,20 +35,20 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 128,
-     "yt": 27401,
+     "age_h": 152,
+     "yt": 27631,
      "fb": 0,
-     "total": 27401,
+     "total": 27631,
      "likes": 410,
      "comments": 1,
-     "avp": 70.81,
+     "avp": 72.68,
      "avd": 29,
-     "subs": 18,
-     "shares": 6,
+     "subs": 22,
+     "shares": 8,
      "retention": {
-      "10%": 1.16,
-      "50%": 0.63,
-      "90%": 0.52
+      "10%": 1.18,
+      "50%": 0.65,
+      "90%": 0.53
      }
     },
     {
@@ -59,10 +59,10 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 204,
-     "yt": 1682,
+     "age_h": 229,
+     "yt": 1684,
      "fb": 0,
-     "total": 1682,
+     "total": 1684,
      "likes": 45,
      "comments": 3,
      "avp": 69.62,
@@ -76,25 +76,6 @@
      }
     },
     {
-     "video_id": "j9O18XJ0yh8",
-     "title": "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
-     "key": "karni_mata",
-     "lang": "hi",
-     "kind": "wonder",
-     "seconds": 29.9,
-     "slot": 2,
-     "age_h": 182,
-     "yt": 1341,
-     "fb": 0,
-     "total": 1341,
-     "likes": 15,
-     "comments": 3,
-     "avp": 52.07000000000001,
-     "avd": 15,
-     "subs": 4,
-     "shares": 0
-    },
-    {
      "video_id": "olO9Lk3x7S4",
      "title": "1600 ವರ್ಷ ತುಕ್ಕು ಹಿಡಿಯದ ದೆಹಲಿಯ ಕಬ್ಬಿಣದ ಕಂಬದ ರಹಸ್ಯ!",
      "key": "iron_pillar",
@@ -102,15 +83,34 @@
      "kind": "wonder",
      "seconds": 31.6,
      "slot": 0,
-     "age_h": 50,
-     "yt": 1215,
+     "age_h": 74,
+     "yt": 1354,
      "fb": null,
-     "total": 1215,
-     "likes": 23,
+     "total": 1354,
+     "likes": 24,
      "comments": 1,
-     "avp": 70.82,
-     "avd": 22,
-     "subs": 0,
+     "avp": 79.73,
+     "avd": 25,
+     "subs": 1,
+     "shares": 0
+    },
+    {
+     "video_id": "j9O18XJ0yh8",
+     "title": "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
+     "key": "karni_mata",
+     "lang": "hi",
+     "kind": "wonder",
+     "seconds": 29.9,
+     "slot": 2,
+     "age_h": 206,
+     "yt": 1344,
+     "fb": 0,
+     "total": 1344,
+     "likes": 15,
+     "comments": 3,
+     "avp": 52.07000000000001,
+     "avd": 15,
+     "subs": 4,
      "shares": 0
     },
     {
@@ -121,34 +121,15 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 87,
-     "yt": 1007,
+     "age_h": 111,
+     "yt": 1014,
      "fb": 0,
-     "total": 1007,
-     "likes": 17,
+     "total": 1014,
+     "likes": 18,
      "comments": 1,
-     "avp": 70.89,
+     "avp": 70.27,
      "avd": 24,
      "subs": 1,
-     "shares": 0
-    },
-    {
-     "video_id": "seShlAM_DX8",
-     "title": "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?",
-     "key": "konark",
-     "lang": "or",
-     "kind": "wonder",
-     "seconds": 45.0,
-     "slot": 1,
-     "age_h": 121,
-     "yt": 807,
-     "fb": 0,
-     "total": 807,
-     "likes": 7,
-     "comments": 1,
-     "avp": 54.04,
-     "avd": 24,
-     "subs": 0,
      "shares": 0
     },
     {
@@ -159,11 +140,49 @@
      "kind": "wonder",
      "seconds": 36.8,
      "slot": 1,
-     "age_h": 47,
-     "yt": 750,
+     "age_h": 72,
+     "yt": 872,
      "fb": null,
-     "total": 750,
+     "total": 872,
      "likes": 9,
+     "comments": 1,
+     "avp": 77.59,
+     "avd": 28,
+     "subs": 1,
+     "shares": 1
+    },
+    {
+     "video_id": "seShlAM_DX8",
+     "title": "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?",
+     "key": "konark",
+     "lang": "or",
+     "kind": "wonder",
+     "seconds": 45.0,
+     "slot": 1,
+     "age_h": 146,
+     "yt": 867,
+     "fb": 0,
+     "total": 867,
+     "likes": 7,
+     "comments": 1,
+     "avp": 54.010000000000005,
+     "avd": 24,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "NDbAeh4p6Kg",
+     "title": "నటులు దొరకని అనాథ నాటకమే కూచిపూడిగా మారింది!",
+     "key": "siddhendra_yogi",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 31.6,
+     "slot": 3,
+     "age_h": 15,
+     "yt": 768,
+     "fb": 0,
+     "total": 768,
+     "likes": 10,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -178,13 +197,13 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 114,
-     "yt": 664,
+     "age_h": 138,
+     "yt": 665,
      "fb": 0,
-     "total": 664,
+     "total": 665,
      "likes": 18,
      "comments": 1,
-     "avp": 54.32,
+     "avp": 54.36,
      "avd": 17,
      "subs": 1,
      "shares": 0
@@ -197,10 +216,10 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 217,
-     "yt": 558,
+     "age_h": 241,
+     "yt": 559,
      "fb": 0,
-     "total": 558,
+     "total": 559,
      "likes": 8,
      "comments": 1,
      "avp": 55.50999999999999,
@@ -216,16 +235,35 @@
      "kind": "wonder",
      "seconds": 39.1,
      "slot": 1,
-     "age_h": 191,
-     "yt": 515,
+     "age_h": 216,
+     "yt": 517,
      "fb": 0,
-     "total": 515,
+     "total": 517,
      "likes": 4,
      "comments": 1,
      "avp": 32.02,
      "avd": 12,
      "subs": 0,
      "shares": 0
+    },
+    {
+     "video_id": "pVtaibXIf5Q",
+     "title": "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!",
+     "key": "ahobilam",
+     "lang": "te",
+     "kind": "myth",
+     "seconds": 41.2,
+     "slot": 3,
+     "age_h": 37,
+     "yt": 307,
+     "fb": 0,
+     "total": 307,
+     "likes": 9,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "pfYKgjZGru0",
@@ -235,16 +273,16 @@
      "kind": "saint",
      "seconds": 30.2,
      "slot": 0,
-     "age_h": 74,
-     "yt": 258,
+     "age_h": 98,
+     "yt": 259,
      "fb": null,
-     "total": 258,
+     "total": 259,
      "likes": 6,
      "comments": 1,
-     "avp": 69.76,
+     "avp": 70.22,
      "avd": 21,
      "subs": 0,
-     "shares": 0
+     "shares": 1
     },
     {
      "video_id": "njWNXyqgMSU",
@@ -254,10 +292,10 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 112,
-     "yt": 149,
+     "age_h": 136,
+     "yt": 151,
      "fb": 0,
-     "total": 149,
+     "total": 151,
      "likes": 8,
      "comments": 1,
      "avp": 72.58,
@@ -273,10 +311,10 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 205,
-     "yt": 139,
+     "age_h": 229,
+     "yt": 140,
      "fb": null,
-     "total": 139,
+     "total": 140,
      "likes": 3,
      "comments": 1,
      "avp": 51.57000000000001,
@@ -292,14 +330,14 @@
      "kind": "saint",
      "seconds": 36.7,
      "slot": 1,
-     "age_h": 96,
-     "yt": 121,
+     "age_h": 120,
+     "yt": 127,
      "fb": 0,
-     "total": 121,
+     "total": 127,
      "likes": 2,
      "comments": 1,
-     "avp": 35.26,
-     "avd": 13,
+     "avp": 38.49,
+     "avd": 14,
      "subs": 0,
      "shares": 0
     },
@@ -311,35 +349,16 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 96,
-     "yt": 112,
+     "age_h": 120,
+     "yt": 114,
      "fb": null,
-     "total": 112,
+     "total": 114,
      "likes": 1,
      "comments": 1,
-     "avp": 78.94,
-     "avd": 30,
+     "avp": 80.01,
+     "avd": 31,
      "subs": 0,
      "shares": 0
-    },
-    {
-     "video_id": "pVtaibXIf5Q",
-     "title": "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!",
-     "key": "ahobilam",
-     "lang": "te",
-     "kind": "myth",
-     "seconds": 41.2,
-     "slot": 3,
-     "age_h": 13,
-     "yt": 111,
-     "fb": 0,
-     "total": 111,
-     "likes": 2,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     },
     {
      "video_id": "WhIsN3HJA2A",
@@ -349,16 +368,16 @@
      "kind": "folk",
      "seconds": 29.5,
      "slot": 2,
-     "age_h": 41,
-     "yt": 100,
+     "age_h": 65,
+     "yt": 104,
      "fb": null,
-     "total": 100,
+     "total": 104,
      "likes": 0,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 56.46,
+     "avd": 16,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "4pwBrxbAG2I",
@@ -368,10 +387,10 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 182,
-     "yt": 93,
+     "age_h": 206,
+     "yt": 98,
      "fb": null,
-     "total": 93,
+     "total": 98,
      "likes": 1,
      "comments": 1,
      "avp": 50.03999999999999,
@@ -387,14 +406,14 @@
      "kind": "wonder",
      "seconds": 39.8,
      "slot": 0,
-     "age_h": 122,
-     "yt": 91,
+     "age_h": 146,
+     "yt": 98,
      "fb": null,
-     "total": 91,
+     "total": 98,
      "likes": 1,
      "comments": 1,
-     "avp": 46.54,
-     "avd": 18,
+     "avp": 42.18,
+     "avd": 16,
      "subs": 0,
      "shares": 1
     },
@@ -406,32 +425,13 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 167,
-     "yt": 87,
+     "age_h": 192,
+     "yt": 89,
      "fb": null,
-     "total": 87,
+     "total": 89,
      "likes": 3,
      "comments": 1,
-     "avp": 65.26,
-     "avd": 26,
-     "subs": 0,
-     "shares": 0
-    },
-    {
-     "video_id": "7b9q_RsNtsk",
-     "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
-     "key": "dholavira",
-     "lang": "gu",
-     "kind": "history",
-     "seconds": 38.2,
-     "slot": 1,
-     "age_h": 72,
-     "yt": 76,
-     "fb": null,
-     "total": 76,
-     "likes": 0,
-     "comments": 1,
-     "avp": 64.31,
+     "avp": 62.85000000000001,
      "avd": 25,
      "subs": 0,
      "shares": 0
@@ -444,16 +444,35 @@
      "kind": "myth",
      "seconds": 38.4,
      "slot": 1,
-     "age_h": 23,
-     "yt": 53,
+     "age_h": 47,
+     "yt": 82,
      "fb": null,
-     "total": 53,
+     "total": 82,
      "likes": 1,
      "comments": 1,
      "avp": null,
      "avd": null,
      "subs": null,
      "shares": null
+    },
+    {
+     "video_id": "7b9q_RsNtsk",
+     "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
+     "key": "dholavira",
+     "lang": "gu",
+     "kind": "history",
+     "seconds": 38.2,
+     "slot": 1,
+     "age_h": 96,
+     "yt": 78,
+     "fb": null,
+     "total": 78,
+     "likes": 0,
+     "comments": 1,
+     "avp": 49.27,
+     "avd": 19,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "hlxBJbcPMlI",
@@ -463,10 +482,10 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 161,
-     "yt": 44,
+     "age_h": 185,
+     "yt": 46,
      "fb": null,
-     "total": 44,
+     "total": 46,
      "likes": 0,
      "comments": 1,
      "avp": 34.9,
@@ -482,10 +501,10 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 210,
-     "yt": 43,
+     "age_h": 234,
+     "yt": 44,
      "fb": null,
-     "total": 43,
+     "total": 44,
      "likes": 1,
      "comments": 1,
      "avp": 51.019999999999996,
@@ -501,16 +520,16 @@
      "kind": "saint",
      "seconds": 37.2,
      "slot": 0,
-     "age_h": 26,
-     "yt": 28,
+     "age_h": 50,
+     "yt": 34,
      "fb": null,
-     "total": 28,
+     "total": 34,
      "likes": 1,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 0,
+     "avd": 0,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "PuXYM7yF72Q",
@@ -520,16 +539,54 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 194,
-     "yt": 26,
+     "age_h": 218,
+     "yt": 27,
      "fb": null,
-     "total": 26,
+     "total": 27,
      "likes": 1,
      "comments": 1,
      "avp": 50,
      "avd": 16,
      "subs": 0,
-     "shares": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "iTiyUFCg87g",
+     "title": "திருக்குறளை எழுதியவரின் நிஜ பெயர் திருவள்ளுவர் இல்லையா?",
+     "key": "thiruvalluvar",
+     "lang": "ta",
+     "kind": "saint",
+     "seconds": 34.4,
+     "slot": 1,
+     "age_h": 22,
+     "yt": 19,
+     "fb": 0,
+     "total": 19,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "fJd-TXfAz8g",
+     "title": "गांधारी की एक नज़र से नीला पड़ा युधिष्ठिर का अंगूठा!",
+     "key": "gandhari",
+     "lang": "hi",
+     "kind": "myth",
+     "seconds": 32.3,
+     "slot": 2,
+     "age_h": 43,
+     "yt": 18,
+     "fb": null,
+     "total": 18,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null,
      "retention": null
     },
     {
@@ -540,10 +597,10 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 218,
-     "yt": 15,
+     "age_h": 242,
+     "yt": 16,
      "fb": null,
-     "total": 15,
+     "total": 16,
      "likes": 0,
      "comments": 1,
      "avp": 0,
@@ -560,30 +617,68 @@
      "kind": "wonder",
      "seconds": 33.6,
      "slot": 3,
-     "age_h": 37,
+     "age_h": 61,
      "yt": 12,
      "fb": null,
      "total": 12,
      "likes": 0,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null,
+     "avp": 41.94,
+     "avd": 14,
+     "subs": 0,
+     "shares": 0,
      "retention": null
     },
     {
-     "video_id": "fJd-TXfAz8g",
-     "title": "गांधारी की एक नज़र से नीला पड़ा युधिष्ठिर का अंगूठा!",
-     "key": "gandhari",
+     "video_id": "zYhLck55q9o",
+     "title": "मीरा के हज़ारों भजन, पर पुरानी पोथियों में सिर्फ़ दो!",
+     "key": "meera",
      "lang": "hi",
-     "kind": "myth",
-     "seconds": 32.3,
+     "kind": "saint",
+     "seconds": 38.8,
      "slot": 2,
      "age_h": 18,
-     "yt": 12,
+     "yt": 5,
      "fb": null,
-     "total": 12,
+     "total": 5,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "VFX6Sbw0gx0",
+     "title": "ಜಗತ್ತಿನ 2ನೇ ದೊಡ್ಡ ನಗರದಲ್ಲಿ ಕಾಡುಪ್ರಾಣಿಗಳು ಮಾತ್ರ ಉಳಿದವು!",
+     "key": "hampi",
+     "lang": "kn",
+     "kind": "wonder",
+     "seconds": 33.9,
+     "slot": 0,
+     "age_h": 23,
+     "yt": 3,
+     "fb": null,
+     "total": 3,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "BSBO3DSZ95c",
+     "title": "ಎತ್ತುಗಳಿಂದ ಉಳುಮೆ ಮಾಡಿಸಿ ಬೆಂಗಳೂರು ರಸ್ತೆಗಳನ್ನು ನಿರ್ಮಿಸಿದ ಕೆಂಪೇಗೌಡ",
+     "key": "kempegowda",
+     "lang": "kn",
+     "kind": "history",
+     "seconds": 38.6,
+     "slot": 0,
+     "age_h": 1,
+     "yt": 0,
+     "fb": null,
+     "total": 0,
      "likes": 0,
      "comments": 1,
      "avp": null,
@@ -596,39 +691,39 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 100767
+      "views": 114400
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 1608
+      "views": 1840
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 202
-     },
-     {
-      "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 191
+      "views": 275
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 176
+      "views": 220
+     },
+     {
+      "insightTrafficSourceType": "YT_CHANNEL",
+      "views": 193
      },
      {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 83
+      "views": 97
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 41
+      "views": 45
      },
      {
       "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 25
+      "views": 31
      },
      {
       "insightTrafficSourceType": "NO_LINK_OTHER",
-      "views": 8
+      "views": 11
      },
      {
       "insightTrafficSourceType": "PLAYLIST",
@@ -641,16 +736,16 @@
     ],
     "searches": [
      {
+      "insightTrafficSourceDetail": "mysore history in kannada",
+      "views": 16
+     },
+     {
       "insightTrafficSourceDetail": "mysore palace history",
       "views": 16
      },
      {
       "insightTrafficSourceDetail": "ಮೈಸೂರು ಅರಮನೆ",
-      "views": 14
-     },
-     {
-      "insightTrafficSourceDetail": "mysore history in kannada",
-      "views": 13
+      "views": 15
      },
      {
       "insightTrafficSourceDetail": "mysore palace history in kannada",
@@ -658,6 +753,10 @@
      },
      {
       "insightTrafficSourceDetail": "arjuna elephant",
+      "views": 5
+     },
+     {
+      "insightTrafficSourceDetail": "history of mysore palace in kannada",
       "views": 5
      },
      {
@@ -669,11 +768,23 @@
       "views": 5
      },
      {
-      "insightTrafficSourceDetail": "history of mysore palace in kannada",
+      "insightTrafficSourceDetail": "abhimanyu tiger capture video",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "kannada song",
       "views": 4
      },
      {
       "insightTrafficSourceDetail": "mysore aramane story",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "mysore dussehra",
+      "views": 4
+     },
+     {
+      "insightTrafficSourceDetail": "mysore queen",
       "views": 4
      },
      {
@@ -683,64 +794,48 @@
      {
       "insightTrafficSourceDetail": "ಶಿವಮೊಗ್ಗ ದಸರಾ 2026",
       "views": 4
-     },
-     {
-      "insightTrafficSourceDetail": "alamelamma statue in mysore palace",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "bigg boss season 13 kannada",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "kannada song",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "mysore aramane story kannada",
-      "views": 3
      }
     ],
     "related": [
      {
-      "insightTrafficSourceDetail": "F8sXs0dY_TQ",
-      "views": 37
+      "insightTrafficSourceDetail": "jUd6r1YvFBI",
+      "views": 49
      },
      {
-      "insightTrafficSourceDetail": "jUd6r1YvFBI",
-      "views": 28
+      "insightTrafficSourceDetail": "F8sXs0dY_TQ",
+      "views": 38
      },
      {
       "insightTrafficSourceDetail": "dxueJxQqvPo",
-      "views": 9
+      "views": 14
      },
      {
       "insightTrafficSourceDetail": "gDxnG_sY9fc",
-      "views": 9
+      "views": 14
+     },
+     {
+      "insightTrafficSourceDetail": "aS03bwwXY-E",
+      "views": 5
+     },
+     {
+      "insightTrafficSourceDetail": "2bvRsasRsWY",
+      "views": 4
      },
      {
       "insightTrafficSourceDetail": "dyhvaOOnT_g",
       "views": 4
      },
      {
-      "insightTrafficSourceDetail": "2bvRsasRsWY",
+      "insightTrafficSourceDetail": "DXkqp1y5MXg",
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "_KvRSd96nt0",
+      "insightTrafficSourceDetail": "PCXbUkcOPyA",
       "views": 3
      },
      {
-      "insightTrafficSourceDetail": "aS03bwwXY-E",
+      "insightTrafficSourceDetail": "QVInpMwIQRI",
       "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "6nXUssKDijo",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "OPp_6t77jHk",
-      "views": 2
      }
     ],
     "audience": [
@@ -757,22 +852,22 @@
      {
       "ageGroup": "age18-24",
       "gender": "female",
-      "viewerPercentage": 3.7
+      "viewerPercentage": 3.6
      },
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 4.8
+      "viewerPercentage": 4.7
      },
      {
       "ageGroup": "age25-34",
       "gender": "female",
-      "viewerPercentage": 7.4
+      "viewerPercentage": 7.3
      },
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 12.1
+      "viewerPercentage": 11.9
      },
      {
       "ageGroup": "age35-44",
@@ -782,43 +877,43 @@
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 13.2
+      "viewerPercentage": 12.9
      },
      {
       "ageGroup": "age45-54",
       "gender": "female",
-      "viewerPercentage": 8
+      "viewerPercentage": 8.3
      },
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 12.6
+      "viewerPercentage": 12.5
      },
      {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 5.5
+      "viewerPercentage": 5.7
      },
      {
       "ageGroup": "age55-64",
       "gender": "male",
-      "viewerPercentage": 10
+      "viewerPercentage": 10.1
      },
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 4.2
+      "viewerPercentage": 4.4
      },
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 8
+      "viewerPercentage": 8.2
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 101316
+      "views": 115282
      },
      {
       "country": "US",
@@ -843,77 +938,77 @@
     ]
    },
    "lang_weights": {
-    "mr": {
-     "w": 0.82,
-     "n": 2,
-     "median": 418
-    },
     "or": {
-     "w": 1.12,
+     "w": 1.35,
      "n": 1,
-     "median": 807
+     "median": 867
+    },
+    "kn": {
+     "w": 2.0,
+     "n": 4,
+     "median": 14492
+    },
+    "mr": {
+     "w": 1.03,
+     "n": 2,
+     "median": 480
+    },
+    "gu": {
+     "w": 0.62,
+     "n": 3,
+     "median": 98
+    },
+    "ml": {
+     "w": 0.82,
+     "n": 1,
+     "median": 114
+    },
+    "bn": {
+     "w": 0.91,
+     "n": 2,
+     "median": 299
     },
     "pa": {
      "w": 1.0,
      "n": 0,
      "median": null
     },
-    "ml": {
-     "w": 0.71,
-     "n": 1,
-     "median": 112
-    },
-    "gu": {
-     "w": 0.5,
-     "n": 3,
-     "median": 91
-    },
     "ta": {
-     "w": 0.89,
+     "w": 1.17,
      "n": 2,
-     "median": 408
-    },
-    "bn": {
-     "w": 1.0,
-     "n": 1,
-     "median": 515
-    },
-    "kn": {
-     "w": 2.5,
-     "n": 3,
-     "median": 27401
+     "median": 409
     }
    },
    "kind_weights": {
-    "history": {
-     "w": 1.63,
-     "n": 6,
-     "median": 611
-    },
-    "folk": {
-     "w": 0.73,
-     "n": 2,
-     "median": 71
-    },
-    "saint": {
-     "w": 1.25,
-     "n": 5,
-     "median": 149
-    },
     "myth": {
-     "w": 0.63,
-     "n": 4,
-     "median": 68
+     "w": 0.67,
+     "n": 7,
+     "median": 82
     },
     "wonder": {
-     "w": 1.39,
+     "w": 1.41,
      "n": 8,
-     "median": 632
+     "median": 692
+    },
+    "folk": {
+     "w": 0.76,
+     "n": 2,
+     "median": 74
     },
     "engineering": {
      "w": 1.41,
      "n": 1,
-     "median": 84097
+     "median": 86645
+    },
+    "history": {
+     "w": 1.67,
+     "n": 6,
+     "median": 612
+    },
+    "saint": {
+     "w": 1.1,
+     "n": 6,
+     "median": 145
     }
    },
    "proven_titles": {
@@ -925,17 +1020,17 @@
     "te": [
      "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
      "బాబర్ దృష్టిలో భారతదేశంలో అత్యంత శక్తివంతమైన రాజు ఎవరు?",
-     "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!"
+     "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!"
     ],
     "hi": [
      "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
      "झांसी की रानी को अंग्रेजों ने खुद क्यों सौंपा था राज?"
     ],
-    "or": [
-     "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?"
-    ],
     "mr": [
      "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव"
+    ],
+    "or": [
+     "କୋଣାର୍କର ପଥର ଚକ କିପରି ସଠିକ୍ ସମୟ କୁହେ?"
     ],
     "ta": [
      "ஓடும் நீரில் உருவான கல்லணை ரகசியம்!",
@@ -947,10 +1042,29 @@
     "gu": [],
     "ml": []
    },
-   "median_views": 144
+   "median_views": 133
   },
   "en": {
    "videos": [
+    {
+     "video_id": "De3Jpvenw9U",
+     "title": "He Hated the Eiffel Tower, So He Ate Lunch Inside It",
+     "key": "eiffel_temporary",
+     "lang": "en",
+     "kind": "engineering",
+     "seconds": 33.1,
+     "slot": 4,
+     "age_h": 30,
+     "yt": 1075,
+     "fb": null,
+     "total": 1075,
+     "likes": 20,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
     {
      "video_id": "QuK0ISv5OAQ",
      "title": "How an Elevator Operator Survived a 75-Story Plunge",
@@ -959,16 +1073,21 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 79,
+     "age_h": 103,
      "yt": 937,
      "fb": null,
      "total": 937,
      "likes": 29,
      "comments": 1,
-     "avp": 53.71,
+     "avp": 53.25,
      "avd": 19,
      "subs": 1,
-     "shares": 3
+     "shares": 4,
+     "retention": {
+      "10%": 1.14,
+      "50%": 0.43,
+      "90%": 0.31
+     }
     },
     {
      "video_id": "_feULT1yOTQ",
@@ -978,30 +1097,35 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 103,
-     "yt": 724,
+     "age_h": 127,
+     "yt": 727,
      "fb": null,
-     "total": 724,
+     "total": 727,
      "likes": 22,
      "comments": 1,
-     "avp": 74.41,
+     "avp": 74.72,
      "avd": 28,
      "subs": 4,
-     "shares": 0
+     "shares": 0,
+     "retention": {
+      "10%": 1.25,
+      "50%": 0.67,
+      "90%": 0.53
+     }
     },
     {
-     "video_id": "De3Jpvenw9U",
-     "title": "He Hated the Eiffel Tower, So He Ate Lunch Inside It",
-     "key": "eiffel_temporary",
+     "video_id": "16HIUC_rUgA",
+     "title": "How Six Companies Built Hoover Dam Two Years Early",
+     "key": "hoover_dam",
      "lang": "en",
      "kind": "engineering",
-     "seconds": 33.1,
+     "seconds": 34.3,
      "slot": 4,
      "age_h": 6,
-     "yt": 445,
+     "yt": 640,
      "fb": null,
-     "total": 445,
-     "likes": 9,
+     "total": 640,
+     "likes": 19,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -1016,7 +1140,7 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 127,
+     "age_h": 151,
      "yt": 226,
      "fb": null,
      "total": 226,
@@ -1025,7 +1149,12 @@
      "avp": 66.03,
      "avd": 23,
      "subs": 1,
-     "shares": 0
+     "shares": 0,
+     "retention": {
+      "10%": 1.18,
+      "50%": 0.54,
+      "90%": 0.46
+     }
     },
     {
      "video_id": "slr_sN6Kun8",
@@ -1035,27 +1164,32 @@
      "kind": "engineering",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 30,
-     "yt": 159,
+     "age_h": 54,
+     "yt": 208,
      "fb": null,
-     "total": 159,
+     "total": 208,
      "likes": 7,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 73.9,
+     "avd": 25,
+     "subs": 0,
+     "shares": 0,
+     "retention": {
+      "10%": 1.19,
+      "50%": 0.68,
+      "90%": 0.57
+     }
     }
    ],
    "channel": {
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 1789
+      "views": 1934
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 51
+      "views": 71
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
@@ -1066,11 +1200,11 @@
       "views": 3
      },
      {
-      "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 2
+      "insightTrafficSourceType": "EXT_URL",
+      "views": 3
      },
      {
-      "insightTrafficSourceType": "EXT_URL",
+      "insightTrafficSourceType": "YT_CHANNEL",
       "views": 2
      },
      {
@@ -1080,7 +1214,31 @@
     ],
     "searches": [
      {
+      "insightTrafficSourceDetail": "ai car crash prank",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "max verstappen song",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "pranki",
+      "views": 2
+     },
+     {
+      "insightTrafficSourceDetail": "big ben chimes",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "cenote monster",
+      "views": 1
+     },
+     {
       "insightTrafficSourceDetail": "chichen itza",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "deja vu",
       "views": 1
      },
      {
@@ -1092,11 +1250,15 @@
       "views": 1
      },
      {
-      "insightTrafficSourceDetail": "hranice abyss",
+      "insightTrafficSourceDetail": "empire state building elevator",
       "views": 1
      },
      {
       "insightTrafficSourceDetail": "oliver tree",
+      "views": 1
+     },
+     {
+      "insightTrafficSourceDetail": "poop and fart sounds",
       "views": 1
      },
      {
@@ -1149,7 +1311,7 @@
     "countries": [
      {
       "country": "US",
-      "views": 1220
+      "views": 1338
      },
      {
       "country": "GB",
@@ -1164,7 +1326,32 @@
       "views": 28
      }
     ]
-   }
+   },
+   "lang_weights": {},
+   "kind_weights": {
+    "wonder": {
+     "w": 1.11,
+     "n": 1,
+     "median": 727
+    },
+    "history": {
+     "w": 0.99,
+     "n": 2,
+     "median": 581
+    },
+    "engineering": {
+     "w": 0.81,
+     "n": 1,
+     "median": 208
+    }
+   },
+   "proven_titles": {
+    "en": [
+     "How an Elevator Operator Survived a 75-Story Plunge",
+     "Scientists Found a Hidden Abyss Under Chichen Itza"
+    ]
+   },
+   "median_views": 476
   }
  }
 }
