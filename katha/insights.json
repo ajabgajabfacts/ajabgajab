@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T07:41Z",
+ "updated": "2026-10-30T07:46Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,16 +11,16 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 191,
-     "yt": 86645,
+     "age_h": 215,
+     "yt": 88423,
      "fb": 0,
-     "total": 86645,
-     "likes": 764,
+     "total": 88423,
+     "likes": 771,
      "comments": 7,
-     "avp": 79.46,
+     "avp": 79.36,
      "avd": 28,
-     "subs": 90,
-     "shares": 80,
+     "subs": 97,
+     "shares": 85,
      "retention": {
       "10%": 1.25,
       "50%": 0.73,
@@ -35,44 +35,20 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 152,
-     "yt": 27631,
+     "age_h": 176,
+     "yt": 27979,
      "fb": 0,
-     "total": 27631,
-     "likes": 410,
+     "total": 27979,
+     "likes": 413,
      "comments": 1,
-     "avp": 72.68,
+     "avp": 72.62,
      "avd": 29,
-     "subs": 22,
+     "subs": 24,
      "shares": 8,
      "retention": {
       "10%": 1.18,
       "50%": 0.65,
       "90%": 0.53
-     }
-    },
-    {
-     "video_id": "mPah9AIzlXM",
-     "title": "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
-     "key": "kannappa",
-     "lang": "te",
-     "kind": "saint",
-     "seconds": 34.5,
-     "slot": 3,
-     "age_h": 229,
-     "yt": 1684,
-     "fb": 0,
-     "total": 1684,
-     "likes": 45,
-     "comments": 3,
-     "avp": 69.62,
-     "avd": 23,
-     "subs": 2,
-     "shares": 0,
-     "retention": {
-      "10%": 1.22,
-      "50%": 0.61,
-      "90%": 0.48
      }
     },
     {
@@ -83,15 +59,39 @@
      "kind": "wonder",
      "seconds": 31.6,
      "slot": 0,
-     "age_h": 74,
-     "yt": 1354,
+     "age_h": 98,
+     "yt": 1766,
      "fb": null,
-     "total": 1354,
-     "likes": 24,
+     "total": 1766,
+     "likes": 25,
      "comments": 1,
-     "avp": 79.73,
+     "avp": 80.87,
      "avd": 25,
      "subs": 1,
+     "shares": 0,
+     "retention": {
+      "10%": 1.3,
+      "50%": 0.7,
+      "90%": 0.59
+     }
+    },
+    {
+     "video_id": "mPah9AIzlXM",
+     "title": "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
+     "key": "kannappa",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 34.5,
+     "slot": 3,
+     "age_h": 253,
+     "yt": 1685,
+     "fb": 0,
+     "total": 1685,
+     "likes": 45,
+     "comments": 3,
+     "avp": 69.62,
+     "avd": 23,
+     "subs": 2,
      "shares": 0
     },
     {
@@ -102,13 +102,13 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 206,
+     "age_h": 230,
      "yt": 1344,
      "fb": 0,
      "total": 1344,
      "likes": 15,
      "comments": 3,
-     "avp": 52.07000000000001,
+     "avp": 51.99,
      "avd": 15,
      "subs": 4,
      "shares": 0
@@ -121,16 +121,35 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 111,
-     "yt": 1014,
+     "age_h": 135,
+     "yt": 1015,
      "fb": 0,
-     "total": 1014,
+     "total": 1015,
      "likes": 18,
      "comments": 1,
-     "avp": 70.27,
+     "avp": 69.64,
      "avd": 24,
      "subs": 1,
      "shares": 0
+    },
+    {
+     "video_id": "NDbAeh4p6Kg",
+     "title": "నటులు దొరకని అనాథ నాటకమే కూచిపూడిగా మారింది!",
+     "key": "siddhendra_yogi",
+     "lang": "te",
+     "kind": "saint",
+     "seconds": 31.6,
+     "slot": 3,
+     "age_h": 39,
+     "yt": 1004,
+     "fb": 0,
+     "total": 1004,
+     "likes": 15,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "Vt27rHcF7aA",
@@ -140,14 +159,14 @@
      "kind": "wonder",
      "seconds": 36.8,
      "slot": 1,
-     "age_h": 72,
-     "yt": 872,
+     "age_h": 96,
+     "yt": 926,
      "fb": null,
-     "total": 872,
+     "total": 926,
      "likes": 9,
      "comments": 1,
-     "avp": 77.59,
-     "avd": 28,
+     "avp": 75.61,
+     "avd": 27,
      "subs": 1,
      "shares": 1
     },
@@ -159,35 +178,16 @@
      "kind": "wonder",
      "seconds": 45.0,
      "slot": 1,
-     "age_h": 146,
-     "yt": 867,
+     "age_h": 170,
+     "yt": 887,
      "fb": 0,
-     "total": 867,
-     "likes": 7,
+     "total": 887,
+     "likes": 8,
      "comments": 1,
-     "avp": 54.010000000000005,
+     "avp": 53.76,
      "avd": 24,
      "subs": 0,
      "shares": 0
-    },
-    {
-     "video_id": "NDbAeh4p6Kg",
-     "title": "నటులు దొరకని అనాథ నాటకమే కూచిపూడిగా మారింది!",
-     "key": "siddhendra_yogi",
-     "lang": "te",
-     "kind": "saint",
-     "seconds": 31.6,
-     "slot": 3,
-     "age_h": 15,
-     "yt": 768,
-     "fb": 0,
-     "total": 768,
-     "likes": 10,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     },
     {
      "video_id": "Aw4U-tFHkxc",
@@ -197,15 +197,34 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 138,
+     "age_h": 162,
      "yt": 665,
      "fb": 0,
      "total": 665,
      "likes": 18,
      "comments": 1,
-     "avp": 54.36,
+     "avp": 54.59,
      "avd": 17,
      "subs": 1,
+     "shares": 0
+    },
+    {
+     "video_id": "pVtaibXIf5Q",
+     "title": "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!",
+     "key": "ahobilam",
+     "lang": "te",
+     "kind": "myth",
+     "seconds": 41.2,
+     "slot": 3,
+     "age_h": 61,
+     "yt": 587,
+     "fb": 0,
+     "total": 587,
+     "likes": 13,
+     "comments": 1,
+     "avp": 31.489999999999995,
+     "avd": 13,
+     "subs": 0,
      "shares": 0
     },
     {
@@ -216,7 +235,7 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 241,
+     "age_h": 265,
      "yt": 559,
      "fb": 0,
      "total": 559,
@@ -235,7 +254,7 @@
      "kind": "wonder",
      "seconds": 39.1,
      "slot": 1,
-     "age_h": 216,
+     "age_h": 240,
      "yt": 517,
      "fb": 0,
      "total": 517,
@@ -247,25 +266,6 @@
      "shares": 0
     },
     {
-     "video_id": "pVtaibXIf5Q",
-     "title": "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!",
-     "key": "ahobilam",
-     "lang": "te",
-     "kind": "myth",
-     "seconds": 41.2,
-     "slot": 3,
-     "age_h": 37,
-     "yt": 307,
-     "fb": 0,
-     "total": 307,
-     "likes": 9,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "pfYKgjZGru0",
      "title": "9 விஷங்களை கலந்து பழனி முருகன் சிலையை செய்த போகர்!",
      "key": "palani_bhogar",
@@ -273,7 +273,7 @@
      "kind": "saint",
      "seconds": 30.2,
      "slot": 0,
-     "age_h": 98,
+     "age_h": 122,
      "yt": 259,
      "fb": null,
      "total": 259,
@@ -285,6 +285,25 @@
      "shares": 1
     },
     {
+     "video_id": "hW7v4SlDz4Y",
+     "title": "माणसांना नावाऐवजी शिट्टीने हाक मारणारे भारतातील गाव",
+     "key": "kongthong",
+     "lang": "mr",
+     "kind": "wonder",
+     "seconds": 37.6,
+     "slot": 1,
+     "age_h": 23,
+     "yt": 180,
+     "fb": 0,
+     "total": 180,
+     "likes": 1,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "njWNXyqgMSU",
      "title": "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!",
      "key": "annamacharya",
@@ -292,7 +311,7 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 136,
+     "age_h": 160,
      "yt": 151,
      "fb": 0,
      "total": 151,
@@ -311,7 +330,7 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 229,
+     "age_h": 253,
      "yt": 140,
      "fb": null,
      "total": 140,
@@ -330,14 +349,14 @@
      "kind": "saint",
      "seconds": 36.7,
      "slot": 1,
-     "age_h": 120,
-     "yt": 127,
+     "age_h": 144,
+     "yt": 129,
      "fb": 0,
-     "total": 127,
+     "total": 129,
      "likes": 2,
      "comments": 1,
-     "avp": 38.49,
-     "avd": 14,
+     "avp": 40.57,
+     "avd": 15,
      "subs": 0,
      "shares": 0
     },
@@ -349,16 +368,35 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 120,
+     "age_h": 144,
      "yt": 114,
      "fb": null,
      "total": 114,
      "likes": 1,
      "comments": 1,
-     "avp": 80.01,
-     "avd": 31,
+     "avp": 83.24,
+     "avd": 32,
      "subs": 0,
      "shares": 0
+    },
+    {
+     "video_id": "Oe3_8GCTZX4",
+     "title": "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?",
+     "key": "rani_ki_vav",
+     "lang": "gu",
+     "kind": "wonder",
+     "seconds": 39.8,
+     "slot": 0,
+     "age_h": 170,
+     "yt": 107,
+     "fb": null,
+     "total": 107,
+     "likes": 1,
+     "comments": 1,
+     "avp": 44.4,
+     "avd": 17,
+     "subs": 0,
+     "shares": 1
     },
     {
      "video_id": "WhIsN3HJA2A",
@@ -368,13 +406,13 @@
      "kind": "folk",
      "seconds": 29.5,
      "slot": 2,
-     "age_h": 65,
+     "age_h": 90,
      "yt": 104,
      "fb": null,
      "total": 104,
      "likes": 0,
      "comments": 1,
-     "avp": 56.46,
+     "avp": 56.42,
      "avd": 16,
      "subs": 0,
      "shares": 0
@@ -387,35 +425,16 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 206,
-     "yt": 98,
+     "age_h": 230,
+     "yt": 99,
      "fb": null,
-     "total": 98,
+     "total": 99,
      "likes": 1,
      "comments": 1,
      "avp": 50.03999999999999,
      "avd": 20,
      "subs": 0,
      "shares": 0
-    },
-    {
-     "video_id": "Oe3_8GCTZX4",
-     "title": "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?",
-     "key": "rani_ki_vav",
-     "lang": "gu",
-     "kind": "wonder",
-     "seconds": 39.8,
-     "slot": 0,
-     "age_h": 146,
-     "yt": 98,
-     "fb": null,
-     "total": 98,
-     "likes": 1,
-     "comments": 1,
-     "avp": 42.18,
-     "avd": 16,
-     "subs": 0,
-     "shares": 1
     },
     {
      "video_id": "-FKZryAaYj0",
@@ -425,7 +444,7 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 192,
+     "age_h": 216,
      "yt": 89,
      "fb": null,
      "total": 89,
@@ -444,16 +463,16 @@
      "kind": "myth",
      "seconds": 38.4,
      "slot": 1,
-     "age_h": 47,
-     "yt": 82,
+     "age_h": 71,
+     "yt": 85,
      "fb": null,
-     "total": 82,
+     "total": 85,
      "likes": 1,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 71.02,
+     "avd": 27,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "7b9q_RsNtsk",
@@ -463,13 +482,13 @@
      "kind": "history",
      "seconds": 38.2,
      "slot": 1,
-     "age_h": 96,
+     "age_h": 120,
      "yt": 78,
      "fb": null,
      "total": 78,
      "likes": 0,
      "comments": 1,
-     "avp": 49.27,
+     "avp": 49.15,
      "avd": 19,
      "subs": 0,
      "shares": 0
@@ -482,7 +501,7 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 185,
+     "age_h": 209,
      "yt": 46,
      "fb": null,
      "total": 46,
@@ -501,7 +520,7 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 234,
+     "age_h": 258,
      "yt": 44,
      "fb": null,
      "total": 44,
@@ -520,16 +539,54 @@
      "kind": "saint",
      "seconds": 37.2,
      "slot": 0,
-     "age_h": 50,
-     "yt": 34,
+     "age_h": 74,
+     "yt": 39,
      "fb": null,
-     "total": 34,
+     "total": 39,
      "likes": 1,
      "comments": 1,
-     "avp": 0,
-     "avd": 0,
+     "avp": 63.080000000000005,
+     "avd": 23,
      "subs": 0,
-     "shares": 0
+     "shares": 1
+    },
+    {
+     "video_id": "iTiyUFCg87g",
+     "title": "திருக்குறளை எழுதியவரின் நிஜ பெயர் திருவள்ளுவர் இல்லையா?",
+     "key": "thiruvalluvar",
+     "lang": "ta",
+     "kind": "saint",
+     "seconds": 34.4,
+     "slot": 1,
+     "age_h": 47,
+     "yt": 39,
+     "fb": 0,
+     "total": 39,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "nvckHfpRUvQ",
+     "title": "శివలింగం కింద పుట్టి 2,000 ఎకరాలు తడిపే కోనేరు",
+     "key": "mahanandi",
+     "lang": "te",
+     "kind": "engineering",
+     "seconds": 34.4,
+     "slot": 3,
+     "age_h": 13,
+     "yt": 29,
+     "fb": 0,
+     "total": 29,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "PuXYM7yF72Q",
@@ -539,7 +596,7 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 218,
+     "age_h": 242,
      "yt": 27,
      "fb": null,
      "total": 27,
@@ -551,25 +608,6 @@
      "shares": 0
     },
     {
-     "video_id": "iTiyUFCg87g",
-     "title": "திருக்குறளை எழுதியவரின் நிஜ பெயர் திருவள்ளுவர் இல்லையா?",
-     "key": "thiruvalluvar",
-     "lang": "ta",
-     "kind": "saint",
-     "seconds": 34.4,
-     "slot": 1,
-     "age_h": 22,
-     "yt": 19,
-     "fb": 0,
-     "total": 19,
-     "likes": 0,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "fJd-TXfAz8g",
      "title": "गांधारी की एक नज़र से नीला पड़ा युधिष्ठिर का अंगूठा!",
      "key": "gandhari",
@@ -577,17 +615,16 @@
      "kind": "myth",
      "seconds": 32.3,
      "slot": 2,
-     "age_h": 43,
-     "yt": 18,
+     "age_h": 67,
+     "yt": 22,
      "fb": null,
-     "total": 18,
+     "total": 22,
      "likes": 0,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null,
-     "retention": null
+     "avp": 64.73,
+     "avd": 21,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "qDn6fFjJ5eg",
@@ -597,7 +634,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 242,
+     "age_h": 266,
      "yt": 16,
      "fb": null,
      "total": 16,
@@ -606,7 +643,26 @@
      "avp": 0,
      "avd": 0,
      "subs": 0,
-     "shares": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "zYhLck55q9o",
+     "title": "मीरा के हज़ारों भजन, पर पुरानी पोथियों में सिर्फ़ दो!",
+     "key": "meera",
+     "lang": "hi",
+     "kind": "saint",
+     "seconds": 38.8,
+     "slot": 2,
+     "age_h": 42,
+     "yt": 13,
+     "fb": null,
+     "total": 13,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null,
      "retention": null
     },
     {
@@ -617,30 +673,30 @@
      "kind": "wonder",
      "seconds": 33.6,
      "slot": 3,
-     "age_h": 61,
+     "age_h": 85,
      "yt": 12,
      "fb": null,
      "total": 12,
      "likes": 0,
      "comments": 1,
-     "avp": 41.94,
-     "avd": 14,
+     "avp": 39.45,
+     "avd": 13,
      "subs": 0,
      "shares": 0,
      "retention": null
     },
     {
-     "video_id": "zYhLck55q9o",
-     "title": "मीरा के हज़ारों भजन, पर पुरानी पोथियों में सिर्फ़ दो!",
-     "key": "meera",
-     "lang": "hi",
-     "kind": "saint",
-     "seconds": 38.8,
-     "slot": 2,
-     "age_h": 18,
-     "yt": 5,
+     "video_id": "BSBO3DSZ95c",
+     "title": "ಎತ್ತುಗಳಿಂದ ಉಳುಮೆ ಮಾಡಿಸಿ ಬೆಂಗಳೂರು ರಸ್ತೆಗಳನ್ನು ನಿರ್ಮಿಸಿದ ಕೆಂಪೇಗೌಡ",
+     "key": "kempegowda",
+     "lang": "kn",
+     "kind": "history",
+     "seconds": 38.6,
+     "slot": 0,
+     "age_h": 25,
+     "yt": 6,
      "fb": null,
-     "total": 5,
+     "total": 6,
      "likes": 0,
      "comments": 1,
      "avp": null,
@@ -656,10 +712,30 @@
      "kind": "wonder",
      "seconds": 33.9,
      "slot": 0,
-     "age_h": 23,
-     "yt": 3,
+     "age_h": 47,
+     "yt": 5,
      "fb": null,
-     "total": 3,
+     "total": 5,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null,
+     "retention": null
+    },
+    {
+     "video_id": "Lnh_E40SKbo",
+     "title": "श्री राम ने सैकड़ों ऋषियों को छोड़ शबरी के जूठे बेर क्यों खाए?",
+     "key": "shabari",
+     "lang": "hi",
+     "kind": "myth",
+     "seconds": 37.6,
+     "slot": 2,
+     "age_h": 18,
+     "yt": 4,
+     "fb": null,
+     "total": 4,
      "likes": 0,
      "comments": 1,
      "avp": null,
@@ -668,12 +744,12 @@
      "shares": null
     },
     {
-     "video_id": "BSBO3DSZ95c",
-     "title": "ಎತ್ತುಗಳಿಂದ ಉಳುಮೆ ಮಾಡಿಸಿ ಬೆಂಗಳೂರು ರಸ್ತೆಗಳನ್ನು ನಿರ್ಮಿಸಿದ ಕೆಂಪೇಗೌಡ",
-     "key": "kempegowda",
+     "video_id": "PedkVUJtiuM",
+     "title": "ಪೋರ್ಚುಗೀಸರ ನೌಕಾಪಡೆಯನ್ನೇ ಮಣ್ಣು ಮುಕ್ಕಿಸಿದ ಉಳ್ಳಾಲದ ಅಭಯ ರಾಣಿ!",
+     "key": "rani_abbakka",
      "lang": "kn",
      "kind": "history",
-     "seconds": 38.6,
+     "seconds": 31.8,
      "slot": 0,
      "age_h": 1,
      "yt": 0,
@@ -691,35 +767,35 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 114400
+      "views": 120275
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 1840
+      "views": 1986
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 275
+      "views": 324
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 220
+      "views": 247
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 193
+      "views": 197
      },
      {
       "insightTrafficSourceType": "EXT_URL",
-      "views": 97
+      "views": 103
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 45
+      "views": 50
      },
      {
       "insightTrafficSourceType": "SOUND_PAGE",
-      "views": 31
+      "views": 33
      },
      {
       "insightTrafficSourceType": "NO_LINK_OTHER",
@@ -731,7 +807,7 @@
      },
      {
       "insightTrafficSourceType": "HASHTAGS",
-      "views": 3
+      "views": 4
      }
     ],
     "searches": [
@@ -749,6 +825,10 @@
      },
      {
       "insightTrafficSourceDetail": "mysore palace history in kannada",
+      "views": 7
+     },
+     {
+      "insightTrafficSourceDetail": "mysore palace",
       "views": 6
      },
      {
@@ -760,11 +840,11 @@
       "views": 5
      },
      {
-      "insightTrafficSourceDetail": "mysore dussehra festival",
+      "insightTrafficSourceDetail": "mysore dussehra",
       "views": 5
      },
      {
-      "insightTrafficSourceDetail": "mysore palace",
+      "insightTrafficSourceDetail": "mysore dussehra festival",
       "views": 5
      },
      {
@@ -777,10 +857,6 @@
      },
      {
       "insightTrafficSourceDetail": "mysore aramane story",
-      "views": 4
-     },
-     {
-      "insightTrafficSourceDetail": "mysore dussehra",
       "views": 4
      },
      {
@@ -799,22 +875,30 @@
     "related": [
      {
       "insightTrafficSourceDetail": "jUd6r1YvFBI",
-      "views": 49
+      "views": 72
      },
      {
       "insightTrafficSourceDetail": "F8sXs0dY_TQ",
       "views": 38
      },
      {
-      "insightTrafficSourceDetail": "dxueJxQqvPo",
-      "views": 14
+      "insightTrafficSourceDetail": "gDxnG_sY9fc",
+      "views": 19
      },
      {
-      "insightTrafficSourceDetail": "gDxnG_sY9fc",
-      "views": 14
+      "insightTrafficSourceDetail": "dxueJxQqvPo",
+      "views": 15
      },
      {
       "insightTrafficSourceDetail": "aS03bwwXY-E",
+      "views": 7
+     },
+     {
+      "insightTrafficSourceDetail": "DXkqp1y5MXg",
+      "views": 5
+     },
+     {
+      "insightTrafficSourceDetail": "dyhvaOOnT_g",
       "views": 5
      },
      {
@@ -822,19 +906,11 @@
       "views": 4
      },
      {
-      "insightTrafficSourceDetail": "dyhvaOOnT_g",
+      "insightTrafficSourceDetail": "QVInpMwIQRI",
       "views": 4
      },
      {
-      "insightTrafficSourceDetail": "DXkqp1y5MXg",
-      "views": 3
-     },
-     {
       "insightTrafficSourceDetail": "PCXbUkcOPyA",
-      "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "QVInpMwIQRI",
       "views": 3
      }
     ],
@@ -862,7 +938,7 @@
      {
       "ageGroup": "age25-34",
       "gender": "female",
-      "viewerPercentage": 7.3
+      "viewerPercentage": 7.4
      },
      {
       "ageGroup": "age25-34",
@@ -887,7 +963,7 @@
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 12.5
+      "viewerPercentage": 12.4
      },
      {
       "ageGroup": "age55-64",
@@ -907,17 +983,17 @@
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 8.2
+      "viewerPercentage": 8.3
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 115282
+      "views": 121297
      },
      {
       "country": "US",
-      "views": 666
+      "views": 707
      },
      {
       "country": "BD",
@@ -938,77 +1014,77 @@
     ]
    },
    "lang_weights": {
-    "or": {
-     "w": 1.35,
-     "n": 1,
-     "median": 867
-    },
-    "kn": {
-     "w": 2.0,
-     "n": 4,
-     "median": 14492
-    },
-    "mr": {
-     "w": 1.03,
-     "n": 2,
-     "median": 480
-    },
-    "gu": {
-     "w": 0.62,
-     "n": 3,
-     "median": 98
-    },
     "ml": {
-     "w": 0.82,
+     "w": 0.97,
      "n": 1,
      "median": 114
     },
+    "ta": {
+     "w": 1.16,
+     "n": 3,
+     "median": 259
+    },
+    "or": {
+     "w": 1.41,
+     "n": 1,
+     "median": 887
+    },
     "bn": {
-     "w": 0.91,
+     "w": 1.21,
      "n": 2,
-     "median": 299
+     "median": 301
     },
     "pa": {
      "w": 1.0,
      "n": 0,
      "median": null
     },
-    "ta": {
-     "w": 1.17,
+    "gu": {
+     "w": 0.89,
+     "n": 3,
+     "median": 107
+    },
+    "mr": {
+     "w": 1.23,
      "n": 2,
-     "median": 409
+     "median": 507
+    },
+    "kn": {
+     "w": 1.58,
+     "n": 5,
+     "median": 1766
     }
    },
    "kind_weights": {
     "myth": {
-     "w": 0.67,
+     "w": 0.74,
      "n": 7,
-     "median": 82
+     "median": 85
     },
     "wonder": {
-     "w": 1.41,
-     "n": 8,
-     "median": 692
-    },
-    "folk": {
-     "w": 0.76,
-     "n": 2,
-     "median": 74
+     "w": 1.25,
+     "n": 9,
+     "median": 517
     },
     "engineering": {
      "w": 1.41,
      "n": 1,
-     "median": 86645
+     "median": 88423
     },
     "history": {
-     "w": 1.67,
+     "w": 1.7,
      "n": 6,
      "median": 612
     },
+    "folk": {
+     "w": 0.79,
+     "n": 2,
+     "median": 74
+    },
     "saint": {
-     "w": 1.1,
-     "n": 6,
-     "median": 145
+     "w": 1.03,
+     "n": 9,
+     "median": 140
     }
    },
    "proven_titles": {
@@ -1020,7 +1096,7 @@
     "te": [
      "భగవంతుడికి కళ్ళు దానం చేసిన భక్తుడి కథ!",
      "బాబర్ దృష్టిలో భారతదేశంలో అత్యంత శక్తివంతమైన రాజు ఎవరు?",
-     "నల్లమల లోయలో నరసింహస్వామి తొమ్మిది ఆలయాలు!"
+     "నటులు దొరకని అనాథ నాటకమే కూచిపూడిగా మారింది!"
     ],
     "hi": [
      "करणी माता मंदिर: चूहा मरने पर चांदी या सोने का चूहा!",
@@ -1039,10 +1115,12 @@
     "bn": [
      "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?"
     ],
-    "gu": [],
+    "gu": [
+     "નરસિંહ મહેતાનો હાથ સળગ્યો છતાં દર્દ કેમ ન થયો?"
+    ],
     "ml": []
    },
-   "median_views": 133
+   "median_views": 121
   },
   "en": {
    "videos": [
@@ -1054,11 +1132,35 @@
      "kind": "engineering",
      "seconds": 33.1,
      "slot": 4,
-     "age_h": 30,
-     "yt": 1075,
+     "age_h": 54,
+     "yt": 1177,
      "fb": null,
-     "total": 1075,
-     "likes": 20,
+     "total": 1177,
+     "likes": 22,
+     "comments": 1,
+     "avp": 54.010000000000005,
+     "avd": 18,
+     "subs": 1,
+     "shares": 0,
+     "retention": {
+      "10%": 1.19,
+      "50%": 0.45,
+      "90%": 0.37
+     }
+    },
+    {
+     "video_id": "16HIUC_rUgA",
+     "title": "How Six Companies Built Hoover Dam Two Years Early",
+     "key": "hoover_dam",
+     "lang": "en",
+     "kind": "engineering",
+     "seconds": 34.3,
+     "slot": 4,
+     "age_h": 30,
+     "yt": 1118,
+     "fb": null,
+     "total": 1118,
+     "likes": 27,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -1073,13 +1175,13 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 103,
+     "age_h": 127,
      "yt": 937,
      "fb": null,
      "total": 937,
      "likes": 29,
      "comments": 1,
-     "avp": 53.25,
+     "avp": 53.400000000000006,
      "avd": 19,
      "subs": 1,
      "shares": 4,
@@ -1090,6 +1192,25 @@
      }
     },
     {
+     "video_id": "7bfWeJ5R970",
+     "title": "He Found the Lost City of Petra in Disguise, With a Goat",
+     "key": "petra",
+     "lang": "en",
+     "kind": "wonder",
+     "seconds": 27.1,
+     "slot": 4,
+     "age_h": 6,
+     "yt": 934,
+     "fb": null,
+     "total": 934,
+     "likes": 20,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "_feULT1yOTQ",
      "title": "Scientists Found a Hidden Abyss Under Chichen Itza",
      "key": "chichen_itza",
@@ -1097,13 +1218,13 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 127,
+     "age_h": 151,
      "yt": 727,
      "fb": null,
      "total": 727,
      "likes": 22,
      "comments": 1,
-     "avp": 74.72,
+     "avp": 74.78,
      "avd": 28,
      "subs": 4,
      "shares": 0,
@@ -1114,25 +1235,6 @@
      }
     },
     {
-     "video_id": "16HIUC_rUgA",
-     "title": "How Six Companies Built Hoover Dam Two Years Early",
-     "key": "hoover_dam",
-     "lang": "en",
-     "kind": "engineering",
-     "seconds": 34.3,
-     "slot": 4,
-     "age_h": 6,
-     "yt": 640,
-     "fb": null,
-     "total": 640,
-     "likes": 19,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "3HRiGnU6ZcM",
      "title": "When a 25-Foot Wave of Molasses Flooded Boston",
      "key": "molasses_flood",
@@ -1140,7 +1242,7 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 151,
+     "age_h": 175,
      "yt": 226,
      "fb": null,
      "total": 226,
@@ -1164,20 +1266,20 @@
      "kind": "engineering",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 54,
+     "age_h": 78,
      "yt": 208,
      "fb": null,
      "total": 208,
      "likes": 7,
      "comments": 1,
-     "avp": 73.9,
-     "avd": 25,
+     "avp": 65.93,
+     "avd": 22,
      "subs": 0,
      "shares": 0,
      "retention": {
-      "10%": 1.19,
-      "50%": 0.68,
-      "90%": 0.57
+      "10%": 1.14,
+      "50%": 0.59,
+      "90%": 0.48
      }
     }
    ],
@@ -1185,18 +1287,22 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 1934
+      "views": 2430
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 71
+      "views": 86
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 7
+      "views": 8
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceType": "YT_CHANNEL",
       "views": 3
      },
      {
@@ -1204,15 +1310,15 @@
       "views": 3
      },
      {
-      "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 2
-     },
-     {
       "insightTrafficSourceType": "NO_LINK_OTHER",
       "views": 0
      }
     ],
     "searches": [
+     {
+      "insightTrafficSourceDetail": "2026 bmw m340i",
+      "views": 2
+     },
      {
       "insightTrafficSourceDetail": "ai car crash prank",
       "views": 2
@@ -1311,7 +1417,7 @@
     "countries": [
      {
       "country": "US",
-      "views": 1338
+      "views": 1731
      },
      {
       "country": "GB",
@@ -1330,28 +1436,29 @@
    "lang_weights": {},
    "kind_weights": {
     "wonder": {
-     "w": 1.11,
+     "w": 1.0,
      "n": 1,
      "median": 727
     },
     "history": {
-     "w": 0.99,
+     "w": 0.83,
      "n": 2,
      "median": 581
     },
     "engineering": {
-     "w": 0.81,
-     "n": 1,
-     "median": 208
+     "w": 0.86,
+     "n": 2,
+     "median": 692
     }
    },
    "proven_titles": {
     "en": [
+     "He Hated the Eiffel Tower, So He Ate Lunch Inside It",
      "How an Elevator Operator Survived a 75-Story Plunge",
      "Scientists Found a Hidden Abyss Under Chichen Itza"
     ]
    },
-   "median_views": 476
+   "median_views": 727
   }
  }
 }
