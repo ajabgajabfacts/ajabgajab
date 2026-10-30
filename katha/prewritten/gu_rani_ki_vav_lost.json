@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "પાટણની રાણકી વાવ છસો વર્ષ કાદવ નીચે કેમ દબાયેલી રહી?",
+  "hook_text": "છસો વર્ષ જમીનમાં ગાયબ રહી વાવ",
+  "kicker": "સાચી ઘટના",
+  "sentences": [
+   "પાટણનું સાત માળનું આખું સ્થાપત્ય છસો વર્ષ સુધી જમીનમાં ગાયબ હતું.",
+   "અગિયારમી સદીમાં રાણી ઉદયમતીએ સરસ્વતી નદીના કાંઠે આ વાવ બનાવી હતી.",
+   "પછી નદીના કાંપમાં આખી ઇમારત સદીઓ સુધી માટી નીચે દટાઈ ગઈ.",
+   "અઢારસો નેવુંમાં લોકોને ત્યાં માત્ર સિત્યાસી મીટરનો એક મોટો ખાડો દેખાતો હતો.",
+   "જમીન ઉપર માત્ર કૂવાનો ભાગ અને થોડા થાંભલા જ બાકી હતા.",
+   "અંદર પાંચસોથી વધુ દેવી-દેવતાઓની મુખ્ય મૂર્તિઓ ધરબાયેલી પડી હતી.",
+   "છેક ઓગણીસો ચાલીસ પછી પુરાતત્વ ખોદકામ થયું ત્યારે આખી વાવ અકબંધ બહાર આવી.",
+   "નદીના એ જ કાંપે આ આખી અજાયબીને સદીઓ સુધી સાચવી રાખી હતી."
+  ],
+  "cta": "નીચે જણાવો",
+  "description": "પાટણની જગપ્રસિદ્ધ રાણકી વાવ સદીઓ સુધી માટીમાં કેવી રીતે દટાયેલી રહી અને કઈ રીતે બહાર આવી, જાણો આ વિડીયોમાં.",
+  "hashtags": [
+   "RanikiVav",
+   "Patan",
+   "GujaratHistory",
+   "ગુજરાત",
+   "ઇતિહાસ"
+  ],
+  "visuals": [
+   "Rani ki vav stepwell Patan Gujarat step architecture",
+   "Rani ki vav sculptures pillars subterranean levels",
+   "Excavation and restoration of stepwell in Gujarat"
+  ],
+  "claims_en": [
+   "Rani ki Vav in Patan was built in the 11th century by Queen Udayamati on the banks of the Saraswati River.",
+   "The stepwell has seven stair levels.",
+   "The monument was submerged and buried beneath silt from the Saraswati River for over six centuries.",
+   "In the 1890s, visitors found it completely buried underground, visible only as an 87-metre pit with a well shaft and few pillars.",
+   "Inside the stepwell, there are more than 500 principal sculptures.",
+   "Excavations beginning in the 1940s and later ASI work cleared the silt and uncovered the intact structure."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-30T10:04+00:00",
+ "for_slot": "2026-10-31 slot 1"
+}

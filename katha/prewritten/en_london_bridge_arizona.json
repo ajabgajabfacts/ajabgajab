@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "Why a Tycoon Rebuilt London Bridge in the Desert",
+  "hook_text": "London Bridge is in Arizona",
+  "kicker": "TRUE HISTORY",
+  "sentences": [
+   "London Bridge actually sits in the middle of the Arizona desert.",
+   "In 1968, developer Robert McCulloch bought the 1830s landmark for over two million dollars.",
+   "He needed people to buy property in his scorching, empty desert settlement.",
+   "Workers numbered every exterior granite block and shipped them through the Panama Canal.",
+   "Crews rebuilt the structure over dry ground between mainland Arizona and a peninsula.",
+   "Only after it was finished did they dredge water underneath the arches.",
+   "The bizarre gamble worked, and surging land sales fully recouped his investment.",
+   "That is one extreme way to sell real estate."
+  ],
+  "cta": "Share your thoughts",
+  "description": "In 1968, an American entrepreneur bought London Bridge and moved it to the Arizona desert.\nHere is how one of history's wildest real estate stunts succeeded.",
+  "hashtags": [
+   "LondonBridge",
+   "LakeHavasu",
+   "HistoryShorts",
+   "BizarreHistory",
+   "Architecture"
+  ],
+  "visuals": [
+   "London Bridge Lake Havasu City reconstruction 1970",
+   "Robert P McCulloch London Bridge Lake Havasu",
+   "London Bridge River Thames 1960s traffic"
+  ],
+  "claims_en": [
+   "London Bridge is located in Lake Havasu City, Arizona.",
+   "In 1968, developer Robert P. McCulloch purchased the 1830s London Bridge for approximately 2.46 million dollars.",
+   "McCulloch purchased the bridge to attract buyers to his planned desert community in Lake Havasu City.",
+   "The bridge's original granite facing stones were numbered, catalogued, and transported by ship through the Panama Canal.",
+   "The bridge was reconstructed on dry land between the Arizona mainland and the Pittsburgh Point peninsula.",
+   "The Bridgewater Channel Canal was dredged beneath the bridge only after reconstruction was completed.",
+   "Increased land sales following the bridge's reconstruction recouped all of McCulloch's purchase and shipping expenses."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-10-30T10:20+00:00",
+ "for_slot": "2026-10-31 slot 4"
+}
