@@ -25,7 +25,12 @@ from langs import LANGS
 
 DIR = make.PREWRITTEN
 MAX_WRITES = 8                       # a script costs 2-8 text calls (writer + checker, up to 4 rounds)
-EN_SLOT = 4                          # Strange But True (katha_en.yml)
+EN_SLOT = 4                          # Wait, That's Real? (katha_en.yml), evening
+EN_SLOT2 = 5                         # its midday Short from 2026-10-31; not Sun/Wed (Ajab long-form quota days)
+
+
+def en_slots(day):
+    return (EN_SLOT,) if day.weekday() in (2, 6) else (EN_SLOT, EN_SLOT2)
 
 
 def upcoming():
@@ -37,8 +42,9 @@ def upcoming():
         for slot in (0, 1, 2, 3):
             if (str(day), slot) not in posted:
                 out.append((day, slot, make.slot_lang(slot, day)))
-        if (str(day), EN_SLOT) not in posted:
-            out.append((day, EN_SLOT, "en"))
+        for slot in en_slots(day):
+            if (str(day), slot) not in posted:
+                out.append((day, slot, "en"))
     return out
 
 

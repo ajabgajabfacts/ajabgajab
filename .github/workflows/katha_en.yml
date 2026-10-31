@@ -1,19 +1,26 @@
 name: "Wait, That's Real? — English story Shorts"
 
-# One English Short a day on the Strange But True channel (the renamed Money Sorted), built by
-# the same katha pipeline as Ajab Gajab. Ledger slot 4 marks it, so make.py's once-a-day guard
-# keeps it apart from Ajab Gajab's slots 0-3.
-#   22:05 UTC = 6:05 pm US Eastern (US evening peak); 23:35 UTC is the backup for a dropped run.
-# Both are on the same UTC date, so the ledger guard turns the backup into a no-op.
+# English Shorts on Wait, That's Real? (the renamed Money Sorted), built by the same katha pipeline
+# as Ajab Gajab. Ledger slots 4 and 5 mark them, so make.py's once-a-day guard keeps them apart from
+# Ajab Gajab's slots 0-3.
+#   slot 4: 22:05 UTC = 6:05 pm US Eastern (US evening peak); 23:35 UTC is the backup for a dropped run.
+#   slot 5 (from 2026-10-31, owner: WTR holds ~1k views a Short, so 2 a day): 15:05 UTC = 11 am ET /
+#           3 pm UK, backup 16:35. Not on Sunday or Wednesday: the Ajab long-form runs at 15:35 on those
+#           days and needs the Gemini free quota (~50 calls).
+# Each slot's crons are on the same UTC date, so the ledger guard turns a backup into a no-op.
 on:
   schedule:
     - cron: "5 22 * * *"
     - cron: "35 23 * * *"
-    # One-off: the 10-26 post died on Gemini's spent free quota at 00:06 UTC. Re-run at 1 pm ET.
-    # Fires only on Oct 26; the ledger guard makes it a no-op if 10-26 already posted.
-    - cron: "0 17 26 10 *"
+    - cron: "5 15 * * 1,2,4,5,6"
+    - cron: "35 16 * * 1,2,4,5,6"
   workflow_dispatch:
     inputs:
+      slot:
+        description: "Ledger slot: 4 (evening) or 5 (midday)"
+        type: choice
+        options: ["4", "5"]
+        default: "4"
       key:
         description: "Force a story key from katha/bank.py (blank = next in rotation)"
         type: string
@@ -42,12 +49,18 @@ jobs:
           ref: ${{ github.ref_name }}
       - name: Already posted today?
         id: due
+        env:
+          SCHED: ${{ github.event.schedule }}
+          SLOT_IN: ${{ inputs.slot }}
         run: |
           python3 - <<'EOF' >> "$GITHUB_OUTPUT"
-          import datetime, json
+          import datetime, json, os
           today = str(datetime.datetime.now(datetime.timezone.utc).date())
+          sched = os.environ.get("SCHED", "")
+          slot = int(os.environ.get("SLOT_IN") or (5 if sched.startswith(("5 15", "35 16")) else 4))
           led = json.load(open("katha/ledger.json"))
-          done = any(r.get("date") == today and r.get("slot") == 4 and r.get("status") == "posted" for r in led)
+          done = any(r.get("date") == today and r.get("slot") == slot and r.get("status") == "posted" for r in led)
+          print(f"slot={slot}")
           print("skip=" + ("true" if done else "false"))
           EOF
       - uses: actions/setup-python@v7
@@ -80,7 +93,7 @@ jobs:
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG_EN }}
-          KATHA_SLOT: "4"
+          KATHA_SLOT: ${{ steps.due.outputs.slot }}
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && '1' || '' }}
         run: |
           ARGS="--lang en"

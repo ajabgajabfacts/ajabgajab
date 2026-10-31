@@ -212,6 +212,11 @@ EPOCH = dt.date(2026, 10, 19)
 ROTATING = ["ta", "kn", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
 EPOCH2 = dt.date(2026, 10, 20)
 KN_DAILY = dt.date(2026, 10, 26)
+# From 2026-11-01 slot 2 is no longer Hindi every day (owner approved the content strategy 10-31): Hindi Shorts
+# had the channel's lowest median (44 views, slot 2, 10-19..10-29) while the rotating regional languages ran
+# ~100-580. Slot 2 now draws from the same weights as slot 1, with Hindi kept in at the lowest weight so it is
+# still tested. Hindi long-form (katha_long.yml) is unchanged.
+HI_OFF = dt.date(2026, 11, 1)
 
 
 def slot_lang(slot, day=None):
@@ -221,7 +226,7 @@ def slot_lang(slot, day=None):
         return "hi" if slot in (0, 2) else REGIONAL[(2 * d + (slot == 3)) % len(REGIONAL)]
     if slot == 3:
         return "te"
-    if slot == 2:
+    if slot == 2 and day < HI_OFF:
         return "hi"
     # From 2026-10-26 slot 0 is Kannada every day (owner): kn is the channel's record language
     # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
@@ -232,8 +237,8 @@ def slot_lang(slot, day=None):
     rot = list(dict.fromkeys(rot))
     if day >= KN_DAILY:
         rot = [l for l in rot if l != "kn"]
-        if rot:
-            return rot[0]
+        if len(rot) > slot - 1:
+            return rot[slot - 1]                     # slot 1 the oldest repost, slot 2 the next
     elif len(rot) > slot:
         return rot[slot]
     # From 2026-10-23 the rotating slots follow katha/insights.py's language weights (our own
@@ -241,10 +246,13 @@ def slot_lang(slot, day=None):
     # retry the same day gets the same language; slot 1 never repeats slot 0's language.
     lw = (insights.load().get("channels", {}).get("ajab", {}) or {}).get("lang_weights") or {}
     if lw:
-        langs = sorted(lw)
-        if slot == 1:
-            langs.remove(slot_lang(0, day))
-        return random.Random(f"{day}/{slot}").choices(langs, [lw[l]["w"] for l in langs])[0]
+        w = {l: lw[l]["w"] for l in lw}
+        if slot == 2:
+            w.setdefault("hi", min(w.values()))
+        for earlier in range(slot):                  # never repeat a language already posted earlier today
+            w.pop(slot_lang(earlier, day), None)
+        langs = sorted(w)
+        return random.Random(f"{day}/{slot}").choices(langs, [w[l] for l in langs])[0]
     return ROTATING[(2 * (day - EPOCH2).days + slot) % len(ROTATING)]
 
 
