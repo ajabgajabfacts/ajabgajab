@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "2013 की बाढ़ में केदारनाथ मंदिर को एक चट्टान ने बचाया",
+  "hook_text": "सब बह गया, मंदिर खड़ा रहा",
+  "kicker": "सच्ची घटना",
+  "sentences": [
+   "बाढ़ में आसपास सब बह गया, पर केदारनाथ मंदिर खड़ा रहा।",
+   "16 जून 2013 की शाम चोराबाड़ी ताल का पानी मंदाकिनी नदी में उतरा और रास्ते की हर चीज़ बहा ले गया।",
+   "अगली सुबह पानी फिर आया, साथ में मिट्टी, पत्थर और बड़ी चट्टानें लेकर।",
+   "दुकानें, होटल, सड़कें टूट गईं, सैकड़ों लोगों की जान गई।",
+   "कई लोग घंटों मंदिर के अंदर रुके रहे, फिर सेना उन्हें हवाई रास्ते से निकाल ले गई।",
+   "तो मंदिर बचा कैसे?",
+   "एक बड़ी चट्टान बहकर आई और ठीक मंदिर के पीछे अटक गई।",
+   "पानी और मलबा मुड़कर मंदिर के दोनों तरफ़ से निकल गया।",
+   "आज लोग उस चट्टान को भीम शिला कहकर पूजते हैं।"
+  ],
+  "cta": "कमेंट में बताइए",
+  "description": "2013 की बाढ़ में केदारनाथ मंदिर कैसे बचा।\nमंदिर के पीछे अटकी एक चट्टान की सच्ची कहानी।",
+  "hashtags": [
+   "केदारनाथ",
+   "भीमशिला",
+   "Kedarnath",
+   "Uttarakhand",
+   "TrueStory"
+  ],
+  "visuals": [
+   "Kedarnath temple Bhim Shila rock",
+   "Kedarnath temple",
+   "Kedarnath 2013 flood"
+  ],
+  "claims_en": [
+   "In the 2013 floods the surroundings were destroyed but the Kedarnath temple withstood them.",
+   "On the evening of 16 June 2013 (about 8:30 p.m.) water gushed from Chorabari Tal down the Mandakini river, washing everything away in its path.",
+   "On 17 June 2013 in the morning (about 6:40 a.m.) waters came again bringing silt, rocks and boulders.",
+   "Shops, hotels and roads were destroyed, and hundreds of people (pilgrims and locals) died.",
+   "People took shelter inside the temple for several hours then the Indian Army airlifted them out.",
+   "A huge rock got carried to the rear of the temple and got stuck there.",
+   "The rock diverted the flow of water and debris to both sides of the temple.",
+   "The rock is worshipped as the God's Rock (Bhim Shila)."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-31T19:48Z",
+ "for_slot": "2026-11-01 slot 2"
+}

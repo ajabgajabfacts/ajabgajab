@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "They Dynamited Jefferson Off Rushmore and Started Over",
+  "hook_text": "This Jefferson is the second one",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "The Jefferson on Mount Rushmore is the second one they carved.",
+   "Sculptor Gutzon Borglum and 400 workers worked on the South Dakota mountain from 1927 to 1941.",
+   "They blasted with dynamite, then drilled closely spaced holes and broke small pieces off by hand.",
+   "Jefferson was supposed to sit to the left of George Washington, and work there had already started.",
+   "Then the crew found the rock on that side was unsuitable.",
+   "So the unfinished Jefferson was dynamited away, and a new one was carved on Washington's right.",
+   "Washington got to watch his neighbor get blown up and start over."
+  ],
+  "cta": "Comment below",
+  "description": "Thomas Jefferson's first face on Mount Rushmore was blown off the mountain.\nThe rock was wrong, so they carved him again on the other side.",
+  "hashtags": [
+   "MountRushmore",
+   "history",
+   "SouthDakota",
+   "Jefferson",
+   "truestory"
+  ],
+  "visuals": [
+   "Mount Rushmore Jefferson Washington",
+   "Mount Rushmore construction",
+   "Mount Rushmore carving workers"
+  ],
+  "claims_en": [
+   "The Thomas Jefferson figure on Mount Rushmore is the second one; the first was dynamited.",
+   "Gutzon Borglum and 400 workers sculpted the carvings between 1927 and 1941.",
+   "Mount Rushmore is in South Dakota.",
+   "The carving used dynamite, then honeycombing: drilling closely spaced holes so small pieces of rock could be removed by hand.",
+   "Jefferson was originally intended to appear to the left of Washington, and work there was begun.",
+   "The rock there was found to be unsuitable.",
+   "The work on Jefferson's figure was dynamited and a new figure was sculpted to the right of Washington."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-10-31T19:48Z",
+ "for_slot": "2026-11-01 slot 4"
+}
