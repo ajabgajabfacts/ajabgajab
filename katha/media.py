@@ -112,13 +112,37 @@ the doorway, the king's portrait. A ceiling photo fits a line about ceiling pain
 outside does not. Lines that only give a date, a name or a number usually fit no image. [] if none."""
 
 
+# Myths, legends, saints and folk tales have no photos of their own: the Barbarika test Short showed temple
+# idols for a story about a warrior's three arrows. Owner, 2026-10-31: no AI images; real paintings first.
+# So these kinds search classic paintings before anything else, and the vet scores a painting of the
+# characters or the scene above a modern temple photo (which still wins a line that is about the temple).
+PAINT_KINDS = ("myth", "folk", "saint")
+PAINT_NOTE = """
+This is a myth/legend: a classic painting, miniature, mural, manuscript or relief of its characters or scenes
+is the best picture there is. Score such art 2 points higher than a modern photo of a temple or idol, but keep
+temple photos (use=true) for lines that talk about the temple itself."""
+
+
+def _paint_queries(entry):
+    # Commons search ANDs every word, so short phrases: "<name> Raja Ravi Varma" found nothing even for
+    # Gajendra Moksha (10 hits for "painting", 13 for "mural"). Both the article title and the bank key, since
+    # one often misses ("Baital Pachisi" has no paintings under that name). Some stories have none at all
+    # (Barbarika): their temple photos stay the fallback.
+    names = list(dict.fromkeys([entry["wiki"][0].split(" (")[0], entry["key"].replace("_", " ").title()]))
+    return [f"{nm} {v}" for nm in names for v in ("painting", "miniature", "mural", "art")]
+
+
 def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
     kws = _keywords(entry)
     seen, cands = set(), []
     # The script's own phrases name what its lines show, so they go right after the story's first search
     # instead of after every bank phrase (the 30 cap used to cut them off), and no one phrase takes it all.
-    qs = entry["art"][:1] + list(extra_queries or []) + entry["art"][1:]
-    for q in qs:
+    paint = entry.get("kind") in PAINT_KINDS
+    qs = (_paint_queries(entry) if paint else []) + entry["art"][:1] + list(extra_queries or []) + entry["art"][1:]
+    n_paint = len(_paint_queries(entry)) if paint else 0
+    for qi, q in enumerate(qs):
+        if qi < n_paint and len(cands) >= 20:
+            continue                                 # paintings take at most 20, the story's own searches still run
         n = 0
         for c in commons(q):
             if c["file"] not in seen and n < 8:
@@ -148,6 +172,7 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
             parts.append(ai.image_part(b.getvalue()))
         try:
             note = LINES_NOTE.format(lines="\n".join(f"{k}: {x}" for k, x in enumerate(lines))) if lines else ""
+            note += PAINT_NOTE if paint else ""
             v = ai.json_call(VET.format(story=story_en, n=len(group), last=len(group) - 1, lines_note=note,
                                         names="\n".join(f"{j}: {c['file'][5:]}" + (f" | {c['desc']}" if c.get("desc") else "")
                                                         for j, c in enumerate(group))),
