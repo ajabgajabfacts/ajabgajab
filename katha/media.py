@@ -229,25 +229,29 @@ def line_plan(shots, n):
 
     An image that fits only this line beats one that fits several (the Lepakshi Nandi line took a corridor shot
     the vet had loosely tagged for three lines over the Nandi photo itself); the score breaks ties.
-    A line no image shows keeps the picture of the line before it: it usually goes on about the same thing
-    ("So is the pillar hanging in the air?"), and a held picture that is right beats a fresh one that looks like
-    it is about something else. From the third such line in a row it moves to a general view (an image no line
-    claims), if there is one; render re-cuts a held picture every 9 s with a new camera move."""
+    A line no image shows stays on the subject of the line before it (it usually goes on about the same thing:
+    "So is the pillar hanging in the air?") but steps to that subject's next picture; opening lines before any
+    match cycle through the best images, as before 10-31. The first version held ONE picture for every
+    unmatched line: the Barbarika test Short sat on a single idol photo for 27 of its 37 s."""
     plan = [sorted((i for i, c in enumerate(shots) if k in c.get("lines", [])),
                    key=lambda i: (len(shots[i].get("lines", [])), -shots[i]["score"])) for k in range(n)]
-    general = sorted((i for i, c in enumerate(shots) if not c.get("lines")), key=lambda i: -shots[i]["score"])
-    first = next((p for p in plan if p), [0])
-    run, g = 0, 0
+    by_score = sorted(range(len(shots)), key=lambda i: -shots[i]["score"]) or [0]
+    general = [i for i in by_score if not shots[i].get("lines")] or by_score
+    g = 0
     for k in range(n):
+        prev = plan[k - 1][0] if k else None
         if plan[k]:
-            run = 0; continue
-        run += 1
-        if k == 0:
-            plan[k] = first[:1]
-        elif run >= 3 and general:
-            plan[k] = [general[g % len(general)]]; g += 1
+            if plan[k][0] == prev and len(plan[k]) > 1:          # same subject as the line before: next picture
+                plan[k] = plan[k][1:] + plan[k][:1]
+            continue
+        src = plan[k - 1] if k else []
+        if len(src) > 1:
+            plan[k] = src[1:] + src[:1]
         else:
-            plan[k] = plan[k - 1][:1]
+            pick = general[g % len(general)]; g += 1
+            if pick == prev and len(general) > 1:
+                pick = general[g % len(general)]; g += 1
+            plan[k] = [pick]
     return plan
 
 

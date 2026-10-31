@@ -304,6 +304,13 @@ def render(job, out_mp4, work):
         # Each cut shows an image of the line being spoken (media.line_plan, 2026-10-31). A second cut inside a
         # long line takes that line's next image if it has one. Neighbouring cuts on the same picture become
         # one steadier shot, but not past 9 s: then it cuts to the same picture with a fresh camera move.
+        # Cuts are rebuilt per line: the fixed 4.2 s steps above could run past the next line's start and then
+        # drop its cut as too close (the Barbarika test showed line 4's picture 4 s into line 5).
+        bounds = [0.0] + s_start[1:] + [D]
+        cuts = []
+        for a, b in zip(bounds, bounds[1:]):
+            parts = max(1, math.ceil((b - a) / 5.2))
+            cuts += [a + (b - a) * q / parts for q in range(parts)]
         seen_in, pick = {}, []
         for c in cuts:
             si = max([i for i, a in enumerate(s_start) if a <= c + 0.05] or [0])
