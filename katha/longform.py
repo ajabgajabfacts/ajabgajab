@@ -21,7 +21,7 @@ from make import MUSIC, MUSIC_OK, upload
 from longcollections import COLLECTIONS, FRAME, LEDGER, ORDER, ledger, pick_collection   # noqa: F401
 
 
-def segment(L, sentences, shots, hook, kicker, work, name, cta=None):
+def segment(L, sentences, shots, hook, kicker, work, name, cta=None, line_shots=None):
     """Narrate + render one landscape segment; returns (mp4, seconds)."""
     text = " ".join(sentences)
     voice = work / f"{name}.wav"
@@ -30,7 +30,8 @@ def segment(L, sentences, shots, hook, kicker, work, name, cta=None):
     wt = media.sentence_word_times(sentences, voice, D) or media.word_times(text.split(), asr, D)
     music = MUSIC / random.Random(name).choice(MUSIC_OK)
     job = dict(L=L, sentences=sentences, word_times=wt, hook_text=hook, kicker=kicker, cta=cta,
-               shots=shots, voice=voice, music=music if music.exists() else None, duration=D + 0.9, landscape=True)
+               shots=shots, line_shots=line_shots, voice=voice, music=music if music.exists() else None,
+               duration=D + 0.9, landscape=True)
     seg_dir = work / name; seg_dir.mkdir(exist_ok=True)
     out = render.render(job, work / f"{name}.mp4", seg_dir)
     return out, media.duration(out)
@@ -127,8 +128,10 @@ def main():
                     print(f"[long] Claude chapter {e['key']} failed the check, Gemini rewrites it: {c.get('problems', [])[:2]}")
             if s is None:
                 s, _ = write.write(e, a.lang, L, src, chapter=True)
-            story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", [])[:4])
-            shots = media.images(e, s.get("visuals"), story_en, need=8)
+            # Every claim, not the first four: a chapter's later lines bring in things (the Lepakshi Nandi, claim 8)
+            # whose photos the vet otherwise rejects as "not this story".
+            story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", []))
+            shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
             if len(shots) < 4:
                 print(f"[long] skip {e['key']}: {len(shots)} images"); continue
             chapters.append((e, s, shots, sources))
@@ -153,7 +156,8 @@ def main():
     parts.append(intro); marks.append((0.0, fr.get("intro_label", "Intro"))); t += d
     for i, (e, s, shots, _) in enumerate(chapters, 1):
         kick = f"{fr.get('chapter_word', '')} {i}/{len(chapters)}".strip()
-        mp4, d = segment(L, s["sentences"], [x["img"] for x in shots], s["hook_text"], kick, work, f"s{i:02d}_{e['key']}")
+        mp4, d = segment(L, s["sentences"], [x["img"] for x in shots], s["hook_text"], kick, work, f"s{i:02d}_{e['key']}",
+                         line_shots=media.line_plan(shots, len(s["sentences"])) if any(x.get("lines") for x in shots) else None)
         parts.append(mp4); marks.append((t, f"{i}. {s['title']}")); t += d
         print(f"[long] rendered chapter {i} ({d:.0f}s)")
     outro, d = segment(L, fr["outro"], [b["img"] for b in best[4:8]] or [best[0]["img"]], fr["thumb_text"],

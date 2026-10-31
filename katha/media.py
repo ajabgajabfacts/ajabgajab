@@ -80,7 +80,7 @@ Judge EACH image. use=false if ANY of these:
 - modern people as a subject: tourists, selfies, a child or family in frame, crowds, anyone posing or walking through
   (tiny distant figures for scale are fine);
 - large readable text, a watermark or logo; blurry, tiny or very dark.
-score = how cinematic and scroll-stopping it is full-screen on a phone (10 = stunning).
+score = how cinematic and scroll-stopping it is full-screen on a phone (10 = stunning).{lines_note}
 Return JSON {{"results": [{{"i": 0, "where": "what and where", "match": bool, "use": bool, "score": 0-10,
 "what": "5 words"}}, ...one per image]}}"""
 
@@ -97,14 +97,33 @@ def _keywords(entry):
 BATCH = 6     # images per vision call: the free tier is ~20 requests/day/model, one call per image burned it
 
 
-def images(entry, extra_queries, story_en, need=6, cache=None):
+# Owner, 2026-10-31, on the first Claude Telugu long-form: "the images are from the same temple but not
+# relevant to what is being spoken". images() only judged "is this the story's place?" and render showed
+# them in score order, so the Lepakshi Nandi could sit under a line about the ceiling painting. With
+# `lines`, the same vision call also says which narration lines each image shows (no extra calls), the
+# pick keeps an image for as many lines as it can, and line_plan() tells render which image goes where.
+LINES_NOTE = """
+The narration, numbered line by line (it may not be in English):
+{lines}
+Anything a narration line mentions (a statue nearby, a painting, a hill) is part of THIS story: match=true.
+For EACH image also give "lines": EVERY line whose subject you can see in it. Read each line and ask "is the
+thing this line talks about in the picture?": the pillar, the ceiling or its paintings, the statue, the hill,
+the doorway, the king's portrait. A ceiling photo fits a line about ceiling paintings; a photo of the temple
+outside does not. Lines that only give a date, a name or a number usually fit no image. [] if none."""
+
+
+def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
     kws = _keywords(entry)
     seen, cands = set(), []
-    for q in entry["art"] + list(extra_queries or []):
+    # The script's own phrases name what its lines show, so they go right after the story's first search
+    # instead of after every bank phrase (the 30 cap used to cut them off), and no one phrase takes it all.
+    qs = entry["art"][:1] + list(extra_queries or []) + entry["art"][1:]
+    for q in qs:
+        n = 0
         for c in commons(q):
-            if c["file"] not in seen:
-                seen.add(c["file"]); cands.append(c)
-        if len(cands) >= 30:
+            if c["file"] not in seen and n < 8:
+                seen.add(c["file"]); cands.append(c); n += 1
+        if len(cands) >= 36:
             break
     junk = ("stereo", "collage", "montage", "comparison", "composite", "anaglyph", "diagram", "map of", "logo")
     cands = [c for c in cands if not any(j in c["file"].lower() for j in junk)]
@@ -128,7 +147,8 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
             small = c["img"].copy(); small.thumbnail((512, 512)); b = io.BytesIO(); small.save(b, "JPEG", quality=78)
             parts.append(ai.image_part(b.getvalue()))
         try:
-            v = ai.json_call(VET.format(story=story_en, n=len(group), last=len(group) - 1,
+            note = LINES_NOTE.format(lines="\n".join(f"{k}: {x}" for k, x in enumerate(lines))) if lines else ""
+            v = ai.json_call(VET.format(story=story_en, n=len(group), last=len(group) - 1, lines_note=note,
                                         names="\n".join(f"{j}: {c['file'][5:]}" + (f" | {c['desc']}" if c.get("desc") else "")
                                                         for j, c in enumerate(group))),
                              models=ai.VISION_MODELS, parts=parts, temperature=0.1)
@@ -143,11 +163,92 @@ def images(entry, extra_queries, story_en, need=6, cache=None):
             # shares no word with the story needs a higher bar.
             bar = 5 if any(k in c["file"].lower() for k in kws) else 7
             if r.get("use") and r.get("match") is not False and (r.get("score") or 0) >= bar:
-                c["score"] = r["score"]; picked.append(c)
-        if len([p for p in picked if p["score"] >= 7]) >= need:
+                c["score"] = r["score"]
+                c["lines"] = sorted({int(x) for x in (r.get("lines") or []) if str(x).isdigit() and int(x) < len(lines or [])})
+                c["what"] = r.get("what") or r.get("where") or ""
+                c["where"] = r.get("where") or c["what"]
+                picked.append(c)
+        if len([p for p in picked if p["score"] >= 7]) >= need and (not lines or _coverage(picked, len(lines)) >= 0.7):
             break
     picked.sort(key=lambda c: -c["score"])
-    return enhance(picked[:need])
+    if not lines:
+        return enhance(picked[:need])
+    if picked:
+        _match_text(picked, lines)
+    # Best image for every line that has one, then the highest scores; a few over `need` is fine when
+    # each extra image is the only one that shows some line.
+    out = []
+    for k in range(len(lines)):
+        if not any(k in c["lines"] for c in out):
+            best = next((c for c in picked if k in c["lines"]), None)
+            if best is not None:
+                out.append(best)
+    out = out[:need + 4]
+    out += [c for c in picked if c not in out][:max(0, need - len(out))]
+    out.sort(key=lambda c: -c["score"])
+    print(f"[img] {len(out)} images cover {_coverage(out, len(lines)):.0%} of {len(lines)} lines")
+    return enhance(out)
+
+
+MATCH = """A narrated video shows one picture per line. Match the pictures to the lines.
+LINES (numbered; they may not be in English):
+{lines}
+PICTURES (numbered; what each really shows):
+{pics}
+For EACH picture list every line whose subject is visible in it: the very object, place or scene that line talks
+about (a line about a ceiling painting needs the ceiling; a temple's outside does not fit it). Lines that only
+give a date, a name or a number usually fit no picture. Do not stretch.
+Return JSON {{"pictures": [{{"i": 0, "lines": [1, 4]}}, ...one per picture]}}"""
+
+
+def _match_text(picked, lines):
+    """Second opinion on which lines each picture shows: one text-model call over the vet's own descriptions,
+    added to what the vision vet said. Tested 10-31 on Lepakshi: the lite vision models skip lines at random
+    (0-71% coverage over three runs of the same chapter). Never raises; on failure the vision lines stand."""
+    try:
+        v = ai.json_call(MATCH.format(lines="\n".join(f"{k}: {x}" for k, x in enumerate(lines)),
+                                      pics="\n".join(f"{i}: {c.get('where') or c.get('what')} ({c['file'][5:80]})"
+                                                      for i, c in enumerate(picked))),
+                         models=ai.CHECK_MODELS, temperature=0.1)
+        got = {r.get("i"): r.get("lines") or [] for r in v.get("pictures", []) if isinstance(r, dict)}
+        before = _coverage(picked, len(lines))
+        for i, c in enumerate(picked):
+            c["lines"] = sorted(set(c.get("lines", [])) |
+                                {int(x) for x in got.get(i, []) if str(x).isdigit() and int(x) < len(lines)})
+        print(f"[img] text match: {before:.0%} -> {_coverage(picked, len(lines)):.0%} of lines")
+    except Exception as e:
+        print("[img] text match failed", str(e)[:80])
+
+
+def _coverage(shots, n):
+    return len({k for c in shots for k in c.get("lines", [])}) / max(n, 1)
+
+
+def line_plan(shots, n):
+    """For each of n lines, the shot indices to show, best first.
+
+    An image that fits only this line beats one that fits several (the Lepakshi Nandi line took a corridor shot
+    the vet had loosely tagged for three lines over the Nandi photo itself); the score breaks ties.
+    A line no image shows keeps the picture of the line before it: it usually goes on about the same thing
+    ("So is the pillar hanging in the air?"), and a held picture that is right beats a fresh one that looks like
+    it is about something else. From the third such line in a row it moves to a general view (an image no line
+    claims), if there is one; render re-cuts a held picture every 9 s with a new camera move."""
+    plan = [sorted((i for i, c in enumerate(shots) if k in c.get("lines", [])),
+                   key=lambda i: (len(shots[i].get("lines", [])), -shots[i]["score"])) for k in range(n)]
+    general = sorted((i for i, c in enumerate(shots) if not c.get("lines")), key=lambda i: -shots[i]["score"])
+    first = next((p for p in plan if p), [0])
+    run, g = 0, 0
+    for k in range(n):
+        if plan[k]:
+            run = 0; continue
+        run += 1
+        if k == 0:
+            plan[k] = first[:1]
+        elif run >= 3 and general:
+            plan[k] = [general[g % len(general)]]; g += 1
+        else:
+            plan[k] = plan[k - 1][:1]
+    return plan
 
 
 # PhotoCraft (github.com/storytold/photocraft) headless clean-up before render's own grade():

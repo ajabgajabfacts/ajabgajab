@@ -299,16 +299,35 @@ def render(job, out_mp4, work):
         if t - cuts[-1] >= 1.8 and t < D - 0.5:
             cuts.append(t)
     imgs = job["shots"]
-    # Fewer images than shots repeated a picture (Roopkund showed its lake three times). Merge the
-    # shortest neighbouring pair while it stays under 6.5s; only then fall back to repeating.
-    while len(cuts) > len(imgs):
-        ends = cuts[1:] + [D]
-        pairs = [(ends[i + 1] - cuts[i], i) for i in range(len(cuts) - 1)]
-        span, i = min(pairs)
-        if span > 6.5:
-            break
-        del cuts[i + 1]
-    shots = [Shot(imgs[i % len(imgs)], seed=i) for i in range(len(cuts))]
+    plan = job.get("line_shots")
+    if plan and len(plan) == len(job["sentences"]):
+        # Each cut shows an image of the line being spoken (media.line_plan, 2026-10-31). A second cut inside a
+        # long line takes that line's next image if it has one. Neighbouring cuts on the same picture become
+        # one steadier shot, but not past 9 s: then it cuts to the same picture with a fresh camera move.
+        seen_in, pick = {}, []
+        for c in cuts:
+            si = max([i for i, a in enumerate(s_start) if a <= c + 0.05] or [0])
+            j = seen_in.get(si, 0); seen_in[si] = j + 1
+            opts = [k for k in plan[si] if k < len(imgs)] or [0]
+            pick.append(opts[j % len(opts)])
+        kc, kp = [cuts[0]], [pick[0]]
+        for c, k in zip(cuts[1:], pick[1:]):
+            if k == kp[-1] and c - kc[-1] < 9.0:
+                continue
+            kc.append(c); kp.append(k)
+        cuts = kc
+        shots = [Shot(imgs[k], seed=i) for i, k in enumerate(kp)]
+    else:
+        # Fewer images than shots repeated a picture (Roopkund showed its lake three times). Merge the
+        # shortest neighbouring pair while it stays under 6.5s; only then fall back to repeating.
+        while len(cuts) > len(imgs):
+            ends = cuts[1:] + [D]
+            pairs = [(ends[i + 1] - cuts[i], i) for i in range(len(cuts) - 1)]
+            span, i = min(pairs)
+            if span > 6.5:
+                break
+            del cuts[i + 1]
+        shots = [Shot(imgs[i % len(imgs)], seed=i) for i in range(len(cuts))]
     seg = list(zip(cuts, cuts[1:] + [D]))
 
     f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cap = font(L, 70 if LANDSCAPE else L.get("cap", (84, 30))[0]); f_cta = font(L, 48)

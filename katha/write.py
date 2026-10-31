@@ -57,7 +57,7 @@ Return JSON:
  "cta": "max 3 words in {lang_name} meaning 'comment below'",
  "description": "2 short lines in {lang_name}",
  "hashtags": ["5 hashtags without #, mix {lang_name} and English"],
- "visuals": ["3 extra English Wikimedia Commons search phrases for paintings/photos of THIS story"],
+ "visuals": ["3-6 English Wikimedia Commons search phrases, one per distinct thing your lines show (the specific pillar, painting, statue, hill or person), most specific first, each naming the place"],
  "claims_en": ["every factual claim in the script, in English, one per item"]}}
 {feedback}"""
 

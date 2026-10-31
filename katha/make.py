@@ -356,7 +356,7 @@ def produce(a, L, e):
     if a.dry:
         return
 
-    story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", [])[:4])
+    story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", []))
     from PIL import Image
     sh = work / "shots.json"
     if a.reuse and sh.exists():
@@ -364,7 +364,7 @@ def produce(a, L, e):
         for i, c in enumerate(shots):
             c["img"] = Image.open(work / f"img_{i}.jpg")
     else:
-        shots = media.images(e, s.get("visuals"), story_en, need=8)
+        shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
         for i, c in enumerate(shots):
             c["img"].save(work / f"img_{i}.jpg", quality=92)
         sh.write_text(json.dumps([{k: v for k, v in c.items() if k != "img"} for c in shots], ensure_ascii=False, indent=1), encoding="utf-8")
@@ -390,6 +390,7 @@ def produce(a, L, e):
     total = D + 0.8
     job = dict(L=L, sentences=s["sentences"], word_times=wt, hook_text=s["hook_text"], kicker=s["kicker"],
                cta=s.get("cta"), subscribe=L["sub"], shots=[c["img"] for c in shots], voice=voice,
+               line_shots=media.line_plan(shots, len(s["sentences"])) if any(c.get("lines") for c in shots) else None,
                music=story_music(e, total, work), duration=total,
                endcard="wtr" if a.lang == "en" else "ajab")     # like + subscribe sign-off (owner, 2026-10-28)
     t0 = time.time()
