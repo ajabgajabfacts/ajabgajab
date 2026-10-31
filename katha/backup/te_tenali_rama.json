@@ -1,30 +1,55 @@
-{"script": {
- "title": "బడి చదువు లేని తెనాలి రాముడు రాసిన గొప్ప కావ్యం",
- "hook_text": "నవ్వించిన కవి, గొప్ప కావ్యం",
- "kicker": "నిజ కథ",
- "sentences": [
-  "బడి చదువు లేని ఒక మనిషి, తెలుగులో గొప్ప కావ్యం రాశారు.",
-  "ఆయన అసలు పేరు గార్లపాటి రామకృష్ణ, పుట్టింది తెనాలిలో.",
-  "చిన్నప్పుడే తండ్రి పోయారు, తల్లి లక్ష్మమ్మ ఆయన్ని విజయనగరానికి తీసుకెళ్ళారు.",
-  "ఒక సాధువు మాట విని కాళికాదేవిని పూజిస్తే, ఆయన గొప్ప కవి అవుతారని అమ్మవారు దీవించారని ప్రతీతి.",
-  "తర్వాత శ్రీకృష్ణదేవరాయల సభలో అష్టదిగ్గజాల్లో ఒకరయ్యారు.",
-  "జనానికి మాత్రం ఆయన నవ్వించే వికటకవి, మన తెనాలి రాముడు.",
-  "కానీ ఆయన రాసిన పాండురంగ మాహాత్మ్యం, తెలుగులో ఐదు గొప్ప కావ్యాల్లో ఒకటిగా పేరు పొందింది.",
-  "జోకుల రాముడు రాసిన ఆ కావ్యం, భక్తి గురించీ మరణం తర్వాత జీవితం గురించీ."
- ],
- "cta": "కామెంట్ చేయండి",
- "description": "తెనాలి రాముడు బడి చదువు లేకుండానే గొప్ప పండితుడయ్యారు.\nఆయన రాసిన పాండురంగ మాహాత్మ్యం తెలుగు ఐదు గొప్ప కావ్యాల్లో ఒకటి.",
- "hashtags": ["తెనాలిరాముడు", "TenaliRama", "తెలుగుకథలు", "Vijayanagara", "TeluguStories"],
- "visuals": ["Tenali Ramakrishna statue", "Krishnadevaraya court painting", "Vijayanagara Hampi ruins"],
- "claims_en": [
-  "Tenali Ramakrishna did not receive formal education yet became a renowned scholar.",
-  "He composed Panduranga Mahatmyam, regarded as one of the five great Telugu Kavyas.",
-  "He was born Garlapati Ramakrishna in Tenali.",
-  "His father died during his childhood and his mother Lakshmamma took him to Vijayanagara.",
-  "As per popular legend, a sage advised him to worship Goddess Kali, and Kali blessed him, predicting he would achieve greatness as a poet.",
-  "He was one of the Ashtadiggajas in the court of Sri Krishnadevaraya.",
-  "He is known by the title Vikatakavi, meaning jester poet, for his wit and humour.",
-  "Panduranga Mahatmyam focuses on devotion and the afterlife."
- ]},
- "check": {"ok": true, "problems": [], "by": "claude self-check"},
- "verified": false, "by": "claude-routine", "written": "2026-10-30T19:44", "for_slot": "backup"}
+{
+ "script": {
+  "title": "బడి చదువు లేని తెనాలి రాముడు రాసిన గొప్ప కావ్యం",
+  "hook_text": "నవ్వించిన కవి, గొప్ప కావ్యం",
+  "kicker": "నిజ కథ",
+  "sentences": [
+   "బడి చదువు లేని ఒక మనిషి, తెలుగులో గొప్ప కావ్యం రాశారు.",
+   "ఆయన అసలు పేరు గార్లపాటి రామకృష్ణ, పుట్టింది తెనాలిలో.",
+   "చిన్నప్పుడే తండ్రి పోయారు, తల్లి లక్ష్మమ్మ ఆయన్ని విజయనగరానికి తీసుకెళ్ళారు.",
+   "ఒక సాధువు మాట విని కాళికాదేవిని పూజిస్తే, ఆయన గొప్ప కవి అవుతారని అమ్మవారు దీవించారని ప్రతీతి.",
+   "తర్వాత శ్రీకృష్ణదేవరాయల సభలో అష్టదిగ్గజాల్లో ఒకరయ్యారు.",
+   "జనానికి మాత్రం ఆయన నవ్వించే వికటకవి, మన తెనాలి రాముడు.",
+   "కానీ ఆయన రాసిన పాండురంగ మాహాత్మ్యం, తెలుగులో ఐదు గొప్ప కావ్యాల్లో ఒకటిగా పేరు పొందింది.",
+   "జోకుల రాముడు రాసిన ఆ కావ్యం, భక్తి గురించీ మరణం తర్వాత జీవితం గురించీ."
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "తెనాలి రాముడు బడి చదువు లేకుండానే గొప్ప పండితుడయ్యారు.\nఆయన రాసిన పాండురంగ మాహాత్మ్యం తెలుగు ఐదు గొప్ప కావ్యాల్లో ఒకటి.",
+  "hashtags": [
+   "తెనాలిరాముడు",
+   "TenaliRama",
+   "తెలుగుకథలు",
+   "Vijayanagara",
+   "TeluguStories"
+  ],
+  "visuals": [
+   "Tenali Ramakrishna statue",
+   "Krishnadevaraya court painting",
+   "Vijayanagara Hampi ruins"
+  ],
+  "claims_en": [
+   "Tenali Ramakrishna did not receive formal education yet became a renowned scholar.",
+   "He composed Panduranga Mahatmyam, regarded as one of the five great Telugu Kavyas.",
+   "He was born Garlapati Ramakrishna in Tenali.",
+   "His father died during his childhood and his mother Lakshmamma took him to Vijayanagara.",
+   "As per popular legend, a sage advised him to worship Goddess Kali, and Kali blessed him, predicting he would achieve greatness as a poet.",
+   "He was one of the Ashtadiggajas in the court of Sri Krishnadevaraya.",
+   "He is known by the title Vikatakavi, meaning jester poet, for his wit and humour.",
+   "Panduranga Mahatmyam focuses on devotion and the afterlife."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": true,
+ "by": "claude-routine",
+ "written": "2026-10-30T19:44",
+ "for_slot": "backup",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
+}
