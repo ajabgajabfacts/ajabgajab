@@ -28,9 +28,10 @@ from longcollections import COLLECTIONS, FRAME, ledger, pick_collection
 DIR = HERE / "prewritten_long"
 # katha_long.yml's crons: Sunday Hindi, Wednesday Telugu (Python weekday: Mon=0 ... Sun=6).
 LONG_DAYS = {6: "hi", 2: "te"}
-# One-off runs outside that schedule, dispatched by hand: (date, lang). 2026-10-30 Telugu replaces the 10-28
-# slot GitHub never fired; the 10-29 manual Gemini-written retry ran out of quota after 6 chapters.
-EXTRA = [("2026-10-30", "te")]
+# One-off runs outside that schedule, dispatched by hand: (date, lang). The Telugu script written for 10-30 (it
+# replaces the 10-28 slot GitHub never fired; the 10-29 Gemini-written retry ran out of quota after 6 chapters)
+# was never dispatched that day, so it was re-dated and run on 10-31.
+EXTRA = [("2026-10-31", "te")]
 CHAPTERS = 7
 SCALE = 1.8                                  # write.write(chapter=True) scales the Short word range by this
 FRAME_KEYS = ["title", "intro", "outro", "thumb_text", "kicker", "chapter_word", "intro_label", "outro_label",

@@ -67,6 +67,9 @@ jobs:
           elif [ "$(date -u +%u)" = "7" ]; then L=hi; C="${C:-mysteries}"
           else L=te; C="${C:-devotion}"
           fi
+          # A Claude-written script for today (katha/longplan.py) picks its own collection; longform.py ignores
+          # it whenever --collection is passed, so the defaults above only apply when there is none (2026-10-31).
+          if [ -z "${{ inputs.collection }}" ] && [ -f "katha/prewritten_long/${L}_$(date -u +%F).json" ]; then C=""; fi
           echo "l=$L" >> "$GITHUB_OUTPUT"; echo "c=$C" >> "$GITHUB_OUTPUT"; echo "language: $L  collection: ${C:-rotation}"
       - name: Write, check, render and upload
         env:
