@@ -693,5 +693,30 @@
   "title": "પાટણની રાણકી વાવ છસો વર્ષ કાદવ નીચે કેમ દબાયેલી રહી?",
   "seconds": 38.0,
   "slot": 1
+ },
+ {
+  "key": "vikram_betal",
+  "lang": "hi",
+  "date": "2026-10-31",
+  "status": "failed_check",
+  "why": "only 0 usable images"
+ },
+ {
+  "key": "zero",
+  "lang": "hi",
+  "date": "2026-10-31",
+  "status": "failed_check",
+  "why": "only 0 usable images"
+ },
+ {
+  "key": "khajuraho",
+  "lang": "hi",
+  "date": "2026-10-31",
+  "utc": "13:19",
+  "status": "posted",
+  "video_id": "xyGjyRhO7Zk",
+  "title": "खजुराहो के मंदिर: ब्रह्मचारियों को गृहस्थ धर्म सिखाने की कहानी",
+  "seconds": 30.5,
+  "slot": 2
  }
 ]
