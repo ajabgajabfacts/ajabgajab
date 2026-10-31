@@ -49,5 +49,24 @@
   "video_id": "OFCNQQY5nzs",
   "title": "भारत की 7 सबसे रहस्यमयी और अनसुनी कहानियां",
   "minutes": 7.0
+ },
+ {
+  "date": "2026-10-31",
+  "lang": "te",
+  "collection": "mysteries",
+  "keys": [
+   "ramappa",
+   "lepakshi",
+   "simhachalam_chandanam",
+   "yaganti",
+   "belum_caves",
+   "vontimitta",
+   "tenali_rama"
+  ],
+  "video_id": "jQCFne3S5Xc",
+  "title": "నీళ్లలో తేలే ఇటుకలు, నేల తాకని స్తంభం | తెలుగు నేల 7 వింతలు",
+  "minutes": 7.8,
+  "by": "claude",
+  "claude_chapters": 7
  }
 ]
