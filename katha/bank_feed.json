@@ -62,5 +62,69 @@
   "angle": "A crested macaque stole a camera and took a selfie, sparking a multi-year federal copyright trial.",
   "score": 9,
   "added": "2026-11-01"
+ },
+ {
+  "key": "pedro_lascur_in",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Pedro Lascuráin"
+  ],
+  "art": [
+   "Pedro Lascurain",
+   "Decena Tragica",
+   "Pedro Lascuráin"
+  ],
+  "angle": "Pedro Lascuráin served as president of Mexico for under an hour purely to swear in a military dictator.",
+  "score": 8,
+  "added": "2026-11-01"
+ },
+ {
+  "key": "truth_or_consequences_new_mexico",
+  "lang": "en",
+  "kind": "folk",
+  "wiki": [
+   "Truth or Consequences, New Mexico"
+  ],
+  "art": [
+   "Truth or Consequences New Mexico",
+   "Ralph Edwards Truth or Consequences",
+   "Truth or Consequences, New Mexico"
+  ],
+  "angle": "A New Mexico town renamed itself after a radio game show in exchange for an annual live broadcast.",
+  "score": 8,
+  "added": "2026-11-01"
+ },
+ {
+  "key": "jakob_maria_mierscheid",
+  "lang": "en",
+  "kind": "folk",
+  "wiki": [
+   "Jakob Maria Mierscheid"
+  ],
+  "art": [
+   "Jakob Maria Mierscheid",
+   "Bundestag Plenarsaal",
+   "Jakob Maria Mierscheid"
+  ],
+  "angle": "The German parliament has maintained an active official biography for an entirely fictitious lawmaker since 1979.",
+  "score": 8,
+  "added": "2026-11-01"
+ },
+ {
+  "key": "kuai_kuai_culture",
+  "lang": "en",
+  "kind": "folk",
+  "wiki": [
+   "Kuai Kuai culture"
+  ],
+  "art": [
+   "Kuai Kuai snack",
+   "Taiwan server rack",
+   "Kuai Kuai culture"
+  ],
+  "angle": "Taiwanese tech workers place green snack bags on servers and machines to guarantee they run error-free.",
+  "score": 8,
+  "added": "2026-11-01"
  }
 ]
