@@ -46,6 +46,27 @@ def commons(query, limit=14):
     r = _get_json("https://commons.wikimedia.org/w/api.php", dict(
         action="query", format="json", generator="search", gsrnamespace=6, gsrsearch=query, gsrlimit=limit,
         prop="imageinfo", iiprop="url|size|extmetadata|mime", iiurlwidth=1600))
+    return _files(r)
+
+
+def article_images(titles, limit=30):
+    """The photos on the story's own Wikipedia article(s) (2026-11-01). Editors chose them to show exactly
+    what the article describes (the hanging pillar, the Nandi, the ceiling), so they match narration lines
+    far more often than keyword search, which on Indian temples returns lawns, street views and signboards
+    (Thousand Pillar Temple te Short: 38% of lines matched; Khajuraho hi: 25%)."""
+    out = []
+    for t in titles:
+        try:
+            r = _get_json("https://en.wikipedia.org/w/api.php", dict(
+                action="query", format="json", titles=t, redirects=1, generator="images", gimlimit=limit,
+                prop="imageinfo", iiprop="url|size|extmetadata|mime", iiurlwidth=1600))
+            out += _files(r)
+        except Exception as e:
+            print("[img] article images failed", t, str(e)[:80])
+    return out
+
+
+def _files(r):
     out = []
     for p in (r.get("query", {}).get("pages", {}) or {}).values():
         ii = (p.get("imageinfo") or [{}])[0]
@@ -140,6 +161,9 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
     paint = entry.get("kind") in PAINT_KINDS
     qs = (_paint_queries(entry) if paint else []) + entry["art"][:1] + list(extra_queries or []) + entry["art"][1:]
     n_paint = len(_paint_queries(entry)) if paint else 0
+    for c in article_images(entry["wiki"])[:12]:
+        if c["file"] not in seen:
+            seen.add(c["file"]); c["article"] = True; cands.append(c)
     for qi, q in enumerate(qs):
         if qi < n_paint and len(cands) >= 20:
             continue                                 # paintings take at most 20, the story's own searches still run
@@ -153,7 +177,7 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
     cands = [c for c in cands if not any(j in c["file"].lower() for j in junk)]
     # A file whose name shares no word with the story is usually a different place ("Mystery Lake,
     # New Zealand" for Roopkund). Keep those only if too few named files exist.
-    named = [c for c in cands if any(k in c["file"].lower() for k in kws)]
+    named = [c for c in cands if c.get("article") or any(k in c["file"].lower() for k in kws)]
     cands = named + ([c for c in cands if c not in named] if len(named) < need else [])
     picked = []
     pool = []
@@ -186,7 +210,7 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
             # 2026-10-26: the Surdas Short used "Soor bei Eupen" (a Belgian stream, scored 8) because
             # the vet judged mood, not subject. Now it must name the place first, and a file whose name
             # shares no word with the story needs a higher bar.
-            bar = 5 if any(k in c["file"].lower() for k in kws) else 7
+            bar = 5 if any(k in c["file"].lower() for k in kws) else 7   # articles show related temples too
             if r.get("use") and r.get("match") is not False and (r.get("score") or 0) >= bar:
                 c["score"] = r["score"]
                 c["lines"] = sorted({int(x) for x in (r.get("lines") or []) if str(x).isdigit() and int(x) < len(lines or [])})
@@ -209,7 +233,13 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
             if best is not None:
                 out.append(best)
     out = out[:need + 4]
-    out += [c for c in picked if c not in out][:max(0, need - len(out))]
+    # Filler shows on lines no picture fits, so it needs to be a strong on-topic image (score 7+): the
+    # Thousand Pillar Short filled with "street view with autos", "signboard" and "green lawn" (scores 4-5).
+    rest = [c for c in picked if c not in out]
+    strong = [c for c in rest if c["score"] >= FILLER_MIN]
+    out += (strong or rest)[:max(0, need - len(out))]
+    if len(out) < 3:
+        out += [c for c in rest if c not in out][:3 - len(out)]
     out.sort(key=lambda c: -c["score"])
     print(f"[img] {len(out)} images cover {_coverage(out, len(lines)):.0%} of {len(lines)} lines")
     return enhance(out)
@@ -249,6 +279,9 @@ def _coverage(shots, n):
     return len({k for c in shots for k in c.get("lines", [])}) / max(n, 1)
 
 
+FILLER_MIN = 7
+
+
 def line_plan(shots, n):
     """For each of n lines, the shot indices to show, best first.
 
@@ -261,7 +294,7 @@ def line_plan(shots, n):
     plan = [sorted((i for i, c in enumerate(shots) if k in c.get("lines", [])),
                    key=lambda i: (len(shots[i].get("lines", [])), -shots[i]["score"])) for k in range(n)]
     by_score = sorted(range(len(shots)), key=lambda i: -shots[i]["score"]) or [0]
-    general = [i for i in by_score if not shots[i].get("lines")] or by_score
+    general = [i for i in by_score if not shots[i].get("lines") and shots[i]["score"] >= FILLER_MIN] or by_score[:4]
     g = 0
     for k in range(n):
         prev = plan[k - 1][0] if k else None
