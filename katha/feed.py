@@ -55,8 +55,8 @@ Also mark:
 Candidates:
 {items}
 
-Return JSON: {{"results": [{{"title": "...", "score": 0, "safe": true, "sensitive": false, "kind": "...",
-"angle": "...", "art": ["...", "..."]}}]}} with one result per candidate, titles exactly as given."""
+Return JSON: {{"results": [{{"id": 0, "score": 0, "safe": true, "sensitive": false, "kind": "...",
+"angle": "...", "art": ["...", "..."]}}]}} with one result per candidate, "id" being the number in [brackets]."""
 
 
 def _load(p, default):
@@ -165,9 +165,13 @@ def main():
     if not cands:
         SEEN.write_text(json.dumps(sorted(seen), ensure_ascii=False, indent=0), encoding="utf-8") if not a.dry else None
         return
-    items = "\n".join(f"- {d['title']} ({d['description']}): {d['extract'][:500]}" for d in cands)
+    items = "\n".join(f"[{i}] {d['title']} - {d['description']}: {d['extract'][:500]}" for i, d in enumerate(cands))
     res = ai.json_call(SCORE.format(kinds=", ".join(KINDS), items=items), temperature=0.3).get("results", [])
     by = {d["title"]: d for d in cands}
+    # match on the [id] (2026-11-01: echoing "Title (description)" back as the title made every match fail)
+    for r in res:
+        i = r.get("id")
+        r["title"] = cands[i]["title"] if isinstance(i, int) and 0 <= i < len(cands) else r.get("title")
     for r in res:
         if r.get("kind") not in KINDS:
             r["kind"] = "history"
