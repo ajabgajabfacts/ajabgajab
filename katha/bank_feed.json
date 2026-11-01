@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "key": "mechanical_turk",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Mechanical Turk"
+  ],
+  "art": [
+   "The Mechanical Turk chess automaton engraving",
+   "Von Kempelen chess player",
+   "Mechanical Turk"
+  ],
+  "angle": "An eighteenth-century chess-playing automaton fooled Europe for decades by hiding a human master inside.",
+  "score": 9,
+  "added": "2026-11-01"
+ },
+ {
+  "key": "galileo_s_middle_finger",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Galileo's middle finger"
+  ],
+  "art": [
+   "Galileo finger Museo Galileo",
+   "Galileo Galilei relic Florence",
+   "Galileo's middle finger"
+  ],
+  "angle": "Nearly a century after his death, admirers snapped off Galileo's middle finger to preserve as a relic.",
+  "score": 9,
+  "added": "2026-11-01"
+ },
+ {
+  "key": "tree_that_owns_itself",
+  "lang": "en",
+  "kind": "nature",
+  "wiki": [
+   "Tree That Owns Itself"
+  ],
+  "art": [
+   "Tree That Owns Itself Athens Georgia",
+   "Tree That Owns Itself plaque",
+   "Tree That Owns Itself"
+  ],
+  "angle": "An oak tree in Georgia legally owns itself and all the land within eight feet of its base.",
+  "score": 9,
+  "added": "2026-11-01"
+ },
+ {
+  "key": "monkey_selfie_copyright_dispute",
+  "lang": "en",
+  "kind": "animal",
+  "wiki": [
+   "Monkey selfie copyright dispute"
+  ],
+  "art": [
+   "Macaca nigra self-portrait",
+   "Celebes crested macaque Indonesia",
+   "Monkey selfie copyright dispute"
+  ],
+  "angle": "A crested macaque stole a camera and took a selfie, sparking a multi-year federal copyright trial.",
+  "score": 9,
+  "added": "2026-11-01"
+ }
+]
