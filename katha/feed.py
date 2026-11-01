@@ -146,9 +146,10 @@ def main():
     have_keys = {s["key"] for s in bank.S}
 
     otd, top = featured(today - dt.timedelta(days=1))
-    pool = unusual(rng)[:UNUSUAL_SAMPLE * 3] + otd + top
-    pool = [t for t in dict.fromkeys(pool) if t.lower() not in have_titles and t not in seen
-            and not re.match(r"(List of|Deaths in|\d{4} in )", t)]
+    fresh = lambda ts: [t for t in dict.fromkeys(ts) if t.lower() not in have_titles and t not in seen
+                        and not re.match(r"(List of|Deaths in|\d{4} in )", t)]
+    # filter BEFORE sampling, so a rerun on the same day (same shuffle) still gets unseen titles
+    pool = fresh(fresh(unusual(rng))[:UNUSUAL_SAMPLE * 3] + otd + top)
     info, resolved = details(pool[:150])
     seen |= set(pool[:150])
     cands = []
