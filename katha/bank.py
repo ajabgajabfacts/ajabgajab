@@ -103,6 +103,10 @@ add("ramappa", "te", "wonder", ["Ramappa Temple"], ["Ramappa Temple", "Ramappa t
 add("chamundeshwari", "kn", "myth", ["Chamundeshwari Temple", "Mahishasura"], ["Chamundi Hills temple", "Chamundeshwari"])
 add("kittur_chennamma", "kn", "history", ["Kittur Chennamma"], ["Kittur Chennamma statue", "Kittur fort"])
 add("basavanna", "kn", "saint", ["Basava"], ["Basavanna statue", "Basaveshwara"])
+# Karnataka Rajyotsava (1 Nov), first festival-calendar story (owner 2026-11-01). The angle keeps it on the
+# unification itself: the Belagavi border question is a live dispute and stays out (bank rule).
+add("rajyotsava_ekikarana", "kn", "history", ["Unification of Karnataka", "Karnataka Rajyotsava", "Aluru Venkata Rao"],
+    ["Karnataka Rajyotsava", "Vidhana Soudha illuminated", "Kannada Bhuvaneshwari", "Vidhana Soudha"])
 add("hampi", "kn", "wonder", ["Hampi", "Vittala Temple"], ["Vittala temple stone chariot", "Hampi ruins"])
 add("gommateshwara", "kn", "wonder", ["Gommateshwara statue", "Bahubali"], ["Gommateshwara statue Shravanabelagola", "Bahubali statue"])
 add("onake_obavva", "kn", "history", ["Onake Obavva", "Chitradurga Fort"], ["Chitradurga Fort", "Onake Obavva"])
@@ -219,6 +223,7 @@ ANGLES = {
     "majuli": "one of the world's largest river islands, shrinking every year",
     "chilika": "Asia's largest brackish lagoon and its rare dolphins",
     "golden_temple_langar": "a free kitchen that feeds huge numbers of people every day",
+    "rajyotsava_ekikarana": "Kannada lands split across several provinces became one state on 1 November 1956, and took the name Karnataka in 1973 (no border disputes)",
     "dholavira": "a 4,500-year-old city with advanced water management and a signboard",
     "sundarbans_tiger": "tigers that swim, and the forest goddess Bonbibi",
     "gommateshwara": "a 57-foot statue carved from a single rock over 1,000 years ago",
