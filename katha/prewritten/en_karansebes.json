@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "How an Army Defeated Itself in the Dark",
+  "hook_text": "An Army Defeated Itself",
+  "kicker": "FRIENDLY FIRE",
+  "sentences": [
+   "An army of one hundred thousand defeated itself in the dark.",
+   "In September 1788, the Austrian army marched on Karánsebes to fight the Ottomans.",
+   "As night fell, scouting hussars reportedly bought schnapps and refused to share it.",
+   "A brawl started, and panic spread among soldiers speaking different languages.",
+   "Traditional accounts say officers shouted Halt, which non-German troops misheard as Allah.",
+   "Austrian artillery officers mistook their fleeing cavalry for an Ottoman attack and opened fire.",
+   "Emperor Joseph II fled in the chaos while his army destroyed itself.",
+   "Two days later, the Ottomans captured Karánsebes without engaging the Austrians."
+  ],
+  "cta": "Comment your thoughts",
+  "description": "The strange story of the Battle of Karánsebes in 1788.",
+  "hashtags": [
+   "history",
+   "karansebes",
+   "austria",
+   "militaryhistory",
+   "truestory"
+  ],
+  "visuals": [
+   "Austrian hussars 18th century painting",
+   "Battle of Karánsebes illustration",
+   "Emperor Joseph II portrait",
+   "Caransebeș Romania historical view"
+  ],
+  "claims_en": [
+   "In September 1788, the Austrian army marched on Karánsebes during the Austro-Turkish War.",
+   "Austrian hussars reportedly bought schnapps from local Romanians and refused to share it with infantrymen.",
+   "A conflict erupted between hussars and infantry, creating panic among multi-ethnic Austrian forces.",
+   "Officers shouting 'Halt! Halt!' were misheard by non-German soldiers as 'Allah! Allah!'.",
+   "General of Artillery Colloredo ordered artillery fire believing fleeing hussars were an Ottoman cavalry charge.",
+   "Holy Roman Emperor Joseph II fled the chaotic scene.",
+   "The Ottoman army arrived two days later and captured Karánsebes without engaging the Austrians."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-01T10:42+00:00",
+ "for_slot": "2026-11-02 slot 4"
+}

@@ -1,0 +1,45 @@
+{
+ "script": {
+  "title": "తిరుమలలో కోట్లాది మంది భక్తులు తలనీలాలు ఎందుకు ఇస్తారు?",
+  "hook_text": "తిరుమలలో తలనీలాల దానం ఎందుకు?",
+  "kicker": "భక్తి విశేషాలు",
+  "sentences": [
+   "తిరుమలకు వెళ్లే లక్షలాది మంది భక్తులు తమ తలనీలాలను దానం చేస్తారు.",
+   "ఆలయ ప్రాంగణంలో ఈ తలనీలాల సమర్పణ కోసం ప్రత్యేక సౌకర్యాలు ఏర్పాటు చేశారు.",
+   "పురాణాల ప్రకారం కలియుగంలో ప్రజలను కష్టాల నుండి కాపాడటానికి విష్ణువు ఇక్కడే వెలిశాడు.",
+   "అందుకే ఈ తిరుమల క్షేత్రానికి ఏటా రెండు కోట్ల నలభై లక్షల మంది భక్తులు వస్తారు.",
+   "సాధారణ రోజుల్లో కూడా రోజుకు అరవై వేలకు పైగా భక్తులు శ్రీవారిని దర్శించుకుంటారు.",
+   "ఈ భక్తుల విరాళాలు, హుండీ కానుకల వల్ల ఇది ప్రపంచంలోనే అత్యంత సంపన్నమైన దేవాలయంగా మారింది.",
+   "మీరు కూడా ఎప్పుడైనా తిరుమలలో శ్రీవారికి తలనీలాలు సమర్పించారా?"
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "తిరుమల శ్రీ వెంకటేశ్వర స్వామి దేవాలయం ప్రత్యేకతలు మరియు భక్తుల విరాళాల గురించిన కథనం.\nఏటా కోట్లాది మంది భక్తులు దర్శించుకునే ఈ పవిత్ర క్షేత్రం విశేషాలు తెలుసుకోండి.",
+  "hashtags": [
+   "Tirumala",
+   "TirupatiBalaji",
+   "TeluguFacts",
+   "TirumalaTemple",
+   "VenkateswaraSwamy"
+  ],
+  "visuals": [
+   "Tirumala Venkateswara Temple outer gopuram view",
+   "Tirumala hills aerial view Seshachalam",
+   "Tirumala temple crowd of pilgrims"
+  ],
+  "claims_en": [
+   "Millions of pilgrims donate their hair in Tirumala, which has dedicated facilities for hair tonsure on the temple premises.",
+   "According to legend/puranas, Vishnu appeared on earth in Tirumala to save mankind from the trials of Kali Yuga.",
+   "The temple attracts around 24 million devotees annually, with an average daily footfall of over 60,000.",
+   "The temple is one of the richest Hindu temples in the world in terms of donations received and wealth, largely from Srivari Hundi."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-01T10:41+00:00",
+ "for_slot": "2026-11-02 slot 3"
+}
