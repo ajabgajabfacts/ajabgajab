@@ -22,7 +22,7 @@ from longcollections import COLLECTIONS, FRAME, LEDGER, ORDER, ledger, pick_coll
 
 
 def segment(L, sentences, shots, hook, kicker, work, name, cta=None, line_shots=None):
-    """Narrate + render one landscape segment; returns (mp4, seconds)."""
+    """Narrate + render one landscape segment; returns (mp4, seconds, caption cues from 0)."""
     text = " ".join(sentences)
     voice = work / f"{name}.wav"
     D = media.narrate(text, voice, edge_voice=L.get("edge"))
@@ -34,7 +34,8 @@ def segment(L, sentences, shots, hook, kicker, work, name, cta=None, line_shots=
                duration=D + 0.9, landscape=True)
     seg_dir = work / name; seg_dir.mkdir(exist_ok=True)
     out = render.render(job, work / f"{name}.mp4", seg_dir)
-    return out, media.duration(out)
+    import ytcaptions
+    return out, media.duration(out), ytcaptions.sentence_cues(sentences, wt)
 
 
 def thumbnail(img, text, L, kicker, out):
@@ -152,16 +153,19 @@ def main():
     best = sorted([sh for c in chapters for sh in c[2]], key=lambda x: -x["score"])
 
     parts, marks, t = [], [], 0.0
-    intro, d = segment(L, fr["intro"], [b["img"] for b in best[:4]], fr["thumb_text"], fr["kicker"], work, "s00_intro")
+    intro, d, cc = segment(L, fr["intro"], [b["img"] for b in best[:4]], fr["thumb_text"], fr["kicker"], work, "s00_intro")
+    caps = list(cc)
     parts.append(intro); marks.append((0.0, fr.get("intro_label", "Intro"))); t += d
     for i, (e, s, shots, _) in enumerate(chapters, 1):
         kick = f"{fr.get('chapter_word', '')} {i}/{len(chapters)}".strip()
-        mp4, d = segment(L, s["sentences"], [x["img"] for x in shots], s["hook_text"], kick, work, f"s{i:02d}_{e['key']}",
+        mp4, d, cc = segment(L, s["sentences"], [x["img"] for x in shots], s["hook_text"], kick, work, f"s{i:02d}_{e['key']}",
                          line_shots=media.line_plan(shots, len(s["sentences"])) if any(x.get("lines") for x in shots) else None)
+        caps += [(a + t, b + t, x) for a, b, x in cc]
         parts.append(mp4); marks.append((t, f"{i}. {s['title']}")); t += d
         print(f"[long] rendered chapter {i} ({d:.0f}s)")
-    outro, d = segment(L, fr["outro"], [b["img"] for b in best[4:8]] or [best[0]["img"]], fr["thumb_text"],
+    outro, d, cc = segment(L, fr["outro"], [b["img"] for b in best[4:8]] or [best[0]["img"]], fr["thumb_text"],
                        fr["kicker"], work, "s99_outro", cta=fr.get("subscribe"))
+    caps += [(a + t, b + t, x) for a, b, x in cc]
     parts.append(outro); marks.append((t, fr.get("outro_label", "Outro"))); t += d
 
     lst = work / "parts.txt"
@@ -183,7 +187,7 @@ def main():
     desc = (fr["description"] + "\n\n" + "\n".join(f"{ts(m[0])} {m[1]}" for m in marks) + "\n\n"
             + " ".join("#" + x.replace(" ", "") for x in tags[:6]) + "\n\n" + "\n".join(credit))
     meta = dict(title=fr["title"], description=desc, tags=tags + ["ajab gajab", "stories", L["name"]], lang=a.lang,
-                comment=fr["outro"][0])
+                comment=fr["outro"][0], captions=caps, long=True)
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.no_upload:
         return

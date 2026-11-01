@@ -199,7 +199,28 @@ def upload(mp4, meta, cfg_json, thumb=None):
                 "snippet": {"textOriginal": meta["comment"]}}}}).execute()
         except Exception as e:
             print("[upload] comment failed:", str(e)[:120])
+    if meta.get("captions") and captions_fit(meta):
+        import ytcaptions
+        ytcaptions.upload(yt, vid, meta["captions"], meta["lang"])
     return vid
+
+
+def captions_fit(meta):
+    """Exact-script caption track (ytcaptions.py, 2026-11-01): 400 quota units on top of a 1600 upload.
+    WTR (en) has its own Cloud project with room to spare. Ajab's project carries 4 Shorts a day, and on
+    long-form days (longplan: Sunday hi, Wednesday te, plus EXTRA dates) the long-form too: 4 x 2,100 for
+    captioned Shorts + 2,150 for the long-form would cross the 10,000 daily quota, and an over-quota caption
+    call could make that day's LAST upload fail. So on those days only the long-form gets captions. The
+    quota day is Pacific time."""
+    if meta["lang"] == "en" or meta.get("long"):
+        return True
+    from zoneinfo import ZoneInfo
+    import longplan
+    day = dt.datetime.now(ZoneInfo("America/Los_Angeles")).date()
+    if longplan.LONG_DAYS.get(day.weekday()) or str(day) in dict(longplan.EXTRA):
+        print("[captions] skipped: long-form day on the Ajab quota")
+        return False
+    return True
 
 
 # 4 slots a day on one channel. From 2026-10-20 (slot 3 onward): Telugu every evening (slot 3, 20:35 IST), Hindi once
@@ -401,6 +422,8 @@ def produce(a, L, e):
     desc = s["description"] + "\n\n🔔 " + L["sub"] + "\n\n" + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots)
     meta = dict(title=s["title"], description=desc, tags=tags + ["shorts", L.get("channel", ("ajab gajab",))[0].lower(), L["name"]], lang=a.lang,
                 comment=s["sentences"][-1] + "\n\n🔔 " + L["sub"])
+    import ytcaptions
+    meta["captions"] = ytcaptions.sentence_cues(s["sentences"], wt)
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.no_upload:
         return
