@@ -11,7 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import bank, insights, media, render, write
+import bank, festivals, insights, media, render, write
 from langs import LANGS
 
 LEDGER = HERE / "ledger.json"
@@ -61,11 +61,19 @@ def redos(day=None):
     return out
 
 
-def pick(lang, force_key=None, exclude=()):
+def pick(lang, force_key=None, exclude=(), day=None):
     if force_key:
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
     done |= {(k, lang) for k in exclude}
+    # A festival happening now goes first (festivals.py, 2026-11-01): the only breakouts we ever had were
+    # festival-day stories (Mysore Palace 89k, Dasara elephant 28k on Jamboo Savari day).
+    for k in festivals.keys_for(lang, day or dt.date.today()):
+        if (k, lang) not in done:
+            s = next((s for s in bank.S if s["key"] == k), None)
+            if s:
+                print(f"[festival] {lang}: {k}")
+                return s
     # Backup stories are held for a day Gemini can't write; main() moves one into PREWRITTEN then.
     done |= {(p.stem[len(lang) + 1:], lang) for p in BACKUP.glob(f"{lang}_*.json")}
     for k, l in redos():
@@ -78,6 +86,8 @@ def pick(lang, force_key=None, exclude=()):
         s = next((s for s in bank.S if s["key"] == k), None)
         if s and (k, lang) not in done and (ALLOW_UNVERIFIED or _verified(p)):
             return s
+    held = festivals.reserved(day or dt.date.today())        # saved for their festival's days
+    done |= {(k, lang) for k in held}
     regional = [s for s in bank.S if s["lang"] == lang and (s["key"], lang) not in done]
     # "all" means pan-Indian; English is a different channel with its own world stories.
     common = [s for s in bank.S if s["lang"] == "all" and (s["key"], lang) not in done] if lang != "en" else []
@@ -253,6 +263,16 @@ def slot_lang(slot, day=None):
     # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
     if slot == 0 and day >= KN_DAILY:
         return "kn"
+    # Festival languages take the rotating slots first (festivals.py): slot 1 the first language an active
+    # event still has an untold story for, slot 2 the next. Slot 0 (kn) and 3 (te) pick their own events.
+    if slot in (1, 2) and day >= HI_OFF:
+        # As of the start of the day, so slot 2 still sees the list slot 1 saw after slot 1 has posted.
+        done = {(r["key"], r["lang"]) for r in ledger()
+                if r.get("status") in ("posted", "failed_check") and r.get("date", "") < str(day)}
+        want = [l for l in festivals.langs_for(day) if l not in ("kn", "te", "en")
+                and any((k, l) not in done for k in festivals.keys_for(l, day))]
+        if len(want) >= slot:
+            return want[slot - 1]
     # Reposts of deleted Shorts in the rotating languages go first: slot 0 the oldest, slot 1 the next.
     rot = [l for k, l in redos(day) if l not in ("te", "hi", "en")]
     rot = list(dict.fromkeys(rot))
@@ -272,6 +292,9 @@ def slot_lang(slot, day=None):
             w.setdefault("hi", min(w.values()))
         for earlier in range(slot):                  # never repeat a language already posted earlier today
             w.pop(slot_lang(earlier, day), None)
+        for r in ledger():                           # ...including what actually posted (a festival may have
+            if r.get("date") == str(day) and r.get("status") == "posted":   # taken that slot's language)
+                w.pop(r.get("lang"), None)
         langs = sorted(w)
         return random.Random(f"{day}/{slot}").choices(langs, [w[l] for l in langs])[0]
     return ROTATING[(2 * (day - EPOCH2).days + slot) % len(ROTATING)]

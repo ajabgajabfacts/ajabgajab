@@ -68,10 +68,18 @@ def plan():
     taken = {l: list(k) for l, k in have.items()}
     out = []
     for day, slot, lang in upcoming():
-        if left.get(lang, 0) > 0:
+        # A festival story for this day is written ahead even when other stock exists (festivals.py):
+        # make.pick posts it first, so stock would not cover it.
+        fest = make.pick(lang, exclude=taken.get(lang, []), day=day)
+        if lang != "en" and fest["key"] in make.festivals.keys_for(lang, day):
+            if fest["key"] in have.get(lang, []):
+                continue                                      # already written
+            e = fest
+        elif left.get(lang, 0) > 0:
             left[lang] -= 1                                   # this slot is covered
             continue
-        e = make.pick(lang, exclude=taken.get(lang, []))
+        else:
+            e = make.pick(lang, exclude=taken.get(lang, []), day=day)
         taken.setdefault(lang, []).append(e["key"])
         ch = make.insights.load().get("channels", {}).get("en" if lang == "en" else "ajab", {}) or {}
         out.append(dict(day=str(day), slot=slot, lang=lang,

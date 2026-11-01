@@ -461,3 +461,38 @@ for _f in _json.loads((_pl.Path(__file__).with_name("bank_feed.json")).read_text
         if _pl.Path(__file__).with_name("bank_feed.json").exists() else []:
     if _f["key"] not in {_s["key"] for _s in S}:
         add2(_f["key"], "en", _f["kind"], _f["wiki"], _f["art"], _f["angle"])
+
+# ── Festival calendar stories (festivals.py, owner 2026-11-01) ───────────────
+# Told in the festival's region while it happens. Wikipedia-grounded like the rest; one line spine each.
+add2("narakasura", "all", "myth", ["Narakasura", "Naraka Chaturdashi"], ["Narakasura painting", "Satyabhama Narakasura", "Naraka Chaturdashi effigy"],
+     "in the South, Diwali begins at dawn with the story of Satyabhama and Krishna defeating Narakasura")
+add2("balipratipada", "kn", "myth", ["Balipratipada", "Mahabali"], ["Vamana Bali painting", "Bali Padyami", "Mahabali"],
+     "the day after Diwali, Karnataka welcomes back the demon king Bali, sent to the underworld but allowed one visit home")
+add2("kali_puja", "bn", "myth", ["Kali Puja", "Kali"], ["Kali Puja pandal Kolkata", "Kali idol Kolkata", "Dakshineswar Kali Temple"],
+     "while India worships Lakshmi on Diwali night, Bengal worships Kali")
+add2("bandi_chhor", "pa", "history", ["Bandi Chhor Divas", "Guru Hargobind", "Gwalior Fort"], ["Golden Temple Diwali", "Gwalior Fort", "Golden Temple illuminated"],
+     "Guru Hargobind would only leave Gwalior Fort if 52 imprisoned kings could leave with him, holding on to his cloak")
+add2("diwali_ayodhya", "hi", "myth", ["Diwali", "Ayodhya"], ["Ayodhya diyas Saryu", "Diwali diyas", "Ram ki Paidi Ayodhya"],
+     "why Ayodhya lit lamps on a moonless night: the city welcoming Rama home after fourteen years")
+add2("chhath_deo", "hi", "wonder", ["Chhath", "Deo Surya Mandir"], ["Chhath Puja ghat", "Chhath Puja Patna", "Deo Sun Temple"],
+     "the festival where millions stand in rivers to pray to the setting sun, and a sun temple said to face west")
+add2("srisailam_karthika", "te", "wonder", ["Mallikarjuna Temple, Srisailam", "Srisailam"], ["Srisailam temple", "Mallikarjuna temple Srisailam", "Srisailam gopuram"],
+     "a temple in the Nallamala forest that is both a Jyotirlinga and a Shakti Peetha")
+add2("pancharama", "te", "myth", ["Pancharama Kshetras", "Draksharamam"], ["Draksharamam temple", "Pancharama temples", "Amararamam temple"],
+     "one Shiva linga broken into five pieces became five temples across Andhra")
+add2("tiruvannamalai_deepam", "ta", "wonder", ["Arunachalesvara Temple", "Karthika Deepam"], ["Tiruvannamalai Karthigai Deepam", "Arunachalesvara Temple", "Arunachala hill"],
+     "once a year a giant flame is lit on top of the Arunachala hill and seen for miles")
+add2("guru_nanak", "pa", "saint", ["Guru Nanak"], ["Guru Nanak painting", "Gurdwara Janam Asthan", "Guru Nanak Gurpurab"],
+     "the money for a business deal that young Nanak spent feeding hungry holy men instead")
+add2("vaikunta_tirumala", "te", "myth", ["Vaikuntha Ekadashi", "Venkateswara Temple, Tirumala"], ["Vaikunta Dwaram Tirumala", "Tirumala temple", "Tirumala gopuram night"],
+     "the one day a year the northern gate to Vishnu's abode is opened at Tirumala")
+add2("srirangam_vaikunta", "ta", "myth", ["Ranganathaswamy Temple, Srirangam", "Vaikuntha Ekadashi"], ["Srirangam Paramapada Vasal", "Srirangam temple gopuram", "Ranganathaswamy Temple Srirangam"],
+     "the Paramapada Vasal, the gate of heaven at Srirangam, opens on just one day")
+add2("lohri_dulla_bhatti", "pa", "folk", ["Lohri", "Dulla Bhatti"], ["Lohri bonfire", "Lohri Punjab", "Dulla Bhatti"],
+     "why Punjab sings about an outlaw, Dulla Bhatti, around the Lohri bonfire")
+add2("makaravilakku", "ml", "myth", ["Makaravilakku", "Sabarimala"], ["Makaravilakku Sabarimala", "Sabarimala temple", "Ponnambalamedu"],
+     "the light that appears on a distant hill at Sabarimala on Makara Sankranti evening")
+add2("pongal", "ta", "food", ["Pongal (festival)"], ["Pongal festival Tamil Nadu", "Pongal pot boiling", "Mattu Pongal cattle"],
+     "a harvest festival named after the moment the rice pot boils over")
+add2("sankranti", "all", "folk", ["Makar Sankranti"], ["Makar Sankranti kites", "Sankranti rangoli", "Gangireddu"],
+     "the one Hindu festival fixed to the sun, not the moon, which is why its date barely moves")
