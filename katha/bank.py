@@ -447,3 +447,12 @@ add2("lykov_family", "en", "history", ["Lykov family"], ["Lykov family", "Abakan
 add2("karansebes", "en", "history", ["Battle of Karánsebes"], ["Karansebes", "Timis River"], "an army may have fought itself in the dark and lost")
 add2("defenestrations", "en", "history", ["Defenestrations of Prague"], ["Defenestrations of Prague", "Prague Castle"], "Prague kept starting wars by throwing people out of windows")
 add2("hemingway_crashes", "en", "history", ["Ernest Hemingway"], ["Ernest Hemingway 1950s", "Murchison Falls"], "two plane crashes in two days, then he read his own obituaries")
+
+# ── Daily feed (feed.py, 2026-11-01) ─────────────────────────────────────────
+# Wikipedia-grounded strange-but-true candidates for WTR, scored by Gemini and filtered (no living people,
+# enough source text and Commons images). Merged as ordinary "en" entries; a hand-written key always wins.
+import json as _json, pathlib as _pl
+for _f in _json.loads((_pl.Path(__file__).with_name("bank_feed.json")).read_text(encoding="utf-8")) \
+        if _pl.Path(__file__).with_name("bank_feed.json").exists() else []:
+    if _f["key"] not in {_s["key"] for _s in S}:
+        add2(_f["key"], "en", _f["kind"], _f["wiki"], _f["art"], _f["angle"])

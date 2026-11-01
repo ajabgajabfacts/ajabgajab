@@ -61,3 +61,6 @@ fb_page_token.txt
 # katha/insights.py output, read by make.py in CI (2026-10-23). This IS an analytics
 # workflow, but it writes only this file, so the four old negations above are still not needed.
 !katha/insights.json
+# WTR story feed (katha/feed.py, 2026-11-01)
+!katha/bank_feed.json
+!katha/feed_seen.json

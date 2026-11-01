@@ -1,0 +1,52 @@
+name: "Wait, That's Real? — daily story-idea feed"
+
+# katha/feed.py: finds strange-but-true Wikipedia candidates (Wikipedia Unusual articles, On this day,
+# most-read), filters them (no living people, enough source text and Commons images), lets one Gemini call
+# score them, and adds up to 4 a day to katha/bank_feed.json, which bank.py merges into the English bank.
+# 18:40 UTC: before the ~19:30 Claude prewrite routine, so today's additions can be written tonight.
+# Owner approved 2026-11-01. One text call a day; no keys besides Gemini.
+on:
+  schedule:
+    - cron: "40 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ajabgajab-katha
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: katha/requirements.txt
+      - name: Python dependencies
+        run: pip install --quiet -r katha/requirements.txt
+      - name: Find and score candidates
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+        run: python katha/feed.py
+      - name: Commit feed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in katha/bank_feed.json katha/feed_seen.json; do [ -f "$f" ] && git add "$f"; done
+          git diff --staged --quiet && exit 0
+          git commit -m "feed: new WTR story candidates [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push origin "HEAD:${{ github.ref_name }}" && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
