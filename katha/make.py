@@ -61,14 +61,20 @@ def redos(day=None):
     return out
 
 
-def pick(lang, force_key=None, exclude=(), day=None):
+# Festival stories post only in the evening slots (2 = 18:05 IST, 3 = 20:35 IST): the Rajyotsava Short went up
+# by hand at 15:29 IST and got 6 views in a day. A run with no slot (-1, manual) may still use them.
+EVENING = (2, 3, -1, 6)   # 6 = festivals.EXTRA_SLOT, 19:05 IST on festival days
+FEST_MIN_IMAGES = 6     # Rajyotsava had 4 usable images (25% of lines); the Mysore hits had plenty
+
+
+def pick(lang, force_key=None, exclude=(), day=None, slot=-1):
     if force_key:
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
     done |= {(k, lang) for k in exclude}
     # A festival happening now goes first (festivals.py, 2026-11-01): the only breakouts we ever had were
     # festival-day stories (Mysore Palace 89k, Dasara elephant 28k on Jamboo Savari day).
-    for k in festivals.keys_for(lang, day or dt.date.today()):
+    for k in (festivals.keys_for(lang, day or dt.date.today()) if slot in EVENING else []):
         if (k, lang) not in done:
             s = next((s for s in bank.S if s["key"] == k), None)
             if s:
@@ -224,6 +230,9 @@ def captions_fit(meta):
     quota day is Pacific time."""
     if meta["lang"] == "en" or meta.get("long"):
         return True
+    if festivals.extra_slot_on(dt.date.today(), _done_before(dt.date.today())):
+        print("[captions] skipped: extra festival Short today on the Ajab quota")
+        return False
     from zoneinfo import ZoneInfo
     import longplan
     day = dt.datetime.now(ZoneInfo("America/Los_Angeles")).date()
@@ -250,6 +259,11 @@ KN_DAILY = dt.date(2026, 10, 26)
 HI_OFF = dt.date(2026, 11, 1)
 
 
+def _done_before(day):
+    return {(r["key"], r["lang"]) for r in ledger()
+            if r.get("status") in ("posted", "failed_check") and r.get("date", "") < str(day)}
+
+
 def slot_lang(slot, day=None):
     day = day or dt.date.today()
     if day < EPOCH2:
@@ -263,16 +277,14 @@ def slot_lang(slot, day=None):
     # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
     if slot == 0 and day >= KN_DAILY:
         return "kn"
-    # Festival languages take the rotating slots first (festivals.py): slot 1 the first language an active
-    # event still has an untold story for, slot 2 the next. Slot 0 (kn) and 3 (te) pick their own events.
-    if slot in (1, 2) and day >= HI_OFF:
-        # As of the start of the day, so slot 2 still sees the list slot 1 saw after slot 1 has posted.
-        done = {(r["key"], r["lang"]) for r in ledger()
-                if r.get("status") in ("posted", "failed_check") and r.get("date", "") < str(day)}
-        want = [l for l in festivals.langs_for(day) if l not in ("kn", "te", "en")
-                and any((k, l) not in done for k in festivals.keys_for(l, day))]
-        if len(want) >= slot:
-            return want[slot - 1]
+    # Festival languages take the evening rotating slot (festivals.py): slot 2 gets the first language an
+    # active event still has an untold story for, Kannada included (slot 0 is a morning slot). Telugu's
+    # evening slot 3 picks its own events.
+    if slot in (2, festivals.EXTRA_SLOT) and day >= HI_OFF:
+        want = festivals.evening_langs(day, _done_before(day))   # start-of-day view: same list for every slot
+        i = 0 if slot == 2 else 1
+        if len(want) > i:
+            return want[i]
     # Reposts of deleted Shorts in the rotating languages go first: slot 0 the oldest, slot 1 the next.
     rot = [l for k, l in redos(day) if l not in ("te", "hi", "en")]
     rot = list(dict.fromkeys(rot))
@@ -292,6 +304,8 @@ def slot_lang(slot, day=None):
             w.setdefault("hi", min(w.values()))
         for earlier in range(slot):                  # never repeat a language already posted earlier today
             w.pop(slot_lang(earlier, day), None)
+        for l in festivals.evening_langs(day, _done_before(day))[:2]:   # ...or a festival posts this evening
+            w.pop(l, None)
         for r in ledger():                           # ...including what actually posted (a festival may have
             if r.get("date") == str(day) and r.get("status") == "posted":   # taken that slot's language)
                 w.pop(r.get("lang"), None)
@@ -338,7 +352,7 @@ def main():
         print(f"[katha] slot {a.slot} already posted today - nothing to do"); return
     L = LANGS[a.lang]
     for attempt in range(3):                     # a story that fails its checks is retired; try the next one
-        e = pick(a.lang, a.key)
+        e = pick(a.lang, a.key, slot=a.slot)
         try:
             return produce(a, L, e)
         except GeminiDown as err:
@@ -414,6 +428,8 @@ def produce(a, L, e):
         sh.write_text(json.dumps([{k: v for k, v in c.items() if k != "img"} for c in shots], ensure_ascii=False, indent=1), encoding="utf-8")
     if len(shots) < 3:
         raise StoryFailed(f"only {len(shots)} usable images")
+    if e["key"] in festivals.keys_for(a.lang, dt.date.today()) and len(shots) < FEST_MIN_IMAGES:
+        raise StoryFailed(f"festival story with only {len(shots)} usable images (need {FEST_MIN_IMAGES})")
 
     text = " ".join(s["sentences"])
     voice = work / "voice.wav"

@@ -70,3 +70,19 @@ def langs_for(day):
 def reserved(day):
     """Festival stories held back from ordinary picks until their festival (and released once it has passed)."""
     return {k for _, _, last, by_lang in EVENTS if last >= day for ks in by_lang.values() for k in ks}
+
+
+EXTRA_SLOT = 6          # festival-only evening Short, 13:35 UTC = 19:05 IST (due.py, katha.yml)
+
+
+def evening_langs(day, done):
+    """Languages (not Telugu: slot 3 is its evening) that active events still have an untold story for,
+    in event order. `done` = {(key, lang)} posted BEFORE `day`, so every slot that day sees the same list.
+    Slot 2 takes the first; the extra slot the second."""
+    return [l for l in langs_for(day) if l not in ("te", "en") and any((k, l) not in done for k in keys_for(l, day))]
+
+
+def extra_slot_on(day, done):
+    """The extra festival Short runs when a second language is waiting and it is not a long-form day
+    (Sun/Wed: Ajab's quota carries the long-form then). Captions are skipped on these days (make.captions_fit)."""
+    return day.weekday() not in (2, 6) and len(evening_langs(day, done)) >= 2

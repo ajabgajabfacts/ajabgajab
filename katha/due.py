@@ -9,8 +9,9 @@ EARLIEST slot whose time has passed today and that is not in the ledger yet.
 The slot crons and a 2-hourly backup cron therefore all converge on the same
 plan, and a dropped trigger is made up at the next one.
 """
-import datetime as dt, json
+import datetime as dt, json, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 SLOT_UTC = {0: (2, 35), 1: (6, 35), 2: (12, 35), 3: (15, 5)}   # keep in sync with katha.yml
 LATEST_CATCHUP_H = 20          # don't post a slot later than 20:00 UTC (01:30 IST): dead hours
@@ -23,7 +24,14 @@ def due(now=None, ledger_path=Path(__file__).parent / "ledger.json"):
     today = str(now.date())
     led = json.loads(ledger_path.read_text(encoding="utf-8")) if ledger_path.exists() else []
     done = {r.get("slot") for r in led if r.get("date") == today and r.get("status") == "posted"}
-    for slot, (h, m) in sorted(SLOT_UTC.items()):
+    slots = dict(SLOT_UTC)
+    # Festival days add an evening slot when a second festival language is waiting (festivals.py, stdlib only).
+    import festivals
+    before = {(r.get("key"), r.get("lang")) for r in led
+              if r.get("status") in ("posted", "failed_check") and r.get("date", "") < today}
+    if festivals.extra_slot_on(now.date(), before):
+        slots[festivals.EXTRA_SLOT] = (13, 35)
+    for slot, (h, m) in sorted(slots.items(), key=lambda x: x[1]):
         if (now.hour, now.minute) >= (h, m) and slot not in done:
             return slot
     return None

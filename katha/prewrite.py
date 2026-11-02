@@ -39,7 +39,8 @@ def upcoming():
     posted = {(r.get("date"), r.get("slot")) for r in make.ledger() if r.get("status") == "posted"}
     out = []
     for day in (today, today + dt.timedelta(days=1)):
-        for slot in (0, 1, 2, 3):
+        extra = (make.festivals.EXTRA_SLOT,) if make.festivals.extra_slot_on(day, make._done_before(day)) else ()
+        for slot in (0, 1, 2, 3) + extra:
             if (str(day), slot) not in posted:
                 out.append((day, slot, make.slot_lang(slot, day)))
         for slot in en_slots(day):
@@ -70,7 +71,7 @@ def plan():
     for day, slot, lang in upcoming():
         # A festival story for this day is written ahead even when other stock exists (festivals.py):
         # make.pick posts it first, so stock would not cover it.
-        fest = make.pick(lang, exclude=taken.get(lang, []), day=day)
+        fest = make.pick(lang, exclude=taken.get(lang, []), day=day, slot=slot)
         if lang != "en" and fest["key"] in make.festivals.keys_for(lang, day):
             if fest["key"] in have.get(lang, []):
                 continue                                      # already written
@@ -79,7 +80,7 @@ def plan():
             left[lang] -= 1                                   # this slot is covered
             continue
         else:
-            e = make.pick(lang, exclude=taken.get(lang, []), day=day)
+            e = make.pick(lang, exclude=taken.get(lang, []), day=day, slot=slot)
         taken.setdefault(lang, []).append(e["key"])
         ch = make.insights.load().get("channels", {}).get("en" if lang == "en" else "ajab", {}) or {}
         out.append(dict(day=str(day), slot=slot, lang=lang,
