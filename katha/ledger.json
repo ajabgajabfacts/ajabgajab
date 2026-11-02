@@ -817,5 +817,23 @@
   "title": "ಸೂರ್ಯನನ್ನೇ ಹಣ್ಣೆಂದು ನುಂಗಲು ಹಾರಿದ್ದ ಬಾಲ ಹನುಮಂತ",
   "seconds": 38.9,
   "slot": 0
+ },
+ {
+  "key": "kanhopatra",
+  "lang": "mr",
+  "date": "2026-11-02",
+  "status": "failed_check",
+  "why": "only 1 usable images"
+ },
+ {
+  "key": "tanaji_sinhagad",
+  "lang": "mr",
+  "date": "2026-11-02",
+  "utc": "10:22",
+  "status": "posted",
+  "video_id": "6ds-In__7RI",
+  "title": "घोरपडीच्या मदतीने सरळ कडा चढून जिंकलेला सिंहगड",
+  "seconds": 42.9,
+  "slot": 1
  }
 ]
