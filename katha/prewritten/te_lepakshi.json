@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "లేపాక్షి గుడిలో నేలను తాకని రాతి స్తంభం రహస్యం ఏంటి?",
+  "hook_text": "నేలను తాకని రాతి స్తంభం",
+  "kicker": "చారిత్రక వింత",
+  "sentences": [
+   "నేలను తాకకుండా గాలిలో తేలుతున్నట్లు కనిపించే రాతి స్తంభం ఒకటుంది.",
+   "ఆంధ్రప్రదేశ్‌లోని లేపాక్షి వీరభద్రస్వామి గుడిలో ఈ వింత కనిపిస్తుంది.",
+   "16వ శతాబ్దంలో విజయనగర రాజు అచ్యుతదేవరాయల వద్ద పనిచేసే విరూపణ్ణ, వీరణ్ణ సోదరులు దీనిని కట్టించారు.",
+   "ఇక్కడి నాట్య మంటపంలో ఉన్న ఒక రాతి స్తంభం కింద చిన్న ఖాళీ ఉంటుంది.",
+   "ఆ స్తంభం అడుగు భాగం గుండా కాగితం లేదా పలుచని గుడ్డను సులభంగా జరపవచ్చు.",
+   "ఈ స్తంభం స్వల్పంగా పక్కకు జరిగి ఒక పక్క మాత్రమే నేలను తాకడం వల్ల ఈ ఖాళీ ఏర్పడింది.",
+   "మీరు లేపాక్షి గుడికి వెళ్లినప్పుడు ఈ స్తంభం కింద గుడ్డ జరిపి చూశారా?"
+  ],
+  "cta": "కామెంట్స్ తెలపండి",
+  "description": "లేపాక్షి వీరభద్రస్వామి ఆలయంలోని వేలాడే స్తంభం గురించిన ఆసక్తికరమైన నిజాలు.\nవిజయనగర సామ్రాజ్య కాలం నాటి ఈ అద్భుతమైన నిర్మాణం గురించిన విశేషాలు ఇక్కడ చూడండి.",
+  "hashtags": [
+   "లేపాక్షి",
+   "LepakshiTemple",
+   "ఆంధ్రప్రదేశ్",
+   "HangingPillar",
+   "TeluguShorts"
+  ],
+  "visuals": [
+   "Lepakshi Veerabhadra temple hanging pillar gap",
+   "Lepakshi Veerabhadra temple mukha mantapa pillars",
+   "Lepakshi temple complex main entrance",
+   "Cloth being passed under Lepakshi hanging pillar"
+  ],
+  "claims_en": [
+   "There is a stone pillar at Lepakshi Veerabhadra temple that appears to float without completely resting on the floor.",
+   "The temple is located in Lepakshi, Andhra Pradesh.",
+   "It was built in the 16th century by brothers Virupanna and Viranna under Vijayanagara King Achyuta Deva Raya.",
+   "There is a gap between the base of a pillar and the ground in the assembly hall.",
+   "Paper or cloth can be passed through the gap underneath the pillar.",
+   "The gap exists because the pillar is slightly dislodged and touches the ground only on one side.",
+   "Visitors test the hanging pillar by passing a cloth under it."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-02T11:26+00:00",
+ "for_slot": "2026-11-03 slot 3"
+}
