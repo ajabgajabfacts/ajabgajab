@@ -897,5 +897,13 @@
   "title": "અંગ્રેજોએ ભારતીયોને ચા પીતા કેવી રીતે કર્યા?",
   "seconds": 37.6,
   "slot": 1
+ },
+ {
+  "key": "hemingway_crashes",
+  "lang": "en",
+  "date": "2026-11-03",
+  "status": "failed_check",
+  "why": "no script passed the check for hemingway_crashes/en",
+  "by": "prewrite"
  }
 ]
