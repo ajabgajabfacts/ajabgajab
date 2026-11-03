@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "A Volcano Buried Pompeii and Saved Its Graffiti",
+  "hook_text": "Buried under metres of ash",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "A Roman town vanished under up to six metres of ash.",
+   "That was Pompeii, near Naples, buried when Mount Vesuvius erupted in 79 AD.",
+   "Between 10,000 and 20,000 people lived there.",
+   "Then the city stayed largely undisturbed until its rediscovery in the late 16th century.",
+   "Major digging only began in the mid-18th century, and early efforts were marred by looting.",
+   "What survived was ordinary life.",
+   "People had scratched graffiti on walls, inside rooms and out, in the casual Latin of the street.",
+   "That everyday spoken Latin is otherwise largely lost.",
+   "In Pompeii, the vandals ended up keeping the record."
+  ],
+  "cta": "Comment below",
+  "description": "Vesuvius buried Pompeii in 79 AD under metres of ash.\nIts wall graffiti kept the everyday Latin Romans actually spoke.",
+  "hashtags": [
+   "Pompeii",
+   "Vesuvius",
+   "AncientRome",
+   "History",
+   "TrueStory"
+  ],
+  "visuals": [
+   "Pompeii ruins Vesuvius",
+   "Pompeii graffiti wall",
+   "Pompeii street excavation"
+  ],
+  "claims_en": [
+   "Pompeii was buried under 4 to 6 metres of volcanic ash and pumice.",
+   "Pompeii was near Naples.",
+   "It was buried in the eruption of Mount Vesuvius in 79 AD.",
+   "It had 10,000 to 20,000 residents at the time it was destroyed.",
+   "Pompeii remained largely undisturbed until its rediscovery in the late 16th century.",
+   "Major excavations did not begin until the mid-18th century.",
+   "Initial efforts were haphazard or marred by looting.",
+   "Numerous graffiti carved on outside walls and inside rooms provide examples of the Vulgar Latin spoken colloquially at the time.",
+   "That colloquial Vulgar Latin is largely lost."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-03T19:47Z",
+ "for_slot": "2026-11-04 slot 4"
+}

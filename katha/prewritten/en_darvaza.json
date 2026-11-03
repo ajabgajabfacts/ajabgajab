@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "Why a Desert Crater Has Been on Fire Since 1971",
+  "hook_text": "Burning since 1971",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "A crater nicknamed the Door to Hell has burned since 1971.",
+   "It sits in Turkmenistan's Karakum Desert, about 260 kilometres north of Ashgabat.",
+   "Hundreds of gas fires light up its floor and rim.",
+   "Nobody is sure how it began, because the records are missing or classified.",
+   "One account says Soviet engineers drilled there for oil, and the ground collapsed within days.",
+   "To stop poisonous gas escaping, they set it on fire on purpose.",
+   "They underestimated how much gas was down there.",
+   "Infrared images from 2026 show the flames are only now starting to fade."
+  ],
+  "cta": "Comment below",
+  "description": "A gas crater in the Karakum Desert has been burning since 1971.\nOne account says engineers lit it on purpose.",
+  "hashtags": [
+   "DoorToHell",
+   "Darvaza",
+   "Turkmenistan",
+   "KarakumDesert",
+   "TrueStory"
+  ],
+  "visuals": [
+   "Darvaza gas crater",
+   "Darvaza gas crater night fire",
+   "Karakum Desert Turkmenistan"
+  ],
+  "claims_en": [
+   "The Darvaza gas crater is also known as the Door to Hell.",
+   "The crater has been burning since 1971.",
+   "It is in the Karakum Desert in Turkmenistan.",
+   "It is about 260 kilometres north of Ashgabat.",
+   "Hundreds of natural gas fires illuminate the floor and rim of the crater.",
+   "Records of the crater's early history are absent, classified or inaccessible, so its early history is still being determined.",
+   "One account says Soviet engineers drilled the site in 1971 as an oil field and it collapsed within days.",
+   "The engineers chose to flare the crater to prevent the emission of poisonous gases.",
+   "They underestimated the volume of the gas.",
+   "Infrared images taken in 2026 show the fires are on the decline."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-03T19:47Z",
+ "for_slot": "2026-11-03 slot 5"
+}

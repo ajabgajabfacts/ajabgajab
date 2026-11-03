@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "കാൽവിരൽ കൊണ്ട് രാവണനെ കുടുക്കിയ ശിവഭഗവാൻ",
+  "hook_text": "കൈലാസം പൊക്കിയ രാജാവ്",
+  "kicker": "പുരാണകഥ",
+  "sentences": [
+   "കൈലാസം മുഴുവൻ പിഴുതെടുക്കാൻ നോക്കിയ ഒരു രാജാവുണ്ട്.",
+   "രാമായണം ഉത്തരകാണ്ഡത്തിലെ കഥയനുസരിച്ച്, കുബേരനെ തോൽപ്പിച്ച് പുഷ്പകവിമാനത്തിൽ മടങ്ങുകയായിരുന്നു രാവണൻ.",
+   "ഒരിടത്തെത്തിയപ്പോൾ വിമാനം അതിനു മുകളിലൂടെ പറക്കുന്നില്ല.",
+   "ശിവഭഗവാനും പാർവതീദേവിയും വസിക്കുന്ന മലയാണ്, ആർക്കും കടന്നുപോകാനാവില്ല എന്ന് നന്ദികേശൻ പറഞ്ഞു.",
+   "ദേഷ്യം കയറിയ രാവണൻ ഇരുപത് കൈകളും മലയ്ക്കടിയിൽ വെച്ച് പൊക്കാൻ തുടങ്ങി.",
+   "കൈലാസം കുലുങ്ങി, പേടിച്ച പാർവതീദേവി ഭഗവാനെ കെട്ടിപ്പിടിച്ചു.",
+   "ഭഗവാൻ കാലിന്റെ പെരുവിരൽ കൊണ്ട് മല അമർത്തി, രാവണൻ അതിനടിയിൽ കുടുങ്ങി.",
+   "ആയിരം വർഷം ശിവസ്തുതികൾ പാടിയ ശേഷമാണ് ഭഗവാൻ ക്ഷമിച്ചത്.",
+   "അന്ന് ഉറക്കെ കരഞ്ഞതുകൊണ്ടാണത്രേ 'കരഞ്ഞവൻ' എന്നർത്ഥമുള്ള രാവണൻ എന്ന പേര് കിട്ടിയത്."
+  ],
+  "cta": "കമന്റ് ചെയ്യൂ",
+  "description": "കൈലാസം പൊക്കാൻ നോക്കിയ രാവണനെ ശിവഭഗവാൻ കാൽവിരൽ കൊണ്ട് കുടുക്കിയ പുരാണകഥ.\nരാവണൻ എന്ന പേരിന്റെ പിന്നിലെ കഥയും.",
+  "hashtags": [
+   "രാവണൻ",
+   "കൈലാസം",
+   "ശിവഭഗവാൻ",
+   "Ravananugraha",
+   "HinduMythology"
+  ],
+  "visuals": [
+   "Ravananugraha Ellora Kailasha Temple relief",
+   "Ravana lifting Kailash sculpture",
+   "Ravana shaking Mount Kailash painting"
+  ],
+  "claims_en": [
+   "According to the Uttara Kanda of the Ramayana (legend), Ravana tried to uproot Mount Kailash.",
+   "Ravana had defeated Kubera and was returning in the Pushpaka Vimana.",
+   "The chariot could not fly over a place.",
+   "Nandi (Nandikeshvara) told Ravana that Shiva and Parvati resided on the mountain and no one was allowed to pass.",
+   "Infuriated, Ravana put all his twenty arms under Kailash and started lifting it.",
+   "Kailash began to shake and a terrified Parvati embraced Shiva.",
+   "Shiva pressed the mountain into place with his big toe, trapping Ravana beneath it.",
+   "Ravana sang hymns in praise of Shiva for a thousand years, and Shiva finally forgave him.",
+   "Since Ravana cried, he was given the name Ravana, meaning one who cried."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-03T19:47Z",
+ "for_slot": "2026-11-04 slot 2"
+}
