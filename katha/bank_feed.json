@@ -126,5 +126,69 @@
   "angle": "Taiwanese tech workers place green snack bags on servers and machines to guarantee they run error-free.",
   "score": 8,
   "added": "2026-11-01"
+ },
+ {
+  "key": "america_cattelan",
+  "lang": "en",
+  "kind": "wonder",
+  "wiki": [
+   "America (Cattelan)"
+  ],
+  "art": [
+   "America Cattelan gold toilet",
+   "Blenheim Palace",
+   "America (Cattelan)"
+  ],
+  "angle": "A fully functioning toilet made from 103 kilograms of solid gold was stolen from Blenheim Palace in 2019.",
+  "score": 9,
+  "added": "2026-11-03"
+ },
+ {
+  "key": "roar_film",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Roar (film)"
+  ],
+  "art": [
+   "Roar 1981 film lions",
+   "Tippi Hedren Roar film",
+   "Roar (film)"
+  ],
+  "angle": "The 1981 film Roar used dozens of untamed lions, resulting in over seventy cast and crew members being injured.",
+  "score": 9,
+  "added": "2026-11-03"
+ },
+ {
+  "key": "gare_montparnasse",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Gare Montparnasse"
+  ],
+  "art": [
+   "Gare Montparnasse train crash 1895",
+   "Gare Montparnasse exterior",
+   "Gare Montparnasse"
+  ],
+  "angle": "In 1895, a steam train overshot a Paris station, smashed through a masonry wall, and crashed into the street.",
+  "score": 8,
+  "added": "2026-11-03"
+ },
+ {
+  "key": "heidi_game",
+  "lang": "en",
+  "kind": "sport",
+  "wiki": [
+   "Heidi Game"
+  ],
+  "art": [
+   "Heidi Game 1968 NBC",
+   "Oakland Raiders 1968",
+   "Heidi Game"
+  ],
+  "angle": "In 1968, NBC cut away from a live football game with one minute left, missing a dramatic comeback.",
+  "score": 8,
+  "added": "2026-11-03"
  }
 ]
