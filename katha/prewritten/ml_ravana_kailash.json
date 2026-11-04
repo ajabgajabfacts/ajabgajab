@@ -45,8 +45,13 @@
   "problems": [],
   "by": "claude self-check"
  },
- "verified": false,
+ "verified": true,
  "by": "claude-routine",
  "written": "2026-11-03T19:47Z",
- "for_slot": "2026-11-04 slot 2"
+ "for_slot": "2026-11-04 slot 2",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
 }
