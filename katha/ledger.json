@@ -974,5 +974,23 @@
   "date": "2026-11-04",
   "status": "failed_check",
   "why": "only 0 usable images"
+ },
+ {
+  "key": "ekalavya",
+  "lang": "mr",
+  "date": "2026-11-04",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "ajanta_ellora",
+  "lang": "mr",
+  "date": "2026-11-04",
+  "utc": "15:04",
+  "status": "posted",
+  "video_id": "E909_eGQw3Y",
+  "title": "एकाच दगडाचा डोंगर वरून खाली कोरून बनवलेले कैलास मंदिर",
+  "seconds": 38.8,
+  "slot": 1
  }
 ]
