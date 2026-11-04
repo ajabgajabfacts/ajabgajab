@@ -960,5 +960,19 @@
   "title": "ಬ್ರಿಟಿಷರ ಮಾತು ಮೀರಿ ಕೆಆರ್‌ಎಸ್ ಅಣೆಕಟ್ಟು ಕಟ್ಟಿದ ವಿಶ್ವೇಶ್ವರಯ್ಯ",
   "seconds": 37.6,
   "slot": 0
+ },
+ {
+  "key": "shetpal",
+  "lang": "mr",
+  "date": "2026-11-04",
+  "status": "failed_check",
+  "why": "no source text"
+ },
+ {
+  "key": "kd_jadhav",
+  "lang": "mr",
+  "date": "2026-11-04",
+  "status": "failed_check",
+  "why": "only 0 usable images"
  }
 ]
