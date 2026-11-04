@@ -1,0 +1,53 @@
+{
+ "script": {
+  "title": "द्रोणाचार्यांसाठी स्वतःचा उजवा अंगठा कापून देणारा महान धनुर्धर",
+  "hook_text": "कुत्र्याच्या तोंडात सात बाण",
+  "kicker": "पौराणिक कथा",
+  "sentences": [
+   "भुंकणाऱ्या कुत्र्याचे तोंड न दुखावता त्यात एकापाठोपाठ सात बाण मारले गेले.",
+   "महाभारतातील मान्यतेनुसार, हा पराक्रम निषाद राजा हिरण्यधनुच्या मुलाने केला होता.",
+   "एकलव्याला गुरु द्रोणाचार्यांकडून धनुर्विद्या शिकायची होती, पण त्याच्या कुळामुळे त्यांनी नकार दिला.",
+   "मग एकलव्याने जंगलात द्रोणाचार्यांचा मातीचा पुतळा बनवून स्वतःच सराव सुरू केला.",
+   "एके दिवशी शिकारीला आलेल्या पांडवांचे कुत्रे भुंकू लागल्यावर त्याने हे कौशल्य दाखवले.",
+   "अर्जुनाला आपले स्थान धोक्यात वाटले, म्हणून त्याने द्रोणाचार्यांकडे तक्रार केली.",
+   "द्रोणाचार्यांनी अर्जुनाला श्रेष्ठ ठेवण्यासाठी गुरुदक्षिणेत एकलव्याचा उजवा अंगठाच मागून घेतला.",
+   "महाभारताच्या उद्योग पर्वातील उल्लेखानुसार, पुढे श्रीकृष्णाने या पराक्रमी एकलव्याचा वध केला.",
+   "विद्या न शिकवणाऱ्या गुरूलाही असा अंगठा कापून देणारा शिष्य पुन्हा झाला असेल का?"
+  ],
+  "cta": "खाली कमेंट करा",
+  "description": "महाभारतातील महान धनुर्धर एकलव्य आणि द्रोणाचार्यांच्या गुरुदक्षिणेची गोष्ट.\nएकलव्याने स्वतःचा अंगठा कापून का दिला ते जाणून घ्या.",
+  "hashtags": [
+   "Mahabharat",
+   "Ekalavya",
+   "Dronacharya",
+   "MarathiStory",
+   "History"
+  ],
+  "visuals": [
+   "Ekalavya archery statue",
+   "Dronacharya teaching Pandavas painting",
+   "Ekalavya clay statue Dronacharya",
+   "Ekalavya cutting thumb for Dronacharya painting",
+   "Krishna killing Ekalavya painting Mahabharata"
+  ],
+  "claims_en": [
+   "Seven arrows were shot into a barking dog's mouth without harming it.",
+   "Ekalavya was the son of Nishada king Hiranyadhanus according to Mahabharata.",
+   "Dronacharya refused to teach Ekalavya archery due to his Nishada background.",
+   "Ekalavya created a clay statue of Dronacharya in the forest to practice archery on his own.",
+   "Ekalavya displayed his skill when the Pandavas' dog barked at him during a hunt.",
+   "Arjuna felt threatened by Ekalavya's skill and complained to Dronacharya.",
+   "Dronacharya demanded Ekalavya's right thumb as gurudakshina to ensure Arjuna remained the best archer.",
+   "According to the Udyoga Parva of Mahabharata, Krishna later killed Ekalavya."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-04T10:50+00:00",
+ "for_slot": "2026-11-04 slot 1"
+}

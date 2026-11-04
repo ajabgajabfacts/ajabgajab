@@ -1,0 +1,46 @@
+{
+ "script": {
+  "title": "చావు లేని వరం పొందిన రాక్షస రాజు ఎలా అంతమయ్యాడు?",
+  "hook_text": "చావు లేని రాజు ఎలా అంతమయ్యాడు?",
+  "kicker": "పౌరాణిక కథ",
+  "sentences": [
+   "మనిషి లేదా జంతువు చంపలేని ఒక రాజు నిమిషంలో అంతమయ్యాడు.",
+   "పురాణాల ప్రకారం, హిరణ్యకశిపుడు పగలు, రాత్రి, ఇంట్లో, బయట చావు లేని వరం పొందాడు.",
+   "విష్ణు భక్తుడైన కొడుకు ప్రహ్లాదుడిని ఏనుగులతో తొక్కిస్తే, వాటి దంతాలు విరిగిపోయాయి.",
+   "రాజును ఏ ఆయుధం కూడా తాకలేకపోయింది.",
+   "అప్పుడు ఒక స్తంభం నుండి సగం మనిషి, సగం సింహం రూపం బయటికొచ్చింది.",
+   "సంధ్యా సమయంలో గుమ్మం మీద రాజును తొడలపై పెట్టి గోళ్ళతో సంహరించాడు.",
+   "బ్రహ్మ వరంలోని ప్రతీ షరతు ఇక్కడ ఎలా విరిగిపోయిందో గమనించారా?"
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "ప్రహ్లాదుడు మరియు నరసింహస్వామి పురాణ కథ.\nహిరణ్యకశిపుడి అంతం వెనుక ఉన్న అసలు రహస్యం.",
+  "hashtags": [
+   "Prahlada",
+   "Narasimha",
+   "TeluguShorts",
+   "తెలుగుకథలు",
+   "Ahobilam"
+  ],
+  "visuals": [
+   "Narasimha Hiranyakashipu sculpture threshold",
+   "Ahobilam Narasimha temple Andhra Pradesh",
+   "Prahlada elephant tusks breaking painting",
+   "Narasimha emerging from pillar artwork"
+  ],
+  "claims_en": [
+   "Hiranyakashipu received a boon from Brahma preventing death by man, animal, day, night, indoors, or outdoors.",
+   "Hiranyakashipu tried to have Prahlada trampled by elephants, but their tusks broke upon contact.",
+   "Vishnu incarnated as Narasimha, a half-man and half-lion figure emerging from a pillar.",
+   "Narasimha killed Hiranyakashipu at twilight on a palace threshold using his claws while holding him on his lap."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-04T10:55+00:00",
+ "for_slot": "2026-11-05 slot 3"
+}

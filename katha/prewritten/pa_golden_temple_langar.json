@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "ਹਰਿਮੰਦਰ ਸਾਹਿਬ ਦੇ ਲੰਗਰ ਵਿੱਚ ਕੋਈ ਵੀ ਸਟਾਫ਼ ਤਨਖਾਹ ਨਹੀਂ ਲੈਂਦਾ",
+  "hook_text": "ਕੋਈ ਵੀ ਬੰਦਾ ਤਨਖਾਹ ਨਹੀਂ ਲੈਂਦਾ",
+  "kicker": "ਸੱਚੀ ਘਟਨਾ",
+  "sentences": [
+   "ਹਜ਼ਾਰਾਂ ਲੋਕਾਂ ਦਾ ਖਾਣਾ ਬਣਾਉਣ ਵਾਲਾ ਕੋਈ ਵੀ ਬੰਦਾ ਤਨਖਾਹ ਨਹੀਂ ਲੈਂਦਾ।",
+   "ਅੰਮ੍ਰਿਤਸਰ ਦੇ ਹਰਿਮੰਦਰ ਸਾਹਿਬ ਵਿੱਚ ਹਰ ਰੋਜ਼ ਡੇਢ ਲੱਖ ਤੋਂ ਵੱਧ ਸ਼ਰਧਾਲੂ ਆਉਂਦੇ ਹਨ।",
+   "ਇੱਥੇ ਆਉਣ ਵਾਲੇ ਸਾਰੇ ਲੋਕਾਂ ਲਈ ਮੁਫ਼ਤ ਸ਼ਾਕਾਹਾਰੀ ਲੰਗਰ ਤਿਆਰ ਹੁੰਦਾ ਹੈ।",
+   "ਅਮੀਰ ਹੋਵੇ ਜਾਂ ਗਰੀਬ, ਸਾਰੇ ਜ਼ਮੀਨ ਉੱਤੇ ਇਕੱਠੇ ਬੈਠ ਕੇ ਭੋਜਨ ਛਕਦੇ ਹਨ।",
+   "ਇੰਨੇ ਵੱਡੇ ਪੱਧਰ 'ਤੇ ਰਸੋਈ ਚਲਾਉਣ ਲਈ ਕੋਈ ਪੱਕਾ ਸਟਾਫ਼ ਨਹੀਂ ਰੱਖਿਆ ਗਿਆ।",
+   "ਇਹ ਸਾਰੀ ਸੰਭਾਲ ਅਤੇ ਖਾਣਾ ਬਣਾਉਣ ਦਾ ਕੰਮ ਸਿਰਫ਼ ਸੇਵਾਦਾਰ ਬਿਨਾਂ ਪੈਸਿਆਂ ਦੇ ਕਰਦੇ ਹਨ।",
+   "ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਨਿਯਮ ਬਣਾਇਆ ਸੀ ਕਿ ਗੱਲ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਲੰਗਰ ਛਕਣਾ ਪਵੇਗਾ।",
+   "ਇਹੋ ਬਰਾਬਰੀ ਦੀ ਪਰੰਪਰਾ ਇਸ ਰਸੋਈ ਨੂੰ ਅੱਜ ਵੀ ਨਿਰੰਤਰ ਚਲਾ ਰਹੀ ਹੈ।"
+  ],
+  "cta": "ਹੇਠਾਂ ਟਿੱਪਣੀ ਕਰੋ",
+  "description": "ਅੰਮ੍ਰਿਤਸਰ ਦੇ ਹਰਿਮੰਦਰ ਸਾਹਿਬ ਦੇ ਲੰਗਰ ਦੀ ਅਦਭੁਤ ਸੇਵਾ ਪਰੰਪਰਾ।\nਜਾਣੋ ਕਿਵੇਂ ਬਿਨਾਂ ਕਿਸੇ ਪੱਕੇ ਸਟਾਫ਼ ਦੇ ਹਜ਼ਾਰਾਂ ਲੋਕਾਂ ਦਾ ਲੰਗਰ ਤਿਆਰ ਹੁੰਦਾ ਹੈ।",
+  "hashtags": [
+   "GoldenTemple",
+   "LangarSeva",
+   "Amritsar",
+   "Sikhism",
+   "PunjabiHistory"
+  ],
+  "visuals": [
+   "Golden Temple Amritsar aerial view",
+   "Golden Temple langar hall volunteers serving food",
+   "Golden Temple langar kitchen cooking big vessels",
+   "Volunteers washing dishes Golden Temple Amritsar",
+   "People sitting on floor eating langar Golden Temple"
+  ],
+  "claims_en": [
+   "No paid staff operates the large community kitchen at the Golden Temple.",
+   "Over 150,000 visitors come to the Golden Temple complex in Amritsar every day.",
+   "Free lacto-vegetarian meals are prepared for all visitors at the langar.",
+   "People sit together on the floor to eat regardless of status or background.",
+   "The kitchen relies on volunteer sevadars rather than permanent paid employees.",
+   "Guru Amar Das required visitors to eat in the langar before speaking with him.",
+   "The institution of langar promotes absolute equality among all participants."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-04T10:54+00:00",
+ "for_slot": "2026-11-05 slot 2"
+}

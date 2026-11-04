@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "ಒಂದು ಮಾವಿನ ಹಣ್ಣಿಗಾಗಿ ಗಣೇಶ ಮತ್ತು ಕಾರ್ತಿಕೇಯ ನಡುವೆ ನಡೆದ ಪಂದ್ಯ",
+  "hook_text": "ಪ್ರಪಂಚ ಸುತ್ತಿದ್ದರೂ ಸೋತ ಕಾರ್ತಿಕೇಯ",
+  "kicker": "ಪೌರಾಣಿಕ ಕಥೆ",
+  "sentences": [
+   "ಇಡೀ ಪ್ರಪಂಚವನ್ನು ಮೂರು ಬಾರಿ ಸುತ್ತಿದ ಕಾರ್ತಿಕೇಯ ಕೊನೆಗೆ ಸೋತು ಹೋದರು.",
+   "ಕಂದ ಪುರಾಣದ ಪ್ರಕಾರ, ಒಮ್ಮೆ ನಾರದರು ಶಿವನಿಗೆ ಜ್ಞಾನ ಫಲ ಎಂಬ ಮಾವಿನ ಹಣ್ಣನ್ನು ಕೊಟ್ಟರು.",
+   "ಈ ಹಣ್ಣಿಗಾಗಿ ಗಣೇಶ ಮತ್ತು ಕಾರ್ತಿಕೇಯ ನಡುವೆ ಸ್ಪರ್ಧೆ ನಡೆಯಿತು.",
+   "ಜಗತ್ತನ್ನು ಮೊದಲು ಮೂರು ಬಾರಿ ಸುತ್ತಿ ಬರುವವರಿಗೆ ಆ ಹಣ್ಣು ಸಿಗಬೇಕಿತ್ತು.",
+   "ಕಾರ್ತಿಕೇಯ ತಕ್ಷಣವೇ ತಮ್ಮ ನವಿಲೇರಿ ಇಡೀ ಭೂಮಿಯನ್ನು ಸುತ್ತಲು ಹೊರಟರು.",
+   "ಆದರೆ ಗಣೇಶ ಎಲ್ಲೂ ಹೋಗದೆ, ತಮ್ಮ ತಂದೆ-ತಾಯಿಗೇ ಮೂರು ಬಾರಿ ಪ್ರದಕ್ಷಿಣೆ ಹಾಕಿದರು.",
+   "ಪೋಷಕರೇ ಇಡೀ ಜಗತ್ತು ಎಂದ ಗಣೇಶ ಆ ಹಣ್ಣನ್ನು ಗೆದ್ದುಬಿಟ್ಟರು.",
+   "ನಿರಾಶೆಗೊಂಡ ಕಾರ್ತಿಕೇಯ ಕೈಲಾಸ ತೊರೆದು ಪಳನಿ ಬೆಟ್ಟಕ್ಕೆ ಹೊರಟುಹೋದರು."
+  ],
+  "cta": "ಕೆಳಗೆ ಕಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಜ್ಞಾನ ಫಲಕ್ಕಾಗಿ ಗಣೇಶ ಮತ್ತು ಕಾರ್ತಿಕೇಯ ನಡುವೆ ನಡೆದ ಪಂದ್ಯದ ಕಥೆ. ಗಣೇಶ ಹೇಗೆ ತಮ್ಮ ಬುದ್ಧಿವಂತಿಕೆಯಿಂದ ಪಂದ್ಯ ಗೆದ್ದರು ತಿಳಿಯಿರಿ.",
+  "hashtags": [
+   "KannadaStories",
+   "Ganesha",
+   "Kartikeya",
+   "Palani",
+   "KannadaShorts"
+  ],
+  "visuals": [
+   "Sage Narada giving mango fruit to Shiva and Parvati painting",
+   "Kartikeya riding a peacock across sky sculpture",
+   "Ganesha circumambulating Shiva and Parvati artwork",
+   "Palani Murugan Temple hill view"
+  ],
+  "claims_en": [
+   "According to Kanda Puranam, Sage Narada presented Shiva with a fruit of knowledge, usually regarded as a mango.",
+   "A challenge was set to give the fruit to whoever circled the world thrice first.",
+   "Kartikeya started encircling the world riding his peacock mount.",
+   "Ganesha circumambulated his parents Shiva and Parvati, treating them as the world.",
+   "Ganesha won the fruit of knowledge.",
+   "Upset by the outcome, Kartikeya left Kailasha to reside in Palani Hills."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-04T10:51+00:00",
+ "for_slot": "2026-11-05 slot 0"
+}
