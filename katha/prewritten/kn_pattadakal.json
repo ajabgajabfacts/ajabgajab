@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ ಭಾರತದ ಶೈಲಿಗಳು ಒಂದಾದ ಪಟ್ಟದಕಲ್ಲಿನ ವಿಸ್ಮಯ",
+  "hook_text": "ಪಕ್ಕಪಕ್ಕದಲ್ಲೇ ಎರಡು ಶೈಲಿಯ ಗುಡಿಗಳು",
+  "kicker": "ವಾಸ್ತುಶಿಲ್ಪ",
+  "sentences": [
+   "ಒಂದೇ ಆವರಣದಲ್ಲಿ ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ ಭಾರತದ ಶೈಲಿಯ ಗುಡಿಗಳು ಪಕ್ಕಪಕ್ಕದಲ್ಲೇ ನಿಂತಿವೆ.",
+   "ಇದು 7 ಮತ್ತು 8ನೇ ಶತಮಾನದಲ್ಲಿ ಚಾಲುಕ್ಯರು ಕಟ್ಟಿಸಿದ ಪಟ್ಟದಕಲ್ಲು.",
+   "ಇಲ್ಲಿನ ನಾಲ್ಕು ಗುಡಿಗಳು ದ್ರಾವಿಡ ಶೈಲಿಯಲ್ಲಿದ್ದರೆ ಇನ್ನು ನಾಲ್ಕು ಉತ್ತರದ ನಾಗರ ಶೈಲಿಯಲ್ಲಿವೆ.",
+   "ಅಕ್ಕಪಕ್ಕದಲ್ಲೇ ಎರಡು ಬೇರೆ ಬೇರೆ ವಾಸ್ತುಶಿಲ್ಪಗಳ ದೊಡ್ಡ ಪ್ರಯೋಗ ಇಲ್ಲಿ ನಡೆದಿತ್ತು.",
+   "ಶಿಲ್ಪಿಗಳು ಇಷ್ಟಕ್ಕೇ ನಿಲ್ಲಲಿಲ್ಲ.",
+   "ಪಾಪನಾಥ ದೇವಾಲಯದಲ್ಲಿ ಈ ಎರಡೂ ಶೈಲಿಗಳನ್ನು ಒಂದರಲ್ಲೇ ಬೆರೆಸಿ ಕಟ್ಟಿದ್ದಾರೆ.",
+   "ಕಲ್ಲಿನಲ್ಲಿ ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ ಹೀಗೆ ಒಂದಾದ ಜಾಗ ಇನ್ನೆಲ್ಲಾದರೂ ಸಿಗಲು ಸಾಧ್ಯವೇ?"
+  ],
+  "cta": "ಕೆಳಗೆ ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ ಭಾರತದ ವಾಸ್ತುಶಿಲ್ಪಗಳು ಪಟ್ಟದಕಲ್ಲಿನಲ್ಲಿ ಹೇಗೆ ಒಂದಾದವು ಎಂದು ನೋಡಿ. ಚಾಲುಕ್ಯರ ಕಾಲದ ಅದ್ಭುತ ಪ್ರಯೋಗವಿದು.",
+  "hashtags": [
+   "Pattadakal",
+   "KarnatakaHistory",
+   "ChalukyaArchitecture",
+   "Badami",
+   "KannadaShorts"
+  ],
+  "visuals": [
+   "Pattadakal temple complex general view showing multiple styles",
+   "Virupaksha Temple Pattadakal Dravida style details",
+   "Galaganatha Temple Pattadakal Rekha-Nagara style spire",
+   "Papanatha Temple Pattadakal fusion of Nagara and Dravida styles",
+   "Malaprabha River flowing north near Pattadakal monuments"
+  ],
+  "claims_en": [
+   "Pattadakal features North Indian (Nagara) and South Indian (Dravida) temple styles side-by-side in the same complex.",
+   "The temples were built by the Chalukya dynasty during the 7th and 8th centuries CE.",
+   "There are four major temples in the Dravida style and four in the Nagara style.",
+   "The Papanatha temple specifically features a fusion of both architectural styles.",
+   "Pattadakal is a UNESCO World Heritage site located on the west bank of the Malaprabha River."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-05T11:11+00:00",
+ "for_slot": "2026-11-06 slot 0"
+}
