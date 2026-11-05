@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "Why Paris Hauled Its Dead Into Old Stone Mines",
+  "hook_text": "Six million people under Paris",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "More than six million people lie in old tunnels under Paris.",
+   "None of them were buried there.",
+   "By the late 1700s, the Holy Innocents' Cemetery was a two-metre mound packed with centuries of dead.",
+   "In 1780, a basement wall next door collapsed under the weight of the mass grave.",
+   "Burials inside the city walls were banned after that.",
+   "Every night, wagons draped in black cloth carried the bones to a well above the city's old limestone mines.",
+   "It took two years to empty most of the cemeteries.",
+   "Later, a mine director had skulls and thigh bones stacked into patterns."
+  ],
+  "cta": "Comment below",
+  "description": "Paris ran out of room for its dead.\nSo it moved them into the mines under its own streets.",
+  "hashtags": [
+   "Paris",
+   "Catacombs",
+   "history",
+   "France",
+   "truestory"
+  ],
+  "visuals": [
+   "Catacombs of Paris ossuary skulls",
+   "Cimetiere des Innocents Paris engraving",
+   "Catacombs of Paris entrance Denfert-Rochereau"
+  ],
+  "claims_en": [
+   "The Catacombs of Paris hold the remains of more than six million people in former stone quarries/mines.",
+   "The remains were moved there from cemeteries, not buried there originally.",
+   "By the end of the 18th century, the Holy Innocents' Cemetery was a two-metre-high mound of earth filled with centuries of Parisian dead.",
+   "On May 31, 1780, a basement wall in a property adjoining the cemetery collapsed under the weight of the mass grave behind it.",
+   "All burials within the city walls were forbidden after 1780.",
+   "Nightly processions of black cloth-covered wagons carried the dead to a well dug at the Tombe-Issoire, above the renovated mine passageways.",
+   "Much of the Left Bank rests on Lutetian limestone that was mined; depleted mines were abandoned.",
+   "It took two years to empty the majority of Paris's cemeteries.",
+   "From 1810, mine inspection director Héricart de Thury had skulls, femurs and tibias stacked into patterns."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-05T19:46+00:00",
+ "for_slot": "2026-11-06 slot 4"
+}

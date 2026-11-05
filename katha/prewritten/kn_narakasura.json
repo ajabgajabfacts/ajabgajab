@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "ನರಕಾಸುರನ ಎದುರು ಕೃಷ್ಣ ಮೂರ್ಛೆ ಹೋದಂತೆ ನಟಿಸಿದ್ದೇಕೆ?",
+  "hook_text": "ಹೆತ್ತವರಿಂದ ಮಾತ್ರ ಸಾವು",
+  "kicker": "ಪುರಾಣ ಕಥೆ",
+  "sentences": [
+   "ಈ ಅಸುರನನ್ನು ಕೊಲ್ಲೋಕೆ ಆಗ್ತಿದ್ದದ್ದು ಅವನಿಗೆ ಜನ್ಮ ಕೊಟ್ಟವರಿಗೆ ಮಾತ್ರ.",
+   "ಪುರಾಣಗಳ ಪ್ರಕಾರ ನರಕಾಸುರ ಭೂದೇವಿ ಮತ್ತು ವರಾಹ ರೂಪದ ವಿಷ್ಣುವಿನ ಮಗ.",
+   "ಅವನ ಹೊಡೆತಕ್ಕೆ ಇಂದ್ರನೇ ಸ್ವರ್ಗ ಬಿಟ್ಟು ಓಡಬೇಕಾಯ್ತು, ಅದಿತಿಯ ಕಿವಿಯೋಲೆಗಳೂ ಕಳುವಾದವು.",
+   "ಕೊನೆಗೆ ಕೃಷ್ಣ ಸತ್ಯಭಾಮೆಯ ಜೊತೆ ಗರುಡನ ಮೇಲೆ ಯುದ್ಧಕ್ಕೆ ಬಂದ.",
+   "ನರಕಾಸುರ ಬ್ರಹ್ಮಾಸ್ತ್ರ ಬಿಟ್ಟರೆ, ಕೃಷ್ಣ ಇನ್ನೊಂದು ಬ್ರಹ್ಮಾಸ್ತ್ರದಿಂದಲೇ ಅದನ್ನು ತಡೆದ.",
+   "ಆದರೆ ತ್ರಿಶೂಲ ಬಂದಾಗ ಕೃಷ್ಣ ಬೇಕಂತಲೇ ಮೂರ್ಛೆ ಹೋದವನಂತೆ ನಟಿಸಿದ.",
+   "ಸಿಟ್ಟಿಗೆದ್ದ ಸತ್ಯಭಾಮೆ ಮುನ್ನುಗ್ಗಿದಳು, ಅವಳು ಭೂದೇವಿಯ ಅವತಾರ ಅಂತ ನಂಬಿಕೆ, ಅಂದರೆ ನರಕಾಸುರನ ತಾಯಿ.",
+   "ಅವರಿಬ್ಬರು ಅವನನ್ನು ಸಂಹರಿಸಿದ ದಿನವೇ ನರಕ ಚತುರ್ದಶಿ, ಅವತ್ತು ಬೆಳಗಿನ ಜಾವದ ಎಣ್ಣೆ ಸ್ನಾನದಿಂದಲೇ ದೀಪಾವಳಿ ಶುರು."
+  ],
+  "cta": "ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ನರಕಾಸುರನಿಗೆ ಇದ್ದ ವಿಚಿತ್ರ ವರ ಮತ್ತು ಸತ್ಯಭಾಮೆಯ ಕಥೆ.\nನರಕ ಚತುರ್ದಶಿಯ ಹಿಂದಿನ ಪುರಾಣ.",
+  "hashtags": [
+   "ನರಕಚತುರ್ದಶಿ",
+   "ದೀಪಾವಳಿ",
+   "Narakasura",
+   "Deepavali",
+   "KannadaShorts"
+  ],
+  "visuals": [
+   "Satyabhama Narakasura painting",
+   "Krishna Garuda Narakasura battle",
+   "Naraka Chaturdashi oil lamps"
+  ],
+  "claims_en": [
+   "According to the legend, Narakasura had a boon that he could be killed only by the one who gave birth to him.",
+   "According to the Puranas, Narakasura was the son of Bhumi (Bhudevi) and the Varaha incarnation of Vishnu.",
+   "Indra could not withstand Narakasura's assault and had to flee the heavens (Svarga).",
+   "Narakasura stole the earrings of Aditi.",
+   "Krishna attacked Narakasura riding Garuda with his wife Satyabhama.",
+   "Narakasura used the Brahmastra against Krishna, and Krishna neutralised it with his own Brahmastra.",
+   "When Narakasura tried to kill Krishna with a trident, Krishna pretended to swoon.",
+   "Satyabhama, enraged, attacked Narakasura; she is believed to be an avatar of Bhumi, Narakasura's mother.",
+   "Naraka Chaturdashi is the day Narakasura was killed; in Karnataka Deepavali starts that day with an early morning traditional oil bath."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-05T19:46+00:00",
+ "for_slot": "2026-11-06 slot 2"
+}

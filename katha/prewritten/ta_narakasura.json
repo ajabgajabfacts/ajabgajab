@@ -1,0 +1,53 @@
+{
+ "script": {
+  "title": "நரகாசுரன் முன்னாடி கிருஷ்ணர் ஏன் மயங்கின மாதிரி நடிச்சார்?",
+  "hook_text": "பெத்தவங்க கையால மட்டும் சாவு",
+  "kicker": "புராணக் கதை",
+  "sentences": [
+   "இந்த அசுரனை கொல்ல முடிஞ்சது அவனைப் பெத்தவங்களால மட்டும் தான்.",
+   "புராணங்கள் சொல்றபடி, நரகாசுரன் பூமாதேவிக்கும் வராக அவதார விஷ்ணுவுக்கும் பிறந்த மகன்.",
+   "அவனை சமாளிக்க முடியாம இந்திரனே சொர்க்கத்தை விட்டு ஓடினார்.",
+   "அதிதியோட காதணிகளையும் திருடிட்டுப் போனான்.",
+   "கடைசியில கிருஷ்ணர் சத்யபாமாவோட கருடன் மேல போருக்கு வந்தார்.",
+   "நரகாசுரன் பிரம்மாஸ்திரம் விட்டா, கிருஷ்ணர் இன்னொரு பிரம்மாஸ்திரத்தால அதைத் தடுத்தார்.",
+   "ஆனா சூலம் வந்தப்போ, கிருஷ்ணர் வேணும்னே மயங்கி விழுந்த மாதிரி நடிச்சார்.",
+   "கோபத்துல சத்யபாமா பாய்ஞ்சாங்க, அவங்க பூமாதேவியோட அவதாரம்னு நம்பிக்கை, அதாவது நரகாசுரனோட அம்மா.",
+   "அவனை வதம் செஞ்ச அந்த நாள் தான் நரக சதுர்த்தசி, தமிழ்நாட்டுல அன்னிக்கு தான் தீபாவளி."
+  ],
+  "cta": "கமெண்ட் பண்ணுங்க",
+  "description": "நரகாசுரனுக்கு இருந்த விசித்திர வரமும் சத்யபாமாவின் கதையும்.\nநரக சதுர்த்தசியின் பின்னால் உள்ள புராணம்.",
+  "hashtags": [
+   "தீபாவளி",
+   "நரகசதுர்த்தசி",
+   "Narakasura",
+   "Deepavali",
+   "TamilShorts"
+  ],
+  "visuals": [
+   "Satyabhama Narakasura painting",
+   "Krishna Garuda Narakasura battle",
+   "Naraka Chaturdashi oil lamps"
+  ],
+  "claims_en": [
+   "According to the legend, Narakasura had a boon that he could be killed only by the one who gave birth to him.",
+   "According to the Puranas, Narakasura was the son of Bhumi (Bhudevi) and the Varaha incarnation of Vishnu.",
+   "Indra could not withstand Narakasura's assault and had to flee the heavens (Svarga).",
+   "Narakasura stole the earrings of Aditi.",
+   "Krishna attacked Narakasura riding Garuda with his wife Satyabhama.",
+   "Narakasura used the Brahmastra against Krishna, and Krishna neutralised it with his own Brahmastra.",
+   "When Narakasura tried to kill Krishna with a trident, Krishna pretended to swoon.",
+   "Satyabhama, enraged, attacked Narakasura; she is believed to be an avatar of Bhumi, Narakasura's mother.",
+   "Narakasura was killed by Krishna and Satyabhama on the day celebrated as Naraka Chaturdashi.",
+   "In Tamil Nadu, Deepavali is traditionally celebrated on Naraka Chaturdashi day."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-05T19:46+00:00",
+ "for_slot": "2026-11-06 slot 6"
+}
