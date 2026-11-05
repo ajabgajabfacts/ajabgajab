@@ -1036,5 +1036,23 @@
   "title": "ಒಂದು ಮಾವಿನ ಹಣ್ಣಿಗಾಗಿ ಗಣೇಶ ಮತ್ತು ಕಾರ್ತಿಕೇಯ ನಡುವೆ ನಡೆದ ಪಂದ್ಯ",
   "seconds": 34.4,
   "slot": 0
+ },
+ {
+  "key": "savitri_satyavan",
+  "lang": "or",
+  "date": "2026-11-05",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "kalinga_ashoka",
+  "lang": "or",
+  "date": "2026-11-05",
+  "utc": "10:05",
+  "status": "posted",
+  "video_id": "gWnAwqpvXVo",
+  "title": "କଳିଙ୍ଗ ଯୁଦ୍ଧ ଜିତି ଅଶୋକ କାହିଁକି ସବୁଦିନ ପାଇଁ ଅସ୍ତ୍ର ଛାଡ଼ିଦେଲେ?",
+  "seconds": 43.0,
+  "slot": 1
  }
 ]
