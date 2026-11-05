@@ -222,5 +222,69 @@
   "angle": "Cicada 3301 posted intricate online cryptographic puzzles to recruit intelligent individuals, leaving its final puzzle unsolved.",
   "score": 8,
   "added": "2026-11-04"
+ },
+ {
+  "key": "boris_skossyreff",
+  "lang": "en",
+  "kind": "people",
+  "wiki": [
+   "Boris Skossyreff"
+  ],
+  "art": [
+   "Boris Skossyreff Andorra",
+   "Boris Skossyreff",
+   "Boris Skossyreff"
+  ],
+  "angle": "In 1934, an eccentric Belarusian adventurer convinced Andorra's parliament to crown him their ruling monarch.",
+  "score": 9,
+  "added": "2026-11-05"
+ },
+ {
+  "key": "rhubarb_triangle",
+  "lang": "en",
+  "kind": "food",
+  "wiki": [
+   "Rhubarb Triangle"
+  ],
+  "art": [
+   "Rhubarb Triangle forcing shed",
+   "Forced rhubarb Yorkshire",
+   "Rhubarb Triangle"
+  ],
+  "angle": "In Yorkshire's Rhubarb Triangle, farmers grow rhubarb inside pitch-black sheds and harvest the stalks by candlelight.",
+  "score": 8,
+  "added": "2026-11-05"
+ },
+ {
+  "key": "desert_of_maine",
+  "lang": "en",
+  "kind": "wonder",
+  "wiki": [
+   "Desert of Maine"
+  ],
+  "art": [
+   "Desert of Maine sand",
+   "Desert of Maine Freeport",
+   "Desert of Maine"
+  ],
+  "angle": "Poor nineteenth-century farming practices exposed a hidden twenty-acre tract of glacial sand inside a rainy Maine forest.",
+  "score": 8,
+  "added": "2026-11-05"
+ },
+ {
+  "key": "franz_nopcsa_von_fels_szilv_s",
+  "lang": "en",
+  "kind": "science",
+  "wiki": [
+   "Franz Nopcsa von Felső-Szilvás"
+  ],
+  "art": [
+   "Franz Nopcsa",
+   "Magyarosaurus dacus",
+   "Franz Nopcsa von Felső-Szilvás"
+  ],
+  "angle": "A Hungarian spy and aristocrat discovered that prehistoric island dinosaurs evolved into permanent dwarfs.",
+  "score": 8,
+  "added": "2026-11-05"
  }
 ]
