@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "போர் விமானி கனவு ஒரே இடத்தில் தவறிய கலாம் ஜனாதிபதி ஆனார்",
+  "hook_text": "எட்டு இடம், கலாம் ஒன்பதாவது",
+  "kicker": "உண்மைக் கதை",
+  "sentences": [
+   "விமானப்படையில எட்டு இடம் தான் இருந்தது, கலாம் வந்தது ஒன்பதாவது இடம்.",
+   "1931-ல ராமேஸ்வரத்துல பிறந்தவர் அப்துல் கலாம்.",
+   "அப்பாவோட படகு, ராமேஸ்வரத்துக்கும் தனுஷ்கோடிக்கும் நடுவுல யாத்ரீகர்களை ஏத்திட்டுப் போகும்.",
+   "குடும்பம் கஷ்டத்துல இருந்ததால, சின்ன வயசுலயே பேப்பர் போட்டு உதவினாரு.",
+   "போர் விமானி ஆகணும்ங்கிறது தான் அவரோட கனவு, அது ஒரே ஒரு இடத்துல நழுவிப் போச்சு.",
+   "அப்புறம் ராக்கெட் வேலைக்கு போனாரு, 1980-ல அவர் தலைமையில செஞ்ச ராக்கெட் ரோகிணி செயற்கைக்கோளை விண்ணுக்கு கொண்டு போச்சு.",
+   "விமானம் ஓட்ட வாய்ப்பு கிடைக்காத அந்த பையன், 2002-ல இந்தியாவோட குடியரசுத் தலைவர் ஆனாரு.",
+   "அந்த எட்டு பேர்ல ஒருத்தர் பேராவது உங்களுக்குத் தெரியுமா?"
+  ],
+  "cta": "கமெண்ட் பண்ணுங்க",
+  "description": "பேப்பர் போட்ட ராமேஸ்வரம் பையன், ஒரு இடத்துல விமானி கனவை இழந்தாரு.\nஅப்புறம் நடந்தது இந்திய வரலாறு.",
+  "hashtags": [
+   "அப்துல்கலாம்",
+   "ராமேஸ்வரம்",
+   "APJAbdulKalam",
+   "MissileManOfIndia",
+   "TamilShorts"
+  ],
+  "visuals": [
+   "A. P. J. Abdul Kalam portrait",
+   "Kalam house Rameswaram",
+   "SLV-3 rocket Rohini satellite launch"
+  ],
+  "claims_en": [
+   "Kalam placed ninth in the Indian Air Force fighter pilot qualifiers when only eight positions were available",
+   "Kalam was born in 1931 in Rameswaram",
+   "His father owned a boat that ferried pilgrims between Rameswaram and Dhanushkodi",
+   "The family was poverty-stricken and as a boy he delivered newspapers to support the family's income",
+   "His dream was becoming a fighter pilot and he narrowly missed it",
+   "He later worked on rockets; he was project director of India's first satellite launch vehicle, which deployed the Rohini satellite in July 1980",
+   "He became President of India in 2002"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-06T19:49Z",
+ "for_slot": "2026-11-07 slot 1"
+}

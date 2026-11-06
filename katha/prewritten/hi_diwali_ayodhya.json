@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "अमावस की सबसे अंधेरी रात को मनता है दीयों का त्योहार",
+  "hook_text": "अमावस की रात, दीयों का त्योहार",
+  "kicker": "मान्यता",
+  "sentences": [
+   "दीयों का त्योहार अमावस की काली रात को आता है।",
+   "दिवाली यानी दीपावली, मतलब दीयों की कतार।",
+   "पांच दिन का ये त्योहार धनतेरस से शुरू होता है, और सबसे अंधेरी रात इसका सबसे बड़ा पल है।",
+   "पूरब में लोग इसे मां काली से जोड़ते हैं, तमिल-तेलुगु लोग नरकासुर पर श्रीकृष्ण की जीत से।",
+   "एक कहानी सरयू किनारे के उस शहर की है, जिसके नाम का मतलब है अजेय।",
+   "रामायण की परंपरा कहती है, दिवाली वही दिन है जब श्रीराम, सीता जी, लक्ष्मण जी और हनुमान जी चौदह साल के वनवास के बाद अयोध्या पहुंचे।",
+   "थाईलैंड के अयुत्थया शहर का नाम भी इसी अयोध्या पर रखा गया है।"
+  ],
+  "cta": "कमेंट में बताएं",
+  "description": "दीयों का त्योहार अमावस की सबसे अंधेरी रात को जलती है दीयों की कतार।\nऔर उस रात से जुड़ी श्रीराम की अयोध्या वापसी की परंपरा।",
+  "hashtags": [
+   "दिवाली",
+   "अयोध्या",
+   "Diwali",
+   "Deepavali",
+   "HindiShorts"
+  ],
+  "visuals": [
+   "Ayodhya diyas Saryu",
+   "Diwali diyas row",
+   "Ram ki Paidi Ayodhya"
+  ],
+  "claims_en": [
+   "Diwali coincides with the new moon (amavasya) night",
+   "Diwali comes from Dipavali, meaning a row of lights",
+   "The five-day festival begins on Dhanteras, and the darkest night is the apex of the celebration",
+   "Hindus of eastern India associate the festival with Goddess Kali, and southern Tamil and Telugu communities with Krishna overcoming Narakasura",
+   "Ayodhya is on the banks of the Sarayu river and its name means invincible, not to be fought",
+   "One tradition linked to the Ramayana says Diwali is the day Rama, Sita, Lakshmana and Hanuman reached Ayodhya after 14 years of exile",
+   "The city of Ayutthaya in Thailand is named after Ayodhya"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-06T19:49Z",
+ "for_slot": "2026-11-07 slot 6"
+}
