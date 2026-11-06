@@ -1109,5 +1109,23 @@
   "title": "കാൽവിരൽ കൊണ്ട് രാവണനെ കുടുക്കിയ ശിവഭഗവാൻ",
   "seconds": 40.0,
   "slot": 1
+ },
+ {
+  "key": "narakasura",
+  "lang": "kn",
+  "date": "2026-11-06",
+  "status": "failed_check",
+  "why": "festival story with only 4 usable images (need 6)"
+ },
+ {
+  "key": "belur_temple",
+  "lang": "kn",
+  "date": "2026-11-06",
+  "utc": "14:42",
+  "status": "posted",
+  "video_id": "xpji4utHk0I",
+  "title": "ಬೇಲೂರಿನ ಈ ದೇವಾಲಯ ಸಂಕೀರ್ಣ ಕಟ್ಟಲು ೧೦೩ ವರ್ಷ ಬೇಕಿತ್ತೇ?",
+  "seconds": 31.8,
+  "slot": 2
  }
 ]
