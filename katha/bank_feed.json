@@ -286,5 +286,69 @@
   "angle": "A Hungarian spy and aristocrat discovered that prehistoric island dinosaurs evolved into permanent dwarfs.",
   "score": 8,
   "added": "2026-11-05"
+ },
+ {
+  "key": "peel_p50",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "Peel P50"
+  ],
+  "art": [
+   "Peel P50 microcar",
+   "Peel P50 driving",
+   "Peel P50"
+  ],
+  "angle": "The Peel P50 is a microcar recognized as the smallest production automobile ever made.",
+  "score": 9,
+  "added": "2026-11-06"
+ },
+ {
+  "key": "rp_flip",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "RP FLIP"
+  ],
+  "art": [
+   "RP FLIP vertical position",
+   "RP FLIP oceanographic ship",
+   "RP FLIP"
+  ],
+  "angle": "RP FLIP was an oceanographic research vessel designed to pitch backwards 90 degrees into a vertical position.",
+  "score": 9,
+  "added": "2026-11-06"
+ },
+ {
+  "key": "sandy_island_new_caledonia",
+  "lang": "en",
+  "kind": "wonder",
+  "wiki": [
+   "Sandy Island, New Caledonia"
+  ],
+  "art": [
+   "Sandy Island phantom map detail",
+   "Coral Sea ocean research ship",
+   "Sandy Island, New Caledonia"
+  ],
+  "angle": "Sandy Island appeared on nautical maps for over a century before scientists proved it did not exist.",
+  "score": 9,
+  "added": "2026-11-06"
+ },
+ {
+  "key": "clement_vallandigham",
+  "lang": "en",
+  "kind": "people",
+  "wiki": [
+   "Clement Vallandigham"
+  ],
+  "art": [
+   "Clement Vallandigham portrait",
+   "Clement Vallandigham lawyer photo",
+   "Clement Vallandigham"
+  ],
+  "angle": "Civil War politician Clement Vallandigham accidentally shot himself while demonstrating a murder defense in court.",
+  "score": 8,
+  "added": "2026-11-06"
  }
 ]
