@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "ஆங்கிலேயர்கள் எதிர்த்த மசாலா டீ இந்தியாவில் புகழ்பெற்ற கதை!",
+  "hook_text": "டீயை வெறும் மருந்தா குடிச்ச இந்தியா!",
+  "kicker": "உண்மை வரலாறு",
+  "sentences": [
+   "ஒரு காலத்துல இந்தியால டீயை வெறும் மருந்தா மட்டும்தான் குடிச்சாங்க.",
+   "அஸ்ஸாம் காடுகள்ல டீ செடிகள் தானாவே வளர்ந்தது.",
+   "ஆனா 1900 வரைக்கும் அதை யாரும் தினமும் குடிக்கல.",
+   "அப்புறம் இந்திய தேயிலை சங்கம் தொழிலாளர்களுக்கு டீ பிரேக் கொடுக்க சொன்னாங்க.",
+   "நம்ம ஊர் கடைக்காரங்க அதுல பாலும் மசாலாவும் அதிகம் சேர்த்தாங்க.",
+   "டீ தூள் விற்பனை குறையும்னு ஆங்கிலேயர்கள் இதை எதிர்த்தாங்க.",
+   "அந்த எதிர்ப்பையும் தாண்டி உருவானதுதான் இன்னைக்கு நாம குடிக்கிற மசாலா டீ.",
+   "அன்னைக்கு அவங்க வேணாம்னு சொன்ன சுவைதான் இன்னைக்கு இந்தியாவை இயக்குது."
+  ],
+  "cta": "கீழே கமெண்ட் பண்ணுங்க",
+  "description": "இந்தியாவில் மசாலா டீ உருவான வரலாற்றைப் பற்றி இந்த வீடியோவில் தெரிந்துகொள்ளுங்கள்.",
+  "hashtags": [
+   "MasalaChai",
+   "ChaiHistory",
+   "TamilFacts",
+   "TeaHistory",
+   "IndiaFacts"
+  ],
+  "visuals": [
+   "Assam tea plantation wild growth India",
+   "Indian Tea Association vintage advertisement poster",
+   "Chaiwala making masala chai at Indian street stall",
+   "Traditional Indian kulhar tea cup serving masala chai"
+  ],
+  "claims_en": [
+   "Historically, Indians viewed tea as an herbal medicine rather than a daily beverage.",
+   "Tea plants grew wild in the Assam region.",
+   "Tea consumption in India remained low until the early 20th century.",
+   "The Indian Tea Association encouraged factories to provide tea breaks for workers.",
+   "Independent vendors added spices, milk, and sugar to the tea.",
+   "The Indian Tea Association initially disapproved of adding spices and extra milk because it reduced tea leaf usage per serving.",
+   "Despite initial disapproval, masala chai established itself as a hugely popular beverage."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-06T11:16+00:00",
+ "for_slot": "2026-11-07 slot 6"
+}

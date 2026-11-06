@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "Two Girls Fool Sherlock Holmes Creator With Cutout Fairies",
+  "hook_text": "Fooled by paper cutouts",
+  "kicker": "TRUE HOAX",
+  "sentences": [
+   "Sherlock Holmes's creator once staked his reputation on real fairies.",
+   "In 1917, two young cousins in England borrowed a camera to take photos in their garden.",
+   "Nine-year-old Frances and sixteen-year-old Elsie returned with images of tiny winged figures.",
+   "Sir Arthur Conan Doyle saw the pictures and declared them proof of the supernatural.",
+   "Kodak technicians refused to certify them, but Doyle published them in a national magazine anyway.",
+   "Decades later, the women finally admitted the truth.",
+   "They had used cardboard cutouts copied from a children's book.",
+   "Even the master of detective fiction was fooled by two kids with paper."
+  ],
+  "cta": "Share your thoughts",
+  "description": "How two cousins in Cottingley fooled Sir Arthur Conan Doyle with simple cardboard cutouts in 1917.\nThe story behind one of history's most famous photographic hoaxes.",
+  "hashtags": [
+   "CottingleyFairies",
+   "ArthurConanDoyle",
+   "HistoryHoax",
+   "PhotographicHistory",
+   "BritishHistory"
+  ],
+  "visuals": [
+   "Cottingley Fairies Frances and the Fairies photograph 1917",
+   "Elsie Wright and Frances Griffiths Cottingley 1917",
+   "Sir Arthur Conan Doyle portrait photograph",
+   "The Strand Magazine December 1920 Cottingley Fairies issue cover",
+   "National Science and Media Museum Bradford Cottingley Fairies collection"
+  ],
+  "claims_en": [
+   "In 1917, nine-year-old Frances Griffiths and sixteen-year-old Elsie Wright took photographs in Cottingley, England.",
+   "The photographs depicted tiny winged figures.",
+   "Sir Arthur Conan Doyle interpreted the photographs as visible evidence of supernatural phenomena.",
+   "Kodak technicians declined to issue a certificate of authenticity for the images.",
+   "Conan Doyle published the fairy photographs in the December 1920 edition of The Strand Magazine.",
+   "In the early 1980s, Elsie and Frances admitted the photographs were faked using cardboard cutouts copied from a children's book."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-06T11:18+00:00",
+ "for_slot": "2026-11-07 slot 5"
+}
