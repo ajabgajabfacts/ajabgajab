@@ -1127,5 +1127,23 @@
   "title": "ಬೇಲೂರಿನ ಈ ದೇವಾಲಯ ಸಂಕೀರ್ಣ ಕಟ್ಟಲು ೧೦೩ ವರ್ಷ ಬೇಕಿತ್ತೇ?",
   "seconds": 31.8,
   "slot": 2
+ },
+ {
+  "key": "narakasura",
+  "lang": "ta",
+  "date": "2026-11-06",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "chai_india",
+  "lang": "ta",
+  "date": "2026-11-06",
+  "utc": "17:51",
+  "status": "posted",
+  "video_id": "HR-5QqJX6nA",
+  "title": "ஆங்கிலேயர்கள் எதிர்த்த மசாலா டீ இந்தியாவில் புகழ்பெற்ற கதை!",
+  "seconds": 27.2,
+  "slot": 6
  }
 ]
