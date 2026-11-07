@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "Why Builders Dragged Stonehenge 150 Miles from Wales",
+  "hook_text": "Dragged 150 miles across Britain",
+  "kicker": "ANCIENT MYSTERY",
+  "sentences": [
+   "Parts of Stonehenge were hauled across one hundred and fifty miles.",
+   "Around 2600 BC, builders raised dozens of two-ton bluestones on Salisbury Plain.",
+   "Geologists traced these specific rocks straight to the Preseli Hills in Wales.",
+   "Scientists initially assumed natural glaciers pushed the boulders east.",
+   "Then archaeologists found prehistoric quarry cuts right in the Welsh mountainside.",
+   "Nearby, an older Welsh stone circle had been dismantled around the exact same period.",
+   "Migrants had actually uprooted their sacred Welsh monument and moved it across Britain.",
+   "Why haul eighty massive stones across the country just to rebuild them?"
+  ],
+  "cta": "Share your theory",
+  "description": "Stonehenge's bluestones didn't come from anywhere near Wiltshire. Archaeologists revealed they were dragged over 150 miles from prehistoric Wales.",
+  "hashtags": [
+   "stonehenge",
+   "archaeology",
+   "ancienthistory",
+   "wales",
+   "historyfacts"
+  ],
+  "visuals": [
+   "Stonehenge bluestones Salisbury Plain Wiltshire",
+   "Preseli Hills Pembrokeshire Wales landscape",
+   "Craig Rhos-y-felin prehistoric bluestone quarry",
+   "Waun Mawn stone circle Preseli Hills Wales"
+  ],
+  "claims_en": [
+   "Stonehenge is located on Salisbury Plain in England.",
+   "Around 2600 BC, builders installed bluestones weighing about two tons each.",
+   "The bluestones originated in the Preseli Hills in Pembrokeshire, Wales, about 150 miles away.",
+   "Glacial transport was once theorized to have brought the rocks closer.",
+   "Evidence of megalithic quarrying proved the Welsh stones were excavated by humans.",
+   "An identical 110-meter stone circle was dismantled at Waun Mawn in Wales around the same era.",
+   "Archaeologists suggest migrants dismantled the Welsh circle and relocated the stones to Stonehenge.",
+   "Stonehenge held up to 80 standing bluestones in its double ring phase."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-07T10:09+00:00",
+ "for_slot": "2026-11-08 slot 4"
+}

@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "अमावस्या की रात को पूरी अयोध्या ने क्यों जलाए थे दीये?",
+  "hook_text": "अयोध्या ने क्यों जलाए दीये?",
+  "kicker": "पौराणिक मान्यता",
+  "sentences": [
+   "कार्तिक की सबसे अंधेरी रात को पूरी अयोध्या ने दीप जलाए।",
+   "रामायण की मान्यता के अनुसार, यह कार्तिक महीने की अमावस्या थी।",
+   "चौदह साल का वनवास काटकर राम, सीता, लक्ष्मण और हनुमान इसी दिन लौटे थे।",
+   "लंका के राजा रावण को हराकर लौटे राम के स्वागत में पूरी नगरी उमड़ी थी।",
+   "आसमान में चांद नहीं था, इसलिए लोगों ने घर-घर कतार में दीये सजा दिए।",
+   "संस्कृत में दीयों की इसी कतार को दीपावली कहा गया।",
+   "इस तरह अयोध्या ने अंधकार पर प्रकाश और अधर्म पर धर्म की जीत दर्ज की।",
+   "उस एक रात की रोशनी क्या आज भी आपके घर उतरती है?"
+  ],
+  "cta": "कमेंट में बताएं",
+  "description": "जानिए रामायण के अनुसार अयोध्या में अमावस्या की रात पहली बार दीप क्यों जलाए गए थे।\nदीपावली पर राम की वापसी और रोशनी की इस परंपरा की कथा।",
+  "hashtags": [
+   "Diwali",
+   "Ayodhya",
+   "दीपावली",
+   "Ramayana",
+   "DiwaliHistory"
+  ],
+  "visuals": [
+   "Rama returns to Ayodhya miniature painting",
+   "Diwali oil lamps row glowing night",
+   "Ram Sita Lakshman Hanuman painting",
+   "Traditional clay diyas illuminated amavasya"
+  ],
+  "claims_en": [
+   "According to Ramayana traditions, Rama, Sita, Lakshmana, and Hanuman returned to Ayodhya on Diwali.",
+   "Diwali coincides with the new moon (amavasya) in the Hindu month of Kartik.",
+   "Rama returned after fourteen years in exile following the defeat of Ravana.",
+   "The people of Ayodhya lit rows of lamps to welcome Rama on that moonless night.",
+   "The Sanskrit term Dipavali literally means a row or series of lights.",
+   "Diwali represents the triumph of light over darkness and dharma over adharma."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-07T10:00+00:00",
+ "for_slot": "2026-11-07 slot 6"
+}
