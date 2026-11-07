@@ -1189,5 +1189,30 @@
   "title": "போர் விமானி கனவு ஒரே இடத்தில் தவறிய கலாம் ஜனாதிபதி ஆனார்",
   "seconds": 36.5,
   "slot": 1
+ },
+ {
+  "key": "narakasura",
+  "lang": "mr",
+  "date": "2026-11-07",
+  "status": "failed_check",
+  "why": "festival story with only 3 usable images (need 6)"
+ },
+ {
+  "key": "tukaram",
+  "lang": "mr",
+  "date": "2026-11-07",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "vitthal_pandharpur",
+  "lang": "mr",
+  "date": "2026-11-07",
+  "utc": "13:45",
+  "status": "posted",
+  "video_id": "nwbBHEr5mpU",
+  "title": "सावळ्या विठ्ठलाला 'पांडुरंग' म्हणजेच पांढरा देव का म्हणतात?",
+  "seconds": 46.8,
+  "slot": 2
  }
 ]
