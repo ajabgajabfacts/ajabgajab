@@ -1225,5 +1225,23 @@
   "title": "अमावस्या की रात को पूरी अयोध्या ने क्यों जलाए थे दीये?",
   "seconds": 35.1,
   "slot": 6
+ },
+ {
+  "key": "narakasura",
+  "lang": "te",
+  "date": "2026-11-07",
+  "status": "failed_check",
+  "why": "only 1 usable images"
+ },
+ {
+  "key": "tirupati_hair",
+  "lang": "te",
+  "date": "2026-11-07",
+  "utc": "17:58",
+  "status": "posted",
+  "video_id": "lYcqH1aaoO0",
+  "title": "తిరుమలలో కోట్లాది మంది భక్తులు తలనీలాలు ఎందుకు ఇస్తారు?",
+  "seconds": 31.4,
+  "slot": 3
  }
 ]
