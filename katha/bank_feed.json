@@ -350,5 +350,69 @@
   "angle": "Civil War politician Clement Vallandigham accidentally shot himself while demonstrating a murder defense in court.",
   "score": 8,
   "added": "2026-11-06"
+ },
+ {
+  "key": "moon_tree",
+  "lang": "en",
+  "kind": "space",
+  "wiki": [
+   "Moon tree"
+  ],
+  "art": [
+   "Apollo 14 moon tree plaque",
+   "Stuart Roosa astronaut",
+   "Moon tree"
+  ],
+  "angle": "Trees across Earth were grown from seeds that orbited the Moon during the Apollo 14 mission.",
+  "score": 9,
+  "added": "2026-11-07"
+ },
+ {
+  "key": "ray_cat",
+  "lang": "en",
+  "kind": "science",
+  "wiki": [
+   "Ray cat"
+  ],
+  "art": [
+   "Ray cat nuclear warning concept",
+   "Nuclear semiotics ray cat project",
+   "Ray cat"
+  ],
+  "angle": "Scientists proposed engineering cats that change color near radiation to warn future generations of nuclear danger.",
+  "score": 9,
+  "added": "2026-11-07"
+ },
+ {
+  "key": "par_cutin",
+  "lang": "en",
+  "kind": "nature",
+  "wiki": [
+   "Parícutin"
+  ],
+  "art": [
+   "Paricutin volcano eruption 1943",
+   "Paricutin church lava ruins",
+   "Parícutin"
+  ],
+  "angle": "In 1943, a volcano suddenly emerged in a Mexican farmer's cornfield and grew hundreds of meters high.",
+  "score": 9,
+  "added": "2026-11-07"
+ },
+ {
+  "key": "jerusalem_syndrome",
+  "lang": "en",
+  "kind": "people",
+  "wiki": [
+   "Jerusalem syndrome"
+  ],
+  "art": [
+   "Jerusalem Old City view",
+   "Western Wall Jerusalem historic photo",
+   "Jerusalem syndrome"
+  ],
+  "angle": "Visitors to Jerusalem sometimes experience intense religious delusions, believing they are figures from the Bible.",
+  "score": 8,
+  "added": "2026-11-07"
  }
 ]
