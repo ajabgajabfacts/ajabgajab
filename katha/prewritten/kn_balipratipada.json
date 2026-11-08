@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "ವಿಷ್ಣು ಪಾತಾಳಕ್ಕೆ ತಳ್ಳಿದ ರಾಕ್ಷಸನನ್ನು ಕರ್ನಾಟಕ ಪೂಜಿಸುವುದು ಏಕೆ",
+  "hook_text": "ರಾಕ್ಷಸ ರಾಜನಿಗೆ ದೀಪಾವಳಿ ಪೂಜೆ",
+  "kicker": "ಪೌರಾಣಿಕ ಹಿನ್ನೆಲೆ",
+  "sentences": [
+   "ದೀಪಾವಳಿಯ ಮರುದಿನ ಕರ್ನಾಟಕದಲ್ಲಿ ಪೂಜಿಸುವುದು ಒಬ್ಬ ರಾಕ್ಷಸ ರಾಜನನ್ನು.",
+   "ಪುರಾಣಗಳ ಪ್ರಕಾರ, ಅಸುರ ರಾಜ ಬಲಿ ಮೂರು ಲೋಕಗಳನ್ನೂ ಗೆದ್ದಿದ್ದ.",
+   "ಆತ ವಿಷ್ಣು ಭಕ್ತನಾಗಿದ್ದು, ಪ್ರಜೆಗಳಿಗೆ ಒಳ್ಳೆಯ ಆಡಳಿತ ನೀಡುತ್ತಿದ್ದ.",
+   "ವಿಷ್ಣು ವಾಮನ ರೂಪದಲ್ಲಿ ಬಂದು ಮೂರು ಹೆಜ್ಜೆ ಜಾಗ ಬೇಡಿದ.",
+   "ಎರಡು ಹೆಜ್ಜೆಗೆ ವಿಶ್ವವೆಲ್ಲ ಮುಗಿದಾಗ, ಬಲಿ ಮೂರನೇ ಹೆಜ್ಜೆಗೆ ಸ್ವತಃ ತನ್ನ ತಲೆಯನ್ನೇ ಇಟ್ಟ.",
+   "ಆತನ ಭಕ್ತಿಗೆ ಮೆಚ್ಚಿದ ವಿಷ್ಣು, ವರ್ಷಕ್ಕೊಮ್ಮೆ ಭೂಮಿಗೆ ಬಂದು ಪೂಜೆ ಪಡೆಯುವ ವರ ಕೊಟ್ಟ.",
+   "ಪಾತಾಳದಿಂದ ಬರುವ ರಾಜನಿಗಾಗಿ ಬಲಿಪಾಡ್ಯಮಿಯಂದು ಮನೆ ಮುಂದೆ ಸಗಣಿಯ ಬಲಿ ಕೂರುತ್ತದೆ."
+  ],
+  "cta": "ಅನಿಸಿಕೆ ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ದೀಪಾವಳಿಯ ಬಲಿಪಾಡ್ಯಮಿಯಂದು ದೈತ್ಯ ರಾಜ ಬಲಿಯನ್ನು ಕರ್ನಾಟಕದಲ್ಲಿ ಏಕೆ ಪೂಜಿಸಲಾಗುತ್ತದೆ? ವಾಮನ ಮತ್ತು ಬಲಿಯ ಪೌರಾಣಿಕ ಕಥೆ ಇಲ್ಲಿದೆ.",
+  "hashtags": [
+   "ಬಲಿಪಾಡ್ಯಮಿ",
+   "Balipadyami",
+   "Deepavali",
+   "KannadaShorts",
+   "VamanaAvatar"
+  ],
+  "visuals": [
+   "Vamana Trivikrama rock relief Badami cave",
+   "King Mahabali offering head to Vamana painting",
+   "Cow dung Bali image decorated with flowers Karnataka",
+   "Row of traditional oil lamps Diwali night"
+  ],
+  "claims_en": [
+   "According to Hindu scriptures, Asura king Bali conquered the three worlds.",
+   "Bali was a devoted follower of god Vishnu and a benevolent ruler.",
+   "Vishnu took the dwarf avatar of Vamana and asked Bali for three paces of land.",
+   "After covering everything in two strides, Bali offered his own head for the third step.",
+   "Pleased with Bali's devotion, Vishnu pushed him to the netherworld but granted him a boon to return to earth once a year to be worshipped.",
+   "On Bali Padyami in Karnataka, people create and worship a cow-dung image of Bali to mark his annual visit."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-08T10:21+00:00",
+ "for_slot": "2026-11-09 slot 2"
+}

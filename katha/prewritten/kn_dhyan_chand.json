@@ -1,0 +1,47 @@
+{
+ "script": {
+  "title": "ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್ ಅಧಿಕಾರಿಗಳು ಧ್ಯಾನ್ ಚಂದ್ ಹಾಕಿ ಕೋಲನ್ನು ಮುರಿದಿದ್ದು ಏಕೆ?",
+  "hook_text": "ಭಾರತೀಯ ಆಟಗಾರನ ಹಾಕಿ ಕೋಲು ಮುರಿದರು",
+  "kicker": "ಸತ್ಯ ಘಟನೆ",
+  "sentences": [
+   "ಭಾರತೀಯ ಆಟಗಾರನ ಹಾಕಿ ಕೋಲನ್ನು ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್ ಅಧಿಕಾರಿಗಳು ತುಂಡು ಮಾಡಿ ನೋಡಿದರು.",
+   "1928ರ ಆಂಸ್ಟರ್‌ಡ್ಯಾಮ್ ಒಲಿಂಪಿಕ್ಸ್‌ನಲ್ಲಿ ಧ್ಯಾನ್ ಚಂದ್ ಐದು ಪಂದ್ಯಗಳಲ್ಲಿ 14 ಗೋಲು ಬಾರಿಸಿದ್ದರು.",
+   "ಅವರ ಬಾಲ್ ನಿಯಂತ್ರಣ ನೋಡಿ ಮೈದಾನದಲ್ಲಿದ್ದ ಎದುರಾಳಿಗಳು ಆಶ್ಚರ್ಯಪಟ್ಟರು.",
+   "ಒಬ್ಬ ವೃದ್ಧೆ ತಮ್ಮ ಊರುಗೋಲನ್ನು ನೀಡಿ ಆಡಲು ಸವಾಲು ಹಾಕಿದರು.",
+   "ಧ್ಯಾನ್ ಚಂದ್ ಆ ಊರುಗೋಲಿನಿಂದಲೂ ಸರಾಗವಾಗಿ ಗೋಲು ಹೊಡೆದರು.",
+   "ಕೋಲಿನಲ್ಲಿ ಮ್ಯಾಗ್ನೆಟ್ ಇರಬಹುದು ಎಂದು ಅನುಮಾನಿಸಿ ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್ ಅಧಿಕಾರಿಗಳು ಅದನ್ನು ಮುರಿದರು.",
+   "ಆದರೆ ಅವರಿಗೆ ಸಿಕ್ಕಿದ್ದು ಬರೀ ಸಾಮಾನ್ಯ ಮರದ ಕೋಲು ಮಾತ್ರ.",
+   "ಮ್ಯಾಜಿಕ್ ಮಾಡಿದ್ದು ಕೋಲಲ್ಲ, ಧ್ಯಾನ್ ಚಂದ್ ಅವರ ಕೈಗಳು ಎಂದು ಆಮೇಲೆ ಗೊತ್ತಾಯಿತು."
+  ],
+  "cta": "ಕೆಳಗೆ ಕಮೆಂಟ್ ಮಾಡಿ",
+  "description": "1928ರ ಆಂಸ್ಟರ್‌ಡ್ಯಾಮ್ ಒಲಿಂಪಿಕ್ಸ್‌ನಲ್ಲಿ ಮೇಜರ್ ಧ್ಯಾನ್ ಚಂದ್ ಅವರ ಹಾಕಿ ಕೋಲನ್ನು ಅಧಿಕಾರಿಗಳು ಮುರಿದು ಪರೀಕ್ಷಿಸಿದ ರೊಮಾಂಚಕ ಸತ್ಯ ಘಟನೆ.",
+  "hashtags": [
+   "DhyanChand",
+   "IndianHockey",
+   "Olympics1928",
+   "KannadaFacts",
+   "HockeyJaadugar"
+  ],
+  "visuals": [
+   "Dhyan Chand playing field hockey 1928",
+   "1928 Amsterdam Summer Olympics field hockey match",
+   "Vintage field hockey stick broken",
+   "Major Dhyan Chand Indian Army portrait"
+  ],
+  "claims_en": [
+   "In the 1928 Amsterdam Olympics, Major Dhyan Chand scored 14 goals in five matches.",
+   "An elderly woman gave Chand her walking cane to play, and he scored goals with it.",
+   "Authorities in the Netherlands broke Dhyan Chand's hockey stick to check if there was a magnet inside due to his ball control.",
+   "The authorities found that it was just an ordinary wooden stick."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-08T10:19+00:00",
+ "for_slot": "2026-11-09 slot 0"
+}

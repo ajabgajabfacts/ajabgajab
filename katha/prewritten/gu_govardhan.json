@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "સો ફૂટ ઊંચો ગોવર્ધન પર્વત વ્રજનું કેન્દ્ર કેમ બન્યો?",
+  "hook_text": "ગોવર્ધન પર્વતની ઊંચાઈ કેટલી છે?",
+  "kicker": "માન્યતા",
+  "sentences": [
+   "કૃષ્ણનો આખો ગોવર્ધન પહાડ સૌથી ઊંચી જગ્યાએ પણ સો ફૂટ ઊંચો છે.",
+   "આઠ કિલોમીટર લાંબી આ ટેકરી રાધા કુંડથી પૂંછરી ગામ સુધી ફેલાયેલી છે.",
+   "માન્યતા મુજબ ઇન્દ્રના ભારે પૂર સામે કૃષ્ણ ભગવાને આ પર્વતથી રક્ષણ કર્યું હતું.",
+   "અહીં પર્વતના પથ્થરોને ગોવર્ધન શિલા તરીકે પૂજવામાં આવે છે.",
+   "લોકો આ આખી ટેકરીને સાક્ષાત્ કૃષ્ણનું કુદરતી સ્વરૂપ ગણે છે.",
+   "પુરાતત્વ વિભાગને પણ આ પર્વત પર સોળમી સદી પહેલાંનું કોઈ બાંધકામ મળ્યું નથી.",
+   "છતાં ભક્તો કુસુમ સરોવર અને દાનઘાટી થઈને આખી પરિક્રમા પગપાળા કરે છે.",
+   "સો ફૂટની આ ટેકરી આખા વ્રજનું કેન્દ્ર કેવી રીતે બની ગઈ?"
+  ],
+  "cta": "નીચે લખો",
+  "description": "ગોવર્ધન પર્વતની સાચી ઊંચાઈ અને તેનો ઇતિહાસ જાણો.\nવ્રજના પવિત્ર ગિરિરાજની અનોખી વાતો.",
+  "hashtags": [
+   "GovardhanHill",
+   "Krishna",
+   "Braj",
+   "ગોવર્ધન",
+   "GujaratiShorts"
+  ],
+  "visuals": [
+   "Govardhan hill ridge view Mathura",
+   "Krishna holding Govardhan hill painting",
+   "Govardhana Shila worship",
+   "Kusum Sarovar Mathura",
+   "Danghati Temple Govardhan"
+  ],
+  "claims_en": [
+   "Govardhan Hill stands 100 feet (30 m) above the surrounding land at its highest point.",
+   "The hill is 8 km long, stretching from Radha Kund to Punchari village.",
+   "Legends say Krishna saved the hill from a flood brought by Indra.",
+   "The stones of the hill are identified as Govardhana Shila.",
+   "The entire hill is regarded as a natural form or manifestation of Krishna.",
+   "Buildings on the hill date from the sixteenth century, with no known earlier archaeological evidence as of 2013.",
+   "Sites on the parikrama include Kusum Sarovar and Danghati Temple.",
+   "Govardhan is considered the sacred centre of Braj."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-08T10:34+00:00",
+ "for_slot": "2026-11-09 slot 6"
+}

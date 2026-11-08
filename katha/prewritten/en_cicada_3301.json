@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "They Posted Hidden Codes Worldwide to Recruit Geniuses",
+  "hook_text": "The internet's darkest recruitment test",
+  "kicker": "UNSOLVED PUZZLE",
+  "sentences": [
+   "In 2012, an anonymous user launched a global recruitment test online.",
+   "The initial puzzle appeared on 4chan, hiding data inside digital images.",
+   "Soon, physical paper signs bearing QR codes turned up in public places.",
+   "People claimed the NSA, CIA, MI6, or Mossad were secretly hiring codebreakers.",
+   "Solvers who passed gained access to a private forum.",
+   "A third round of puzzles launched on Twitter in 2014.",
+   "That third puzzle remains completely unsolved.",
+   "The group posted its last verified message in 2017 and went silent."
+  ],
+  "cta": "Share your thoughts",
+  "description": "Cicada 3301 released complex cryptographic challenges across the globe to recruit master codebreakers. Their final puzzle has never been solved.",
+  "hashtags": [
+   "cicada3301",
+   "internetmystery",
+   "cryptography",
+   "unsolved",
+   "history"
+  ],
+  "visuals": [
+   "Cicada 3301 logo",
+   "Steganography hidden code diagram",
+   "QR code paper poster street pole",
+   "OpenPGP signature code block"
+  ],
+  "claims_en": [
+   "In 2012, an anonymous entity posted an online puzzle to recruit intelligent individuals.",
+   "The first puzzle was posted on 4chan and concealed data within digital images using steganography.",
+   "The puzzles incorporated physical clues like paper signs with QR codes.",
+   "Speculation arose that intelligence agencies like the NSA, CIA, MI6, or Mossad were behind the recruiting.",
+   "Successful solvers were invited to a private forum.",
+   "A third round of puzzles was posted on Twitter in 2014.",
+   "The third puzzle remains unsolved.",
+   "Cicada 3301 posted their last verified OpenPGP-signed message in April 2017."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-08T10:53+00:00",
+ "for_slot": "2026-11-09 slot 5"
+}

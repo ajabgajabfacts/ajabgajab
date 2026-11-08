@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "Why Doctors Found a Stone Baby Carried for 50 Years",
+  "hook_text": "Carried inside for 50 years",
+  "kicker": "MEDICAL HISTORY",
+  "sentences": [
+   "A woman carried a fetus inside her body for fifty years.",
+   "Spanish physician Abū al-Qāsim first documented this in the tenth century.",
+   "It happens when a fetus dies during an abdominal pregnancy.",
+   "To block dangerous infections, the host body builds a protective barrier.",
+   "It gradually coats the entire fetus in calcium.",
+   "Remarkably, some women later delivered healthy children without incident.",
+   "Doctors usually spot the calcified fetus on X-rays after menopause.",
+   "Only three hundred cases exist in four hundred years of records.",
+   "Her body simply turned a tragedy into stone."
+  ],
+  "cta": "Share your thoughts",
+  "description": "The strange medical history of lithopedion, or stone babies.\nHow the human body calcifies a fetus to protect the host.",
+  "hashtags": [
+   "medicalhistory",
+   "lithopedion",
+   "historyfacts",
+   "weirdhistory",
+   "sciencefacts"
+  ],
+  "visuals": [
+   "Abulcasis medical manuscript drawing",
+   "Lithopedion medical specimen photograph",
+   "Abdominal X-ray scan pelvis",
+   "Historical medical illustration calcification"
+  ],
+  "claims_en": [
+   "A woman carried a lithopedion for fifty years before diagnosis.",
+   "Spanish physician Abū al-Qāsim first described lithopedion in the 10th century.",
+   "Lithopedion occurs when a fetus dies during an abdominal pregnancy.",
+   "The body calcifies the fetus as a foreign body reaction to prevent septic infection.",
+   "Women with lithopedia have later given birth to healthy children without incident.",
+   "Lithopedia are often discovered during X-ray examinations well after menopause.",
+   "There are only 300 known cases of lithopedion recorded in 400 years of medical literature."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-08T10:41+00:00",
+ "for_slot": "2026-11-09 slot 4"
+}
