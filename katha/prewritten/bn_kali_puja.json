@@ -16,8 +16,18 @@
   ],
   "cta": "কমেন্টে লিখুন",
   "description": "দীপাবলির রাতেই বাংলায় হয় কালীপুজো।\nআর কালীঘাটে সেই রাতে মা কালী পূজিত হন লক্ষ্মী রূপে।",
-  "hashtags": ["কালীপুজো", "কালীঘাট", "KaliPuja", "Kolkata", "Bengal"],
-  "visuals": ["Kali Puja pandal Kolkata", "Kali idol Kolkata clay", "Kalighat Temple Kolkata"],
+  "hashtags": [
+   "কালীপুজো",
+   "কালীঘাট",
+   "KaliPuja",
+   "Kolkata",
+   "Bengal"
+  ],
+  "visuals": [
+   "Kali Puja pandal Kolkata",
+   "Kali idol Kolkata clay",
+   "Kalighat Temple Kolkata"
+  ],
   "claims_en": [
    "Kali Puja takes place on the same night as Diwali.",
    "It is also known as Shyama Puja.",
@@ -31,9 +41,18 @@
    "In the Kalighat Temple in Kolkata, Kali is worshipped as Lakshmi on this day."
   ]
  },
- "check": {"ok": true, "problems": [], "by": "claude self-check"},
- "verified": false,
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": true,
  "by": "claude-routine",
  "written": "2026-11-07T19:48Z",
- "for_slot": "2026-11-08 slot 2"
+ "for_slot": "2026-11-08 slot 2",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
 }

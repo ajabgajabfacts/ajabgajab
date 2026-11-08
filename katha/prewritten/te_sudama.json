@@ -16,8 +16,18 @@
   ],
   "cta": "కామెంట్ చేయండి",
   "description": "నాలుగు గుప్పెళ్ళ అటుకులతో ద్వారకకు వెళ్ళిన కుచేలుడు.\nఒక్క గింజ తినగానే రుక్మిణీదేవి కృష్ణుడిని ఎందుకు ఆపారు?",
-  "hashtags": ["కుచేలుడు", "శ్రీకృష్ణ", "Sudama", "Krishna", "Bhagavatam"],
-  "visuals": ["Krishna Sudama painting Dwarka", "Krishna washing Sudama feet painting", "Sudama palace painting"],
+  "hashtags": [
+   "కుచేలుడు",
+   "శ్రీకృష్ణ",
+   "Sudama",
+   "Krishna",
+   "Bhagavatam"
+  ],
+  "visuals": [
+   "Krishna Sudama painting Dwarka",
+   "Krishna washing Sudama feet painting",
+   "Sudama palace painting"
+  ],
   "claims_en": [
    "According to the Bhagavata Purana legend, Krishna swallowed one grain of the parched rice and Rukmini prevented him from having any more.",
    "Sudama, also known as Kuchela, is a childhood friend of Krishna.",
@@ -31,9 +41,18 @@
    "Sudama returned to find his hut transformed into several seven-storied palaces."
   ]
  },
- "check": {"ok": true, "problems": [], "by": "claude self-check"},
- "verified": false,
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": true,
  "by": "claude-routine",
  "written": "2026-11-07T19:54Z",
- "for_slot": "2026-11-08 slot 3"
+ "for_slot": "2026-11-08 slot 3",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
 }

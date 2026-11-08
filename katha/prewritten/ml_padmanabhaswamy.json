@@ -16,8 +16,18 @@
   ],
   "cta": "കമന്റ് ചെയ്യൂ",
   "description": "1750-ൽ മാർത്താണ്ഡവർമ്മ തിരുവിതാംകൂർ രാജ്യം പത്മനാഭസ്വാമിക്ക് സമർപ്പിച്ചു.\nഒറ്റക്കൽ മണ്ഡപത്തിൽ നമസ്കരിക്കാൻ രാജാവിന് മാത്രം അനുവാദം.",
-  "hashtags": ["പത്മനാഭസ്വാമി", "തിരുവനന്തപുരം", "Padmanabhaswamy", "Travancore", "Kerala"],
-  "visuals": ["Padmanabhaswamy Temple Thiruvananthapuram gopuram", "Anantha Padmanabha painting", "Marthanda Varma Travancore portrait"],
+  "hashtags": [
+   "പത്മനാഭസ്വാമി",
+   "തിരുവനന്തപുരം",
+   "Padmanabhaswamy",
+   "Travancore",
+   "Kerala"
+  ],
+  "visuals": [
+   "Padmanabhaswamy Temple Thiruvananthapuram gopuram",
+   "Anantha Padmanabha painting",
+   "Marthanda Varma Travancore portrait"
+  ],
   "claims_en": [
    "On 17 January 1750, Anizham Thirunal Marthanda Varma surrendered the Kingdom of Travancore to Padmanabhaswamy, the main deity at the temple.",
    "The Padmanabhaswamy Temple is in Thiruvananthapuram.",
@@ -30,9 +40,18 @@
    "Since then the name of every Travancore king was preceded by the title Sree Padmanabha Dasa."
   ]
  },
- "check": {"ok": true, "problems": [], "by": "claude self-check"},
- "verified": false,
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": true,
  "by": "claude-routine",
  "written": "2026-11-07T19:51Z",
- "for_slot": "2026-11-08 slot 1"
+ "for_slot": "2026-11-08 slot 1",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
 }
