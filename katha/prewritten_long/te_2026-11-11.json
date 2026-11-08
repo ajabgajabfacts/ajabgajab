@@ -1,0 +1,337 @@
+{
+ "lang": "te",
+ "date": "2026-11-11",
+ "collection": "gods",
+ "by": "claude-routine",
+ "written": "2026-11-08T18:53Z",
+ "chapters": [
+  {
+   "key": "samudra_manthan",
+   "script": {
+    "title": "రాహు కేతువులుగా మారిన ఒక అసురుడి వేషం",
+    "hook_text": "దేవుడి వేషంలో ఒక అసురుడు",
+    "kicker": "పురాణం",
+    "sentences": [
+     "అమృతం తాగడానికి ఒక అసురుడు దేవుడి వేషం వేసుకున్నాడు.",
+     "విష్ణు పురాణంలో చెప్పే సముద్ర మథనం కథ చివర్లో జరిగింది ఇది.",
+     "పాల సముద్రం నుంచి ఆఖరికి ధన్వంతరి అమృత కలశంతో బయటికి వచ్చారు.",
+     "ఆ కలశం కోసం దేవతలకూ అసురులకూ గొడవ మొదలైంది.",
+     "అసురులు అమృతాన్ని లాక్కుని పారిపోయారు.",
+     "దేవతలు విష్ణువును వేడుకున్నారు, ఆయన మోహిని అనే అందమైన స్త్రీ రూపం ఎత్తారు.",
+     "మోహిని దేవతలను ఒక వరుసలో, అసురులను ఇంకో వరుసలో కూర్చోబెట్టారు.",
+     "అమృతం మాత్రం దేవతలకే పోశారు.",
+     "అప్పుడే స్వర్భానుడు అనే అసురుడు దేవుడిలా వేషం మార్చుకుని, కొంచెం అమృతం తాగేశాడు.",
+     "కానీ సూర్యుడినీ చంద్రుడినీ మాత్రం మోసం చేయలేకపోయాడు.",
+     "వెలుగుతో నిండిన ఆ ఇద్దరూ ఆ వేషాన్ని పట్టేసి మోహినికి చెప్పారు.",
+     "మోహిని తన సుదర్శన చక్రంతో అతని తలను వేరు చేశారు.",
+     "ఆ రోజు నుంచి ఆ తలను రాహువు అని, శరీరాన్ని కేతువు అని పిలుస్తారు, పురాణాల ప్రకారం గ్రహణాల వెనుక కథ ఇదే.",
+     "ఆకాశంలో ప్రతి గ్రహణం వెనుకా, సూర్యచంద్రులు పట్టేసిన ఆ ఒక్క వేషం కథ దాగి ఉంది."
+    ],
+    "visuals": [
+     "Mohini distributing amrita painting",
+     "Rahu Ketu Svarbhanu Hindu mythology",
+     "Samudra Manthan Dhanvantari amrita"
+    ],
+    "claims_en": [
+     "The Samudra Manthana is an episode elaborated in the Vishnu Purana.",
+     "Finally Dhanvantari emerged from the Ocean of Milk with a pot containing amrita.",
+     "Fighting ensued between the devas and the asuras for its possession.",
+     "The asuras took the amrita and ran away.",
+     "The devas appealed to Vishnu, who took the form of Mohini, a beautiful and enchanting damsel.",
+     "Mohini made the devas and the asuras sit in two separate rows and distributed the nectar among the devas.",
+     "An asura named Svarbhanu disguised himself as a deva and drank some nectar.",
+     "Due to their luminous nature, Surya and Chandra noticed the disguise and informed Mohini.",
+     "Mohini cut off his head with the Sudarshana Chakra.",
+     "From that day his head was called Rahu and his body Ketu, the Hindu myth behind eclipses."
+    ]
+   }
+  },
+  {
+   "key": "hanuman_sun",
+   "script": {
+    "title": "హనుమంతుడి పేరు వెనుక విరిగిన దవడ కథ",
+    "hook_text": "పేరులోనే ఒక దెబ్బ",
+    "kicker": "పురాణం",
+    "sentences": [
+     "హనుమాన్ అనే పేరుకు ఒక అర్థం, దెబ్బ తిన్న దవడ ఉన్నవాడు.",
+     "నిజానికి ఈ పేరు ఎలా వచ్చిందో కచ్చితంగా ఎవరికీ తెలియదు.",
+     "కానీ ఈ ఒక్క అర్థం వెనుక ఒక పురాణ కథ ఉంది.",
+     "వాల్మీకి రామాయణం ప్రకారం, ఒక ఉదయం చిన్నారి హనుమంతుడికి బాగా ఆకలేసింది.",
+     "ఆకాశంలో సూర్యుడిని చూసి, అది పండిన పండు అనుకున్నాడు.",
+     "తినేద్దామని పైకి ఎగిరాడు.",
+     "ఒక కథనం ప్రకారం, దేవతల రాజు ఇంద్రుడు తన వజ్రాయుధంతో ఆ బాలుడిని కొట్టారు.",
+     "ఆ దెబ్బ సరిగ్గా దవడకు తగిలింది, బాలుడు ప్రాణం లేకుండా నేల మీద పడిపోయాడు.",
+     "కొడుకు కోసం వాయుదేవుడు భూమి మీద గాలినంతా వెనక్కి తీసేసుకున్నారు.",
+     "గాలి లేక ప్రాణులన్నీ అల్లాడిపోయాయి.",
+     "చివరకు శివుడు ఆ బాలుడిని మళ్ళీ బతికించారు, వాయువు గాలిని తిరిగి ఇచ్చారు.",
+     "దెబ్బ కొట్టింది తానే కాబట్టి, ఆ శరీరం వజ్రాయుధమంత గట్టిగా ఉంటుందని ఇంద్రుడు వరం ఇచ్చారు.",
+     "అగ్ని, వరుణుడు, వాయువు, బ్రహ్మ కూడా తలా ఒక వరం ఇచ్చారు.",
+     "దెబ్బ తిన్న దవడ ఉన్నవాడు అనే ఆ అర్థానికి ఆధారం ఈ కథే అని చెబుతారు.",
+     "ఒక పండు కోసం వేసిన ఆ చిన్న ఎగురు, ఆయన పేరులోనే ఎప్పటికీ మిగిలిపోయింది."
+    ],
+    "visuals": [
+     "Hanuman leaping towards the sun painting",
+     "Bala Hanuman sun fruit",
+     "Indra vajra Hanuman jaw"
+    ],
+    "claims_en": [
+     "One interpretation of the name Hanuman is 'one having a disfigured jaw'.",
+     "The meaning or origin of the word Hanuman is unclear.",
+     "This interpretation is supported by a Puranic tale.",
+     "According to Valmiki's Ramayana, one morning in his childhood Hanuman was hungry and saw the sun.",
+     "He mistook the sun for a ripe fruit and leaped up to eat it.",
+     "In one version, Indra, king of the gods, struck Hanuman with his thunderbolt (vajra).",
+     "It hit Hanuman on his jaw and he fell to the earth dead with a broken jaw.",
+     "Hanuman's father Vayu withdrew all the air from Earth.",
+     "The lack of air created immense suffering to all living beings.",
+     "Shiva resuscitated Hanuman and Vayu returned the air.",
+     "Because Indra had injured him, Indra granted that Hanuman's body would be as strong as the vajra.",
+     "Agni, Varuna, Vayu and Brahma also granted him wishes."
+    ]
+   }
+  },
+  {
+   "key": "ravana_kailash",
+   "script": {
+    "title": "ఏడ్చినందుకే రావణుడికి వచ్చిన పేరు",
+    "hook_text": "రావణుడు అంటే ఏడ్చినవాడు",
+    "kicker": "పురాణం",
+    "sentences": [
+     "రావణుడు అనే పేరుకు అర్థం, ఏడ్చినవాడు.",
+     "ఆ పేరు వెనుక కథను రామాయణంలోని ఉత్తర కాండ చెబుతుంది.",
+     "పది తలలు, ఇరవై చేతులు ఉన్న రావణుడు తన సవతి సోదరుడు కుబేరుడి నగరం అలకను గెలిచాడు.",
+     "కుబేరుడి దగ్గర లాక్కున్న పుష్పక విమానంలో లంకకు తిరిగి వెళ్తున్నాడు.",
+     "దారిలో ఒక అందమైన చోటు మీద ఆ విమానం ముందుకు ఎగరలేకపోయింది.",
+     "అక్కడ శివుడి వాహనం నంది ఎదురయ్యారు.",
+     "ఈ పర్వతం మీద శివపార్వతులు ఉంటారు, ఎవరూ దాటి వెళ్ళకూడదు అని నంది చెప్పారు.",
+     "రావణుడు శివుడినీ నందినీ ఎగతాళి చేశాడు, కోపంతో కైలాసాన్నే పెకిలించాలనుకున్నాడు.",
+     "తన ఇరవై చేతులూ కొండ కింద పెట్టి ఎత్తడం మొదలుపెట్టాడు.",
+     "కైలాసం కదిలింది, భయపడిన పార్వతీదేవి శివుడిని హత్తుకున్నారు.",
+     "శివుడు మాత్రం తన కాలి బొటనవేలితో కొండను మళ్ళీ నొక్కిపెట్టారు, రావణుడు దాని కింద చిక్కుకుపోయాడు.",
+     "నొప్పితో రావణుడు గట్టిగా అరిచాడు.",
+     "మంత్రుల సలహాతో వెయ్యేళ్ళు శివుడిని స్తుతిస్తూ పాటలు పాడాడు, చివరకు శివుడు క్షమించి ఎదురులేని ఒక ఖడ్గం ఇచ్చారు.",
+     "ఆ రోజు ఏడ్చాడు కాబట్టే, అతనికి రావణుడు అనే పేరు వచ్చింది.",
+     "లంకను ఏలిన ఆ పెద్ద పేరు, కైలాసం కింద వినిపించిన ఒక కేక నుంచి పుట్టింది."
+    ],
+    "visuals": [
+     "Ravananugraha Ellora Kailasha temple relief",
+     "Ravana lifting Mount Kailash sculpture",
+     "Ravana shaking Kailash painting"
+    ],
+    "claims_en": [
+     "The name Ravana means 'one who cried'.",
+     "The Uttara Kanda of the Ramayana records this legend.",
+     "The ten-headed, twenty-armed Ravana defeated and looted Alaka, the city of his half-brother Kubera.",
+     "He was returning to Lanka in the Pushpaka Vimana, the flying chariot stolen from Kubera.",
+     "He spotted a beautiful place, but the chariot could not fly over it.",
+     "Ravana met Shiva's vahana Nandi there.",
+     "Nandi told him Shiva and Parvati resided on the mountain and no one was allowed to pass.",
+     "Ravana mocked Shiva and Nandi and decided to uproot Kailash.",
+     "He put all his twenty arms under Kailash and started lifting it.",
+     "Kailash began to shake and a terrified Parvati embraced Shiva.",
+     "Shiva pressed the mountain into place with his big toe, trapping Ravana beneath it.",
+     "Ravana gave a loud cry in pain.",
+     "Advised by his ministers, Ravana sang hymns in praise of Shiva for a thousand years.",
+     "Shiva forgave Ravana and granted him an invincible sword.",
+     "Since Ravana cried, he was given the name Ravana, one who cried."
+    ]
+   }
+  },
+  {
+   "key": "ganesha_head",
+   "script": {
+    "title": "వినాయకుడికి ఏనుగు తల ఎలా వచ్చింది",
+    "hook_text": "మొదట ఏనుగు తల లేదు",
+    "kicker": "పురాణం",
+    "sentences": [
+     "చాలా కథల ప్రకారం, వినాయకుడు ఏనుగు తలతో పుట్టలేదు.",
+     "ఏనుగు తల, నాలుగు చేతులు చూడగానే మనం ఆయనను గుర్తుపడతాం.",
+     "కానీ ఆ తల ఎలా వచ్చిందో పురాణాలు ఎన్నో రకాలుగా చెబుతాయి.",
+     "కొన్ని గ్రంథాలు ఆయన పుట్టుకతోనే ఏనుగు తలతో పుట్టారని అంటాయి.",
+     "హేరంబ గణపతి అనే రూపంలో అయితే ఆయనకు ఐదు ఏనుగు తలలు ఉంటాయి.",
+     "ఎక్కువ కథల్లో మాత్రం ఆ తల తర్వాత వచ్చింది.",
+     "అన్నిటికంటే ఎక్కువసార్లు వినిపించే కథ ఇది.",
+     "పార్వతీదేవి తనకు కాపలాగా ఉండటానికి మట్టితో ఒక బాలుడిని చేశారు.",
+     "ఆ బాలుడు శివుడికీ పార్వతికీ మధ్య అడ్డుగా నిలబడ్డాడు.",
+     "అప్పుడు శివుడు ఆ బాలుడి తలను వేరు చేశారు.",
+     "ఆ గొడవ ఎలా జరిగిందో, కొత్త తల ఎక్కడి నుంచి వచ్చిందో ఒక్కో గ్రంథం ఒక్కోలా చెబుతుంది.",
+     "ఈ కథలో చివరకు శివుడే స్వయంగా ఆ బాలుడికి ఏనుగు తలను పెట్టారు.",
+     "అమ్మ మట్టితో చేసిన ఆ కాపలా బాలుడే, ఏ పని మొదలుపెట్టినా మనం ముందుగా తలచుకునే దేవుడు."
+    ],
+    "visuals": [
+     "Ganesha statue elephant head",
+     "Parvati creating Ganesha painting",
+     "Heramba Ganapati five heads"
+    ],
+    "claims_en": [
+     "While some texts say Ganesha was born with an elephant head, he acquires the head later in most stories.",
+     "Ganesha is readily identified by his elephant head and four arms.",
+     "Puranic myths provide many explanations for how he got his elephant head.",
+     "Heramba-Ganapati, one of his popular forms, has five elephant heads.",
+     "The most recurrent motif is that Ganesha was created by Parvati using clay to protect her.",
+     "Shiva beheaded him when Ganesha came between Shiva and Parvati.",
+     "Details of the battle and where the replacement head came from vary from source to source.",
+     "Shiva replaced Ganesha's original head with that of an elephant.",
+     "As the god of beginnings, Ganesha is honoured at the start of rites and worshipped before beginning anything new."
+    ]
+   }
+  },
+  {
+   "key": "ganesha_kartikeya_race",
+   "script": {
+    "title": "ఒక్క మామిడిపండు కోసం కొండెక్కిన కుమారస్వామి",
+    "hook_text": "ఒక పండు, ఒక పందెం",
+    "kicker": "పురాణం",
+    "sentences": [
+     "ఒక్క పండు కోసం జరిగిన పందెం ఒక దేవుడిని కొండల మీద సన్యాసిని చేసింది.",
+     "తమిళ కంద పురాణం చెప్పే కథ ఇది.",
+     "నారద మహర్షి కైలాసానికి వచ్చి శివుడికి ఒక జ్ఞానఫలం ఇచ్చారు.",
+     "ఆ పండును సాధారణంగా మామిడిపండు అంటారు.",
+     "శివుడు దాన్ని తన ఇద్దరు కొడుకులు, వినాయకుడికీ కార్తికేయుడికీ పంచాలనుకున్నారు.",
+     "కానీ ఆ పండును ముక్కలు చేయలేమని నారదుడు చెప్పారు.",
+     "అందుకే ప్రపంచం చుట్టూ మూడుసార్లు ముందుగా తిరిగొచ్చినవాళ్ళకే పండు అని నిర్ణయించారు.",
+     "కుమారస్వామి వెంటనే తన నెమలి మీద బయలుదేరారు.",
+     "వినాయకుడు మాత్రం ప్రపంచం అంటే శివపార్వతులే అనుకుని, వాళ్ళ చుట్టూ తిరిగి పండు గెలుచుకున్నారు.",
+     "భూమి చుట్టూ తిరిగొచ్చిన కుమారస్వామికి ఈ సంగతి తెలిసి చాలా కోపం వచ్చింది.",
+     "తన కష్టమంతా వృథా అయిందని, మోసపోయానని ఆయనకు అనిపించింది.",
+     "తన దగ్గర ఉన్నవన్నీ వదిలేశారు.",
+     "కైలాసం విడిచి పళని కొండలకు వెళ్ళి సన్యాసిగా ఉండిపోయారు.",
+     "ఒక పండితుడి మాటలో, భక్తులకు అసలు జ్ఞానఫలం ఆ మామిడిపండు కాదు, కొండ ఎక్కిన కుమారస్వామే."
+    ],
+    "visuals": [
+     "Murugan Palani hill temple",
+     "Kartikeya on peacock painting",
+     "Ganesha circling Shiva Parvati fruit of knowledge"
+    ],
+    "claims_en": [
+     "According to the Kanda Puranam, the Tamil rendition of the Skanda Purana, sage Narada visited Shiva at Kailasha and presented him a Gnana palam (fruit of knowledge).",
+     "The fruit is generally regarded as a mango.",
+     "Shiva wanted to divide the fruit between his two sons, Ganesha and Kartikeya.",
+     "Narada counseled that the fruit could not be divided.",
+     "It was decided to award the fruit to whoever first circled the world thrice.",
+     "Kartikeya started his journey around the globe on his peacock mount.",
+     "Ganesha surmised that the world was no more than his parents Shiva and Shakti, circumambulated them and won the fruit.",
+     "When Kartikeya returned he was furious, felt his efforts were in vain and felt cheated.",
+     "He discarded all his material belongings and left Kailasha for the Palani Hills as a hermit.",
+     "According to Kamil Zvelebil, Kartikeya represents the actual fruit of wisdom for his devotees rather than any physical fruit."
+    ]
+   }
+  },
+  {
+   "key": "vamana_bali",
+   "script": {
+    "title": "మూడో అడుగుకు తల చూపిన బలి చక్రవర్తి",
+    "hook_text": "మూడో అడుగు ఎక్కడ",
+    "kicker": "పురాణం",
+    "sentences": [
+     "మూడో అడుగు ఎక్కడ పెట్టాలని అడిగితే, ఒక రాజు తన తలనే చూపించాడు.",
+     "పురాణాల ప్రకారం ఆ రాజు ప్రహ్లాదుడి మనవడు, మహాబలి.",
+     "దానగుణానికి పేరున్న బలి, ఎన్నో యుద్ధాల తర్వాత స్వర్గాన్నీ భూమినీ గెలుచుకున్నారు.",
+     "దేవతలు విష్ణువును శరణు వేడారు.",
+     "కానీ బలి మంచి రాజు, పైగా తన భక్తుడు కాబట్టి, ఆయన మీద హింసకు విష్ణువు ఒప్పుకోలేదు.",
+     "బదులుగా వామనుడు అనే పొట్టి బ్రాహ్మణుడిగా అవతరించారు.",
+     "బలి అశ్వమేధ యాగం చేస్తూ అందరికీ దానాలు ఇస్తున్నప్పుడు, వామనుడు వచ్చి మూడు అడుగుల నేల అడిగారు.",
+     "వచ్చింది ఎవరో గుర్తుపట్టిన శుక్రాచార్యుడు బలిని హెచ్చరించారు.",
+     "అయినా బలి ఇచ్చిన మాట వెనక్కి తీసుకోలేదు.",
+     "వామనుడు ఒక్కసారిగా భారీ త్రివిక్రమ రూపంలోకి మారారు.",
+     "ఒక అడుగుతో స్వర్గాన్నంతా, రెండో అడుగుతో భూమిని కొలిచేశారు.",
+     "మూడో అడుగు ఎక్కడ అని అడిగినప్పుడు, బలి తన తలనే అర్పించారు.",
+     "అందుకే భాగవత పురాణం బలిని ఆదర్శ భక్తుడిగా చూస్తుంది.",
+     "ఒక కథ ప్రకారం, ఏటా ఒకసారి తన నేలకు తిరిగి రావడానికి విష్ణువు బలికి వరం ఇచ్చారు.",
+     "దీపావళి మూడో రోజు మన తెలుగు నేల మీద జరిగే బలిపాడ్యమి, తల వంచి మాట నిలబెట్టుకున్న ఆ రాజు ఇంటికి వచ్చే రోజు."
+    ],
+    "visuals": [
+     "Vamana Bali Trivikrama painting",
+     "Vamana avatar placing foot on Mahabali head",
+     "Trivikrama sculpture Badami"
+    ],
+    "claims_en": [
+     "Mahabali is the grandson of Prahlada.",
+     "Mahabali is described as a benevolent and generous king who, after many wars, conquered heaven and earth.",
+     "The devas approached Vishnu to save them.",
+     "Vishnu refused to join the devas in violence against Mahabali because he was a benevolent king and his own devotee.",
+     "Vishnu incarnated as the dwarf Brahmin avatar Vamana.",
+     "While Mahabali performed the ashvamedha sacrifice and gave gifts to everyone, Vamana requested three steps of land.",
+     "Shukra realised Vamana's true identity and warned Mahabali, but Mahabali granted the gift.",
+     "Vamana metamorphosed into the colossal Trivikrama form.",
+     "His first foot encompassed all of heaven and the second the earth.",
+     "Asked where the third step would go, Mahabali offered his own head.",
+     "In the Bhagavata Purana, Bali is considered an exemplary devotee.",
+     "According to one story, Vishnu granted Bali a boon to return to his homeland once every year.",
+     "Balipadyami, the third day of Deepavali, is celebrated in Telangana and Andhra and marks his yearly homecoming."
+    ]
+   }
+  },
+  {
+   "key": "parashurama",
+   "script": {
+    "title": "23 రోజులు గురువుతో యుద్ధం చేసిన భీష్ముడు",
+    "hook_text": "23 రోజులు, గెలుపు లేదు",
+    "kicker": "పురాణం",
+    "sentences": [
+     "గురువూ శిష్యుడూ 23 రోజులు యుద్ధం చేశారు, ఎవరూ గెలవలేదు.",
+     "గురువు పరశురాముడు, శిష్యుడు భీష్ముడు.",
+     "మహాభారతం చెప్పే కథ ఇది.",
+     "విష్ణువు ఆరో అవతారమైన పరశురాముడు భీష్ముడికీ, ద్రోణుడికీ, కర్ణుడికీ గురువు.",
+     "ఒకసారి అంబ అనే రాకుమారి తరఫున ఆయన నిలబడ్డారు.",
+     "ఆమెను పెళ్ళి చేసుకోమని తన శిష్యుడికి చెబుతానని మాట ఇచ్చారు.",
+     "కురుక్షేత్రానికి వచ్చిన గురువుకు భీష్ముడు వచ్చి నమస్కరించారు.",
+     "కానీ పెళ్ళి మాట వచ్చేసరికి, తాను బ్రహ్మచర్య వ్రతం తీసుకున్నానని భీష్ముడు ఒప్పుకోలేదు.",
+     "కోపంతో పరశురాముడు ప్రాణం తీస్తానని బెదిరించారు.",
+     "భీష్ముడు ఎంత సర్ది చెప్పినా లాభం లేదు, చివరకు గురువుతోనే యుద్ధానికి దిగారు.",
+     "తల్లి గంగాదేవి ఇద్దరినీ ఆపమని వేడుకున్నా, ఎవరూ ఆగలేదు.",
+     "23 రోజులు గడిచినా ఫలితం తేలలేదు.",
+     "24వ రోజు భీష్ముడు ఒక ప్రాణాంతక అస్త్రం వాడబోతుంటే, నారదుడు, దేవతలు అడగడంతో పరశురాముడే యుద్ధం ఆపేశారు.",
+     "ఎవరూ ఓడలేదని, యుద్ధం సమానంగా ముగిసిందని ప్రకటించారు.",
+     "గొడ్డలితో పేరు తెచ్చుకున్న ఆ గురువుకు, తాను విద్య నేర్పిన శిష్యుడే సరిసమానంగా నిలిచాడు."
+    ],
+    "visuals": [
+     "Parashurama painting axe",
+     "Bhishma Parashurama battle",
+     "Bhishma Mahabharata painting"
+    ],
+    "claims_en": [
+     "In the Mahabharata, Parashurama and his disciple Bhishma fought a battle that lasted 23 days without result.",
+     "Parashurama is the sixth avatar of Vishnu.",
+     "In the Mahabharata he was the guru of Bhishma, Drona and Karna.",
+     "Parashurama interceded on behalf of the princess Amba.",
+     "He promised to command his disciple Bhishma to marry her.",
+     "Parashurama arrived at Kurukshetra and Bhishma came and offered him respects.",
+     "Bhishma refused, restating his vow of celibacy.",
+     "Parashurama threatened Bhishma with death; Bhishma tried to calm him in vain and agreed to battle his guru.",
+     "Ganga tried to stop the battle by beseeching both but failed.",
+     "On the 24th day, when Bhishma chose to use a deadly weapon, at the requests of Narada and the devas Parashurama ended the conflict.",
+     "The battle was declared a draw."
+    ]
+   }
+  }
+ ],
+ "frame": {
+  "title": "రావణుడి పేరు, హనుమంతుడి దవడ, బలి తల: దేవుళ్ళ 7 వింత కథలు",
+  "intro": [
+   "ఒక అసురుడి వేషం రాహు కేతువులుగా మారింది.",
+   "రావణుడికి ఆ పేరు వచ్చింది ఏడ్చినందుకే, హనుమంతుడి పేరు వెనుక ఒక విరిగిన దవడ కథ ఉంది.",
+   "ఒక రాజు మూడో అడుగుకు తన తలనే చూపించాడు, ఒక శిష్యుడు గురువుతోనే 23 రోజులు యుద్ధం చేశాడు.",
+   "దేవుళ్ళూ వారి కుటుంబాల ఈ ఏడు కథలు, ఒక్కొక్కటిగా విందాం."
+  ],
+  "outro": [
+   "ఈ ఏడు కథల్లో మిమ్మల్ని ఎక్కువగా ఆశ్చర్యపరిచింది ఏది, కామెంట్‌లో చెప్పండి.",
+   "ఇలాంటి మరిన్ని కథల కోసం ఛానెల్‌ను సబ్‌స్క్రైబ్ చేయండి."
+  ],
+  "thumb_text": "దేవుళ్ళ వింత కథలు",
+  "kicker": "పురాణ కథలు",
+  "chapter_word": "అధ్యాయం",
+  "intro_label": "పరిచయం",
+  "outro_label": "ముగింపు",
+  "subscribe": "సబ్‌స్క్రైబ్ చేయండి",
+  "description": "రాహు కేతువులు, హనుమంతుడు, రావణుడు, వినాయకుడు, కుమారస్వామి, బలి చక్రవర్తి, పరశురాముడు... దేవుళ్ళ ఏడు పురాణ కథలు.\nఒక్కో అధ్యాయంలో ఒక పేరు వెనుక, ఒక పందెం వెనుక, ఒక యుద్ధం వెనుక దాగిన కథ.\nఅన్ని కథలూ ఇంగ్లీష్ వికీపీడియాలోని పురాణ సమాచారం ఆధారంగా.",
+  "hashtags": [
+   "తెలుగుకథలు",
+   "పురాణకథలు",
+   "బలిపాడ్యమి",
+   "HinduMythology",
+   "TeluguStories",
+   "AjabGajabFacts"
+  ]
+ }
+}
