@@ -1334,5 +1334,23 @@
   "title": "Why Factory Bosses Told Workers to Lick Radium",
   "seconds": 36.3,
   "slot": 4
+ },
+ {
+  "key": "balipratipada",
+  "lang": "kn",
+  "date": "2026-11-09",
+  "status": "failed_check",
+  "why": "festival story with only 4 usable images (need 6)"
+ },
+ {
+  "key": "dhyan_chand",
+  "lang": "kn",
+  "date": "2026-11-09",
+  "utc": "07:23",
+  "status": "posted",
+  "video_id": "N9_EKH5zQCw",
+  "title": "ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್ ಅಧಿಕಾರಿಗಳು ಧ್ಯಾನ್ ಚಂದ್ ಹಾಕಿ ಕೋಲನ್ನು ಮುರಿದಿದ್ದು ಏಕೆ?",
+  "seconds": 35.3,
+  "slot": 0
  }
 ]
