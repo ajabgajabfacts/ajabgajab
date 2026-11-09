@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "सुमारे १६ व्या वर्षी गीता मराठीत सांगणारे संत ज्ञानेश्वर",
+  "hook_text": "सोळा वर्षांचा मुलगा, एक ग्रंथ",
+  "kicker": "खरी गोष्ट",
+  "sentences": [
+   "सुमारे सोळा वर्षांचा मुलगा बोलायचा, आणि दुसरा प्रत्येक शब्द लिहून घ्यायचा.",
+   "ते वर्ष होतं १२९०, आणि बोलणारे होते संत ज्ञानेश्वर.",
+   "त्यांचे शब्द लिहून घेणारे होते सच्चिदानंद.",
+   "विषय होता भगवद्गीता, पण त्या काळी असं तत्त्वज्ञान फक्त संस्कृत जाणणाऱ्यांनाच समजायचं.",
+   "ज्ञानेश्वरांनी ते सामान्य माणसाच्या मराठीत सांगितलं.",
+   "त्यासाठी त्यांनी ओवी निवडली, जी आधी महाराष्ट्रातल्या स्त्रियांच्या गाण्यांसाठी वापरली जायची.",
+   "तोच ग्रंथ म्हणजे ज्ञानेश्वरी, मराठी भाषेतल्या आज उपलब्ध असलेल्या सर्वात जुन्या साहित्यकृतींपैकी एक.",
+   "शेवटी त्यांनी पसायदान मागितलं, ज्यात स्वतःसाठी काहीच नव्हतं, सगळं इतरांसाठी होतं.",
+   "आणि हे सगळं करून माउलींनी अवघ्या एकविसाव्या वर्षी आळंदीत संजीवन समाधी घेतली."
+  ],
+  "cta": "खाली कमेंट करा",
+  "description": "सुमारे सोळाव्या वर्षी संत ज्ञानेश्वरांनी गीतेवर मराठीत ज्ञानेश्वरी सांगितली.\nसामान्य माणसाला तत्त्वज्ञान समजावं म्हणून.",
+  "hashtags": [
+   "ज्ञानेश्वर",
+   "ज्ञानेश्वरी",
+   "मराठी",
+   "Dnyaneshwar",
+   "MarathiHistory"
+  ],
+  "visuals": [
+   "Dnyaneshwar painting",
+   "Sant Dnyaneshwar Alandi samadhi",
+   "Dnyaneshwari manuscript"
+  ],
+  "claims_en": [
+   "Dnyaneshwar composed Dnyaneshwari at about age 16, in 1290.",
+   "His words were recorded by Sacchidananda, who acted as his amanuensis.",
+   "Dnyaneshwari is a commentary on the Bhagavad Gita.",
+   "At the time such philosophy was understood only by those who knew Sanskrit.",
+   "He wrote it in Marathi so common people could understand.",
+   "It was written in the ovi metre, first used to compose women's songs in Maharashtra.",
+   "Dnyaneshwari is among the oldest surviving literary works in Marathi.",
+   "In Dnyaneshwari he wrote Pasaayadana, praying for everything for others and nothing for himself.",
+   "At age twenty-one he entered sanjeevan samadhi at Alandi."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-09T19:45Z",
+ "for_slot": "2026-11-10 slot 2"
+}

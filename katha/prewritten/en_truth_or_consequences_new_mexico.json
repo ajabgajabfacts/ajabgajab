@@ -1,0 +1,48 @@
+{
+ "script": {
+  "title": "The Town That Renamed Itself After a Radio Quiz Show",
+  "hook_text": "A town named after a show",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "A New Mexico town renamed itself after a radio quiz show.",
+   "It used to be called Hot Springs, and by the late 1930s it had 40 spas.",
+   "In March 1950, Ralph Edwards, host of the NBC show Truth or Consequences, made an offer.",
+   "He would air the show's 10th anniversary from the first town that renamed itself after it.",
+   "On March 31, Hot Springs voted 1294 to 295, and became Truth or Consequences.",
+   "The show was broadcast from there the next evening.",
+   "Edwards came back on the first weekend of May for the next 50 years."
+  ],
+  "cta": "Comment below",
+  "description": "In 1950, Hot Springs, New Mexico voted to rename itself Truth or Consequences.\nAll for one radio broadcast.",
+  "hashtags": [
+   "NewMexico",
+   "TruthOrConsequences",
+   "AmericanHistory",
+   "WaitThatsReal",
+   "TrueStory"
+  ],
+  "visuals": [
+   "Truth or Consequences New Mexico",
+   "Ralph Edwards Truth or Consequences",
+   "Truth or Consequences, New Mexico"
+  ],
+  "claims_en": [
+   "A New Mexico town renamed itself after the Truth or Consequences radio show.",
+   "The town was founded as Hot Springs.",
+   "By the late 1930s Hot Springs had 40 natural hot springs spas.",
+   "In March 1950, Ralph Edwards, host of the NBC Radio quiz show, announced he would air the program on its 10th anniversary from the first town that renamed itself after the show.",
+   "In a special election on March 31, 1950, residents voted 1294 to 295 to rename the town Truth or Consequences.",
+   "The program was broadcast there the following evening.",
+   "Edwards visited the town during the first weekend of May for the next 50 years."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-09T19:45Z",
+ "for_slot": "2026-11-10 slot 5"
+}

@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "Why Taiwan's Engineers Put Green Snack Bags on Servers",
+  "hook_text": "Snacks on the servers",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "Taiwanese engineers leave bags of corn puffs on their servers.",
+   "The snack is called Kuai Kuai, and it also sits on ATMs and toll booths.",
+   "The rules are strict.",
+   "The bag must be green, never expired, and nobody may open it.",
+   "In May 2017, Taiwan's Ministry of Finance tried it on its overloaded tax systems.",
+   "They bought yellow bags, and people online criticized them for it.",
+   "Kuai Kuai means obedient, and green matches the light that says a machine works fine.",
+   "One ride maker, Brogent Technologies, writes exactly how to place the bags into its contracts."
+  ],
+  "cta": "Comment below",
+  "description": "In Taiwan, a green bag of Kuai Kuai snacks sits on servers, ATMs and toll booths.\nThe name means obedient, and the color matters.",
+  "hashtags": [
+   "Taiwan",
+   "KuaiKuai",
+   "TechCulture",
+   "WaitThatsReal",
+   "TrueStory"
+  ],
+  "visuals": [
+   "Kuai Kuai snack",
+   "Taiwan server rack",
+   "Kuai Kuai culture"
+  ],
+  "claims_en": [
+   "People in Taiwan put Kuai Kuai puff corn snacks next to or on top of machines, including in server rooms.",
+   "Kuai Kuai is also placed next to ATMs and toll booths.",
+   "There is a rigid set of practices: green bags only, not expired, and no one may open and eat them.",
+   "In May 2017 the Ministry of Finance tried to place Kuai Kuai to help its operational systems overwhelmed by overload during tax collection.",
+   "They bought yellow bags, drawing criticism from netizens in Taiwan.",
+   "Kuai Kuai stands for obedient or well-behaved.",
+   "The green bag matches the green indicator light denoting correct function.",
+   "Brogent Technologies requires its gaming equipment outside Taiwan to be adorned with Kuai Kuai, with the precise manner written in its contracts."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-09T19:45Z",
+ "for_slot": "2026-11-10 slot 4"
+}
