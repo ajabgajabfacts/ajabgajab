@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "મોઢેરા સૂર્યમંદિરમાં બપોરે પડછાયો કેમ અદ્રશ્ય થઈ જાય છે?",
+  "hook_text": "મોઢેરા મંદિરનું અદભુત સૂર્ય ગણિત",
+  "kicker": "અજાયબી",
+  "sentences": [
+   "વર્ષમાં બે દિવસ સૂર્યનું પહેલું કિરણ સીધું મંદિરના ગર્ભગૃહ પર પડતું.",
+   "૧૧મી સદીમાં ચૌલુક્ય વંશના રાજા ભીમદેવ પ્રથમના સમયે મોઢેરામાં આ મંદિર બન્યું.",
+   "તે પુષ્પાવતી નદીના કિનારે ૨૩.૬ ડિગ્રી અક્ષાંશ પર સ્થિત છે.",
+   "તે સમયે કોઈ આધુનિક કેમેરા કે ટેલિસ્કોપ નહોતા.",
+   "છતાં કારીગરોએ સૂર્યની ગતિનું એવું ચોક્કસ ગણિત મૂક્યું કે વિજ્ઞાન પણ વિચારમાં પડી જાય.",
+   "વિષુવકાળના દિવસે સૂરજ ઊગતા જ તેનું પહેલું સોનેરી કિરણ સીધું મૂર્તિને પ્રકાશિત કરતું.",
+   "અને સોલસ્ટિસના દિવસે બપોરે બાર વાગ્યે અહીં મંદિરનો કોઈ પડછાયો જ નથી બનતો.",
+   "૧૦૦૦ વર્ષ પહેલાં કોમ્પ્યુટર વગર આવું ખગોળીય ગણિત કેવી રીતે ગોઠવાયું હશે?"
+  ],
+  "cta": "નીચે કોમેન્ટ કરો",
+  "description": "મોઢેરાના સૂર્યમંદિરની અદભુત સ્થાપત્યકળા અને સૂર્યના કિરણો સાથે જોડાયેલું પ્રાચીન ગણિત.\n૧૧મી સદીના કારીગરોની આ અજાયબી જાણો.",
+  "hashtags": [
+   "ModheraSunTemple",
+   "GujaratHistory",
+   "Architecture",
+   "ગુજરાત",
+   "મોઢેરા"
+  ],
+  "visuals": [
+   "Modhera Sun Temple overall view Pushpavati river",
+   "Modhera Sun Temple Gudhamandapa carved exterior wall",
+   "Modhera Sun Temple Garbhagriha doorway Surya carving",
+   "Modhera Sun Temple Surya Kunda stepped tank",
+   "Modhera Sun Temple Sabhamandapa pillars exterior"
+  ],
+  "claims_en": [
+   "The Sun Temple of Modhera was constructed in the 11th century during the reign of Bhima I of the Chaulukya dynasty.",
+   "The temple is located on the bank of the Pushpavati river.",
+   "The temple is built on approximately 23.6 degrees latitude near the Tropic of Cancer.",
+   "The Garbhagriha is aligned so that the first rays of the rising sun illuminate the image of Surya during solar equinoxes.",
+   "On the summer solstice, the sun shines directly above the temple at noon, casting no shadow."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-09T12:07+00:00",
+ "for_slot": "2026-11-10 slot 2"
+}

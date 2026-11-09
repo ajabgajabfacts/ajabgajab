@@ -1,0 +1,47 @@
+{
+ "script": {
+  "title": "ಉತ್ತರ ಭಾರತದ ಹರ್ಷವರ್ಧನನನ್ನು ಸೋಲಿಸಿದ ಇಮ್ಮಡಿ ಪುಲಿಕೇಶಿ",
+  "hook_text": "ಹರ್ಷವರ್ಧನನಿಗೆ ದಕ್ಷಿಣದಲ್ಲಿ ಎದುರಾದ ಸೋಲು",
+  "kicker": "ಇತಿಹಾಸ",
+  "sentences": [
+   "ಉತ್ತರ ಭಾರತವನ್ನೇ ಗೆದ್ದ ಸಾಮ್ರಾಟ ಹರ್ಷವರ್ಧನನಿಗೆ ದಕ್ಷಿಣದಲ್ಲಿ ಸೋಲು ಎದುರಾಯಿತು.",
+   "ಆ ಕಾಲದಲ್ಲಿ ಹರ್ಷವರ್ಧನನಿಗೆ ಎದುರಾಗುವ ಧೈರ್ಯ ಯಾರಿಗೂ ಇರಲಿಲ್ಲ.",
+   "ಅವನು ದಕ್ಷಿಣ ಭಾರತವನ್ನು ಗೆಲ್ಲಲು ದೊಡ್ಡ ಸೈನ್ಯದೊಂದಿಗೆ ಬಂದನು.",
+   "ಆದರೆ ಬಾದಾಮಿಯ ಚಾಲುಕ್ಯ ದೊರೆ ಇಮ್ಮಡಿ ಪುಲಿಕೇಶಿ ಅವನನ್ನು ದಾರಿಯಲ್ಲೇ ತಡೆದನು.",
+   "ಆ ಯುದ್ಧದಲ್ಲಿ ಹರ್ಷವರ್ಧನನ ಸೈನ್ಯವು ಸೋತು ಹಿಮ್ಮೆಟ್ಟಿತು.",
+   "ಈ ಬೃಹತ್ ಗೆಲುವಿನ ನಂತರ ಪುಲಿಕೇಶಿ 'ಪರಮೇಶ್ವರ' ಎಂಬ ಬಿರುದು ಧರಿಸಿದನು.",
+   "ಚೀನಾದ ಯಾತ್ರಿಕ ಯುಆನ್ ಚ್ವಾಂಗ್ ಕೂಡ ಹರ್ಷನ ಈ ಸೋಲನ್ನು ದಾಖಲಿಸಿದ್ದಾನೆ."
+  ],
+  "cta": "ಕೆಳಗೆ ಕಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಚಾಲುಕ್ಯ ಸಾಮ್ರಾಟ ಇಮ್ಮಡಿ ಪುಲಿಕೇಶಿ ಉತ್ತರ ಭಾರತದ ಹರ್ಷವರ್ಧನನನ್ನು ಸೋಲಿಸಿದ ಘಟನೆ.\nಈ ಗೆಲುವಿನ ನಂತರ ಪುಲಿಕೇಶಿ ಪರಮೇಶ್ವರ ಎಂಬ ಬಿರುದನ್ನು ಪಡೆದನು.",
+  "hashtags": [
+   "PulakeshinII",
+   "ChalukyaDynasty",
+   "KannadaHistory",
+   "KarnatakaHistory",
+   "Vatapi"
+  ],
+  "visuals": [
+   "Aihole Chalukya inscription relief",
+   "Badami Chalukya cave temple",
+   "Harshavardhana King depiction",
+   "Xuanzang statue Chinese pilgrim"
+  ],
+  "claims_en": [
+   "Pulakeshin II was the Chalukyan emperor of Vatapi.",
+   "Northern emperor Harshavardhana attempted to conquer southern Chalukyan territories.",
+   "Pulakeshin II defeated Harshavardhana in battle.",
+   "After defeating Harsha, Pulakeshin II assumed the title Parameshvara.",
+   "Chinese pilgrim Xuanzang documented Harshavardhana's failure to conquer the Chalukyan territories."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-09T11:38+00:00",
+ "for_slot": "2026-11-09 slot 2"
+}
