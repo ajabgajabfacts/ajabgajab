@@ -1309,5 +1309,30 @@
   "title": "నల్లమల అడవిలో శివపార్వతులు ఎందుకు స్థిరపడ్డారు?",
   "seconds": 33.2,
   "slot": 3
+ },
+ {
+  "key": "cicada_3301",
+  "lang": "en",
+  "date": "2026-11-09",
+  "status": "failed_check",
+  "why": "only 1 usable images"
+ },
+ {
+  "key": "lithopedion",
+  "lang": "en",
+  "date": "2026-11-09",
+  "status": "failed_check",
+  "why": "only 0 usable images"
+ },
+ {
+  "key": "radium_girls",
+  "lang": "en",
+  "date": "2026-11-09",
+  "utc": "01:48",
+  "status": "posted",
+  "video_id": "EeEfMUL7KOU",
+  "title": "Why Factory Bosses Told Workers to Lick Radium",
+  "seconds": 36.3,
+  "slot": 4
  }
 ]
