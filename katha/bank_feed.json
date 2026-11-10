@@ -414,5 +414,53 @@
   "angle": "Visitors to Jerusalem sometimes experience intense religious delusions, believing they are figures from the Bible.",
   "score": 8,
   "added": "2026-11-07"
+ },
+ {
+  "key": "black_ivory_coffee",
+  "lang": "en",
+  "kind": "food",
+  "wiki": [
+   "Black Ivory Coffee"
+  ],
+  "art": [
+   "Black Ivory Coffee elephant",
+   "Black Ivory Coffee beans",
+   "Black Ivory Coffee"
+  ],
+  "angle": "Black Ivory Coffee is produced from Arabica coffee beans digested and excreted by elephants in Thailand.",
+  "score": 9,
+  "added": "2026-11-10"
+ },
+ {
+  "key": "toyota_war",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Toyota War"
+  ],
+  "art": [
+   "Toyota War pickup trucks Chad",
+   "Toyota technical war Chad 1987",
+   "Toyota War"
+  ],
+  "angle": "In 1987, Chadian forces defeated the Libyan military by using armed Toyota pickup trucks.",
+  "score": 9,
+  "added": "2026-11-10"
+ },
+ {
+  "key": "atari_video_game_burial",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Atari video game burial"
+  ],
+  "art": [
+   "Atari video game burial excavation Alamogordo",
+   "Atari ET landfill cartridges",
+   "Atari video game burial"
+  ],
+  "angle": "In 1983, Atari buried thousands of unsold E.T. video game cartridges in a New Mexico landfill.",
+  "score": 9,
+  "added": "2026-11-10"
  }
 ]
