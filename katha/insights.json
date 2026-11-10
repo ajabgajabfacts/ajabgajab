@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T08:43Z",
+ "updated": "2026-11-10T08:52Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,11 +11,11 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 456,
-     "yt": 89478,
+     "age_h": 480,
+     "yt": 89502,
      "fb": 0,
-     "total": 89478,
-     "likes": 771,
+     "total": 89502,
+     "likes": 772,
      "comments": 7,
      "avp": 79.24,
      "avd": 28,
@@ -35,13 +35,13 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 417,
-     "yt": 28292,
+     "age_h": 441,
+     "yt": 28310,
      "fb": 0,
-     "total": 28292,
+     "total": 28310,
      "likes": 416,
      "comments": 1,
-     "avp": 72.41,
+     "avp": 72.4,
      "avd": 29,
      "subs": 27,
      "shares": 8,
@@ -59,13 +59,13 @@
      "kind": "wonder",
      "seconds": 31.6,
      "slot": 0,
-     "age_h": 339,
-     "yt": 2021,
+     "age_h": 363,
+     "yt": 2027,
      "fb": null,
-     "total": 2021,
-     "likes": 26,
+     "total": 2027,
+     "likes": 27,
      "comments": 1,
-     "avp": 81.98,
+     "avp": 81.95,
      "avd": 26,
      "subs": 2,
      "shares": 0,
@@ -83,16 +83,16 @@
      "kind": "wonder",
      "seconds": 29.7,
      "slot": 2,
-     "age_h": 92,
+     "age_h": 116,
      "yt": 1834,
      "fb": null,
      "total": 1834,
      "likes": 35,
      "comments": 1,
-     "avp": 66.55,
-     "avd": 21,
-     "subs": 0,
-     "shares": 1
+     "avp": 59.92000000000001,
+     "avd": 19,
+     "subs": 1,
+     "shares": 2
     },
     {
      "video_id": "mPah9AIzlXM",
@@ -102,7 +102,7 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 494,
+     "age_h": 518,
      "yt": 1685,
      "fb": 0,
      "total": 1685,
@@ -121,10 +121,10 @@
      "kind": "engineering",
      "seconds": 31.7,
      "slot": 3,
-     "age_h": 207,
-     "yt": 1547,
+     "age_h": 231,
+     "yt": 1549,
      "fb": 0,
-     "total": 1547,
+     "total": 1549,
      "likes": 25,
      "comments": 1,
      "avp": 68.5,
@@ -140,10 +140,10 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 471,
-     "yt": 1348,
+     "age_h": 495,
+     "yt": 1350,
      "fb": 0,
-     "total": 1348,
+     "total": 1350,
      "likes": 15,
      "comments": 3,
      "avp": 51.910000000000004,
@@ -159,7 +159,7 @@
      "kind": "saint",
      "seconds": 34.2,
      "slot": 3,
-     "age_h": 230,
+     "age_h": 255,
      "yt": 1233,
      "fb": 0,
      "total": 1233,
@@ -171,25 +171,6 @@
      "shares": 0
     },
     {
-     "video_id": "mojYDhzGW08",
-     "title": "દ્વારકાના દરિયામાંથી ત્રણ કાણાંવાળા પથ્થરો કેમ નીકળ્યા?",
-     "key": "dwarka",
-     "lang": "gu",
-     "kind": "myth",
-     "seconds": 40.0,
-     "slot": 1,
-     "age_h": 23,
-     "yt": 1088,
-     "fb": 0,
-     "total": 1088,
-     "likes": 17,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "d5wI-pZW-M4",
      "title": "போர் விமானி கனவு ஒரே இடத்தில் தவறிய கலாம் ஜனாதிபதி ஆனார்",
      "key": "kalam",
@@ -197,11 +178,30 @@
      "kind": "people",
      "seconds": 36.5,
      "slot": 1,
-     "age_h": 47,
-     "yt": 1061,
+     "age_h": 72,
+     "yt": 1132,
      "fb": 0,
-     "total": 1061,
+     "total": 1132,
      "likes": 27,
+     "comments": 1,
+     "avp": 76.76,
+     "avd": 29,
+     "subs": 1,
+     "shares": 1
+    },
+    {
+     "video_id": "mojYDhzGW08",
+     "title": "દ્વારકાના દરિયામાંથી ત્રણ કાણાંવાળા પથ્થરો કેમ નીકળ્યા?",
+     "key": "dwarka",
+     "lang": "gu",
+     "kind": "myth",
+     "seconds": 40.0,
+     "slot": 1,
+     "age_h": 47,
+     "yt": 1113,
+     "fb": 0,
+     "total": 1113,
+     "likes": 17,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -216,7 +216,7 @@
      "kind": "saint",
      "seconds": 31.6,
      "slot": 3,
-     "age_h": 280,
+     "age_h": 304,
      "yt": 1050,
      "fb": 0,
      "total": 1050,
@@ -228,6 +228,25 @@
      "shares": 0
     },
     {
+     "video_id": "r9dZIRnFaVE",
+     "title": "నల్లమల అడవిలో శివపార్వతులు ఎందుకు స్థిరపడ్డారు?",
+     "key": "srisailam_karthika",
+     "lang": "te",
+     "kind": "wonder",
+     "seconds": 33.2,
+     "slot": 3,
+     "age_h": 39,
+     "yt": 1021,
+     "fb": 0,
+     "total": 1021,
+     "likes": 15,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "0AIKyx5ChG4",
      "title": "బాబర్ దృష్టిలో భారతదేశంలో అత్యంత శక్తివంతమైన రాజు ఎవరు?",
      "key": "krishnadevaraya",
@@ -235,10 +254,10 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 376,
-     "yt": 1017,
+     "age_h": 400,
+     "yt": 1018,
      "fb": 0,
-     "total": 1017,
+     "total": 1018,
      "likes": 18,
      "comments": 1,
      "avp": 69.58,
@@ -254,16 +273,16 @@
      "kind": "myth",
      "seconds": 31.4,
      "slot": 3,
-     "age_h": 39,
-     "yt": 986,
+     "age_h": 63,
+     "yt": 987,
      "fb": 0,
-     "total": 986,
+     "total": 987,
      "likes": 16,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 41.49,
+     "avd": 14,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "Vt27rHcF7aA",
@@ -273,13 +292,13 @@
      "kind": "wonder",
      "seconds": 36.8,
      "slot": 1,
-     "age_h": 337,
+     "age_h": 361,
      "yt": 958,
      "fb": null,
      "total": 958,
      "likes": 9,
      "comments": 1,
-     "avp": 72.39,
+     "avp": 72.23,
      "avd": 26,
      "subs": 2,
      "shares": 1
@@ -292,7 +311,7 @@
      "kind": "wonder",
      "seconds": 45.0,
      "slot": 1,
-     "age_h": 411,
+     "age_h": 435,
      "yt": 887,
      "fb": 0,
      "total": 887,
@@ -311,35 +330,16 @@
      "kind": "history",
      "seconds": 30.7,
      "slot": 3,
-     "age_h": 184,
-     "yt": 795,
+     "age_h": 208,
+     "yt": 797,
      "fb": 0,
-     "total": 795,
+     "total": 797,
      "likes": 9,
      "comments": 1,
      "avp": 54.92,
      "avd": 18,
      "subs": 1,
      "shares": 1
-    },
-    {
-     "video_id": "r9dZIRnFaVE",
-     "title": "నల్లమల అడవిలో శివపార్వతులు ఎందుకు స్థిరపడ్డారు?",
-     "key": "srisailam_karthika",
-     "lang": "te",
-     "kind": "wonder",
-     "seconds": 33.2,
-     "slot": 3,
-     "age_h": 15,
-     "yt": 708,
-     "fb": 0,
-     "total": 708,
-     "likes": 14,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     },
     {
      "video_id": "Aw4U-tFHkxc",
@@ -349,7 +349,7 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 403,
+     "age_h": 427,
      "yt": 665,
      "fb": 0,
      "total": 665,
@@ -368,7 +368,7 @@
      "kind": "myth",
      "seconds": 41.2,
      "slot": 3,
-     "age_h": 302,
+     "age_h": 326,
      "yt": 600,
      "fb": 0,
      "total": 600,
@@ -387,7 +387,7 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 506,
+     "age_h": 531,
      "yt": 559,
      "fb": 0,
      "total": 559,
@@ -406,7 +406,7 @@
      "kind": "wonder",
      "seconds": 39.1,
      "slot": 1,
-     "age_h": 481,
+     "age_h": 505,
      "yt": 517,
      "fb": 0,
      "total": 517,
@@ -425,7 +425,7 @@
      "kind": "myth",
      "seconds": 34.1,
      "slot": 3,
-     "age_h": 109,
+     "age_h": 133,
      "yt": 338,
      "fb": 0,
      "total": 338,
@@ -444,7 +444,7 @@
      "kind": "wonder",
      "seconds": 37.6,
      "slot": 1,
-     "age_h": 264,
+     "age_h": 288,
      "yt": 280,
      "fb": 0,
      "total": 280,
@@ -463,7 +463,7 @@
      "kind": "saint",
      "seconds": 30.2,
      "slot": 0,
-     "age_h": 363,
+     "age_h": 387,
      "yt": 261,
      "fb": null,
      "total": 261,
@@ -482,7 +482,7 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 401,
+     "age_h": 425,
      "yt": 154,
      "fb": 0,
      "total": 154,
@@ -501,7 +501,7 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 494,
+     "age_h": 518,
      "yt": 140,
      "fb": null,
      "total": 140,
@@ -520,7 +520,7 @@
      "kind": "saint",
      "seconds": 36.7,
      "slot": 1,
-     "age_h": 385,
+     "age_h": 409,
      "yt": 138,
      "fb": 0,
      "total": 138,
@@ -539,7 +539,7 @@
      "kind": "wonder",
      "seconds": 33.7,
      "slot": 3,
-     "age_h": 134,
+     "age_h": 159,
      "yt": 121,
      "fb": 0,
      "total": 121,
@@ -558,7 +558,7 @@
      "kind": "wonder",
      "seconds": 39.8,
      "slot": 0,
-     "age_h": 411,
+     "age_h": 435,
      "yt": 118,
      "fb": null,
      "total": 118,
@@ -570,6 +570,25 @@
      "shares": 1
     },
     {
+     "video_id": "6ds-In__7RI",
+     "title": "घोरपडीच्या मदतीने सरळ कडा चढून जिंकलेला सिंहगड",
+     "key": "tanaji_sinhagad",
+     "lang": "mr",
+     "kind": "history",
+     "seconds": 42.9,
+     "slot": 1,
+     "age_h": 191,
+     "yt": 118,
+     "fb": 0,
+     "total": 118,
+     "likes": 1,
+     "comments": 1,
+     "avp": 50.580000000000005,
+     "avd": 22,
+     "subs": 0,
+     "shares": 2
+    },
+    {
      "video_id": "HR-5QqJX6nA",
      "title": "ஆங்கிலேயர்கள் எதிர்த்த மசாலா டீ இந்தியாவில் புகழ்பெற்ற கதை!",
      "key": "chai_india",
@@ -577,14 +596,14 @@
      "kind": "food",
      "seconds": 27.2,
      "slot": 6,
-     "age_h": 63,
+     "age_h": 87,
      "yt": 118,
      "fb": null,
      "total": 118,
      "likes": 2,
      "comments": 1,
-     "avp": 50.79,
-     "avd": 15,
+     "avp": 47.48,
+     "avd": 14,
      "subs": 0,
      "shares": 0
     },
@@ -596,7 +615,7 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 385,
+     "age_h": 409,
      "yt": 115,
      "fb": null,
      "total": 115,
@@ -608,25 +627,6 @@
      "shares": 0
     },
     {
-     "video_id": "6ds-In__7RI",
-     "title": "घोरपडीच्या मदतीने सरळ कडा चढून जिंकलेला सिंहगड",
-     "key": "tanaji_sinhagad",
-     "lang": "mr",
-     "kind": "history",
-     "seconds": 42.9,
-     "slot": 1,
-     "age_h": 166,
-     "yt": 108,
-     "fb": 0,
-     "total": 108,
-     "likes": 0,
-     "comments": 1,
-     "avp": 49.41,
-     "avd": 22,
-     "subs": 0,
-     "shares": 2
-    },
-    {
      "video_id": "WhIsN3HJA2A",
      "title": "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?",
      "key": "kuldhara",
@@ -634,7 +634,7 @@
      "kind": "folk",
      "seconds": 29.5,
      "slot": 2,
-     "age_h": 330,
+     "age_h": 355,
      "yt": 105,
      "fb": null,
      "total": 105,
@@ -653,7 +653,7 @@
      "kind": "wonder",
      "seconds": 37.9,
      "slot": 2,
-     "age_h": 235,
+     "age_h": 259,
      "yt": 104,
      "fb": null,
      "total": 104,
@@ -672,7 +672,7 @@
      "kind": "engineering",
      "seconds": 34.4,
      "slot": 3,
-     "age_h": 254,
+     "age_h": 278,
      "yt": 101,
      "fb": 0,
      "total": 101,
@@ -691,7 +691,7 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 471,
+     "age_h": 495,
      "yt": 100,
      "fb": null,
      "total": 100,
@@ -710,7 +710,7 @@
      "kind": "myth",
      "seconds": 38.4,
      "slot": 1,
-     "age_h": 312,
+     "age_h": 336,
      "yt": 91,
      "fb": null,
      "total": 91,
@@ -729,7 +729,7 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 457,
+     "age_h": 481,
      "yt": 89,
      "fb": null,
      "total": 89,
@@ -741,6 +741,25 @@
      "shares": 0
     },
     {
+     "video_id": "zj5J9QpcZ64",
+     "title": "সুন্দরবনের এক-তৃতীয়াংশ জমি রোজ কোথায় হারিয়ে যায়?",
+     "key": "sundarbans_tiger",
+     "lang": "bn",
+     "kind": "wonder",
+     "seconds": 47.3,
+     "slot": 1,
+     "age_h": 23,
+     "yt": 85,
+     "fb": 0,
+     "total": 85,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "7b9q_RsNtsk",
      "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
      "key": "dholavira",
@@ -748,7 +767,7 @@
      "kind": "history",
      "seconds": 38.2,
      "slot": 1,
-     "age_h": 361,
+     "age_h": 385,
      "yt": 79,
      "fb": null,
      "total": 79,
@@ -767,10 +786,10 @@
      "kind": "wonder",
      "seconds": 38.0,
      "slot": 1,
-     "age_h": 216,
-     "yt": 69,
+     "age_h": 240,
+     "yt": 71,
      "fb": 0,
-     "total": 69,
+     "total": 71,
      "likes": 2,
      "comments": 1,
      "avp": 56.31,
@@ -786,16 +805,16 @@
      "kind": "myth",
      "seconds": 35.1,
      "slot": 6,
-     "age_h": 43,
-     "yt": 65,
+     "age_h": 67,
+     "yt": 68,
      "fb": null,
-     "total": 65,
+     "total": 68,
      "likes": 1,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 40.99,
+     "avd": 15,
+     "subs": 1,
+     "shares": 0
     },
     {
      "video_id": "iTiyUFCg87g",
@@ -805,7 +824,7 @@
      "kind": "saint",
      "seconds": 34.4,
      "slot": 1,
-     "age_h": 288,
+     "age_h": 312,
      "yt": 58,
      "fb": 0,
      "total": 58,
@@ -824,7 +843,7 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 450,
+     "age_h": 475,
      "yt": 51,
      "fb": null,
      "total": 51,
@@ -843,7 +862,7 @@
      "kind": "saint",
      "seconds": 37.2,
      "slot": 0,
-     "age_h": 315,
+     "age_h": 339,
      "yt": 48,
      "fb": null,
      "total": 48,
@@ -862,7 +881,7 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 499,
+     "age_h": 523,
      "yt": 46,
      "fb": null,
      "total": 46,
@@ -881,7 +900,7 @@
      "kind": "wonder",
      "seconds": 35.2,
      "slot": 2,
-     "age_h": 187,
+     "age_h": 211,
      "yt": 42,
      "fb": null,
      "total": 42,
@@ -900,7 +919,7 @@
      "kind": "wonder",
      "seconds": 30.5,
      "slot": 2,
-     "age_h": 211,
+     "age_h": 236,
      "yt": 38,
      "fb": null,
      "total": 38,
@@ -919,14 +938,14 @@
      "kind": "engineering",
      "seconds": 30.1,
      "slot": 0,
-     "age_h": 50,
-     "yt": 34,
+     "age_h": 74,
+     "yt": 37,
      "fb": null,
-     "total": 34,
+     "total": 37,
      "likes": 0,
      "comments": 1,
-     "avp": 0,
-     "avd": 0,
+     "avp": 42.69,
+     "avd": 14,
      "subs": 0,
      "shares": 0
     },
@@ -938,7 +957,7 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 483,
+     "age_h": 507,
      "yt": 29,
      "fb": null,
      "total": 29,
@@ -957,32 +976,13 @@
      "kind": "history",
      "seconds": 38.6,
      "slot": 0,
-     "age_h": 266,
+     "age_h": 290,
      "yt": 27,
      "fb": null,
      "total": 27,
      "likes": 0,
      "comments": 1,
      "avp": 38.62,
-     "avd": 15,
-     "subs": 0,
-     "shares": 0
-    },
-    {
-     "video_id": "_doHoF9u8Kg",
-     "title": "અંગ્રેજોએ ભારતીયોને ચા પીતા કેવી રીતે કર્યા?",
-     "key": "chai_india",
-     "lang": "gu",
-     "kind": "food",
-     "seconds": 37.6,
-     "slot": 1,
-     "age_h": 143,
-     "yt": 25,
-     "fb": 0,
-     "total": 25,
-     "likes": 0,
-     "comments": 1,
-     "avp": 38.61,
      "avd": 15,
      "subs": 0,
      "shares": 0
@@ -995,14 +995,33 @@
      "kind": "engineering",
      "seconds": 37.6,
      "slot": 0,
-     "age_h": 122,
-     "yt": 25,
+     "age_h": 146,
+     "yt": 26,
      "fb": null,
-     "total": 25,
+     "total": 26,
      "likes": 1,
      "comments": 1,
-     "avp": 45.13,
-     "avd": 18,
+     "avp": 50.67,
+     "avd": 20,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "_doHoF9u8Kg",
+     "title": "અંગ્રેજોએ ભારતીયોને ચા પીતા કેવી રીતે કર્યા?",
+     "key": "chai_india",
+     "lang": "gu",
+     "kind": "food",
+     "seconds": 37.6,
+     "slot": 1,
+     "age_h": 167,
+     "yt": 25,
+     "fb": 0,
+     "total": 25,
+     "likes": 0,
+     "comments": 1,
+     "avp": 38.61,
+     "avd": 15,
      "subs": 0,
      "shares": 0
     },
@@ -1014,7 +1033,7 @@
      "kind": "myth",
      "seconds": 32.3,
      "slot": 2,
-     "age_h": 308,
+     "age_h": 332,
      "yt": 22,
      "fb": null,
      "total": 22,
@@ -1033,7 +1052,7 @@
      "kind": "saint",
      "seconds": 38.8,
      "slot": 2,
-     "age_h": 283,
+     "age_h": 307,
      "yt": 21,
      "fb": null,
      "total": 21,
@@ -1052,7 +1071,7 @@
      "kind": "myth",
      "seconds": 45.0,
      "slot": 2,
-     "age_h": 160,
+     "age_h": 184,
      "yt": 21,
      "fb": null,
      "total": 21,
@@ -1071,11 +1090,30 @@
      "kind": "myth",
      "seconds": 42.4,
      "slot": 2,
-     "age_h": 19,
-     "yt": 17,
+     "age_h": 43,
+     "yt": 20,
      "fb": null,
-     "total": 17,
+     "total": 20,
      "likes": 3,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "x6WVbiySmwM",
+     "title": "સો ફૂટ ઊંચો ગોવર્ધન પર્વત વ્રજનું કેન્દ્ર કેમ બન્યો?",
+     "key": "govardhan",
+     "lang": "gu",
+     "kind": "myth",
+     "seconds": 35.9,
+     "slot": 6,
+     "age_h": 13,
+     "yt": 19,
+     "fb": null,
+     "total": 19,
+     "likes": 0,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -1090,7 +1128,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 507,
+     "age_h": 531,
      "yt": 16,
      "fb": null,
      "total": 16,
@@ -1109,7 +1147,7 @@
      "kind": "history",
      "seconds": 43.0,
      "slot": 1,
-     "age_h": 95,
+     "age_h": 119,
      "yt": 16,
      "fb": 0,
      "total": 16,
@@ -1128,7 +1166,7 @@
      "kind": "history",
      "seconds": 43.5,
      "slot": 1,
-     "age_h": 191,
+     "age_h": 215,
      "yt": 15,
      "fb": 0,
      "total": 15,
@@ -1147,7 +1185,7 @@
      "kind": "myth",
      "seconds": 40.0,
      "slot": 1,
-     "age_h": 71,
+     "age_h": 95,
      "yt": 14,
      "fb": 0,
      "total": 14,
@@ -1166,7 +1204,7 @@
      "kind": "wonder",
      "seconds": 33.6,
      "slot": 3,
-     "age_h": 326,
+     "age_h": 350,
      "yt": 12,
      "fb": null,
      "total": 12,
@@ -1178,6 +1216,25 @@
      "shares": 0
     },
     {
+     "video_id": "E909_eGQw3Y",
+     "title": "एकाच दगडाचा डोंगर वरून खाली कोरून बनवलेले कैलास मंदिर",
+     "key": "ajanta_ellora",
+     "lang": "mr",
+     "kind": "wonder",
+     "seconds": 38.8,
+     "slot": 1,
+     "age_h": 138,
+     "yt": 10,
+     "fb": 0,
+     "total": 10,
+     "likes": 0,
+     "comments": 1,
+     "avp": 1.1,
+     "avd": 0,
+     "subs": 0,
+     "shares": 0
+    },
+    {
      "video_id": "VFX6Sbw0gx0",
      "title": "ಜಗತ್ತಿನ 2ನೇ ದೊಡ್ಡ ನಗರದಲ್ಲಿ ಕಾಡುಪ್ರಾಣಿಗಳು ಮಾತ್ರ ಉಳಿದವು!",
      "key": "hampi",
@@ -1185,7 +1242,7 @@
      "kind": "wonder",
      "seconds": 33.9,
      "slot": 0,
-     "age_h": 288,
+     "age_h": 312,
      "yt": 9,
      "fb": null,
      "total": 9,
@@ -1197,25 +1254,6 @@
      "shares": 0
     },
     {
-     "video_id": "E909_eGQw3Y",
-     "title": "एकाच दगडाचा डोंगर वरून खाली कोरून बनवलेले कैलास मंदिर",
-     "key": "ajanta_ellora",
-     "lang": "mr",
-     "kind": "wonder",
-     "seconds": 38.8,
-     "slot": 1,
-     "age_h": 114,
-     "yt": 9,
-     "fb": 0,
-     "total": 9,
-     "likes": 0,
-     "comments": 1,
-     "avp": 1.1,
-     "avd": 0,
-     "subs": 0,
-     "shares": 0
-    },
-    {
      "video_id": "Lnh_E40SKbo",
      "title": "श्री राम ने सैकड़ों ऋषियों को छोड़ शबरी के जूठे बेर क्यों खाए?",
      "key": "shabari",
@@ -1223,7 +1261,7 @@
      "kind": "myth",
      "seconds": 37.6,
      "slot": 2,
-     "age_h": 259,
+     "age_h": 283,
      "yt": 8,
      "fb": null,
      "total": 8,
@@ -1235,6 +1273,25 @@
      "shares": 0
     },
     {
+     "video_id": "xpji4utHk0I",
+     "title": "ಬೇಲೂರಿನ ಈ ದೇವಾಲಯ ಸಂಕೀರ್ಣ ಕಟ್ಟಲು ೧೦೩ ವರ್ಷ ಬೇಕಿತ್ತೇ?",
+     "key": "belur_temple",
+     "lang": "kn",
+     "kind": "wonder",
+     "seconds": 31.8,
+     "slot": 2,
+     "age_h": 90,
+     "yt": 7,
+     "fb": null,
+     "total": 7,
+     "likes": 0,
+     "comments": 1,
+     "avp": 32.21,
+     "avd": 10,
+     "subs": 0,
+     "shares": 0
+    },
+    {
      "video_id": "mNLHuumOJqY",
      "title": "18 ಕೈಗಳ ನಟರಾಜ, ಒಂದು ತಪ್ಪಾದರೂ ಇಡೀ ಗುಹೆ ವ್ಯರ್ಥ",
      "key": "badami_caves",
@@ -1242,7 +1299,7 @@
      "kind": "wonder",
      "seconds": 41.3,
      "slot": 0,
-     "age_h": 191,
+     "age_h": 215,
      "yt": 6,
      "fb": null,
      "total": 6,
@@ -1254,25 +1311,6 @@
      "shares": 0
     },
     {
-     "video_id": "xpji4utHk0I",
-     "title": "ಬೇಲೂರಿನ ಈ ದೇವಾಲಯ ಸಂಕೀರ್ಣ ಕಟ್ಟಲು ೧೦೩ ವರ್ಷ ಬೇಕಿತ್ತೇ?",
-     "key": "belur_temple",
-     "lang": "kn",
-     "kind": "wonder",
-     "seconds": 31.8,
-     "slot": 2,
-     "age_h": 66,
-     "yt": 6,
-     "fb": null,
-     "total": 6,
-     "likes": 0,
-     "comments": 1,
-     "avp": 32.21,
-     "avd": 10,
-     "subs": 0,
-     "shares": 0
-    },
-    {
      "video_id": "nwbBHEr5mpU",
      "title": "सावळ्या विठ्ठलाला 'पांडुरंग' म्हणजेच पांढरा देव का म्हणतात?",
      "key": "vitthal_pandharpur",
@@ -1280,16 +1318,16 @@
      "kind": "myth",
      "seconds": 46.8,
      "slot": 2,
-     "age_h": 43,
+     "age_h": 67,
      "yt": 6,
      "fb": null,
      "total": 6,
      "likes": 0,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 54,
+     "avd": 26,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "PedkVUJtiuM",
@@ -1299,7 +1337,7 @@
      "kind": "history",
      "seconds": 31.8,
      "slot": 0,
-     "age_h": 242,
+     "age_h": 266,
      "yt": 5,
      "fb": null,
      "total": 5,
@@ -1311,25 +1349,6 @@
      "shares": 0
     },
     {
-     "video_id": "mMorFRSeDPw",
-     "title": "ਅਕਬਰ ਨੇ ਸ਼ਹਿਜ਼ਾਦੇ ਨੂੰ ਬਾਗੀ ਦੀ ਮਾਂ ਦਾ ਦੁੱਧ ਕਿਉਂ ਪਿਲਾਇਆ?",
-     "key": "dulla_bhatti",
-     "lang": "pa",
-     "kind": "folk",
-     "seconds": 35.1,
-     "slot": 1,
-     "age_h": 240,
-     "yt": 4,
-     "fb": 0,
-     "total": 4,
-     "likes": 0,
-     "comments": 1,
-     "avp": 61.24000000000001,
-     "avd": 23,
-     "subs": 0,
-     "shares": 0
-    },
-    {
      "video_id": "qwolUUs8sSk",
      "title": "ಬೆಂಗಳೂರಿನ 15 ಅಡಿ ನಂದಿಗೆ ಕಡಲೆಕಾಯಿ ನೀಡುವ ಅಪರೂಪದ ಪರಿಷೆ",
      "key": "bull_temple",
@@ -1337,33 +1356,14 @@
      "kind": "folk",
      "seconds": 36.0,
      "slot": 0,
-     "age_h": 150,
-     "yt": 4,
+     "age_h": 174,
+     "yt": 5,
      "fb": null,
-     "total": 4,
+     "total": 5,
      "likes": 0,
      "comments": 1,
      "avp": 49.5,
      "avd": 19,
-     "subs": 0,
-     "shares": 0
-    },
-    {
-     "video_id": "WevARAaqesw",
-     "title": "दो रुपये के नोट वाले सैटेलाइट का क्या हुआ?",
-     "key": "aryabhata_sat",
-     "lang": "hi",
-     "kind": "space",
-     "seconds": 35.5,
-     "slot": 2,
-     "age_h": 112,
-     "yt": 4,
-     "fb": null,
-     "total": 4,
-     "likes": 0,
-     "comments": 1,
-     "avp": 11.05,
-     "avd": 4,
      "subs": 0,
      "shares": 0
     },
@@ -1375,14 +1375,52 @@
      "kind": "wonder",
      "seconds": 32.7,
      "slot": 0,
-     "age_h": 71,
+     "age_h": 95,
+     "yt": 5,
+     "fb": null,
+     "total": 5,
+     "likes": 0,
+     "comments": 1,
+     "avp": 2.57,
+     "avd": 0,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "mMorFRSeDPw",
+     "title": "ਅਕਬਰ ਨੇ ਸ਼ਹਿਜ਼ਾਦੇ ਨੂੰ ਬਾਗੀ ਦੀ ਮਾਂ ਦਾ ਦੁੱਧ ਕਿਉਂ ਪਿਲਾਇਆ?",
+     "key": "dulla_bhatti",
+     "lang": "pa",
+     "kind": "folk",
+     "seconds": 35.1,
+     "slot": 1,
+     "age_h": 264,
+     "yt": 4,
+     "fb": 0,
+     "total": 4,
+     "likes": 0,
+     "comments": 1,
+     "avp": 42.47,
+     "avd": 16,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "WevARAaqesw",
+     "title": "दो रुपये के नोट वाले सैटेलाइट का क्या हुआ?",
+     "key": "aryabhata_sat",
+     "lang": "hi",
+     "kind": "space",
+     "seconds": 35.5,
+     "slot": 2,
+     "age_h": 136,
      "yt": 4,
      "fb": null,
      "total": 4,
      "likes": 0,
      "comments": 1,
-     "avp": 2.57,
-     "avd": 0,
+     "avp": 11.05,
+     "avd": 4,
      "subs": 0,
      "shares": 0
     },
@@ -1394,7 +1432,7 @@
      "kind": "myth",
      "seconds": 34.7,
      "slot": 0,
-     "age_h": 218,
+     "age_h": 242,
      "yt": 3,
      "fb": null,
      "total": 3,
@@ -1413,7 +1451,26 @@
      "kind": "myth",
      "seconds": 34.4,
      "slot": 0,
-     "age_h": 102,
+     "age_h": 126,
+     "yt": 3,
+     "fb": null,
+     "total": 3,
+     "likes": 0,
+     "comments": 1,
+     "avp": 2.7,
+     "avd": 1,
+     "subs": 0,
+     "shares": 0
+    },
+    {
+     "video_id": "sL5Ix35Lg38",
+     "title": "ಕಾಂಚಿಯಲ್ಲಿ ಆದ ಅವಮಾನಕ್ಕೆ ಕಾದಂಬ ಸಾಮ್ರಾಜ್ಯ ಕಟ್ಟಿದ ಮಯೂರಶರ್ಮ",
+     "key": "mayurasharma",
+     "lang": "kn",
+     "kind": "history",
+     "seconds": 35.1,
+     "slot": 2,
+     "age_h": 16,
      "yt": 3,
      "fb": null,
      "total": 3,
@@ -1422,8 +1479,7 @@
      "avp": null,
      "avd": null,
      "subs": null,
-     "shares": null,
-     "retention": null
+     "shares": null
     },
     {
      "video_id": "3h4gXGgrvVY",
@@ -1433,7 +1489,7 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 167,
+     "age_h": 191,
      "yt": 2,
      "fb": null,
      "total": 2,
@@ -1446,6 +1502,44 @@
      "retention": null
     },
     {
+     "video_id": "N9_EKH5zQCw",
+     "title": "ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್ ಅಧಿಕಾರಿಗಳು ಧ್ಯಾನ್ ಚಂದ್ ಹಾಕಿ ಕೋಲನ್ನು ಮುರಿದಿದ್ದು ಏಕೆ?",
+     "key": "dhyan_chand",
+     "lang": "kn",
+     "kind": "sport",
+     "seconds": 35.3,
+     "slot": 0,
+     "age_h": 25,
+     "yt": 2,
+     "fb": null,
+     "total": 2,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "DpBbmycgsM4",
+     "title": "ಉತ್ತರ ಭಾರತದ ಹರ್ಷವರ್ಧನನನ್ನು ಸೋಲಿಸಿದ ಇಮ್ಮಡಿ ಪುಲಿಕೇಶಿ",
+     "key": "pulakeshin",
+     "lang": "kn",
+     "kind": "history",
+     "seconds": 31.9,
+     "slot": 0,
+     "age_h": 6,
+     "yt": 2,
+     "fb": null,
+     "total": 2,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "zJEbCTf8gxw",
      "title": "1498 ರಲ್ಲಿ ವಾಸ್ಕೋ ಡ ಗಾಮ ಉಡುಪಿಯ ಈ ದ್ವೀಪಕ್ಕೆ ಬಂದಿದ್ದು ಯಾಕೆ?",
      "key": "st_marys_islands",
@@ -1453,7 +1547,7 @@
      "kind": "nature",
      "seconds": 30.0,
      "slot": 0,
-     "age_h": 26,
+     "age_h": 50,
      "yt": 1,
      "fb": null,
      "total": 1,
@@ -1462,7 +1556,8 @@
      "avp": null,
      "avd": null,
      "subs": null,
-     "shares": null
+     "shares": null,
+     "retention": null
     },
     {
      "video_id": "RsS9Le_s57M",
@@ -1472,7 +1567,7 @@
      "kind": "food",
      "seconds": 44.2,
      "slot": 2,
-     "age_h": 138,
+     "age_h": 162,
      "yt": 0,
      "fb": null,
      "total": 0,
@@ -1483,44 +1578,25 @@
      "subs": null,
      "shares": null,
      "retention": null
-    },
-    {
-     "video_id": "N9_EKH5zQCw",
-     "title": "ನೆದರ್‌ಲ್ಯಾಂಡ್ಸ್ ಅಧಿಕಾರಿಗಳು ಧ್ಯಾನ್ ಚಂದ್ ಹಾಕಿ ಕೋಲನ್ನು ಮುರಿದಿದ್ದು ಏಕೆ?",
-     "key": "dhyan_chand",
-     "lang": "kn",
-     "kind": "sport",
-     "seconds": 35.3,
-     "slot": 0,
-     "age_h": 1,
-     "yt": 0,
-     "fb": null,
-     "total": 0,
-     "likes": 0,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     }
    ],
    "channel": {
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 134174
+      "views": 136196
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 2835
+      "views": 2931
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 954
+      "views": 955
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 486
+      "views": 487
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
@@ -1554,7 +1630,7 @@
     "searches": [
      {
       "insightTrafficSourceDetail": "ಮೈಸೂರು ಅರಮನೆ",
-      "views": 22
+      "views": 24
      },
      {
       "insightTrafficSourceDetail": "mysore palace history",
@@ -1674,7 +1750,7 @@
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 4.6
+      "viewerPercentage": 4.5
      },
      {
       "ageGroup": "age25-34",
@@ -1684,7 +1760,7 @@
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 11.8
+      "viewerPercentage": 11.7
      },
      {
       "ageGroup": "age35-44",
@@ -1699,42 +1775,42 @@
      {
       "ageGroup": "age45-54",
       "gender": "female",
-      "viewerPercentage": 8.2
+      "viewerPercentage": 8.1
      },
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 12.6
+      "viewerPercentage": 12.8
      },
      {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 5.7
+      "viewerPercentage": 5.6
      },
      {
       "ageGroup": "age55-64",
       "gender": "male",
-      "viewerPercentage": 10.4
+      "viewerPercentage": 10.5
      },
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 4.4
+      "viewerPercentage": 4.3
      },
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 8.7
+      "viewerPercentage": 8.8
      }
     ],
     "countries": [
      {
       "country": "IN",
-      "views": 136038
+      "views": 137855
      },
      {
       "country": "US",
-      "views": 1255
+      "views": 1293
      },
      {
       "country": "BD",
@@ -1742,105 +1818,118 @@
      },
      {
       "country": "AE",
-      "views": 48
+      "views": 81
      },
      {
       "country": "GB",
       "views": 46
      },
      {
-      "country": "LK",
-      "views": 0
+      "country": "MY",
+      "views": 35
+     },
+     {
+      "country": "SG",
+      "views": 33
+     },
+     {
+      "country": "SA",
+      "views": 21
      }
     ]
    },
    "lang_weights": {
-    "gu": {
-     "w": 1.31,
-     "n": 5,
-     "median": 79
-    },
     "pa": {
      "w": 0.71,
      "n": 1,
      "median": 4
     },
-    "ta": {
-     "w": 2.09,
-     "n": 6,
-     "median": 410
-    },
-    "ml": {
-     "w": 0.94,
-     "n": 2,
-     "median": 64
-    },
-    "bn": {
-     "w": 1.5,
-     "n": 2,
-     "median": 304
-    },
     "or": {
-     "w": 0.92,
+     "w": 0.96,
      "n": 3,
      "median": 21
     },
-    "kn": {
-     "w": 0.64,
-     "n": 17,
-     "median": 9
-    },
     "mr": {
-     "w": 1.0,
+     "w": 1.04,
      "n": 7,
      "median": 89
+    },
+    "kn": {
+     "w": 0.63,
+     "n": 18,
+     "median": 8
+    },
+    "ml": {
+     "w": 0.98,
+     "n": 2,
+     "median": 64
+    },
+    "ta": {
+     "w": 2.14,
+     "n": 6,
+     "median": 410
+    },
+    "bn": {
+     "w": 1.26,
+     "n": 3,
+     "median": 91
+    },
+    "gu": {
+     "w": 1.59,
+     "n": 6,
+     "median": 98
     }
    },
    "kind_weights": {
-    "engineering": {
-     "w": 1.14,
-     "n": 5,
-     "median": 101
-    },
     "space": {
      "w": 0.71,
      "n": 1,
      "median": 4
     },
-    "wonder": {
-     "w": 0.98,
-     "n": 20,
-     "median": 86
+    "engineering": {
+     "w": 1.16,
+     "n": 5,
+     "median": 101
+    },
+    "history": {
+     "w": 1.16,
+     "n": 12,
+     "median": 103
+    },
+    "nature": {
+     "w": 0.71,
+     "n": 1,
+     "median": 1
+    },
+    "people": {
+     "w": 1.41,
+     "n": 1,
+     "median": 1132
+    },
+    "myth": {
+     "w": 0.71,
+     "n": 19,
+     "median": 29
     },
     "food": {
      "w": 0.7,
      "n": 3,
      "median": 25
     },
+    "wonder": {
+     "w": 1.04,
+     "n": 21,
+     "median": 104
+    },
     "folk": {
      "w": 0.65,
      "n": 4,
      "median": 25
     },
-    "myth": {
-     "w": 0.69,
-     "n": 17,
-     "median": 29
-    },
     "saint": {
      "w": 1.47,
      "n": 10,
      "median": 147
-    },
-    "people": {
-     "w": 1.41,
-     "n": 1,
-     "median": 1061
-    },
-    "history": {
-     "w": 1.15,
-     "n": 12,
-     "median": 98
     }
    },
    "proven_titles": {
@@ -1864,6 +1953,11 @@
      "झांसी की रानी को अंग्रेजों ने खुद क्यों सौंपा था राज?",
      "कुलधरा का सच: क्या वाकई पूरा गांव रातों-रात खाली हुआ?"
     ],
+    "gu": [
+     "દ્વારકાના દરિયામાંથી ત્રણ કાણાંવાળા પથ્થરો કેમ નીકળ્યા?",
+     "નરસિંહ મહેતાનો હાથ સળગ્યો છતાં દર્દ કેમ ન થયો?",
+     "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?"
+    ],
     "mr": [
      "एकाही घराला दरवाजा नसलेले महाराष्ट्रातील अनोखे गाव",
      "माणसांना नावाऐवजी शिट्टीने हाक मारणारे भारतातील गाव",
@@ -1875,11 +1969,6 @@
     "bn": [
      "জাতিঙ্গার রহস্য: রাতে আলো দেখে কেন আছড়ে পড়ে পাখিরা?",
      "কাশী যাত্রা আটকে রানি রাসমণি কেন বানালেন দক্ষিণেশ্বর মন্দির?"
-    ],
-    "gu": [
-     "નરસિંહ મહેતાનો હાથ સળગ્યો છતાં દર્દ કેમ ન થયો?",
-     "૬૦૦ વર્ષ માટીમાં દટાયેલી રાણકી વાવ કેવી રીતે બહાર આવી?",
-     "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ"
     ],
     "ml": [
      "ഗുരുവായൂരപ്പനായി ശിവൻ ഒഴിഞ്ഞുകൊടുത്ത പുണ്യഭൂമി!"
@@ -1898,20 +1987,20 @@
      "kind": "folk",
      "seconds": 36.8,
      "slot": 5,
-     "age_h": 60,
-     "yt": 2985,
+     "age_h": 84,
+     "yt": 2997,
      "fb": null,
-     "total": 2985,
+     "total": 2997,
      "likes": 107,
      "comments": 2,
-     "avp": 66.64,
-     "avd": 25,
+     "avp": 67.05,
+     "avd": 26,
      "subs": 2,
      "shares": 1,
      "retention": {
       "10%": 1.18,
       "50%": 0.58,
-      "90%": 0.48
+      "90%": 0.49
      }
     },
     {
@@ -1922,13 +2011,13 @@
      "kind": "wonder",
      "seconds": 33.8,
      "slot": 5,
-     "age_h": 132,
-     "yt": 1571,
+     "age_h": 156,
+     "yt": 1576,
      "fb": null,
-     "total": 1571,
+     "total": 1576,
      "likes": 42,
      "comments": 1,
-     "avp": 75.69,
+     "avp": 75.68,
      "avd": 27,
      "subs": 3,
      "shares": 0,
@@ -1946,7 +2035,7 @@
      "kind": "history",
      "seconds": 31.8,
      "slot": 5,
-     "age_h": 205,
+     "age_h": 229,
      "yt": 1566,
      "fb": null,
      "total": 1566,
@@ -1970,13 +2059,13 @@
      "kind": "wonder",
      "seconds": 32.4,
      "slot": 4,
-     "age_h": 200,
-     "yt": 1400,
+     "age_h": 224,
+     "yt": 1402,
      "fb": null,
-     "total": 1400,
+     "total": 1402,
      "likes": 20,
      "comments": 1,
-     "avp": 64.46,
+     "avp": 64.5,
      "avd": 22,
      "subs": 0,
      "shares": 0
@@ -1989,7 +2078,7 @@
      "kind": "history",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 223,
+     "age_h": 247,
      "yt": 1320,
      "fb": null,
      "total": 1320,
@@ -2008,10 +2097,10 @@
      "kind": "wonder",
      "seconds": 30.0,
      "slot": 4,
-     "age_h": 78,
-     "yt": 1304,
+     "age_h": 102,
+     "yt": 1306,
      "fb": null,
-     "total": 1304,
+     "total": 1306,
      "likes": 8,
      "comments": 1,
      "avp": 91.34,
@@ -2027,13 +2116,13 @@
      "kind": "engineering",
      "seconds": 30.8,
      "slot": 4,
-     "age_h": 102,
-     "yt": 1266,
+     "age_h": 126,
+     "yt": 1279,
      "fb": null,
-     "total": 1266,
+     "total": 1279,
      "likes": 24,
      "comments": 1,
-     "avp": 68.54,
+     "avp": 68.21,
      "avd": 22,
      "subs": 1,
      "shares": 0
@@ -2046,7 +2135,7 @@
      "kind": "wonder",
      "seconds": 27.1,
      "slot": 4,
-     "age_h": 247,
+     "age_h": 271,
      "yt": 1263,
      "fb": null,
      "total": 1263,
@@ -2065,7 +2154,7 @@
      "kind": "engineering",
      "seconds": 34.3,
      "slot": 4,
-     "age_h": 271,
+     "age_h": 295,
      "yt": 1239,
      "fb": null,
      "total": 1239,
@@ -2084,14 +2173,14 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 55,
-     "yt": 1232,
+     "age_h": 79,
+     "yt": 1234,
      "fb": null,
-     "total": 1232,
+     "total": 1234,
      "likes": 40,
      "comments": 1,
-     "avp": 86.99,
-     "avd": 33,
+     "avp": 86.34,
+     "avd": 32,
      "subs": 3,
      "shares": 1
     },
@@ -2103,7 +2192,7 @@
      "kind": "engineering",
      "seconds": 33.1,
      "slot": 4,
-     "age_h": 295,
+     "age_h": 320,
      "yt": 1197,
      "fb": null,
      "total": 1197,
@@ -2122,7 +2211,7 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 368,
+     "age_h": 392,
      "yt": 942,
      "fb": null,
      "total": 942,
@@ -2134,6 +2223,25 @@
      "shares": 4
     },
     {
+     "video_id": "RM1aVQs1_dE",
+     "title": "Why Taiwan's Engineers Put Green Snack Bags on Servers",
+     "key": "kuai_kuai_culture",
+     "lang": "en",
+     "kind": "folk",
+     "seconds": 32.9,
+     "slot": 4,
+     "age_h": 5,
+     "yt": 862,
+     "fb": null,
+     "total": 862,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "_3IIinVYZ1s",
      "title": "Why New York's Most Famous Resident Was Originally Copper",
      "key": "statue_liberty",
@@ -2141,13 +2249,13 @@
      "kind": "engineering",
      "seconds": 38.2,
      "slot": 5,
-     "age_h": 83,
-     "yt": 811,
+     "age_h": 107,
+     "yt": 813,
      "fb": null,
-     "total": 811,
+     "total": 813,
      "likes": 28,
      "comments": 2,
-     "avp": 63.51,
+     "avp": 64.9,
      "avd": 26,
      "subs": 1,
      "shares": 0
@@ -2160,7 +2268,7 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 392,
+     "age_h": 416,
      "yt": 741,
      "fb": null,
      "total": 741,
@@ -2179,13 +2287,13 @@
      "kind": "history",
      "seconds": 31.4,
      "slot": 4,
-     "age_h": 149,
+     "age_h": 173,
      "yt": 623,
      "fb": null,
      "total": 623,
      "likes": 14,
      "comments": 1,
-     "avp": 79.32,
+     "avp": 79.26,
      "avd": 26,
      "subs": 1,
      "shares": 0
@@ -2198,13 +2306,13 @@
      "kind": "history",
      "seconds": 34.1,
      "slot": 4,
-     "age_h": 175,
+     "age_h": 199,
      "yt": 528,
      "fb": null,
      "total": 528,
      "likes": 8,
      "comments": 1,
-     "avp": 61.199999999999996,
+     "avp": 60.81999999999999,
      "avd": 22,
      "subs": 0,
      "shares": 0
@@ -2217,13 +2325,13 @@
      "kind": "history",
      "seconds": 40.7,
      "slot": 4,
-     "age_h": 126,
+     "age_h": 151,
      "yt": 363,
      "fb": null,
      "total": 363,
      "likes": 11,
      "comments": 1,
-     "avp": 62.61,
+     "avp": 62.66,
      "avd": 26,
      "subs": 2,
      "shares": 0
@@ -2236,16 +2344,35 @@
      "kind": "wonder",
      "seconds": 37.8,
      "slot": 4,
-     "age_h": 31,
-     "yt": 345,
+     "age_h": 55,
+     "yt": 352,
      "fb": null,
-     "total": 345,
+     "total": 352,
      "likes": 19,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 62.71,
+     "avd": 25,
+     "subs": 4,
+     "shares": 0
+    },
+    {
+     "video_id": "S70Dwrf1Wag",
+     "title": "Why Paris Hauled Its Dead Into Old Stone Mines",
+     "key": "paris_catacombs",
+     "lang": "en",
+     "kind": "history",
+     "seconds": 31.4,
+     "slot": 5,
+     "age_h": 61,
+     "yt": 300,
+     "fb": null,
+     "total": 300,
+     "likes": 5,
+     "comments": 1,
+     "avp": 82.36,
+     "avd": 28,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "3HRiGnU6ZcM",
@@ -2255,7 +2382,7 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 416,
+     "age_h": 440,
      "yt": 227,
      "fb": null,
      "total": 227,
@@ -2264,7 +2391,12 @@
      "avp": 66.03,
      "avd": 23,
      "subs": 1,
-     "shares": 0
+     "shares": 0,
+     "retention": {
+      "10%": 1.18,
+      "50%": 0.54,
+      "90%": 0.46
+     }
     },
     {
      "video_id": "slr_sN6Kun8",
@@ -2274,7 +2406,7 @@
      "kind": "engineering",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 319,
+     "age_h": 343,
      "yt": 215,
      "fb": null,
      "total": 215,
@@ -2291,26 +2423,6 @@
      }
     },
     {
-     "video_id": "S70Dwrf1Wag",
-     "title": "Why Paris Hauled Its Dead Into Old Stone Mines",
-     "key": "paris_catacombs",
-     "lang": "en",
-     "kind": "history",
-     "seconds": 31.4,
-     "slot": 5,
-     "age_h": 37,
-     "yt": 174,
-     "fb": null,
-     "total": 174,
-     "likes": 3,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null,
-     "retention": null
-    },
-    {
      "video_id": "2hWMlBpNYJk",
      "title": "How a Slow Harbour Collision Triggered a Historic Blast",
      "key": "halifax_explosion",
@@ -2318,10 +2430,10 @@
      "kind": "history",
      "seconds": 31.4,
      "slot": 5,
-     "age_h": 154,
-     "yt": 126,
+     "age_h": 178,
+     "yt": 127,
      "fb": null,
-     "total": 126,
+     "total": 127,
      "likes": 6,
      "comments": 1,
      "avp": 62.66,
@@ -2335,6 +2447,25 @@
      }
     },
     {
+     "video_id": "hgX0Z3_plS8",
+     "title": "Why a Ming General Opened the Great Wall to Invaders",
+     "key": "great_wall_rice",
+     "lang": "en",
+     "kind": "engineering",
+     "seconds": 35.6,
+     "slot": 5,
+     "age_h": 9,
+     "yt": 115,
+     "fb": null,
+     "total": 115,
+     "likes": 2,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "EeEfMUL7KOU",
      "title": "Why Factory Bosses Told Workers to Lick Radium",
      "key": "radium_girls",
@@ -2342,11 +2473,11 @@
      "kind": "history",
      "seconds": 36.3,
      "slot": 4,
-     "age_h": 7,
-     "yt": 4,
+     "age_h": 31,
+     "yt": 10,
      "fb": null,
-     "total": 4,
-     "likes": 0,
+     "total": 10,
+     "likes": 1,
      "comments": 1,
      "avp": null,
      "avd": null,
@@ -2358,15 +2489,15 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 20426
+      "views": 21258
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 499
+      "views": 535
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 181
+      "views": 191
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
@@ -2378,7 +2509,7 @@
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 6
+      "views": 12
      },
      {
       "insightTrafficSourceType": "EXT_URL",
@@ -2399,12 +2530,12 @@
       "views": 8
      },
      {
-      "insightTrafficSourceDetail": "mount rushmore",
+      "insightTrafficSourceDetail": "evelyn pike gas station",
       "views": 5
      },
      {
-      "insightTrafficSourceDetail": "evelyn pike gas station",
-      "views": 4
+      "insightTrafficSourceDetail": "mount rushmore",
+      "views": 5
      },
      {
       "insightTrafficSourceDetail": "ccr",
@@ -2420,6 +2551,10 @@
      },
      {
       "insightTrafficSourceDetail": "london bridge arizona",
+      "views": 3
+     },
+     {
+      "insightTrafficSourceDetail": "sherlock holmes",
       "views": 3
      },
      {
@@ -2444,10 +2579,6 @@
      },
      {
       "insightTrafficSourceDetail": "ordinary",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "pranki",
       "views": 2
      }
     ],
@@ -2497,12 +2628,12 @@
      {
       "ageGroup": "age13-17",
       "gender": "female",
-      "viewerPercentage": 0.8
+      "viewerPercentage": 0.7
      },
      {
       "ageGroup": "age13-17",
       "gender": "male",
-      "viewerPercentage": 4
+      "viewerPercentage": 3.9
      },
      {
       "ageGroup": "age18-24",
@@ -2512,22 +2643,22 @@
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 3
+      "viewerPercentage": 2.9
      },
      {
       "ageGroup": "age25-34",
       "gender": "female",
-      "viewerPercentage": 2.3
+      "viewerPercentage": 2.4
      },
      {
       "ageGroup": "age25-34",
       "gender": "male",
-      "viewerPercentage": 13
+      "viewerPercentage": 12.9
      },
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 4.4
+      "viewerPercentage": 4.2
      },
      {
       "ageGroup": "age35-44",
@@ -2542,12 +2673,12 @@
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 13.3
+      "viewerPercentage": 13.4
      },
      {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 2.3
+      "viewerPercentage": 2.4
      },
      {
       "ageGroup": "age55-64",
@@ -2557,7 +2688,7 @@
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 3.9
+      "viewerPercentage": 4
      },
      {
       "ageGroup": "age65-",
@@ -2568,19 +2699,19 @@
     "countries": [
      {
       "country": "US",
-      "views": 15988
+      "views": 16565
      },
      {
       "country": "GB",
-      "views": 471
+      "views": 515
      },
      {
       "country": "CA",
-      "views": 395
+      "views": 421
      },
      {
       "country": "AU",
-      "views": 393
+      "views": 414
      },
      {
       "country": "PH",
@@ -2588,7 +2719,7 @@
      },
      {
       "country": "IN",
-      "views": 312
+      "views": 337
      },
      {
       "country": "ID",
@@ -2602,25 +2733,25 @@
    },
    "lang_weights": {},
    "kind_weights": {
-    "engineering": {
-     "w": 0.81,
-     "n": 5,
-     "median": 1197
-    },
-    "folk": {
-     "w": 1.26,
-     "n": 1,
-     "median": 2985
-    },
     "history": {
-     "w": 0.6,
+     "w": 0.64,
      "n": 10,
      "median": 575
     },
     "wonder": {
-     "w": 1.01,
+     "w": 0.95,
+     "n": 6,
+     "median": 1284
+    },
+    "folk": {
+     "w": 1.29,
+     "n": 1,
+     "median": 2997
+    },
+    "engineering": {
+     "w": 0.86,
      "n": 5,
-     "median": 1304
+     "median": 1197
     }
    },
    "proven_titles": {
@@ -2630,7 +2761,7 @@
      "How an Entire Island Evacuated in Three Months"
     ]
    },
-   "median_views": 1197
+   "median_views": 1069
   }
  }
 }
