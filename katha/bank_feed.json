@@ -462,5 +462,69 @@
   "angle": "In 1983, Atari buried thousands of unsold E.T. video game cartridges in a New Mexico landfill.",
   "score": 9,
   "added": "2026-11-10"
+ },
+ {
+  "key": "island_of_california",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Island of California"
+  ],
+  "art": [
+   "Island of California historic map",
+   "Isla de California cartography 1650",
+   "Island of California"
+  ],
+  "angle": "European cartographers erroneously depicted California as a massive island separate from North America for centuries.",
+  "score": 9,
+  "added": "2026-11-10"
+ },
+ {
+  "key": "john_frum",
+  "lang": "en",
+  "kind": "folk",
+  "wiki": [
+   "John Frum"
+  ],
+  "art": [
+   "John Frum cargo cult Tanna",
+   "John Frum movement Vanuatu",
+   "John Frum"
+  ],
+  "angle": "Residents of Tanna island worship an imaginary American World War II soldier named John Frum.",
+  "score": 8,
+  "added": "2026-11-10"
+ },
+ {
+  "key": "banana_equivalent_dose",
+  "lang": "en",
+  "kind": "science",
+  "wiki": [
+   "Banana equivalent dose"
+  ],
+  "art": [
+   "Banana potassium-40 radiation",
+   "Radiation Geiger counter banana",
+   "Banana equivalent dose"
+  ],
+  "angle": "The banana equivalent dose measures radiation exposure using the natural radioactivity found in one banana.",
+  "score": 8,
+  "added": "2026-11-10"
+ },
+ {
+  "key": "davy_crockett_nuclear_device",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "Davy Crockett (nuclear device)"
+  ],
+  "art": [
+   "M28 Davy Crockett Weapon System",
+   "Davy Crockett nuclear recoilless rifle",
+   "Davy Crockett (nuclear device)"
+  ],
+  "angle": "The United States military deployed a handheld recoilless gun capable of launching a small nuclear warhead.",
+  "score": 8,
+  "added": "2026-11-10"
  }
 ]
