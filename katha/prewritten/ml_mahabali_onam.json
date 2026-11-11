@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "മഹാബലി സ്വന്തം തല വാമനന് നൽകിയതിന് പിന്നിൽ",
+  "hook_text": "സർവ്വതും വിട്ടുകൊടുത്ത അസുരരാജാവ്",
+  "kicker": "പുരാണകഥ",
+  "sentences": [
+   "സ്വർഗ്ഗവും ഭൂമിയും ജയിച്ച അസുരരാജാവ് മൂന്നടി മണ്ണിന് മുന്നിൽ സർവ്വതും വിട്ടുകൊടുത്തു.",
+   "പുരാണപ്രകാരം മഹാബലി ഭരിച്ചിരുന്ന കാലത്ത് മനുഷ്യരെല്ലാം സന്തുഷ്ടരായിരുന്നു.",
+   "ഒരിക്കൽ വാമനൻ എന്ന ബ്രാഹ്മണൻ അദ്ദേഹത്തോട് മൂന്നടി മണ്ണ് ദാനം ചോദിച്ചു.",
+   "വന്നത് വിഷ്ണുവെന്ന് ശുക്രാചാര്യർ പറഞ്ഞിട്ടും രാജാവ് പിന്മാറിയില്ല.",
+   "വാമനൻ രണ്ടടി കൊണ്ട് സ്വർഗ്ഗവും ഭൂമിയും അളന്നു.",
+   "മൂന്നാമത്തെ അടിക്കായി മഹാബലി സ്വന്തം ശിരസ്സ് കാട്ടിക്കൊടുത്തു.",
+   "പാതാളത്തിലേക്ക് അയച്ചെങ്കിലും വർഷത്തിലൊരിക്കൽ പ്രജകളെ കാണാൻ വിഷ്ണു വരം നൽകി.",
+   "ആ തിരിച്ചുവരവാണ് കേരളം ഇന്നും തിരുവോണമായി ആഘോഷിക്കുന്നത്.",
+   "തോറ്റിട്ടും പ്രജകൾ ഇത്രമേൽ നെഞ്ചിലേറ്റിയ വേറെയൊരു രാജാവുണ്ടോ?"
+  ],
+  "cta": "അഭിപ്രായം കുറിക്കൂ",
+  "description": "മഹാബലിയുടെ ത്യാഗവും ഓണത്തിന്റെ ഐതിഹ്യവും പുരാണങ്ങളിലൂടെ. വാമനനും മഹാബലിയും തമ്മിലുള്ള കഥ അറിയാം.",
+  "hashtags": [
+   "Mahabali",
+   "Onam",
+   "KeralaMythology",
+   "Vamana",
+   "MalayalamShorts"
+  ],
+  "visuals": [
+   "Vamana Trivikrama sculpture Badami cave temples",
+   "Mahabali offering head to Vamana painting Rajasthan",
+   "Vamana Mahabali miniature painting Bhagavata Purana",
+   "Onam pookkalam flower carpet Kerala celebration"
+  ],
+  "claims_en": [
+   "Mahabali was an asura king who conquered heaven and earth.",
+   "People were happy and prosperous under Mahabali's rule.",
+   "Vamana, a dwarf Brahmin avatar of Vishnu, approached him requesting three steps of land.",
+   "Shukra warned Mahabali of Vamana's true identity, but Mahabali refused to break his word.",
+   "Vamana grew in size and measured heaven and earth in two steps.",
+   "Mahabali offered his own head for the promised third step.",
+   "Mahabali was sent to the netherworld, but Vishnu granted him a boon to visit his subjects once a year.",
+   "This homecoming of Mahabali is celebrated as Onam in Kerala."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-11T10:50+00:00",
+ "for_slot": "2026-11-11 slot 2"
+}

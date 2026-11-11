@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "యాగంటి నంది పెరగడం వల్ల గుడి స్తంభాన్ని ఎందుకు తొలగించారు?",
+  "hook_text": "సైజు పెరిగే వింత నంది",
+  "kicker": "క్షేత్ర కథ",
+  "sentences": [
+   "యాగంటి గుడిలోని నంది విగ్రహం క్రమంగా పెరుగుతూనే ఉందని భక్తులు నమ్ముతారు.",
+   "విజయనగర రాజులు కట్టిన ఉమామహేశ్వర ఆలయంలో ఈ వింత కనిపిస్తుంది.",
+   "పూర్వం భక్తులు ఈ నంది చుట్టూ ప్రదక్షిణలు చేసేవారట.",
+   "విగ్రహం పెరిగిపోవడంతో గుడి సిబ్బంది ఇప్పటికే ఒక స్తంభాన్ని తీసేశారు.",
+   "ఆ విగ్రహం చెక్కిన రాతికి పెరిగే స్వభావం ఉందని పరిశోధనల్లో తేలింది.",
+   "మరోవైపు ఈ గుడి ఆవరణలో ఒక్క కాకి కూడా కనిపించదు.",
+   "తపస్సుకి భంగం కలిగించడంతో అగస్త్య మహర్షి కాకులను శపించారని చెబుతారు.",
+   "కలియుగాంతంలో ఈ రాతి నంది లేచి రంకె వేస్తుందా?"
+  ],
+  "cta": "మీరేమనుకుంటున్నారో చెప్పండి",
+  "description": "యాగంటి క్షేత్రంలోని నంది పెరుగుదల, కాకులు కనిపించకపోవడం వెనుక ఉన్న నమ్మకాలు.\nఈ వింత వెనుక స్థానిక కథనాలు ఏం చెబుతున్నాయి?",
+  "hashtags": [
+   "YagantiTemple",
+   "యాగంటి",
+   "Nandi",
+   "TeluguHistory",
+   "AndhraPradeshTemples"
+  ],
+  "visuals": [
+   "Yaganti temple Nandi bull statue Nandyal",
+   "Yaganti Uma Maheswara temple entrance Kurnool",
+   "Agastya cave steps Yaganti temple",
+   "Pushkarini Yaganti temple water nandi"
+  ],
+  "claims_en": [
+   "Devotees believe the Nandi statue in Yaganti continuously increases in size.",
+   "The temple was constructed by Vijayanagara rulers.",
+   "People used to do pradakshinas around the Nandi statue in the past.",
+   "Temple staff removed a pillar as the size of the Nandi increased.",
+   "Experimentation indicated the rock out of which the statue is carved has an enlarging nature.",
+   "Crows do not enter the temple premises.",
+   "According to legend, Sage Agastya cursed the crows for disturbing his penance.",
+   "Veerabrahmendra Swami prophesied that the stone Nandi will come alive and shout at the end of Kali Yuga."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-11T10:53+00:00",
+ "for_slot": "2026-11-12 slot 3"
+}

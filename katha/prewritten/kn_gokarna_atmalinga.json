@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "ರಾವಣ ತಂದ ಶಿವನ ಆತ್ಮಲಿಂಗ ಲಂಕೆಯ ಬದಲು ಗೋಕರ್ಣ ತಲುಪಿದ್ದು ಹೇಗೆ?",
+  "hook_text": "ಲಂಕೆ ತಲುಪದ ರಾವಣನ ಆತ್ಮಲಿಂಗ",
+  "kicker": "ಪೌರಾಣಿಕ ಕಥೆ",
+  "sentences": [
+   "ರಾವಣ ತಂದ ಶಿವನ ಪರಮ ಶಕ್ತಿಯುತ ಆತ್ಮಲಿಂಗ ಲಂಕೆಗೆ ತಲುಪಲೇ ಇಲ್ಲ.",
+   "ಪುರಾಣಗಳ ಪ್ರಕಾರ, ಕೈಲಾಸದಿಂದ ತಂದ ಈ ಲಿಂಗವನ್ನು ನೆಲದ ಮೇಲೆ ಇಟ್ಟರೆ ಅಲ್ಲೇ ಸ್ಥಿರವಾಗುತ್ತಿತ್ತು.",
+   "ರಾವಣ ಸಂಧ್ಯಾವಂದನೆಗೆಂದು ಒಬ್ಬ ಬಾಲಕನ ಕೈಗೆ ಲಿಂಗವನ್ನು ನೀಡಿದ.",
+   "ಆದರೆ ಆ ಬಾಲಕನ ವೇಷದಲ್ಲಿದ್ದದ್ದು ಸ್ವತಃ ಗಣೇಶ.",
+   "ಮೂರು ಬಾರಿ ಕೂಗಿ ಉತ್ತರವಿಲ್ಲದಿದ್ದಾಗ, ಗಣೇಶ ಅದನ್ನು ನೆಲದ ಮೇಲೆ ಇಟ್ಟ.",
+   "ರಾವಣ ಕೋಪದಿಂದ ಎಳೆದಾಗ ಲಿಂಗ ಹಸುವಿನ ಕಿವಿಯ ಆಕಾರ ಪಡೆಯಿತು.",
+   "ಅದೇ ಗೋಕರ್ಣದ ಇಂದಿನ ಪವಿತ್ರ ಮಹಾಬಲೇಶ್ವರ ದೇವಾಲಯ.",
+   "ಗೋಕರ್ಣದ ಈ ಆತ್ಮಲಿಂಗವನ್ನು ನೀವು ನೋಡಿದ್ದೀರಾ?"
+  ],
+  "cta": "ಕಮೆಂಟ್ ಮಾಡಿ ತಿಳಿಸಿ",
+  "description": "ರಾವಣ ಲಂಕೆಗೆ ಕೊಂಡೊಯ್ಯುತ್ತಿದ್ದ ಶಿವನ ಆತ್ಮಲಿಂಗ ಗೋಕರ್ಣದಲ್ಲೇ ಉಳಿದ ರೋಚಕ ಕಥೆ ಇಲ್ಲಿದೆ.",
+  "hashtags": [
+   "Gokarna",
+   "Mahabaleshwar",
+   "KannadaHistory",
+   "ಗೋಕರ್ಣ",
+   "KannadaShorts"
+  ],
+  "visuals": [
+   "Mahabaleshwar Temple Gokarna exterior view",
+   "Gokarna beach landscape Karnataka",
+   "Ravana Atmalinga Ganesha painting",
+   "Maha Ganapati Temple Gokarna idol"
+  ],
+  "claims_en": [
+   "According to legend, Ravana obtained the Atmalinga from Shiva at Mount Kailash to take to Lanka.",
+   "The strict condition was that the Atmalinga would permanently root wherever it was first placed on the ground.",
+   "Ravana handed the lingam to a young cowherd to perform his evening rituals.",
+   "The boy was Ganesha in disguise.",
+   "Ganesha called Ravana's name three times and, receiving no response, placed the Atmalinga on the ground.",
+   "When Ravana attempted to pull it out, the Lingam took the shape of a cow's ear (Gokarna).",
+   "The lingam remained at Gokarna and is worshipped as Mahabaleshwar."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-11T10:51+00:00",
+ "for_slot": "2026-11-12 slot 0"
+}
