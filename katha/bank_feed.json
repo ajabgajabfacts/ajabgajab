@@ -590,5 +590,69 @@
   "angle": "The music for the United States national anthem originated as an 18th-century British gentlemen's drinking club song.",
   "score": 8,
   "added": "2026-11-12"
+ },
+ {
+  "key": "jack_churchill",
+  "lang": "en",
+  "kind": "people",
+  "wiki": [
+   "Jack Churchill"
+  ],
+  "art": [
+   "Jack Churchill longbow",
+   "Mad Jack Churchill",
+   "Jack Churchill"
+  ],
+  "angle": "A British Army officer fought throughout the Second World War carrying a broadsword, longbow, and bagpipes.",
+  "score": 10,
+  "added": "2026-11-12"
+ },
+ {
+  "key": "ecce_homo_garc_a_mart_nez_and_gim_nez",
+  "lang": "en",
+  "kind": "folk",
+  "wiki": [
+   "Ecce Homo (García Martínez and Giménez)"
+  ],
+  "art": [
+   "Ecce Homo Borja",
+   "Santuario de Misericordia Borja",
+   "Ecce Homo (García Martínez and Giménez)"
+  ],
+  "angle": "An 81-year-old amateur artist's botched fresco restoration in a Spanish church became an international sensation.",
+  "score": 9,
+  "added": "2026-11-12"
+ },
+ {
+  "key": "harold_davidson",
+  "lang": "en",
+  "kind": "people",
+  "wiki": [
+   "Harold Davidson"
+  ],
+  "art": [
+   "Harold Davidson Stiffkey",
+   "Harold Davidson lion",
+   "Harold Davidson"
+  ],
+  "angle": "A defrocked British priest raised campaign funds by performing in sideshows until a lion fatally attacked him.",
+  "score": 9,
+  "added": "2026-11-12"
+ },
+ {
+  "key": "rocket_mail",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "Rocket mail"
+  ],
+  "art": [
+   "Rocket mail launch",
+   "Rocket mail stamp",
+   "Rocket mail"
+  ],
+  "angle": "Postal services in several countries experimented with firing mail inside rockets across rivers and borders.",
+  "score": 9,
+  "added": "2026-11-12"
  }
 ]
