@@ -1,0 +1,327 @@
+{
+ "lang": "hi",
+ "date": "2026-11-15",
+ "collection": "marvels",
+ "by": "claude-routine",
+ "written": "2026-11-12T18:52Z",
+ "chapters": [
+  {
+   "key": "zero",
+   "script": {
+    "title": "माइनस गुणा माइनस प्लस, यह नियम ब्रह्मगुप्त ने 628 में लिखा",
+    "hook_text": "628 में लिखा गया नियम",
+    "kicker": "गणित",
+    "sentences": [
+     "माइनस गुणा माइनस बराबर प्लस, यह नियम 628 में लिखा गया।",
+     "लिखने वाले थे ब्रह्मगुप्त, जो 598 में आज के राजस्थान के भीनमाल में पैदा हुए।",
+     "30 साल की उम्र में उन्होंने ब्राह्मस्फुटसिद्धांत नाम की किताब पूरी की।",
+     "बेबीलोन में शून्य बस अंकों के बीच खाली जगह भरने का निशान था।",
+     "टॉलेमी और रोमन लोगों के लिए वह बस कुछ न होने का निशान था।",
+     "ब्रह्मगुप्त ने शून्य को अपने आप में एक संख्या माना, और उसके साथ हिसाब के नियम लिखे।",
+     "उन्होंने लिखा, दो माइनस जोड़ो तो माइनस, बराबर के प्लस-माइनस मिलाओ तो शून्य।",
+     "प्लस और माइनस का गुणा माइनस, और दो माइनस का गुणा प्लस।",
+     "एक नियम पर आज का गणित उनसे सहमत नहीं है।",
+     "उनके हिसाब से शून्य को शून्य से भाग दो तो शून्य, जबकि आज शून्य से भाग देना तय ही नहीं किया जाता।",
+     "किसी और संख्या को शून्य से भाग देने पर उन्होंने कोई पक्का जवाब नहीं दिया।",
+     "बाद में उनकी किताबें अरबी में अनुवाद हुईं, और वहीं से उनके हिसाब के तरीके दुनिया भर में फैले।",
+     "कोई बच्चा कॉपी में दो माइनस काटकर प्लस लिखता है, तो भीनमाल का नियम दोहराता है।"
+    ],
+    "visuals": [
+     "Brahmagupta",
+     "Brahmasphutasiddhanta manuscript",
+     "Bhinmal Rajasthan"
+    ],
+    "claims_en": [
+     "Brahmagupta was born in 598 CE in Bhillamala, modern Bhinmal in Rajasthan.",
+     "In 628, at the age of 30, he composed the Brahmasphutasiddhanta.",
+     "The Babylonians used zero as a placeholder digit; Ptolemy and the Romans used it as a symbol for lack of quantity.",
+     "The Brahmasphutasiddhanta is the earliest known text to treat zero as a number in its own right and gives rules for arithmetic with zero and negative numbers.",
+     "Brahmagupta: the sum of two negatives is negative; of a positive and a negative that are equal, zero.",
+     "Brahmagupta: the product of a negative and a positive is negative, of two negatives positive.",
+     "Brahmagupta stated 0/0 = 0; modern mathematics leaves division by zero undefined.",
+     "On a/0 with a not zero he did not commit himself.",
+     "His texts were translated into Arabic, and through these texts the decimal system and his arithmetic algorithms spread throughout the world."
+    ]
+   }
+  },
+  {
+   "key": "bakhshali",
+   "script": {
+    "title": "खेत से निकली गणित की किताब, जिसकी उम्र पर अटके वैज्ञानिक",
+    "hook_text": "एक किताब, तीन सदियां",
+    "kicker": "पहेली",
+    "sentences": [
+     "एक ही किताब के तीन पन्ने, तीन अलग सदियों के निकले।",
+     "1881 में बख़शाली गांव के एक किसान ने इसे खेत से खोदकर निकाला।",
+     "गांव मर्दान के पास है, आज के पाकिस्तान में।",
+     "यह भोजपत्र पर लिखी गणित की किताब है, जिसके 70 पन्ने बचे हैं।",
+     "उनका सही क्रम कोई नहीं जानता।",
+     "इसमें नियम हैं, उदाहरण हैं, और आख़िर में जांच कि जवाब सही है या नहीं।",
+     "इसमें शून्य के लिए एक बिंदु लगा है।",
+     "सितंबर 2024 तक इसे भारत में शून्य के चिह्न का सबसे पुराना इस्तेमाल माना जाता था।",
+     "यह ऑक्सफ़र्ड की बोडलियन लाइब्रेरी में रखी है।",
+     "2017 में ऑक्सफ़र्ड ने इसके तीन पन्नों की कार्बन डेटिंग की।",
+     "एक पन्ना 224 से 383 ईस्वी का निकला, दूसरा 680 से 779 का, और तीसरा 885 से 993 का।",
+     "अलग सदियों के पन्ने एक साथ ज़मीन में कैसे दबे, यह साफ़ नहीं था।",
+     "फिर अक्टूबर 2024 में ऑक्सफ़र्ड ने नतीजे बदलकर इसे 799 से 1102 ईस्वी के बीच का बताया।",
+     "ये पन्ने सवाल, जवाब और जांच, तीनों सिखाते हैं, बस अपनी उम्र का हिसाब आसानी से नहीं देते।"
+    ],
+    "visuals": [
+     "Bakhshali manuscript",
+     "Bakhshali manuscript zero dot",
+     "Bodleian Library Oxford"
+    ],
+    "claims_en": [
+     "The Bakhshali manuscript was found in 1881 in a field in the village of Bakhshali, unearthed by a peasant.",
+     "Bakhshali is near Mardan, in present-day Khyber Pakhtunkhwa, Pakistan.",
+     "It is a mathematical text written on birch bark; 70 leaves survive and their intended order is not known.",
+     "Each example states a problem, the solution, and a verification that it has been solved.",
+     "It uses a dot as a placeholder for zero.",
+     "Until September 2024 it was regarded as the earliest known Indian use of a zero symbol.",
+     "It is kept at the Bodleian Library, University of Oxford.",
+     "In 2017 samples from 3 folios were radiocarbon dated: 224-383 CE, 680-779 CE and 885-993 CE.",
+     "It is unclear how folios from different centuries came to be collected and buried.",
+     "On 14 October 2024 Oxford revised its findings and dated the manuscript to 799-1102 CE."
+    ]
+   }
+  },
+  {
+   "key": "sushruta",
+   "script": {
+    "title": "आचार्य गिनते थे 360 हड्डियां, सुश्रुत संहिता ने गिनीं 300",
+    "hook_text": "360 नहीं, सिर्फ़ 300 हड्डियां",
+    "kicker": "प्राचीन ज्ञान",
+    "sentences": [
+     "आयुर्वेद के आचार्य 360 हड्डियां गिनते थे, यह ग्रंथ सिर्फ़ 300।",
+     "यह है सुश्रुत संहिता, संस्कृत में चिकित्सा का प्राचीन ग्रंथ।",
+     "चरक संहिता के साथ यह आयुर्वेद की नींव मानी जाती है।",
+     "इसकी सबसे पुरानी बची पांडुलिपि ताड़ के पत्तों पर है, काठमांडू की कैसर लाइब्रेरी में।",
+     "लिखने वाले ने उसे रविवार, 13 अप्रैल 878 को पूरा किया था।",
+     "ग्रंथ में 186 अध्याय हैं और 1120 बीमारियों का ब्योरा।",
+     "चरक संहिता सर्जरी का बस ज़िक्र करती है, यह ग्रंथ उसके औज़ार और तरीके विस्तार से बताता है।",
+     "गाल की त्वचा से कटी हुई नाक दोबारा बनाने का तरीका भी इसमें लिखा है।",
+     "ग्रंथ कहता है, आचार्य 360 हड्डियां बताते हैं, पर शल्य-शास्त्र की किताबें सिर्फ़ 300 जानती हैं।",
+     "हिसाब भी देता है, हाथ-पैरों में 120, कूल्हे, बगलों, पीठ, पेट और छाती में 117, और गर्दन से ऊपर 63।",
+     "और यह भी समझाता है कि ये गिनतियां जांची कैसे गईं।",
+     "फ़र्क की एक वजह यह है कि चरक संहिता दांतों के 32 खांचे भी गिनती है।",
+     "कार्टिलेज को कब हड्डी मानें, इस पर भी दोनों अलग थे।",
+     "एक ही शरीर को गिनकर दो पुरानी परंपराएं अलग जवाब तक पहुंचीं, और दोनों ने अपना हिसाब लिखकर छोड़ दिया।"
+    ],
+    "visuals": [
+     "Sushruta Samhita manuscript",
+     "Sushruta statue",
+     "Kaiser Library Kathmandu"
+    ],
+    "claims_en": [
+     "The Sushruta Samhita says the professors of Ayurveda speak of 360 bones, but books on surgical science know of only 300.",
+     "The Sushruta Samhita is an ancient Sanskrit text on medicine.",
+     "It is one of the foundational texts of Ayurveda, alongside the Charaka Samhita.",
+     "The oldest surviving manuscript is a palm-leaf manuscript at the Kaiser Library, Kathmandu, Nepal.",
+     "That manuscript was completed by the scribe on Sunday, April 13, 878 CE.",
+     "The text has 186 chapters and describes 1,120 illnesses.",
+     "The Charaka Samhita mentions surgery only briefly; the Sushruta Samhita gives detailed descriptions of surgery, instruments and surgical training.",
+     "It describes reconstruction of a nose that has been cut off using a flap of skin from the cheek.",
+     "It lists 120 bones in the extremities, 117 in the pelvic area, sides, back, abdomen and breast, and 63 in the neck and upwards.",
+     "The text explains how these subtotals were empirically verified.",
+     "The difference in counts is partly because the Charaka Samhita includes 32 teeth sockets, and the schools differed on when to count a cartilage as bone."
+    ]
+   }
+  },
+  {
+   "key": "raman_effect",
+   "script": {
+    "title": "1924 में रमन से पूछा आगे क्या, जवाब मिला 'नोबेल'",
+    "hook_text": "आगे क्या, नोबेल और क्या",
+    "kicker": "सच्ची कहानी",
+    "sentences": [
+     "1924 में योजना पूछी गई, रमन बोले, नोबेल पुरस्कार, और क्या।",
+     "सवाल आशुतोष मुखर्जी का था, मौका था सी. वी. रमन का रॉयल सोसाइटी का फ़ेलो चुना जाना।",
+     "रमन कहते थे, उनके जन्म के वक्त पिता की तनख्वाह दस रुपये महीना थी।",
+     "उनके टीचर चाहते थे कि वे इंग्लैंड जाकर रिसर्च करें।",
+     "पर डॉक्टरी जांच में कहा गया, वहां का कड़ा मौसम वे झेल नहीं पाएंगे।",
+     "तो 19 की उम्र में वे कलकत्ता में सरकारी अफ़सर बन गए।",
+     "पद था असिस्टेंट अकाउंटेंट जनरल।",
+     "खाली वक्त में वे कलकत्ता की एक विज्ञान संस्था में प्रयोग करते, कई बार बड़े बेवक्त घंटों में।",
+     "1917 में उन्होंने सरकारी नौकरी छोड़ी और प्रोफ़ेसर बन गए, जबकि वहां तनख्वाह करीब आधी थी।",
+     "कुछ लोगों ने विरोध किया, क्योंकि उनके पास न पीएचडी थी, न विदेश की पढ़ाई।",
+     "1928 में उन्होंने और छात्र के. एस. कृष्णन ने पाया कि पारदर्शी चीज़ से गुज़रकर मुड़ी रोशनी की तरंग-लंबाई बदल जाती है।",
+     "इसे आज रमन प्रभाव कहते हैं।",
+     "1930 में इसी पर उन्हें भौतिकी का नोबेल मिला, और वे यह पाने वाले पहले एशियाई बने।",
+     "दस रुपये महीने वाले घर का वह लड़का, बिना विदेशी डिग्री, अपनी कही बात छह साल में सच कर गया।"
+    ],
+    "visuals": [
+     "C. V. Raman",
+     "Raman Research Institute Bangalore",
+     "Indian Association for the Cultivation of Science Kolkata"
+    ],
+    "claims_en": [
+     "When elected Fellow of the Royal Society in 1924, Ashutosh Mukherjee asked Raman about his future plans; he replied 'The Nobel Prize of course'.",
+     "Raman recalled that at his birth his father was earning ten rupees per month.",
+     "A medical inspection said he would not withstand the harsh weather of England.",
+     "His physics teacher insisted he continue research in England.",
+     "At 19 he joined the Indian Finance Service in Calcutta as Assistant Accountant General.",
+     "He did research at IACS in his own time, even at very unusual hours.",
+     "In 1917 he became a full professor, resigning as a civil servant; his professor's salary was roughly half.",
+     "His appointment was objected to by some Senate members as he had no PhD and had never studied abroad.",
+     "In 1928, with his student K. S. Krishnan, he discovered that light traversing a transparent material changes its wavelength when deflected: the Raman effect.",
+     "In 1930 he received the Nobel Prize in Physics and became the first Asian to receive a Nobel Prize in Physics."
+    ]
+   }
+  },
+  {
+   "key": "aryabhata_sat",
+   "script": {
+    "title": "भारत का पहला उपग्रह, जो भारत से नहीं उड़ा",
+    "hook_text": "पहला उपग्रह, विदेश से उड़ा",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "भारत का पहला उपग्रह भारत की ज़मीन से नहीं उड़ा था।",
+     "उसका नाम था आर्यभट, छठी सदी के खगोलशास्त्री और गणितज्ञ आर्यभट के नाम पर।",
+     "इसे बनाया इसरो ने था।",
+     "पर 19 अप्रैल 1975 को यह सोवियत संघ के कपुस्तिन यार से कॉसमॉस-3एम रॉकेट पर रवाना हुआ।",
+     "इसके पीछे 1972 का एक समझौता था।",
+     "सोवियत संघ भारत के उपग्रह छोड़ेगा, और बदले में भारत के बंदरगाह उसके ट्रैकिंग जहाज़ों के काम आएंगे।",
+     "उपग्रह की शक्ल भी अनोखी थी, 26 पहलुओं वाला ढांचा, 1.4 मीटर चौड़ा।",
+     "यह धरती का एक चक्कर करीब 96 मिनट में पूरा करता था।",
+     "इसमें एक्स-रे खगोल विज्ञान, वायुमंडल और सूरज से जुड़े प्रयोग होने थे।",
+     "पर कक्षा में पहुंचते ही यह लुढ़कने लगा, और एक यंत्र की बिजली चली गई।",
+     "इंजीनियरों ने 45वें चक्कर तक इसे संभाल लिया।",
+     "फिर बिजली की गड़बड़ी से चार दिन और 60 चक्करों के बाद प्रयोग रुक गए।",
+     "पांच दिन के काम के बाद इसके सारे सिग्नल आने बंद हो गए।",
+     "पर इसका मुख्य सिस्टम मार्च 1981 तक चालू रहा, और 10 फ़रवरी 1992 को यह वायुमंडल में लौटा।",
+     "जो उपग्रह सिर्फ़ पांच दिन बोला, वह करीब सत्रह साल तक धरती के ऊपर घूमता रहा।"
+    ],
+    "visuals": [
+     "Aryabhata satellite",
+     "Aryabhata satellite two rupee note",
+     "Kosmos-3M rocket"
+    ],
+    "claims_en": [
+     "Aryabhata was India's first satellite, named after the 6th-century astronomer and mathematician Aryabhata.",
+     "It was built by ISRO.",
+     "It was launched on 19 April 1975 from Kapustin Yar in the Soviet Union on a Kosmos-3M rocket.",
+     "The launch was based on a 1972 agreement: the USSR launched Indian satellites in exchange for using Indian ports for tracking ships.",
+     "It was a 26-sided polyhedron 1.4 metres in diameter.",
+     "Its orbit took 96.46 minutes.",
+     "It was built for experiments in X-ray astronomy, aeronomics and solar physics.",
+     "After launch it tumbled and the aeronomy instrument's power supply failed.",
+     "Engineers stabilised it by the 45th orbit.",
+     "A power failure halted experiments after four days and 60 orbits; all signals were lost after five days of operation.",
+     "The spacecraft mainframe remained active till March 1981.",
+     "It re-entered Earth's atmosphere on 10 February 1992."
+    ]
+   }
+  },
+  {
+   "key": "mangalyaan",
+   "script": {
+    "title": "छोटे रॉकेट से मंगल तक, धरती के चक्कर लगाकर पकड़ी राह",
+    "hook_text": "रॉकेट में दम कम था",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "मंगलयान का रॉकेट उसे सीधे मंगल भेजने लायक ताकतवर नहीं था।",
+     "इसरो पहले इसे जीएसएलवी रॉकेट से भेजना चाहता था।",
+     "पर 2010 में जीएसएलवी दो बार नाकाम हुआ था, और उसके क्रायोजेनिक इंजन में दिक्कतें बाकी थीं।",
+     "नए रॉकेटों का इंतज़ार करते, तो मिशन कम से कम तीन साल टल जाता।",
+     "सो चुना गया कम ताकत वाला पीएसएलवी।",
+     "5 नवंबर 2013 को यान श्रीहरिकोटा से उड़ा, पर मंगल की तरफ़ नहीं, धरती के लंबे अंडाकार चक्कर में।",
+     "करीब 1337 किलो के इस यान में 852 किलो तो ईंधन था।",
+     "करीब एक महीना यह धरती के ही चक्कर काटता रहा।",
+     "हर बार धरती के सबसे पास आने पर यह अपना इंजन चलाता, और इस तरह सात बार इसका चक्कर बड़ा हुआ।",
+     "30 नवंबर 2013 को यह धरती को छोड़कर मंगल की राह पर निकल पड़ा।",
+     "298 दिन के सफ़र के बाद, 24 सितंबर 2014 को, यह मंगल की कक्षा में पहुंच गया।",
+     "भारत मंगल की कक्षा तक पहुंचने वाला पहला एशियाई देश बना, वह भी पहली कोशिश में।",
+     "खर्च करीब 450 करोड़ रुपये, अब तक का सबसे सस्ता मंगल मिशन।",
+     "रॉकेट में जो दम कम था, वह यान ने धरती के चक्कर लगा-लगाकर खुद जुटा लिया।"
+    ],
+    "visuals": [
+     "Mars Orbiter Mission spacecraft",
+     "PSLV-C25 launch Sriharikota",
+     "Mars Orbiter Mission Mars image"
+    ],
+    "claims_en": [
+     "The PSLV was not powerful enough to place MOM on a direct-to-Mars trajectory.",
+     "ISRO originally intended to launch MOM with the GSLV, which failed twice in 2010 and still had issues with its cryogenic engine.",
+     "Waiting for new rockets would have delayed MOM by at least three years, so ISRO switched to the less powerful PSLV.",
+     "MOM was launched on 5 November 2013 from Sriharikota into a highly elliptical Earth orbit.",
+     "Lift-off mass was 1,337.2 kg including 852 kg of propellant.",
+     "It spent about a month in Earth orbit, using its own thrusters over multiple perigee burns; seven apogee-raising manoeuvres.",
+     "Trans-Mars injection was on 30 November 2013.",
+     "After a 298-day transit it entered Mars orbit on 24 September 2014.",
+     "India became the first Asian nation to reach Martian orbit; ISRO succeeded on its maiden attempt.",
+     "Total cost was about Rs 450 crore, the least expensive Mars mission to date."
+    ]
+   }
+  },
+  {
+   "key": "chandrayaan3",
+   "script": {
+    "title": "चांद पर लैंडर छोड़कर लौट आया चंद्रयान-3 का यान",
+    "hook_text": "चांद से लौट आया यान",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "चंद्रयान-3 का एक हिस्सा चांद से लौट आया।",
+     "मिशन के तीन हिस्से थे, प्रोपल्शन मॉड्यूल, विक्रम लैंडर और प्रज्ञान रोवर।",
+     "मॉड्यूल का काम था बाकी दोनों को चांद से 100 किलोमीटर ऊपर की कक्षा तक ले जाना।",
+     "23 अगस्त 2023 को विक्रम चांद के दक्षिणी ध्रुव के पास धीरे से उतरा।",
+     "ऐसा करने वाला यह इतिहास का पहला यान था।",
+     "चांद की रात की माइनस 120 डिग्री वाली ठंड के लिए लैंडर बना ही नहीं था, सो वह फिर जागा नहीं।",
+     "पर ऊपर कक्षा में मॉड्यूल चालू था।",
+     "योजना थी कि उसका यंत्र शेप तीन महीने वहीं से धरती को परखेगा।",
+     "एक महीने के काम के बाद भी उसमें 100 किलो से ज़्यादा ईंधन बचा था।",
+     "तय हुआ कि इसी ईंधन से उसे धरती की ओर मोड़ा जाए, ताकि नमूने लाने वाले आगे के मिशनों के तरीके परखे जा सकें।",
+     "अक्टूबर 2023 में उसका चक्कर बड़ा किया गया, फिर वह चार बार चांद के पास से गुज़रा।",
+     "अब वह करीब 13 दिन में धरती का एक चक्कर लगाता है, और धरती सामने हो तो शेप उसे देखता है।",
+     "लैंडर को चांद पर छोड़ आया यह डिब्बा, बचे ईंधन के सहारे घर के पास लौट आया।"
+    ],
+    "visuals": [
+     "Chandrayaan-3 propulsion module",
+     "Vikram lander Chandrayaan-3",
+     "LVM3 M4 launch Chandrayaan-3"
+    ],
+    "claims_en": [
+     "It comprised a propulsion module, the Vikram lander and the Pragyan rover.",
+     "The propulsion module carried the lander and rover to a 100 km lunar orbit.",
+     "Vikram touched down near the lunar south pole on 23 August 2023, the first soft landing near the lunar south pole in history.",
+     "Night temperatures on the Moon reach -120 C, which the on-board electronics were not designed to withstand.",
+     "The propulsion module remained operational in orbit.",
+     "The lander missed its wake-up calls after the lunar night.",
+     "The plan was to operate the SHAPE payload for three months in lunar orbit.",
+     "Over 100 kg of fuel was left in the propulsion module after one month of operation.",
+     "It was decided to use this fuel to bring it to Earth orbit, to determine strategies for future sample return missions.",
+     "Its apogee was raised on 9 October 2023, followed by four lunar flybys.",
+     "It now orbits Earth with a period of nearly 13 days; SHAPE operates whenever Earth is in its field of view.",
+     "The propulsion module was a box-like structure."
+    ]
+   }
+  }
+ ],
+ "frame": {
+  "title": "माइनस-माइनस प्लस से चांद से लौटे यान तक, भारत के 7 कमाल",
+  "intro": [
+   "खेत से निकली एक किताब, जिसकी उम्र पर वैज्ञानिक अटक गए।",
+   "एक वैज्ञानिक से पूछा गया कि आगे क्या, और जवाब आया, नोबेल।",
+   "और एक यान, जो चांद पर लैंडर छोड़कर लौट आया।",
+   "आज ऐसी सात कहानियां, माइनस गुणा माइनस के नियम से लेकर मंगल के सफ़र तक।"
+  ],
+  "outro": [
+   "इन सात में से किस कहानी ने आपको सबसे ज़्यादा हैरान किया, कमेंट में बताइए।",
+   "ऐसी और सच्ची कहानियों के लिए चैनल को सब्सक्राइब कर लीजिए।"
+  ],
+  "thumb_text": "भारत के 7 कमाल",
+  "kicker": "भारत के कमाल",
+  "chapter_word": "अध्याय",
+  "intro_label": "परिचय",
+  "outro_label": "समापन",
+  "subscribe": "सब्सक्राइब करें",
+  "description": "ब्रह्मगुप्त के माइनस-प्लस के नियम, खेत से निकली बख़शाली पांडुलिपि और सुश्रुत संहिता की 300 हड्डियां।\nनोबेल का दावा करने वाले रमन, विदेश से उड़ा आर्यभट और छोटे रॉकेट से मंगल तक पहुंचा मंगलयान।\nऔर आख़िर में चंद्रयान-3 का वह हिस्सा, जो चांद से धरती के पास लौट आया।",
+  "hashtags": [
+   "भारत",
+   "विज्ञान",
+   "इसरो",
+   "AjabGajabFacts",
+   "IndianScience",
+   "Chandrayaan3"
+  ]
+ }
+}
