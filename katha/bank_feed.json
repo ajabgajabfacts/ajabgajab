@@ -526,5 +526,69 @@
   "angle": "The United States military deployed a handheld recoilless gun capable of launching a small nuclear warhead.",
   "score": 8,
   "added": "2026-11-10"
+ },
+ {
+  "key": "heart_attack_grill",
+  "lang": "en",
+  "kind": "food",
+  "wiki": [
+   "Heart Attack Grill"
+  ],
+  "art": [
+   "Heart Attack Grill Las Vegas",
+   "Heart Attack Grill burger",
+   "Heart Attack Grill"
+  ],
+  "angle": "A Las Vegas restaurant served extreme high-calorie meals where waitresses dressed as nurses and patrons wore hospital gowns.",
+  "score": 8,
+  "added": "2026-11-12"
+ },
+ {
+  "key": "abul_abbas",
+  "lang": "en",
+  "kind": "animal",
+  "wiki": [
+   "Abul-Abbas"
+  ],
+  "art": [
+   "Abul-Abbas elephant Charlemagne",
+   "Charlemagne portrait",
+   "Abul-Abbas"
+  ],
+  "angle": "In 802 AD, Abbasid Caliph Harun al-Rashid gifted a white Asian elephant named Abul-Abbas to Charlemagne.",
+  "score": 8,
+  "added": "2026-11-12"
+ },
+ {
+  "key": "wicked_bible",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Wicked Bible"
+  ],
+  "art": [
+   "Wicked Bible 1631 text",
+   "King James Bible page",
+   "Wicked Bible"
+  ],
+  "angle": "A 1631 printing error in a King James Bible accidentally omitted 'not' from 'Thou shalt not commit adultery'.",
+  "score": 8,
+  "added": "2026-11-12"
+ },
+ {
+  "key": "the_anacreontic_song",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "The Anacreontic Song"
+  ],
+  "art": [
+   "The Anacreontic Song sheet music",
+   "Anacreontic Society portrait",
+   "The Anacreontic Song"
+  ],
+  "angle": "The music for the United States national anthem originated as an 18th-century British gentlemen's drinking club song.",
+  "score": 8,
+  "added": "2026-11-12"
  }
 ]
