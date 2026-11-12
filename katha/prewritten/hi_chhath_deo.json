@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "देव सूर्य मंदिर डूबते सूरज की तरफ क्यों देखता है?",
+  "hook_text": "उगते सूरज से उल्टा मंदिर",
+  "kicker": "सच्ची कहानी",
+  "sentences": [
+   "बिहार का एक सूर्य मंदिर उगते सूरज को नहीं देखता।",
+   "ये औरंगाबाद के देव कस्बे का देव सूर्य मंदिर है।",
+   "ज़्यादातर सूर्य मंदिरों का मुंह उगते सूरज की ओर होता है।",
+   "लोक मान्यता है कि इसे भगवान विश्वकर्मा ने एक ही रात में बना दिया था।",
+   "छठ में व्रती खरना के दिन पानी की एक बूंद तक नहीं पीते।",
+   "तीसरे दिन व्रती नदी या तालाब किनारे डूबते सूरज को अर्घ्य देते हैं।",
+   "देव का मंदिर ठीक उसी पश्चिम दिशा की ओर मुंह करके खड़ा है।",
+   "छठ पर लाखों श्रद्धालु यहां सूर्य कुंड में नहाकर अर्घ्य देते हैं।",
+   "बाकी सूर्य मंदिर सुबह का इंतज़ार करते हैं, ये शाम का।"
+  ],
+  "cta": "कमेंट में बताइए",
+  "description": "बिहार का देव सूर्य मंदिर पश्चिम की ओर, डूबते सूरज की तरफ देखता है।\nछठ पर लाखों श्रद्धालु यहां अर्घ्य देने आते हैं।",
+  "hashtags": [
+   "छठपूजा",
+   "देवसूर्यमंदिर",
+   "Chhath",
+   "Bihar",
+   "SunTemple"
+  ],
+  "visuals": [
+   "Deo Sun Temple Aurangabad Bihar",
+   "Chhath Puja ghat setting sun arghya",
+   "Chhath Puja Patna river devotees"
+  ],
+  "claims_en": [
+   "Deo Sun Temple is a Hindu temple in Bihar dedicated to Surya",
+   "It is located in Deo Town, Aurangabad",
+   "Most sun temples face the rising sun",
+   "According to oral tradition, Lord Vishwakarma built the Deo Sun Temple in one night",
+   "On Kharna (day 2 of Chhath) devotees do not drink even a single drop of water",
+   "On day 3 the household accompanies the devotee to a riverbank or pond to offer arghya to the setting sun",
+   "The temple faces west, the setting sun, not the usual rising sun",
+   "Lakhs of devotees visit the temple for Chhath to bathe in the Surya Kund and offer arghya"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-12T19:48Z",
+ "for_slot": "2026-11-13 slot 2"
+}

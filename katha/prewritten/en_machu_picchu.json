@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "The Man Who Signed Machu Picchu Nine Years Before Bingham",
+  "hook_text": "Signed in charcoal, 1902",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "A man signed Machu Picchu in charcoal in 1902.",
+   "The Inca built it around 1450, and the jungle later grew over it.",
+   "Peruvian explorer Agustín Lizárraga cleared undergrowth for hours to reach the stone buildings.",
+   "He wrote \"A. Lizárraga 1902\" on the Temple of the Three Windows.",
+   "In 1911, a villager led American Hiram Bingham to the same ruins.",
+   "Bingham saw the name and wrote in his pocket journal that Lizárraga was the discoverer.",
+   "Later he played that down, and in his 1952 book he claimed he found it himself.",
+   "His own journal had already named the discoverer."
+  ],
+  "cta": "Comment below",
+  "description": "Machu Picchu had a name in charcoal on its wall before Hiram Bingham arrived.\nHis own journal said who got there first.",
+  "hashtags": [
+   "MachuPicchu",
+   "Peru",
+   "Inca",
+   "History",
+   "LostCity"
+  ],
+  "visuals": [
+   "Machu Picchu Temple of the Three Windows",
+   "Machu Picchu ruins",
+   "Hiram Bingham Machu Picchu 1911"
+  ],
+  "claims_en": [
+   "Agustín Lizárraga marked his surname and the year 1902 in charcoal at Machu Picchu",
+   "Machu Picchu was built around 1450 by the Inca",
+   "Over the centuries the surrounding jungle overgrew the site",
+   "Lizárraga was a Peruvian explorer whose 1902 expedition cleared undergrowth for several hours to reach the stone structures",
+   "He wrote 'A. Lizárraga 1902' on the central window of the Temple of the Three Windows",
+   "In 1911 a villager led Hiram Bingham to Machu Picchu",
+   "Bingham found Lizárraga's surname and the 1902 date",
+   "Bingham wrote in his pocket field journal that Agustín Lizárraga is discoverer of Machu Picchu",
+   "Bingham gradually downplayed Lizárraga's role, and in Lost City of the Incas (1952) claimed to have found the site himself"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-12T19:48Z",
+ "for_slot": "2026-11-13 slot 5"
+}

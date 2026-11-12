@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "Sydney Started Its Opera House Before Anyone Could Roof It",
+  "hook_text": "Nobody knew how to roof it",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "Sydney started building an opera house nobody knew how to roof.",
+   "In 1957, Danish architect Jørn Utzon won the competition with a roof of curved shells.",
+   "The government pushed to start early anyway, and work began in 1959.",
+   "The engineers at Ove Arup & Partners couldn't find a way to build those shells.",
+   "No two roof forms repeated, so every piece would be a one-off.",
+   "They went through at least 12 versions.",
+   "In mid-1961 they made every shell a section of a sphere, so pieces could share one mould.",
+   "Even now, nobody agrees whose idea the sphere was."
+  ],
+  "cta": "Comment below",
+  "description": "The Sydney Opera House roof had no workable design when construction began.\nThe fix came in 1961, from a sphere.",
+  "hashtags": [
+   "SydneyOperaHouse",
+   "Architecture",
+   "Sydney",
+   "Engineering",
+   "History"
+  ],
+  "visuals": [
+   "Sydney Opera House shells roof",
+   "Sydney Opera House construction shells",
+   "Sydney Opera House roof tiles close up"
+  ],
+  "claims_en": [
+   "Jørn Utzon, a Danish architect, won the design competition in 1957",
+   "The government pushed for work to begin early",
+   "Construction began in March 1959",
+   "Ove Arup & Partners were unable to find an acceptable solution to constructing the shells",
+   "There was no repetition in any of the roof forms, so precasting each individual section would have been expensive",
+   "The design team went through at least 12 iterations of the shell form",
+   "In mid-1961 the team found the solution of creating all the shells as sections from a sphere",
+   "This allowed arches of varying length to be cast in a common mould",
+   "Who exactly originated the solution has been the subject of controversy and the truth is unlikely ever to be categorically known"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-12T19:48Z",
+ "for_slot": "2026-11-13 slot 4"
+}
