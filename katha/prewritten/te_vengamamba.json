@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "తిరుమల గర్భగుడిలో ముత్యాలు వేసిన వేంగమాంబ కథ!",
+  "hook_text": "గర్భగుడిలో రోజూ ముత్యాలు",
+  "kicker": "నిజమైన కథ",
+  "sentences": [
+   "తిరుమల శ్రీవారి గర్భగుడిలో అర్చకులకు రోజూ ముత్యాలు కనిపించేవి.",
+   "18వ శతాబ్దంలో తరిగొండ వేంగమాంబ అనే భక్తురాలు శ్రీవారిని పూజించేది.",
+   "ఆ ముత్యాలు ఆమెవే అని తెలిసి అర్చకులు ఆమెను తుంబురుకోన గుహలోకి పంపేశారు.",
+   "కానీ అక్కడ నుండి కూడా ఆమె రాత్రి హారతి ఆపలేదు.",
+   "కథనం ప్రకారం స్వామివారే గుహ నుండి గుడికి రహస్య దారి ఇచ్చారట.",
+   "ఆరేళ్ల తర్వాత అర్చకులు తమ తప్పు తెలుసుకుని ఆమెను రప్పించారు.",
+   "అందుకే ఏకాంత సేవలో స్వామికి ఇచ్చే చివరి హారతి ఈమెదే.",
+   "తిరుమల వెళ్ళినప్పుడు మీరు వేంగమాంబ నిత్యాన్నదాన సత్రంలో అన్నప్రసాదం తిన్నారా?"
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "తిరుమల శ్రీవారి పరమ భక్తురాలు తరిగొండ వేంగమాంబ జీవిత విశేషాలు.\nఏకాంత సేవలో ఆమె హారతి వెనుక ఉన్న కథ తెలుసుకోండి.",
+  "hashtags": [
+   "Tirumala",
+   "Vengamamba",
+   "TeluguHistory",
+   "Tirupati",
+   "DevotionalTelugu"
+  ],
+  "visuals": [
+   "Tirumala Venkateswara temple sanctum tower",
+   "Tarigonda Vengamamba portrait",
+   "Tumburakona Tirumala hills cave",
+   "Tirumala Ekanta Seva Harati ritual",
+   "Tarigonda Vengamamba Nityannadana Satram Tirumala"
+  ],
+  "claims_en": [
+   "Priests found pearls daily in the sanctum sanctorum of the Tirumala temple.",
+   "Tarigonda Vengamamba was an 18th-century devotee who worshipped Lord Venkateswara.",
+   "Upon discovering she was responsible for the pearls, priests exiled her to Tumburakona cave.",
+   "She continued her nightly harati service while living in the cave.",
+   "According to legend, Lord Venkateswara created a secret passage from the cave to the temple for her.",
+   "After six years of penance, the priests recognized their mistake and brought her back.",
+   "Vengamamba's harati was incorporated into the final Ekanta Seva performed to the Lord each night.",
+   "The Nityannadana Satram in Tirumala is named after Matrusri Tarigonda Vengamamba."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-13T11:20+00:00",
+ "for_slot": "2026-11-14 slot 3"
+}

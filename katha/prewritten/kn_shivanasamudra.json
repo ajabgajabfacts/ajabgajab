@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "ಮಂಡ್ಯದ ಜಲಪಾತ ಕೋಲಾರದ ಚಿನ್ನದ ಗಣಿಗೆ ವಿದ್ಯುತ್ ನೀಡಿದ್ದು ಹೇಗೆ?",
+  "hook_text": "ಕೆಜಿಎಫ್‌ಗೆ ಬೆಳಕು ನೀಡಿದ ಜಲಪಾತ",
+  "kicker": "ಸತ್ಯ ಕಥೆ",
+  "sentences": [
+   "1902 ರಲ್ಲಿ ಮಂಡ್ಯದ ಜಲಪಾತ ಕೋಲಾರದ ಚಿನ್ನದ ಗಣಿಗೆ ವಿದ್ಯುತ್ ನೀಡಿತು.",
+   "ಇದು ಕಾವೇರಿ ನದಿಯ ಶಿವನಸಮುದ್ರ ಜಲಪಾತ.",
+   "ಗಗನಚುಕ್ಕಿ ಮತ್ತು ಭರಚುಕ್ಕಿ ಸೇರಿ ಇಲ್ಲಿ ನೀರು 91 ಮೀಟರ್ ಎತ್ತರದಿಂದ ಧುಮುಕುತ್ತದೆ.",
+   "1898 ರಲ್ಲಿ ಕೆಜಿಎಫ್ ಗಣಿಗೆ ವಿದ್ಯುತ್ ಬೇಕೆಂದು ಈ ಆಲೋಚನೆ ಬಂತು.",
+   "ಕೆ. ಶೇಷಾದ್ರಿ ಅಯ್ಯರ್ ಮತ್ತು ಎಂ. ವಿಶ್ವೇಶ್ವರಯ್ಯ ಇದನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿದರು.",
+   "1902 ರಲ್ಲಿ ಜಲವಿದ್ಯುತ್ ಉತ್ಪಾದನೆ ಶುರುವಾಗಿ ಇತಿಹಾಸ ಸೃಷ್ಟಿಯಾಯಿತು.",
+   "ಮುಂದೆ ಇದೇ ವಿದ್ಯುತ್ ಬೆಂಗಳೂರು ಮತ್ತು ಮೈಸೂರಿಗೂ ಬೆಳಕು ನೀಡಿತು.",
+   "ಅಂದು ಕೆಜಿಎಫ್ ಚಿನ್ನಕ್ಕಾಗಿ ಬೆಳಗಿದ ಶಿವನಸಮುದ್ರವನ್ನು ನೀವು ನೋಡಿದ್ದೀರಾ?"
+  ],
+  "cta": "ಕೆಳಗೆ ಕಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ಶಿವನಸಮುದ್ರ ಜಲಪಾತ ಮತ್ತು ಕೆಜಿಎಫ್ ನಡುವಿನ ಕುತೂಹಲಕಾರಿ ಇತಿಹಾಸ.\nಎಂ. ವಿಶ್ವೇಶ್ವರಯ್ಯ ಅವರ ಅದ್ಭುತ ವಿನ್ಯಾಸದ ಕಥೆ.",
+  "hashtags": [
+   "shivanasamudrafalls",
+   "karnatakahistory",
+   "kgf",
+   "visvesvaraya",
+   "kannada"
+  ],
+  "visuals": [
+   "Shivanasamudra Falls Gaganachukki Bharachukki Kaveri River",
+   "Kolar Gold Fields historic machinery",
+   "M Visvesvaraya historical portrait",
+   "Shivanasamudra hydroelectric power station"
+  ],
+  "claims_en": [
+   "Shivanasamudra Falls generated hydroelectric power for Kolar Gold Fields starting in 1902.",
+   "It is formed on Kaveri river with Gagana Chukki and Bhara Chukki drops.",
+   "The falls have a vertical drop of 91 meters.",
+   "The project was suggested in 1898 to supply power for KGF machinery.",
+   "It was designed by K. Seshadri Iyer and M. Visvesvaraya.",
+   "The power station opened in 1902.",
+   "Electricity from the station was later supplied to Bengaluru and Mysuru."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-13T11:01+00:00",
+ "for_slot": "2026-11-14 slot 0"
+}
