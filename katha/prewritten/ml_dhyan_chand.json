@@ -1,0 +1,53 @@
+{
+ "script": {
+  "title": "കാന്തമുണ്ടോ എന്നറിയാൻ ധ്യാൻ ചന്ദിന്റെ സ്റ്റിക്ക് പൊട്ടിച്ചു",
+  "hook_text": "സ്റ്റിക്കിനുള്ളിൽ കാന്തമുണ്ടോ",
+  "kicker": "യഥാർത്ഥ കഥ",
+  "sentences": [
+   "ഒരു ഹോക്കി സ്റ്റിക്ക് അവർ പൊട്ടിച്ചു നോക്കി, അകത്ത് കാന്തമുണ്ടോ എന്ന്.",
+   "1928-ലെ ആംസ്റ്റർഡാം ഒളിമ്പിക്സിലാണ് സംഭവം.",
+   "ഇന്ത്യയുടെ ധ്യാൻ ചന്ദ് അഞ്ച് കളികളിൽ നിന്ന് അടിച്ചത് 14 ഗോൾ.",
+   "ഫൈനലിൽ ആതിഥേയരായ നെതർലൻഡ്സിനെ ഇന്ത്യ 3–0ന് തോൽപ്പിച്ചു, അന്ന് അദ്ദേഹത്തിന് സുഖമില്ലായിരുന്നു.",
+   "ഇന്ത്യയുടെ ആദ്യ ഒളിമ്പിക് സ്വർണം.",
+   "\"ഇത് ഹോക്കിയല്ല, മാജിക്കാണ്\" എന്ന് ഒരു പത്രം എഴുതി.",
+   "ആ പന്തടക്കം കാരണമാണ് നെതർലൻഡ്സിലെ അധികൃതർ സ്റ്റിക്ക് പൊട്ടിച്ച് പരിശോധിച്ചത്.",
+   "ഒരു വയസ്സായ സ്ത്രീ തന്റെ ഊന്നുവടി നീട്ടി, അതുകൊണ്ട് കളിക്കാൻ പറഞ്ഞു.",
+   "ആ വടി കൊണ്ടും ധ്യാൻ ചന്ദ് ഗോളടിച്ചുകൊണ്ടിരുന്നു."
+  ],
+  "cta": "കമന്റ് ചെയ്യൂ",
+  "description": "1928 ആംസ്റ്റർഡാം ഒളിമ്പിക്സിൽ 5 കളികളിൽ 14 ഗോൾ.\nധ്യാൻ ചന്ദിന്റെ സ്റ്റിക്ക് പൊട്ടിച്ചു നോക്കിയ കഥ.",
+  "hashtags": [
+   "ധ്യാൻചന്ദ്",
+   "DhyanChand",
+   "ഹോക്കി",
+   "Hockey",
+   "Olympics1928"
+  ],
+  "visuals": [
+   "Dhyan Chand",
+   "Dhyan Chand 1928 Amsterdam Olympics hockey",
+   "Dhyan Chand statue"
+  ],
+  "claims_en": [
+   "At the 1928 Amsterdam Olympics, authorities in the Netherlands broke Dhyan Chand's hockey stick to check if there was a magnet inside.",
+   "They did this owing to his superb ball control.",
+   "Dhyan Chand was Indian.",
+   "He scored 14 goals in five matches at the 1928 Olympics.",
+   "In the final India beat the home team, the Netherlands, 3-0.",
+   "Chand himself was ill for the final.",
+   "It was India's first Olympic gold medal.",
+   "A newspaper wrote: 'This is not a game of hockey, but magic.'",
+   "An elderly woman asked him to play with her walking cane.",
+   "He continued to score goals with it."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-13T19:43",
+ "for_slot": "2026-11-14 slot 2"
+}
