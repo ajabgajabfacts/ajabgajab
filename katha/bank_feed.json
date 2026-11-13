@@ -654,5 +654,69 @@
   "angle": "Postal services in several countries experimented with firing mail inside rockets across rivers and borders.",
   "score": 9,
   "added": "2026-11-12"
+ },
+ {
+  "key": "the_thing_listening_device",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "The Thing (listening device)"
+  ],
+  "art": [
+   "The Thing listening device Soviet",
+   "Great Seal carved wood Soviet gift",
+   "The Thing (listening device)"
+  ],
+  "angle": "Soviet school children gifted a wooden Great Seal containing a hidden, unpowered bug to the U.S. Ambassador.",
+  "score": 9,
+  "added": "2026-11-13"
+ },
+ {
+  "key": "philae_spacecraft",
+  "lang": "en",
+  "kind": "space",
+  "wiki": [
+   "Philae (spacecraft)"
+  ],
+  "art": [
+   "Philae comet lander",
+   "Comet 67P Rosetta Philae",
+   "Philae (spacecraft)"
+  ],
+  "angle": "A space probe bounced twice off a comet's surface before landing in a dark crevice to transmit data.",
+  "score": 9,
+  "added": "2026-11-13"
+ },
+ {
+  "key": "athletics_at_the_1908_summer_olympics_me",
+  "lang": "en",
+  "kind": "sport",
+  "wiki": [
+   "Athletics at the 1908 Summer Olympics – Men's 400 metres"
+  ],
+  "art": [
+   "1908 Olympics 400m final",
+   "Wyndham Halswelle 1908 Olympics",
+   "Athletics at the 1908 Summer Olympics – Men's 400 metres"
+  ],
+  "angle": "An Olympic 400-meter rerun resulted in a runner competing entirely alone to win the gold medal.",
+  "score": 8,
+  "added": "2026-11-13"
+ },
+ {
+  "key": "the_sound_of_silence",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "The Sound of Silence"
+  ],
+  "art": [
+   "Simon and Garfunkel 1960s",
+   "The Sound of Silence single record",
+   "The Sound of Silence"
+  ],
+  "angle": "A producer added electric instruments to a failed acoustic song without the band's knowledge, creating a hit.",
+  "score": 8,
+  "added": "2026-11-13"
  }
 ]
