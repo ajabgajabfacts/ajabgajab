@@ -169,7 +169,9 @@ def upscale_4k(src):
                                               "-of", "csv=p=0", str(src)], text=True))
         # Shorts encode at medium in a few minutes on a 2-core runner; a 10-minute long-form at medium could
         # take most of the job, so long videos use veryfast at a lower CRF. Shorts get at most 10 minutes.
-        preset, crf, limit = ("medium", "16", 600) if secs <= 120 else ("veryfast", "15", 5400)
+        # 2026-11-14: Shorts went medium -> veryfast. The 4K copy is identical to the eye (SSIM 0.999 vs medium)
+        # and ~40% faster, and this repo is on pace for ~4,200 Actions minutes in November against 2,000 free.
+        preset, crf, limit = ("veryfast", "16", 600) if secs <= 120 else ("veryfast", "15", 5400)
         if max(w, h) > 1920:
             return src
         dst = src.with_name(src.stem + "_4k.mp4")
