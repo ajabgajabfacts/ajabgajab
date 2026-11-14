@@ -40,7 +40,15 @@ def posted_today(cfg):
     return sum(1 for v in r.json().get("data", []) if v.get("created_time", "").startswith(today))
 
 
+# PAUSED 2026-11-14, owner: "yes pause fb". After 3 weeks and ~150 Reels both Pages had 0 followers and
+# 0 views, so every Reel is wasted render time and Gemini quota. To resume, set PAUSED = False and
+# uncomment the schedule in .github/workflows/fb_backfill.yml.
+PAUSED = True
+
+
 def post_reel(video_path, caption, slot=None, lang=None, backfill=False):
+    if PAUSED:
+        print("[FB] Facebook posting paused (2026-11-14)"); return None
     try:
         if os.environ.get("FB_DISABLE") or lang == "en":
             return None
