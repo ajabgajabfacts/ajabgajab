@@ -7,11 +7,13 @@ from google.genai import types as gt
 # Free tier = ~20 requests/day PER MODEL PER PROJECT for the flash models (found 2026-10-19:
 # "GenerateRequestsPerDayPerProjectPerModel-FreeTier, limit 20"). Capacity therefore comes
 # from spreading calls over several models and two projects, not from retrying one.
-TEXT_MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3-flash-preview",
+# gemini-4-hydrogen (2026-11-14): the one Gemini 4 model on the free tier (Carbon/Argon have no free quota). Its own
+# 20/day per project adds capacity; second in each chain until a quality comparison says it should lead.
+TEXT_MODELS = ["gemini-3.8-flash", "gemini-4-hydrogen", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3-flash-preview",
                "gemini-3.5-flash", "gemini-flash-latest"]
 # The checker starts on a different model family from the writer: more capacity, and a
 # more independent second opinion.
-CHECK_MODELS = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3-flash-preview", "gemini-3.7-flash",
+CHECK_MODELS = ["gemini-3.5-flash", "gemini-4-hydrogen", "gemini-3.6-flash", "gemini-3-flash-preview", "gemini-3.7-flash",
                 "gemini-3.8-flash", "gemini-flash-latest"]
 VISION_MODELS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-flash-lite-latest"]
 TTS_MODELS = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview"]
