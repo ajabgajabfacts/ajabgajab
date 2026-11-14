@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "പുലിപ്പാലിന് പോയ മണികണ്ഠൻ മടങ്ങിയത് പുലിപ്പുറത്തേറി",
+  "hook_text": "പുലിപ്പാലിന് പോയി, വന്നത് പുലിപ്പുറത്ത്",
+  "kicker": "ഐതിഹ്യം",
+  "sentences": [
+   "പുലിപ്പാൽ തേടി കാട്ടിൽ പോയ ബാലൻ മടങ്ങിയത് പുലിപ്പുറത്തേറി.",
+   "മലയാള ഐതിഹ്യം അനുസരിച്ച്, പമ്പാനദിയുടെ തീരത്ത് പന്തളം രാജാവിന് ഒരു ആൺകുഞ്ഞിനെ കിട്ടി.",
+   "മക്കളില്ലാത്ത രാജാവ് ആ കുഞ്ഞിന് മണികണ്ഠൻ എന്ന് പേരിട്ടു.",
+   "പന്ത്രണ്ടാം വയസ്സിൽ മണികണ്ഠനെ യുവരാജാവാക്കാൻ രാജാവ് ഒരുങ്ങി.",
+   "സ്വന്തം ഇളയ മകനെ കൂടുതൽ സ്നേഹിച്ച റാണി അതിനെ എതിർത്തു.",
+   "പിന്നെ റാണി രോഗം അഭിനയിച്ചു, മരുന്നായി വേണ്ടത് പുലിപ്പാൽ, കൊണ്ടുവരേണ്ടത് മണികണ്ഠനും.",
+   "കാട്ടിൽ വെച്ച് മണികണ്ഠൻ മഹിഷി എന്ന അസുരിയെ തോൽപ്പിച്ചു.",
+   "പുലിപ്പുറത്തേറി മടങ്ങിയെത്തിയ മണികണ്ഠൻ ദിവ്യനാണെന്ന് രാജാവ് അപ്പോൾ തിരിച്ചറിഞ്ഞു.",
+   "പാൽ ചോദിച്ച റാണി പുലിയെ കണ്ടപ്പോൾ എന്ത് പറഞ്ഞുകാണും?"
+  ],
+  "cta": "കമന്റ് ചെയ്യൂ",
+  "description": "അയ്യപ്പന്റെ ബാല്യകാല ഐതിഹ്യം, മണികണ്ഠനായി പന്തളത്ത്.\nപുലിപ്പാൽ തേടിയുള്ള ആ കാട്ടുയാത്രയുടെ കഥ.",
+  "hashtags": [
+   "അയ്യപ്പൻ",
+   "Ayyappan",
+   "Manikantan",
+   "ശബരിമല",
+   "MalayalamShorts"
+  ],
+  "visuals": [
+   "Ayyappan riding tiger painting",
+   "Pamba river Sabarimala",
+   "Ayyappan painting Pandalam"
+  ],
+  "claims_en": [
+   "According to Malayalam folklore, the king of Pandalam found a baby boy on the banks of the Pamba river.",
+   "The royal family was childless and the king named the boy Manikantha.",
+   "When Manikantha was 12 years old, the king wanted to formally anoint him as the heir.",
+   "The queen, who favored her younger biological child, objected.",
+   "The queen feigned an illness and asked for the milk of a tiger as a cure, demanding that Manikantha be sent to obtain it.",
+   "In the forest Manikantha defeated the demoness Mahishi.",
+   "He returned to the kingdom riding on the back of a tiger.",
+   "The king recognised him to be a divine being.",
+   "Ayyappan is also known as Manikandan."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-14T19:45+00:00",
+ "for_slot": "2026-11-15 slot 2"
+}
