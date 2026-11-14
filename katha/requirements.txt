@@ -1,8 +1,8 @@
 # Katha story Shorts. Pinned to the versions the 2026-10-19 local renders ran on
 # (same set Quizora runs in CI on Python 3.12).
 google-genai==2.33.0
-google-api-python-client==2.201.0
-google-auth==2.62.0
+google-api-python-client==2.202.0
+google-auth==2.62.2
 google-auth-oauthlib==1.5.0
 google-auth-httplib2==0.4.4
 requests==2.34.2
