@@ -181,6 +181,7 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
     cands = named + ([c for c in cands if c not in named] if len(named) < need else [])
     picked = []
     pool = []
+    vet_failed = 0
     for c in cands[:24]:
         try:
             raw = requests.get(c["url"], headers=UA, timeout=60).content
@@ -202,7 +203,7 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
                                                         for j, c in enumerate(group))),
                              models=ai.VISION_MODELS, parts=parts, temperature=0.1)
         except Exception as e:
-            print("[img] vet failed", str(e)[:80]); continue
+            print("[img] vet failed", str(e)[:80]); vet_failed += 1; continue
         res = {r.get("i"): r for r in v.get("results", []) if isinstance(r, dict)}
         for j, c in enumerate(group):
             r = res.get(j, {})
@@ -219,6 +220,17 @@ def images(entry, extra_queries, story_en, need=6, cache=None, lines=None):
                 picked.append(c)
         if len([p for p in picked if p["score"] >= 7]) >= need and (not lines or _coverage(picked, len(lines)) >= 0.7):
             break
+    # Vision quota gone (2026-11-14): three long-forms failed because every vet call hit the daily limit, so
+    # chapters ended with 0-3 images (Chandrayaan-3: 0) and were dropped. The story's own Wikipedia article
+    # pictures are on-topic by construction, so they stand in unvetted rather than losing the chapter or Short.
+    if vet_failed and len(picked) < min(need, 4):
+        # Only files whose name names the story: an article page also carries sidebar pictures of other things
+        # (Chandrayaan-3's page gave a comet and an asteroid), and a wrong picture is worse than no chapter.
+        spare = [c for c in pool if c.get("article") and c not in picked and any(k in c["file"].lower() for k in kws)]
+        for c in spare[:max(0, need - len(picked))]:
+            c.update(score=6, lines=[], what=c["file"][5:], where=c["file"][5:])
+            picked.append(c)
+        print(f"[img] vision vet unavailable ({vet_failed} batch(es)): {len(spare)} article image(s) used unvetted")
     picked.sort(key=lambda c: -c["score"])
     if not lines:
         return enhance(picked[:need])

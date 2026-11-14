@@ -8,8 +8,12 @@ name: "Ajab Gajab — Long-form Stories"
 # Collections rotate per language (katha/longform.py ORDER), so no theme repeats back to back.
 on:
   schedule:
-    - cron: "35 15 * * 0"
-    - cron: "35 15 * * 3"
+    # 2026-11-14: moved from 15:35 to 08:10 UTC, just after the free Gemini quota resets (midnight Pacific =
+    # 08:00 UTC in winter). At 15:35 (GitHub ran it 4-6 h late) the day's Shorts had spent the quota, so the
+    # 11-01, 11-04 and 11-08 long-forms failed with "all Gemini models/keys exhausted". The Shorts are mostly
+    # Claude-written now, so the long-form (the watch-hours route) gets the fresh quota.
+    - cron: "10 8 * * 0"
+    - cron: "10 8 * * 3"
   workflow_dispatch:
     inputs:
       lang:
