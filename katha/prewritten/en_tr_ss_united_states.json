@@ -1,0 +1,51 @@
+{
+ "script": {
+  "title": "Florida sank the Atlantic's fastest liner on purpose",
+  "hook_text": "They sank her on purpose",
+  "kicker": "True story",
+  "sentences": [
+   "Florida just sank the Atlantic's fastest ocean liner, on purpose.",
+   "On her 1952 maiden voyage, the SS United States won the Blue Riband, crossing the Atlantic faster than any liner.",
+   "Nobody's beaten it since.",
+   "Her top speed was a military secret.",
+   "Her designers banned wood aboard.",
+   "Even the mahogany piano was approved only after gasoline was poured on it and lit, and it didn't burn.",
+   "Jets emptied her cabins, and from 1969 she sat idle for decades.",
+   "On November 11 she sank off Destin as the world's largest artificial reef.",
+   "The Atlantic's fastest liner now sits perfectly still."
+  ],
+  "cta": "Comment below",
+  "description": "The SS United States still holds the Blue Riband from 1952.\nOn November 11, 2026 she became the world's largest artificial reef.",
+  "hashtags": [
+   "SSUnitedStates",
+   "oceanliner",
+   "history",
+   "BlueRiband",
+   "artificialreef"
+  ],
+  "visuals": [
+   "SS United States ocean liner",
+   "SS United States Philadelphia",
+   "SS United States 1952"
+  ],
+  "claims_en": [
+   "Okaloosa County, Florida sank the SS United States on purpose to make an artificial reef.",
+   "On her maiden voyage in 1952 she won the Blue Riband as the fastest liner across the Atlantic.",
+   "The Blue Riband title remains uncontested.",
+   "Her top speed was once held as a military secret.",
+   "Her designers banned wood on board, apart from the galley butcher's block.",
+   "The mahogany piano was accepted only after gasoline was poured on the wood and ignited without it catching fire.",
+   "Passenger numbers declined because of jet flights and she was withdrawn from service in 1969.",
+   "She was sunk on November 11, 2026 near Destin and became the world's largest artificial reef."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-14T09:55+00:00",
+ "for_slot": "trend 2026-11-14"
+}

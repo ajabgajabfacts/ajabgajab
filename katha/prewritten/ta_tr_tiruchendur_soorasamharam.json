@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "சூரனை மயிலாக்கிய முருகனின் வேல், திருச்செந்தூர் கதை",
+  "hook_text": "வேல் பிளந்த மாமரம்",
+  "kicker": "புராணம்",
+  "sentences": [
+   "ஒரு வேல் வீச்சுல, மூணு உலகத்துக்கும் பரவுன மாமரம் ரெண்டா பிளந்துச்சு.",
+   "கந்த புராணப்படி, சிவன் மகனால மட்டும்தான் சூரபத்மனை கொல்ல முடியும்னு வரம் இருந்துச்சு.",
+   "அந்த தைரியத்துல அவன் மூணு உலகத்தையும் ஆட்டிப்படைச்சான்.",
+   "கடைசி போர் திருச்செந்தூர்ல, முருகனுக்கும் சூரனுக்கும்.",
+   "பல தலை, பல கையோட பெரிய உருவம் எடுத்தான் சூரன்.",
+   "வேல் வந்ததும் கடலுக்குள்ள ஓடி மாமரமா மாறிட்டான்.",
+   "முருகன் வேலால அந்த மரத்தை பிளக்க, ஒரு பாதி மயிலாவும் இன்னொரு பாதி சேவலாவும் மாறிச்சு.",
+   "அந்த மயில்தான் முருகனோட வாகனம், அந்த சேவல்தான் அவரோட கொடி.",
+   "அதாவது முருகன் ஏறி வர்ற மயில், ஒரு காலத்துல அவரோட பெரிய எதிரி."
+  ],
+  "cta": "கமெண்ட் பண்ணுங்க",
+  "description": "திருச்செந்தூர் சூரசம்ஹாரத்தின் புராணக் கதை.\nமுருகனின் மயிலும் சேவலும் எங்கிருந்து வந்தன?",
+  "hashtags": [
+   "Soorasamharam",
+   "சூரசம்ஹாரம்",
+   "Tiruchendur",
+   "முருகன்",
+   "KandaSashti"
+  ],
+  "visuals": [
+   "Tiruchendur Murugan Temple",
+   "Soorasamharam Tiruchendur festival",
+   "Murugan peacock painting"
+  ],
+  "claims_en": [
+   "According to the Kanda Puranam, Surapadma had a boon that only the son of Shiva could kill him.",
+   "Surapadma oppressed the three worlds.",
+   "The final battle between Murugan and Surapadma was at Tiruchendur.",
+   "Surapadma took a large form with many heads and arms.",
+   "When Murugan threw his vel, Surapadma escaped into the sea and became a large mango tree spreading across the three worlds.",
+   "Murugan split the tree with his vel; one half became a peacock and the other a rooster.",
+   "The peacock became Murugan's vahana and the rooster his pennant."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-14T09:55+00:00",
+ "for_slot": "trend 2026-11-14"
+}

@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "रावण ने कैलाश उठाया, शिवजी ने अंगूठे से दबा दिया",
+  "hook_text": "रावण ने कैलाश उठाया",
+  "kicker": "पौराणिक कथा",
+  "sentences": [
+   "रावण ने अपनी बीसों भुजाएँ कैलाश के नीचे लगा दीं।",
+   "रामायण के उत्तरकांड के मुताबिक, वो पुष्पक विमान से लंका लौट रहा था।",
+   "एक जगह विमान आगे ही नहीं बढ़ा, क्योंकि वहाँ शिव-पार्वती रहते थे।",
+   "नंदी ने रोका तो रावण ने शिव और नंदी का मज़ाक उड़ाया, और नंदी ने श्राप दिया कि बंदर तेरा नाश करेंगे।",
+   "चिढ़कर रावण पूरा कैलाश उखाड़ने लगा।",
+   "शिवजी ने बस पैर के अंगूठे से पहाड़ दबाया, और रावण उसके नीचे फँस गया।",
+   "दर्द से वो इतनी ज़ोर से चीखा कि नाम ही रावण पड़ गया, यानी जो रोया।",
+   "हज़ार साल भजन गाने के बाद शिवजी ने माफ़ किया, पर नाम वही रहा।"
+  ],
+  "cta": "कमेंट करें",
+  "description": "रामायण के उत्तरकांड की कथा, जब रावण ने कैलाश उठाने की कोशिश की.\nऔर इसी से उसे रावण नाम मिला.",
+  "hashtags": [
+   "Ramayana",
+   "रावण",
+   "Kailash",
+   "शिव",
+   "रामायण"
+  ],
+  "visuals": [
+   "Ravana lifting Kailash sculpture Ellora",
+   "Ravananugraha relief",
+   "Mount Kailash"
+  ],
+  "claims_en": [
+   "According to the Uttara Kanda, Ravana was returning to Lanka in the Pushpaka Vimana.",
+   "At one place the chariot could not pass, because Shiva and Parvati lived on the mountain.",
+   "Ravana mocked Shiva and Nandi, and Nandi cursed him that monkeys would destroy him.",
+   "Ravana put his twenty arms under Kailash and tried to uproot it.",
+   "Shiva pressed the mountain down with his big toe, trapping Ravana beneath it.",
+   "Ravana cried out loudly in pain and was given the name Ravana, one who cried.",
+   "Ravana sang hymns to Shiva for a thousand years and Shiva forgave him."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-14T09:55+00:00",
+ "for_slot": "trend 2026-11-14"
+}

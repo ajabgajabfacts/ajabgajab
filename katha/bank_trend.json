@@ -1,1 +1,106 @@
-[]
+[
+ {
+  "key": "tr_gokarna_atmalinga",
+  "lang": "kn",
+  "kind": "myth",
+  "wiki": [
+   "Mahabaleshwar Temple, Gokarna",
+   "Gokarna, Karnataka"
+  ],
+  "art": [
+   "Mahabaleshwar Temple Gokarna",
+   "Gokarna beach temple town",
+   "Ravana atmalinga Ganesha painting"
+  ],
+  "angle": "Ravana could not lift the atmalinga a disguised Ganesha set down at Gokarna, and Ravana himself named it Mahabaleshwara",
+  "trend": {
+   "why": "Ramayana (2026) is in its 2nd week with Yash as Ravana; Kannada leads the southern box office share, so Karnataka is talking about Ravana",
+   "signals": [
+    "Sacnilk: Kannada ~42% of Ramayana southern-version Day 1, biggest state opening in Karnataka",
+    "hi.wikipedia #1 Ramayana (2026 film) 13,421 views; te.wikipedia Ramayanam (2026 film)",
+    "The Week 11-11: Ramayana ~Rs 900 cr worldwide in 7 days"
+   ],
+   "until": "2026-11-16",
+   "score": 9
+  },
+  "added": "2026-11-14"
+ },
+ {
+  "key": "ravana_kailash",
+  "lang": "hi",
+  "trend": {
+   "why": "Ramayana (2026) is the No. 1 Hindi Wikipedia page; the Hindi belt is talking about Ravana and the Uttara Kanda legends",
+   "signals": [
+    "hi.wikipedia #1 Ramayana (2026 film) 13,421 views, #3 Ramayanam (2026 film) 7,689",
+    "The Week 11-11: Ramayana Rs 500 cr net in 7 days"
+   ],
+   "until": "2026-11-17",
+   "score": 8
+  },
+  "added": "2026-11-14"
+ },
+ {
+  "key": "tr_tiruchendur_soorasamharam",
+  "lang": "ta",
+  "kind": "myth",
+  "wiki": [
+   "Tiruchendur Murugan Temple",
+   "Surasamharam"
+  ],
+  "art": [
+   "Tiruchendur Murugan Temple",
+   "Soorasamharam Tiruchendur festival",
+   "Murugan peacock painting"
+  ],
+  "angle": "at Tiruchendur, Murugan's vel split Surapadma (hiding as a mango tree spanning three worlds) into the peacock he rides and the rooster on his flag",
+  "trend": {
+   "why": "Soorasamharam at Tiruchendur is on 15 Nov, closing Kanda Sashti; about six lakh devotees expected",
+   "signals": [
+    "ta.wikipedia #3 Kanda Sashti Kavasam 586, Soorasamharam 195, Kanda Sashti 198, Arupadai Veedu 318",
+    "DT Next: Tiruchendur braces for Kanda Sashti rush, six lakh devotees expected",
+    "Hindutone/AstroVed: Soora Samharam 15 Nov 2026"
+   ],
+   "until": "2026-11-15",
+   "score": 9
+  },
+  "added": "2026-11-14"
+ },
+ {
+  "key": "jalaram",
+  "lang": "gu",
+  "trend": {
+   "why": "Jalaram Jayanti is Monday 16 Nov (Kartika Shukla Saptami); Virpur fair and khichdi prasad across Gujarat",
+   "signals": [
+    "gu.wikipedia: Jalaram Bapa in top 30 the week before",
+    "Hindutone / Hindu Blog: Jalaram Jayanti 16 Nov 2026"
+   ],
+   "until": "2026-11-16",
+   "score": 8
+  },
+  "added": "2026-11-15"
+ },
+ {
+  "key": "tr_ss_united_states",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "SS United States"
+  ],
+  "art": [
+   "SS United States ocean liner",
+   "SS United States Philadelphia pier",
+   "SS United States 1952 maiden voyage"
+  ],
+  "angle": "the liner that still holds the Blue Riband since 1952, built with almost no wood, was sunk on purpose on 11 Nov 2026 as the world's largest artificial reef",
+  "trend": {
+   "why": "The SS United States was scuttled off Destin, Florida on 11 Nov 2026; US news and Wikipedia are full of it",
+   "signals": [
+    "en.wikipedia most-read: SS United States 93,568 views",
+    "AP/WLOX 11-11: Ocean liner sinks off Florida Panhandle to make largest artificial reef"
+   ],
+   "until": "2026-11-17",
+   "score": 8
+  },
+  "added": "2026-11-14"
+ }
+]
