@@ -9,10 +9,17 @@ name: "Ajab Gajab — Verify + prewrite tomorrow's scripts"
 # anything left and fills the gaps.
 # Same concurrency group as katha.yml: both write ledger.json. A post this displaces from the
 # queue is made up by katha.yml's 2-hourly backup cron (due.py).
+# From 2026-11-14 the trend scout routine (~00:20 UTC, trends.py) pushes same-day scripts with katha/bank_trend.json.
+# That push starts a verify-only run straight away, so a trend story can post in today's next slot. 01:50 is
+# the fallback if the push did not trigger a run.
 on:
   schedule:
     - cron: "15 3 * * *"
     - cron: "30 21 * * *"
+    - cron: "50 1 * * *"
+  push:
+    branches: [main]
+    paths: ["katha/bank_trend.json"]
   workflow_dispatch:
 
 permissions:
@@ -42,7 +49,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
         run: |
-          if [ "${{ github.event.schedule }}" = "30 21 * * *" ]; then
+          if [ "${{ github.event.schedule }}" = "30 21 * * *" ] || [ "${{ github.event.schedule }}" = "50 1 * * *" ] || [ "${{ github.event_name }}" = "push" ]; then
             python katha/prewrite.py --verify-only
           else
             python katha/prewrite.py

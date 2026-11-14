@@ -72,7 +72,8 @@ def plan():
         # A festival story for this day is written ahead even when other stock exists (festivals.py):
         # make.pick posts it first, so stock would not cover it.
         fest = make.pick(lang, exclude=taken.get(lang, []), day=day, slot=slot)
-        if lang != "en" and fest["key"] in make.festivals.keys_for(lang, day):
+        if (lang != "en" and fest["key"] in make.festivals.keys_for(lang, day)) or \
+                fest["key"] in make.trends.keys_for(lang, day):          # trend picks too (trends.py)
             if fest["key"] in have.get(lang, []):
                 continue                                      # already written
             e = fest

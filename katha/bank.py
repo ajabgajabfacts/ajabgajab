@@ -462,6 +462,13 @@ for _f in _json.loads((_pl.Path(__file__).with_name("bank_feed.json")).read_text
     if _f["key"] not in {_s["key"] for _s in S}:
         add2(_f["key"], "en", _f["kind"], _f["wiki"], _f["art"], _f["angle"])
 
+# Trend scout stories (trends.py, 2026-11-14): new stories only (tr_ keys); a pick that reuses a bank story
+# needs nothing added here. Any language, so lang comes from the entry.
+for _f in _json.loads((_pl.Path(__file__).with_name("bank_trend.json")).read_text(encoding="utf-8")) \
+        if _pl.Path(__file__).with_name("bank_trend.json").exists() else []:
+    if str(_f.get("key", "")).startswith("tr_") and _f["key"] not in {_s["key"] for _s in S}:
+        add2(_f["key"], _f["lang"], _f["kind"], _f["wiki"], _f["art"], _f["angle"])
+
 # ── Festival calendar stories (festivals.py, owner 2026-11-01) ───────────────
 # Told in the festival's region while it happens. Wikipedia-grounded like the rest; one line spine each.
 add2("narakasura", "all", "myth", ["Narakasura", "Naraka Chaturdashi"], ["Narakasura painting", "Satyabhama Narakasura", "Naraka Chaturdashi effigy"],

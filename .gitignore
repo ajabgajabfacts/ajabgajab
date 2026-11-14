@@ -64,3 +64,6 @@ fb_page_token.txt
 # WTR story feed (katha/feed.py, 2026-11-01)
 !katha/bank_feed.json
 !katha/feed_seen.json
+# Trend scout (katha/trends.py + radar.py, 2026-11-14)
+!katha/bank_trend.json
+!katha/trend_radar.json

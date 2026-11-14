@@ -11,7 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import bank, festivals, insights, media, render, write
+import bank, festivals, insights, media, render, trends, write
 from langs import LANGS
 
 LEDGER = HERE / "ledger.json"
@@ -72,6 +72,14 @@ def pick(lang, force_key=None, exclude=(), day=None, slot=-1):
         return next(s for s in bank.S if s["key"] == force_key)
     done = {(r["key"], r["lang"]) for r in ledger() if r.get("status") in ("posted", "failed_check")}
     done |= {(k, lang) for k in exclude}
+    # What the audience is talking about today goes first (trends.py, 2026-11-14: the daily Claude trend scout).
+    # A script the scout wrote must pass Gemini's check before it posts; with no script, Gemini writes one now.
+    for k in trends.keys_for(lang, day or dt.date.today()):
+        pre = PREWRITTEN / f"{lang}_{k}.json"
+        s = next((s for s in bank.S if s["key"] == k), None)
+        if s and (k, lang) not in done and (not pre.exists() or ALLOW_UNVERIFIED or _verified(pre)):
+            print(f"[trend] {lang}: {k}")
+            return s
     # A festival happening now goes first (festivals.py, 2026-11-01): the only breakouts we ever had were
     # festival-day stories (Mysore Palace 89k, Dasara elephant 28k on Jamboo Savari day).
     for k in (festivals.keys_for(lang, day or dt.date.today()) if slot in EVENING else []):
@@ -277,6 +285,14 @@ def slot_lang(slot, day=None):
     # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
     if slot == 0 and day >= KN_DAILY:
         return "kn"
+    # Trend languages (trends.py, 2026-11-14) without a fixed slot of their own take rotating slot 1, and slot 2
+    # when no festival wants it. Start-of-day view, so every slot that day sees the same list.
+    if slot in (1, 2) and day >= trends.FROM:
+        tl = [l for l in trends.langs_for(day, _done_before(day)) if l not in ("kn", "te", "en")]
+        if slot == 1 and tl:
+            return tl[0]
+        if slot == 2 and len(tl) > 1 and not (day >= HI_OFF and festivals.evening_langs(day, _done_before(day))):
+            return tl[1]
     # Festival languages take the evening rotating slot (festivals.py): slot 2 gets the first language an
     # active event still has an untold story for, Kannada included (slot 0 is a morning slot). Telugu's
     # evening slot 3 picks its own events.
