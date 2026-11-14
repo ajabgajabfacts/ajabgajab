@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "ప్లేగు వ్యాధి పోయిందని హైదరాబాద్‌లో చార్మినార్ కట్టారా?",
+  "hook_text": "చార్మినార్ వెనుక ఉన్న భయంకరమైన రోగం",
+  "kicker": "అసలు కథ",
+  "sentences": [
+   "హైదరాబాద్ నడిబొడ్డున చార్మినార్ కట్టడానికి ఒక భయంకరమైన జబ్బు కారణం.",
+   "1591లో కులీ కుతుబ్ షా రాజధానిని గోల్కొండ నుంచి ఇక్కడికి మార్చాడు.",
+   "కొత్త నగరం మధ్యలో పద్నాలుగు వేల టన్నుల బరువుతో ఈ కట్టడాన్ని లేపారు.",
+   "నాలుగు వైపులా పెద్ద దారులు కలిసేలా రెండు లక్షల బంగారు నాణాలు ఖర్చు చేశారు.",
+   "ఇది శత్రువుల మీద గెలిచినందుకో, అధికారం చూపించడానికో కట్టింది కాదు.",
+   "నగరాన్ని వణికించిన ప్లేగు వ్యాధి పూర్తిగా పోయిందని గుర్తుగా ఈ కట్టడం నిర్మించారు.",
+   "ఒక రోగం అంతమైన జ్ఞాపకం, నాలుగు వందల ఏళ్ల నగరానికి చిహ్నం అవుతుందని ఎవరైనా అనుకుంటారా."
+  ],
+  "cta": "మీ అభిప్రాయం చెప్పండి",
+  "description": "హైదరాబాద్ నడిబొడ్డున చార్మినార్ కట్టడానికి అసలు కారణం ఏంటి? 1591లో కులీ కుతుబ్ షా దీనిని ఎందుకు నిర్మించాడో తెలుసుకోండి.",
+  "hashtags": [
+   "చార్మినార్",
+   "హైదరాబాద్",
+   "Charminar",
+   "HyderabadHistory",
+   "TelanganaHistory"
+  ],
+  "visuals": [
+   "Charminar Hyderabad arches",
+   "Muhammad Quli Qutb Shah portrait",
+   "Golconda fort Hyderabad",
+   "Charminar historic view"
+  ],
+  "claims_en": [
+   "Charminar was built in 1591 by Muhammad Quli Qutb Shah.",
+   "Muhammad Quli Qutb Shah shifted his capital from Golconda to Hyderabad.",
+   "Charminar was built at the center of the newly formed city.",
+   "The structure weighs approximately 14,000 tonnes.",
+   "The construction cost around 2 lakh gold coins (huns).",
+   "Charminar was built at an intersection with four arches facing cardinal directions.",
+   "According to ASI records, Charminar was built to commemorate the eradication of plague."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-14T10:27+00:00",
+ "for_slot": "2026-11-15 slot 3"
+}

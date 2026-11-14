@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "ശബരിമലയിലെ പതിനെട്ടു പടികൾ ഓരോന്നും എന്തിനെ കുറിക്കുന്നു?",
+  "hook_text": "പതിനെട്ടു പടികളുടെ പിന്നിലെ രഹസ്യം",
+  "kicker": "വിശ്വാസം",
+  "sentences": [
+   "ശബരിമലയിലെ പതിനെട്ടു പടികൾ സാധാരണ നടവഴിയല്ല.",
+   "ആഴ്ചകളോളം വ്രതം നോറ്റ് കഠിനമായി ജീവിച്ചാണ് തീർഥാടകർ ഇവിടെയെത്തുന്നത്.",
+   "പമ്പാ നദിയിൽ സ്നാനം ചെയ്ത്, നഗ്നപാദരായി അവർ മല കയറുന്നു.",
+   "തലയിൽ പൂജാദ്രവ്യങ്ങൾ നിറച്ച ഇരുമുടിക്കെട്ടും ഉണ്ടാകും.",
+   "കറുപ്പോ നീലയോ വസ്ത്രം ധരിച്ച് പരസ്പരം സ്വാമി എന്ന് വിളിച്ചാണ് യാത്ര.",
+   "ഒടുവിൽ ക്ഷേത്രസന്നിധിയിലെ ഈ പതിനെട്ടു പടികളിലേക്ക് അവർ കാൽവെക്കുന്നു.",
+   "ഈ പതിനെട്ടു പടികളിൽ ഓരോന്നും ഓരോ ധർമ്മമൂല്യത്തെയാണ് കാണിക്കുന്നത്.",
+   "ആ മൂല്യങ്ങൾ അറിഞ്ഞാണോ നിങ്ങൾ ഈ മല ചവിട്ടാറുള്ളത്?"
+  ],
+  "cta": "അഭിപ്രായം കുറിക്കൂ",
+  "description": "ശബരിമല തീർഥാടനവും പതിനെട്ടു പടികളുടെ പ്രത്യേകതയും.\nഓരോ പടിയും നമ്മെ ഓർമ്മിപ്പിക്കുന്ന ധർമ്മമൂല്യങ്ങൾ.",
+  "hashtags": [
+   "Sabarimala",
+   "Ayyappan",
+   "Pathinettampadi",
+   "KeralaTemples",
+   "MalayalamShorts"
+  ],
+  "visuals": [
+   "Sabarimala temple 18 steps Pathinettam padi",
+   "Ayyappa pilgrims carrying irumudi trekking Sabarimala",
+   "Pamba river Sabarimala pilgrims bathing",
+   "Sabarimala Sree Dharmasastha Temple view"
+  ],
+  "claims_en": [
+   "Pilgrims prepare weeks in advance by leading a simpler life and observing austerities.",
+   "Pilgrims wear black or blue dresses and address each other as swami.",
+   "Devotees bathe in the Pamba river and trek the hill barefoot.",
+   "Pilgrims carry an irumudi on their heads containing offerings.",
+   "Devotees climb the 18 steps situated in front of the Sabarimala shrine.",
+   "Each of the eighteen steps at Sabarimala represents a dharmic value."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-14T10:26+00:00",
+ "for_slot": "2026-11-15 slot 2"
+}
