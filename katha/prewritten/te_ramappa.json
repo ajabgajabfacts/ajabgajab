@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "నీటిపై తేలే ఇటుకలతో రామప్ప గుడిని ఎవరు కట్టారు?",
+  "hook_text": "నీటిపై తేలే ఇటుకల గుడి",
+  "kicker": "చారిత్రక వింత",
+  "sentences": [
+   "నీటిలో వేస్తే మునగకుండా తేలియాడే ఇటుకలతో ఒక గుడి గోపురాన్ని నిర్మించారు.",
+   "1213 లో కాకతీయ సేనాపతి రేచర్ల రుద్రుడు పాలంపేటలో ఈ ఆలయం కట్టించారు.",
+   "దీని నిర్మాణం పూర్తి కావడానికి ఏకంగా నలభై ఏళ్ళు పట్టింది.",
+   "గోపురం బరువు తగ్గించేందుకు శిల్పులు ఒక వింత ప్రయోగం చేశారు.",
+   "బంకమన్ను, వరిపొట్టుతో చేసిన ఇక్కడి ఇటుకలు నీటి కంటే తేలికగా ఉంటాయి.",
+   "దేవుడి పేరే కాకుండా దీనిని చెక్కిన శిల్పి రామప్ప పేరే ఈ గుడికి పెట్టారు.",
+   "భారతదేశంలో ఒక శిల్పి పేరు మీదున్న ఏకైక దేవాలయం ఇదే."
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "కాకతీయుల కాలంలో నిర్మించిన రామప్ప గుడి ప్రత్యేకతలు.\nనీటిపై తేలే ఇటుకల వెనుక ఉన్న నిజం.",
+  "hashtags": [
+   "RamappaTemple",
+   "TelanganaHistory",
+   "KakatiyaDynasty",
+   "TeluguFacts",
+   "Palampet"
+  ],
+  "visuals": [
+   "Ramappa Temple Palampet main shrine view",
+   "Ramappa Temple lightweight bricks vimana superstructure",
+   "Ramappa Temple dolerite carved pillars",
+   "Ramappa Temple Madanika bracket sculpture"
+  ],
+  "claims_en": [
+   "A temple tower was built using bricks that float on water.",
+   "Kakatiya general Recherla Rudra commissioned the temple in Palampet in 1213 AD.",
+   "The construction of the temple took 40 years to complete.",
+   "Architects used lightweight porous bricks to reduce the structural load on the temple roof.",
+   "The bricks used in the vimana are lighter than water.",
+   "The temple is named after its chief sculptor Ramappa.",
+   "It is the only temple in India named after its craftsman."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-15T10:55+00:00",
+ "for_slot": "2026-11-16 slot 3"
+}

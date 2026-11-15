@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "புலிப்பால் கேட்ட ராணிக்கு புலி மீதே ஏறி வந்த மணிகண்டன்",
+  "hook_text": "புலி மேலே ஏறி வந்த சிறுவன்",
+  "kicker": "புராணக் கதை",
+  "sentences": [
+   "பன்னிரண்டு வயது சிறுவன் காட்டுப் புலியின் மேல் அமர்ந்து நாட்டுக்குள் வந்தான்.",
+   "மலையாள நாட்டுப்புறக் கதைப்படி, பந்தள மன்னன் பம்பை ஆற்றில் மணிகண்டனை கண்டெடுத்தார்.",
+   "அவருக்கு முடிசூட்ட நினைத்தபோது, தன் சொந்த மகனுக்காக ராணி குறுக்கே நின்றார்.",
+   "மணிகண்டனை ஒழிக்க, தனக்கு உடல்நிலை சரியில்லை என்று ராணி நாடகமாடினார்.",
+   "நோய் தீரப் புலிப்பால் வேண்டும் எனக் கேட்டு, அச்சிறுவனைக் காட்டுக்கு அனுப்பினார்.",
+   "காட்டில் மகிஷியை அழித்த மணிகண்டன், புலியின் முதுகில் ஏறி கம்பீரமாகத் திரும்பினார்.",
+   "இந்த ஆற்றலைக் கண்ட மன்னன் அவருக்காக அமைத்த இடம்தான் சபரிமலை என்கிறது கதை."
+  ],
+  "cta": "கருத்தைப் பகிருங்கள்",
+  "description": "பந்தள இளவரசர் மணிகண்டன் புலிப்பால் எடுக்கக் காட்டுக்குச் சென்ற கதை. அவர் சபரிமலை ஐயப்பனாக மாறிய பின்னணி.",
+  "hashtags": [
+   "Ayyappan",
+   "Sabarimala",
+   "ஐயப்பன்",
+   "சபரிமலை",
+   "TamilShorts"
+  ],
+  "visuals": [
+   "Ayyappan riding tiger painting",
+   "Pandalam palace Kerala",
+   "Pamba river Sabarimala",
+   "Sabarimala temple 18 steps"
+  ],
+  "claims_en": [
+   "According to Malayalam lore, a twelve-year-old boy returned to the kingdom riding on a tiger.",
+   "The king of Pandalam found Manikandan on the banks of the Pamba river and raised him.",
+   "When the king wanted to anoint Manikandan at age twelve, the queen objected to favor her biological child.",
+   "The queen feigned an illness in an attempt to get rid of Manikandan.",
+   "She demanded tiger's milk as a cure and had the young boy sent into the forest to fetch it.",
+   "Manikandan killed the demoness Mahishi in the forest and returned riding on the back of a tiger.",
+   "Recognizing his divine abilities, the king resolved to build the shrine at Sabarimala for him."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-15T11:03+00:00",
+ "for_slot": "2026-11-16 slot 6"
+}
