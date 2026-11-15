@@ -1,0 +1,50 @@
+{
+ "script": {
+  "title": "America's Unknown Soldier got a guard because of picnics",
+  "hook_text": "Guarded because of picnics",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "America's Unknown Soldier first got a guard because of picnics.",
+   "On November 17, 1925, Arlington posted a civilian to stop families picnicking on the flat marble slab.",
+   "Soldiers took over in 1926, and the watch hasn't stopped since 1937.",
+   "Not for weather, not for terrorist attacks.",
+   "The guard marches 21 steps, faces the Tomb for 21 seconds, turns, waits 21 more.",
+   "Guards spend about six hours readying a heavy wool uniform for each shift.",
+   "If the crowd gets loud, the guard steps off the mat to confront it.",
+   "The picnickers got off lightly."
+  ],
+  "cta": "Comment below",
+  "description": "Why the Tomb of the Unknown Soldier got its first guard in 1925.\nThe watch at Arlington hasn't stopped since 1937.",
+  "hashtags": [
+   "TombOfTheUnknownSoldier",
+   "Arlington",
+   "History",
+   "OldGuard",
+   "USHistory"
+  ],
+  "visuals": [
+   "Tomb of the Unknown Soldier Arlington guard",
+   "Changing of the Guard Arlington Tomb",
+   "Tomb of the Unknowns 1920s photograph"
+  ],
+  "claims_en": [
+   "A civilian guard was first posted at the Tomb of the Unknown Soldier on 17 November 1925.",
+   "Its purpose was, among other things, to prevent families from picnicking on the flat marble slab with views of the city.",
+   "A military guard was first posted in 1926 (25 March).",
+   "The first 24-hour guard was posted on 2 July 1937, and the watch has been maintained continuously since.",
+   "Inclement weather and terrorist attacks have never caused the watch to cease.",
+   "The guard marches 21 steps, faces the Tomb for 21 seconds, turns and waits 21 seconds.",
+   "A guard takes an average of 6 hours to prepare his heavy wool uniform for the next day's work.",
+   "If a disturbance occurs, the sentinel exits the mat and confronts it."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-15T00:50+00:00",
+ "for_slot": "trend 2026-11-15"
+}

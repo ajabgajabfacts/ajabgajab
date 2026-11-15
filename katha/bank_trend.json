@@ -102,5 +102,88 @@
    "score": 8
   },
   "added": "2026-11-14"
+ },
+ {
+  "key": "jatayu",
+  "lang": "te",
+  "trend": {
+   "why": "Ramayana: Part 1 is in its second week in Telugu theatres; Jatayu's fall is tied to Lepakshi in Andhra",
+   "signals": [
+    "te.wikipedia most-read: రామాయణం (2026 సినిమా), రామాయణం",
+    "Ramayana: Part 1 (Nitesh Tiwari) released 6 Nov 2026, Rs 800 cr+ worldwide (Gulf News)",
+    "en.wikipedia Jatayu: 'In 2026, Jatayu was voiced ... in Ramayana: Part 1'"
+   ],
+   "until": "2026-11-17",
+   "score": 8
+  },
+  "added": "2026-11-15"
+ },
+ {
+  "key": "ramappa",
+  "lang": "te",
+  "trend": {
+   "why": "16 Nov is the first Karthika Somavaram; Telugu Shiva devotees fill Shiva temples, and Ramappa is Telangana's UNESCO Shiva temple",
+   "signals": [
+    "hindutone Karthika Masam 2026: first Somavaram 16 Nov, Telugu Karthika masam 10 Nov-8 Dec",
+    "te.wikipedia most-read: కేదారేశ్వర వ్రతకల్పం, నాగుల చవితి (Karthika rituals)"
+   ],
+   "until": "2026-11-16",
+   "score": 7
+  },
+  "added": "2026-11-16"
+ },
+ {
+  "key": "jatayu",
+  "lang": "hi",
+  "trend": {
+   "why": "Ramayana: Part 1 is the biggest Hindi film story right now; Jatayu is the Ramayana figure people are discussing from it",
+   "signals": [
+    "hi.wikipedia most-read #1 रामायण (2026 फिल्म), #3 रामायणम् (2026 फिल्म)",
+    "Ramayana: Part 1 (Nitesh Tiwari) released 6 Nov 2026, Rs 800 cr+ worldwide (Gulf News)"
+   ],
+   "until": "2026-11-18",
+   "score": 8
+  },
+  "added": "2026-11-16"
+ },
+ {
+  "key": "jatayu",
+  "lang": "kn",
+  "trend": {
+   "why": "Ramayana: Part 1 stars Kannada's Yash as Ravana and opened bigger in Kannada than Telugu; Jatayu is the one who fought Ravana",
+   "signals": [
+    "Sacnilk day-1 live: Kannada Rs 1.88 cr vs Telugu Rs 1.38 cr",
+    "Ramayana: Part 1 (Nitesh Tiwari) released 6 Nov 2026, Rs 800 cr+ worldwide (Gulf News)",
+    "kn.wikipedia most-read: ರಾಮಾಯಣ"
+   ],
+   "until": "2026-11-18",
+   "score": 7
+  },
+  "added": "2026-11-16"
+ },
+ {
+  "key": "tr_arlington_tomb_guard",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Tomb of the Unknown Soldier (Arlington)"
+  ],
+  "art": [
+   "Tomb of the Unknown Soldier Arlington guard",
+   "Changing of the Guard Arlington Tomb",
+   "Tomb of the Unknowns 1920s"
+  ],
+  "angle": "the Tomb's first guard was posted on 17 Nov 1925 to stop families picnicking on the marble slab; the watch has not stopped since 1937",
+  "trend": {
+   "why": "a Tomb Guard's Veterans Day reprimand of a laughing group went viral; the first guard's anniversary is 17 Nov",
+   "signals": [
+    "Google Trends US: the tomb of the unknown soldier",
+    "AJC/Cleveland19 11 Nov 2026: guard reprimands group at Tomb of the Unknown Soldier after laughter",
+    "History.com 10 Nov 2026: Tomb origins"
+   ],
+   "until": "2026-11-17",
+   "score": 7
+  },
+  "added": "2026-11-15"
  }
 ]

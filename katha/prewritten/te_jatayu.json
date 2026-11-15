@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "రాముడు 'లే పక్షి' అన్న చోటే లేపాక్షి అయిందా?",
+  "hook_text": "రావణుడికి అడ్డుపడిన ముసలి గద్ద",
+  "kicker": "రామాయణ కథ",
+  "sentences": [
+   "సీతమ్మను ఎత్తుకెళ్తున్న రావణుడికి ఒక ముసలి గద్ద అడ్డుపడింది.",
+   "కొత్త రామాయణం సినిమాలో కనిపించే జటాయువు ఆయనే.",
+   "రామాయణం ప్రకారం జటాయువు దశరథ మహారాజుకి పాత స్నేహితుడు.",
+   "బాగా వయసైపోయినా, సీతమ్మను కాపాడాలని రావణుడితో పోరాడాడు.",
+   "రావణుడు ఆయన రెక్కలు తెగ్గొట్టాడు, జటాయువు నేలకు ఒరిగాడు.",
+   "వెతుక్కుంటూ వచ్చిన రామలక్ష్మణులకు, రావణుడు దక్షిణం వైపు వెళ్ళాడని చెప్పి కన్నుమూశాడు.",
+   "ఆయనకు అంత్యక్రియలు చేసింది స్వయంగా శ్రీరాముడే.",
+   "ఆయన పడిన చోటు లేపాక్షి అని నమ్మకం, రాముడు అక్కడ 'లే పక్షి' అన్నాడట.",
+   "ఆ ఒక్క తెలుగు మాటే ఇప్పటికీ ఆ ఊరి పేరు."
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "సీతమ్మ కోసం రావణుడితో పోరాడిన జటాయువు కథ.\nలేపాక్షి పేరు వెనక ఉన్న నమ్మకం ఇదే.",
+  "hashtags": [
+   "Ramayana",
+   "జటాయువు",
+   "Lepakshi",
+   "లేపాక్షి",
+   "RamayanaPart1"
+  ],
+  "visuals": [
+   "Jatayu Ravana painting Raja Ravi Varma",
+   "Lepakshi Jatayu bird sculpture",
+   "Lepakshi temple Andhra Pradesh"
+  ],
+  "claims_en": [
+   "In the Ramayana, Jatayu, a demigod in the form of a vulture, tried to stop Ravana as he abducted Sita.",
+   "Jatayu appears in the 2026 film Ramayana: Part 1.",
+   "According to the Ramayana, Jatayu was an old friend of King Dasharatha.",
+   "Jatayu was very old when he fought Ravana to rescue Sita.",
+   "Ravana clipped Jatayu's wings and Jatayu fell to the earth.",
+   "Rama and Lakshmana, searching for Sita, found the dying Jatayu, who told them Ravana had headed south, and then he died.",
+   "Rama performed Jatayu's funeral rites.",
+   "Lepakshi in Andhra Pradesh is attributed as the place where Jatayu fell; Rama is said to have told the bird 'Le Pakshi' (Get up, bird, in Telugu).",
+   "That phrase is held to be the origin of the village's name."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-15T00:50+00:00",
+ "for_slot": "trend 2026-11-15"
+}

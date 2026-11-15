@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "ಜಟಾಯುವನ್ನು ಸೂರ್ಯನಿಂದ ಉಳಿಸಿದ ಅಣ್ಣ ಸಂಪಾತಿ",
+  "hook_text": "ರಾವಣನಿಗೆ ಅಡ್ಡ ಬಂದ ಮುದಿ ಹದ್ದು",
+  "kicker": "ರಾಮಾಯಣ ಕಥೆ",
+  "sentences": [
+   "ಸೀತಾಮಾತೆಯನ್ನು ಹೊತ್ತೊಯ್ಯುತ್ತಿದ್ದ ರಾವಣನಿಗೆ ಒಂದು ಮುದಿ ಹದ್ದು ಅಡ್ಡ ಬಂತು.",
+   "ಹೊಸ ರಾಮಾಯಣ ಸಿನಿಮಾದಲ್ಲಿ ಬರುವ ಜಟಾಯು ಇವರೇ.",
+   "ರಾಮಾಯಣದ ಪ್ರಕಾರ ಜಟಾಯು ದಶರಥ ಮಹಾರಾಜರ ಹಳೆಯ ಸ್ನೇಹಿತ.",
+   "ಚಿಕ್ಕವರಿದ್ದಾಗ ಅಣ್ಣ ಸಂಪಾತಿ ಜೊತೆ ಪಣ ಕಟ್ಟಿ ಸೂರ್ಯನ ಕಡೆ ಹಾರಿದ್ದರು.",
+   "ಜಟಾಯುವಿನ ರೆಕ್ಕೆ ಸುಡತೊಡಗಿದಾಗ, ಸಂಪಾತಿ ತನ್ನ ರೆಕ್ಕೆ ಅಡ್ಡ ಹಿಡಿದು ತಾನೇ ಸುಟ್ಟುಕೊಂಡ.",
+   "ವಯಸ್ಸಾದ ಮೇಲೆ ಸೀತೆಯನ್ನು ಉಳಿಸಲು ಹೋರಾಡಿದಾಗ, ರಾವಣ ಜಟಾಯುವಿನ ರೆಕ್ಕೆ ಕತ್ತರಿಸಿದ.",
+   "ಹುಡುಕುತ್ತಾ ಬಂದ ರಾಮ ಲಕ್ಷ್ಮಣರಿಗೆ ರಾವಣ ದಕ್ಷಿಣಕ್ಕೆ ಹೋದ ಅಂತ ಹೇಳಿ ಪ್ರಾಣ ಬಿಟ್ಟರು.",
+   "ಅವರ ಅಂತ್ಯಸಂಸ್ಕಾರ ಮಾಡಿದ್ದು ಸ್ವತಃ ಶ್ರೀರಾಮ.",
+   "ಆದರೆ ಅಣ್ಣ ಸಂಪಾತಿಯನ್ನು ಜಟಾಯು ಮತ್ತೆ ಯಾವತ್ತೂ ನೋಡಲೇ ಇಲ್ಲ."
+  ],
+  "cta": "ಕಾಮೆಂಟ್ ಮಾಡಿ",
+  "description": "ರಾಮಾಯಣದ ಜಟಾಯು ಮತ್ತು ಅಣ್ಣ ಸಂಪಾತಿಯ ಕಥೆ.\nಸೂರ್ಯನಿಂದ ರಾವಣನವರೆಗೆ ಎರಡು ಜೋಡಿ ರೆಕ್ಕೆಗಳ ಕಥೆ.",
+  "hashtags": [
+   "Ramayana",
+   "ಜಟಾಯು",
+   "RamayanaPart1",
+   "ರಾಮಾಯಣ",
+   "Jatayu"
+  ],
+  "visuals": [
+   "Jatayu Ravana painting Raja Ravi Varma",
+   "Sampati Jatayu flight sun painting",
+   "Jatayu Earth's Center Chadayamangalam sculpture"
+  ],
+  "claims_en": [
+   "In the Ramayana, the old vulture Jatayu tried to stop Ravana as he abducted Sita.",
+   "Jatayu appears in the 2026 film Ramayana: Part 1.",
+   "According to the Ramayana, Jatayu was an old friend of King Dasharatha.",
+   "In their youth, Jatayu and his elder brother Sampati flew towards the Sun under a wager.",
+   "When Jatayu's wings began to scorch, Sampati shielded him with his own wings and had them burnt.",
+   "When the old Jatayu fought to rescue Sita, Ravana clipped his wings.",
+   "Jatayu told Rama and Lakshmana, who were searching for Sita, that Ravana had headed south, then died.",
+   "Rama performed his funeral rites.",
+   "Jatayu never met his brother Sampati again."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-15T00:50+00:00",
+ "for_slot": "trend 2026-11-16"
+}
