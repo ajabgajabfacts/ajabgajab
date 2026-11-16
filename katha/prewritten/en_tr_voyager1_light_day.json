@@ -1,0 +1,53 @@
+{
+ "script": {
+  "title": "Voyager 1 Is About to Be One Light Day From Earth",
+  "hook_text": "One full day away",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "On November 18, Voyager 1 reaches one light day from Earth.",
+   "In 2025, its signals already took over 23 hours to arrive.",
+   "NASA launched it on September 5, 1977, and the launch almost failed.",
+   "The rocket's second stage quit early, leaving 540 kilograms of fuel unburned.",
+   "The Centaur stage's computers caught it and burned far longer than planned.",
+   "In 1990 it photographed Earth as the Pale Blue Dot, then its cameras went dark.",
+   "At about 17 kilometres a second, nothing we've built is farther away.",
+   "Its plutonium may keep it talking until 2036, one day per message."
+  ],
+  "cta": "Comment below",
+  "description": "On November 18, 2026, Voyager 1 reaches one light day from Earth.\nIts 1977 launch nearly failed.",
+  "hashtags": [
+   "Voyager1",
+   "OneLightDay",
+   "NASA",
+   "PaleBlueDot",
+   "Space"
+  ],
+  "visuals": [
+   "Voyager spacecraft",
+   "Titan IIIE Centaur Voyager 1 launch",
+   "Pale Blue Dot"
+  ],
+  "claims_en": [
+   "Voyager 1 is projected to reach a distance of one light day from Earth on November 18, 2026",
+   "As of 2025, signals from Voyager 1 took more than 23 hours to reach Earth",
+   "Voyager 1 was launched by NASA on September 5, 1977",
+   "Voyager 1's launch almost failed",
+   "The Titan's LR-91 second stage shut down prematurely, leaving 540 kg (1,200 lb) of propellant unburned",
+   "The Centaur stage's on-board computers ordered a burn far longer than planned to compensate",
+   "On February 14, 1990, Voyager 1 took the family portrait including the image of Earth known as Pale Blue Dot",
+   "Soon afterward its cameras were deactivated",
+   "It travels at about 17 km/s",
+   "It is the most distant human-made object from Earth",
+   "Its RTGs are fuelled by plutonium-238 and may supply enough power to return engineering data until 2036"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-16T00:24Z",
+ "for_slot": "trend 2026-11-16"
+}
