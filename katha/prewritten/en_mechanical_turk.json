@@ -1,0 +1,56 @@
+{
+ "script": {
+  "title": "How a Chess Machine Hid a Human Master for 84 Years",
+  "hook_text": "The chess machine that cheated",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "A machine in a turban won most of its chess games.",
+   "Wolfgang von Kempelen built it in 1770 to impress Empress Maria Theresa.",
+   "Before games he opened every door to show the gears.",
+   "He let a big magnet sit by the board, to show magnetism played no part.",
+   "Its opponents included Napoleon Bonaparte and Benjamin Franklin.",
+   "One old lady hid in a window seat, sure an evil spirit lived inside.",
+   "Actually a chess master sat inside on a sliding seat, working the arm with levers.",
+   "The first full explanation came in 1857, after a fire had destroyed it."
+  ],
+  "cta": "Comment below",
+  "description": "An 18th-century chess automaton toured Europe for 84 years.\nThe player was a person hidden inside.",
+  "hashtags": [
+   "MechanicalTurk",
+   "chess",
+   "history",
+   "automaton",
+   "truestory"
+  ],
+  "visuals": [
+   "The Turk chess automaton Kempelen engraving",
+   "Mechanical Turk cabinet interior Racknitz",
+   "Wolfgang von Kempelen portrait"
+  ],
+  "claims_en": [
+   "The Mechanical Turk was a chess-playing machine first displayed in 1770.",
+   "The model was dressed in Ottoman robes and a turban.",
+   "The Turk won most games.",
+   "Wolfgang von Kempelen constructed it to impress Empress Maria Theresa, completing it in early 1770.",
+   "Kempelen began every showing by opening the doors and drawers of the cabinet, exposing gears and cogs.",
+   "Kempelen would often allow a large magnet to sit at the side of the board to show the machine was not influenced by magnetism.",
+   "It played games against Napoleon Bonaparte and Benjamin Franklin.",
+   "Von Windisch wrote of an old lady who hid in a window seat, believing an evil spirit possessed the machine.",
+   "A chess master hidden inside moved the pieces via levers and magnets.",
+   "A sliding seat let the operator move and evade observation.",
+   "The operator moved the Turk's arm with a lever mechanism (pantograph).",
+   "It was destroyed in a fire in 1854.",
+   "In 1857 an article by the owner's son gave the first full explanation of the mechanism.",
+   "It was exhibited as an automaton for 84 years."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-16T19:45Z",
+ "for_slot": "2026-11-17 slot 5"
+}

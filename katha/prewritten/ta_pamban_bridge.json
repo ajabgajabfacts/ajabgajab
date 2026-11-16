@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "ஒவ்வொரு பாதியும் 415 டன்: கையால் திறந்த பாம்பன் பாலம்",
+  "hook_text": "கப்பல் வந்தால் பிரியும் பாலம்",
+  "kicker": "உண்மைக் கதை",
+  "sentences": [
+   "கப்பல் வந்தால் நடுவில் பிரிந்து மேலே எழும் ஒரு கடல் ரயில் பாலம்.",
+   "அதுதான் ராமேஸ்வரத்தையும் மண்டபத்தையும் இணைத்த பாம்பன் பாலம்.",
+   "1914 பிப்ரவரி 24 அன்று திறக்கப்பட்ட இது, இந்தியாவின் முதல் கடல் பாலம்.",
+   "143 தூண்கள், 2,065 மீட்டர் நீளம்.",
+   "நடுவில் தூக்கும் பகுதியின் ஒவ்வொரு பாதியும் 415 டன் எடை.",
+   "இவ்வளவு எடையைத் தூக்கப் பெரிய மோட்டார் இருந்திருக்கும் என்று தோன்றும்.",
+   "இல்லை, ஆட்கள் கையால் நெம்புகோல்களை இயக்கித்தான் திறந்தார்கள், ஒவ்வொரு பாதிக்கும் 45 நிமிடம் ஆனது.",
+   "2026-ல் பழைய பாலத்தைப் பிரிக்கும் திட்டம் தொடங்குவதும் அதே நடுப் பகுதியிலிருந்துதான்."
+  ],
+  "cta": "கீழே கமெண்ட் பண்ணுங்க",
+  "description": "இந்தியாவின் முதல் கடல் பாலம், நடுவில் பிரிந்து கப்பலுக்கு வழி விடும்.\n415 டன் பாதிகளை ஆட்கள் கையால் திறந்தார்கள்.",
+  "hashtags": [
+   "பாம்பன்பாலம்",
+   "ராமேஸ்வரம்",
+   "PambanBridge",
+   "Rameswaram",
+   "IndianRailways"
+  ],
+  "visuals": [
+   "Pamban Bridge bascule section raised",
+   "Pamban rail bridge Rameswaram",
+   "Pamban Bridge piers sea"
+  ],
+  "claims_en": [
+   "Pamban Bridge was a railway bridge with a double-leaf bascule section midway that could be raised to let ships pass.",
+   "It connected Rameswaram on Pamban Island with Mandapam on the mainland.",
+   "It opened on 24 February 1914.",
+   "It was India's first sea bridge.",
+   "The bridge had 143 piers.",
+   "The bridge was 2,065 m long.",
+   "Each half of the lifting span weighed 415 t.",
+   "The two leaves were opened manually using levers.",
+   "They took 45 minutes each to lift and drop.",
+   "In January 2026 Indian Railways announced plans to dismantle the old bridge starting with the central span and the bascule section."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-16T19:45Z",
+ "for_slot": "2026-11-17 slot 6"
+}
