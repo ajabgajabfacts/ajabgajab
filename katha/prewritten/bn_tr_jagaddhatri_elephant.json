@@ -1,0 +1,53 @@
+{
+ "script": {
+  "title": "জগদ্ধাত্রীর সিংহের নিচে হাতি কেন? উত্তর কাত্যায়নী তন্ত্রে",
+  "hook_text": "সিংহের নিচে হাতিটা কে?",
+  "kicker": "পুরাণকথা",
+  "sentences": [
+   "জগদ্ধাত্রীর সিংহের পায়ের নিচে একটা হাতি পড়ে থাকে, খেয়াল করেছেন?",
+   "কৃষ্ণনগর থেকে চন্দননগর, কার্তিক মাসের শুক্লা নবমীতে এই রূপেই মা পুজো পান।",
+   "হাতিটা কোথা থেকে এল, তার উত্তর আছে কাত্যায়নী তন্ত্রের এক কাহিনিতে।",
+   "মহিষাসুর বধের পর অগ্নি, বায়ু, বরুণ আর চন্দ্র ভাবলেন, তাঁরাই অজেয়।",
+   "দেবী তাঁদের শুধু একটা ছোট্ট ঘাস নড়াতে বললেন।",
+   "বায়ু সেটা তুলতে পারলেন না, অগ্নি পোড়াতেও পারলেন না।",
+   "কোনো দেবতাই পারলেন না, তখন বুঝলেন সব শক্তির উৎস দেবী নিজেই।",
+   "এরপর দেবী উমা রূপে সিংহের পিঠে দেখা দিলেন, আর দেবতাদের অহংকারকে দিলেন হাতির রূপ।",
+   "তাই এবার ঠাকুর দেখতে গিয়ে হাতিটা চোখে পড়লে জানবেন, ওটা দেবতাদেরই অহংকার।"
+  ],
+  "cta": "কমেন্টে লিখুন",
+  "description": "জগদ্ধাত্রীর সিংহের নিচে হাতি কেন থাকে?\nকাত্যায়নী তন্ত্রের কাহিনি অনুযায়ী উত্তর।",
+  "hashtags": [
+   "জগদ্ধাত্রীপুজো",
+   "JagaddhatriPuja",
+   "Chandannagar",
+   "Krishnanagar",
+   "বাংলা"
+  ],
+  "visuals": [
+   "Jagaddhatri idol",
+   "Chandannagar Jagaddhatri Puja",
+   "Krishnanagar Jagaddhatri"
+  ],
+  "claims_en": [
+   "Jagaddhatri is depicted sitting on a lion with an elephant under them",
+   "Jagaddhatri Puja is famous in Krishnanagar and Chandannagar",
+   "She is worshipped in the Shukla Paksha of Kartika, especially on the Navami tithi",
+   "The legend is told in the Katyayani Tantra",
+   "After Durga killed Mahishasura, Agni, Vayu, Varuna and Chandra considered themselves invincible",
+   "The goddess asked them to move a tiny blade of grass",
+   "Vayu failed to pluck it and Agni failed to burn it",
+   "Every god failed and they understood the Goddess is the source of all power",
+   "The goddess appeared before them as Uma, riding on a lion",
+   "The goddess gave the ego of the gods the form of an elephant"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-17T00:23Z",
+ "for_slot": "trend 2026-11-17"
+}

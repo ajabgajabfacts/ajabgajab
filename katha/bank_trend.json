@@ -211,5 +211,58 @@
    "score": 8
   },
   "added": "2026-11-16"
+ },
+ {
+  "key": "tr_jagaddhatri_elephant",
+  "lang": "bn",
+  "kind": "myth",
+  "wiki": [
+   "Jagaddhatri",
+   "Jagaddhatri Puja"
+  ],
+  "art": [
+   "Jagaddhatri idol",
+   "Chandannagar Jagaddhatri Puja",
+   "Krishnanagar Jagaddhatri"
+  ],
+  "angle": "the elephant under Jagaddhatri's lion is, by the Katyayani Tantra legend, the ego of the gods, who could not even move a blade of grass",
+  "trend": {
+   "why": "Jagaddhatri Puja Navami is Wednesday 18 Nov; Chandannagar and Krishnanagar are Bengal's big festival of the week (puja runs 16-19 Nov)",
+   "signals": [
+    "Drik Panchang: Jagaddhatri Puja 18 Nov 2026 (Kartik Shukla Navami)",
+    "hindutone: Jagaddhatri Puja 2026 date 18 November, Chandannagar and Krishnanagar traditions",
+    "Krishnanagar Nuripara Barowari rituals 16-19 Nov 2026",
+    "en.wikipedia Jagaddhatri Puja: Chandannagar procession second largest in the world after Rio"
+   ],
+   "until": "2026-11-19",
+   "score": 7
+  },
+  "added": "2026-11-17"
+ },
+ {
+  "key": "tr_leonids_1833",
+  "lang": "en",
+  "kind": "space",
+  "wiki": [
+   "Leonids"
+  ],
+  "art": [
+   "Leonid meteor storm 1833",
+   "Leonids meteor",
+   "Comet Tempel-Tuttle"
+  ],
+  "angle": "in the 1833 Leonid storm, by one estimate over 100,000 meteors an hour fell over North America; the Lakota reset their calendar by it, and it proved meteors come from space",
+  "trend": {
+   "why": "the Leonid meteor shower peaks the night of 17-18 Nov 2026; US outlets run 'how to watch tonight' pieces",
+   "signals": [
+    "Space.com: Leonid maximum predicted Nov 17, 6:45 p.m. EST",
+    "EarthSky: Leonids peak 0 UTC Nov 18, 2026",
+    "IMO calendar: Leonids peak Nov 17",
+    "Farmers' Almanac / RMG: Leonid 2026 viewing guides"
+   ],
+   "until": "2026-11-18",
+   "score": 7
+  },
+  "added": "2026-11-17"
  }
 ]
