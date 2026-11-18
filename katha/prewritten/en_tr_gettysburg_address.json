@@ -1,0 +1,55 @@
+{
+ "script": {
+  "title": "Lincoln Spoke 271 Words After a Two-Hour Speech",
+  "hook_text": "He talked for two hours",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "The star speaker at Gettysburg talked for two hours.",
+   "It was November 19, 1863, and about 15,000 people came to dedicate a cemetery.",
+   "Edward Everett's oration ran 13,607 words.",
+   "The other guest was only asked for a few appropriate remarks.",
+   "He'd felt weak on the train, and dizzy that morning.",
+   "An aide wrote that his face had a ghastly color.",
+   "Abraham Lincoln stood up and spoke 271 words in about two minutes.",
+   "Heading home he was feverish, and was later diagnosed with mild smallpox.",
+   "Everett's speech is seldom read now; Lincoln's opens with four score and seven years ago."
+  ],
+  "cta": "Comment below",
+  "description": "On November 19, 1863, the main speech at Gettysburg lasted two hours.\nLincoln's came after it: 271 words, from a man about to be diagnosed with smallpox.",
+  "hashtags": [
+   "GettysburgAddress",
+   "Lincoln",
+   "Gettysburg",
+   "History",
+   "AmericanHistory"
+  ],
+  "visuals": [
+   "Gettysburg Address Lincoln photograph",
+   "Edward Everett portrait",
+   "Soldiers' National Cemetery Gettysburg"
+  ],
+  "claims_en": [
+   "Edward Everett's oration, the main speech of the day at Gettysburg, lasted two hours",
+   "The dedication was on November 19, 1863",
+   "About 15,000 people gathered",
+   "It was the dedication of Soldiers' National Cemetery on the grounds where the battle was fought",
+   "Everett's speech was 13,607 words and was well received by the crowd",
+   "Lincoln was invited to set apart the grounds with 'a few appropriate remarks' after the oration",
+   "Lincoln told John Hay during the trip on November 18 that he felt weak, and told Nicolay the next morning he felt dizzy",
+   "Hay noted that Lincoln's face had 'a ghastly color'",
+   "Lincoln's speech was 271 words and lasted about two minutes",
+   "After the speech, on the train back, Lincoln was feverish and weak; he was later diagnosed with a mild case of smallpox",
+   "Everett's speech is now seldom read",
+   "Lincoln's speech begins 'Four score and seven years ago'"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-18T00:52Z",
+ "for_slot": "trend 2026-11-19"
+}

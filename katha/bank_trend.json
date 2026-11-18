@@ -264,5 +264,56 @@
    "score": 7
   },
   "added": "2026-11-17"
+ },
+ {
+  "key": "tr_pushkar_brahma",
+  "lang": "hi",
+  "kind": "myth",
+  "wiki": [
+   "Brahma Temple, Pushkar",
+   "Pushkar Fair"
+  ],
+  "art": [
+   "Brahma Temple Pushkar",
+   "Pushkar Lake ghats",
+   "Savitri temple Pushkar Ratnagiri"
+  ],
+  "angle": "Brahma has very few temples; legend says Savitri cursed him to be worshipped only at Pushkar, where householders may not enter the sanctum",
+  "trend": {
+   "why": "Pushkar Mela is running 17-24 Nov and builds to the Kartik Purnima bath; the Hindi belt is watching Pushkar this week",
+   "signals": [
+    "Pushkar Camel Fair 2026: 17-24 Nov (Esquire India, Rajasthan Tourism calendar)",
+    "Kartik Purnima holy bath 24 Nov 2026",
+    "hi.wikipedia top list led by Ramayana/Kartik festival topics (radar 11-14)"
+   ],
+   "until": "2026-11-22",
+   "score": 7
+  },
+  "added": "2026-11-19"
+ },
+ {
+  "key": "tr_gettysburg_address",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Gettysburg Address"
+  ],
+  "art": [
+   "Gettysburg Address Lincoln photograph",
+   "Edward Everett portrait",
+   "Soldiers' National Cemetery Gettysburg"
+  ],
+  "angle": "the main speaker talked for two hours and 13,607 words; Lincoln, coming down with smallpox, spoke 271 words in about two minutes",
+  "trend": {
+   "why": "Nov 19 is the 163rd anniversary; Gettysburg is fully recreating Lincoln's visit (train arrival Nov 18, ceremony Nov 19) for America250",
+   "signals": [
+    "NPS Dedication Day 2026: 'Lincoln at Gettysburg: Shall Not Perish' recreation, Nov 18-19",
+    "NPR Illinois: Lincoln Presidential Library free admission Nov 19 for the anniversary",
+    "America250 year"
+   ],
+   "until": "2026-11-20",
+   "score": 7
+  },
+  "added": "2026-11-19"
  }
 ]
