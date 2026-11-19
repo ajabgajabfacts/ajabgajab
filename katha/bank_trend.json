@@ -315,5 +315,83 @@
    "score": 7
   },
   "added": "2026-11-19"
+ },
+ {
+  "key": "tr_pundalik_brick",
+  "lang": "mr",
+  "kind": "myth",
+  "wiki": [
+   "Pundalik",
+   "Vithoba"
+  ],
+  "art": [
+   "Vithoba Pandharpur",
+   "Pundalik temple Pandharpur",
+   "Vithoba Rukmini painting"
+  ],
+  "angle": "in the legend, Krishna waited standing on a brick Pundalik threw out so he would not interrupt serving his parents, and Vitthala is read as 'the one standing on a brick'",
+  "trend": {
+   "why": "Kartiki Ekadashi is 20-21 Nov (Pandharpur yatra listed for 21 Nov); Maharashtra's Varkaris converge on Pandharpur for Vithoba",
+   "signals": [
+    "Drik Panchang via hindutone/hindupad: Kartiki (Prabodhini) Ekadashi 20 Nov Smarta, 21 Nov Vaishnava; Pandharpur Kartik Ekadashi Yatra 21 Nov",
+    "mr slot 2 on 2026-11-20 already rotates to Marathi",
+    "previous Vithoba Short (Panduranga name) is a different story"
+   ],
+   "until": "2026-11-21",
+   "score": 8
+  },
+  "added": "2026-11-20"
+ },
+ {
+  "key": "tr_chembai_guruvayur",
+  "lang": "ml",
+  "kind": "art",
+  "wiki": [
+   "Chembai Vaidyanatha Bhagavatar",
+   "Guruvayur Temple"
+  ],
+  "art": [
+   "Chembai Vaidyanatha Bhagavatar",
+   "Guruvayur Temple",
+   "Chembai Sangeetholsavam"
+  ],
+  "angle": "the great singer who reportedly lost his voice in 1952 and could not chant Guruvayurappan's name, recovered, and began the Ekadasi music festival Guruvayur still holds in his name",
+  "trend": {
+   "why": "Guruvayur Ekadasi is Sat 21 Nov 2026 and the Chembai Sangeetholsavam culminates that day; Kerala's Krishna devotees and Carnatic listeners follow it",
+   "signals": [
+    "hindutone (Drik Panchang): Guruvayur Ekadashi 21 Nov 2026",
+    "Chembai Sangeetholsavam runs about 12-15 days ending on Guruvayur Ekadasi",
+    "Mandala season (Sabarimala) already has Kerala temple interest up"
+   ],
+   "until": "2026-11-21",
+   "score": 7
+  },
+  "added": "2026-11-20"
+ },
+ {
+  "key": "tr_tulasi_kalyanam",
+  "lang": "te",
+  "kind": "myth",
+  "wiki": [
+   "Tulasi Vivaha",
+   "Tulasi in Hinduism"
+  ],
+  "art": [
+   "Tulasi Vrindavan",
+   "Tulsi Vivah",
+   "Phyllanthus emblica branch"
+  ],
+  "angle": "in Telugu homes the tulasi is dressed as a bride on Ksheerabdi Dwadasi and the groom is an amla branch worshipped as Vishnu",
+  "trend": {
+   "why": "Ksheerabdi Dwadasi (Tulasi Kalyanam) falls 21 Nov in Karthika Masam; Telugu households perform it at home",
+   "signals": [
+    "hindu-blog/hindupad calendars: 21 Nov Ksheerabdi Dwadasi - Tulsi Vivah",
+    "Prabodhini Ekadashi 20/21 Nov (Drik Panchang)",
+    "Karthika vratams (Kedareswara, Trinatha) on te.wikipedia top list 14 Nov"
+   ],
+   "until": "2026-11-21",
+   "score": 7
+  },
+  "added": "2026-11-20"
  }
 ]

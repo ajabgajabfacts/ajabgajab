@@ -1,0 +1,49 @@
+{
+ "script": {
+  "title": "తులసి కళ్యాణంలో వరుడు ఉసిరి కొమ్మ ఎందుకు?",
+  "hook_text": "తులసమ్మకు పెళ్లి, వరుడు ఎవరు?",
+  "kicker": "కథ",
+  "sentences": [
+   "క్షీరాబ్ధి ద్వాదశి నాడు తెలుగు లోగిళ్లలో ఓ పెళ్లి జరుగుతుంది.",
+   "పెళ్లికూతురు, పెరట్లోని తులసి మొక్క.",
+   "నగలతో అచ్చం వధువులా అలంకరిస్తారు.",
+   "పురాణ కథ ప్రకారం, విష్ణుభక్తురాలు వృందను వచ్చే జన్మలో పెళ్లాడతానని శ్రీమహావిష్ణువు వరమిచ్చారు.",
+   "ఆ వృందే తులసిగా భూమిపై పుట్టిందని ఓ కథ చెబుతుంది.",
+   "మరి ఈ పెళ్లిలో వరుడు ఎక్కడ?",
+   "తులసి కోటలో ఒక ఉసిరి కొమ్మ పెడతారు, తెలుగువారు ఆ కొమ్మనే విష్ణువుగా పూజిస్తారు.",
+   "మీ ఇంట్లో తులసమ్మ పక్కన ఉసిరి కొమ్మా, సాలగ్రామమా?"
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "తులసి కళ్యాణంలో వరుడు ఎవరు?\nక్షీరాబ్ధి ద్వాదశి నాడు తులసమ్మ పెళ్లి వెనుక కథ.",
+  "hashtags": [
+   "KsheerabdiDwadasi",
+   "తులసికళ్యాణం",
+   "TulasiVivah",
+   "కార్తీకమాసం",
+   "Telugu"
+  ],
+  "visuals": [
+   "Tulasi Vrindavan",
+   "Tulsi Vivah ceremony",
+   "Amla branch Phyllanthus emblica"
+  ],
+  "claims_en": [
+   "Among Telugus, Tulasi Kalyanam is mainly celebrated on Kartika Shukla Dvadashi, also called Utthana or Ksheerabdhi Dwadashi",
+   "The bride is the tulasi plant, traditionally planted in the courtyard of Hindu houses",
+   "Tulasi is decorated like a bride, complete with jewellery",
+   "Legend / popular tradition: Vrinda was a pious devotee of Vishnu, and Vishnu gave a blessing to marry Vrinda in her next birth",
+   "In a variation of the legend, Vishnu ensures that Vrinda is incarnated as the tulasi plant on earth",
+   "Among Telugus a branch of the amla tree is placed in the Tulasi Vrindavan and Vishnu is worshipped in the form of the amla plant",
+   "Elsewhere the groom is more frequently the shaligrama stone, the symbol of Vishnu"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-19T01:10Z",
+ "for_slot": "trend 2026-11-20"
+}

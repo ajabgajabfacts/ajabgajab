@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "पुंडलिकाने देवाला विटेवर उभं का ठेवलं?",
+  "hook_text": "देव विटेवर थांबला",
+  "kicker": "आख्यायिका",
+  "sentences": [
+   "देव स्वतः एका विटेवर उभा राहून भक्ताची वाट पाहत होता.",
+   "कार्तिकी एकादशीच्या निमित्ताने, पंढरपूरच्या विठोबाची ही आख्यायिका.",
+   "कथेनुसार पुंडलिक आधी बायकोच्या प्रेमात आपल्या म्हाताऱ्या आई-वडिलांकडे दुर्लक्ष करायचा.",
+   "कुक्कुट ऋषींना भेटल्यावर तो बदलला, आणि आई-वडिलांच्या सेवेलाच आयुष्य वाहिलं.",
+   "एके दिवशी रुसलेल्या रुक्मिणीला शोधत श्रीकृष्ण आले, आणि रुक्मिणीची समजूत काढून पुंडलिकाच्या दारी पोहोचले.",
+   "पुंडलिक तेव्हा आई-वडिलांची सेवा करत होता.",
+   "सेवा मध्येच न सोडता त्याने देवाला उभं राहायला एक वीट बाहेर फेकली, आणि देव सेवा संपेपर्यंत शांतपणे त्या विटेवर उभे राहिले.",
+   "प्रसन्न झालेल्या देवाकडे पुंडलिकाने एकच वर मागितला, की याच रूपात, रखुमाईसह, इथेच कायम राहा.",
+   "म्हणूनच विठ्ठल या नावाचा एक अर्थ सांगतात, विटेवर उभा असलेला."
+  ],
+  "cta": "कमेंटमध्ये सांगा",
+  "description": "आई-वडिलांच्या सेवेसाठी पुंडलिकाने देवालाही थांबवलं.\nकार्तिकी एकादशीला पंढरपूरच्या विठोबाची आख्यायिका.",
+  "hashtags": [
+   "KartikiEkadashi",
+   "पंढरपूर",
+   "विठ्ठल",
+   "Pundalik",
+   "Vithoba"
+  ],
+  "visuals": [
+   "Vithoba Pandharpur",
+   "Pundalik temple Pandharpur Chandrabhaga",
+   "Vithoba Rukmini Pandharpur painting"
+  ],
+  "claims_en": [
+   "Legend: a god (Krishna) stood on a brick waiting for a devotee (Pundalik)",
+   "Vithoba is the deity of Pandharpur",
+   "Legend (Sridhara / Padma Purana version): Pundalik, deeply in love with his wife, neglected his aged parents",
+   "Legend: after meeting the sage Kukkuta he was transformed and dedicated his life to serving them",
+   "Legend: Krishna came searching for his angry wife Rukmini who had left him, pacified her, then visited Pundalik",
+   "Legend: Krishna found Pundalik engaged in serving his parents",
+   "Legend: to avoid interrupting his service, Pundalik threw a brick outside for Krishna to stand on; Krishna waited patiently on the brick until Pundalik completed his duties",
+   "Legend: pleased, Krishna granted a boon; Pundalik asked that the deity, in the form of Vithoba standing on the brick, remain there with Rukmini (Rakhumai) forever",
+   "One explanation of the name Vitthala: vit = brick, thal = standing, so 'one standing on a brick'"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-19T01:10Z",
+ "for_slot": "trend 2026-11-20"
+}

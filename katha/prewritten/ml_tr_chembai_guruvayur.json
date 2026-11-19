@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "ശബ്ദം പോയ ചെമ്പൈ ഗുരുവായൂരിന് നൽകിയ സമ്മാനം",
+  "hook_text": "ശബ്ദം നഷ്ടപ്പെട്ട മഹാഗായകൻ",
+  "kicker": "യഥാർത്ഥ കഥ",
+  "sentences": [
+   "ഗുരുവായൂരപ്പന്റെ പേര് ജപിക്കാൻ പോലും ശബ്ദമില്ലാതെ ഒരു മഹാഗായകൻ.",
+   "1952-ൽ ചെമ്പൈ വൈദ്യനാഥ ഭാഗവതർക്ക് ശബ്ദം നഷ്ടപ്പെട്ടു എന്നാണ് പറയപ്പെടുന്നത്.",
+   "ഒമ്പതാം വയസ്സിൽ ആദ്യ കച്ചേരി പാടിയ ആളാണ്.",
+   "മൈക്ക് ഇല്ലാത്ത കാലത്ത് ഗായകന്റെ മുതൽ സ്വന്തം ശബ്ദം മാത്രമായിരുന്നു.",
+   "പിന്നെ പുലാമന്തോളിൽ പതിനെട്ട് ദിവസത്തെ ആയുർവേദ ചികിത്സ.",
+   "ശബ്ദം തെളിഞ്ഞു, അദ്ദേഹം വീണ്ടും വേദികളിലേക്ക്.",
+   "സമ്പാദ്യത്തിന്റെ വലിയൊരു പങ്ക് ഗുരുവായൂർ ക്ഷേത്രത്തിന് നൽകിയെന്നും രേഖകൾ പറയുന്നു.",
+   "എല്ലാ വർഷവും ഗുരുവായൂർ ഏകാദശിക്ക് അദ്ദേഹം അവിടെ ഒരു സംഗീതോത്സവം നടത്തി.",
+   "ഇന്ന് ദേവസ്വം തന്നെ നടത്തുന്ന ചെമ്പൈ സംഗീതോത്സവം അതാണ്."
+  ],
+  "cta": "കമന്റ് ചെയ്യൂ",
+  "description": "ശബ്ദം നഷ്ടപ്പെട്ട ചെമ്പൈ ഭാഗവതരുടെ കഥ.\nഗുരുവായൂർ ഏകാദശിയും ചെമ്പൈ സംഗീതോത്സവവും.",
+  "hashtags": [
+   "GuruvayurEkadasi",
+   "ഗുരുവായൂർ",
+   "ChembaiSangeetholsavam",
+   "ചെമ്പൈ",
+   "Carnatic"
+  ],
+  "visuals": [
+   "Chembai Vaidyanatha Bhagavatar",
+   "Guruvayur Temple",
+   "Chembai Sangeetholsavam Guruvayur"
+  ],
+  "claims_en": [
+   "In 1952 Chembai Vaidyanatha Bhagavatar reportedly lost his voice and was unable to chant the name of his favourite deity, Guruvayurappan",
+   "Chembai was a great Carnatic singer",
+   "His first public performance was in 1904, when he was nine",
+   "In the days before the concert microphone a singer depended entirely on his voice",
+   "He underwent an 18-day course of Ayurvedic treatment at Pulamanthole",
+   "After treatment his voice improved markedly and he resumed performing",
+   "Historical accounts state he thereafter donated a substantial portion of his earnings to the Guruvayur Temple",
+   "Chembai held a music festival on Guruvayur Ekadasi day at Guruvayur every year",
+   "That festival is now called Chembai Sangeetholsavam and is officially conducted by the Guruvayur Devaswom Board"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-19T01:10Z",
+ "for_slot": "trend 2026-11-20"
+}
