@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "लोणारचं विवर कुणी खोदलं? वीस लाख टनांच्या उल्केने",
+  "hook_text": "चंद्रासारखी माती, बुलढाण्यात",
+  "kicker": "खरी गोष्ट",
+  "sentences": [
+   "बुलढाण्यातल्या एका विवराच्या मातीत चंद्रावरच्या दगडांसारखी खनिजं सापडली आहेत.",
+   "२०१९ मध्ये आयआयटी बॉम्बेच्या अभ्यासात हे समोर आलं, आणि ते विवर म्हणजे आपलं लोणार.",
+   "हे विवर अठराशे मीटर रुंद आणि दीडशे मीटर खोल आहे, आणि त्याच्या तळाशी खाऱ्या पाण्याचं सरोवर आहे.",
+   "आधी असं मानलं जायचं की हा एखाद्या ज्वालामुखीचा खड्डा असेल.",
+   "आजूबाजूचा सगळा खडकही लाव्हापासून बनलेला दख्खनचा बेसाल्टच आहे.",
+   "पण विवराच्या तळाखालून काढलेल्या नमुन्यांत भयंकर धक्क्याच्या खुणा सापडल्या.",
+   "खरं उत्तर आकाशातून आलं होतं, वीस लाख टनांची एक उल्का प्रचंड वेगाने इथे आदळली होती.",
+   "पूर्णपणे बेसाल्टमध्ये तयार झालेलं असं उल्का-विवर जगात हे एकच आहे.",
+   "चंद्रावरचे दगड आणायला अपोलो मोहिमा लागल्या, त्यांच्यासारखी खनिजं बुलढाण्यात आधीच पडून होती."
+  ],
+  "cta": "कमेंटमध्ये सांगा",
+  "description": "बुलढाण्यातलं लोणार सरोवर एका उल्केच्या धडकेने बनलं.\nजगात असं विवर हे एकच.",
+  "hashtags": [
+   "लोणार",
+   "LonarLake",
+   "महाराष्ट्र",
+   "Meteorite",
+   "बुलढाणा"
+  ],
+  "visuals": [
+   "Lonar crater lake aerial",
+   "Lonar Lake Buldhana",
+   "Lonar crater rim basalt"
+  ],
+  "claims_en": [
+   "A 2019 study by IIT Bombay found minerals in soil samples from the Lonar crater similar to those in lunar rocks brought to Earth by the Apollo missions",
+   "Lonar crater is in Buldhana district, Maharashtra",
+   "The crater is 1.8 km (1800 m) in diameter and 150 m deep",
+   "The crater holds a saline lake",
+   "The lake was initially thought to be of volcanic origin",
+   "The surrounding rock is Deccan basalt formed from lava flows (Deccan Traps)",
+   "Drill cores beneath the crater floor yielded evidence of shock metamorphism from the impact",
+   "The crater was formed by the hypervelocity impact of a two million tonne meteorite",
+   "Lonar is the only terrestrial impact crater in the world formed entirely within basalt"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-20T19:44Z",
+ "for_slot": "2026-11-21 slot 1"
+}
