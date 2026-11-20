@@ -393,5 +393,30 @@
    "score": 7
   },
   "added": "2026-11-20"
+ },
+ {
+  "key": "tr_john_madden_bus",
+  "lang": "en",
+  "kind": "sport",
+  "wiki": [
+   "John Madden"
+  ],
+  "art": [
+   "John Madden broadcaster",
+   "Oakland Raiders 1970s",
+   "Thanksgiving turkey drumsticks"
+  ],
+  "angle": "Madden's Thanksgiving award was a 'nuclear turkey' with up to eight drumsticks for the winners, and since 2022 the NFL names its whole Thanksgiving tripleheader after him",
+  "trend": {
+   "why": "the Madden biopic (Nicolas Cage as Madden, Christian Bale as Al Davis) premiered on Prime Video 18 Nov, and Thanksgiving NFL games, which Madden made famous with his turducken, are on 26 Nov",
+   "signals": [
+    "Amazon/NBC Sports: 'Madden' Prime Video debut 18 Nov 2026",
+    "en.wikipedia John Madden article already lists the Nov 2026 Prime release",
+    "Thanksgiving Day NFL games 26 Nov"
+   ],
+   "until": "2026-11-25",
+   "score": 7
+  },
+  "added": "2026-11-21"
  }
 ]
