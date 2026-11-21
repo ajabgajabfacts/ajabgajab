@@ -1,0 +1,52 @@
+{
+ "script": {
+  "title": "କାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମାରେ ହିଁ ସାଧବମାନେ ବାଲି କାହିଁକି ଯାଉଥିଲେ",
+  "hook_text": "ବାଲି ଯାଉଥିଲେ ଓଡ଼ିଆ ସାଧବ",
+  "kicker": "ସତ କାହାଣୀ",
+  "sentences": [
+   "ଓଡ଼ିଆ ସାଧବମାନେ ଦିନେ ବୋଇତରେ ବସି ବାଲି ଦ୍ୱୀପ ଯାଉଥିଲେ।",
+   "ଜାଭା, ସୁମାତ୍ରା, ବୋର୍ନିଓ ଆଉ ଶ୍ରୀଲଙ୍କା ବି ଯାଉଥିଲେ, ବେପାର ପାଇଁ।",
+   "ସେମାନଙ୍କ ଜାହାଜର ନାଁ ବୋଇତ, ଆଉ ତା'ର ବଡ଼ କପଡ଼ା ପାଲର ନାଁ ଅଝଳା।",
+   "ହେଲେ ଏତେ ଲମ୍ବା ଯାତ୍ରା ଯେକୌଣସି ଦିନ ଆରମ୍ଭ ହେଉନଥିଲା।",
+   "ସାଧବମାନେ ଅପେକ୍ଷା କରୁଥିଲେ କାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମାକୁ।",
+   "କାରଣ ସେତେବେଳେ ଅନୁକୂଳ ପବନ ବହେ, ଆଉ ସେଇ ପବନ ଅଝଳାରେ ଭରି ବୋଇତକୁ ଆଗକୁ ଠେଲି ନେଉଥିଲା।",
+   "ସେଇ ଦିନକୁ ମନେ ପକାଇ କଟକର ମହାନଦୀ କୂଳରେ ବାଲିଯାତ୍ରା ବସେ, ଯାହାକୁ ଏସିଆର ସବୁଠୁ ବଡ଼ ଖୋଲା ବାଣିଜ୍ୟ ମେଳା ମଧ୍ୟରୁ ଗୋଟିଏ ବୋଲି ଧରାଯାଏ।",
+   "ଭୋରରୁ ଲୋକେ କାଗଜ, କଦଳୀ ପଟୁଆ ଆଉ କର୍କରେ ତିଆରି ଛୋଟ ଡଙ୍ଗାରେ ପାନ ଆଉ ଦୀପ ରଖି ପାଣିରେ ଭସାନ୍ତି, ଗାଆନ୍ତି ଆ କା ମା ବୈ।",
+   "ମାନେ ସାଧବଙ୍କ ବୋଇତ ଆଜି ବି ଭାସୁଛି, କେବଳ ଆକାର ଟିକିଏ ଛୋଟ ହୋଇଯାଇଛି।"
+  ],
+  "cta": "କମେଣ୍ଟରେ କୁହନ୍ତୁ",
+  "description": "ଓଡ଼ିଆ ସାଧବମାନେ ବୋଇତରେ ବାଲି, ଜାଭା, ସୁମାତ୍ରା ଯାଉଥିଲେ।\nକାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମାରେ ହିଁ ଯାତ୍ରା କାହିଁକି? ବାଲିଯାତ୍ରାର ଅସଲ କାହାଣୀ।",
+  "hashtags": [
+   "BaliJatra",
+   "ବାଲିଯାତ୍ରା",
+   "BoitaBandana",
+   "Odisha",
+   "KartikaPurnima"
+  ],
+  "visuals": [
+   "Bali Jatra Cuttack",
+   "Boita Bandana paper boats Odisha",
+   "Mahanadi river Cuttack"
+  ],
+  "claims_en": [
+   "Ancient Odia mariners (sadhabas) sailed to Bali.",
+   "They also sailed to Java, Sumatra, Borneo and Sri Lanka for trade.",
+   "Their vessels were called boitas and the big fabric sails were called ajhala.",
+   "The voyage began on Kartika Purnima, considered the auspicious time.",
+   "They set out then to take advantage of the favourable wind blowing at that time; the ajhala sails harnessed the wind to move the boitas.",
+   "Bali Jatra is held at Cuttack on the Mahanadi river to mark that day.",
+   "It is considered one of Asia's largest open trade fairs.",
+   "Early in the morning people float toy boats made of coloured paper, dried banana bark and cork, carrying paan and lit lamps.",
+   "People sing 'Aa ka ma boi' to remember Odisha's maritime history."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-21T00:55Z",
+ "for_slot": "trend 2026-11-23"
+}

@@ -418,5 +418,80 @@
    "score": 7
   },
   "added": "2026-11-21"
+ },
+ {
+  "key": "tr_bali_jatra_sadhaba",
+  "lang": "or",
+  "kind": "history",
+  "wiki": [
+   "Bali Jatra"
+  ],
+  "art": [
+   "Bali Jatra Cuttack",
+   "Boita Bandana paper boats Odisha",
+   "Mahanadi river Cuttack"
+  ],
+  "angle": "Odia sadhabas sailed boitas to Bali, Java, Sumatra, Borneo and Sri Lanka, setting out on Kartika Purnima because that is when the favourable wind blew, and Odias still float toy boats with paan and lamps that morning",
+  "trend": {
+   "why": "Bali Jatra and Boita Bandana start on Kartika Purnima, 24 Nov, with the President inaugurating the Cuttack fair",
+   "signals": [
+    "OdishaBytes: 'President Droupadi Murmu to inaugurate Kataka Bali Jatra on Nov 24'",
+    "Drishti IAS: Bali Jatra 2026, 24 Nov - 1 Dec on the Mahanadi",
+    "Kartika Purnima = Tue 24 Nov 2026 (Drik Panchang)"
+   ],
+   "until": "2026-11-24",
+   "score": 8
+  },
+  "added": "2026-11-23"
+ },
+ {
+  "key": "tr_dev_deepawali_1991",
+  "lang": "hi",
+  "kind": "place",
+  "wiki": [
+   "Dev Deepavali (Varanasi)"
+  ],
+  "art": [
+   "Dev Deepawali Varanasi ghats lamps",
+   "Dashashwamedh Ghat aarti",
+   "Varanasi ghats diyas night"
+  ],
+  "angle": "more than a million lamps light every ghat from Ravidas Ghat to Rajghat on the 'Diwali of the gods', yet the lamp-lighting tradition only began in 1991 at Dashashwamedh Ghat, started by Babu Maharaj",
+  "trend": {
+   "why": "Dev Deepawali in Varanasi falls on Kartik Purnima, 24 Nov, the biggest Hindi-belt moment of the week after Chhath",
+   "signals": [
+    "Kartik Purnima = Tue 24 Nov 2026 (Drik Panchang)",
+    "hi.wikipedia 14 Nov: Chhath Puja #3 and Ramayana (2026 film) #1 show festival/myth demand",
+    "Ganga Mahotsav runs Prabodhini Ekadashi to Kartik Purnima"
+   ],
+   "until": "2026-11-24",
+   "score": 8
+  },
+  "added": "2026-11-23"
+ },
+ {
+  "key": "tr_db_cooper_jump",
+  "lang": "en",
+  "kind": "mystery",
+  "wiki": [
+   "D. B. Cooper"
+  ],
+  "art": [
+   "D. B. Cooper FBI sketch",
+   "Northwest Orient Boeing 727",
+   "D. B. Cooper ransom money found 1980"
+  ],
+  "angle": "on Thanksgiving Eve 1971 a man calling himself Dan Cooper hijacked a 727 with a note, took $200,000 and four parachutes, jumped from the rear stairs, and was never identified; only $6,000, found by a boy making a campfire in 1980, ever turned up",
+  "trend": {
+   "why": "24 Nov is the 55th anniversary of the only unsolved hijacking in US aviation, landing in Thanksgiving week",
+   "signals": [
+    "Hijacking date 24 Nov 1971 (Thanksgiving Eve) per en.wikipedia D. B. Cooper",
+    "Anniversary coverage every year in KOMO, KIRO, OPB (50th in 2021, 53rd in 2024)",
+    "US Thanksgiving 26 Nov 2026"
+   ],
+   "until": "2026-11-24",
+   "score": 7
+  },
+  "added": "2026-11-23"
  }
 ]
