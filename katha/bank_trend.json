@@ -493,5 +493,55 @@
    "score": 7
   },
   "added": "2026-11-23"
+ },
+ {
+  "key": "tr_franksgiving",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Franksgiving"
+  ],
+  "art": [
+   "Franklin D. Roosevelt 1939",
+   "Thanksgiving 1939 newspaper",
+   "Thanksgiving dinner 1940s"
+  ],
+  "angle": "in 1939 Roosevelt moved Thanksgiving a week early to add shopping days, so 23 states took the new date, 22 kept the old one, and Colorado, Mississippi and Texas gave holidays in both weeks",
+  "trend": {
+   "why": "Thanksgiving is Thursday 26 Nov; US searches for Thanksgiving history and date peak this week",
+   "signals": [
+    "Thanksgiving Day 2026 = Thursday 26 Nov (almanac.com, history.com)",
+    "history.com and PBS running Thanksgiving-origin features this week",
+    "radar stale since 2026-11-15 (radar.yml failing), no fresh en.wikipedia list"
+   ],
+   "until": "2026-11-26",
+   "score": 8
+  },
+  "added": "2026-11-24"
+ },
+ {
+  "key": "tr_shakta_rash_nabadwip",
+  "lang": "bn",
+  "kind": "folk",
+  "wiki": [
+   "Shakta Rash"
+  ],
+  "art": [
+   "Nabadwip Rash idol",
+   "Shantipur Rash Yatra",
+   "Nabadwip Kali idol Rash"
+  ],
+  "angle": "in Nabadwip's Rash the clay goddesses are enormous yet so light that five or six people carry them on their shoulders and even dance with them",
+  "trend": {
+   "why": "Rash Purnima is 24 Nov (Kartik Purnima); Nabadwip and Shantipur Raas Utsav runs 24-27 Nov and draws huge crowds in Nadia",
+   "signals": [
+    "Incredible India / WB Tourism: Santipur and Nabadwip Raas Utsav 24-27 Nov 2026",
+    "UNI 3 Nov 2026: Nabadwip central Raas committee revives Navami after six years",
+    "Kartik Purnima 24 Nov 2026 (Drik Panchang, hindutone)"
+   ],
+   "until": "2026-11-26",
+   "score": 7
+  },
+  "added": "2026-11-24"
  }
 ]
