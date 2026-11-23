@@ -105,6 +105,9 @@ def pick(lang, force_key=None, exclude=(), day=None, slot=-1):
     regional = [s for s in bank.S if s["lang"] == lang and (s["key"], lang) not in done]
     # "all" means pan-Indian; English is a different channel with its own world stories.
     common = [s for s in bank.S if s["lang"] == "all" and (s["key"], lang) not in done] if lang != "en" else []
+    if hi_devotional(lang, slot, day):            # Hindi devotional week: myths and saints only (see HI_DEV)
+        regional = [s for s in regional if s["kind"] in DEVOTIONAL_KINDS]
+        common = [s for s in common if s["kind"] in DEVOTIONAL_KINDS]
     n = len([r for r in ledger() if r["lang"] == lang])
     # Regional first 2 of every 3 slots: their own place/saint/king is what this audience relates to.
     pool = regional if (regional and (n % 3 != 2 or not common)) else (common or regional)
@@ -271,6 +274,18 @@ KN_DAILY = dt.date(2026, 10, 26)
 # ~100-580. Slot 2 now draws from the same weights as slot 1, with Hindi kept in at the lowest weight so it is
 # still tested. Hindi long-form (katha_long.yml) is unchanged.
 HI_OFF = dt.date(2026, 11, 1)
+# Hindi devotional week (owner 2026-11-23: "yes go for hindi too"). The Hindi myth channels lead the whole niche
+# (Dev Kathan Shorts: median ~600k views, Hindu IQ ~500k), and our Hindi was judged on the old look (temple photos,
+# place mysteries). With AI character art, character-first stories and big captions, slot 2 is Hindi and devotional
+# (myth/saint stories) every day of this window. A festival language still takes the evening slot on its day.
+# Judge ~12-01: Hindi slot-2 views vs its old median (44) and vs the other slots in the same week.
+HI_DEV = (dt.date(2026, 11, 23), dt.date(2026, 11, 30))
+DEVOTIONAL_KINDS = ("myth", "saint")
+
+
+def hi_devotional(lang, slot, day=None):
+    day = day or dt.date.today()
+    return lang == "hi" and slot == 2 and HI_DEV[0] <= day <= HI_DEV[1]
 
 
 def _done_before(day):
@@ -286,6 +301,8 @@ def slot_lang(slot, day=None):
     if slot == 3:
         return "te"
     if slot == 2 and day < HI_OFF:
+        return "hi"
+    if slot == 2 and HI_DEV[0] <= day <= HI_DEV[1] and not festivals.evening_langs(day, _done_before(day)):
         return "hi"
     # From 2026-10-26 slot 0 is Kannada every day (owner): kn is the channel's record language
     # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
