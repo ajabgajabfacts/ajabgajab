@@ -1,0 +1,53 @@
+{
+ "script": {
+  "title": "রাসে বিশাল প্রতিমা কাঁধে নিয়ে নাচত নবদ্বীপ",
+  "hook_text": "প্রতিমা কাঁধে নিয়ে নাচ",
+  "kicker": "সত্যি গল্প",
+  "sentences": [
+   "রাস পূর্ণিমায় নবদ্বীপে লোকে বিশাল মাটির প্রতিমা কাঁধে নিয়ে নাচত।",
+   "লিখে গেছেন গিরিশচন্দ্র বসু, ১৮৫৩ থেকে ১৮৬০ তিনি নবদ্বীপ, শান্তিপুর আর কৃষ্ণনগরের দারোগা ছিলেন।",
+   "রাসে সেখানে দুর্গা, কালী, জগদ্ধাত্রী আর অন্নপূর্ণার বড় বড় মূর্তির পুজো হত।",
+   "মজার ব্যাপার, লোকে একে বলত পট পুজো, কারণ গোড়ায় পুজো হত আঁকা পটে।",
+   "পরে এল মাটির প্রতিমা, আর নদিয়ার মহারাজ নিজে এসে সেরা প্রতিমাকে পুরস্কার দিতেন।",
+   "কিন্তু অত বড় মূর্তি নিয়ে নাচবে কে?",
+   "গিরিশবাবু লিখেছেন, প্রতিমাগুলো এতই হালকা যে পাঁচ-ছ'জন মিলে অনায়াসে কাঁধে তুলে নাচতে পারে।",
+   "কার্টুনিস্ট চণ্ডী লাহিড়ী বলেছিলেন, এত বিশাল হয়েও নবদ্বীপের প্রতিমা মাপে একেবারে নিখুঁত।",
+   "এত বিরাট অথচ এত হালকা ঠাকুর, এই কৌশলটা নবদ্বীপের কুমোরেরা কার কাছে শিখেছিলেন বলুন তো?"
+  ],
+  "cta": "কমেন্টে লিখুন",
+  "description": "রাস পূর্ণিমায় নবদ্বীপের শাক্ত রাস।\nবিশাল মাটির প্রতিমা, অথচ পাঁচ-ছ'জনে কাঁধে তুলে নাচত।",
+  "hashtags": [
+   "RashPurnima",
+   "নবদ্বীপ",
+   "রাসউৎসব",
+   "Nabadwip",
+   "ShaktaRash"
+  ],
+  "visuals": [
+   "Nabadwip Rash idol",
+   "Nabadwip Shakta Rash Kali idol",
+   "Nabadwip clay idol procession"
+  ],
+  "claims_en": [
+   "Shakta Rash is celebrated in Nabadwip on Kartika Purnima (Ras Purnima).",
+   "Girish Chandra Basu was a daroga of Nabadwip-Shantipur and Krishnanagar from 1853 to 1860.",
+   "He wrote about the Nabadwip Ras in his book (Sekaler Daroga Kahini).",
+   "Idols of Durga, Kali, Jagadhatri and Annapurna (and Bindhyabasini) were especially popular at the Ras.",
+   "The festival was known as Pot Puja / Pot Purnima.",
+   "In its early phase the Ras was celebrated through worship of pot (painted scrolls).",
+   "Clay idol worship gradually took root later.",
+   "The Maharaja of Nadia came to see the idols and gave awards for the outstanding idol.",
+   "Basu wrote the idols were very lightweight; five or six people could easily carry them on their shoulders and even dance with them.",
+   "Cartoonist Chandi Lahiri said Nabadwip's idols are shapely and symmetric despite their light weight and enormous proportions."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-23T00:58Z",
+ "for_slot": "trend 2026-11-24"
+}

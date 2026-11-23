@@ -543,5 +543,56 @@
    "score": 7
   },
   "added": "2026-11-24"
+ },
+ {
+  "key": "tr_kanakana_kindi",
+  "lang": "kn",
+  "kind": "saint",
+  "wiki": [
+   "Kanaka Dasa",
+   "Udupi Sri Krishna Matha"
+  ],
+  "art": [
+   "Kanakana Kindi Udupi",
+   "Udupi Krishna temple",
+   "Kanaka Dasa statue"
+  ],
+  "angle": "the legend of Kanakana Kindi: kept outside the Udupi temple, Kanaka Dasa sang in a hut behind the wall; one night a crack opened and Krishna's idol turned west to face him, and Vadiraja widened the crack into a window instead of sealing it (tell as legend, no caste wording)",
+  "trend": {
+   "why": "Kanakadasa Jayanti is a Karnataka public holiday on Fri 27 Nov; schools, the state and Udupi mark it",
+   "signals": [
+    "Karnataka govt 2026 holiday list: Kanakadasa Jayanti 27 Nov (publicholidays.in, officeholidays.com)",
+    "kn.wikipedia top list 15 Nov: ಕನಕದಾಸರು in top 10",
+    "hindutone: Kanakadasa Jayanti 2026 date 27 November"
+   ],
+   "until": "2026-11-27",
+   "score": 8
+  },
+  "added": "2026-11-26"
+ },
+ {
+  "key": "tr_macys_parade_balloons",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Macy's Thanksgiving Day Parade"
+  ],
+  "art": [
+   "Macy's Thanksgiving Day Parade 1920s",
+   "Macy's parade balloon",
+   "Macy's Thanksgiving parade Felix the Cat balloon"
+  ],
+  "angle": "in 1928 Macy's let its helium balloons fly off with a $100 reward for finders; in 1931 a pilot sliced the head off a dragon balloon midair, and a blue hippo balloon drifted past the Empire State Building and was never found",
+  "trend": {
+   "why": "the 100th Macy's Thanksgiving Day Parade is Thu 26 Nov on NBC; US coverage is everywhere this week",
+   "signals": [
+    "NBCUniversal: 100th Macy's Thanksgiving Day Parade live Nov 26",
+    "AP/NY1 13 Nov 2026: parade will soon celebrate its 100th edition",
+    "ABC7 NY: Macy's unveils new floats for 100th parade"
+   ],
+   "until": "2026-11-26",
+   "score": 8
+  },
+  "added": "2026-11-25"
  }
 ]
