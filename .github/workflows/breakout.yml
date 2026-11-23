@@ -1,0 +1,51 @@
+name: "Breakout watch — tell the owner when a Short takes off"
+
+# katha/breakout.py: every 3 h, real-time views of the Ajab + WTR Shorts from the last 72 h. A Short at >= 3,000
+# views is a breakout. It goes into katha/breakouts.json and opens a GitHub issue that notifies the owner;
+# later milestones add a comment. The trend scout routine (~00:20 UTC) reads breakouts.json and writes up to 2
+# follow-up stories in the same language and theme, so they post first in that slot. Owner 2026-11-23:
+# notify only, no recording step.
+on:
+  schedule:
+    - cron: "5 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ajabgajab-breakout
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Python dependencies
+        run: pip install --quiet google-api-python-client==2.201.0 google-auth==2.62.0 google-auth-httplib2==0.4.4 requests==2.34.2
+      - name: Check recent Shorts
+        env:
+          CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG }}
+          CHANNEL_CONFIG_EN: ${{ secrets.CHANNEL_CONFIG_EN }}
+          GH_TOKEN: ${{ github.token }}
+        run: python katha/breakout.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f katha/breakouts.json
+          git diff --staged --quiet && exit 0
+          git commit -m "breakout watch [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}" && exit 0
+            sleep 5
+          done
+          exit 1
