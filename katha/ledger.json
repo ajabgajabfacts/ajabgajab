@@ -1755,5 +1755,30 @@
   "title": "ಬ್ರಹ್ಮಚಾರಿ ಹನುಮಂತನಿಗೆ ಮಗ ಹುಟ್ಟಿದ್ದು ಹೇಗೆ?",
   "seconds": 43.4,
   "slot": 0
+ },
+ {
+  "key": "tr_john_madden_bus",
+  "lang": "en",
+  "date": "2026-11-23",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "tr_db_cooper_jump",
+  "lang": "en",
+  "date": "2026-11-23",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "galileo_s_middle_finger",
+  "lang": "en",
+  "date": "2026-11-23",
+  "utc": "03:00",
+  "status": "posted",
+  "video_id": "u4e964u2ocs",
+  "title": "Why Admirers Took Galileo's Middle Finger From His Grave",
+  "seconds": 37.4,
+  "slot": 4
  }
 ]
