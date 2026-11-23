@@ -118,9 +118,13 @@ def pick(lang, force_key=None, exclude=(), day=None, slot=-1):
 
 def credits(sources, shots):
     lines = ["Source: " + ", ".join(f"Wikipedia - {s['title']} (CC BY-SA 4.0)" for s in sources)]
-    lines.append("Images (Wikimedia Commons):")
-    for c in shots:
-        lines.append(f"- {c['file'][5:]} - {c['artist']} - {c['license']}")
+    commons = [c for c in shots if not c.get("ai")]
+    if commons:
+        lines.append("Images (Wikimedia Commons):")
+        for c in commons:
+            lines.append(f"- {c['file'][5:]} - {c['artist']} - {c['license']}")
+    if any(c.get("ai") for c in shots):
+        lines.append("Illustrations: AI-generated for this story (aiart.py).")
     return "\n".join(lines)
 
 
@@ -199,7 +203,7 @@ def upload(mp4, meta, cfg_json, thumb=None):
                         "tags": meta["tags"][:15], "categoryId": "24",
                         "defaultLanguage": meta["lang"], "defaultAudioLanguage": meta["lang"]},
             "status": {"privacyStatus": meta.get("privacy", "public"), "selfDeclaredMadeForKids": False,
-                       "containsSyntheticMedia": False}}
+                       "containsSyntheticMedia": bool(meta.get("synthetic"))}}
     req = yt.videos().insert(part="snippet,status", body=body,
                              media_body=MediaFileUpload(str(upscale_4k(mp4)), chunksize=-1, resumable=True, mimetype="video/mp4"))
     resp = None
@@ -440,7 +444,11 @@ def produce(a, L, e):
         for i, c in enumerate(shots):
             c["img"] = Image.open(work / f"img_{i}.jpg")
     else:
-        shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
+        # Illustrated character scenes first (aiart.py, owner 2026-11-23); Wikimedia when it is off or fails.
+        import aiart
+        shots = aiart.shots(s, e.get("kind"), a.lang, L["name"], story_en) if aiart.enabled() else None
+        if not shots:
+            shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
         for i, c in enumerate(shots):
             c["img"].save(work / f"img_{i}.jpg", quality=92)
         sh.write_text(json.dumps([{k: v for k, v in c.items() if k != "img"} for c in shots], ensure_ascii=False, indent=1), encoding="utf-8")
@@ -478,7 +486,8 @@ def produce(a, L, e):
     tags = [h.lstrip("#").strip() for h in s.get("hashtags", [])]
     desc = s["description"] + "\n\n🔔 " + L["sub"] + "\n\n" + " ".join("#" + t.replace(" ", "") for t in tags[:5]) + "\n\n" + credits(sources, shots)
     meta = dict(title=s["title"], description=desc, tags=tags + ["shorts", L.get("channel", ("ajab gajab",))[0].lower(), L["name"]], lang=a.lang,
-                comment=s["sentences"][-1] + "\n\n🔔 " + L["sub"])
+                comment=s["sentences"][-1] + "\n\n🔔 " + L["sub"],
+                synthetic=any(c.get("ai") for c in shots))      # YouTube's altered/synthetic disclosure for AI art
     import ytcaptions
     meta["captions"] = ytcaptions.sentence_cues(s["sentences"], wt)
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")

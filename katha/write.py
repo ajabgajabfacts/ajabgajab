@@ -16,12 +16,18 @@ Write a {lang_name} {fmt} about: {topic_hint}
 SPINE: build the whole story on the ONE most astonishing, specific fact in the source - a physical oddity, an
 impossible-seeming feat, an unsolved question, a shocking twist. NOT generic praise, heritage-list status,
 "beautiful architecture", district names, distances or administrative detail.
+CHARACTER FIRST (owner, 2026-11-23: the story channels with 500k+ median views in this niche all do this): tell it
+through ONE character the viewer can picture - a deity, saint, king, queen, builder, rebel, child or animal - who
+wants something and runs into resistance: a clash, a dare, a test, a refusal, a bargain, a curse, a gamble. The
+place or object is the setting, never the hero; a temple or monument story is told through the person who built,
+defied, found, guarded or lost it. Name that character in the hook and keep the camera on them.
 
 HARD RULES
 - {w0}-{w1} words total. {nsent} short spoken sentences. Every sentence must earn its place.
 - STRUCTURE (an open loop, the answer withheld until it pays off):
-  1. HOOK (sentence 1): the single most astonishing true detail, under 12 words. It SHOULD state the
-     astonishing fact; what it withholds is the explanation (how / why / who), which is the reveal.
+  1. HOOK (sentence 1): the character in the middle of the single most astonishing true moment, under 12
+     words. It SHOULD state the astonishing fact; what it withholds is the explanation (how / why / who), which
+     is the reveal.
      No greeting, no "आज हम", no channel name, no "दोस्तों". Start mid-action.
   2. CONTEXT (1-2 sentences): where/when/who, concrete names and numbers from the source.
   3. ESCALATION (2-3 sentences): each adds a stranger detail or a wrong guess; never give away the answer.
@@ -50,15 +56,16 @@ HARD RULES
   lists of three adjectives, a colon reveal ("The answer: ..."), an exclamation mark, or a moral at the end.
 
 Return JSON:
-{{"title": "{lang_name} title, max 60 chars, curiosity gap, must be TRUE to the story; name the concrete surprising act (who did what) rather than vague words like secret/mystery",
- "hook_text": "on-screen hook, max 6 words, {lang_name}",
+{{"title": "{lang_name} title, 40-60 chars. Make people NEED to tap, but every word must be TRUE to the story: name the character and the shocking act or clash, and leave the outcome open (patterns that work: 'When <character> <did the shocking thing>, <who> <reacted>...', '<Character> <did X>. Then <Y> happened', '<Character> refused <Z>. Why?'). Never vague words like secret/mystery on their own. No ALL CAPS, no exclamation mark, no hashtags. End with exactly ONE emoji that fits the feeling: 😱 🤯 🔥 ⚔️ 👑 🙏 🚩 (🚩 and 🙏 only for devotional stories)",
+ "hook_text": "on-screen hook, max 6 words, {lang_name}: the character and the shocking act, the punchiest words in the script",
  "kicker": "1-2 word label in {lang_name}, e.g. the equivalent of MYSTERY / TRUE STORY / LEGEND",
  "sentences": ["..."],
  "cta": "max 3 words in {lang_name} meaning 'comment below'",
  "description": "2 short lines in {lang_name}",
  "hashtags": ["5 hashtags without #, mix {lang_name} and English"],
  "visuals": ["3-6 English Wikimedia Commons search phrases, one per distinct thing your lines show (the specific pillar, painting, statue, hill or person), most specific first, each naming the place"],
- "claims_en": ["every factual claim in the script, in English, one per item"]}}
+ "claims_en": ["every factual claim in the script, in English, one per item"],
+ "scenes": ["one English image prompt PER SENTENCE (same count and order as sentences) for an illustrated still: the character in that moment - who, doing what, the face and its emotion, the setting, the light, the camera framing. Scene 1 is an extreme close-up of the main character's face at the peak of emotion: this frame decides whether people stop scrolling. Deities in their traditional iconography, dignified and fully clothed. Period-accurate clothes and places. Never text, letters, logos, blood, gore or living people."]}}
 {feedback}"""
 
 CHECK = """You are a strict fact-checker and native {lang_name} editor.

@@ -18,8 +18,14 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 W, H, FPS = 1080, 1920, 30
 SAFFRON = (255, 176, 0)
 GOLD = (232, 185, 92)
+YELLOW = (255, 224, 0)    # the word being spoken (2026-11-23 caption restyle)
+# Shorts captions, 2026-11-23 (owner: "improvise captions"). The channels with 500k+ median views in this niche
+# (Dev Kathan, The AI Historian) show 1-3 big words mid-screen. Ours were 6 words at the bottom edge (y=1530),
+# small next to the art. Now: 1.2x the language's caption size, at most 3 words / ~70% of its char cap per chunk,
+# centred in the lower middle, spoken word in bright yellow, thicker outline and a soft shadow for busy art.
+CAP_SCALE, CAP_MAXN, CAP_CHARS = 1.2, 3, 0.7
 CARD_CY = 975          # landscape art centre; spans ~400-1550
-HOOK_Y, CAP_Y, CTA_Y = 300, 1530, 1405
+HOOK_Y, CAP_Y, CTA_Y = 300, 1290, 1405
 BRAND_X, BRAND_Y, CAP_X, CAP_W, HOOK_W = 60, 178, 520, 860, 900
 LANDSCAPE = False
 
@@ -35,7 +41,7 @@ def set_canvas(landscape):
     else:
         W, H = 1080, 1920
         CARD_CY = 975
-        HOOK_Y, CAP_Y, CTA_Y = 300, 1530, 1405
+        HOOK_Y, CAP_Y, CTA_Y = 300, 1290, 1405
         BRAND_X, BRAND_Y, CAP_X, CAP_W, HOOK_W = 60, 178, 520, 860, 900
 FONTS = Path(__file__).parent / "fonts"
 
@@ -337,7 +343,9 @@ def render(job, out_mp4, work):
         shots = [Shot(imgs[i % len(imgs)], seed=i) for i in range(len(cuts))]
     seg = list(zip(cuts, cuts[1:] + [D]))
 
-    f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cap = font(L, 70 if LANDSCAPE else L.get("cap", (84, 30))[0]); f_cta = font(L, 48)
+    cap_size, cap_chars = L.get("cap", (84, 30))
+    f_brand = font(L, 40); f_kick = font(L, 40); f_hook = font(L, 100); f_cta = font(L, 48)
+    f_cap = font(L, 70 if LANDSCAPE else int(cap_size * CAP_SCALE))
     brand = text_rgba([L["brand"]], f_brand, 900, color=(255, 236, 200), stroke=5)
     kicker = pill(job["kicker"], f_kick, SAFFRON)
     hw = job["hook_text"].split()
@@ -355,21 +363,36 @@ def render(job, out_mp4, work):
         while (sub := pill(job["subscribe"], font(L, fs), SAFFRON)).shape[1] > 800 and fs > 32:
             fs -= 4
     sub_start = max(last_start, D - 1.8)         # the subscribe ask owns the last 1.8s, above the comment pill
-    caps = chunks(job["sentences"], maxn=9 if LANDSCAPE else 6, maxc=48 if LANDSCAPE else L.get("cap", (84, 30))[1])
+    caps = chunks(job["sentences"], maxn=9 if LANDSCAPE else CAP_MAXN,
+                  maxc=48 if LANDSCAPE else max(12, int(cap_chars * CAP_CHARS)))
+
+    def cap_img(ws, hi=None):
+        if LANDSCAPE:
+            return text_rgba(ws, f_cap, CAP_W, hi=hi)
+        return text_rgba(ws, f_cap, CAP_W, hi=hi, hi_color=YELLOW, stroke=13, glow=(0, 0, 0))
     cap_of_word = {}
     for ci, c in enumerate(caps):
         for wi in c:
             cap_of_word[wi] = ci
     cap_start = [wt[c[0]][0] for c in caps]
-    # The CTA used a fixed y and covered two-line captions (Tamil). Stack the pills above the
-    # tallest caption the last sentence will show; text_rgba pads 9+30 px around the ink.
-    last_h = max(text_rgba([words[i] for i in c], f_cap, CAP_W).shape[0] for c in caps if c[0] >= sent_ranges[-1][0])
-    y = CAP_Y - last_h / 2 + 39 - 14
+    # The CTA used a fixed y and covered two-line captions (Tamil). Stack the pills against the
+    # tallest caption the last sentence will show; text_rgba pads stroke+30 px around the ink.
+    last_h = max(cap_img([words[i] for i in c]).shape[0] for c in caps if c[0] >= sent_ranges[-1][0])
     cta_y = sub_y = None
-    if cta is not None:
-        cta_y = y - cta.shape[0] / 2; y -= cta.shape[0] + 14
-    if sub is not None:
-        sub_y = y - sub.shape[0] / 2
+    pills = [p for p in (cta, sub) if p is not None]
+    below = CAP_Y + last_h / 2 - 43 + 16                   # Shorts: under the mid-screen caption, off the art's faces
+    if not LANDSCAPE and below + sum(p.shape[0] + 14 for p in pills) <= 1600:
+        y = below
+        if cta is not None:
+            cta_y = y + cta.shape[0] / 2; y += cta.shape[0] + 14
+        if sub is not None:
+            sub_y = y + sub.shape[0] / 2
+    else:
+        y = CAP_Y - last_h / 2 + 39 - 14
+        if cta is not None:
+            cta_y = y - cta.shape[0] / 2; y -= cta.shape[0] + 14
+        if sub is not None:
+            sub_y = y - sub.shape[0] / 2
     cache = {}
 
     vig = vignette()
@@ -409,7 +432,7 @@ def render(job, out_mp4, work):
             if ci > 0 or cap_start[0] >= hook_end - 0.05 or t >= cap_start[0]:
                 key = (ci, hi)
                 if key not in cache:
-                    cache[key] = text_rgba([words[i] for i in caps[ci]], f_cap, CAP_W, hi=hi)
+                    cache[key] = cap_img([words[i] for i in caps[ci]], hi=hi)
                 # A short fade in, no pop-in scale (owner, 2026-10-23).
                 fade = min(1.0, (t - cap_start[ci]) / 0.10) if t >= cap_start[ci] else 1.0
                 blit(fr, cache[key], CAP_X, CAP_Y, alpha=min(1, 0.5 + fade))
