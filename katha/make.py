@@ -350,7 +350,14 @@ def slot_lang(slot, day=None):
                 w.pop(r.get("lang"), None)
         langs = sorted(w)
         return random.Random(f"{day}/{slot}").choices(langs, [w[l] for l in langs])[0]
-    return ROTATING[(2 * (day - EPOCH2).days + slot) % len(ROTATING)]
+    # No weights (insights.json stale, e.g. after the 11-15..11-23 Actions outage): fixed rotation, but never a
+    # language an earlier slot already has today (12-01 drew kn for slots 0 and 1 on a stale file).
+    taken = {slot_lang(earlier, day) for earlier in range(slot)}
+    k = 2 * (day - EPOCH2).days + slot
+    for i in range(len(ROTATING)):
+        if ROTATING[(k + i) % len(ROTATING)] not in taken:
+            return ROTATING[(k + i) % len(ROTATING)]
+    return ROTATING[k % len(ROTATING)]
 
 
 class StoryFailed(Exception):
