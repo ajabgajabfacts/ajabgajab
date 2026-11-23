@@ -134,7 +134,7 @@ def main():
             story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", []))
             # Illustrated scenes first (aiart.py, owner 2026-11-23: "clickbait images for long form too"), one per two
             # lines; Wikimedia when AI art is off or fails.
-            shots = aiart.shots(s, e.get("kind"), a.lang, L["name"], story_en, every=2) if aiart.enabled() else None
+            shots = aiart.shots(s, e.get("kind"), a.lang, L["name"], story_en, every=2, wide=True) if aiart.enabled() else None
             if not shots:
                 shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
             if len(shots) < 4:
