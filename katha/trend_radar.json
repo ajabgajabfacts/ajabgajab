@@ -1,768 +1,591 @@
 {
- "generated": "2026-11-23T01:06+00:00",
+ "generated": "2026-11-23T04:00+00:00",
  "google": {
   "IN India": [
    {
-    "q": "பாகிஸ்தான் ஏ கிரிக்கெட் அணி",
+    "q": "silver mcx",
+    "traffic": "20000+",
+    "news": [
+     "Gold Rate In Pakistan: भारत ही नहीं पाकिस्तान में भी सोने का दाम क्रैश, फिर भी 10 ग्राम 300000 के पार",
+     "Bijnor News: सहालग शुरू होते ही चमकने लगा सराफा बाजार",
+     "सोने-चांदी की कीमतों में आई भारी गिरावट, कितनी करें खरीदारी ? जानिए विशेषज्ञों की सलाह"
+    ]
+   },
+   {
+    "q": "mcx silver",
     "traffic": "200+",
     "news": [
-     "ஆசிய கோப்பை: இந்தியா ஏ அணிக்கு 314 ரன்கள் இலக்கு நிர்ணயித்த பாகிஸ்தான் ஏ அணி!",
-     "IND A vs PAK A - விதிமுறையை மீறி, இந்திய அணியின் வெற்றி வாய்ப்பை தட்டிப்பறித்த பாகிஸ்தான் வீரர்கள்",
-     "இந்திய பந்துவீச்சில் 26 ரன்னுக்கு சுருண்ட நேபாள்.. சதம் விளாசி குமார் குஷாக்ரா மிரட்டல்!"
+     "Why Is Silver’s Price Volatile?",
+     "Silver Weekly Price Forecast: Silver Continues to Fight Real Yields",
+     "Silver In Free Fall, Down 65% From Peak: What Rs 2 Lakh Investment In January Is Worth Now"
     ]
    },
    {
-    "q": "nasdaq futures",
+    "q": "രാമായണം",
     "traffic": "200+",
     "news": [
-     "Stock futures rebound to start shortened week after tech rout: Live updates",
-     "US Stock Futures Open Higher After Tech Selloff: Markets Wrap",
-     "Stock Futures Are Rebounding After Last Week’s Bloodbath"
+     "രാമായണ സിനിമയുടെ പ്രദർശനം ഉടൻ നിർത്തണമെന്ന് വിഎച്ച്പി- Ramayan Rise of a Legend | VHP",
+     "'വെറും പ്രതികാര കഥയാക്കി, രാവണനെ മഹത്വവല്‍ക്കരിച്ചു'; രാമായണം പ്രദര്‍ശനം ഉടന്‍ നിര്‍ത്തണമെന്ന് വിഎച്ച്പി",
+     "രാമായണ സിനിമ കമ്മ്യൂണിസ്റ്റ് അജണ്ട നടപ്പിലാക്കുന്നു, ഹിന്ദുക്കള്‍ ഇത് കാണരുത്: ഹിന്ദു ജനജാഗ്രതി സമിതി"
     ]
    },
    {
-    "q": "heat vs thunder",
+    "q": "wtc points table",
+    "traffic": "200+",
+    "news": [
+     "WTC 2027 Final : वाँडरर्समध्ये दक्षिण अफ्रिकेचा दणदणीत विजय अन् वेलिंगटमध्ये टीम इंडियाचे धाबे दणाणले; Point Table बदललं",
+     "WTC Points Table : WTC फायनलच्या शर्यतीत नवा ट्विस्ट! टीम इंडियाविरुद्ध पहिल्या कसोटीदरम्यान",
+     "SA vs BAN 1st Test: याला म्हणतात दणक्यात कमबॅक; १३० वर्षांपूर्वीचा विक्रम केला उद्ध्वस्त; कोण आहे Simon Harmer?"
+    ]
+   },
+   {
+    "q": "copper price today",
     "traffic": "100+",
-    "news": [
-     "Shai Gilgeous-Alexander Injury: Ruled out Sunday",
-     "Licensable picture: NBA: Oklahoma City Thunder at Miami Heat",
-     "Thunder Face Heat as Aday Mara Takes on Miami Frontcourt"
-    ]
+    "news": []
    },
    {
-    "q": "ഓഹരി",
-    "traffic": "100+",
-    "news": [
-     "'എന്തോ അപകടം വരുന്നു' യുഎസിൽ 'പാനിക് ബയിങ്' കൂടിയത് 400% ; ബാൾട്ടിക് കടലും 'കത്തുന്നു', എണ്ണവിലയിൽ ആശ്വാസം 2027ന്റെ അവസാനം",
-     "ആശയ വിനിമയ സംവിധാനത്തിൽ തകരാർ; യുഎസിൽ മുഴുവൻ വിമാനസർവീസുകളും താൽക്കാലികമായി നിർത്തിവച്ചു",
-     "സാങ്കേതിക തകരാർ പരിഹരിച്ചു: അമേരിക്കയിൽ വിമാന സർവീസുകൾ പുനഃസ്ഥാപിച്ചു"
-    ]
-   },
-   {
-    "q": "gta6 game",
-    "traffic": "5000+",
-    "news": [
-     "'I'm hit with a feeling of self-healing': The moment I realised GTA 6 was one of the greatest games ever",
-     "Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales",
-     "‘GTA 6’ Hits Massive $3.79 Billion in First-Day Sales"
-    ]
-   },
-   {
-    "q": "nikkei 225",
-    "traffic": "500+",
-    "news": [
-     "South Korea’s stock market tumbles as AI bubble fears mount",
-     "Analysis-Record profits but record outflows: 'Sell Korea' trade stalks Seoul market",
-     "KB Securities: KOSPI Could Retreat to 4,000 Level; Slowing Inflation Is the Key to a Rebound"
-    ]
-   },
-   {
-    "q": "टेस्ट क्रिकेट",
+    "q": "mcx gold",
     "traffic": "2000+",
     "news": [
-     "इतिहास के पन्नों में दर्ज हुआ टीम इंडिया का नाम, 149 साल के टेस्ट क्रिकेट में पहली बार बना अनोखा विश्व रिकॉ",
-     "IND vs NZ: टीम इंडिया ने विदेशी धरती पर बना दिया अपना सबसे बड़ा टेस्ट स्कोर, एक साथ टूटे कई रिकॉर्ड्स",
-     "केएल राहुल ने बताई न्यूजीलैंड में सफल होने की वजह, यशस्वी जायसवाल की तारीफ में पढ़े कसीदे"
+     "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+     "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+     "Gold's slide deepens as AI rout, rate-hike bets hurt bullion"
     ]
    },
    {
-    "q": "chicago vs charlotte",
-    "traffic": "100+",
+    "q": "marvel avengers doomsday",
+    "traffic": "500+",
     "news": [
-     "Chicago Fire - Charlotte LIVE. Major League Soccer latest updates",
-     "Fire host surging Charlotte in MLS Cup playoff opener",
-     "Chicago Fire FC back in playoffs for second straight season"
+     "'Avengers: Doomsday' Adds Hailee Steinfeld as Kate Bishop to Cast",
+     "Avengers: Doomsday's Last-Minute Casting Addition Officially Confirmed By Marvel Studios",
+     "Marvel Officially Confirms Hawkeye’s Replacement in ‘Avengers: Doomsday’"
     ]
    },
    {
-    "q": "tata steel apollo tubes",
-    "traffic": "100+",
+    "q": "ట్రైలర్",
+    "traffic": "200+",
     "news": [
-     "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
-     "Tata Steel strikes Rs 28,000-crore deal with APL Apollo to transfer tubes business",
-     "Stocks to Watch for November 23: Tata Steel, APL Apollo Tubes, Maruti Suzuki, Adani Energy and more"
+     "Sharwanand: ‘భోగి’తో అందర్నీ సంతృప్తిపరుస్తా: శర్వానంద్‌",
+     "పాటకు భావం ముఖ్యం : చంద్రబోస్",
+     "Sharwanand Bhogi Movie: రెండుసార్లు వాయిదా.. ఇప్పుడు సెన్సార్ క్లియర్.. 'భోగి' రిలీజ్‌పై క్రేజీ అప్‌డేట్"
     ]
    },
    {
-    "q": "നരേന്ദ്ര മോദി",
-    "traffic": "100+",
+    "q": "nse holidays",
+    "traffic": "200+",
     "news": [
-     "സ്വർണവില കൂപ്പുകുത്താനുള്ള യഥാർത്ഥ കാരണങ്ങളെന്ത്? നിക്ഷേപകർ എന്തു ചെയ്യണം? ആഭരണ പ്രേമികൾക്കും 'ആവേശമില്ല'",
-     "ഒരു വർഷത്തേക്ക് സ്വർണം വാങ്ങരുതെന്ന തന്റെ അഭ്യർഥന ജനങ്ങൾ ഏറ്റെടുത്തു: പ്രധാനമന്ത്രി",
-     "സ്വർണവില: വിപണിയുടെ കണ്ണുതള്ളിയ ആഴ്ച; ആറുദിനം കൊണ്ട് ഇടിഞ്ഞത് പവന് 9,200 രൂപ | Madhyamam"
+     "Stock market holiday next week: NSE, BSE to remain closed for Guru Nanak Jayanti on this day – Check details",
+     "School Holidays 2026: Schools Closed on November 24 in AP & Telangana",
+     "NSE and BSE closed Nov 24 for Guru Nanak Jayanti"
+    ]
+   },
+   {
+    "q": "watrana rentals ipo gmp",
+    "traffic": "200+",
+    "news": [
+     "Watrana Rentals IPO Day 3 Subscription Status 23 Nov 2026",
+     "Upper & Lower Circuit Stocks Today, November 20, 2026 at 3:30 PM",
+     "Mahanadi Coalfields Ltd IPO And Watrana Rentals IPO: Subscription Status, GMP, Allotment"
     ]
    }
   ],
   "IN-KA Karnataka (kn)": [
    {
-    "q": "காவியா மாறன்",
-    "traffic": "200+",
-    "news": [
-     "காவியா மாறன் - அனிருத் திருமண வரவேற்பு நிகழ்ச்சியின் சுவாரஸ்ய தருணங்கள்",
-     "மு.க.ஸ்டாலின் - இபிஎஸ் - ரஜினிகாந்த் சந்திப்பு; அனிருத் திருமண வரவேற்பு விழாவில் சுவாரஸ்யம்!",
-     "Dhoni | Anirudh | Kavya | அனிருத் - காவ்யா திருமண விழா - கலக்கலாக வந்திறங்கிய தல தோனி"
-    ]
-   },
-   {
-    "q": "rachin ravindra",
-    "traffic": "100+",
-    "news": [
-     "India look for 'eight good balls' on final day's 'war of attrition'",
-     "New Zealand plan to fight 'ball by ball' to save Test against India in Wellington",
-     "Black Caps hope for Wellington great escape as India dominate day four"
-    ]
-   },
-   {
-    "q": "devon conway",
-    "traffic": "2000+",
-    "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
-    ]
-   },
-   {
-    "q": "सोना",
-    "traffic": "200+",
-    "news": [
-     "पीएम मोदी की अपील के बाद क्या लोगों ने सोना ख़रीदना बंद कर दिया, क्या कह रहे हैं एक्सपर्ट्स",
-     "Silver Price Global Crash: चांदी का बुलबुला फूटा, ग्लोबल क्रैश के बीच हाई से 64% टूटी... क्या करें निवेशक?",
-     "22 और 24 कैरेट सोने का क्या है भाव- जानें तनिष्क, कल्याण ज्वैलर्स, मलाबार पर आज क्या चल रहा है रेट"
-    ]
-   },
-   {
-    "q": "தங்கம்",
-    "traffic": "100+",
-    "news": [
-     "தொடர்ந்து குறைந்து வரும் தங்கம் விலை: இன்று (நவ.21) பவுனுக்கு எவ்வளவு குறைந்தது தெரியுமா?",
-     "தங்கம் விலை சரிவுக்கு நான்தான்\nகாரணம்! பெருமிதம் கொள்ளும் பிரதமர் மோடி!",
-     "Exclusive | நகை வாங்க போறீங்களா? தங்கம் விலை இன்னும் எவ்வளவு குறையும்...? - நிபுணர் கொடுத்த டிப்ஸ்!"
-    ]
-   },
-   {
-    "q": "tom blundell",
+    "q": "today gold rate bangalore",
     "traffic": "500+",
     "news": [
-     "NZ vs IND, 1st Test: KL Rahul credits ‘six-seven months of homework' for maiden ton in NZ",
-     "Two innings, two first-over strikes! Jasprit Bumrah becomes only third Indian bowler in Test history to a",
-     "Jaiswal rides luck as India blunt New Zealand attack, indecision bugs home team"
+     "Gold prices tumble, but buyers remain in wait-and-watch mode in Andhra Pradesh",
+     "Gold falls 4.49% to Rs 1.21 lakh, silver plunges 6.6% in a single day to Rs 1.47 lakh; wedding shoppers g",
+     "Gold, Silver Rate Today Live Updates: Gold, silver rebound after steep weekly losses; check latest prices across major cities"
     ]
    },
    {
-    "q": "atalanta vs inter",
+    "q": "ವಿಜಯ್",
     "traffic": "200+",
     "news": [
-     "Atalanta-Inter 1-3 LIVE: Thuram’s stunning pass and Pio Esposito’s hat-trick",
-     "Atalanta grab dramatic draw with Inter Milan in Serie A",
-     "Atalanta vs Internazionale predictions tonight (7.45pm KO): Krstovic shots on target and a narrow Inter win at 11/4"
+     "ಜೋಡಿಯಾಗಿ ಅಲ್ಲ ಏಕಾಂಗಿಯಾಗಿ ಅನಿರುದ್ಧ ಕಾವ್ಯ ಮದುವೆಗೆ ಸಿಎಂ ವಿಜಯ್, ಕಾರಣ ಪತ್ನಿ ಸಂಗೀತಾ",
+     "ಅನಿರುದ್ಧ್‌ - ಕಾವ್ಯಾ ರಿಸೆಪ್ಷನ್‌ನಲ್ಲಿ ಸಿಎಂ ವಿಜಯ್‌, ಪತ್ನಿ ಸಂಗೀತಾ, ರಜನಿ ಸೇರಿದಂತೆ ಯಾರೆಲ್ಲಾ ಭಾಗಿಯಾಗಿದ್ರು ಗೊತ್ತಾ?",
+     "ಸಿಎಂ ವಿಜಯ್‌ನ ಅಟ್ಟಿಸಿಕೊಂಡು ಬಂದರಾ ಪತ್ನಿ ಸಂಗೀತಾ! ವೈರಲ್‌ ಆಗ್ತಿರೋ ವೀಡಿಯೋ ನೋಡಿ"
     ]
    },
    {
-    "q": "ai",
+    "q": "bisleri",
     "traffic": "100+",
     "news": [
-     "How much more air can come out of the AI trade?",
-     "Morning Bid: AI’s last stand?",
-     "The AI sell-off has investors on edge. 5 pros weigh in on whether to buy the dip — or skip."
+     "FSSAI orders prosecution against Bisleri International for unsafe packaged drinking water",
+     "India's food regulator to take Bisleri to court over water quality finding",
+     "Bisleri Under Scanner After Carcinogenic Substances Found In Water Sample"
     ]
    },
    {
-    "q": "getafe vs atlético",
+    "q": "getafe cf vs atlético madrid standings",
+    "traffic": "200+",
+    "news": [
+     "Getafe 0-3 Atlético (Nov 22, 2026) Game Analysis",
+     "Getafe vs Atlético Madrid: Spanish La Liga stats & head-to-head",
+     "Atlético pick up another away win at Getafe behind Baena, Alvarez pair"
+    ]
+   },
+   {
+    "q": "thanksgiving 2026",
+    "traffic": "100+",
+    "news": [
+     "Holidays at Alamo: Thanksgiving and Christmas",
+     "The 20 Best Movies & Shows To Watch On Thanksgiving Day 2026",
+     "Alamo Drafthouse announces holiday movie lineup for NYC theaters, including Staten Island"
+    ]
+   },
+   {
+    "q": "warriors vs celtics",
     "traffic": "500+",
     "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
+     "Celtics at Warriors: Boston looks to rebound after last-second loss",
+     "Preview: Home cooking without the chef?",
+     "Derrick White Props Today: Pts, Rebs, Asts, 3PT"
     ]
    },
    {
-    "q": "racing santander vs real sociedad",
-    "traffic": "100+",
+    "q": "ధనుష్",
+    "traffic": "200+",
     "news": [
-     "Racing de Santander vs Real Sociedad: Spanish La Liga stats & head-to-head",
-     "Racing Santander vs. Real Sociedad - Game Highlights",
-     "Licensable picture: Real Racing Club de Santander v Real Sociedad - LaLiga EA Sports 2026/27"
+     "OM Box Office: బాక్సాఫీస్ వద్ద ధనుష్ ఊచకోత.. 'ఓం' ఫస్ట్ డే కలెక్షన్స్ ఎంతో తెలుసా?",
+     "OM Movie Twitter Review: ఓం మూవీ ట్విట్టర్ రివ్యూ",
+     "ప్లీజ్‌.. ఇంకెప్పుడు ఇలా ఈవెంట్‌కి రావద్దు సార్‌: ధనుష్‌"
+    ]
+   },
+   {
+    "q": "ವೈಎಸ್ ಶರ್ಮಿಳಾ",
+    "traffic": "1000+",
+    "news": [
+     "ಬೆಂಗಳೂರಿನ ವಿವಾದಿತ ಮನೆ ಬಾಗಿಲಲ್ಲೇ ಶರ್ಮಿಳಾಗೆ ನಿರಾಸೆ! ತಂದೆಯ ವೈಭವೋಪೇತ ಮನೆಗಾಗಿ ಅಣ್ಣ-ತಂಗಿ ಫೈಟ್",
+     "ಬೆಂಗಳೂರಿನಲ್ಲಿ ವೈ.ಎಸ್. ಶರ್ಮಿಳಾ ತಡೆದ ಪೊಲೀಸರು: ಜಗನ್ ನಿವಾಸಕ್ಕೆ ನಿರ್ಬಂಧ",
+     "ಯಲಹಂಕದ ಆಸ್ತಿಗೆ ತೆರಳದಂತೆ ವೈ.ಎಸ್. ಶರ್ಮಿಳಾ ಅವರಿಗೆ ಬೆಂಗಳೂರು ಪೊಲೀಸರ ತಡೆ: ನ್ಯಾಯಾಲಯದ ಆದೇಶ ಉಲ್ಲೇಖ"
+    ]
+   },
+   {
+    "q": "ग्रेच्युटी",
+    "traffic": "200+",
+    "news": [
+     "रिटायर कर्मचारियों की बड़ी जीत, मिलेगी 33.95 लाख की ग्रेच्युटी",
+     "बरी किए जाने के खिलाफ राज्य की लंबित अपील, सेवानिवृत्त कर्मचारी की ग्रेच्युटी रोकने का आधार नहीं: सुप्रीम कोर्ट",
+     "इंटक अध्यक्ष अनूप सिंह तीसरी बार चुने गए, झारखंड को बड़ी..."
+    ]
+   },
+   {
+    "q": "ಪಾಕಿಸ್ತಾನ",
+    "traffic": "200+",
+    "news": [
+     "ಇಂದಿನ ಭಾರತ vs ಪಾಕಿಸ್ತಾನ ಮ್ಯಾಚ್ ಎಷ್ಟು ಗಂಟೆಗೆ ಆರಂಭ? ಎಲ್ಲಿ ನೇರ ಪ್ರಸಾರ? ಸೂರ್ಯವಂಶಿ, ಅಭಿಷೇಕ್ ಶರ್ಮಾ ಮೇಲೆ ಎಲ್ಲರ ಕಣ್ಣು",
+     "ರೈಸಿಂಗ್ ಸ್ಟಾರ್ಸ್ ಏಷ್ಯಾ ಕಪ್: ಭಾರತ 'ಎ' ಮತ್ತು ಪಾಕಿಸ್ತಾನ 'ಎ' ಮುಖಾಮುಖಿ; ತಿಲಕ್, ಅಭಿಷೇಕ್ ಎದುರಿಸಲಿದ್ದಾರೆ ಹಾಲಿ ಚಾಂಪಿಯನ್‌ರನ್ನು",
+     "ACC Men’s Asia Cup Rising Stars 2026 | ತಿಲಕ್ ವರ್ಮಾ ಶತಕ ವ್ಯರ್ಥ; ಪಾಕಿಸ್ತಾನ 'A'ಗೆ 48 ರನ್ ಗಳ ಜಯ"
     ]
    }
   ],
   "IN-AP Andhra Pradesh (te)": [
    {
-    "q": "ఆసియా కప్",
+    "q": "today gold price",
     "traffic": "100+",
     "news": [
-     "IND A vs PAK A: భంగపడ్డ భారత్‌-ఎ",
+     "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+     "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+     "Gold's slide deepens as AI rout, rate-hike bets hurt bullion"
+    ]
+   },
+   {
+    "q": "వర్షం",
+    "traffic": "5000+",
+    "news": [
+     "Weather Update: గంటకు 50 కి.మీ వేగంతో గాలులు, మెరుపులు.. ఈ ప్రాంతాలకు వర్షాల అలర్ట్",
+     "AP: నేడు మోస్తరు వర్షాలు...",
+     "Weather Forecast: తెలుగు రాష్ట్రాల్లో పెరిగిన చలి.. నేటి వెదర్ రిపోర్ట్ ఇదే"
+    ]
+   },
+   {
+    "q": "సస్పెన్స్",
+    "traffic": "500+",
+    "news": [
+     "release suspense: నిరీక్షణలకు తెర పడేనా",
+     "Vishwambhara: ‘విశ్వంభర’పై బిగ్ అప్‌డేట్.. ట్రైలర్ రెడీ, రిలీజ్ ఎప్పుడంటే..!",
+     "‘కాకా ‘ ఓకే.. ‘విశ్వంభరా’ పరిస్థితి ఏంటి..?"
+    ]
+   },
+   {
+    "q": "வானிலை",
+    "traffic": "200+",
+    "news": [
+     "சென்னை உள்பட 9 மாவட்டங்களில் இன்று பலத்த மழைக்கு வாய்ப்பு!",
+     "இன்றும், நாளையும் மழைக்கு வாய்ப்பு.. எந்தெந்த பகுதிகளில் தெரியுமா?",
+     "சென்னையில் அதிகாலை முதலே கனமழை!"
+    ]
+   },
+   {
+    "q": "యజమాని",
+    "traffic": "500+",
+    "news": []
+   },
+   {
+    "q": "భారత్ ఎ క్రికెట్ జట్టు",
+    "traffic": "500+",
+    "news": [
+     "IND A vs PAK A: వీళ్లు మారరు.. హర్షిత్‌ రాణాను దూషించిన పాక్‌ స్పిన్నర్‌ సుఫియాన్",
      "తిలక్‌ వర్మ సెంచరీ వృథా",
      "భారత్-పాక్ మ్యాచ్‌లో టాస్ రగడ.. రిఫరీ తప్పిదంతో కలకలం.. సరిదిద్దుకుని బ్యాటింగ్ ఎంచుకున్న పాక్!"
     ]
    },
    {
-    "q": "rachin ravindra",
-    "traffic": "1000+",
+    "q": "daryl mitchell",
+    "traffic": "500+",
     "news": [
-     "India look for 'eight good balls' on final day's 'war of attrition'",
-     "New Zealand plan to fight 'ball by ball' to save Test against India in Wellington",
-     "Black Caps hope for Wellington great escape as India dominate day four"
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
     ]
    },
    {
     "q": "tom blundell",
-    "traffic": "2000+",
+    "traffic": "500+",
     "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
     ]
    },
    {
-    "q": "బంగాళాఖాతము",
-    "traffic": "5000+",
-    "news": []
+    "q": "కృతి శెట్టి",
+    "traffic": "200+",
+    "news": [
+     "ఆ మూవీ పైనే భారం.. ఈ బ్యూటీకి స్టార్ డైరెక్టర్ సెంటిమెంట్‌ అయినా కలిసొచ్చేనా ??",
+     "Krithi Shetty: 'జనవరి 12 విడుదల'.. హిట్ తప్పనిసరి!",
+     "వదినా మరదలు.. డివికి డివికి డిక్కుం"
+    ]
    },
    {
     "q": "ధనుష్",
-    "traffic": "500+",
+    "traffic": "2000+",
     "news": [
      "OM Box Office: బాక్సాఫీస్ వద్ద ధనుష్ ఊచకోత.. 'ఓం' ఫస్ట్ డే కలెక్షన్స్ ఎంతో తెలుసా?",
-     "OM OTT Release: ఓమ్ ఓటీటీ పార్ట్‌నర్ ఎవరు? ధనుష్- మమ్ముట్టిల మూవీ స్ట్రీమింగ్ ఎప్పుడంటే?",
-     "OM Twitter Review: ధనుశ్ ఓం మూవీ.. ఆడియన్స్‌ రెస్పాన్స్ ఎలా ఉందంటే?"
-    ]
-   },
-   {
-    "q": "రైలు మార్గం",
-    "traffic": "500+",
-    "news": [
-     "Amaravati: 3 రైల్వే లైన్లు కావాలి",
-     "నేరుగా శ్రీశైలానికి రైలు మార్గం - ఏపీలో మూడు కొత్త రైల్వే లైన్లు..!!",
-     "ఏపీలో మూడు కొత్త రైల్వే లైన్లు.. శ్రీశైలం, ఏజెన్సీ ప్రాంతాలకు రైలు మార్గం!"
-    ]
-   },
-   {
-    "q": "carlos alcaraz",
-    "traffic": "200+",
-    "news": [
-     "Alcaraz se embolsa 5 millones de dólares por conquistar invicto las Finales ATP",
-     "Alcaraz vence a Alexander Zverev y gana las ATP Finals tras 28 años",
-     "Alcaraz es el más joven de la historia en ganar todos los Grand Slam y las ATP Finals"
-    ]
-   },
-   {
-    "q": "liverpool vs man utd",
-    "traffic": "1000+",
-    "news": [
-     "Rio Ngumoha: Need to 'stay grounded' despite 'special' goal against Man Utd",
-     "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
-     "Liverpool 4-0 Manchester United: Five key takeaways for Pochettino"
-    ]
-   },
-   {
-    "q": "fc barcelona vs villarreal cf standings",
-    "traffic": "500+",
-    "news": [
-     "European football: Barcelona roar back from two goals down to sink Villarreal",
-     "Garcia: Barcelona's comeback reflective of title mentality",
-     "Flick explains García and De Jong positions and justifies faith in Adeyemi"
-    ]
-   },
-   {
-    "q": "అక్కినేని నాగ చైతన్య",
-    "traffic": "500+",
-    "news": [
-     "Naga Chaitanya: శోభిత నుంచి చాలా నేర్చుకున్నా: నాగచైతన్య",
-     "ఫోకస్‌ చై",
-     "Naga Chaitanya: చలో పదవే అని శోభితతో లాంగ్ డ్రైవ్ వెళ్తా..!"
+     "OM Movie Twitter Review: ఓం మూవీ ట్విట్టర్ రివ్యూ",
+     "ప్లీజ్‌.. ఇంకెప్పుడు ఇలా ఈవెంట్‌కి రావద్దు సార్‌: ధనుష్‌"
     ]
    }
   ],
   "IN-TG Telangana (te)": [
    {
-    "q": "చిరంజీవి",
+    "q": "food safety",
     "traffic": "100+",
     "news": [
-     "Chiranjeevi-Megaverse: 'మెగావర్స్‌'లో స్టార్ హీరోల సందడి.. ప్రభాస్, పవన్, చరణ్.. లిస్ట్ ఇంకా పెద్దదే!",
-     "Megaverse Talk Show: మెగాస్టార్ మెగావర్స్.. గ్రాండ్‌ లాంఛ్‌ ఎప్పుడంటే?",
-     "Chiranjeevi Talk Show: చిరంజీవి ‘మెగావర్స్’ టాక్ షో లాంచ్‌కు డేట్ ఫిక్స్.. హైదరాబాద్‌లో నెట్‌ఫ్లిక్స్ మెగా ఈవెంట్.. ఎప్పుడంటే?"
+     "FSSAI orders prosecution against Bisleri International for unsafe packaged drinking water",
+     "India's food regulator to take Bisleri to court over water quality finding",
+     "Bisleri Under Scanner After Carcinogenic Substances Found In Water Sample"
     ]
    },
    {
-    "q": "రాశి",
+    "q": "సస్పెన్స్",
     "traffic": "200+",
     "news": [
-     "జ్యోతిష్యం:40 రోజుల పాటు శుక్రుని ఆశీస్సులు.. ఐదు రాశుల వారికి గోల్డెన్ డేస్..",
-     "Zodiac Signs: 40 రోజుల పాటు శుక్రుడి సంచారం.. ఈ 2 రాశుల వారు పొరపాటున కూడా ఆ పని చేయొద్దు..!",
-     "జనవరిలో ఈ రాశులవారి జీవితాల్లో అద్భుతం జరిగేలా ఐదు గ్రహాల సంచారం!"
+     "release suspense: నిరీక్షణలకు తెర పడేనా",
+     "Vishwambhara: ‘విశ్వంభర’పై బిగ్ అప్‌డేట్.. ట్రైలర్ రెడీ, రిలీజ్ ఎప్పుడంటే..!",
+     "‘కాకా ‘ ఓకే.. ‘విశ్వంభరా’ పరిస్థితి ఏంటి..?"
     ]
    },
    {
-    "q": "tom blundell",
+    "q": "tg safe",
     "traffic": "500+",
     "news": [
-     "NZ vs IND, 1st Test: KL Rahul credits ‘six-seven months of homework' for maiden ton in NZ",
-     "Two innings, two first-over strikes! Jasprit Bumrah becomes only third Indian bowler in Test history to a",
-     "Jaiswal rides luck as India blunt New Zealand attack, indecision bugs home team"
+     "FSSAI licences suspended of two Karachi Bakery units in Hyderabad, four meat outlets over food safety violations",
+     "TG SAFE suspends licences of four Hyderabad eateries over food safety violations",
+     "Housefly, Cockroach Infestations Found in Raids at 9 Hyderabad Hotels"
     ]
    },
    {
-    "q": "బంగాళాఖాతము",
-    "traffic": "1000+",
-    "news": []
-   },
-   {
-    "q": "నమస్తే తెలంగాణ",
-    "traffic": "100+",
-    "news": [
-     "Private School Business | నంబర్‌-1 నేత కూతురి ‘మైండ్‌వాల్ట్‌’.. నంబర్‌- 2 నేత కుమార్తె ‘మావ్‌ ఎడ్యూ’.. స్కూళ్ల వ్యాపారం",
-     "Watch: వైద్య విద్యార్థినిని.. కాలేజీ క్యాంపస్‌ నుంచి కిడ్నాప్‌ చేసిన కుటుంబ సభ్యులు, వీడియో వైరల్‌"
-    ]
-   },
-   {
-    "q": "ధనుష్",
-    "traffic": "500+",
-    "news": [
-     "OM Box Office: బాక్సాఫీస్ వద్ద ధనుష్ ఊచకోత.. 'ఓం' ఫస్ట్ డే కలెక్షన్స్ ఎంతో తెలుసా?",
-     "OM OTT Release: ఓమ్ ఓటీటీ పార్ట్‌నర్ ఎవరు? ధనుష్- మమ్ముట్టిల మూవీ స్ట్రీమింగ్ ఎప్పుడంటే?",
-     "OM Twitter Review: ధనుశ్ ఓం మూవీ.. ఆడియన్స్‌ రెస్పాన్స్ ఎలా ఉందంటే?"
-    ]
-   },
-   {
-    "q": "getafe vs atlético",
+    "q": "భారత్ ఎ క్రికెట్ జట్టు",
     "traffic": "200+",
     "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
-    ]
-   },
-   {
-    "q": "milan vs frosinone",
-    "traffic": "100+",
-    "news": [
-     "AC Milan vs. Frosinone: TV channel, kick-off time (Sun Nov 22)",
-     "AC Milan vs Frosinone: Italian Serie A stats & head-to-head",
-     "Milan, the wind is changing: progress in mentality gives Amorim five reasons to smile"
-    ]
-   },
-   {
-    "q": "nitto atp finals",
-    "traffic": "500+",
-    "news": [
-     "Alcaraz dispatches Zverev, wins first Nitto ATP Finals crown",
-     "ATP Finals: Carlos Alcaraz beats world number one Alexander Zverev to claim title",
-     "Final Preview: Zverev vs. Alcaraz in Nitto ATP Finals championship blockbuster"
-    ]
-   },
-   {
-    "q": "carlos alcaraz",
-    "traffic": "500+",
-    "news": [
-     "Alcaraz se embolsa 5 millones de dólares por conquistar invicto las Finales ATP",
-     "Alcaraz vence a Alexander Zverev y gana las ATP Finals tras 28 años",
-     "Alcaraz es el más joven de la historia en ganar todos los Grand Slam y las ATP Finals"
-    ]
-   }
-  ],
-  "IN-TN Tamil Nadu (ta)": [
-   {
-    "q": "பாகிஸ்தான் ஏ கிரிக்கெட் அணி",
-    "traffic": "200+",
-    "news": [
-     "ஆசிய கோப்பை: இந்தியா ஏ அணிக்கு 314 ரன்கள் இலக்கு நிர்ணயித்த பாகிஸ்தான் ஏ அணி!",
-     "IND A vs PAK A - விதிமுறையை மீறி, இந்திய அணியின் வெற்றி வாய்ப்பை தட்டிப்பறித்த பாகிஸ்தான் வீரர்கள்",
-     "இந்திய பந்துவீச்சில் 26 ரன்னுக்கு சுருண்ட நேபாள்.. சதம் விளாசி குமார் குஷாக்ரா மிரட்டல்!"
-    ]
-   },
-   {
-    "q": "gold rate today 22 november 2026",
-    "traffic": "100+",
-    "news": [
-     "Gold prices tumble, but buyers remain in wait-and-watch mode in Andhra Pradesh",
-     "Gold falls 4.49% to Rs 1.21 lakh, silver plunges 6.6% in a single day to Rs 1.47 lakh; wedding shoppers g",
-     "Gold, silver rates today, November 21: Gold jewellery prices fall again; why silver is falling even faster"
-    ]
-   },
-   {
-    "q": "முதலீடு",
-    "traffic": "200+",
-    "news": [
-     "தவெக ஆட்சியில் ரூ.1.14 லட்சம் கோடி முதலீடு; 1.32 லட்சம் பேருக்கு வேலைவாய்ப்பு!",
-     "தமிழ்நாட்டில் இதுவரை எத்தனை MoU-க்கள், எத்தனை வேலைவாய்ப்புகள்? - தகவல் வெளியிட்ட அமைச்சர் கீர்த்தனா",
-     "TN | Employment |\"195 நாட்களில் ஈர்க்கப்பட்ட முதலீடுகள்\" தொழிற்துறை கொடுத்த அப்டேட்"
-    ]
-   },
-   {
-    "q": "tom blundell",
-    "traffic": "500+",
-    "news": [
-     "Stats - Pant's six-feast in India's highest away Test total",
-     "India strikes twice before lunch, closes on victory over New Zealand in 1st cricket test",
-     "India breaks New Zealand Test record with monster innings in Wellington"
-    ]
-   },
-   {
-    "q": "திருப்பரங்குன்றம்",
-    "traffic": "500+",
-    "news": [
-     "திருப்பரங்குன்றம் தீபத்தூண் வழக்கு: உச்ச நீதிமன்றத்தில் தமிழக அரசு சீராய்வு மனு - என்ன கூறியுள்ளது?",
-     "“அக்கா, வருஷ வருஷம் தீபம் ஏற்றுகிறோம்... - செளமியா அன்புமணிக்கு மாணிக்கம் தாகூர் பதில்!",
-     "‘இந்து விரோதமாக செயல்படுகிறார் விஜய்’ - திருப்பரங்குன்றம் விவகாரத்தில் இந்து முன்னணி குற்றச்சாட்டு"
+     "IND A vs PAK A: వీళ్లు మారరు.. హర్షిత్‌ రాణాను దూషించిన పాక్‌ స్పిన్నర్‌ సుఫియాన్",
+     "తిలక్‌ వర్మ సెంచరీ వృథా",
+     "భారత్-పాక్ మ్యాచ్‌లో టాస్ రగడ.. రిఫరీ తప్పిదంతో కలకలం.. సరిదిద్దుకుని బ్యాటింగ్ ఎంచుకున్న పాక్!"
     ]
    },
    {
     "q": "atalanta vs inter",
-    "traffic": "200+",
-    "news": [
-     "Atalanta-Inter 1-3 LIVE: Thuram’s stunning pass and Pio Esposito’s hat-trick",
-     "Atalanta vs Internazionale - Prediction, where to watch, kick-off time and line-ups 22-11-2026",
-     "Atalanta grab dramatic draw with Inter Milan in Serie A"
-    ]
-   },
-   {
-    "q": "satvika veeravalli",
-    "traffic": "200+",
-    "news": [
-     "Filmmaker Arun Gopy Hails Dulquer Salmaan After Watching Aakasamlo Oka Tara With Non-Malayali Audiences",
-     "‘Aaksamlo Oka Tara’ movie review: Dulquer Salmaan, Satvika Veeravalli shine in a Telugu film about hope",
-     "'Aakasamlo Oka Tara' box office collection day 3: Dulquer Salmaan's film records 29.2% Sunday jump; India net reaches Rs 13.10 cr"
-    ]
-   },
-   {
-    "q": "getafe vs atlético",
-    "traffic": "200+",
-    "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
-    ]
-   },
-   {
-    "q": "serie a",
     "traffic": "100+",
     "news": [
-     "Chivu: \"Fallita la prova di maturità, troppi errori e atteggiamento sbagliato. Due punti regalati\"",
-     "Esposito: \"Tre gol, ma il rammarico per la vittoria sfumata è grande\"",
-     "Atalanta-Inter, le pagelle: Barella è ovunque, Bastoni rovina tutto alla fine"
+     "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
+     "Atalanta vs Inter Milan player ratings — Esposito scores treble but points shared in dramatic 4-4 draw",
+     "Inter, Chivu: \"I don't experiment, I manage a group and its problems\""
     ]
    },
    {
-    "q": "miley cyrus",
+    "q": "చిరంజీవి",
     "traffic": "100+",
     "news": [
-     "Maxx Morando: Who be drummer wey Miley Cyrus marry for California?",
-     "Miley Cyrus weds drummer Maxx Morando in California – reports",
-     "Miley Cyrus and Maxx Morando Are Married! See the First Photos Here"
+     "Chiranjeevi-Megaverse: 'మెగావర్స్‌'లో స్టార్ హీరోల సందడి.. ప్రభాస్, పవన్, చరణ్.. లిస్ట్ ఇంకా పెద్దదే!",
+     "చిరంజీవి 'మెగావర్స్' టాక్ షో.. హైదరాబాద్‌లో నెట్‌ఫ్లిక్స్ భారీ ఈవెంట్",
+     "Megaverse Talk Show: మెగాస్టార్ మెగావర్స్.. గ్రాండ్‌ లాంఛ్‌ ఎప్పుడంటే?"
+    ]
+   },
+   {
+    "q": "రాశి",
+    "traffic": "500+",
+    "news": [
+     "జ్యోతిష్యం:40 రోజుల పాటు శుక్రుని ఆశీస్సులు.. ఐదు రాశుల వారికి గోల్డెన్ డేస్..",
+     "Zodiac Signs: 40 రోజుల పాటు శుక్రుడి సంచారం.. ఈ 2 రాశుల వారు పొరపాటున కూడా ఆ పని చేయొద్దు..!",
+     "Money Astrology: నాలుగు గ్రహాల అనుకూలత.. వీరికి ఆర్థిక సమస్యల నుంచి విముక్తి..!"
+    ]
+   },
+   {
+    "q": "daryl mitchell",
+    "traffic": "1000+",
+    "news": [
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
+    ]
+   },
+   {
+    "q": "tom blundell",
+    "traffic": "500+",
+    "news": [
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
+    ]
+   },
+   {
+    "q": "బంగాళాఖాతము",
+    "traffic": "2000+",
+    "news": []
+   }
+  ],
+  "IN-TN Tamil Nadu (ta)": [
+   {
+    "q": "tata steel apl apollo",
+    "traffic": "100+",
+    "news": [
+     "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+     "Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units",
+     "Tata Steel approves sale of tubes & pipes business, Tata Steel Colors to Apollo Tubes for ₹28,000 crore"
+    ]
+   },
+   {
+    "q": "தனுஷ்",
+    "traffic": "200+",
+    "news": [
+     "அனிருத் - காவியா மாறன் திருமண வரவேற்பின் 2 நாளில் யார்யார் பங்கேற்றனர்?",
+     "அனிருத் - காவியா மாறன் திருமண வரவேற்பு: முதல்வர் விஜய் நேரில் வாழ்த்து!",
+     "Dhoni | Anirudh | Kavya | அனிருத் - காவ்யா திருமண விழா - கலக்கலாக வந்திறங்கிய தல தோனி"
+    ]
+   },
+   {
+    "q": "வடபழனி",
+    "traffic": "500+",
+    "news": [
+     "“பயணிகளின் கவனத்திற்கு...” - மெட்ரோ ரயில் சேவை நேரங்களில் தற்காலிக மாற்றம்!",
+     "சென்னை மெட்ரோ பயணிகளுக்கு குட் நியூஸ்: வடபழனி டூ போரூர் வழித்தடத்தின் 6 நிலையங்கள் 2027-ல் திறக்கப்படும்!",
+     "பூந்தமல்லி - வடபழனி மெட்ரோ!\nநாளைமுதல் காலை 7 மணிக்கு தொடங்கும்!"
+    ]
+   },
+   {
+    "q": "warriors vs celtics",
+    "traffic": "200+",
+    "news": [
+     "Celtics at Warriors: Boston looks to rebound after last-second loss",
+     "Preview: Home cooking without the chef?",
+     "Derrick White Props Today: Pts, Rebs, Asts, 3PT"
+    ]
+   },
+   {
+    "q": "gift nifty",
+    "traffic": "200+",
+    "news": [
+     "Pre-market action: Here's the trade setup for today's session",
+     "Stock Market Today Live November 23: Sensex jumps over 700 pts at open, Nifty over 25,980 led by IT stocks",
+     "GIFT Nifty jumps over 150 pts, signals firm start for Sensex, Nifty as US futures rally; Asian markets..."
+    ]
+   },
+   {
+    "q": "flash flood risk",
+    "traffic": "500+",
+    "news": [
+     "HII warns 11 Phatthalung districts of 23–25 Nov flash floods",
+     "Thailand weather today, 23 November: heavy rain in 6 provinces",
+     "Flood and landslide warnings issued for 15 provinces"
+    ]
+   },
+   {
+    "q": "getafe cf vs atlético madrid standings",
+    "traffic": "100+",
+    "news": [
+     "Getafe 0-3 Atlético (Nov 22, 2026) Game Analysis",
+     "Getafe vs Atlético Madrid: Spanish La Liga stats & head-to-head",
+     "Atlético pick up another away win at Getafe behind Baena, Alvarez pair"
+    ]
+   },
+   {
+    "q": "मौसम",
+    "traffic": "2000+",
+    "news": [
+     "IMD Weather 23 November: दिल्‍ली से बिहार तक कोहरा नाक में करेगा दम, यहां जोरदार बारिश, 50 KMPH की रफ्तार स...",
+     "बारिश के बाद गिरेगा तापमान, बिहार-झारखंड में बदलेगा मौसम",
+     "Weather Forecast 23 November 2026: देखिए क्या है आपके यहां मौसम का हाल | Weather Report Today"
+    ]
+   },
+   {
+    "q": "windy",
+    "traffic": "1000+",
+    "news": [
+     "From near-70° Sunday to lake effect Monday",
+     "Weather: Cooler, rainy Thanksgiving, no snow expected locally",
+     "Active pattern continues"
+    ]
+   },
+   {
+    "q": "வானிலை",
+    "traffic": "20000+",
+    "news": [
+     "சென்னை உள்பட 9 மாவட்டங்களில் இன்று பலத்த மழைக்கு வாய்ப்பு!",
+     "இன்றும், நாளையும் மழைக்கு வாய்ப்பு.. எந்தெந்த பகுதிகளில் தெரியுமா?",
+     "சென்னையில் அதிகாலை முதலே கனமழை!"
     ]
    }
   ],
   "IN-KL Kerala (ml)": [
    {
-    "q": "prasidh krishna",
-    "traffic": "1000+",
-    "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
-    ]
-   },
-   {
-    "q": "getafe cf vs atlético madrid standings",
+    "q": "gold price today",
     "traffic": "200+",
     "news": [
-     "Getafe 0-3 Atlético (Nov 22, 2026) Game Analysis",
-     "Getafe vs. Atletico Madrid - Game Highlights",
-     "Atleti make their best-ever away start in La Liga"
+     "Gold prices tumble, but buyers remain in wait-and-watch mode in Andhra Pradesh",
+     "Gold falls 4.49% to Rs 1.21 lakh, silver plunges 6.6% in a single day to Rs 1.47 lakh; wedding shoppers g",
+     "Gold, Silver Rate Today Live Updates: Gold, silver rebound after steep weekly losses; check latest prices across major cities"
     ]
    },
    {
-    "q": "കാര്",
+    "q": "രാമായണം",
     "traffic": "200+",
     "news": [
-     "‘9.5 ലക്ഷത്തിന്റെ കാർ പോര, 13 ലക്ഷത്തിന്റേത് വേണം’; തർക്കത്തിനൊടുവിൽ താലികെട്ടാതെ മണ്ഡപത്തിൽനിന്ന് മടങ്ങി പോലീസുകാരൻ",
-     "‘എനിക്ക് ബ്രെസ്സ വേണം’; വധുവിന്‍റെ വീട്ടുകാര്‍ കൊടുത്ത കാര്‍ ഇഷ്ടപ്പെട്ടില്ല; മണ്ഡപത്തില്‍ നിന്നിറങ്ങി വരന്‍",
-     "സ്ത്രീധനമായി മാരുതി ബ്രെസ്സ കിട്ടിയില്ല; ഹ്യുണ്ടായ് ഓറയെ ഉപേക്ഷിച്ച് വിവാഹമണ്ഡപത്തിൽ നിന്നിറങ്ങിപ്പോയി പോലീസുകാരൻ"
+     "രാമായണ സിനിമയുടെ പ്രദർശനം ഉടൻ നിർത്തണമെന്ന് വിഎച്ച്പി- Ramayan Rise of a Legend | VHP",
+     "'വെറും പ്രതികാര കഥയാക്കി, രാവണനെ മഹത്വവല്‍ക്കരിച്ചു'; രാമായണം പ്രദര്‍ശനം ഉടന്‍ നിര്‍ത്തണമെന്ന് വിഎച്ച്പി",
+     "രാമായണ സിനിമ കമ്മ്യൂണിസ്റ്റ് അജണ്ട നടപ്പിലാക്കുന്നു, ഹിന്ദുക്കള്‍ ഇത് കാണരുത്: ഹിന്ദു ജനജാഗ്രതി സമിതി"
     ]
    },
    {
-    "q": "tom blundell",
+    "q": "എയര് ഇന്ത്യ എക്സ്പ്രസ്സ്",
+    "traffic": "200+",
+    "news": []
+   },
+   {
+    "q": "chicago vs charlotte",
     "traffic": "100+",
     "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
+     "Chicago 1-2 Charlotte (23 Nov, 2026) Game Analysis",
+     "Chicago Fire FC - Charlotte FC 1 - 1 | TOR - Robert Lewandowski",
+     "Chicago Fire - Charlotte LIVE. Major League Soccer latest updates"
     ]
    },
    {
-    "q": "നികുതി",
-    "traffic": "200+",
+    "q": "keralam",
+    "traffic": "500+",
     "news": [
-     "സൗദിയിൽ മിനിമം ടോപ്-അപ് നികുതി, ചരിത്രപരമായ മാറ്റം; നാല് വർഷത്തെ കണക്കുകൾ നിർണായകം",
-     "സൗദിയിൽ ബഹുരാഷ്ട്ര കമ്പനികൾക്ക് അധിക നികുതി",
-     "സൗദിയിൽ ബഹുരാഷ്ട്ര കമ്പനികൾക്ക് 15 ശതമാനം മിനിമം ടോപ്പ്-അപ്പ് നികുതി ഏർപ്പെടുത്താൻ തീരുമാനം; പുതിയ പരിഷ്കാരം ജനുവരി മുതൽ"
+     "Keralam cracks down on unsafe cosmetics after teen’s kidney disease",
+     "Kerala Girl Develops Kidney Ailment After 'Using' Fairness Cream: Side Effects Of Using Skincare High In Mercury",
+     "Keralam govt to crack down on sale of unapproved cosmetic products, protein powders"
     ]
    },
    {
-    "q": "വിവാഹം",
+    "q": "uefa champions league",
     "traffic": "100+",
     "news": [
-     "വിമത എംഎൽഎമാർ പേപ്പട്ടി കടിച്ചവരെന്ന് മുഖ്യമന്ത്രി; തെലങ്കാന കോൺഗ്രസിൽ രേവന്ത് റെഡ്ഡിക്കെതിരെ പടയൊരുക്കം",
-     "രണ്ടാം ഘട്ട സേവന കാലയളവിൽ അഗ്നിവീറുകൾക്ക് വിവാഹം കഴിക്കാൻ അനുമതി",
-     "തെലങ്കാന കോൺഗ്രസിലും ഉൾപ്പോര്; രേവന്തിന്റെ ‘പേപ്പട്ടി’ പരാമർശത്തിനെതിരേ രൂക്ഷവിമർശനവുമായി എംഎൽഎ"
+     "Manchester City vs Napoli: TV channel, kick-off time (Tue Nov 24)",
+     "Manchester City - SSC Napoli prediction & tips 24.11.2026",
+     "Man City Team News vs Napoli: Enzo Fernandez, Matheus Nunes"
     ]
    },
    {
-    "q": "getafe vs atlético",
+    "q": "ന്യൂസ്",
+    "traffic": "500+",
+    "news": [
+     "ബിസ്‌ലെരിയുടെ കുപ്പിവെള്ള സാംപിളില്‍ കാന്‍സറുണ്ടാക്കുന്ന വസ്തുക്കളുടെ സാന്നിധ്യം; പ്രോസിക്യൂഷന് അനുമതി",
+     "'സുരക്ഷിതമല്ല', കാൻസറിന് കാരണമായേക്കാവുന്ന രാസവസ്തുക്കൾ കണ്ടെത്തി; ബിസ്‌ലെരി കുടിവെള്ള കമ്പനിക്കെതിരെ നടപടി | 'സുരക്ഷിതമല്ല', കാന്‍സറിന് കാരണമായേക്കാവുന്ന രാസവസ്തുക്കള്‍ കണ്ടെത്തി; ബ",
+     "കുപ്പിവെള്ളത്തിൽ കാൻസറിന് കാരണമാകുന്ന രാസ വസ്തുക്കൾ; ബിസ്‌ലേരിക്കെതിരെ പ്രോസിക്യൂഷന് അനുമതി നൽകി എഫ്എസ്എസ്എഐ"
+    ]
+   },
+   {
+    "q": "ക്രിക്കറ്റ്",
+    "traffic": "500+",
+    "news": [
+     "‘ജെറ്റ് ഡൗൺ’ കാണിക്ക്! പാക്ക് താരങ്ങളോട് ആവശ്യപ്പെട്ട് സ്റ്റാഫ്, കളിക്കാതെ കിട്ടിയ ട്രോഫിക്ക് വൻ ആഘോഷം– വിഡിയോ",
+     "പാക് താരങ്ങൾക്കൊപ്പം 'ഫൈറ്റർ ജെറ്റ്' ആംഗ്യത്തിൽ ആഘോഷം; പാകിസ്ഥാൻ അമ്പയറുടെ നിഷ്പക്ഷതയെ ചോദ്യം ചെയ്ത് ഇന്ത്യ",
+     "പാകിസ്താൻ ട്രോഫി അടിച്ചുമാറ്റിയോ?; കാഴ്‌ചപരിമിതരുടെ ഏഷ്യ കപ്പ്‌ ഫൈനലിൽ വിവാദം; എതിർപ്പുമായി ഇന്ത്യ"
+    ]
+   },
+   {
+    "q": "daryl mitchell",
+    "traffic": "500+",
+    "news": [
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
+    ]
+   },
+   {
+    "q": "live cricket score",
     "traffic": "2000+",
     "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
-    ]
-   },
-   {
-    "q": "atalanta vs inter",
-    "traffic": "1000+",
-    "news": [
-     "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
-     "Licensable picture: Soccer 2026: Atalanta Vs Inter",
-     "Inter denied victory in the 90th minute despite Esposito's hat-trick in 4-4 draw"
-    ]
-   },
-   {
-    "q": "florian wirtz",
-    "traffic": "100+",
-    "news": [
-     "Direkt Rot und Gegentore: Pochettino-Debüt wird früh zum Debakel",
-     "Platzverweis spaltet die Experten - Didi Hamann wütet!",
-     "„So schlimm war es noch nie“ – Keane mit deutlicher United-Kritik"
-    ]
-   },
-   {
-    "q": "barcelona vs athletic club",
-    "traffic": "200+",
-    "news": [
-     "Mercyhurst 78-75 UAlbany (Nov 22, 2026) Final Score",
-     "Lions 31-21 Buccaneers (Nov 22, 2026) Game Recap",
-     "Getafe 0-3 Atlético (Nov 22, 2026) Player Stats"
+     "PUD:186/8 (20.0) | Live Cricket Score | KER vs PUD | smat 2026 | Cricket Scoreboard",
+     "Chhattisgarh vs Mumbai at Kolkata, Syed Mushtaq Ali Trophy Elite, 22 Nov 2026",
+     "Live Cricket Score, Schedule, Latest News, Stats & Videos"
     ]
    }
   ],
   "IN-MH Maharashtra (mr)": [
    {
-    "q": "सोना",
-    "traffic": "2000+",
+    "q": "tata steel apl apollo",
+    "traffic": "100+",
     "news": [
-     "पीएम मोदी की अपील के बाद क्या लोगों ने सोना ख़रीदना बंद कर दिया, क्या कह रहे हैं एक्सपर्ट्स",
-     "Silver Price Global Crash: चांदी का बुलबुला फूटा, ग्लोबल क्रैश के बीच हाई से 64% टूटी... क्या करें निवेशक?",
-     "22 और 24 कैरेट सोने का क्या है भाव- जानें तनिष्क, कल्याण ज्वैलर्स, मलाबार पर आज क्या चल रहा है रेट"
+     "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+     "Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units",
+     "Tata Steel approves sale of tubes & pipes business, Tata Steel Colors to Apollo Tubes for ₹28,000 crore"
     ]
    },
    {
-    "q": "tom blundell",
-    "traffic": "1000+",
-    "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
-    ]
-   },
-   {
-    "q": "getafe vs atlético",
-    "traffic": "1000+",
-    "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
-    ]
-   },
-   {
-    "q": "atalanta vs inter",
-    "traffic": "1000+",
-    "news": [
-     "Atalanta-Inter 1-3 LIVE: Thuram’s stunning pass and Pio Esposito’s hat-trick",
-     "Atalanta vs Internazionale - Prediction, where to watch, kick-off time and line-ups 22-11-2026",
-     "Atalanta grab dramatic draw with Inter Milan in Serie A"
-    ]
-   },
-   {
-    "q": "royal enfield 250cc new motorcycles",
+    "q": "mahanadi coalfields ipo gmp",
     "traffic": "200+",
     "news": [
-     "Royal Enfield 250cc Hybrid Motorcycle Launch in FY28, 50+ Kmpl Mileage",
-     "Royal Enfield plans 250cc bikes to tap rising demand from young upgraders",
-     "Bullet on a budget? 'Dug-Dug' Royal Enfield may get into classic hunt for India's next million bikers"
+     "The Mahanadi Coalfields IPO Explained",
+     "Mahanadi Coalfields IPO: A Dividend Play",
+     "Mahanadi Coalfields' ₹8,981-crore IPO GMP plunges 92% in 1 week | Issue was subscribed 0.38 times on November 20 | Inshorts"
     ]
    },
    {
-    "q": "barcelona vs athletic club",
+    "q": "warriors vs celtics",
     "traffic": "200+",
     "news": [
-     "Mercyhurst 78-75 UAlbany (Nov 22, 2026) Final Score",
-     "Lions 31-21 Buccaneers (Nov 22, 2026) Game Recap",
-     "Getafe 0-3 Atlético (Nov 22, 2026) Player Stats"
+     "Celtics at Warriors: Boston looks to rebound after last-second loss",
+     "Preview: Home cooking without the chef?",
+     "Derrick White Props Today: Pts, Rebs, Asts, 3PT"
     ]
    },
    {
-    "q": "miley cyrus",
+    "q": "अभिनेता",
     "traffic": "200+",
-    "news": [
-     "Miley Cyrus marries Maxx Morando in California ceremony",
-     "Miley Cyrus weds drummer Maxx Morando in California – reports",
-     "Miley Cyrus and Maxx Morando Are Married! See the First Photos Here"
-    ]
+    "news": []
    },
-   {
-    "q": "alexander zverev",
-    "traffic": "1000+",
-    "news": [
-     "Alcaraz dispatches Zverev, wins first Nitto ATP Finals crown",
-     "ATP Finals: Carlos Alcaraz beats world number one Alexander Zverev to claim title",
-     "Final Preview: Zverev vs. Alcaraz in Nitto ATP Finals championship blockbuster"
-    ]
-   },
-   {
-    "q": "carlos alcaraz",
-    "traffic": "1000+",
-    "news": [
-     "Alcaraz se embolsa 5 millones de dólares por conquistar invicto las Finales ATP",
-     "Alcaraz vence a Alexander Zverev y gana las ATP Finals tras 28 años",
-     "Alcaraz es el más joven de la historia en ganar todos los Grand Slam y las ATP Finals"
-    ]
-   },
-   {
-    "q": "best casinos 🇦🇺 causino.online",
-    "traffic": "200+",
-    "news": [
-     "Fast Payout Casinos 2026 -5 Best Highest Paying Online Casinos Ranked",
-     "New Slot Sites for Real Money (November 2026): Our Top U.S. Picks",
-     "Best Casino Apps Ranked by Revenue and App Store Ratings"
-    ]
-   }
-  ],
-  "IN-WB West Bengal (bn)": [
    {
     "q": "getafe cf vs atlético madrid standings",
     "traffic": "200+",
     "news": [
      "Getafe 0-3 Atlético (Nov 22, 2026) Game Analysis",
-     "Getafe vs. Atletico Madrid - Game Highlights",
-     "Atleti make their best-ever away start in La Liga"
-    ]
-   },
-   {
-    "q": "tom blundell",
-    "traffic": "5000+",
-    "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
-    ]
-   },
-   {
-    "q": "অপর্ণা সেন",
-    "traffic": "100+",
-    "news": [
-     "কলকাতার কড়চা: আপন হতে বাহির হয়ে",
-     "পরিচালক-অভিনেত্রীর বাইরে আলোকচিত্রী অপর্ণা, প্রকাশিত প্রথম বই ‘মাই গেজ’",
-     "Aparna Sen: এবার একেবারে অন্য ভূমিকায় অপর্ণা সেন! অভিনয়, পরিচালনার পরে একেবারে নতুন চমক"
-    ]
-   },
-   {
-    "q": "getafe vs atlético",
-    "traffic": "2000+",
-    "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
-    ]
-   },
-   {
-    "q": "atalanta vs inter",
-    "traffic": "2000+",
-    "news": [
-     "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
-     "Licensable picture: Soccer 2026: Atalanta Vs Inter",
-     "Inter denied victory in the 90th minute despite Esposito's hat-trick in 4-4 draw"
-    ]
-   },
-   {
-    "q": "florian wirtz",
-    "traffic": "100+",
-    "news": [
-     "Direkt Rot und Gegentore: Pochettino-Debüt wird früh zum Debakel",
-     "Platzverweis spaltet die Experten - Didi Hamann wütet!",
-     "„So schlimm war es noch nie“ – Keane mit deutlicher United-Kritik"
-    ]
-   },
-   {
-    "q": "barcelona vs athletic club",
-    "traffic": "500+",
-    "news": [
-     "Mercyhurst 78-75 UAlbany (Nov 22, 2026) Final Score",
-     "Lions 31-21 Buccaneers (Nov 22, 2026) Game Recap",
-     "Getafe 0-3 Atlético (Nov 22, 2026) Player Stats"
-    ]
-   },
-   {
-    "q": "alexander zverev",
-    "traffic": "200+",
-    "news": [
-     "Alcaraz dispatches Zverev, wins first Nitto ATP Finals crown",
-     "ATP Finals: Carlos Alcaraz beats world number one Alexander Zverev to claim title",
-     "Final Preview: Zverev vs. Alcaraz in Nitto ATP Finals championship blockbuster"
-    ]
-   },
-   {
-    "q": "carlos alcaraz",
-    "traffic": "500+",
-    "news": [
-     "Alcaraz se embolsa 5 millones de dólares por conquistar invicto las Finales ATP",
-     "Alcaraz vence a Alexander Zverev y gana las ATP Finals tras 28 años",
-     "Alcaraz es el más joven de la historia en ganar todos los Grand Slam y las ATP Finals"
-    ]
-   },
-   {
-    "q": "pl",
-    "traffic": "500+",
-    "news": [
-     "Interia bezkonkurencyjna. Jest nowy ranking portali za 2026 rok",
-     "Interia najpopularniejszym portalem internetowym w Polsce. W październiku prześcignęła Onet i WP",
-     "Łukasz Wasąg w sztabie reprezentacji Polski. Biało-czerwoni ze złotem!"
-    ]
-   }
-  ],
-  "IN-GJ Gujarat (gu)": [
-   {
-    "q": "ચાંદી",
-    "traffic": "100+",
-    "news": [
-     "આજનું એક્સપ્લેનર: શું 10 ગ્રામ સોનાનો ભાવ રુ. 1 લાખ થઈ જશે! ઓલટાઇમ હાઈથી 32% તૂટી ચૂક્યું; ખરીદવું કે હજી વ...",
-     "'નફો ત્યારે જ બને છે જ્યારે તમે ખરીદો છો...', સોના-ચાંદી અને બિટકોઇન ક્રેશ પર રોબર્ટ કિયોસાકીએ આપ્યો રોકાણનો મોટો મંત્ર!",
-     "Gold Silver Price Today Gold and silver became cheaper on the 10th day Know what is the price on November 21"
+     "Getafe vs Atlético Madrid: Spanish La Liga stats & head-to-head",
+     "Atlético pick up another away win at Getafe behind Baena, Alvarez pair"
     ]
    },
    {
     "q": "रणबीर कपूर",
-    "traffic": "200+",
+    "traffic": "1000+",
     "news": [
-     "भारत में 900 और दुनियाभर में 1600 करोड़ पहुंची 'रामायण', 17वें दिन रणबीर कपूर की फिल्म ने फिर पकड़ी रफ्तार,",
-     "Ramayana IMAX Record: रामायण ने बनाया एक और रिकॉर्ड, IMAX में किया कमाल, पीछे छोड़ी नोलन की ये फिल्म",
-     "रामायण के 6 बड़े रिकॉर्ड, धुरंधर 2-पुष्पा 2 को भी बुरी तरह पछाड़ा"
-    ]
-   },
-   {
-    "q": "tom blundell",
-    "traffic": "200+",
-    "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
-    ]
-   },
-   {
-    "q": "getafe vs atlético",
-    "traffic": "100+",
-    "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
+     "'रामायण' ने रचा इतिहास, रणबीर कपूर-यश की फिल्म ने 17 दिन के भीतर तोड़े 10 रिकॉर्ड, दिखाया बड़ा कमाल",
+     "18वें दिन Ramayana पर बरसा कुबेर का खजाना, रविवार को रणबीर कपूर की फिल्म पर हुई धनवर्षा",
+     "Ramayana IMAX Record: रामायण ने बनाया एक और रिकॉर्ड, IMAX में किया कमाल, पीछे छोड़ी नोलन की ये फिल्म"
     ]
    },
    {
@@ -775,64 +598,270 @@
     ]
    },
    {
-    "q": "milan vs frosinone",
-    "traffic": "200+",
+    "q": "सोना",
+    "traffic": "2000+",
     "news": [
-     "AC Milan vs. Frosinone: TV channel, kick-off time (Sun Nov 22)",
-     "AC Milan vs Frosinone: Italian Serie A stats & head-to-head",
-     "Milan, the wind is changing: progress in mentality gives Amorim five reasons to smile"
+     "पीएम मोदी की अपील के बाद क्या लोगों ने सोना ख़रीदना बंद कर दिया, क्या कह रहे हैं एक्सपर्ट्स",
+     "अभी और गिरेगा सोने-चांदी का भाव, एक्सपर्ट्स बोले- इस हफ्ते भी जारी रह सकती है गिरावट",
+     "सोना-चांदी के कीमतों में आई भारी गिरावट, MCX से घरेलू बाजार तक क्रैश हुए भाव"
     ]
    },
    {
-    "q": "carlos alcaraz",
-    "traffic": "200+",
+    "q": "tom blundell",
+    "traffic": "1000+",
     "news": [
-     "Alcaraz se embolsa 5 millones de dólares por conquistar invicto las Finales ATP",
-     "Alcaraz vence a Alexander Zverev y gana las ATP Finals tras 28 años",
-     "Alcaraz es el más joven de la historia en ganar todos los Grand Slam y las ATP Finals"
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
     ]
    },
    {
-    "q": "ગિરનાર",
-    "traffic": "200+",
+    "q": "daryl mitchell",
+    "traffic": "2000+",
     "news": [
-     "ઈટાલીથી જૂનાગઢ આવી 'ભૂરાભાઈ'એ લગાવી 'જય ગિરનારી'ની હાકલ: 36 કિ.મી.ની લીલી પરિક્રમામાં જોડાયેલા વિદેશી પર્યટ...",
-     "ગિરનાર પરિક્રમામાં હૈયે હૈયું દળાય એટલી ભીડ, તમામ પડાવ ભરચક્ક",
-     "ગિરનારની પરિક્રમા: જંગલમાં સિંહ-દીપડા વચ્ચે લાખો શ્રદ્ધાળુઓની યાત્રા અને હજારો વર્ષ જૂનું સહઅસ્તિત્વ"
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
     ]
-   },
-   {
-    "q": "liverpool vs man utd",
-    "traffic": "5000+",
-    "news": [
-     "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
-     "Bruno Fernandes disputes Leny Yoro red card in Liverpool's rout of Man United",
-     "Liverpool 4-0 Manchester United: Five key takeaways for Pochettino"
-    ]
-   },
-   {
-    "q": "ग्रेच्युटी",
-    "traffic": "500+",
-    "news": []
    }
   ],
-  "IN-OR Odisha (or)": [
+  "IN-WB West Bengal (bn)": [
    {
-    "q": "चक्रवात",
+    "q": "যাদবপুর বিশ্ববিদ্যালয়",
     "traffic": "100+",
     "news": [
-     "पहाड़ों पर भारी बर्फबारी और चक्रवात अकवान ने किस तरह बदला मौसम का मिजाज? देखें",
-     "बंगाल की खाड़ी में फिर बन सकता है चक्रवाती सिस्टम, 1987 के बाद बन रहे ऐसे हालात, ओडिशा में मौसम विभाग अलर्ट",
-     "बेमौसम बारिश से डूबे धान: किसान चिंतित, उपमुखिया जुटाने में"
+     "গবেষণার বিশ্বমঞ্চে যাদবপুরের পড়ুয়া",
+     "পিএইচডি-র খরচ দেবে গুগল! প্রথমবার বিরল কৃতিত্ব যাদবপুরের কৃতী ছাত্রের",
+     "গুগলের পিএইচডি ফেলোশিপ পেলেন যাদবপুরের গবেষক ছাত্র, নজিরবিহীন সম্মানে উচ্ছ্বাস গোটা বিশ্ববিদ্যালয়ে"
+    ]
+   },
+   {
+    "q": "today gold price",
+    "traffic": "500+",
+    "news": [
+     "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+     "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+     "Gold's slide deepens as AI rout, rate-hike bets hurt bullion"
+    ]
+   },
+   {
+    "q": "today gold price in kolkata",
+    "traffic": "100+",
+    "news": [
+     "Gold prices tumble, but buyers remain in wait-and-watch mode in Andhra Pradesh",
+     "Gold falls 4.49% to Rs 1.21 lakh, silver plunges 6.6% in a single day to Rs 1.47 lakh; wedding shoppers g",
+     "Gold, Silver Rate Today Live Updates: Gold, silver rebound after steep weekly losses; check latest prices across major cities"
+    ]
+   },
+   {
+    "q": "সংবিধান দিবস",
+    "traffic": "100+",
+    "news": [
+     "শিক্ষাপ্রতিষ্ঠানে সংবিধান দিবস পালনের নির্দেশ, স্কুলের প্রার্থনা সভায় প্রস্তাবনা পাঠ-সহ নানা কর্মসূচির পরিকল্পনা",
+     "যুব প্রজন্মের কাছে পৌঁছনোর উদ্যোগ! এবার স্কুল-কলেজে সংবিধান দিবস পালনের নির্দেশিকা জারি",
+     "২৬ নভেম্বর রাজ্যের সব স্কুলে ‘সংবিধান দিবস’ পালন, কী কী নির্দেশিকা স্কুল শিক্ষা দপ্তরের?"
+    ]
+   },
+   {
+    "q": "আবহাওয়া",
+    "traffic": "10000+",
+    "news": [
+     "অ্যাকভানের অবশেষ নিষ্ক্রিয়, কলকাতা-সহ দক্ষিণবঙ্গে বৃষ্টি কমে এ বার পারদপতনের পূর্বাভাস! তাপমাত্রা কত কমবে",
+     "West Bengal Weather : বৃষ্টি-কুয়াশায় দিন শুরু, শীত পড়ার বদলে বাড়বে তাপমাত্রা? আর কবে পড়বে",
+     "বৃষ্টির মেঘ সরলেই শীতের দাপট, মঙ্গলবার থেকে তাপমাত্রা কমার ইঙ্গিত হাওয়া অফিসের"
+    ]
+   },
+   {
+    "q": "csir ugc net",
+    "traffic": "100+",
+    "news": [
+     "CSIR UGC NET December 2026 exam schedule released; check subject-wise exam dates",
+     "UGC NET December 2026: Check Exam Dates For History, Sociology, English And More",
+     "NTA Releases Subject-Wise UGC-NET December 2026 Schedule, Exams to Begin on December 14"
+    ]
+   },
+   {
+    "q": "জগদ্ধাত্রী",
+    "traffic": "100+",
+    "news": [
+     "কাঁধে চেপে চন্দননগরে রেললাইন পার করল জগদ্ধাত্রী প্রতিমা! ৫০ মিনিট থমকে থাকল ট্রেন চলাচল",
+     "বিসর্জনে আকর্ষণ ঢাক-বাদ্যে সংশয়",
+     "২৫০ বছরের ইতিহাসে প্রথম! পিছোল বুড়িমার নিরঞ্জন, সোমবার রাতে জলঙ্গীতে বিসর্জন"
+    ]
+   },
+   {
+    "q": "ভ্লাদিমির পুতিন",
+    "traffic": "500+",
+    "news": [
+     "Putin-Modi: ‘যত জানছি, অবাক হচ্ছি’, ভারতের বৈচিত্র্যে মুগ্ধ পুতিন!",
+     "India-Russia Relations: ‘যত দেখি, ততই অবাক হই’, ভারতের বহুত্ববাদের ভূয়সী প্রশংসা করলেন পুতিন",
+     "ভারতের কোন বিষয়টি অবাক করেছে পুতিনকে? মোদির সঙ্গে গোপন কথোপকথন ফাঁস করলেন রুশ প্রেসিডেন্ট"
+    ]
+   },
+   {
+    "q": "todays weather",
+    "traffic": "100+",
+    "news": [
+     "Storms Bruna and Charles bring record rain and winds to Portugal and Madeira",
+     "Debate over dramatic response to storm // Christmas market ditches protest ban // Could Portugal host Olympics with Spain?",
+     "Madeira recorded rainfall of unprecedented magnitude in Portugal."
+    ]
+   },
+   {
+    "q": "সূর্যকুমার যাদব",
+    "traffic": "100+",
+    "news": [
+     "ফর্মে ফিরেও লাভ হচ্ছে না সূর্যকুমারের, টি-টোয়েন্টি বিশ্বজয়ী অধিনায়ককে ভারতীয় দলে আর চাইছেন না বোর্ড কর্তারাই",
+     "‘যশস্বীই জায়গা পাচ্ছে না...’, ভারতীয় দলে ফেরার দরজা বন্ধ সূর্যকুমারের?",
+     "Syed Mushtaq Ali T20: সিএবি-র ক্যান্টিনে মেঝেতে বসে মাংস-ভাত, দেখলে কে বলবে টি-২০ বিশ্বকাপজয়ী"
+    ]
+   }
+  ],
+  "IN-GJ Gujarat (gu)": [
+   {
+    "q": "mahanadi coalfields ipo gmp",
+    "traffic": "100+",
+    "news": [
+     "The Mahanadi Coalfields IPO Explained",
+     "Mahanadi Coalfields IPO: A Dividend Play",
+     "Mahanadi Coalfields' ₹8,981-crore IPO GMP plunges 92% in 1 week | Issue was subscribed 0.38 times on November 20 | Inshorts"
+    ]
+   },
+   {
+    "q": "mcx gold",
+    "traffic": "100+",
+    "news": [
+     "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+     "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+     "Gold's slide deepens as AI rout, rate-hike bets hurt bullion"
+    ]
+   },
+   {
+    "q": "crude oil price",
+    "traffic": "100+",
+    "news": [
+     "Oil prices fall amid equity selloff though Iran war attacks limit losses",
+     "Oil Markets Are Betting on a Surplus That Hasn't Arrived Yet",
+     "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses"
+    ]
+   },
+   {
+    "q": "vehicle",
+    "traffic": "100+",
+    "news": [
+     "PM condoles loss of lives in a mishap in Kota, Rajasthan",
+     "Road crash in Rajasthan leaves nine dead, eight injured",
+     "Nine family members from Maharashtra killed in a vehicle crash in Rajasthan's Kota - India Today"
+    ]
+   },
+   {
+    "q": "પૈસા",
+    "traffic": "500+",
+    "news": [
+     "સોનાનો ભાવ આસમાને છતાં જૂના ઘરેણાંના ઓછા પૈસા કેમ મળે છે? ઝવેરી પાસે જતા પહેલાં આટલું જાણી લો",
+     "8મા પગાર પંચ હેઠળ સેલરી વધારવાની બે નવી ફોર્મ્યૂલા, પટાવાળો કે અધિકારી કોના ખિસ્સામાં વધુ પૈસા આવશે?",
+     "8મા પગાર પંચમાં સરકારી પેન્શનર્સને મળશે મોટી ભેટ? - Employees stand to gain significantly"
+    ]
+   },
+   {
+    "q": "ચાંદી",
+    "traffic": "5000+",
+    "news": [
+     "આજનું એક્સપ્લેનર: શું 10 ગ્રામ સોનાનો ભાવ રુ. 1 લાખ થઈ જશે! ઓલટાઇમ હાઈથી 32% તૂટી ચૂક્યું; ખરીદવું કે હજી વ...",
+     "'નફો ત્યારે જ બને છે જ્યારે તમે ખરીદો છો...', સોના-ચાંદી અને બિટકોઇન ક્રેશ પર રોબર્ટ કિયોસાકીએ આપ્યો રોકાણનો મોટો મંત્ર!",
+     "Gold Silver Price Today Gold and silver became cheaper on the 10th day Know what is the price on November 21"
+    ]
+   },
+   {
+    "q": "रणबीर कपूर",
+    "traffic": "500+",
+    "news": [
+     "'रामायण' ने रचा इतिहास, रणबीर कपूर-यश की फिल्म ने 17 दिन के भीतर तोड़े 10 रिकॉर्ड, दिखाया बड़ा कमाल",
+     "18वें दिन Ramayana पर बरसा कुबेर का खजाना, रविवार को रणबीर कपूर की फिल्म पर हुई धनवर्षा",
+     "Ramayana IMAX Record: रामायण ने बनाया एक और रिकॉर्ड, IMAX में किया कमाल, पीछे छोड़ी नोलन की ये फिल्म"
+    ]
+   },
+   {
+    "q": "daryl mitchell",
+    "traffic": "1000+",
+    "news": [
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
     ]
    },
    {
     "q": "tom blundell",
     "traffic": "500+",
     "news": [
-     "NZ vs IND, 1st Test: KL Rahul credits ‘six-seven months of homework' for maiden ton in NZ",
-     "Two innings, two first-over strikes! Jasprit Bumrah becomes only third Indian bowler in Test history to a",
-     "Jaiswal rides luck as India blunt New Zealand attack, indecision bugs home team"
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
+    ]
+   },
+   {
+    "q": "atalanta vs inter",
+    "traffic": "100+",
+    "news": [
+     "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
+     "Atalanta vs Inter Milan player ratings — Esposito scores treble but points shared in dramatic 4-4 draw",
+     "Inter, Chivu: \"I don't experiment, I manage a group and its problems\""
+    ]
+   }
+  ],
+  "IN-OR Odisha (or)": [
+   {
+    "q": "ग्रेच्युटी",
+    "traffic": "100+",
+    "news": [
+     "रिटायर कर्मचारियों की बड़ी जीत, मिलेगी 33.95 लाख की ग्रेच्युटी",
+     "बरी किए जाने के खिलाफ राज्य की लंबित अपील, सेवानिवृत्त कर्मचारी की ग्रेच्युटी रोकने का आधार नहीं: सुप्रीम कोर्ट",
+     "इंटक अध्यक्ष अनूप सिंह तीसरी बार चुने गए, झारखंड को बड़ी..."
+    ]
+   },
+   {
+    "q": "atalanta vs inter",
+    "traffic": "100+",
+    "news": [
+     "Atalanta vs Inter Milan: Italian Serie A stats & head-to-head",
+     "Atalanta vs Inter Milan player ratings — Esposito scores treble but points shared in dramatic 4-4 draw",
+     "Inter, Chivu: \"I don't experiment, I manage a group and its problems\""
+    ]
+   },
+   {
+    "q": "getafe vs atlético",
+    "traffic": "100+",
+    "news": [
+     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
+     "¿A qué hora es el partido Getafe vs Atlético de Madrid y cómo verlo en TV y streaming online?",
+     "\"¡Hasta la expulsión llegó con su pie izquierdo!\" Dos asistencias perdidas para Lee Kang-in, tres pases decisivos consecutivos hacia Sørloth... Finalmente, \"penalti → gol de la sentencia en colaboración\""
+    ]
+   },
+   {
+    "q": "चक्रवात",
+    "traffic": "100+",
+    "news": [
+     "पहाड़ों पर भारी बर्फबारी और चक्रवात अकवान ने किस तरह बदला मौसम का मिजाज? देखें",
+     "पानी में डूबी छह महीने की मेहनत: भीगी फसल को कंधे से लगाए बेबस बैठा रहा जमुई का किसान, तस्वीर देख भर आएंगी आंखें",
+     "बारिश से किसानों की फसलें डूबीं, भारी नुकसान"
+    ]
+   },
+   {
+    "q": "daryl mitchell",
+    "traffic": "1000+",
+    "news": [
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
+    ]
+   },
+   {
+    "q": "tom blundell",
+    "traffic": "500+",
+    "news": [
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
     ]
    },
    {
@@ -840,8 +869,8 @@
     "traffic": "2000+",
     "news": [
      "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
-     "Bruno Fernandes disputes Leny Yoro red card in Liverpool's rout of Man United",
-     "Liverpool 4-0 Manchester United: Five key takeaways for Pochettino"
+     "Liverpool vs. Man United player ratings as Rio Ngumoha dazzles, United's defence crumbles",
+     "Liverpool hammer ten-man United in Pochettino debut"
     ]
    },
    {
@@ -849,24 +878,15 @@
     "traffic": "200+",
     "news": [
      "Barcelona 3-2 Villarreal: resumen, goles y resultado",
-     "Remontada de campeón del Barça",
+     "Revisen el vídeo, es urgente",
      "¡Tras doble golpe y fallo de Yamal, el Barça remonta un 0-2 en 10 minutos!"
-    ]
-   },
-   {
-    "q": "fc barcelona",
-    "traffic": "200+",
-    "news": [
-     "Javi Rodríguez: \"Estoy ilusionado por volver a unos octavos de final\"",
-     "El Barça, obligado a no confiarse ante el Olmissum para acercarse a cuartos",
-     "El Barça, muy ambicioso en el regreso a la Champions"
     ]
    },
    {
     "q": "churchill brothers vs mohun bagan",
     "traffic": "500+",
     "news": [
-     "Historic Rivals Churchill Brothers and Mohun Bagan SG Face Off In Fatorda",
+     "Photos : Mohun Bagan Super Giant Edge Churchill Brothers 2-1 to Climb to the Top of the Table",
      "Mohun Bagan set derby mood with Churchill win, rise to ISL summit before Derby clash",
      "Mohun Bagan coach says players under lot of pressure, points to ‘individual mistakes’ ahead of derby against East Bengal"
     ]
@@ -875,106 +895,92 @@
     "q": "barcelona vs villarreal",
     "traffic": "5000+",
     "news": [
+     "Barcelona 3-2 Villarreal (22 Nov, 2026) Game Analysis",
      "European football: Barcelona roar back from two goals down to sink Villarreal",
-     "Garcia: Barcelona's comeback reflective of title mentality",
-     "Flick explains García and De Jong positions and justifies faith in Adeyemi"
-    ]
-   },
-   {
-    "q": "ssc chsl exam city slip",
-    "traffic": "100+",
-    "news": [
-     "SSC CHSL city intimation slip 2026 expected today: How to check exam city, date and download details",
-     "SSC CPO Admit Card 2026 Out at ssc.gov.in, Download Hall Ticket and Call Letter PDF",
-     "Staff Selection Commission CHSL City Intimation Slip 2026 Expected Today: Check Exam Details"
-    ]
-   },
-   {
-    "q": "shahbaz ahmed",
-    "traffic": "10000+",
-    "news": [
-     "तिलक वर्माची एकाकी झुंज अपयशी, अटीतटीच्या सामन्यात भारताचा पराभव, पाकिस्तानचा",
-     "IND A vs PAK A : रिंकू सिंहसमोर हुशारी अन् पाकिस्तानी कर्णधार अब्दुल समदचा 'करेक्ट कार्यक्रम'!",
-     "4,4,6,6,4… वैभव सूर्यवंशीची विकेट घेतली, जल्लोषही पूर्ण झाला नाही; अभिषेक शर्माने पुढच्याच क्षणी..."
-    ]
-   },
-   {
-    "q": "ayush badoni",
-    "traffic": "5000+",
-    "news": [
-     "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-     "India A vs Nepal at Doha, DP World Men's Asia Cup Rising Stars, 20 Nov 2026",
-     "'We didn't have our full-strength team here': Nepal captain Lamichhane after 306-run defeat to India A"
+     "An almost unheard of comeback"
     ]
    }
   ],
   "IN-PB Punjab (pa)": [
    {
+    "q": "gold price today",
+    "traffic": "2000+",
+    "news": [
+     "Gold prices tumble, but buyers remain in wait-and-watch mode in Andhra Pradesh",
+     "Gold falls 4.49% to Rs 1.21 lakh, silver plunges 6.6% in a single day to Rs 1.47 lakh; wedding shoppers g",
+     "Gold, Silver Rate Today Live Updates: Gold, silver rebound after steep weekly losses; check latest prices across major cities"
+    ]
+   },
+   {
     "q": "सोना",
     "traffic": "500+",
     "news": [
      "पीएम मोदी की अपील के बाद क्या लोगों ने सोना ख़रीदना बंद कर दिया, क्या कह रहे हैं एक्सपर्ट्स",
-     "Silver Price Global Crash: चांदी का बुलबुला फूटा, ग्लोबल क्रैश के बीच हाई से 64% टूटी... क्या करें निवेशक?",
-     "22 और 24 कैरेट सोने का क्या है भाव- जानें तनिष्क, कल्याण ज्वैलर्स, मलाबार पर आज क्या चल रहा है रेट"
+     "अभी और गिरेगा सोने-चांदी का भाव, एक्सपर्ट्स बोले- इस हफ्ते भी जारी रह सकती है गिरावट",
+     "सोना-चांदी के कीमतों में आई भारी गिरावट, MCX से घरेलू बाजार तक क्रैश हुए भाव"
+    ]
+   },
+   {
+    "q": "daryl mitchell",
+    "traffic": "500+",
+    "news": [
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
     ]
    },
    {
     "q": "tom blundell",
     "traffic": "200+",
     "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
     ]
    },
    {
-    "q": "liverpool vs man utd",
+    "q": "liverpool f.c. vs manchester united f.c. standings",
     "traffic": "2000+",
     "news": [
      "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
-     "Bruno Fernandes disputes Leny Yoro red card in Liverpool's rout of Man United",
-     "Liverpool 4-0 Manchester United: Five key takeaways for Pochettino"
+     "Liverpool vs. Man United player ratings as Rio Ngumoha dazzles, United's defence crumbles",
+     "Liverpool hammer ten-man United in Pochettino debut"
+    ]
+   },
+   {
+    "q": "fc barcelona vs villarreal cf standings",
+    "traffic": "500+",
+    "news": [
+     "Barcelona 3-2 Villarreal (22 Nov, 2026) Game Analysis",
+     "European football: Barcelona roar back from two goals down to sink Villarreal",
+     "An almost unheard of comeback"
     ]
    },
    {
     "q": "ग्रेच्युटी",
-    "traffic": "500+",
-    "news": []
-   },
-   {
-    "q": "barcelona",
-    "traffic": "200+",
+    "traffic": "1000+",
     "news": [
-     "Barcelona 3-2 Villarreal: resumen, goles y resultado",
-     "Remontada de campeón del Barça",
-     "¡Tras doble golpe y fallo de Yamal, el Barça remonta un 0-2 en 10 minutos!"
+     "रिटायर कर्मचारियों की बड़ी जीत, मिलेगी 33.95 लाख की ग्रेच्युटी",
+     "बरी किए जाने के खिलाफ राज्य की लंबित अपील, सेवानिवृत्त कर्मचारी की ग्रेच्युटी रोकने का आधार नहीं: सुप्रीम कोर्ट",
+     "इंटक अध्यक्ष अनूप सिंह तीसरी बार चुने गए, झारखंड को बड़ी..."
     ]
    },
    {
     "q": "barcelona vs villarreal",
-    "traffic": "5000+",
-    "news": [
-     "European football: Barcelona roar back from two goals down to sink Villarreal",
-     "Garcia: Barcelona's comeback reflective of title mentality",
-     "Flick explains García and De Jong positions and justifies faith in Adeyemi"
-    ]
-   },
-   {
-    "q": "shahbaz ahmed",
-    "traffic": "5000+",
-    "news": [
-     "तिलक वर्माची एकाकी झुंज अपयशी, अटीतटीच्या सामन्यात भारताचा पराभव, पाकिस्तानचा",
-     "IND A vs PAK A : रिंकू सिंहसमोर हुशारी अन् पाकिस्तानी कर्णधार अब्दुल समदचा 'करेक्ट कार्यक्रम'!",
-     "4,4,6,6,4… वैभव सूर्यवंशीची विकेट घेतली, जल्लोषही पूर्ण झाला नाही; अभिषेक शर्माने पुढच्याच क्षणी..."
-    ]
-   },
-   {
-    "q": "vipraj nigam",
     "traffic": "2000+",
     "news": [
-     "Ouch! Vaibhav Sooryavanshi Take An Accidental Flying Kick From Teammate Vipraj Nigam While Fielding | Watch",
-     "Sooryavanshi Leaves Field After Collision With Nigam in Doha",
-     "IND vs PAK : टीम इंडियाचं काय चुकलं? संथ शतक अन् पाकिस्तानविरुद्धच्या पराभवाबद्दल तिलक वर्मा काय म्हणाला?"
+     "Barcelona 3-2 Villarreal: resumen, goles y resultado",
+     "Revisen el vídeo, es urgente",
+     "¡Tras doble golpe y fallo de Yamal, el Barça remonta un 0-2 en 10 minutos!"
+    ]
+   },
+   {
+    "q": "ahmed daniyal",
+    "traffic": "1000+",
+    "news": [
+     "INDA vs PAKA, 8th Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Commentary",
+     "Ball by Ball Commentary & Live Score - IND-A vs PAK-A, 8th Match, Group B",
+     "INDA vs PAKA, 8th Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Commentary"
     ]
    },
    {
@@ -985,117 +991,126 @@
      "India A vs Nepal at Doha, DP World Men's Asia Cup Rising Stars, 20 Nov 2026",
      "'We didn't have our full-strength team here': Nepal captain Lamichhane after 306-run defeat to India A"
     ]
-   },
-   {
-    "q": "harshit rana",
-    "traffic": "5000+",
-    "news": [
-     "WATCH: Harshit Rana turns up the heat against Pakistan, gives Shamyl Hussain an aggressive send-off",
-     "Harshit Rana involved in multiple heated exchanges with Pakistan players | To follow the match live | Inshorts",
-     "Harshit Rana In Heated Spat With Pakistan Star. Umpire Forced To Step In During Asia Cup Rising Stars Clash - Video"
-    ]
    }
   ],
   "IN-UP Uttar Pradesh (hi)": [
+   {
+    "q": "moneycontrol",
+    "traffic": "200+",
+    "news": [
+     "Stocks in news: Adani Energy, Maruti Suzuki, RailTel, Waaree Energies and Indian Bank",
+     "Stocks to watch November 23: Tata Steel, APL Apollo Tubes, IndusInd Bank, NSE, Adani Energy, Waaree Energies and more",
+     "Stocks to watch: Tata Steel, Waaree, Adani Energy, Maruti, IndusInd Bank"
+    ]
+   },
+   {
+    "q": "mcx gold",
+    "traffic": "200+",
+    "news": [
+     "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+     "Gold falls 11% to Rs 1.21 lakh and silver plunges 16.2% to Rs 1.47 lakh in a week to over one-year lows;",
+     "Gold's slide deepens as AI rout, rate-hike bets hurt bullion"
+    ]
+   },
+   {
+    "q": "mcx gold rate",
+    "traffic": "200+",
+    "news": [
+     "Gold prices tumble, but buyers remain in wait-and-watch mode in Andhra Pradesh",
+     "Gold falls 4.49% to Rs 1.21 lakh, silver plunges 6.6% in a single day to Rs 1.47 lakh; wedding shoppers g",
+     "Gold, Silver Rate Today Live Updates: Gold, silver rebound after steep weekly losses; check latest prices across major cities"
+    ]
+   },
+   {
+    "q": "tata steel apl apollo",
+    "traffic": "100+",
+    "news": [
+     "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+     "Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units",
+     "Tata Steel approves sale of tubes & pipes business, Tata Steel Colors to Apollo Tubes for ₹28,000 crore"
+    ]
+   },
+   {
+    "q": "mcx silver",
+    "traffic": "5000+",
+    "news": [
+     "Gold Rate In Pakistan: भारत ही नहीं पाकिस्तान में भी सोने का दाम क्रैश, फिर भी 10 ग्राम 300000 के पार",
+     "Bijnor News: सहालग शुरू होते ही चमकने लगा सराफा बाजार",
+     "सोने-चांदी की कीमतों में आई भारी गिरावट, कितनी करें खरीदारी ? जानिए विशेषज्ञों की सलाह"
+    ]
+   },
+   {
+    "q": "samsung one ui 9.5",
+    "traffic": "200+",
+    "news": [
+     "Samsung Begins One UI 9.5 Beta Program",
+     "Samsung brings the native App Lock feature to Galaxy phones with One UI 9.5 - GSMArena.com news",
+     "One UI 9.5 brings these X new features to Samsung phones"
+    ]
+   },
+   {
+    "q": "कर्मचारी राज्य बीमा निगम",
+    "traffic": "100+",
+    "news": [
+     "ESIC के नए नियम, बिना क्लेम खाते में आएगा बीमारी और मैटरनिटी का पैसा",
+     "ESIC का नया नियम: अब बिना कागजी कार्यवाही डायरेक्ट आपके अकाउंट में आएगा पैसा, नोटिफिकेशन जारी",
+     "ESIC ने दी 4 करोड़ कर्मचारियों को राहत, बीमारी और मातृत्व लाभ का पैसा बिना फॉर्म भरे सीधे बैंक खाते में आएगा"
+    ]
+   },
    {
     "q": "चक्रवात",
     "traffic": "500+",
     "news": [
      "पहाड़ों पर भारी बर्फबारी और चक्रवात अकवान ने किस तरह बदला मौसम का मिजाज? देखें",
-     "बंगाल की खाड़ी में फिर बन सकता है चक्रवाती सिस्टम, 1987 के बाद बन रहे ऐसे हालात, ओडिशा में मौसम विभाग अलर्ट",
-     "बेमौसम बारिश से डूबे धान: किसान चिंतित, उपमुखिया जुटाने में"
+     "पानी में डूबी छह महीने की मेहनत: भीगी फसल को कंधे से लगाए बेबस बैठा रहा जमुई का किसान, तस्वीर देख भर आएंगी आंखें",
+     "बारिश से किसानों की फसलें डूबीं, भारी नुकसान"
     ]
    },
    {
-    "q": "सोना",
-    "traffic": "5000+",
+    "q": "daryl mitchell",
+    "traffic": "2000+",
     "news": [
-     "Silver Price Global Crash: चांदी का बुलबुला फूटा, ग्लोबल क्रैश के बीच हाई से 64% टूटी... क्या करें निवेशक?",
-     "Gold Price: CTI के लेटर ने खोल दिया राज, इस कारण से सोने का दाम हुआ कम! आगे और लुढ़क सकता सोने का भाव?",
-     "India.Com - Hindi. . प्रधानमंत्री नरेंद्र मोदी ने सोने की खरीदारी को लेकर दी गई अपनी पुरानी सलाह का जिक्र किया। उन्होंने कहा कि पहले भी उन्होंने लोगों से सोना कम खरीदने की अपील की थी। उनकी इस"
-    ]
-   },
-   {
-    "q": "d",
-    "traffic": "500+",
-    "news": [
-     "Jeffery Simmons matches career high with 3 sacks in Bears' win",
-     "How Jeffery Simmons has put his signature all over the Bears’ defensive surge",
-     "Chicago Bears 21, New Orleans Saints 13: Final score and recap from Week 11"
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
     ]
    },
    {
     "q": "tom blundell",
-    "traffic": "500+",
+    "traffic": "2000+",
     "news": [
-     "Stats: India's highest away total comes with a historic Test first",
-     "IND vs NZ first Test Day 5: India keeps victory hopes alive, takes two more wickets at lunch",
-     "Stats - Pant's six-feast in India's highest away Test total"
-    ]
-   },
-   {
-    "q": "जसप्रीत बुमराह",
-    "traffic": "200+",
-    "news": [
-     "महज तीसरी गेंद पर बड़ा शिकार! बुमराह की इस जादुई गेंद ने टॉम लैथम को किया पूरी तरह चित, देखें VIDEO",
-     "टॉम लाथम ने दोनों पारियों में 0 पर आउट होकर रचा इतिहास, वीरेंदर सहवाग का रिकॉर्ड तोड़ा",
-     "NZ vs Ind - क्या भारत बुमराह को सर्वश्रेष्ठ बुमराह बनने में मदद कर सकता है?"
-    ]
-   },
-   {
-    "q": "रणबीर कपूर",
-    "traffic": "1000+",
-    "news": [
-     "भारत में 900 और दुनियाभर में 1600 करोड़ पहुंची 'रामायण', 17वें दिन रणबीर कपूर की फिल्म ने फिर पकड़ी रफ्तार,",
-     "Ramayana IMAX Record: रामायण ने बनाया एक और रिकॉर्ड, IMAX में किया कमाल, पीछे छोड़ी नोलन की ये फिल्म",
-     "रामायण के 6 बड़े रिकॉर्ड, धुरंधर 2-पुष्पा 2 को भी बुरी तरह पछाड़ा"
-    ]
-   },
-   {
-    "q": "video",
-    "traffic": "100+",
-    "news": [
-     "Iran's Army says missile damages US F-16 over Gulf as US denies",
-     "Iranian Army Damages US F-16, Forces Mission Abort",
-     "Iran Claimed It Damaged US F-16 Fighter Jet, Then Came A Fact-Check"
-    ]
-   },
-   {
-    "q": "atalanta vs inter",
-    "traffic": "200+",
-    "news": [
-     "Atalanta-Inter 1-3 LIVE: Thuram’s stunning pass and Pio Esposito’s hat-trick",
-     "Atalanta grab dramatic draw with Inter Milan in Serie A",
-     "Atalanta vs Internazionale predictions tonight (7.45pm KO): Krstovic shots on target and a narrow Inter win at 11/4"
-    ]
-   },
-   {
-    "q": "getafe vs atlético",
-    "traffic": "500+",
-    "news": [
-     "Toque de pivot y centro venenoso: Las dos asistencias de Julián Álvarez en el triunfo del Atlético de Madrid ante el Getafe",
-     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
-     "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe"
-    ]
-   },
-   {
-    "q": "royal enfield 250cc new motorcycles",
-    "traffic": "200+",
-    "news": [
-     "Royal Enfield 250cc Hybrid Motorcycle Launch in FY28, 50+ Kmpl Mileage",
-     "Royal Enfield plans 250cc bikes to tap rising demand from young upgraders",
-     "Bullet on a budget? 'Dug-Dug' Royal Enfield may get into classic hunt for India's next million bikers"
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
     ]
    }
   ],
   "IN-BR Bihar (hi)": [
    {
+    "q": "getafe vs atlético",
+    "traffic": "100+",
+    "news": [
+     "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
+     "¿A qué hora es el partido Getafe vs Atlético de Madrid y cómo verlo en TV y streaming online?",
+     "\"¡Hasta la expulsión llegó con su pie izquierdo!\" Dos asistencias perdidas para Lee Kang-in, tres pases decisivos consecutivos hacia Sørloth... Finalmente, \"penalti → gol de la sentencia en colaboración\""
+    ]
+   },
+   {
+    "q": "रणबीर कपूर",
+    "traffic": "200+",
+    "news": [
+     "'रामायण' ने रचा इतिहास, रणबीर कपूर-यश की फिल्म ने 17 दिन के भीतर तोड़े 10 रिकॉर्ड, दिखाया बड़ा कमाल",
+     "18वें दिन Ramayana पर बरसा कुबेर का खजाना, रविवार को रणबीर कपूर की फिल्म पर हुई धनवर्षा",
+     "Ramayana IMAX Record: रामायण ने बनाया एक और रिकॉर्ड, IMAX में किया कमाल, पीछे छोड़ी नोलन की ये फिल्म"
+    ]
+   },
+   {
     "q": "सोना",
     "traffic": "1000+",
     "news": [
      "पीएम मोदी की अपील के बाद क्या लोगों ने सोना ख़रीदना बंद कर दिया, क्या कह रहे हैं एक्सपर्ट्स",
-     "Silver Price Global Crash: चांदी का बुलबुला फूटा, ग्लोबल क्रैश के बीच हाई से 64% टूटी... क्या करें निवेशक?",
-     "22 और 24 कैरेट सोने का क्या है भाव- जानें तनिष्क, कल्याण ज्वैलर्स, मलाबार पर आज क्या चल रहा है रेट"
+     "अभी और गिरेगा सोने-चांदी का भाव, एक्सपर्ट्स बोले- इस हफ्ते भी जारी रह सकती है गिरावट",
+     "सोना-चांदी के कीमतों में आई भारी गिरावट, MCX से घरेलू बाजार तक क्रैश हुए भाव"
     ]
    },
    {
@@ -1103,26 +1118,35 @@
     "traffic": "500+",
     "news": [
      "पहाड़ों पर भारी बर्फबारी और चक्रवात अकवान ने किस तरह बदला मौसम का मिजाज? देखें",
-     "बंगाल की खाड़ी में फिर बन सकता है चक्रवाती सिस्टम, 1987 के बाद बन रहे ऐसे हालात, ओडिशा में मौसम विभाग अलर्ट",
-     "बेमौसम बारिश से डूबे धान: किसान चिंतित, उपमुखिया जुटाने में"
+     "पानी में डूबी छह महीने की मेहनत: भीगी फसल को कंधे से लगाए बेबस बैठा रहा जमुई का किसान, तस्वीर देख भर आएंगी आंखें",
+     "बारिश से किसानों की फसलें डूबीं, भारी नुकसान"
+    ]
+   },
+   {
+    "q": "daryl mitchell",
+    "traffic": "1000+",
+    "news": [
+     "India’s 720 puts NZ on the back foot | Dinesh Karthik reviews Day 4",
+     "Records galore as India take massive lead in Wellington Test",
+     "Did a lot of homework about playing in New Zealand: KL Rahul"
     ]
    },
    {
     "q": "tom blundell",
-    "traffic": "500+",
+    "traffic": "1000+",
     "news": [
-     "Stats - Pant's six-feast in India's highest away Test total",
-     "India strikes twice before lunch, closes on victory over New Zealand in 1st cricket test",
-     "India breaks New Zealand Test record with monster innings in Wellington"
+     "NZ's Tom Blundell gets past 2,500 Test runs: Key stats",
+     "Shubman Gill Viral Video : વિકેટ મળતાં જ ગિલનો જબરદસ્ત જશ્ન, મેદાન વચ્ચે ડાન્સ કરીને લૂંટી મહેફિલ!",
+     "આકાશદીપનો થ્રો ગ્લેન ફિલિપ્સના હેલ્મેટ પર વાગ્યો: કેપ્ટન ગિલ રિવ્યૂ ગુમાવ્યા બાદ ભડક્યા, યશસ્વીનો કેચ છૂટી ..."
     ]
    },
    {
     "q": "tamil nadu vs bihar",
-    "traffic": "500+",
+    "traffic": "1000+",
     "news": [
      "Rain, fog, higher temp ahead as Akvan effect lingers",
      "Weather Tomorrow, November 22, 2026: Showers in Bihar and West Bengal, sunny skies in Delhi and Tamil Nadu",
-     "Snowfall in Kashmir, Uttarakhand; Rain in Delhi, Rajasthan as Cold Intensifies Across India"
+     "Dense fog blankets UP, Rajasthan’s Fatehpur records 5.5°C: Cyclone Akvan brings rain in four states; Delhi’..."
     ]
    },
    {
@@ -1131,7 +1155,7 @@
     "news": [
      "'Ramayana: Rise of a Legend' box office collection Day 18: Ranbir Kapoor, Sai Pallavi, and Yash starrer c",
      "Nitesh Tiwari’s ‘Ramayana’ crosses Rs 1,600 crore mark worldwide on third Saturday",
-     "Ramayana Box Office Collection Day 17: Ranbir Kapoor's Film Crosses Rs 1,600 Crore Worldwide, Eyes Rs 1,700 Crore Mark"
+     "Ramayana Box Office Collection Day 18: Ranbir Kapoor's Film Earns More Than Dhurandhar 2 In India On 3rd Sunday"
     ]
    },
    {
@@ -1139,7 +1163,7 @@
     "traffic": "2000+",
     "news": [
      "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
-     "MW11 VAR decisions explained: Why Yoro was sent off",
+     "Liverpool vs. Man United player ratings as Rio Ngumoha dazzles, United's defence crumbles",
      "Liverpool hammer ten-man United in Pochettino debut"
     ]
    },
@@ -1147,218 +1171,193 @@
     "q": "uttar pradesh vs jharkhand",
     "traffic": "200+",
     "news": [
-     "UP vs JHKD, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026 - Commentary",
+     "JHKD 169/8 (20) vs UP 181/7 (Harsh Raj 1(2) Sushant Mishra 0(2)) | Uttar Pradesh vs Jharkhand, Elite Group A, Syed Mushtaq Ali Trophy Elite 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canad",
      "Uttar Pradesh vs Jharkhand at Mumbai, Syed Mushtaq Ali Trophy Elite, 22 Nov 2026",
-     "Live Cricket Score, Schedule, Latest News, Stats & Videos"
-    ]
-   },
-   {
-    "q": "कल का मौसम",
-    "traffic": "50000+",
-    "news": [
-     "12 राज्यों में बारिश का अलर्ट, पहाड़ों पर बर्फबारी; दिल्ली-UP-बिहार में बढ़ेगी ठंड, पढ़ें मौसम अपडेट्स",
-     "Delhi Weather Today: सुबह हल्का कोहरा, दिन में 28°C तक जाएगा पारा; जानें दिल्ली की हवा का हाल",
-     "दिल्ली-NCR में जहरीली हवा से घुट रहा दम, AQI फिर पहुंचा 300 पार; न्यूनतम तापमान में भी गिरावट"
-    ]
-   },
-   {
-    "q": "churchill brothers vs mohun bagan",
-    "traffic": "100+",
-    "news": [
-     "Historic Rivals Churchill Brothers and Mohun Bagan SG Face Off In Fatorda",
-     "Mohun Bagan set derby mood with Churchill win, rise to ISL summit before Derby clash",
-     "Mohun Bagan coach says players under lot of pressure, points to ‘individual mistakes’ ahead of derby against East Bengal"
-    ]
-   },
-   {
-    "q": "tamil nadu cricket team vs bihar cricket team standings",
-    "traffic": "1000+",
-    "news": [
-     "Sachin’s stroke-filled 83 snaps TN’s losing streak",
-     "SMAT: Sachin, Sathvik set up Tamil Nadu's win vs Bihar",
      "Live Cricket Score, Schedule, Latest News, Stats & Videos"
     ]
    }
   ],
   "US United States (en)": [
    {
-    "q": "cam skattebo",
-    "traffic": "5000+",
-    "news": [
-     "Giants Get Cam Skattebo Prediction After Adding Running Back",
-     "Cam Skattebo to Continue Handling a Heavy Workload - NFL News | Fantasy Football",
-     "Cam Skattebo ready to play in Week 11"
-    ]
-   },
-   {
-    "q": "tj hockenson",
-    "traffic": "1000+",
-    "news": [
-     "Vikings vs. 49ers Inactives for Week 11 of 2026",
-     "Vikings get healthier to face the 49ers with Cashman, Hockenson among the starters back from injury",
-     "Vikings' Isaiah Rodgers: No go for SNF"
-    ]
-   },
-   {
-    "q": "afc south",
-    "traffic": "500+",
-    "news": [
-     "Will Anderson talks about big night in AFC South showcase game",
-     "NFL execs vote on who they think will win Defensive Player of the Year",
-     "'Will Is a Dog': Why Will Anderson Jr. Sets the Tone for the Texans Defense"
-    ]
-   },
-   {
-    "q": "querétaro - necaxa",
+    "q": "brandin cooks",
     "traffic": "2000+",
     "news": [
-     "A qué hora y dónde ver el Querétaro vs. Necaxa de la Jornada 17",
-     "Sumó sus 20 puntos en diez partidos y desde octubre no hace uno más: si pierde con Necaxa, Querétaro cierra su cuarto torneo seguido con 20",
-     "Último juego del 2026 para los Rayos"
+     "San Francisco 49ers Suddenly Cut Veteran Wide Receiver Before Vikings Game",
+     "49ers waive WR Brandin Cooks",
+     "49ers cut WR Brandin Cooks, should Raiders sign him?"
     ]
    },
    {
-    "q": "marvel avengers doomsday trailer",
+    "q": "josh hart",
+    "traffic": "500+",
+    "news": [
+     "Mikal Bridges shakes off slump, hits buzzer-beater to save Knicks vs. Blazers",
+     "Knicks' Mikal Bridges drills buzzer-beating 3-pointer to defeat Trail Blazers",
+     "Starting 5: Bridges delivers, Wemby dominates"
+    ]
+   },
+   {
+    "q": "utah valley basketball",
+    "traffic": "200+",
+    "news": [
+     "OFFICIAL GRID: Who starts where for the Las Vegas Grand Prix",
+     "F1 Las Vegas GP LIVE: Race updates, results, stream and highlights from 21st round of 2026 Formula 1 season in USA",
+     "Max Verstappen promoted to Las Vegas GP pole as Kimi Antonelli drops to sixth"
+    ]
+   },
+   {
+    "q": "karl-anthony towns",
+    "traffic": "500+",
+    "news": [
+     "Karl-Anthony Towns draws praise from another former coach",
+     "Inside Karl-Anthony Towns’ Journey From Phenom to NBA Champ",
+     "I love KAT; I was happy for him to get to the …"
+    ]
+   },
+   {
+    "q": "roman kantserov",
+    "traffic": "500+",
+    "news": [
+     "Roman Kantserov notches two points in Saturday's win over Flames",
+     "Chicago Blackhawks forward leading NHL rookies in goals",
+     "Blackhawks' Roman Kantserov: Dominating rookie sniper bags another"
+    ]
+   },
+   {
+    "q": "meritage hospitality group wendy closures",
     "traffic": "1000+",
     "news": [
-     "Joe Russo Talks ‘Doomsday’ Teaser-Trailer Strategy Ahead Of Rumored Monday Drop: “I Have To interact With Fans”",
-     "Joe Russo teases final ‘Avengers: Doomsday’ trailer: “Keep refreshing your feed”",
-     "Marvel Drops Sprawling 11-Part 'Avengers: Doomsday' Characters Poster Montage"
+     "Wendy’s store closures hit close to 100 locations in franchisee downfall: See the latest list",
+     "Major burger chain buying 163 franchisee units out of bankruptcy",
+     "Wendy's prescription for a comeback includes owning more restaurants"
     ]
    },
    {
-    "q": "lowes black friday deals",
+    "q": "lost",
     "traffic": "10000+",
     "news": [
-     "Black Friday Deals Are Already Rolling In — Here Are the Best | Reviews by Wirecutter",
-     "Early Black Friday deals live now: Ugg, Michael Kors, Hoka, Dyson, Ring and more are on major sale for the 2026 shopping event of the year",
-     "We shopped 147 early Black Friday sales to find the 98 best deals worth shopping now"
+     "No Big Ten football teams in AP top 5 for first time since 2021",
+     "AP Top 25: UCLA, Indiana tumble as Wake Forest earns best college football ranking ever - The Athletic",
+     "AP Top 25 poll: UCLA, Indiana slide; Texas moves into top five of college football rankings"
     ]
    },
    {
-    "q": "jauan jennings",
-    "traffic": "200+",
+    "q": "martin short",
+    "traffic": "500+",
     "news": [
-     "Brock Purdy shares favorite Jauan Jennings memories before 49ers-Vikings matchup",
-     "Vikings WR Jauan Jennings prepare to face his former team",
-     "Jauan Jennings (calf) logs full practice Wednesday"
+     "Martin Short’s Go-To Comfort Food Makes Us Love Him Even More",
+     "Steve Martin and Martin Short’s Favorite 2-Ingredient Meal Is Adorably Relatable",
+     "Selena Gomez Recalls Moment She Discovered Martin Short Cut Into Her Wedding Cake Before It Was Served"
     ]
    },
    {
-    "q": "penn state volleyball",
-    "traffic": "200+",
+    "q": "the mosquito bowl",
+    "traffic": "500+",
     "news": [
-     "Alexis Stucky, Kennedy Martin and volleyball's riskiest reunion",
-     "Postseason Volleyball is Back: What to Know about the Nittany Lions",
-     "Alexis Stucky, Kennedy Martin and volleyball’s riskiest reunion"
+     "Taking a Dunk in ‘The Mosquito Bowl’",
+     "Netflix’s Star-Studded WWII Movie Officially Arrives This Week",
+     "Netflix Releases Peter Bergs The Mosquito Bowl on November 25"
     ]
    },
    {
-    "q": "temple basketball",
-    "traffic": "200+",
+    "q": "kospi",
+    "traffic": "2000+",
     "news": [
-     "Game Guide: Stephen F. Austin (Paradise Jam)",
-     "2026 U.S Virgin Islands Paradise Jam (Game 7) - Where to Watch, Stream Info, TV Channel, and Live Updates (November 22, 2026)",
-     "Temple vs. SFA Odds & Betting Predictions November 22, 2026"
-    ]
-   },
-   {
-    "q": "lightning game",
-    "traffic": "200+",
-    "news": [
-     "Noah Ostlund lights the lamp for Sabres",
-     "At the Horn | Sabres 6 - Lightning 2",
-     "Buffalo Sabres vs. Tampa Bay Lightning - Lineups, Injury Updates, And Game Notes"
+     "South Korea Says Market Measures Will Ease Investor Jitters",
+     "KOSPI rout fuels calls for bolder stabilization measures",
+     "South Korea’s Stock Market and the Nikkei 225 Sink More Than 4% as the AI Selloff Spreads From Wall Street. Here’s How Much of a Target-Date Fund Is in Samsung, SK Hynix and TSMC"
     ]
    }
   ],
   "GB United Kingdom (en)": [
    {
-    "q": "nvidia stocks",
-    "traffic": "200+",
-    "news": [
-     "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-     "Nvidia's share slide knocks it below Alphabet in valuation",
-     "Where Will Nvidia Stock Be in 20 Years? The Answer Might Surprise You."
-    ]
-   },
-   {
-    "q": "bulls vs nuggets",
+    "q": "jake hager",
     "traffic": "100+",
     "news": [
-     "How to watch Nuggets vs. Bulls: TV channel and streaming options for November 22",
-     "Can the Bulls Handle Jokić Without Powell? Nuggets vs Bulls LIVE Pregame",
-     "Nuggets play Bulls on Sunday"
+     "Ex-WWE Champ Jack Swagger Suffers Permanent Vision Damage After Serious Power Slap Injury",
+     "Injury Update On Former AEW Star Jake Hager",
+     "Jake Hager Retains Vision After Two Eye Surgeries"
     ]
    },
    {
-    "q": "ethan hampshire gofundme gta 6",
+    "q": "poundland",
     "traffic": "200+",
     "news": [
-     "Poole dad launches fundraiser to buy GTA VI video game",
-     "Hampshire student raises almost £500 to buy PS5 to play GTA 6",
-     "I don't have a PlayStation 5, but the best GTA game has been on my PC for decades"
+     "What is going on with Poundland?",
+     "German bidder stages last-gasp bid to rescue Poundland",
+     "Lifeline for Poundland as German turnaround fund circles"
     ]
    },
    {
-    "q": "william, prince of wales",
+    "q": "princess eugenie",
+    "traffic": "200+",
+    "news": [
+     "Princess Eugenie's unofficial Christmas role that has been passed to this one royal",
+     "Princess Charlotte Takes Over Eugenie's Christmas Gift Role",
+     "Princess Eugenie’s unofficial Christmas role that has been passed to this one royal"
+    ]
+   },
+   {
+    "q": "rockstar games",
+    "traffic": "200+",
+    "news": [
+     "'I'm hit with a feeling of self-healing': The moment I realised GTA 6 was one of the greatest games ever",
+     "Did you come down with GTA flu? I won’t judge – I may even join you in Vice City | Imogen West-Knights",
+     "Grand Theft Auto VI review: so is it the best game of all time or what?"
+    ]
+   },
+   {
+    "q": "49ers",
     "traffic": "2000+",
     "news": [
-     "Prince William to step up on world stage with more royal trips",
-     "Are the Royals More Relatable Now Than Ever?",
-     "William and Kate Won't Be Copying King Charles or Queen Elizabeth in One Area"
+     "Vikings vs. 49ers: 3 must-know storylines for NFL Week 11 Mexico City game on 'Sunday Night Football'",
+     "Two Risk-Takers Walk Into a Football Stadium",
+     "49ers vs. Vikings score predictions: Can Kyle Shanahan solve Brian Flores’ defense? - The Athletic"
     ]
    },
    {
-    "q": "jude law",
+    "q": "warriors vs celtics",
+    "traffic": "500+",
+    "news": [
+     "Celtics at Warriors: Boston looks to rebound after last-second loss",
+     "Preview: Home cooking without the chef?",
+     "Yaxel Lendeborg Props Today: Pts, Rebs, Asts, 3PT"
+    ]
+   },
+   {
+    "q": "knicks vs pacers",
     "traffic": "200+",
     "news": [
-     "“Wild Things,” led by Jude Law and Andrew Garfield, roars onto Apple TV on April 16",
-     "Andrew Garfield Is Unrecognizable in Apple TV's New 7-Part Thriller Series",
-     "Wild Things - Official Release Date Announcement Video"
+     "Pascal Siakam final injury status emerges for Pacers-Knicks showdown",
+     "Deandre Ayton (illness) upgraded to available",
+     "Kelly Oubre Jr. Props Today: Pts, Rebs, Asts, 3PT"
     ]
    },
    {
-    "q": "michael j fox",
-    "traffic": "100+",
+    "q": "49ers vs vikings",
+    "traffic": "1000+",
     "news": [
-     "Michael J. Fox thinks he knows what happened to the ‘Back to the Future’ Gibson ES-345",
-     "Michael J Fox Explains Mystery of Missing Back to the Future Guitar",
-     "Michael J. Fox Shares Theory on Missing Back to the Future Guitar"
+     "Kimani Vidal totals 54 yards, 2 catches in loss",
+     "49ers Superstar Snaps His Ankle Completely In Half During Gruesome Scene — Trent Williams’ Horrified Reaction Says It All [VIDEO]",
+     "49ers vs. Vikings injury updates: Latest news from the Mexico City matchup"
     ]
    },
    {
-    "q": "matt jukes",
-    "traffic": "100+",
-    "news": [
-     "Met deputy rejects ‘few bad apples’ theory after 1,800 staff drummed out",
-     "1,800 Met staff kicked out of force for failing to meet standards",
-     "Managing officer misconduct in the Met"
-    ]
-   },
-   {
-    "q": "minimum wage",
+    "q": "doomsday",
     "traffic": "200+",
     "news": [
-     "Minimum wage France 2026 per hour: the 1 December rise, what counts and how to claim unpaid pay"
+     "'Avengers: Doomsday' Adds Hailee Steinfeld as Kate Bishop to Cast",
+     "Marvel Officially Confirms Hawkeye’s Replacement in ‘Avengers: Doomsday’",
+     "Avengers: Doomsday Confirms Another MCU Fan Favorite's Return Just Weeks Ahead of Release"
     ]
    },
    {
-    "q": "chicago vs charlotte",
-    "traffic": "200+",
+    "q": "nvidia stocks",
+    "traffic": "500+",
     "news": [
-     "Chicago Fire vs Charlotte: Major League Soccer stats & head-to-head",
-     "Matchday | Chicago Fire FC Opens 2026 MLS Cup Playoffs Against Charlotte FC",
-     "Football Bet of the Day: Goals the call in Chicago on Sunday"
-    ]
-   },
-   {
-    "q": "whitney peak",
-    "traffic": "200+",
-    "news": [
-     "Whitney Peak and Joseph Zada in \"The Hunger Games: Sunrise on the Reaping.\"",
-     "cd5d215becff88a4165922232434043a3022c8984c37f175d9376f1a701886a7",
-     "The women behind the rebellion: Whitney Peak on her pivotal ‘Hunger Games’ role"
+     "Should You Forget Nvidia and Buy These 2 AI Memory Stocks Instead?",
+     "Jensen Huang Stepped Away From Nvidia. The Stock Has Crashed. Instead of Rushing to Buy the Dip, Here Are 2 AI Stocks Down More Than 15% to Buy Instead.",
+     "NVIDIA's Leadership Woes: Buy TSMC & ASML Despite Supply-Chain Risks?"
     ]
    }
   ]
@@ -1366,2004 +1365,2004 @@
  "wiki": {
   "kn": [
    {
-    "title": "ಸಂಭೋಗ",
-    "views": 753,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ತುಳಸಿ ಪೂಜೆ",
-    "views": 692,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ತುಳಸಿ ವಿವಾಹ",
-    "views": 458,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
     "title": "ಎ.ಪಿ.ಜೆ.ಅಬ್ದುಲ್ ಕಲಾಂ",
-    "views": 386,
+    "views": 541,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ಕುವೆಂಪು",
-    "views": 343,
+    "views": 538,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ಬಸವೇಶ್ವರ",
-    "views": 231,
+    "title": "ಸಂಭೋಗ",
+    "views": 510,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ಕನಕದಾಸರು",
-    "views": 217,
+    "views": 296,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ಕನ್ನಡ",
-    "views": 191,
+    "title": "ಬಸವೇಶ್ವರ",
+    "views": 280,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ",
-    "views": 175,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಗೌತಮ ಬುದ್ಧ",
-    "views": 169,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ದ.ರಾ.ಬೇಂದ್ರೆ",
-    "views": 167,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಭಾರತದ ಸಂವಿಧಾನ",
-    "views": 165,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ಜ್ಞಾನಪೀಠ ಪ್ರಶಸ್ತಿ ಪುರಸ್ಕೃತ ಕನ್ನಡಿಗರು",
-    "views": 165,
+    "views": 247,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ಹಿಂದೂ ಧರ್ಮದಲ್ಲಿ ತುಳಸಿ",
-    "views": 141,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಸರಕಾರಿ ಒಡೆತನದ ನಿಗಮ ಮಂಡಳಿಗಳು ಮತ್ತು ನೇಮಕ",
-    "views": 128,
+    "title": "ದ.ರಾ.ಬೇಂದ್ರೆ",
+    "views": 240,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಅಕ್ಕಮಹಾದೇವಿ",
-    "views": 118,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಕೆ. ಪಿ. ಪೂರ್ಣಚಂದ್ರ ತೇಜಸ್ವಿ",
-    "views": 114,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ಚಂದ್ರಶೇಖರ ಕಂಬಾರ",
-    "views": 113,
+    "views": 233,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ಪ್ರತಾಪ್ ಸಿಂಹ",
-    "views": 93,
-    "new": true,
-    "day": "2026-11-21"
+    "title": "ಗೌತಮ ಬುದ್ಧ",
+    "views": 228,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಭಾರತದ ಸಂವಿಧಾನ",
+    "views": 202,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಅಕ್ಕಮಹಾದೇವಿ",
+    "views": 191,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಕೆ. ಪಿ. ಪೂರ್ಣಚಂದ್ರ ತೇಜಸ್ವಿ",
+    "views": 187,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಕನ್ನಡ",
+    "views": 184,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ಪುರಂದರದಾಸ",
-    "views": 90,
+    "views": 135,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಕರ್ನಾಟಕದ ಏಕೀಕರಣ",
-    "views": 89,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಜಿ.ಎಸ್.ಶಿವರುದ್ರಪ್ಪ",
-    "views": 85,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಬಿ. ಆರ್. ಅಂಬೇಡ್ಕರ್",
-    "views": 85,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಸಂಭೋಗ ಭಂಗಿಗಳು",
-    "views": 82,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಅಲ್ಲಮ ಪ್ರಭು",
-    "views": 78,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ಪಂಪ",
-    "views": 77,
+    "views": 135,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ಕನ್ನಡ ಅಕ್ಷರಮಾಲೆ",
-    "views": 75,
+    "title": "ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ",
+    "views": 131,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಕರ್ನಾಟಕದ ಏಕೀಕರಣ",
+    "views": 116,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಅಲ್ಲಮ ಪ್ರಭು",
+    "views": 112,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ಪಿ.ಲಂಕೇಶ್",
-    "views": 75,
+    "views": 111,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ಜಾನಪದ",
-    "views": 72,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ಶಿವರಾಮ ಕಾರಂತ",
-    "views": 70,
+    "views": 108,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಸಾಲುಮರದ ತಿಮ್ಮಕ್ಕ",
+    "views": 106,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಮಾಸ್ತಿ ವೆಂಕಟೇಶ ಅಯ್ಯಂಗಾರ್",
+    "views": 101,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಭಾರತೀಯ ರಿಸರ್ವ್ ಬ್ಯಾಂಕ್",
+    "views": 100,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಜಾನಪದ",
+    "views": 100,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ತುಳಸಿ ಪೂಜೆ",
+    "views": 99,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಪೊನ್ನ",
+    "views": 93,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಬಿ. ಆರ್. ಅಂಬೇಡ್ಕರ್",
+    "views": 92,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಸಂಭೋಗ ಭಂಗಿಗಳು",
+    "views": 88,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ಜಿ.ಎಸ್.ಶಿವರುದ್ರಪ್ಪ",
+    "views": 86,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ರನ್ನ",
+    "views": 84,
+    "new": false,
+    "day": "2026-11-22"
    }
   ],
   "te": [
    {
-    "title": "తెలుగు సినిమాలు 2026",
-    "views": 2595,
+    "title": "త్రినాథ వ్రతకల్పం",
+    "views": 9964,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "త్రినాథ వ్రతకల్పం",
-    "views": 740,
+    "title": "తెలుగు సినిమాలు 2026",
+    "views": 2500,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "కేదారేశ్వర వ్రతకల్పం",
+    "views": 526,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "2026 ఆంధ్రప్రదేశ్ గ్రామ పంచాయతీ ఎన్నికలు",
-    "views": 500,
+    "views": 409,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "చుక్కా రామయ్య",
-    "views": 493,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "పసుపు గణపతి పూజ",
-    "views": 455,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ముక్కా శ్రావణి",
-    "views": 450,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "కల్పనా చావ్లా",
-    "views": 343,
+    "views": 327,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ఆకాశం లో ఒక తారా",
     "views": 313,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "కేదారేశ్వర వ్రతకల్పం",
-    "views": 292,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "మహేంద్రగిరి వారాహి",
-    "views": 290,
+    "views": 294,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "తులసీ వివాహం",
-    "views": 286,
+    "title": "జీవన్ కుమార్",
+    "views": 261,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "పవన్ సాదినేని",
-    "views": 225,
+    "title": "పసుపు గణపతి పూజ",
+    "views": 259,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "అన్షుల్ కాంబోజ్",
-    "views": 171,
+    "title": "ఆడదే ఆధారం",
+    "views": 245,
     "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "రామాయణం (2026 సినిమా)",
-    "views": 169,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "మజ్జి శ్రీనివాసరావు (చిన్న శ్రీను )",
-    "views": 167,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "శ్రీ లక్ష్మీ అష్టోత్తర స్తోత్రము",
-    "views": 153,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "భారతదేశంలో కోడి పందాలు",
-    "views": 145,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "కావ్య మారన్",
-    "views": 143,
+    "views": 236,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "కె. నిరంజన్ రెడ్డి",
-    "views": 140,
+    "title": "ముక్కా శ్రావణి",
+    "views": 224,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "రామాయణం (2026 సినిమా)",
+    "views": 192,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "పవన్ సాదినేని",
+    "views": 175,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "చుక్కా రామయ్య",
+    "views": 157,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "తెల్లకాగితం",
+    "views": 152,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "మాగంటి శ్రీనాథ్",
+    "views": 151,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "వై.యస్.భారతి",
+    "views": 146,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "రిషబ్ పంత్",
+    "views": 142,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "భారతదేశంలో కోడి పందాలు",
+    "views": 139,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "బంగారు బొమ్మలు",
+    "views": 139,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ఇంద్రజిత్ (1990 సినిమా)",
     "views": 137,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "తాళ్ళూరి రామేశ్వరి",
+    "views": 137,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
     "title": "అయ్యప్ప",
-    "views": 135,
+    "views": 125,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "కె.ఎల్. రాహుల్",
-    "views": 134,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "మాగంటి శ్రీనాథ్",
-    "views": 132,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "అనిరుధ్ రవిచందర్",
-    "views": 131,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "తెలుగు అక్షరాలు",
-    "views": 131,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "తారక్ పొన్నప్ప",
-    "views": 126,
+    "views": 121,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "సమంత",
-    "views": 125,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "జీవన్ కుమార్",
-    "views": 123,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "యోగి ఆదిత్యనాథ్",
-    "views": 119,
+    "title": "అగధ",
+    "views": 118,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "తరుణ్ భాస్కర్ దాస్యం",
-    "views": 115,
+    "title": "స్వామియే శరణం అయ్యప్ప",
+    "views": 114,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ఇరుముడి (2026 చిత్రం)",
+    "views": 113,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "కార్తీక పౌర్ణమి",
+    "views": 109,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "సాత్విక వీరవల్లి",
+    "views": 108,
+    "new": false,
+    "day": "2026-11-22"
    }
   ],
   "ta": [
    {
     "title": "தமிழ்த் திரைப்படங்களின் பட்டியல், 2026",
-    "views": 1319,
+    "views": 1305,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "வி. சு. பாபு",
-    "views": 775,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "தமிழ்த் திரைப்படங்களின் பட்டியல் (ஆண்டு வரிசை)",
-    "views": 459,
+    "views": 589,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ஆண் தமிழ்ப் பெயர்கள்",
-    "views": 308,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "கலாநிதி மாறன்",
-    "views": 272,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "முரசொலி மாறன்",
-    "views": 226,
+    "views": 381,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "பழனி பாபா",
-    "views": 210,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "குறை ஒன்றும் இல்லை (பாடல்)",
-    "views": 200,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ராஜசேகர் (இயக்குநர்)",
-    "views": 199,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "பெண் தமிழ்ப் பெயர்கள்",
-    "views": 197,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "மூக்குத்தி அம்மன் 2",
-    "views": 197,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "தமிழ்த் திரைப்படங்களின் பட்டியல், 2025",
-    "views": 195,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "அறுபடைவீடுகள்",
-    "views": 168,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "சாய் அபயங்கர்",
-    "views": 159,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "அன்சூல் காம்போஜ்",
-    "views": 156,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "நவம்பர் 22",
-    "views": 155,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "திருக்குறள்",
-    "views": 154,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "அனிருத் ரவிச்சந்திரன்",
-    "views": 153,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "நவம்பர் 21",
-    "views": 151,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "அண்ணாமலையார் கோயில்",
-    "views": 149,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "திருப்பரங்குன்றம் சுப்பிரமணிய சுவாமி கோயில்",
-    "views": 142,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ராஜ்குமார் பெரியசாமி",
-    "views": 134,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ஐயப்பன்",
-    "views": 131,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "விஜய் ஆண்டனி",
-    "views": 130,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "தமிழ்",
-    "views": 129,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "சிவனின் 108 திருநாமங்கள்",
-    "views": 128,
+    "views": 348,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "இராமாயணம்",
-    "views": 127,
+    "title": "ஆண் தமிழ்ப் பெயர்கள்",
+    "views": 344,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "வாய்வழிப் பாலுறவு",
-    "views": 127,
+    "title": "கலாநிதி மாறன்",
+    "views": 341,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "அனிருத் ரவிச்சந்திரன்",
+    "views": 294,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "சந்திரமுகி (திரைப்படம்)",
+    "views": 292,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "அண்ணாமலையார் கோயில்",
+    "views": 202,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "மூக்குத்தி அம்மன் 2",
+    "views": 191,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "பெண் தமிழ்ப் பெயர்கள்",
+    "views": 182,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "நவம்பர் 22",
+    "views": 179,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "அறுபடைவீடுகள்",
+    "views": 177,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ஜெயிலர் 2",
-    "views": 126,
+    "views": 177,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "கடன்",
-    "views": 125,
+    "title": "வி. சு. பாபு",
+    "views": 177,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "எல். கே. சுதீஷ்",
+    "views": 174,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "நவம்பர் 23",
+    "views": 168,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "பழனி பாபா",
+    "views": 168,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "பரதநாட்டியம்",
+    "views": 163,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "திருக்குறள்",
+    "views": 163,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "சாய் அபயங்கர்",
+    "views": 162,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "தமிழ்த் திரைப்படங்களின் பட்டியல், 2025",
+    "views": 156,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "அவள் ஒரு தொடர்கதை",
+    "views": 150,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "திருவிடைமருதூர் மகாலிங்கேஸ்வரர் கோயில்",
+    "views": 136,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ஐயப்பன்",
+    "views": 136,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "இராமாயணம்",
+    "views": 133,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "தமிழ்",
+    "views": 132,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "சபரீசன் வேதமூர்த்தி",
+    "views": 126,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "தயாநிதி மாறன்",
+    "views": 124,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "சீன்",
+    "views": 122,
+    "new": false,
+    "day": "2026-11-22"
    }
   ],
   "hi": [
    {
     "title": "रामायण (2026 फिल्म)",
-    "views": 7996,
+    "views": 8037,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ब्लू (2009 फ़िल्म)",
-    "views": 4932,
+    "views": 4174,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "रघुराज प्रताप सिंह",
-    "views": 3404,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ब्लू मूवी",
-    "views": 3319,
+    "views": 4100,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "योगी आदित्यनाथ",
-    "views": 2572,
+    "title": "रघुराज प्रताप सिंह",
+    "views": 2257,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "इंस्टाग्राम",
-    "views": 1818,
+    "views": 2054,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "घोड़ा",
-    "views": 1741,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "मिया खलीफ़ा",
-    "views": 1556,
+    "views": 1744,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "घोड़ा",
+    "views": 1701,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "भारत में 2027 के चुनाव",
-    "views": 1485,
+    "views": 1664,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "खाटूश्यामजी",
-    "views": 1321,
+    "views": 1169,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "राजस्थान विधानसभा चुनाव 2023",
-    "views": 1291,
+    "title": "योगी आदित्यनाथ",
+    "views": 1107,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "डॉगी स्टाइल",
-    "views": 1179,
+    "views": 1100,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "भारत का संविधान",
-    "views": 1104,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "जॉनी सिन्स",
-    "views": 1089,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "यौन आसनों की सूची",
-    "views": 1052,
+    "views": 1071,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "चित्रांगदा सिंह",
-    "views": 1038,
+    "title": "जॉनी सिन्स",
+    "views": 1051,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "हनुमान चालीसा",
-    "views": 996,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "कुत्ता",
-    "views": 993,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "हिन्दी",
-    "views": 954,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "रविन्द्र सिंह भाटी",
-    "views": 895,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "आत्महत्या के तरीके",
-    "views": 885,
+    "views": 1013,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "सुहाग रात",
-    "views": 874,
+    "title": "भारत का संविधान",
+    "views": 1010,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "राय लिल ब्लैक",
+    "views": 1000,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "कुत्ता",
+    "views": 959,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "सपना चौधरी",
+    "views": 936,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "अमृतपाल सिंह",
-    "views": 845,
+    "views": 926,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "भारत के राज्य तथा केन्द्र-शासित प्रदेश",
-    "views": 741,
-    "new": false,
-    "day": "2026-11-21"
+    "title": "झलकारी बाई",
+    "views": 905,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
-    "title": "श्रीरामरक्षास्तोत्रम्",
-    "views": 708,
+    "title": "चित्रांगदा सिंह",
+    "views": 881,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "सामन्था रूथ प्रभु",
-    "views": 707,
+    "title": "गुरु नानक",
+    "views": 879,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "हिन्दी",
+    "views": 869,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "मुलायम सिंह यादव",
+    "views": 812,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "सुहाग रात",
+    "views": 806,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "राजस्थान विधानसभा चुनाव 2023",
+    "views": 729,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "दोहा, क़तर",
+    "views": 701,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "हनुमान चालीसा",
+    "views": 660,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ऋषभ पंत",
+    "views": 647,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "भारत",
-    "views": 699,
+    "views": 643,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "शरद कपूर",
-    "views": 692,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "तुलसी विवाह",
-    "views": 665,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "के॰ एल॰ राहुल",
-    "views": 661,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    }
   ],
   "ml": [
    {
     "title": "പത്മജ വേണുഗോപാൽ",
-    "views": 920,
+    "views": 528,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ഗുരുവായൂർ ഏകാദശി",
-    "views": 829,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ഏകാദശി",
-    "views": 316,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ക്രിസ്തുരാജന്റെ തിരുനാൾ",
-    "views": 276,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ഹണി ഭാസ്കരൻ",
-    "views": 208,
+    "views": 188,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ബാച്ച്ലർ പാർട്ടി ഡ്യൂ",
-    "views": 169,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "മലയാളം",
-    "views": 156,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ഷുക്കൂർ വധക്കേസ്‌",
-    "views": 155,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "പാറേൽ പള്ളി, ചങ്ങനാശ്ശേരി",
-    "views": 152,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "രാമായണം",
-    "views": 150,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ലൈംഗികബന്ധം",
-    "views": 139,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "കറുത്ത കുർബ്ബാന",
-    "views": 137,
+    "views": 188,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "കെ. കരുണാകരൻ",
-    "views": 124,
+    "title": "ഇ.എം.എസ്. നമ്പൂതിരിപ്പാട്",
+    "views": 179,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "കൽപന ചൗള",
-    "views": 121,
+    "title": "ലൈംഗികബന്ധം",
+    "views": 155,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ദേവ്ദത്ത് പടിക്കൽ",
-    "views": 117,
+    "title": "രാമായണം",
+    "views": 147,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ക്രിസ്തുരാജന്റെ തിരുനാൾ",
+    "views": 146,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "മലയാളം",
+    "views": 140,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "തത്ത്വമസി",
-    "views": 91,
+    "views": 138,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ഗൊമ്മടേശ്വരൻ",
-    "views": 82,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "കെ. മുരളീധരൻ",
-    "views": 82,
+    "title": "പോളിയോ വാക്സിൻ",
+    "views": 121,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ശബരിമല ധർമ്മശാസ്താക്ഷേത്രം",
-    "views": 75,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "സമന്താ റൂത്ത് പ്രഭു",
-    "views": 74,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "കുഞ്ചൻ നമ്പ്യാർ",
-    "views": 69,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "മഹുവ മൊയ്ത്ര",
-    "views": 69,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "സായി പല്ലവി",
-    "views": 65,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "മലയാളം അക്ഷരമാല",
-    "views": 65,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ഗുരുവായൂർ കേശവൻ",
-    "views": 65,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "അയ്യപ്പൻ",
-    "views": 64,
+    "views": 113,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "കൽപന ചൗള",
+    "views": 106,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "സായി പല്ലവി",
+    "views": 100,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "പാറേൽ പള്ളി, ചങ്ങനാശ്ശേരി",
+    "views": 97,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ശബരിമല ധർമ്മശാസ്താക്ഷേത്രം",
+    "views": 84,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "തൃക്കാർത്തിക",
+    "views": 80,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "കുമാരനാശാൻ",
-    "views": 62,
+    "views": 79,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "രാവണൻ",
-    "views": 60,
+    "title": "ശ്രീനാരായണഗുരു",
+    "views": 79,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "അസ്സീസിയിലെ ഫ്രാൻസിസ്",
-    "views": 58,
+    "title": "വയലാർ രാമവർമ്മ",
+    "views": 79,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ശാലിനി (നടി)",
-    "views": 58,
+    "title": "കേരളം",
+    "views": 76,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "വി. അലിയാർ കുഞ്ഞ്",
+    "views": 74,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ഗോമതേശ്വരപ്രതിമ",
+    "views": 74,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "രമേശ് ചെന്നിത്തല",
+    "views": 74,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ഗുരുവായൂർ ഏകാദശി",
+    "views": 73,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "പൾസ് പോളിയോ",
+    "views": 73,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "തുഞ്ചത്തെഴുത്തച്ഛൻ",
+    "views": 70,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "കഥകളി",
+    "views": 69,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "വള്ളത്തോൾ നാരായണമേനോൻ",
+    "views": 65,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "കെ. കരുണാകരൻ",
+    "views": 64,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "യു. ഷറഫ് അലി",
+    "views": 63,
+    "new": true,
+    "day": "2026-11-22"
    }
   ],
   "mr": [
    {
     "title": "तुळशी विवाह",
-    "views": 1406,
+    "views": 1082,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "मटका",
-    "views": 679,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "टिपू सुलतान",
-    "views": 409,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "नवग्रह स्तोत्र",
-    "views": 376,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "दीपाली भोसले-सय्यद",
-    "views": 365,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "कार्तिकी एकादशी",
-    "views": 333,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "शर्वरी वाघ",
-    "views": 323,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "निखिल चौधरी",
-    "views": 272,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "भारताचे संविधान",
-    "views": 248,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "बाबासाहेब आंबेडकर",
-    "views": 234,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "विठाबाई नारायणगावकर",
-    "views": 228,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "वि.स. खांडेकर",
-    "views": 214,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "छत्रपती शिवाजी महाराज",
-    "views": 203,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "शुक्राचे अधिक्रमण",
-    "views": 194,
+    "views": 391,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "जया किशोरी",
-    "views": 189,
+    "title": "टिपू सुलतान",
+    "views": 297,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "नवग्रह स्तोत्र",
+    "views": 289,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "मटका",
+    "views": 258,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "दीपाली भोसले-सय्यद",
+    "views": 241,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "छत्रपती शिवाजी महाराज",
+    "views": 233,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "बाबासाहेब आंबेडकर",
+    "views": 213,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "मराठी भाषा",
-    "views": 181,
+    "views": 212,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "महात्मा फुले",
-    "views": 179,
+    "title": "विठाबाई नारायणगावकर",
+    "views": 208,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ज्ञानेश्वर",
-    "views": 177,
+    "title": "भारताचे संविधान",
+    "views": 206,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "जया किशोरी",
+    "views": 197,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "महाराष्ट्रातील प्रादेशिक वाहन नोंदणी क्रमांक यादी",
-    "views": 163,
+    "views": 191,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "संयुक्त महाराष्ट्र चळवळ",
-    "views": 155,
+    "title": "महात्मा फुले",
+    "views": 176,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "आनंदराज आंबेडकर",
+    "views": 135,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "महाराष्ट्रामधील जिल्हे",
-    "views": 143,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "शरद कपूर",
+    "title": "ज्ञानेश्वर",
     "views": 132,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "हुतात्मा दिन",
-    "views": 123,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "सदा सर्वदा योग तुझा घडावा",
-    "views": 111,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "घोणस",
-    "views": 110,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "नामदेव",
-    "views": 107,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "महात्मा गांधी",
-    "views": 105,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "नीम करोली बाबा",
-    "views": 98,
+    "views": 129,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "कार्तिक शुद्ध चतुर्दशी",
+    "views": 129,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "कोकणातील खोती (खोत) पद्धती",
+    "views": 122,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "महाराष्ट्रामधील जिल्हे",
+    "views": 121,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "रायगड (किल्ला)",
+    "views": 118,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "निखिल चौधरी",
+    "views": 113,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "संध्या गोखले",
+    "views": 111,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "क्रिकेट",
+    "views": 105,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "भारतीय संविधान दिन",
-    "views": 96,
+    "views": 105,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "गवत",
+    "title": "त्रिपुरारी पौर्णिमा",
+    "views": 102,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "महात्मा गांधी",
+    "views": 97,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "संत तुकाराम",
+    "views": 96,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "गोरखनाथ",
+    "views": 94,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "बिब्बा",
     "views": 92,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    }
   ],
   "bn": [
    {
     "title": "রে লিল ব্ল্যাক",
-    "views": 3614,
+    "views": 2336,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "পরীমনি",
-    "views": 816,
+    "views": 892,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "মিয়া খলিফা",
-    "views": 816,
+    "views": 727,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "শিশুদের বাণিজ্যিক যৌন শোষণ",
-    "views": 715,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "এক্স এক্স এক্স এক্স (অ্যালবাম)",
     "views": 679,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "যৌনসঙ্গম",
-    "views": 645,
+    "views": 631,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "এক্স এক্স এক্স এক্স (অ্যালবাম)",
+    "views": 588,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "শিশু যৌনতা",
-    "views": 620,
+    "views": 574,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "আ. স. ম. আবদুর রব",
-    "views": 612,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "বাংলাদেশ",
-    "views": 608,
+    "views": 529,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "বাংলা বাগধারার তালিকা",
-    "views": 557,
+    "title": "পশুকামিতা",
+    "views": 503,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "বুলু ফিল্ম",
-    "views": 514,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "সশস্ত্র বাহিনী দিবস (বাংলাদেশ)",
-    "views": 502,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "তারেক রহমান",
-    "views": 470,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "গোপালগঞ্জ জেলা",
-    "views": 433,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "মেহজাবীন চৌধুরী",
-    "views": 405,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "পাগলা মসজিদ",
-    "views": 404,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "সানি লিওন",
-    "views": 368,
+    "views": 412,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "রিতো রিবা",
-    "views": 365,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "বাংলা ভাষা",
-    "views": 349,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "গ্র্যান্ড থেফট অটো ৬",
-    "views": 346,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "চ",
-    "views": 340,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "রবীন্দ্রনাথ ঠাকুর",
-    "views": 332,
+    "views": 384,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "শেখ হাসিনা",
-    "views": 307,
+    "title": "বাংলা বাগধারার তালিকা",
+    "views": 380,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "পুরুষে পুরুষে যৌনতা",
-    "views": 301,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "পায়ুসঙ্গম",
-    "views": 299,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "রুহুল কবির রিজভী",
-    "views": 298,
-    "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "কাজী নজরুল ইসলাম",
-    "views": 295,
+    "views": 370,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "যোনি",
-    "views": 294,
-    "new": false,
-    "day": "2026-11-21"
+    "title": "ফজলুর রহমান (কিশোরগঞ্জের রাজনীতিবিদ)",
+    "views": 369,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
-    "title": "ইন্না লিল্লাহি ওয়া ইন্না ইলাইহি রাজিউন",
-    "views": 273,
+    "title": "চ",
+    "views": 364,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "শীর্ষে নারী (যৌনাসন)",
-    "views": 262,
+    "title": "মেহজাবীন চৌধুরী",
+    "views": 360,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "পুরুষে পুরুষে যৌনতা",
+    "views": 328,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "গ্র্যান্ড থেফট অটো ৬",
+    "views": 322,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "তারেক রহমান",
+    "views": 321,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": ".বিএফ",
+    "views": 321,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "বাংলা ভাষা",
+    "views": 312,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "বুলু ফিল্ম",
+    "views": 308,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "সানি লিওন",
+    "views": 302,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "শরদ কাপুর",
+    "views": 296,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "সাদিক কায়েম",
+    "views": 281,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "পায়ুসঙ্গম",
+    "views": 276,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "আসসালামু আলাইকুম",
+    "views": 261,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "বাংলাদেশ আওয়ামী লীগ",
+    "views": 259,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "বামাখ্যাপা",
+    "views": 249,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ভারতের সংবিধানের প্রস্তাবনা",
+    "views": 244,
+    "new": true,
+    "day": "2026-11-22"
    }
   ],
   "gu": [
    {
+    "title": "રાજેન્દ્ર શુક્લ",
+    "views": 480,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
     "title": "મિઆ ખલીફા",
-    "views": 130,
+    "views": 126,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ગુજરાતી ભાષા",
-    "views": 121,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "તુલસીવિવાહ",
-    "views": 82,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ગુજરાત",
-    "views": 78,
+    "views": 90,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ગુજરાતી ભાષા",
+    "views": 87,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ગુજરાતના જિલ્લાઓ",
+    "views": 60,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ભારતનું બંધારણ",
-    "views": 61,
+    "views": 59,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "સ્નેહલતા",
+    "views": 58,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ગિરનાર",
-    "views": 59,
+    "views": 57,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "વૌઠાનો મેળો",
     "views": 51,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "રાશિ",
-    "views": 50,
+    "views": 47,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "શ્રીમદ્ ભગવદ્ ગીતા",
-    "views": 50,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "નર્મદા નદી",
-    "views": 48,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "૨૦૨૬ની ગુજરાતી ફિલ્મોની યાદી",
-    "views": 46,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ગુજરાતના જિલ્લાઓ",
-    "views": 46,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "વલ્લભભાઈ પટેલ",
-    "views": 45,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "પ્રબોધિની એકાદશી",
     "views": 40,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ભારત",
+    "views": 38,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "શ્રીમદ્ ભગવદ્ ગીતા",
     "views": 37,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ઇન્સ્ટાગ્રામ",
-    "views": 31,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ગુજરાત રાજ્ય માર્ગ વાહનવ્યવહાર નિગમ",
-    "views": 30,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "મહાત્મા ગાંધી",
-    "views": 29,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "મટકું (જુગાર)",
-    "views": 29,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "સ્નેહલતા",
-    "views": 27,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "રામદેવપીર",
-    "views": 27,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "હસ્તમૈથુન",
-    "views": 26,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "જુનાગઢ",
-    "views": 26,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "નરસિંહ મહેતા",
-    "views": 26,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ઝવેરચંદ મેઘાણી",
-    "views": 26,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "હર્ષ સંઘવી",
-    "views": 26,
-    "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ભારતનાં રાજ્યો અને કેન્દ્રશાસિત પ્રદેશો",
-    "views": 25,
+    "views": 35,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ઝરખ",
+    "views": 33,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
     "title": "ગુજરાતી અંક",
+    "views": 31,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "દોહા",
+    "views": 30,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "હસ્તમૈથુન",
+    "views": 28,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "વાઘજી ઓઝા",
+    "views": 28,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "દ્વારકાધીશ મંદિર",
+    "views": 27,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "રામપ્રસાદ શુક્લ",
+    "views": 26,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "જમણા પાદર (તા. કાંકરેજ)",
+    "views": 25,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "સોમનાથ",
     "views": 25,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ભારતનો ઇતિહાસ",
-    "views": 24,
-    "new": false,
-    "day": "2026-11-21"
+    "title": "દાદા ભગવાન",
+    "views": 25,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
-    "title": "રા' નવઘણ",
+    "title": "ઇન્ટરનેટ",
     "views": 24,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ખોડિયાર",
+    "views": 23,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "તુલસીવિવાહ",
+    "views": 23,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "રામાયણ",
+    "views": 23,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "મહાત્મા ગાંધી",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "મુખ મૈથુન",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
    }
   ],
   "or": [
    {
-    "title": "ହରେକୃଷ୍ଣ ମହତାବ",
-    "views": 59,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ପଞ୍ଚକ",
-    "views": 53,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "କାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମା",
-    "views": 43,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଏକାଦଶୀ",
-    "views": 42,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦ",
-    "views": 42,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଫକୀର ମୋହନ ସେନାପତି",
-    "views": 37,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ମନୋଜ ଦାସ",
-    "views": 32,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
     "title": "ଲକ୍ଷ୍ମଣ ନାୟକ",
-    "views": 32,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଲିପି (ଅଭିନେତ୍ରୀ)",
-    "views": 30,
+    "views": 63,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର",
-    "views": 29,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ତୁଳସୀ ବିବାହ",
-    "views": 26,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଜଗନ୍ନାଥ ମନ୍ଦିର",
-    "views": 25,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଗୋପୀନାଥ ମହାନ୍ତି",
-    "views": 22,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଗୋପବନ୍ଧୁ ଦାସ",
-    "views": 20,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ବାଲିଯାତ୍ରା",
-    "views": 20,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ନୀଳକଣ୍ଠ ଦାସ",
-    "views": 19,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଅଖିଳ ମୋହନ ପଟ୍ଟନାୟକ",
-    "views": 18,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଶାନ୍ତନୁ କୁମାର ଆଚାର୍ଯ୍ୟ",
-    "views": 18,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "କେଶବ କୋଇଲି",
-    "views": 18,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ବଡ଼ଓଷା",
-    "views": 17,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ରାଧାମୋହନ ଗଡ଼ନାୟକ",
-    "views": 17,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଓଡ଼ିଆ ସାହିତ୍ୟ",
-    "views": 17,
+    "views": 50,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ରାଧାନାଥ ରାୟ",
-    "views": 17,
+    "title": "ସ୍ୱାମୀ ବିବେକାନନ୍ଦ",
+    "views": 43,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ନାରାୟଣ ଗଙ୍ଗୋପାଧ୍ୟାୟ",
+    "views": 42,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Granisetron",
+    "views": 39,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଜଗନ୍ନାଥ ଦାସ",
+    "views": 37,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଫକୀର ମୋହନ ସେନାପତି",
+    "views": 30,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଗଙ୍ଗାଧର ମେହେର",
+    "views": 30,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "କାର୍ତ୍ତିକ ପୂର୍ଣ୍ଣିମା",
+    "views": 30,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଗୋପୀନାଥ ମହାନ୍ତି",
+    "views": 27,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଯୌନ ସମ୍ଭୋଗ",
+    "views": 25,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଶାନ୍ତିରାଜ ଖୋସଲା",
+    "views": 25,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ପଞ୍ଚସଖା",
+    "views": 24,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ସାରଳା ଦାସ",
+    "views": 24,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ମନୋଜ ଦାସ",
+    "views": 24,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ସୁରେନ୍ଦ୍ର ମହାନ୍ତି",
+    "views": 23,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଇରା ମହାନ୍ତି",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ପଞ୍ଚକ",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ବିରଜା ମନ୍ଦିର",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଗୋପବନ୍ଧୁ ଦାସ",
+    "views": 21,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ନୀଳକଣ୍ଠ ଦାସ",
+    "views": 21,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଶିଶୁ ଅନନ୍ତ ଦାସ",
+    "views": 20,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଲିପି (ଅଭିନେତ୍ରୀ)",
+    "views": 20,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର",
+    "views": 19,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ଭୁବନେଶ୍ୱର ବେହେରା",
+    "views": 18,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ଉପେନ୍ଦ୍ର ଭଞ୍ଜ",
     "views": 17,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ଅଜନ୍ତା ଗୁମ୍ଫା",
-    "views": 17,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ମଧୁସୂଦନ ରାଓ",
-    "views": 16,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ସଚ୍ଚିଦାନନ୍ଦ ରାଉତରାୟ",
-    "views": 15,
+    "views": 17,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ମାୟାଧର ମାନସିଂହ",
-    "views": 15,
+    "title": "ଭକ୍ତ ଚରଣ ଦାସ",
+    "views": 16,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ଜଗନ୍ନାଥ ଦାସ",
-    "views": 15,
-    "new": false,
-    "day": "2026-11-21"
+    "title": "ଧବଳେଶ୍ୱର ମନ୍ଦିର",
+    "views": 16,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
-    "title": "କାଳୀଚରଣ ପଟ୍ଟନାୟକ",
-    "views": 15,
+    "title": "ଜଗନ୍ନାଥ ମନ୍ଦିର",
+    "views": 16,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    }
   ],
   "pa": [
    {
     "title": "ਗੁਰੂ ਨਾਨਕ",
-    "views": 245,
+    "views": 304,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਅੰਮ੍ਰਿਤਪਾਲ ਸਿੰਘ",
-    "views": 58,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ੴ",
-    "views": 43,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਗੁਰੂ ਨਾਨਕ ਜੀ ਗੁਰਪੁਰਬ",
-    "views": 38,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ਜਪੁਜੀ ਸਾਹਿਬ",
-    "views": 35,
+    "views": 69,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਗੁਰੂ ਨਾਨਕ ਜੀ ਗੁਰਪੁਰਬ",
+    "views": 65,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਭਾਖੜਾ ਡੈਮ",
+    "views": 56,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਅੰਮ੍ਰਿਤਪਾਲ ਸਿੰਘ",
+    "views": 54,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ੴ",
+    "views": 31,
+    "new": false,
+    "day": "2026-11-22"
    },
    {
     "title": "ਭਗਤ ਨਾਮਦੇਵ",
-    "views": 33,
+    "views": 30,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਰਣਜੀਤ ਸਿੰਘ",
-    "views": 32,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਪਵਿੱਤਰ ਪਾਪੀ (ਨਾਵਲ)",
-    "views": 26,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ",
-    "views": 25,
-    "new": false,
-    "day": "2026-11-21"
+    "title": "6 ਸਤੰਬਰ",
+    "views": 27,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
     "title": "ਕਪਾਲ ਮੋਚਨ",
-    "views": 25,
+    "views": 27,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਨਨਕਾਣਾ ਸਾਹਿਬ",
-    "views": 23,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਪੰਜਾਬੀ ਲੋਕ ਬੋਲੀਆਂ",
-    "views": 22,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਪੰਜਾਬ",
-    "views": 19,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ",
-    "views": 18,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਖਡੂਰ ਸਾਹਿਬ ਲੋਕ ਸਭਾ ਹਲਕਾ",
-    "views": 18,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "2027 ਪੰਜਾਬ ਵਿਧਾਨ ਸਭਾ ਚੋਣਾਂ",
-    "views": 17,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ",
-    "views": 17,
+    "views": 26,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਮੁਗ਼ਲ ਸਾਮਰਾਜ ਦੇ ਸਮਰਾਟਾਂ ਦੀ ਸੂਚੀ",
+    "title": "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ",
+    "views": 24,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਰਣਜੀਤ ਸਿੰਘ",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਨਨਕਾਣਾ ਸਾਹਿਬ",
+    "views": 22,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਪੰਜਾਬ",
+    "views": 21,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਬਾਬਾ ਦੀਪ ਸਿੰਘ",
+    "views": 19,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "2027 ਪੰਜਾਬ ਵਿਧਾਨ ਸਭਾ ਚੋਣਾਂ",
+    "views": 18,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਮਿਆ ਖ਼ਲੀਫ਼ਾ",
     "views": 17,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਪੰਜਾਬ, ਭਾਰਤ",
-    "views": 16,
+    "title": "ਗੁਰਮੁਖੀ ਲਿਪੀ ਦੀ ਸੰਰਚਨਾ",
+    "views": 17,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਪੁਰਾਤਨ ਜਨਮ ਸਾਖੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ",
+    "views": 17,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਭਗਤ ਰਵਿਦਾਸ",
-    "views": 16,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਛੰਦ",
+    "title": "ਗ਼ਦਰ ਲਹਿਰ",
     "views": 16,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਗੁਰੂ ਰਾਮਦਾਸ",
+    "title": "ਗੁਰਪੁਰਬ",
+    "views": 16,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਪੰਜਾਬੀ ਸੱਭਿਆਚਾਰ",
     "views": 16,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਬਲੂ ਗਰਲ (ਫ਼ਿਲਮ)",
+    "title": "ਦੁਬਲੀ",
+    "views": 16,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ",
+    "views": 16,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਬਾਬਾ ਬੁੱਢਾ ਜੀ",
+    "views": 15,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਜਨੇਊ ਰੋਗ",
+    "views": 15,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਪੰਜਾਬ, ਭਾਰਤ ਦੇ ਮੇਲਿਆਂ ਅਤੇ ਤਿਉਹਾਰਾਂ ਦੀ ਸੂਚੀ",
+    "views": 15,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "ਗੂਰੂ ਨਾਨਕ ਦੀ ਪਹਿਲੀ ਉਦਾਸੀ",
     "views": 14,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਸੰਤ ਅਤਰ ਸਿੰਘ",
-    "views": 13,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਔਰੰਗਜ਼ੇਬ",
-    "views": 12,
-    "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਗੁਰੂ ਹਰਿਰਾਇ",
-    "views": 12,
+    "title": "ਭਾਰਤ ਦਾ ਪਹਿਲਾ ਆਜ਼ਾਦੀ ਸੰਗਰਾਮ",
+    "views": 14,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "ਪੰਜਾਬ ਦਾ ਇਤਿਹਾਸ",
-    "views": 12,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਜਗਤਾਰ ਸਿੰਘ ਹਵਾਰਾ",
-    "views": 12,
+    "title": "ਕੀਰਤਨ ਸੋਹਿਲਾ",
+    "views": 14,
     "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਆਧੁਨਿਕ ਪੰਜਾਬੀ ਕਵਿਤਾ",
-    "views": 12,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "ਫ਼ਤਹਿਗੜ੍ਹ ਸਾਹਿਬ",
-    "views": 11,
-    "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    }
   ],
   "en": [
    {
     "title": "Grand Theft Auto VI",
-    "views": 393338,
+    "views": 308867,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Tom Jackson (American football, born 1951)",
+    "views": 263973,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
     "title": "Riemann hypothesis",
-    "views": 388288,
+    "views": 205793,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": ".xxx",
-    "views": 148049,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "Deaths in 2026",
-    "views": 124212,
-    "new": false,
-    "day": "2026-11-21"
+    "title": "Miley Cyrus",
+    "views": 170642,
+    "new": true,
+    "day": "2026-11-22"
    },
    {
     "title": "List of highest-grossing Indian films",
-    "views": 122695,
+    "views": 137636,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Ansel Adams",
-    "views": 121328,
+    "title": "Deaths in 2026",
+    "views": 131500,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Robert Pattinson",
-    "views": 119357,
+    "title": ".xxx",
+    "views": 113918,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "The Body (TV series)",
-    "views": 109819,
+    "views": 112346,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Grand Theft Auto",
-    "views": 103318,
+    "title": "Ansel Adams",
+    "views": 106888,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Levent Alpöge",
-    "views": 102891,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "Nikhil Chaudhary (cricketer)",
-    "views": 100364,
+    "title": "S Club",
+    "views": 104957,
     "new": true,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "XXX (2002 film)",
-    "views": 92338,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "Jeff Bezos",
-    "views": 86703,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "Joseph Zada",
-    "views": 82604,
+    "views": 98864,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Rockstar Games",
-    "views": 77791,
+    "title": "Robert Pattinson",
+    "views": 96131,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "Elizabeth Holmes",
-    "views": 76587,
+    "views": 89425,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "John Madden",
-    "views": 74612,
+    "title": "Grand Theft Auto",
+    "views": 85598,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "The Odyssey (2026 film)",
-    "views": 73833,
+    "title": "XXX (2002 film)",
+    "views": 82069,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "You Can See Everything",
-    "views": 71854,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "Sunrise on the Reaping",
-    "views": 71460,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "Mckenna Grace",
-    "views": 69610,
+    "views": 79779,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Lewis Moody",
-    "views": 69243,
+    "title": "You Can See Everything",
+    "views": 79673,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Sunrise on the Reaping",
+    "views": 78767,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Mauricio Pochettino",
+    "views": 77374,
     "new": true,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Grand Theft Auto V",
-    "views": 67990,
+    "title": "John Madden",
+    "views": 76290,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "Steps (film)",
-    "views": 67976,
+    "title": "The Odyssey (2026 film)",
+    "views": 75108,
     "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "XXX (Kendrick Lamar song)",
-    "views": 63707,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "Mariella Frostrup",
-    "views": 63411,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "XXX (film series)",
-    "views": 61892,
-    "new": false,
-    "day": "2026-11-21"
-   },
-   {
-    "title": "List of best-selling video games",
-    "views": 61237,
-    "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
     "title": "Sam Bankman-Fried",
-    "views": 55395,
+    "views": 74746,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
    },
    {
-    "title": "MobLand",
-    "views": 55363,
+    "title": "privacy policy",
+    "views": 71801,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "John Tuggle",
+    "views": 71317,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Maxx Morando",
+    "views": 70652,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Mariella Frostrup",
+    "views": 70535,
     "new": false,
-    "day": "2026-11-21"
+    "day": "2026-11-22"
+   },
+   {
+    "title": "XXX (film series)",
+    "views": 70514,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "2026 Formula One World Championship",
+    "views": 67399,
+    "new": true,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "XXX (Kendrick Lamar song)",
+    "views": 63961,
+    "new": false,
+    "day": "2026-11-22"
+   },
+   {
+    "title": "Steps (film)",
+    "views": 62141,
+    "new": false,
+    "day": "2026-11-22"
    }
   ]
  },
@@ -3372,289 +3371,289 @@
    {
     "title": "Diviki Diviki - January 12 Vidudala| Venkatesh,Kalyan Ram,Keerthy, Krithi| Anil Ravipudi| GV Prakash",
     "channel": "Zee Music South",
-    "views": 10564469
+    "views": 11048448
    },
    {
     "title": "Cosmic Samson Trailer | Sandeep Pradeep | Abhijith Joseph | Sibi Mathew Alex | Weekend Blockbusters",
     "channel": "Think Music India",
-    "views": 1382700
+    "views": 1530767
    },
    {
     "title": "MY GIRLFRIEND IS BACK | GTA 6 GAMEPLAY #3",
     "channel": "Techno Gamerz",
-    "views": 10682406
+    "views": 10745141
    },
    {
     "title": "तुलसी माता की आरती Tulsi Mata Ki Aarti - Jai Jai Tulsi Mata Aarti | Tulsi Vivah Song | Tulsi Aarti",
     "channel": "Nova Spiritual India",
-    "views": 817702
+    "views": 828629
    },
    {
     "title": "MAYAN Chapter 1 - Trailer | Jayasurya | Jithin K Jose | Rajeev Govindan | Nyla Usha | Mujeeb Majeed",
     "channel": "Universal Music South",
-    "views": 1318577
+    "views": 1329992
    },
    {
     "title": "Finally Playing GTA 6 😍 First Time ",
     "channel": "Sourav Joshi Vlogs",
-    "views": 8038033
+    "views": 8115669
    },
    {
     "title": "#Video | दिलवा के दुखवा | #Pawan Singh & #Khushi Kakkar | Dilwa Ke Dukhwa | New Bhojpuri Sad Song",
     "channel": "Gannayak Films",
-    "views": 1876829
+    "views": 1928205
    },
    {
     "title": "BHOGI Official Trailer | Sharwanand | Sampath Nandi | Anupama | Dimple Hayathi | Bheems Ceciroleo",
     "channel": "Aditya Music",
-    "views": 880780
+    "views": 1308331
    },
    {
     "title": "जय जय तुलसी माता आरती | Jai Jai Tulsi Mata Aarti | Tulsi Aarti | Tulsi Vivah | Tulsi Pooja Aarti",
     "channel": "Bhajan India",
-    "views": 947145
+    "views": 951050
    },
    {
     "title": "OFF SCREEN | Official trailer | Round2hell | R2h ",
     "channel": "Round2hell Vlog",
-    "views": 9723719
+    "views": 9736424
    },
    {
     "title": "GTA 5 LIVE  #gta5 #gtav #gaming",
     "channel": "PAJI IS LIVE",
-    "views": 3871636
+    "views": 3872064
    },
    {
     "title": "DJ Pe Morni (Official Video) Ajay Hooda | Gori Nagori | New Haryanvi Dj Song 2026",
     "channel": "Ajay Hooda",
-    "views": 1944448
-   },
-   {
-    "title": "Ab Pagal Hojao!! 🔥 - Abhay 2027 Official Trailer | Check Description",
-    "channel": "Next Toppers",
-    "views": 1087490
-   },
-   {
-    "title": "GTA 5 LIVE #gta5 #gtav #gaming",
-    "channel": "Raajoo Gaming",
-    "views": 5105575
-   },
-   {
-    "title": "तुलसा की आई है बारात मेरे आंगन में | Tulsa Ki Aayi Hai Barat | तुलसी माता भजन | Tulsi Vivah Bhajan",
-    "channel": "Bajao Bhakti ",
-    "views": 1773028
+    "views": 1957831
    },
    {
     "title": "Prempaatta Official Trailer | Joemon Jyothir, Saiju Kurup, Anusree | Ankit Menon | Aamir Pallikkal",
     "channel": "Divo Music",
-    "views": 515896
+    "views": 520723
+   },
+   {
+    "title": "GTA 5 LIVE #gta5 #gtav #gaming",
+    "channel": "Raajoo Gaming",
+    "views": 5105876
+   },
+   {
+    "title": "तुलसा की आई है बारात मेरे आंगन में | Tulsa Ki Aayi Hai Barat | तुलसी माता भजन | Tulsi Vivah Bhajan",
+    "channel": "Bajao Bhakti ",
+    "views": 1794913
+   },
+   {
+    "title": "Ab Pagal Hojao!! 🔥 - Abhay 2027 Official Trailer | Check Description",
+    "channel": "Next Toppers",
+    "views": 1089698
    },
    {
     "title": "🔴EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
     "channel": "IShowSpeed",
-    "views": 9245223
-   },
-   {
-    "title": "Ramayana: Mangal Rang (Full Video) | Namit M,Nitesh T| Ranbir K,Sai |AR Rahman,Arijit,Shreya,Kumar V",
-    "channel": "T-Series",
-    "views": 1501274
-   },
-   {
-    "title": "Yeh Prem Mol Liya – Official Trailer | Ayushmann, Sharvari, Sooraj Barjatya | Himesh Reshammiya",
-    "channel": "Rajshri",
-    "views": 42409350
-   },
-   {
-    "title": "If You Steal a Car in GTA 6, I’ll Pay For It!",
-    "channel": "MrBeast Gaming",
-    "views": 20448467
+    "views": 9393206
    },
    {
     "title": "#Video - खून पानी | #Ashish Yadav | Ft, #Updated Biharan | Khoon Pani | Magahi #Rangdari Song 2026",
     "channel": "Shanti Films",
-    "views": 386677
+    "views": 407358
+   },
+   {
+    "title": "Yeh Prem Mol Liya – Official Trailer | Ayushmann, Sharvari, Sooraj Barjatya | Himesh Reshammiya",
+    "channel": "Rajshri",
+    "views": 42632336
+   },
+   {
+    "title": "If You Steal a Car in GTA 6, I’ll Pay For It!",
+    "channel": "MrBeast Gaming",
+    "views": 21174384
+   },
+   {
+    "title": "Ramayana: Mangal Rang (Full Video) | Namit M,Nitesh T| Ranbir K,Sai |AR Rahman,Arijit,Shreya,Kumar V",
+    "channel": "T-Series",
+    "views": 1524061
    },
    {
     "title": "Navoria - Official Teaser | Vemal | Ann Sheetal | Chimbudeven | D. Imman",
     "channel": "Saregama Tamil",
-    "views": 5503921
+    "views": 5506961
    },
    {
     "title": "80K UC BENTLEY CAR OPENING | CONQUEROR TODAY? | GTA LATER @LoLzZzGaming",
     "channel": "LoLzZz Gaming",
-    "views": 807569
+    "views": 813971
    },
    {
     "title": "तुळशी विवाह मंगलाष्टके || Tulsi Vivah Mangalashtak || Mangalashtak Marathi",
     "channel": "SB Music Studio",
-    "views": 122199
+    "views": 123020
    },
    {
     "title": "Project 45 2027🔥 - OFFICIAL TRAILER || Strongest Crash Course for Class 10th 2027 Students 💀",
     "channel": "Physics Wallah Foundation",
-    "views": 1201750
+    "views": 1203171
    },
    {
     "title": "I Went To a PRIVATE ISLAND Just For GTA 6 | SlayyPop",
     "channel": "SlayyPop",
-    "views": 1959205
+    "views": 1967964
    },
    {
     "title": "तुळशीची आरती Tulsi Aarti Marathi - Jay Devi Jay Devi Jay Mai Tulsi | Tulsi Vivah Song | Tulsi Aarti",
     "channel": "Nova Marathi Bhakti",
-    "views": 388819
+    "views": 389675
    },
    {
-    "title": "Fool in Love | Trailer EP.15 | Ing Breaks Down at His Mom’s Grave… | iQIYI Unlabeled",
-    "channel": "iQIYI Unlabeled - Get the iQIYI APP",
-    "views": 77335
+    "title": "Cosmic Samson Official Trailer Reaction | Sandeep Pradeep Abhijith Joseph Miya Entertainment Kizhi",
+    "channel": "Entertainment Kizhi",
+    "views": 27456
    },
    {
     "title": "🌿FREE FIRE LIVE🌿PLAYING BR-RANKED😎2X AWM SPEED GAME PLAY 🎮🎯 ON LIVE - GARENA FREE FIRE",
     "channel": "DAD I AM OK GAMING",
-    "views": 1169078
+    "views": 1169344
    }
   ],
   "US": [
    {
     "title": "Christmas Songs Playlist 🎅  Top Christmas Songs of All Time Playlist 🎄 Best Christmas Music 2027",
     "channel": "Christmas Songs and Carols - Love to Sing",
-    "views": 468452
+    "views": 529089
    },
    {
     "title": "Al & Stella Return | Financial Audit Trailer",
     "channel": "Caleb Hammer - Clips",
-    "views": 23118
+    "views": 44888
    },
    {
     "title": "Top 50 Christmas Songs of All Time 🎅🏼 Classic Christmas Music with Fireplace 🎅🏼 Merry Christmas 2027",
     "channel": "Merry Christmas Vibes",
-    "views": 394507
-   },
-   {
-    "title": "Heal: A Princess of Wales Special | Official Trailer | NBC",
-    "channel": "NBC",
-    "views": 201881
-   },
-   {
-    "title": "If You Steal a Car in GTA 6, I’ll Pay For It!",
-    "channel": "MrBeast Gaming",
-    "views": 20448467
-   },
-   {
-    "title": "Anuel AA | SE TOCO EL T*TITO CON MI GL*CK (Video Oficial)",
-    "channel": "Anuel AA",
-    "views": 7756697
+    "views": 420341
    },
    {
     "title": "BHOGI Official Trailer | Sharwanand | Sampath Nandi | Anupama | Dimple Hayathi | Bheems Ceciroleo",
     "channel": "Aditya Music",
-    "views": 880780
-   },
-   {
-    "title": "🔴EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
-    "channel": "IShowSpeed",
-    "views": 9245223
-   },
-   {
-    "title": "SANDAUN LEWA (Meri Waromo)",
-    "channel": "JNR VIGI - Topic",
-    "views": 17359
-   },
-   {
-    "title": "Wait... Netflix's Steps Is Actually GOOD??",
-    "channel": "DazzReviews",
-    "views": 69373
+    "views": 1308331
    },
    {
     "title": "Killing Cutelings To Feed The Masses [Can Em All 1/2]",
     "channel": "Joe Bart Games",
-    "views": 305453
+    "views": 414607
+   },
+   {
+    "title": "SANDAUN LEWA (Meri Waromo)",
+    "channel": "JNR VIGI - Topic",
+    "views": 18114
+   },
+   {
+    "title": "Heal: A Princess of Wales Special | Official Trailer | NBC",
+    "channel": "NBC",
+    "views": 215135
+   },
+   {
+    "title": "If You Steal a Car in GTA 6, I’ll Pay For It!",
+    "channel": "MrBeast Gaming",
+    "views": 21174384
    },
    {
     "title": "Enrique Iglesias, Descemer Bueno, Gente De Zona - Bailando (Lyrics)",
     "channel": "7clouds Tropical",
-    "views": 316679
+    "views": 382416
    },
    {
-    "title": "GTA 6 Is The Worst...",
-    "channel": "MeatCanyon",
-    "views": 3607913
-   },
-   {
-    "title": "Flunky x Jammin - Otendewa ( Official Audio )",
-    "channel": "Flunky",
-    "views": 206483
-   },
-   {
-    "title": "🇷🇺 TO RUSSIA WITH LOVE — OFFICIAL TRAILER!",
-    "channel": "Mr. Newberger's AI Funnies",
-    "views": 11217
-   },
-   {
-    "title": "I Built a Factory of 100% Pure Madness in Moon Sweepers",
-    "channel": "Let's Game It Out",
-    "views": 786684
-   },
-   {
-    "title": "Top Christmas Songs of All Time 🎅🏼 Best Christmas Music Playlist 🎅🏼 Christmas Playlist 2026",
-    "channel": "Timeless Music",
-    "views": 196053
-   },
-   {
-    "title": "Family Time - Steam Gameplay Trailer",
-    "channel": "sgthale - Indie Dev!",
-    "views": 332803
+    "title": "Wait... Netflix's Steps Is Actually GOOD??",
+    "channel": "DazzReviews",
+    "views": 95555
    },
    {
     "title": "Never trust the trapper",
     "channel": "JudeLow",
-    "views": 289816
+    "views": 508915
+   },
+   {
+    "title": "Anuel AA | SE TOCO EL T*TITO CON MI GL*CK (Video Oficial)",
+    "channel": "Anuel AA",
+    "views": 7950549
+   },
+   {
+    "title": "🔴EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
+    "channel": "IShowSpeed",
+    "views": 9393206
+   },
+   {
+    "title": "Flunky x Jammin - Otendewa ( Official Audio )",
+    "channel": "Flunky",
+    "views": 207977
+   },
+   {
+    "title": "Family Time - Steam Gameplay Trailer",
+    "channel": "sgthale - Indie Dev!",
+    "views": 353615
+   },
+   {
+    "title": "I Built a Factory of 100% Pure Madness in Moon Sweepers",
+    "channel": "Let's Game It Out",
+    "views": 974667
    },
    {
     "title": "Mangi Sulu",
     "channel": "Kronos_StyleKumul - Topic",
-    "views": 41368
+    "views": 41732
    },
    {
-    "title": "This is a nightmare for Rockstar..",
-    "channel": "Asmongold Clips",
-    "views": 3888428
+    "title": "🇷🇺 TO RUSSIA WITH LOVE — OFFICIAL TRAILER!",
+    "channel": "Mr. Newberger's AI Funnies",
+    "views": 19005
    },
    {
-    "title": "Michael Bublé - Holly Jolly Christmas (Official Lyric Video)",
-    "channel": "Michael Bublé",
-    "views": 442364
+    "title": "GTA 6 Is The Worst...",
+    "channel": "MeatCanyon",
+    "views": 3751148
+   },
+   {
+    "title": "Top Christmas Songs of All Time 🎅🏼 Best Christmas Music Playlist 🎅🏼 Christmas Playlist 2026",
+    "channel": "Timeless Music",
+    "views": 218769
    },
    {
     "title": "GTA 6 Has Exposed a BIG Problem With AAA Games",
     "channel": "gameranx",
-    "views": 512359
+    "views": 694602
+   },
+   {
+    "title": "Michael Bublé - Holly Jolly Christmas (Official Lyric Video)",
+    "channel": "Michael Bublé",
+    "views": 455749
+   },
+   {
+    "title": "I Shouldn’t Have Went To My Friends House…",
+    "channel": "CaseOh",
+    "views": 212466
    },
    {
     "title": "Can We Talk",
     "channel": "Tevin Campbell - Topic",
-    "views": 99242
+    "views": 105073
    },
    {
     "title": "100 Days in the Appalachian Mountains in Hardcore Minecraft",
     "channel": "Forge Labs",
-    "views": 389655
+    "views": 474299
    },
    {
     "title": "Meet Me In The Pale Moonlight",
     "channel": "Release - Topic",
-    "views": 183350
+    "views": 195422
    },
    {
-    "title": "This is vanilla Minecraft",
-    "channel": "Mumbo Jumbo",
-    "views": 809647
+    "title": "Milking The Warden - Sky Factory Season 7 EP 11",
+    "channel": "SSundeePlus",
+    "views": 247402
    },
    {
-    "title": "Hoy La Vi Pasar  - Chicho Castro",
-    "channel": "Chicho Castro",
-    "views": 1183812
+    "title": "Pedro Capó, Farruko - Calma Remix (Letra)",
+    "channel": "Unity Vibe ",
+    "views": 1184778
    }
   ]
  },
