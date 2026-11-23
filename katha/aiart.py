@@ -20,7 +20,7 @@ only ever sent in the Authorization header and never printed.
 
     python katha/aiart.py test "Hanuman roaring, extreme close-up"   # one picture -> ./aiart_test.jpg (needs CF_* env)
 """
-import base64, io, json, os, sys, time
+import base64, io, json, os, sys, threading, time
 from pathlib import Path
 
 import requests
@@ -30,7 +30,8 @@ MODEL = "@cf/black-forest-labs/flux-1-schnell"
 STEPS = 4
 MIN_OK = 5               # fewer usable pictures than this: use Wikimedia instead
 TIMEOUT = 90
-SUFFIX = ". Vertical portrait framing, subject centred. No text, no letters, no captions, no watermark, no logo."
+SUFFIX = (". Vertical portrait framing, subject centred. No text, no letters, no captions, no signature, "
+          "no watermark, no logo.")
 STYLES = {
     "devotional": ("Epic Indian devotional digital painting, classical Raja Ravi Varma colours meeting modern "
                    "mythological concept art, rich saturated jewel tones, glowing rim light, intricate traditional "
@@ -42,6 +43,23 @@ STYLES = {
 }
 DEVOTIONAL = {"myth", "saint", "folk"}
 _SIZE_OK = [True]        # does the endpoint take width/height? Learned on the first call.
+GEMINI_CAP_S = 120       # ai._call can sit in per-minute-limit waits for ~25 min; a Short has 30 min in all
+
+
+def _capped(fn, cap=GEMINI_CAP_S):
+    """fn() in a daemon thread; its result, or None after `cap` seconds or on any exception."""
+    box = {}
+    def run():
+        try:
+            box["v"] = fn()
+        except Exception as e:
+            box["e"] = e
+    th = threading.Thread(target=run, daemon=True); th.start(); th.join(cap)
+    if th.is_alive():
+        print(f"[aiart] Gemini still busy after {cap}s: moving on"); return None
+    if "e" in box:
+        print(f"[aiart] Gemini call failed: {str(box['e'])[:120]}")
+    return box.get("v")
 
 SCENES = """You plan the pictures for a {lang_name} YouTube Short. One illustrated still per narration line.
 
@@ -107,18 +125,31 @@ def scene_prompts(script, lang_name, facts):
     n = len(script["sentences"])
     if len(sc) == n:
         return sc
-    try:
-        import ai
-        out = ai.json_call(SCENES.format(lang_name=lang_name, n=n, facts=facts[:1500],
-                                         lines="\n".join(f"{i}: {x}" for i, x in enumerate(script["sentences"]))),
-                           temperature=0.7)
-        sc = [x for x in out.get("scenes", []) if isinstance(x, str) and x.strip()]
-        if len(sc) == n:
-            return sc
+    import ai
+    out = _capped(lambda: ai.json_call(SCENES.format(lang_name=lang_name, n=n, facts=facts[:1500],
+                                                     lines="\n".join(f"{i}: {x}" for i, x in enumerate(script["sentences"]))),
+                                       temperature=0.7)) or {}
+    sc = [x for x in out.get("scenes", []) if isinstance(x, str) and x.strip()]
+    if len(sc) == n:
+        return sc
+    if out:
         print(f"[aiart] Gemini gave {len(sc)} scenes for {n} lines")
-    except Exception as e:
-        print(f"[aiart] scene prompts failed: {str(e)[:120]}")
-    return None
+    return claim_scenes(script, n)
+
+
+def claim_scenes(script, n):
+    """No Gemini needed: one scene per line from the English claims, which follow the story's order.
+    Rougher than written scenes, but it keeps the illustrated look on a day Gemini is slow or out of quota."""
+    claims = [c for c in script.get("claims_en", []) if isinstance(c, str) and c.strip()]
+    if not claims:
+        return None
+    out = [f"{claims[0]} Shown as an extreme close-up of the main figure's face at the peak of emotion."]
+    for i in range(1, n):
+        c = claims[min(len(claims) - 1, round(i * len(claims) / n))]
+        out.append(f"{c} Shown as one dramatic illustrated moment, focused on the people or creatures involved and "
+                   f"what they are doing, expressive faces.")
+    print("[aiart] scenes built from claims_en")
+    return out
 
 
 def vet(images, prompts):
@@ -129,9 +160,9 @@ def vet(images, prompts):
         for im in images:
             b = io.BytesIO(); im.convert("RGB").resize((384, int(384 * im.height / im.width))).save(b, "JPEG", quality=80)
             parts.append(ai.image_part(b.getvalue()))
-        v = ai.json_call(VET.format(n=len(images), last=len(images) - 1,
-                                    prompts="\n".join(f"{i}: {p[:200]}" for i, p in enumerate(prompts))),
-                         models=ai.VISION_MODELS, parts=parts, temperature=0.1)
+        v = _capped(lambda: ai.json_call(VET.format(n=len(images), last=len(images) - 1,
+                                                    prompts="\n".join(f"{i}: {p[:200]}" for i, p in enumerate(prompts))),
+                                         models=ai.VISION_MODELS, parts=parts, temperature=0.1)) or {}
         bad = sorted({int(i) for i in v.get("bad", []) if str(i).lstrip("-").isdigit() and 0 <= int(i) < len(images)})
         if bad:
             print(f"[aiart] vet rejected {bad}: {v.get('why', [])}")
@@ -158,9 +189,14 @@ def shots(script, kind, lang, lang_name, facts):
             print("[aiart] first picture failed: using Wikimedia"); return None
         imgs.append(im)
     have = [i for i, im in enumerate(imgs) if im is not None]
-    for i in vet([imgs[i] for i in have], [prompts[i] for i in have]):
-        k = have[i]
-        imgs[k] = generate(full[k] + " Clean anatomy, natural hands.")
+    redo = [have[i] for i in vet([imgs[i] for i in have], [prompts[i] for i in have])]
+    for k in redo:
+        imgs[k] = generate(full[k] + " Clean anatomy, natural hands, exactly as described.")
+    redone = [k for k in redo if imgs[k] is not None]
+    if redone:                       # a redraw is checked too (11-23 test: a redrawn Ravana came back with a fake signature)
+        for i in vet([imgs[k] for k in redone], [prompts[k] for k in redone]):
+            print(f"[aiart] redraw of {redone[i]} still rejected: dropped (its line keeps the picture before it)")
+            imgs[redone[i]] = None
     if imgs[0] is None:
         return None
     out = [dict(img=im, lines=[i], score=9, file=f"File:AI illustration {i + 1}", artist="AI illustration",

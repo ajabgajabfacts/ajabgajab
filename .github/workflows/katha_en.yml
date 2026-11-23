@@ -95,6 +95,7 @@ jobs:
           CHANNEL_CONFIG: ${{ secrets.CHANNEL_CONFIG_EN }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}     # katha/aiart.py: illustrated scenes (off while unset)
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          AI_ART: ${{ vars.AI_ART }}     # repo variable AI_ART=0 turns the AI pictures off
           KATHA_SLOT: ${{ steps.due.outputs.slot }}
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && '1' || '' }}
         run: |
