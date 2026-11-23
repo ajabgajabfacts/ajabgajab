@@ -14,7 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import ai, bank, media, render, write
+import ai, aiart, bank, media, render, write
 from langs import LANGS
 from make import MUSIC, MUSIC_OK, upload
 
@@ -132,7 +132,11 @@ def main():
             # Every claim, not the first four: a chapter's later lines bring in things (the Lepakshi Nandi, claim 8)
             # whose photos the vet otherwise rejects as "not this story".
             story_en = f"{e['key'].replace('_', ' ')} - " + "; ".join(s.get("claims_en", []))
-            shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
+            # Illustrated scenes first (aiart.py, owner 2026-11-23: "clickbait images for long form too"), one per two
+            # lines; Wikimedia when AI art is off or fails.
+            shots = aiart.shots(s, e.get("kind"), a.lang, L["name"], story_en, every=2) if aiart.enabled() else None
+            if not shots:
+                shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
             if len(shots) < 4:
                 print(f"[long] skip {e['key']}: {len(shots)} images"); continue
             chapters.append((e, s, shots, sources))
@@ -151,6 +155,11 @@ def main():
                                        chapters="\n".join(f"{i + 1}. {c[1]['title']}" for i, c in enumerate(chapters))))
     (work / "frame.json").write_text(json.dumps(fr, ensure_ascii=False, indent=1), encoding="utf-8")
     best = sorted([sh for c in chapters for sh in c[2]], key=lambda x: -x["score"])
+    if any(sh.get("ai") for c in chapters for sh in c[2]):
+        # The intro teases every chapter with its opening close-up (scene 1 of each chapter) instead of four
+        # pictures from chapter 1.
+        firsts = [c[2][0] for c in chapters]
+        best = firsts + [sh for sh in best if all(sh is not f for f in firsts)]
 
     parts, marks, t = [], [], 0.0
     intro, d, cc = segment(L, fr["intro"], [b["img"] for b in best[:4]], fr["thumb_text"], fr["kicker"], work, "s00_intro")
@@ -173,21 +182,30 @@ def main():
     final = work / "long.mp4"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst),
                     "-c", "copy", "-movflags", "+faststart", str(final)], check=True)
-    thumb = thumbnail(best[0]["img"], fr["thumb_text"], L, fr["kicker"], work / "thumb.jpg")
+    # A picture made for the thumbnail (face right, room for the title left); else the best chapter picture.
+    first = chapters[0]
+    t_img = aiart.thumbnail_image(first[2][0].get("scene") if first[2][0].get("ai") else None,
+                                  first[0].get("kind"), a.lang)
+    thumb = thumbnail(t_img or best[0]["img"], fr["thumb_text"], L, fr["kicker"], work / "thumb.jpg")
     print(f"[long] {final} {t / 60:.1f} min")
 
     credit = ["Sources (Wikipedia, CC BY-SA 4.0): " + ", ".join(sorted({x["title"] for c in chapters for x in c[3]})),
               "Images (Wikimedia Commons):"]
     seen = set()
+    any_ai = any(sh.get("ai") for c in chapters for sh in c[2])
     for c in chapters:
         for sh in c[2]:
-            if sh["file"] not in seen:
+            if sh["file"] not in seen and not sh.get("ai"):
                 seen.add(sh["file"]); credit.append(f"- {sh['file'][5:]} - {sh['artist']} - {sh['license']}")
+    if not seen:
+        credit.pop()                                     # no Commons pictures: drop the empty heading
+    if any_ai:
+        credit.append("Illustrations: AI-generated for this video (aiart.py).")
     tags = [h.lstrip("#").strip() for h in fr.get("hashtags", [])]
     desc = (fr["description"] + "\n\n" + "\n".join(f"{ts(m[0])} {m[1]}" for m in marks) + "\n\n"
             + " ".join("#" + x.replace(" ", "") for x in tags[:6]) + "\n\n" + "\n".join(credit))
     meta = dict(title=fr["title"], description=desc, tags=tags + ["ajab gajab", "stories", L["name"]], lang=a.lang,
-                comment=fr["outro"][0], captions=caps, long=True)
+                comment=fr["outro"][0], captions=caps, long=True, synthetic=any_ai)
     (work / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     if a.no_upload:
         return

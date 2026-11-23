@@ -95,6 +95,17 @@ def style(kind, lang):
     return STYLES["devotional"] if kind in DEVOTIONAL else STYLES["india"]
 
 
+THUMB = (". Composition for a wide video thumbnail: the face and upper body fill the RIGHT half of the frame at mid "
+         "height, the LEFT half is dark, empty background for a title. No text, no letters, no signature, no watermark.")
+
+
+def thumbnail_image(scene, kind, lang):
+    """One picture made for a long video's thumbnail (longform.thumbnail adds the title), or None."""
+    if not enabled() or not scene:
+        return None
+    return generate(f"{scene.rstrip('. ')}. Extreme close-up at the peak of emotion. {style(kind, lang)}{THUMB}")
+
+
 def generate(prompt):
     """One picture as a PIL image, or None. Never raises."""
     acct, tok = os.environ.get("CF_ACCOUNT_ID", ""), os.environ.get("CF_API_TOKEN", "")
@@ -172,13 +183,19 @@ def vet(images, prompts):
         return []
 
 
-def shots(script, kind, lang, lang_name, facts):
-    """Shot dicts in media.images' shape (img, lines, score, file, artist, license, ai=True), or None."""
+def shots(script, kind, lang, lang_name, facts, every=1):
+    """Shot dicts in media.images' shape (img, lines, score, file, artist, license, ai=True), or None.
+    every=2 draws one picture per two lines (long-form chapters: ~50 pictures a video instead of ~100, so a
+    long-form day stays inside the free 10,000 neurons with the Shorts)."""
     if not enabled():
         return None
     prompts = scene_prompts(script, lang_name, facts)
     if not prompts:
         return None
+    n = len(prompts)
+    starts = list(range(0, n, max(1, every)))
+    covers = {k: list(range(k, min(n, k + every))) for k in starts}
+    prompts = [prompts[k] for k in starts]
     st = style(kind, lang)
     full = [f"{p.rstrip('. ')}. {st}{SUFFIX}" for p in prompts]
     t0 = time.time()
@@ -199,11 +216,11 @@ def shots(script, kind, lang, lang_name, facts):
             imgs[redone[i]] = None
     if imgs[0] is None:
         return None
-    out = [dict(img=im, lines=[i], score=9, file=f"File:AI illustration {i + 1}", artist="AI illustration",
-                license="FLUX.1 schnell", ai=True, what=prompts[i][:120], where="")
+    out = [dict(img=im, lines=covers[starts[i]], score=9, file=f"File:AI illustration {i + 1}", artist="AI illustration",
+                license="FLUX.1 schnell", ai=True, what=prompts[i][:120], where="", scene=prompts[i])
            for i, im in enumerate(imgs) if im is not None]
     print(f"[aiart] {len(out)}/{len(prompts)} pictures in {time.time() - t0:.0f}s ({imgs[0].size[0]}x{imgs[0].size[1]})")
-    return out if len(out) >= MIN_OK else None
+    return out if len(out) >= min(MIN_OK, len(prompts) - 1) else None
 
 
 if __name__ == "__main__":
