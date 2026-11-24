@@ -734,5 +734,69 @@
   "angle": "A 1903 London dog statue sparked street battles between medical students, feminists, and police.",
   "score": 9,
   "added": "2026-11-14"
+ },
+ {
+  "key": "violet_jessop",
+  "lang": "en",
+  "kind": "people",
+  "wiki": [
+   "Violet Jessop"
+  ],
+  "art": [
+   "Violet Jessop portrait",
+   "RMS Titanic ship",
+   "Violet Jessop"
+  ],
+  "angle": "Stewardess Violet Jessop survived the sinking of the Titanic and its sister ship Britannic.",
+  "score": 10,
+  "added": "2026-11-24"
+ },
+ {
+  "key": "the_greenbrier",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "The Greenbrier"
+  ],
+  "art": [
+   "The Greenbrier West Virginia",
+   "Greenbrier bunker door",
+   "The Greenbrier"
+  ],
+  "angle": "Beneath the Greenbrier resort hotel in West Virginia lies a secret Cold War bunker.",
+  "score": 8,
+  "added": "2026-11-24"
+ },
+ {
+  "key": "lake_kivu",
+  "lang": "en",
+  "kind": "nature",
+  "wiki": [
+   "Lake Kivu"
+  ],
+  "art": [
+   "Lake Kivu Rwanda",
+   "Lake Kivu satellite",
+   "Lake Kivu"
+  ],
+  "angle": "Lake Kivu traps large amounts of dissolved methane and carbon dioxide beneath its deep waters.",
+  "score": 8,
+  "added": "2026-11-24"
+ },
+ {
+  "key": "daisy_advertisement",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Daisy (advertisement)"
+  ],
+  "art": [
+   "Daisy Girl 1964 campaign ad",
+   "Lyndon B Johnson 1964",
+   "Daisy (advertisement)"
+  ],
+  "angle": "A 1964 campaign ad for Lyndon Johnson aired only once yet reshaped American political advertising.",
+  "score": 8,
+  "added": "2026-11-24"
  }
 ]
