@@ -594,5 +594,29 @@
    "score": 8
   },
   "added": "2026-11-25"
+ },
+ {
+  "key": "tr_kanaka_three_wishes",
+  "lang": "kn",
+  "kind": "saint",
+  "wiki": [
+   "Kanaka Dasa"
+  ],
+  "art": [
+   "Kanaka Dasa statue",
+   "Kanakadasa painting Krishna",
+   "Bankapura fort"
+  ],
+  "angle": "legend: Thimmappa Nayaka, a wounded warrior of Bankapura fort, met a beggar he realised was Lord Hari; offered treasures, he refused and asked only to be healed, for Hari to come whenever he called, and to see His true form, then left soldiering to compose about 240 songs",
+  "trend": {
+   "why": "Kanakadasa Jayanti is a Karnataka public holiday on Fri 27 Nov; a second Kanaka story (the warrior who refused treasure) for the run-up",
+   "signals": [
+    "Karnataka govt 2026 holiday list: Kanakadasa Jayanti 27 Nov (officeholidays.com, hindutone)",
+    "kn.wikipedia most-read 22 Nov: ಕನಕದಾಸರು #4 (296 views)"
+   ],
+   "until": "2026-11-27",
+   "score": 7
+  },
+  "added": "2026-11-25"
  }
 ]
