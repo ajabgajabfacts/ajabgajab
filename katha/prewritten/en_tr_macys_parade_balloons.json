@@ -1,0 +1,60 @@
+{
+ "script": {
+  "title": "Clarence Chamberlin beheaded a dragon, then claimed $25 🤯",
+  "hook_text": "Pilot beheads a dragon midair",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "Clarence Chamberlin beheaded a dragon with a wingtip.",
+   "This was 1931, and Chamberlin, an aviation pioneer, had spotted the dragon midair.",
+   "He cut its head off, brought the pieces back to land, and claimed a 25 dollar award.",
+   "The dragon was a balloon from the Macy's Thanksgiving Day Parade.",
+   "In 1928, Tony Sarg started letting the parade's helium balloons go on purpose.",
+   "They leaked slowly for a week, came down, and whoever found one got a reward.",
+   "All but one came back, a blue hippo that drifted past the Empire State Building and was never found."
+  ],
+  "cta": "Comment below",
+  "description": "In 1931 a pilot sliced the head off a Macy's parade balloon in midair.\nOne blue hippo balloon was never found.",
+  "hashtags": [
+   "MacysParade",
+   "Thanksgiving",
+   "NewYorkHistory",
+   "TrueStory",
+   "WaitThatsReal"
+  ],
+  "visuals": [
+   "Macy's Thanksgiving Day Parade 1920s",
+   "Macy's parade balloon",
+   "Tony Sarg Macy's balloon"
+  ],
+  "claims_en": [
+   "In 1931 aviation pioneer Clarence Chamberlin spotted a dragon balloon midair",
+   "He decapitated it with a wingtip",
+   "He brought the remnants back to land",
+   "He claimed a $25 award",
+   "The dragon was a Macy's Thanksgiving Day Parade balloon",
+   "In 1928 Macy's switched to helium and Tony Sarg released the balloons; the practice continued until 1932",
+   "The released balloons were set to leak slowly over a week and then descend",
+   "Finders received a reward",
+   "All but one balloon were recovered",
+   "A blue hippopotamus balloon drifted southeast past the Empire State Building after the 1931 parade and was never found"
+  ],
+  "scenes": [
+   "Extreme close-up of a 1930s aviator in leather flying helmet and goggles, face frozen in astonished determination, cockpit wind whipping, cold autumn sky light",
+   "A 1931 open-cockpit biplane banking over New York rooftops toward a huge green dragon-shaped parade balloon floating in a grey November sky, wide shot",
+   "The biplane's wingtip slicing through the neck of the floating dragon balloon, fabric tearing away, the pilot gritting his teeth, dramatic side angle; then the aviator on a small airfield holding torn balloon fabric as an official hands him a few dollar bills",
+   "A 1930s Macy's Thanksgiving parade on a New York street, giant animal balloons over crowds in coats and hats, festive daylight",
+   "A puppeteer in a 1920s suit and bow tie grinning as he lets go of the ropes of giant helium animal balloons rising over a city street, low angle",
+   "Children in a 1930s countryside field running toward a deflated animal balloon that has drifted down onto the grass, soft morning light",
+   "A large blue hippopotamus balloon drifting alone past the Empire State Building at dusk, tiny in the vast sky, melancholy wide shot"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-24T19:44Z",
+ "for_slot": "2026-11-25 slot 4"
+}
