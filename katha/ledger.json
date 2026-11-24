@@ -1813,5 +1813,30 @@
   "title": "ਬਾਈ ਰੁਪਏ ਦਾ ਸੌਦਾ, ਜੋ ਨਾਨਕ ਜੀ ਨੇ ਭੁੱਖੇ ਸਾਧੂਆਂ ਲਈ ਕੀਤਾ",
   "seconds": 33.1,
   "slot": 6
+ },
+ {
+  "key": "tr_franksgiving",
+  "lang": "en",
+  "date": "2026-11-24",
+  "status": "failed_check",
+  "why": "only 0 usable images"
+ },
+ {
+  "key": "mechanical_turk",
+  "lang": "en",
+  "date": "2026-11-24",
+  "status": "failed_check",
+  "why": "only 2 usable images"
+ },
+ {
+  "key": "sydney_opera",
+  "lang": "en",
+  "date": "2026-11-24",
+  "utc": "02:12",
+  "status": "posted",
+  "video_id": "nyYK4gComv0",
+  "title": "Sydney Started Its Opera House Before Anyone Could Roof It",
+  "seconds": 30.3,
+  "slot": 5
  }
 ]
