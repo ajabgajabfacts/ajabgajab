@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:40Z",
+ "updated": "2026-11-25T10:33Z",
  "channels": {
   "ajab": {
    "videos": [
@@ -11,10 +11,10 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 1,
-     "age_h": 819,
-     "yt": 89612,
+     "age_h": 842,
+     "yt": 89614,
      "fb": 0,
-     "total": 89612,
+     "total": 89614,
      "likes": 774,
      "comments": 7,
      "avp": 79.23,
@@ -35,7 +35,7 @@
      "kind": "history",
      "seconds": 40.6,
      "slot": 0,
-     "age_h": 780,
+     "age_h": 803,
      "yt": 28398,
      "fb": 0,
      "total": 28398,
@@ -59,7 +59,7 @@
      "kind": "wonder",
      "seconds": 31.6,
      "slot": 0,
-     "age_h": 702,
+     "age_h": 725,
      "yt": 2047,
      "fb": null,
      "total": 2047,
@@ -83,7 +83,7 @@
      "kind": "wonder",
      "seconds": 29.7,
      "slot": 2,
-     "age_h": 455,
+     "age_h": 477,
      "yt": 1838,
      "fb": null,
      "total": 1838,
@@ -102,7 +102,7 @@
      "kind": "wonder",
      "seconds": 30.8,
      "slot": 3,
-     "age_h": 281,
+     "age_h": 304,
      "yt": 1703,
      "fb": 0,
      "total": 1703,
@@ -121,7 +121,7 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 857,
+     "age_h": 879,
      "yt": 1686,
      "fb": 0,
      "total": 1686,
@@ -140,7 +140,7 @@
      "kind": "engineering",
      "seconds": 31.7,
      "slot": 3,
-     "age_h": 570,
+     "age_h": 593,
      "yt": 1560,
      "fb": 0,
      "total": 1560,
@@ -159,7 +159,7 @@
      "kind": "wonder",
      "seconds": 29.9,
      "slot": 2,
-     "age_h": 834,
+     "age_h": 857,
      "yt": 1364,
      "fb": 0,
      "total": 1364,
@@ -178,7 +178,7 @@
      "kind": "saint",
      "seconds": 34.2,
      "slot": 3,
-     "age_h": 593,
+     "age_h": 616,
      "yt": 1235,
      "fb": 0,
      "total": 1235,
@@ -197,7 +197,7 @@
      "kind": "myth",
      "seconds": 40.0,
      "slot": 1,
-     "age_h": 386,
+     "age_h": 409,
      "yt": 1229,
      "fb": 0,
      "total": 1229,
@@ -216,7 +216,7 @@
      "kind": "people",
      "seconds": 36.5,
      "slot": 1,
-     "age_h": 410,
+     "age_h": 433,
      "yt": 1151,
      "fb": 0,
      "total": 1151,
@@ -235,7 +235,7 @@
      "kind": "wonder",
      "seconds": 33.2,
      "slot": 3,
-     "age_h": 378,
+     "age_h": 400,
      "yt": 1150,
      "fb": 0,
      "total": 1150,
@@ -254,7 +254,7 @@
      "kind": "saint",
      "seconds": 31.6,
      "slot": 3,
-     "age_h": 643,
+     "age_h": 666,
      "yt": 1050,
      "fb": 0,
      "total": 1050,
@@ -273,7 +273,7 @@
      "kind": "history",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 739,
+     "age_h": 762,
      "yt": 1023,
      "fb": 0,
      "total": 1023,
@@ -292,7 +292,7 @@
      "kind": "myth",
      "seconds": 31.4,
      "slot": 3,
-     "age_h": 402,
+     "age_h": 425,
      "yt": 988,
      "fb": 0,
      "total": 988,
@@ -311,7 +311,7 @@
      "kind": "wonder",
      "seconds": 36.8,
      "slot": 1,
-     "age_h": 699,
+     "age_h": 722,
      "yt": 959,
      "fb": null,
      "total": 959,
@@ -330,7 +330,7 @@
      "kind": "wonder",
      "seconds": 45.0,
      "slot": 1,
-     "age_h": 774,
+     "age_h": 796,
      "yt": 887,
      "fb": 0,
      "total": 887,
@@ -349,7 +349,7 @@
      "kind": "history",
      "seconds": 30.7,
      "slot": 3,
-     "age_h": 547,
+     "age_h": 569,
      "yt": 797,
      "fb": 0,
      "total": 797,
@@ -368,7 +368,7 @@
      "kind": "history",
      "seconds": 31.0,
      "slot": 2,
-     "age_h": 766,
+     "age_h": 789,
      "yt": 667,
      "fb": 0,
      "total": 667,
@@ -387,7 +387,7 @@
      "kind": "myth",
      "seconds": 33.0,
      "slot": 1,
-     "age_h": 242,
+     "age_h": 265,
      "yt": 639,
      "fb": null,
      "total": 639,
@@ -406,7 +406,7 @@
      "kind": "myth",
      "seconds": 41.2,
      "slot": 3,
-     "age_h": 665,
+     "age_h": 688,
      "yt": 603,
      "fb": 0,
      "total": 603,
@@ -425,7 +425,7 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 1,
-     "age_h": 869,
+     "age_h": 892,
      "yt": 560,
      "fb": 0,
      "total": 560,
@@ -444,7 +444,7 @@
      "kind": "wonder",
      "seconds": 39.1,
      "slot": 1,
-     "age_h": 844,
+     "age_h": 866,
      "yt": 517,
      "fb": 0,
      "total": 517,
@@ -463,13 +463,13 @@
      "kind": "engineering",
      "seconds": 31.9,
      "slot": 3,
-     "age_h": 235,
+     "age_h": 258,
      "yt": 479,
      "fb": null,
      "total": 479,
      "likes": 6,
      "comments": 1,
-     "avp": 53.349999999999994,
+     "avp": 53.1,
      "avd": 18,
      "subs": 2,
      "shares": 0
@@ -482,10 +482,10 @@
      "kind": "wonder",
      "seconds": 34.9,
      "slot": 2,
-     "age_h": 20,
-     "yt": 437,
+     "age_h": 43,
+     "yt": 459,
      "fb": null,
-     "total": 437,
+     "total": 459,
      "likes": 7,
      "comments": 1,
      "avp": null,
@@ -501,7 +501,7 @@
      "kind": "wonder",
      "seconds": 28.3,
      "slot": 1,
-     "age_h": 337,
+     "age_h": 360,
      "yt": 398,
      "fb": 0,
      "total": 398,
@@ -520,7 +520,7 @@
      "kind": "saint",
      "seconds": 41.5,
      "slot": 1,
-     "age_h": 218,
+     "age_h": 240,
      "yt": 359,
      "fb": null,
      "total": 359,
@@ -539,7 +539,7 @@
      "kind": "myth",
      "seconds": 36.5,
      "slot": 3,
-     "age_h": 259,
+     "age_h": 282,
      "yt": 358,
      "fb": 0,
      "total": 358,
@@ -558,7 +558,7 @@
      "kind": "myth",
      "seconds": 34.1,
      "slot": 3,
-     "age_h": 472,
+     "age_h": 494,
      "yt": 338,
      "fb": 0,
      "total": 338,
@@ -577,7 +577,7 @@
      "kind": "saint",
      "seconds": 32.9,
      "slot": 1,
-     "age_h": 289,
+     "age_h": 312,
      "yt": 314,
      "fb": 0,
      "total": 314,
@@ -596,7 +596,7 @@
      "kind": "wonder",
      "seconds": 50.8,
      "slot": 2,
-     "age_h": 334,
+     "age_h": 357,
      "yt": 291,
      "fb": null,
      "total": 291,
@@ -615,7 +615,7 @@
      "kind": "wonder",
      "seconds": 37.6,
      "slot": 1,
-     "age_h": 627,
+     "age_h": 650,
      "yt": 280,
      "fb": 0,
      "total": 280,
@@ -634,7 +634,7 @@
      "kind": "saint",
      "seconds": 30.2,
      "slot": 0,
-     "age_h": 726,
+     "age_h": 749,
      "yt": 264,
      "fb": null,
      "total": 264,
@@ -653,7 +653,7 @@
      "kind": "folk",
      "seconds": 35.3,
      "slot": 1,
-     "age_h": 266,
+     "age_h": 289,
      "yt": 244,
      "fb": 0,
      "total": 244,
@@ -672,7 +672,7 @@
      "kind": "saint",
      "seconds": 35.3,
      "slot": 3,
-     "age_h": 304,
+     "age_h": 327,
      "yt": 233,
      "fb": 0,
      "total": 233,
@@ -684,6 +684,25 @@
      "shares": 0
     },
     {
+     "video_id": "DUbWaurjcIU",
+     "title": "जटायु के बड़े भाई ने सूरज से उन्हें कैसे बचाया था",
+     "key": "jatayu",
+     "lang": "hi",
+     "kind": "myth",
+     "seconds": 29.7,
+     "slot": 2,
+     "age_h": 19,
+     "yt": 211,
+     "fb": null,
+     "total": 211,
+     "likes": 8,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "njWNXyqgMSU",
      "title": "తిరుమల హుండీ ఎదురుగా దాగి ఉన్న అన్నమయ్య పాటలు!",
      "key": "annamacharya",
@@ -691,7 +710,7 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 3,
-     "age_h": 764,
+     "age_h": 787,
      "yt": 155,
      "fb": 0,
      "total": 155,
@@ -710,7 +729,7 @@
      "kind": "saint",
      "seconds": 34.5,
      "slot": 3,
-     "age_h": 857,
+     "age_h": 880,
      "yt": 141,
      "fb": null,
      "total": 141,
@@ -729,7 +748,7 @@
      "kind": "saint",
      "seconds": 36.7,
      "slot": 1,
-     "age_h": 748,
+     "age_h": 771,
      "yt": 138,
      "fb": 0,
      "total": 138,
@@ -748,7 +767,7 @@
      "kind": "history",
      "seconds": 42.9,
      "slot": 1,
-     "age_h": 529,
+     "age_h": 552,
      "yt": 123,
      "fb": 0,
      "total": 123,
@@ -767,14 +786,14 @@
      "kind": "wonder",
      "seconds": 39.8,
      "slot": 0,
-     "age_h": 774,
+     "age_h": 797,
      "yt": 122,
      "fb": null,
      "total": 122,
      "likes": 1,
      "comments": 1,
-     "avp": 41.88,
-     "avd": 16,
+     "avp": 44.15,
+     "avd": 17,
      "subs": 0,
      "shares": 1
     },
@@ -786,7 +805,7 @@
      "kind": "wonder",
      "seconds": 33.7,
      "slot": 3,
-     "age_h": 497,
+     "age_h": 520,
      "yt": 122,
      "fb": 0,
      "total": 122,
@@ -805,7 +824,7 @@
      "kind": "wonder",
      "seconds": 39.3,
      "slot": 2,
-     "age_h": 284,
+     "age_h": 307,
      "yt": 122,
      "fb": null,
      "total": 122,
@@ -824,7 +843,7 @@
      "kind": "food",
      "seconds": 27.2,
      "slot": 6,
-     "age_h": 426,
+     "age_h": 449,
      "yt": 118,
      "fb": null,
      "total": 118,
@@ -843,7 +862,7 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 748,
+     "age_h": 771,
      "yt": 115,
      "fb": null,
      "total": 115,
@@ -862,7 +881,7 @@
      "kind": "wonder",
      "seconds": 37.9,
      "slot": 2,
-     "age_h": 598,
+     "age_h": 621,
      "yt": 106,
      "fb": null,
      "total": 106,
@@ -881,7 +900,7 @@
      "kind": "folk",
      "seconds": 29.5,
      "slot": 2,
-     "age_h": 693,
+     "age_h": 716,
      "yt": 105,
      "fb": null,
      "total": 105,
@@ -900,7 +919,7 @@
      "kind": "engineering",
      "seconds": 34.4,
      "slot": 3,
-     "age_h": 617,
+     "age_h": 640,
      "yt": 101,
      "fb": 0,
      "total": 101,
@@ -919,7 +938,7 @@
      "kind": "myth",
      "seconds": 39.6,
      "slot": 3,
-     "age_h": 834,
+     "age_h": 857,
      "yt": 100,
      "fb": null,
      "total": 100,
@@ -938,7 +957,7 @@
      "kind": "wonder",
      "seconds": 33.8,
      "slot": 2,
-     "age_h": 261,
+     "age_h": 284,
      "yt": 93,
      "fb": null,
      "total": 93,
@@ -957,7 +976,7 @@
      "kind": "myth",
      "seconds": 31.6,
      "slot": 2,
-     "age_h": 238,
+     "age_h": 261,
      "yt": 93,
      "fb": null,
      "total": 93,
@@ -976,7 +995,7 @@
      "kind": "myth",
      "seconds": 38.4,
      "slot": 1,
-     "age_h": 675,
+     "age_h": 698,
      "yt": 91,
      "fb": null,
      "total": 91,
@@ -995,7 +1014,7 @@
      "kind": "history",
      "seconds": 39.4,
      "slot": 0,
-     "age_h": 820,
+     "age_h": 842,
      "yt": 89,
      "fb": null,
      "total": 89,
@@ -1014,7 +1033,7 @@
      "kind": "wonder",
      "seconds": 47.3,
      "slot": 1,
-     "age_h": 361,
+     "age_h": 384,
      "yt": 88,
      "fb": 0,
      "total": 88,
@@ -1026,6 +1045,25 @@
      "shares": 0
     },
     {
+     "video_id": "iFLaMA232HU",
+     "title": "ఐదు ముక్కలైన శివలింగం కథ, ఐదు పంచారామాలు",
+     "key": "pancharama",
+     "lang": "te",
+     "kind": "myth",
+     "seconds": 37.3,
+     "slot": 3,
+     "age_h": 16,
+     "yt": 86,
+     "fb": null,
+     "total": 86,
+     "likes": 4,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "7b9q_RsNtsk",
      "title": "ધોળાવીરા: ૪૫૦૦ વર્ષ જૂનું શહેર જ્યાંથી મળ્યું ૩ મીટરનું સાઈનબોર્ડ",
      "key": "dholavira",
@@ -1033,7 +1071,7 @@
      "kind": "history",
      "seconds": 38.2,
      "slot": 1,
-     "age_h": 724,
+     "age_h": 747,
      "yt": 81,
      "fb": null,
      "total": 81,
@@ -1052,7 +1090,7 @@
      "kind": "wonder",
      "seconds": 38.0,
      "slot": 1,
-     "age_h": 579,
+     "age_h": 602,
      "yt": 77,
      "fb": 0,
      "total": 77,
@@ -1071,7 +1109,7 @@
      "kind": "myth",
      "seconds": 35.1,
      "slot": 6,
-     "age_h": 406,
+     "age_h": 429,
      "yt": 69,
      "fb": null,
      "total": 69,
@@ -1090,7 +1128,7 @@
      "kind": "saint",
      "seconds": 34.4,
      "slot": 1,
-     "age_h": 650,
+     "age_h": 673,
      "yt": 66,
      "fb": 0,
      "total": 66,
@@ -1109,7 +1147,7 @@
      "kind": "engineering",
      "seconds": 30.1,
      "slot": 0,
-     "age_h": 413,
+     "age_h": 436,
      "yt": 63,
      "fb": null,
      "total": 63,
@@ -1128,7 +1166,7 @@
      "kind": "myth",
      "seconds": 76.0,
      "slot": 2,
-     "age_h": 813,
+     "age_h": 836,
      "yt": 56,
      "fb": null,
      "total": 56,
@@ -1147,7 +1185,7 @@
      "kind": "saint",
      "seconds": 37.2,
      "slot": 0,
-     "age_h": 678,
+     "age_h": 701,
      "yt": 49,
      "fb": null,
      "total": 49,
@@ -1166,7 +1204,7 @@
      "kind": "folk",
      "seconds": 33.9,
      "slot": 2,
-     "age_h": 862,
+     "age_h": 885,
      "yt": 47,
      "fb": null,
      "total": 47,
@@ -1185,7 +1223,7 @@
      "kind": "myth",
      "seconds": 40.8,
      "slot": 3,
-     "age_h": 328,
+     "age_h": 350,
      "yt": 47,
      "fb": 0,
      "total": 47,
@@ -1197,25 +1235,6 @@
      "shares": 0
     },
     {
-     "video_id": "TUIl2IL5FCo",
-     "title": "ਬਾਈ ਰੁਪਏ ਦਾ ਸੌਦਾ, ਜੋ ਨਾਨਕ ਜੀ ਨੇ ਭੁੱਖੇ ਸਾਧੂਆਂ ਲਈ ਕੀਤਾ",
-     "key": "guru_nanak",
-     "lang": "pa",
-     "kind": "saint",
-     "seconds": 33.1,
-     "slot": 6,
-     "age_h": 17,
-     "yt": 43,
-     "fb": null,
-     "total": 43,
-     "likes": 5,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "Ll1PUhZiE8Y",
      "title": "2013 की बाढ़ में केदारनाथ मंदिर को एक चट्टान ने बचाया",
      "key": "kedarnath",
@@ -1223,7 +1242,7 @@
      "kind": "wonder",
      "seconds": 35.2,
      "slot": 2,
-     "age_h": 550,
+     "age_h": 573,
      "yt": 42,
      "fb": null,
      "total": 42,
@@ -1235,6 +1254,25 @@
      "shares": 0
     },
     {
+     "video_id": "TUIl2IL5FCo",
+     "title": "ਬਾਈ ਰੁਪਏ ਦਾ ਸੌਦਾ, ਜੋ ਨਾਨਕ ਜੀ ਨੇ ਭੁੱਖੇ ਸਾਧੂਆਂ ਲਈ ਕੀਤਾ",
+     "key": "guru_nanak",
+     "lang": "pa",
+     "kind": "saint",
+     "seconds": 33.1,
+     "slot": 6,
+     "age_h": 40,
+     "yt": 42,
+     "fb": null,
+     "total": 42,
+     "likes": 5,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "kGbLbNhLonU",
      "title": "নিমাইকে চুরি করে চোরেরা কেন তার নিজের বাড়িতেই ফেরত দিল?",
      "key": "chaitanya",
@@ -1242,7 +1280,7 @@
      "kind": "saint",
      "seconds": 38.1,
      "slot": 1,
-     "age_h": 314,
+     "age_h": 336,
      "yt": 41,
      "fb": 0,
      "total": 41,
@@ -1261,7 +1299,7 @@
      "kind": "wonder",
      "seconds": 30.5,
      "slot": 2,
-     "age_h": 574,
+     "age_h": 597,
      "yt": 38,
      "fb": null,
      "total": 38,
@@ -1280,7 +1318,7 @@
      "kind": "engineering",
      "seconds": 37.6,
      "slot": 0,
-     "age_h": 485,
+     "age_h": 507,
      "yt": 34,
      "fb": null,
      "total": 34,
@@ -1299,7 +1337,7 @@
      "kind": "myth",
      "seconds": 35.9,
      "slot": 6,
-     "age_h": 352,
+     "age_h": 375,
      "yt": 32,
      "fb": null,
      "total": 32,
@@ -1318,7 +1356,7 @@
      "kind": "myth",
      "seconds": 32.8,
      "slot": 0,
-     "age_h": 846,
+     "age_h": 869,
      "yt": 30,
      "fb": null,
      "total": 30,
@@ -1337,7 +1375,7 @@
      "kind": "history",
      "seconds": 38.6,
      "slot": 0,
-     "age_h": 629,
+     "age_h": 652,
      "yt": 27,
      "fb": null,
      "total": 27,
@@ -1356,7 +1394,7 @@
      "kind": "myth",
      "seconds": 37.0,
      "slot": 2,
-     "age_h": 305,
+     "age_h": 328,
      "yt": 27,
      "fb": null,
      "total": 27,
@@ -1375,7 +1413,7 @@
      "kind": "food",
      "seconds": 37.6,
      "slot": 1,
-     "age_h": 506,
+     "age_h": 528,
      "yt": 25,
      "fb": 0,
      "total": 25,
@@ -1394,7 +1432,7 @@
      "kind": "history",
      "seconds": 31.9,
      "slot": 0,
-     "age_h": 344,
+     "age_h": 367,
      "yt": 25,
      "fb": null,
      "total": 25,
@@ -1413,7 +1451,7 @@
      "kind": "myth",
      "seconds": 42.4,
      "slot": 2,
-     "age_h": 382,
+     "age_h": 405,
      "yt": 24,
      "fb": null,
      "total": 24,
@@ -1432,7 +1470,7 @@
      "kind": "myth",
      "seconds": 32.3,
      "slot": 2,
-     "age_h": 671,
+     "age_h": 693,
      "yt": 23,
      "fb": null,
      "total": 23,
@@ -1451,7 +1489,7 @@
      "kind": "history",
      "seconds": 35.1,
      "slot": 2,
-     "age_h": 355,
+     "age_h": 378,
      "yt": 23,
      "fb": null,
      "total": 23,
@@ -1470,7 +1508,7 @@
      "kind": "myth",
      "seconds": 45.0,
      "slot": 2,
-     "age_h": 523,
+     "age_h": 546,
      "yt": 22,
      "fb": null,
      "total": 22,
@@ -1489,7 +1527,7 @@
      "kind": "saint",
      "seconds": 38.8,
      "slot": 2,
-     "age_h": 646,
+     "age_h": 669,
      "yt": 21,
      "fb": null,
      "total": 21,
@@ -1508,7 +1546,7 @@
      "kind": "wonder",
      "seconds": 32.7,
      "slot": 0,
-     "age_h": 434,
+     "age_h": 457,
      "yt": 19,
      "fb": null,
      "total": 19,
@@ -1527,7 +1565,7 @@
      "kind": "engineering",
      "seconds": 32.9,
      "slot": 0,
-     "age_h": 249,
+     "age_h": 272,
      "yt": 19,
      "fb": null,
      "total": 19,
@@ -1546,16 +1584,16 @@
      "kind": "history",
      "seconds": 51.7,
      "slot": 1,
-     "age_h": 32,
+     "age_h": 55,
      "yt": 19,
      "fb": null,
      "total": 19,
      "likes": 0,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 20.37,
+     "avd": 11,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "qDn6fFjJ5eg",
@@ -1565,7 +1603,7 @@
      "kind": "wonder",
      "seconds": 34.5,
      "slot": 0,
-     "age_h": 870,
+     "age_h": 893,
      "yt": 18,
      "fb": null,
      "total": 18,
@@ -1584,7 +1622,7 @@
      "kind": "history",
      "seconds": 43.5,
      "slot": 1,
-     "age_h": 554,
+     "age_h": 577,
      "yt": 17,
      "fb": 0,
      "total": 17,
@@ -1603,7 +1641,7 @@
      "kind": "people",
      "seconds": 36.7,
      "slot": 0,
-     "age_h": 314,
+     "age_h": 337,
      "yt": 17,
      "fb": null,
      "total": 17,
@@ -1622,7 +1660,7 @@
      "kind": "history",
      "seconds": 43.0,
      "slot": 1,
-     "age_h": 458,
+     "age_h": 480,
      "yt": 16,
      "fb": 0,
      "total": 16,
@@ -1641,7 +1679,7 @@
      "kind": "myth",
      "seconds": 40.0,
      "slot": 1,
-     "age_h": 434,
+     "age_h": 456,
      "yt": 16,
      "fb": 0,
      "total": 16,
@@ -1660,7 +1698,7 @@
      "kind": "myth",
      "seconds": 46.8,
      "slot": 2,
-     "age_h": 406,
+     "age_h": 429,
      "yt": 14,
      "fb": null,
      "total": 14,
@@ -1679,7 +1717,7 @@
      "kind": "wonder",
      "seconds": 33.6,
      "slot": 3,
-     "age_h": 689,
+     "age_h": 712,
      "yt": 12,
      "fb": null,
      "total": 12,
@@ -1698,7 +1736,7 @@
      "kind": "folk",
      "seconds": 36.0,
      "slot": 0,
-     "age_h": 513,
+     "age_h": 536,
      "yt": 11,
      "fb": null,
      "total": 11,
@@ -1717,7 +1755,7 @@
      "kind": "wonder",
      "seconds": 38.8,
      "slot": 1,
-     "age_h": 477,
+     "age_h": 499,
      "yt": 11,
      "fb": 0,
      "total": 11,
@@ -1736,7 +1774,7 @@
      "kind": "wonder",
      "seconds": 33.9,
      "slot": 0,
-     "age_h": 651,
+     "age_h": 674,
      "yt": 9,
      "fb": null,
      "total": 9,
@@ -1755,7 +1793,7 @@
      "kind": "wonder",
      "seconds": 31.8,
      "slot": 2,
-     "age_h": 429,
+     "age_h": 452,
      "yt": 9,
      "fb": null,
      "total": 9,
@@ -1774,7 +1812,7 @@
      "kind": "myth",
      "seconds": 37.6,
      "slot": 2,
-     "age_h": 622,
+     "age_h": 645,
      "yt": 8,
      "fb": null,
      "total": 8,
@@ -1793,7 +1831,7 @@
      "kind": "myth",
      "seconds": 34.4,
      "slot": 0,
-     "age_h": 465,
+     "age_h": 487,
      "yt": 8,
      "fb": null,
      "total": 8,
@@ -1812,7 +1850,7 @@
      "kind": "myth",
      "seconds": 33.3,
      "slot": 0,
-     "age_h": 289,
+     "age_h": 312,
      "yt": 8,
      "fb": null,
      "total": 8,
@@ -1831,7 +1869,7 @@
      "kind": "space",
      "seconds": 35.5,
      "slot": 2,
-     "age_h": 475,
+     "age_h": 498,
      "yt": 7,
      "fb": null,
      "total": 7,
@@ -1850,7 +1888,7 @@
      "kind": "wonder",
      "seconds": 41.3,
      "slot": 0,
-     "age_h": 554,
+     "age_h": 577,
      "yt": 6,
      "fb": null,
      "total": 6,
@@ -1869,7 +1907,7 @@
      "kind": "myth",
      "seconds": 42.7,
      "slot": 0,
-     "age_h": 218,
+     "age_h": 241,
      "yt": 6,
      "fb": null,
      "total": 6,
@@ -1881,6 +1919,25 @@
      "shares": 0
     },
     {
+     "video_id": "15SGcfuYl7E",
+     "title": "ಜಟಾಯುವನ್ನು ಸೂರ್ಯನಿಂದ ಉಳಿಸಿದ ಅಣ್ಣ ಸಂಪಾತಿ",
+     "key": "jatayu",
+     "lang": "kn",
+     "kind": "myth",
+     "seconds": 37.0,
+     "slot": 0,
+     "age_h": 31,
+     "yt": 6,
+     "fb": null,
+     "total": 6,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "PedkVUJtiuM",
      "title": "ಪೋರ್ಚುಗೀಸರ ನೌಕಾಪಡೆಯನ್ನೇ ಮಣ್ಣು ಮುಕ್ಕಿಸಿದ ಉಳ್ಳಾಲದ ಅಭಯ ರಾಣಿ!",
      "key": "rani_abbakka",
@@ -1888,7 +1945,7 @@
      "kind": "history",
      "seconds": 31.8,
      "slot": 0,
-     "age_h": 605,
+     "age_h": 628,
      "yt": 5,
      "fb": null,
      "total": 5,
@@ -1907,7 +1964,7 @@
      "kind": "sport",
      "seconds": 35.3,
      "slot": 0,
-     "age_h": 364,
+     "age_h": 387,
      "yt": 5,
      "fb": null,
      "total": 5,
@@ -1926,7 +1983,7 @@
      "kind": "folk",
      "seconds": 35.1,
      "slot": 1,
-     "age_h": 603,
+     "age_h": 626,
      "yt": 4,
      "fb": 0,
      "total": 4,
@@ -1945,7 +2002,7 @@
      "kind": "nature",
      "seconds": 30.0,
      "slot": 0,
-     "age_h": 389,
+     "age_h": 412,
      "yt": 4,
      "fb": null,
      "total": 4,
@@ -1964,7 +2021,7 @@
      "kind": "myth",
      "seconds": 34.7,
      "slot": 0,
-     "age_h": 581,
+     "age_h": 604,
      "yt": 3,
      "fb": null,
      "total": 3,
@@ -1983,7 +2040,7 @@
      "kind": "myth",
      "seconds": 35.9,
      "slot": 0,
-     "age_h": 268,
+     "age_h": 291,
      "yt": 3,
      "fb": null,
      "total": 3,
@@ -1992,8 +2049,7 @@
      "avp": 52.89,
      "avd": 20,
      "subs": 0,
-     "shares": 0,
-     "retention": null
+     "shares": 0
     },
     {
      "video_id": "3h4gXGgrvVY",
@@ -2003,7 +2059,7 @@
      "kind": "myth",
      "seconds": 38.9,
      "slot": 0,
-     "age_h": 530,
+     "age_h": 553,
      "yt": 2,
      "fb": null,
      "total": 2,
@@ -2016,6 +2072,25 @@
      "retention": null
     },
     {
+     "video_id": "nuMtRvOiyH0",
+     "title": "देव दीपावली के दस लाख दीयों की शुरुआत 1991 में हुई",
+     "key": "tr_dev_deepawali_1991",
+     "lang": "hi",
+     "kind": "place",
+     "seconds": 34.3,
+     "slot": 1,
+     "age_h": 22,
+     "yt": 2,
+     "fb": null,
+     "total": 2,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "PopyP9RyFIg",
      "title": "ಬ್ರಹ್ಮಚಾರಿ ಹನುಮಂತನಿಗೆ ಮಗ ಹುಟ್ಟಿದ್ದು ಹೇಗೆ?",
      "key": "hanuman_son",
@@ -2023,16 +2098,17 @@
      "kind": "myth",
      "seconds": 43.4,
      "slot": 0,
-     "age_h": 34,
+     "age_h": 57,
      "yt": 1,
      "fb": null,
      "total": 1,
      "likes": 0,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 0,
+     "avd": 0,
+     "subs": 0,
+     "shares": 0,
+     "retention": null
     },
     {
      "video_id": "RsS9Le_s57M",
@@ -2042,7 +2118,7 @@
      "kind": "food",
      "seconds": 44.2,
      "slot": 2,
-     "age_h": 501,
+     "age_h": 524,
      "yt": 0,
      "fb": null,
      "total": 0,
@@ -2053,40 +2129,21 @@
      "subs": null,
      "shares": null,
      "retention": null
-    },
-    {
-     "video_id": "15SGcfuYl7E",
-     "title": "ಜಟಾಯುವನ್ನು ಸೂರ್ಯನಿಂದ ಉಳಿಸಿದ ಅಣ್ಣ ಸಂಪಾತಿ",
-     "key": "jatayu",
-     "lang": "kn",
-     "kind": "myth",
-     "seconds": 37.0,
-     "slot": 0,
-     "age_h": 9,
-     "yt": 0,
-     "fb": null,
-     "total": 0,
-     "likes": 0,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
     }
    ],
    "channel": {
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 144730
+      "views": 144748
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 3846
+      "views": 3850
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
-      "views": 1048
+      "views": 1051
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
@@ -2094,7 +2151,7 @@
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
-      "views": 285
+      "views": 291
      },
      {
       "insightTrafficSourceType": "EXT_URL",
@@ -2102,7 +2159,7 @@
      },
      {
       "insightTrafficSourceType": "HASHTAGS",
-      "views": 67
+      "views": 70
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
@@ -2300,7 +2357,7 @@
     "countries": [
      {
       "country": "IN",
-      "views": 146866
+      "views": 146891
      },
      {
       "country": "US",
@@ -2333,102 +2390,102 @@
     ]
    },
    "lang_weights": {
-    "mr": {
-     "w": 1.1,
-     "n": 7,
-     "median": 89
-    },
-    "ml": {
-     "w": 1.17,
-     "n": 4,
-     "median": 71
-    },
     "pa": {
-     "w": 0.71,
-     "n": 1,
-     "median": 4
+     "w": 0.76,
+     "n": 2,
+     "median": 23
     },
     "gu": {
      "w": 1.75,
      "n": 9,
      "median": 122
     },
+    "kn": {
+     "w": 0.56,
+     "n": 27,
+     "median": 11
+    },
     "or": {
-     "w": 0.98,
-     "n": 3,
-     "median": 22
+     "w": 0.88,
+     "n": 4,
+     "median": 20
+    },
+    "ml": {
+     "w": 1.17,
+     "n": 4,
+     "median": 71
     },
     "bn": {
      "w": 1.35,
      "n": 5,
      "median": 88
     },
+    "mr": {
+     "w": 1.1,
+     "n": 7,
+     "median": 89
+    },
     "ta": {
      "w": 2.5,
-     "n": 10,
-     "median": 356
-    },
-    "kn": {
-     "w": 0.58,
-     "n": 26,
-     "median": 14
+     "n": 11,
+     "median": 398
     }
    },
    "kind_weights": {
-    "space": {
-     "w": 0.71,
-     "n": 1,
-     "median": 7
+    "saint": {
+     "w": 1.52,
+     "n": 15,
+     "median": 155
+    },
+    "folk": {
+     "w": 0.78,
+     "n": 5,
+     "median": 47
+    },
+    "wonder": {
+     "w": 1.25,
+     "n": 28,
+     "median": 122
+    },
+    "myth": {
+     "w": 0.68,
+     "n": 29,
+     "median": 30
+    },
+    "food": {
+     "w": 0.7,
+     "n": 3,
+     "median": 25
+    },
+    "history": {
+     "w": 0.92,
+     "n": 15,
+     "median": 81
     },
     "people": {
      "w": 1.0,
      "n": 2,
      "median": 584
     },
-    "myth": {
-     "w": 0.68,
-     "n": 28,
-     "median": 31
-    },
-    "food": {
-     "w": 0.68,
-     "n": 3,
-     "median": 25
-    },
-    "saint": {
-     "w": 1.54,
-     "n": 14,
-     "median": 194
-    },
-    "wonder": {
-     "w": 1.17,
-     "n": 27,
-     "median": 122
-    },
     "engineering": {
-     "w": 1.18,
+     "w": 1.21,
      "n": 7,
      "median": 101
     },
-    "history": {
-     "w": 0.96,
-     "n": 14,
-     "median": 85
+    "nature": {
+     "w": 0.71,
+     "n": 1,
+     "median": 4
     },
     "sport": {
      "w": 0.71,
      "n": 1,
      "median": 5
     },
-    "folk": {
-     "w": 0.76,
-     "n": 5,
-     "median": 47
-    },
-    "nature": {
+    "space": {
      "w": 0.71,
      "n": 1,
-     "median": 4
+     "median": 7
     }
    },
    "proven_titles": {
@@ -2476,7 +2533,7 @@
     ],
     "pa": []
    },
-   "median_views": 88
+   "median_views": 81
   },
   "en": {
    "videos": [
@@ -2488,7 +2545,7 @@
      "kind": "folk",
      "seconds": 36.8,
      "slot": 5,
-     "age_h": 423,
+     "age_h": 446,
      "yt": 3006,
      "fb": null,
      "total": 3006,
@@ -2512,7 +2569,7 @@
      "kind": "wonder",
      "seconds": 33.8,
      "slot": 5,
-     "age_h": 495,
+     "age_h": 518,
      "yt": 1582,
      "fb": null,
      "total": 1582,
@@ -2536,7 +2593,7 @@
      "kind": "history",
      "seconds": 31.8,
      "slot": 5,
-     "age_h": 568,
+     "age_h": 591,
      "yt": 1567,
      "fb": null,
      "total": 1567,
@@ -2560,7 +2617,7 @@
      "kind": "wonder",
      "seconds": 32.4,
      "slot": 4,
-     "age_h": 563,
+     "age_h": 585,
      "yt": 1415,
      "fb": null,
      "total": 1415,
@@ -2579,7 +2636,7 @@
      "kind": "history",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 586,
+     "age_h": 609,
      "yt": 1321,
      "fb": null,
      "total": 1321,
@@ -2598,7 +2655,7 @@
      "kind": "wonder",
      "seconds": 30.0,
      "slot": 4,
-     "age_h": 441,
+     "age_h": 464,
      "yt": 1315,
      "fb": null,
      "total": 1315,
@@ -2617,13 +2674,13 @@
      "kind": "folk",
      "seconds": 32.9,
      "slot": 4,
-     "age_h": 343,
+     "age_h": 366,
      "yt": 1315,
      "fb": null,
      "total": 1315,
      "likes": 4,
      "comments": 1,
-     "avp": 76.11,
+     "avp": 75.9,
      "avd": 26,
      "subs": 1,
      "shares": 1
@@ -2636,7 +2693,7 @@
      "kind": "engineering",
      "seconds": 30.8,
      "slot": 4,
-     "age_h": 465,
+     "age_h": 488,
      "yt": 1309,
      "fb": null,
      "total": 1309,
@@ -2655,13 +2712,13 @@
      "kind": "wonder",
      "seconds": 27.1,
      "slot": 4,
-     "age_h": 610,
+     "age_h": 633,
      "yt": 1264,
      "fb": null,
      "total": 1264,
      "likes": 23,
      "comments": 1,
-     "avp": 89,
+     "avp": 88.86,
      "avd": 26,
      "subs": 1,
      "shares": 0
@@ -2674,7 +2731,7 @@
      "kind": "engineering",
      "seconds": 34.3,
      "slot": 4,
-     "age_h": 634,
+     "age_h": 657,
      "yt": 1242,
      "fb": null,
      "total": 1242,
@@ -2693,7 +2750,7 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 418,
+     "age_h": 441,
      "yt": 1239,
      "fb": null,
      "total": 1239,
@@ -2712,7 +2769,7 @@
      "kind": "engineering",
      "seconds": 33.1,
      "slot": 4,
-     "age_h": 658,
+     "age_h": 681,
      "yt": 1200,
      "fb": null,
      "total": 1200,
@@ -2731,16 +2788,35 @@
      "kind": "history",
      "seconds": 33.4,
      "slot": 4,
-     "age_h": 226,
-     "yt": 1177,
+     "age_h": 249,
+     "yt": 1178,
      "fb": null,
-     "total": 1177,
+     "total": 1178,
      "likes": 33,
      "comments": 2,
      "avp": 80.98,
      "avd": 29,
      "subs": 2,
      "shares": 0
+    },
+    {
+     "video_id": "nyYK4gComv0",
+     "title": "Sydney Started Its Opera House Before Anyone Could Roof It",
+     "key": "sydney_opera",
+     "lang": "en",
+     "kind": "engineering",
+     "seconds": 30.3,
+     "slot": 5,
+     "age_h": 32,
+     "yt": 1101,
+     "fb": null,
+     "total": 1101,
+     "likes": 14,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
     },
     {
      "video_id": "QuK0ISv5OAQ",
@@ -2750,7 +2826,7 @@
      "kind": "history",
      "seconds": 35.2,
      "slot": 4,
-     "age_h": 731,
+     "age_h": 754,
      "yt": 949,
      "fb": null,
      "total": 949,
@@ -2769,7 +2845,7 @@
      "kind": "history",
      "seconds": 35.8,
      "slot": 4,
-     "age_h": 249,
+     "age_h": 272,
      "yt": 923,
      "fb": null,
      "total": 923,
@@ -2781,25 +2857,6 @@
      "shares": 0
     },
     {
-     "video_id": "nyYK4gComv0",
-     "title": "Sydney Started Its Opera House Before Anyone Could Roof It",
-     "key": "sydney_opera",
-     "lang": "en",
-     "kind": "engineering",
-     "seconds": 30.3,
-     "slot": 5,
-     "age_h": 9,
-     "yt": 875,
-     "fb": null,
-     "total": 875,
-     "likes": 12,
-     "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
-    },
-    {
      "video_id": "_3IIinVYZ1s",
      "title": "Why New York's Most Famous Resident Was Originally Copper",
      "key": "statue_liberty",
@@ -2807,7 +2864,7 @@
      "kind": "engineering",
      "seconds": 38.2,
      "slot": 5,
-     "age_h": 446,
+     "age_h": 469,
      "yt": 815,
      "fb": null,
      "total": 815,
@@ -2826,14 +2883,14 @@
      "kind": "history",
      "seconds": 35.1,
      "slot": 4,
-     "age_h": 297,
+     "age_h": 320,
      "yt": 782,
      "fb": null,
      "total": 782,
      "likes": 20,
      "comments": 1,
-     "avp": 68.51,
-     "avd": 26,
+     "avp": 68.4,
+     "avd": 25,
      "subs": 1,
      "shares": 0
     },
@@ -2845,10 +2902,10 @@
      "kind": "wonder",
      "seconds": 37.7,
      "slot": 4,
-     "age_h": 755,
-     "yt": 760,
+     "age_h": 778,
+     "yt": 761,
      "fb": null,
-     "total": 760,
+     "total": 761,
      "likes": 22,
      "comments": 1,
      "avp": 74.6,
@@ -2864,16 +2921,16 @@
      "kind": "history",
      "seconds": 37.4,
      "slot": 4,
-     "age_h": 33,
-     "yt": 715,
+     "age_h": 56,
+     "yt": 738,
      "fb": null,
-     "total": 715,
+     "total": 738,
      "likes": 23,
      "comments": 1,
-     "avp": null,
-     "avd": null,
-     "subs": null,
-     "shares": null
+     "avp": 105.49,
+     "avd": 42,
+     "subs": 0,
+     "shares": 0
     },
     {
      "video_id": "Jtf91HUXrO8",
@@ -2883,7 +2940,7 @@
      "kind": "folk",
      "seconds": 30.8,
      "slot": 4,
-     "age_h": 322,
+     "age_h": 345,
      "yt": 645,
      "fb": null,
      "total": 645,
@@ -2902,7 +2959,7 @@
      "kind": "history",
      "seconds": 31.4,
      "slot": 4,
-     "age_h": 512,
+     "age_h": 535,
      "yt": 624,
      "fb": null,
      "total": 624,
@@ -2921,7 +2978,7 @@
      "kind": "history",
      "seconds": 34.1,
      "slot": 4,
-     "age_h": 538,
+     "age_h": 561,
      "yt": 529,
      "fb": null,
      "total": 529,
@@ -2940,7 +2997,7 @@
      "kind": "history",
      "seconds": 33.0,
      "slot": 5,
-     "age_h": 278,
+     "age_h": 301,
      "yt": 481,
      "fb": null,
      "total": 481,
@@ -2959,7 +3016,7 @@
      "kind": "engineering",
      "seconds": 33.7,
      "slot": 5,
-     "age_h": 254,
+     "age_h": 277,
      "yt": 472,
      "fb": null,
      "total": 472,
@@ -2978,7 +3035,7 @@
      "kind": "wonder",
      "seconds": 31.5,
      "slot": 4,
-     "age_h": 273,
+     "age_h": 296,
      "yt": 394,
      "fb": null,
      "total": 394,
@@ -2997,13 +3054,13 @@
      "kind": "engineering",
      "seconds": 30.4,
      "slot": 5,
-     "age_h": 232,
+     "age_h": 255,
      "yt": 392,
      "fb": null,
      "total": 392,
      "likes": 9,
      "comments": 2,
-     "avp": 65.64,
+     "avp": 66.32,
      "avd": 21,
      "subs": 0,
      "shares": 0
@@ -3016,7 +3073,7 @@
      "kind": "history",
      "seconds": 40.7,
      "slot": 4,
-     "age_h": 489,
+     "age_h": 512,
      "yt": 364,
      "fb": null,
      "total": 364,
@@ -3035,7 +3092,7 @@
      "kind": "wonder",
      "seconds": 37.8,
      "slot": 4,
-     "age_h": 394,
+     "age_h": 417,
      "yt": 358,
      "fb": null,
      "total": 358,
@@ -3054,7 +3111,7 @@
      "kind": "history",
      "seconds": 31.4,
      "slot": 5,
-     "age_h": 400,
+     "age_h": 423,
      "yt": 308,
      "fb": null,
      "total": 308,
@@ -3073,7 +3130,7 @@
      "kind": "history",
      "seconds": 34.8,
      "slot": 4,
-     "age_h": 779,
+     "age_h": 802,
      "yt": 228,
      "fb": null,
      "total": 228,
@@ -3092,7 +3149,7 @@
      "kind": "engineering",
      "seconds": 33.5,
      "slot": 4,
-     "age_h": 682,
+     "age_h": 705,
      "yt": 217,
      "fb": null,
      "total": 217,
@@ -3111,7 +3168,7 @@
      "kind": "engineering",
      "seconds": 35.6,
      "slot": 5,
-     "age_h": 348,
+     "age_h": 370,
      "yt": 174,
      "fb": null,
      "total": 174,
@@ -3135,7 +3192,7 @@
      "kind": "history",
      "seconds": 31.4,
      "slot": 5,
-     "age_h": 516,
+     "age_h": 539,
      "yt": 129,
      "fb": null,
      "total": 129,
@@ -3159,7 +3216,7 @@
      "kind": "history",
      "seconds": 36.3,
      "slot": 4,
-     "age_h": 370,
+     "age_h": 393,
      "yt": 32,
      "fb": null,
      "total": 32,
@@ -3176,6 +3233,25 @@
      }
     },
     {
+     "video_id": "Ke_5g6MXO4A",
+     "title": "Sarah Hale lobbied five presidents for 17 years. Why? 🤯",
+     "key": "tr_sarah_hale_thanksgiving",
+     "lang": "en",
+     "kind": "history",
+     "seconds": 35.4,
+     "slot": 4,
+     "age_h": 6,
+     "yt": 19,
+     "fb": null,
+     "total": 19,
+     "likes": 1,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
      "video_id": "Xj5-2oFC28s",
      "title": "Lincoln Spoke 271 Words After a Two-Hour Speech",
      "key": "tr_gettysburg_address",
@@ -3183,10 +3259,29 @@
      "kind": "history",
      "seconds": 35.3,
      "slot": 4,
-     "age_h": 6,
-     "yt": 4,
+     "age_h": 29,
+     "yt": 5,
      "fb": null,
-     "total": 4,
+     "total": 5,
+     "likes": 0,
+     "comments": 1,
+     "avp": null,
+     "avd": null,
+     "subs": null,
+     "shares": null
+    },
+    {
+     "video_id": "HCZxsgRp5H4",
+     "title": "Clarence Chamberlin beheaded a dragon, then claimed $25 🤯",
+     "key": "tr_macys_parade_balloons",
+     "lang": "en",
+     "kind": "history",
+     "seconds": 28.8,
+     "slot": 5,
+     "age_h": 9,
+     "yt": 0,
+     "fb": null,
+     "total": 0,
      "likes": 0,
      "comments": 1,
      "avp": null,
@@ -3199,15 +3294,15 @@
     "traffic": [
      {
       "insightTrafficSourceType": "SHORTS",
-      "views": 28328
+      "views": 28987
      },
      {
       "insightTrafficSourceType": "YT_SEARCH",
-      "views": 880
+      "views": 906
      },
      {
       "insightTrafficSourceType": "YT_OTHER_PAGE",
-      "views": 263
+      "views": 268
      },
      {
       "insightTrafficSourceType": "YT_CHANNEL",
@@ -3215,7 +3310,7 @@
      },
      {
       "insightTrafficSourceType": "RELATED_VIDEO",
-      "views": 32
+      "views": 33
      },
      {
       "insightTrafficSourceType": "SUBSCRIBER",
@@ -3272,6 +3367,10 @@
       "views": 3
      },
      {
+      "insightTrafficSourceDetail": "film susu",
+      "views": 3
+     },
+     {
       "insightTrafficSourceDetail": "guard at the tomb of the unknown soldier",
       "views": 3
      },
@@ -3284,20 +3383,16 @@
       "views": 3
      },
      {
+      "insightTrafficSourceDetail": "middle finger",
+      "views": 3
+     },
+     {
       "insightTrafficSourceDetail": "remain behind the chains and rails",
       "views": 3
      },
      {
       "insightTrafficSourceDetail": "sherlock holmes",
       "views": 3
-     },
-     {
-      "insightTrafficSourceDetail": "2026 bmw m340i",
-      "views": 2
-     },
-     {
-      "insightTrafficSourceDetail": "ai car crash prank",
-      "views": 2
      }
     ],
     "related": [
@@ -3318,6 +3413,10 @@
       "views": 2
      },
      {
+      "insightTrafficSourceDetail": "-rBOHS2uMC4",
+      "views": 1
+     },
+     {
       "insightTrafficSourceDetail": "1NN0sPE4RzA",
       "views": 1
      },
@@ -3336,10 +3435,6 @@
      {
       "insightTrafficSourceDetail": "4zLUyk1TAro",
       "views": 1
-     },
-     {
-      "insightTrafficSourceDetail": "Im38Rg6sXLw",
-      "views": 1
      }
     ],
     "audience": [
@@ -3351,7 +3446,7 @@
      {
       "ageGroup": "age13-17",
       "gender": "male",
-      "viewerPercentage": 3.9
+      "viewerPercentage": 3.8
      },
      {
       "ageGroup": "age18-24",
@@ -3361,7 +3456,7 @@
      {
       "ageGroup": "age18-24",
       "gender": "male",
-      "viewerPercentage": 2.7
+      "viewerPercentage": 2.6
      },
      {
       "ageGroup": "age25-34",
@@ -3376,27 +3471,27 @@
      {
       "ageGroup": "age35-44",
       "gender": "female",
-      "viewerPercentage": 3.9
+      "viewerPercentage": 3.8
      },
      {
       "ageGroup": "age35-44",
       "gender": "male",
-      "viewerPercentage": 15
+      "viewerPercentage": 15.1
      },
      {
       "ageGroup": "age45-54",
       "gender": "female",
-      "viewerPercentage": 2.5
+      "viewerPercentage": 2.4
      },
      {
       "ageGroup": "age45-54",
       "gender": "male",
-      "viewerPercentage": 13.1
+      "viewerPercentage": 13.3
      },
      {
       "ageGroup": "age55-64",
       "gender": "female",
-      "viewerPercentage": 2.4
+      "viewerPercentage": 2.3
      },
      {
       "ageGroup": "age55-64",
@@ -3406,18 +3501,18 @@
      {
       "ageGroup": "age65-",
       "gender": "female",
-      "viewerPercentage": 4.2
+      "viewerPercentage": 4.1
      },
      {
       "ageGroup": "age65-",
       "gender": "male",
-      "viewerPercentage": 21.8
+      "viewerPercentage": 21.9
      }
     ],
     "countries": [
      {
       "country": "US",
-      "views": 22435
+      "views": 23086
      },
      {
       "country": "GB",
@@ -3451,25 +3546,25 @@
    },
    "lang_weights": {},
    "kind_weights": {
-    "history": {
-     "w": 0.79,
-     "n": 15,
-     "median": 624
-    },
     "folk": {
-     "w": 1.32,
+     "w": 1.33,
      "n": 3,
      "median": 1315
     },
-    "wonder": {
-     "w": 1.08,
-     "n": 7,
-     "median": 1264
-    },
     "engineering": {
-     "w": 0.8,
+     "w": 0.81,
      "n": 8,
      "median": 643
+    },
+    "history": {
+     "w": 0.8,
+     "n": 16,
+     "median": 681
+    },
+    "wonder": {
+     "w": 1.09,
+     "n": 7,
+     "median": 1264
     }
    },
    "proven_titles": {
@@ -3479,7 +3574,7 @@
      "How an Entire Island Evacuated in Three Months"
     ]
    },
-   "median_views": 782
+   "median_views": 771
   }
  }
 }
