@@ -87,5 +87,24 @@
   "minutes": 7.3,
   "by": "mixed",
   "claude_chapters": 6
+ },
+ {
+  "date": "2026-11-25",
+  "lang": "te",
+  "collection": "marvels",
+  "keys": [
+   "charminar",
+   "mahanandi",
+   "mangalyaan",
+   "aryabhata_sat",
+   "raman_effect",
+   "bakhshali",
+   "sushruta"
+  ],
+  "video_id": "aNzaxn3YMZk",
+  "title": "ప్రపంచాన్నే ఆశ్చర్యపరిచిన భారతీయ మేధస్సు.. ఈ 7 అద్భుతాలు మీకు తెలుసా?",
+  "minutes": 7.9,
+  "by": "claude",
+  "claude_chapters": 7
  }
 ]
