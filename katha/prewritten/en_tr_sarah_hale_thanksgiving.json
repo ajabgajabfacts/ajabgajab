@@ -1,0 +1,64 @@
+{
+ "script": {
+  "title": "Sarah Hale wrote to five presidents. Only one said yes 🤯",
+  "hook_text": "17 years of letters to presidents",
+  "kicker": "True story",
+  "sentences": [
+   "Sarah Hale spent 17 years writing to presidents about Thanksgiving.",
+   "Back then, each state picked its own date, from October to January.",
+   "In the South, it was largely unknown.",
+   "Hale edited Godey's Lady's Book, the most widely circulated magazine of its day, and pushed it every November.",
+   "She wrote to Zachary Taylor, Millard Fillmore, Franklin Pierce and James Buchanan.",
+   "None of it worked.",
+   "In 1863 she wrote to Abraham Lincoln.",
+   "That year he proclaimed a national Thanksgiving, joining only Washington's Birthday and Independence Day.",
+   "Not bad for the woman who also wrote Mary Had a Little Lamb."
+  ],
+  "cta": "Comment below",
+  "description": "Thanksgiving was a patchwork of state holidays until one editor refused to give up.\nThe 17-year letter campaign behind the fourth Thursday.",
+  "hashtags": [
+   "Thanksgiving",
+   "SarahJosephaHale",
+   "Thanksgiving2026",
+   "history",
+   "AbrahamLincoln"
+  ],
+  "visuals": [
+   "Sarah Josepha Hale portrait",
+   "Godey's Lady's Book",
+   "Abraham Lincoln 1863 portrait"
+  ],
+  "claims_en": [
+   "Sarah Josepha Hale's advocacy for a national Thanksgiving lasted 17 years.",
+   "She wrote to presidents in support of the holiday.",
+   "Each state scheduled its own Thanksgiving, some as early as October and others as late as January.",
+   "Thanksgiving was largely unknown in the American South.",
+   "Hale was editor of Godey's Lady's Book, the most widely circulated magazine before the Civil War.",
+   "Every November Hale focused her magazine column on Thanksgiving.",
+   "She wrote to Zachary Taylor, Millard Fillmore, Franklin Pierce and James Buchanan, and her initial letters failed to persuade.",
+   "Her letter to Abraham Lincoln convinced him; in 1863 Lincoln proclaimed a national day of Thanksgiving.",
+   "Before Thanksgiving, the only national holidays were Washington's Birthday and Independence Day.",
+   "Hale wrote the nursery rhyme Mary Had a Little Lamb."
+  ],
+  "scenes": [
+   "Extreme close-up of Sarah Josepha Hale, a determined woman in her late 50s in a black 1850s mourning dress with dark ringlet curls, quill in hand, eyes burning with resolve, candlelight.",
+   "An 1840s American map on a wooden table with autumn harvest tables scattered across different seasons, Hale studying it with a frown, warm lamplight, medium shot, no readable text.",
+   "A quiet 1840s Southern town square in autumn with no celebration, empty streets, soft grey light, wide shot.",
+   "Hale at a busy 1850s Philadelphia editor's desk piled with magazine proofs, writing intently, a November window with falling leaves behind her, medium shot, no readable text.",
+   "Hale sealing a stack of letters with red wax, each addressed envelope piling up, focused tired face, candlelit study, close shot, no readable text.",
+   "Hale reading a short polite reply letter, lips pressed together, setting it on a pile of other replies, dim evening light, medium close-up, no readable text.",
+   "Hale, older now, writing one more letter with a steady hand beside a candle and a tall stack of earlier letters, lamplight, medium shot, no readable text.",
+   "A family gathered around a roast turkey dinner in an 1860s American home, warm candlelight, Hale smiling quietly at the head of the table, wide shot.",
+   "Hale with a small wry smile beside a little girl and a white lamb in a New England schoolyard, golden afternoon light, medium shot."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-25T00:23+00:00",
+ "for_slot": "trend 2026-11-25"
+}

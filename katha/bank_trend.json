@@ -618,5 +618,57 @@
    "score": 7
   },
   "added": "2026-11-25"
+ },
+ {
+  "key": "tr_raizada_constitution",
+  "lang": "hi",
+  "kind": "history",
+  "wiki": [
+   "Prem Behari Narain Raizada",
+   "Constitution of India"
+  ],
+  "art": [
+   "Constitution of India original manuscript",
+   "Prem Behari Narain Raizada calligraphy",
+   "Constitution of India preamble Nandalal Bose"
+  ],
+  "angle": "asked his fee for hand-writing India's Constitution, Prem Behari Narain Raizada said not a single penny, on one condition: his name on every page and his grandfather's on the last",
+  "trend": {
+   "why": "26 Nov is Constitution Day (adopted 26 Nov 1949) and the Hindi belt is reading about the Constitution this week",
+   "signals": [
+    "hi.wikipedia top: भारत का संविधान (1304), संविधान दिवस (भारत) (680)",
+    "mr/bn/pa.wikipedia: Constitution Day and Preamble pages in the top 30",
+    "Raizada's manuscript completed 26 November 1949 (en.wikipedia)"
+   ],
+   "until": "2026-11-26",
+   "score": 8
+  },
+  "added": "2026-11-25"
+ },
+ {
+  "key": "tr_sarah_hale_thanksgiving",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Sarah Josepha Hale",
+   "Thanksgiving (United States)"
+  ],
+  "art": [
+   "Sarah Josepha Hale portrait",
+   "Godey's Lady's Book Thanksgiving",
+   "Lincoln Thanksgiving proclamation 1863"
+  ],
+  "angle": "Sarah Josepha Hale wrote to five presidents over 17 years until Lincoln made Thanksgiving national in 1863, and she also wrote Mary Had a Little Lamb",
+  "trend": {
+   "why": "Thanksgiving is Thursday 26 Nov; US searches for Thanksgiving history peak this week",
+   "signals": [
+    "Thanksgiving Day 26 Nov 2026",
+    "US Google Trends this week dominated by holiday travel/weather (high wind watch)",
+    "en.wikipedia Thanksgiving (United States) seasonal peak"
+   ],
+   "until": "2026-11-26",
+   "score": 8
+  },
+  "added": "2026-11-25"
  }
 ]
