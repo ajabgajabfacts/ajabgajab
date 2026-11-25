@@ -798,5 +798,69 @@
   "angle": "A 1964 campaign ad for Lyndon Johnson aired only once yet reshaped American political advertising.",
   "score": 8,
   "added": "2026-11-24"
+ },
+ {
+  "key": "action_park",
+  "lang": "en",
+  "kind": "wonder",
+  "wiki": [
+   "Action Park"
+  ],
+  "art": [
+   "Action Park Vernon New Jersey",
+   "Mountain Creek Waterpark Vernon",
+   "Action Park"
+  ],
+  "angle": "Action Park was a New Jersey water park infamous for poorly designed, hazardous rides.",
+  "score": 9,
+  "added": "2026-11-25"
+ },
+ {
+  "key": "tipu_s_tiger",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Tipu's Tiger"
+  ],
+  "art": [
+   "Tipu's Tiger Victoria and Albert Museum",
+   "Tippoo's Tiger automaton",
+   "Tipu's Tiger"
+  ],
+  "angle": "Tipu's Tiger is an 18th-century mechanical wooden tiger containing an organ that plays mauling sounds.",
+  "score": 9,
+  "added": "2026-11-25"
+ },
+ {
+  "key": "london_necropolis_railway_station",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "London Necropolis railway station"
+  ],
+  "art": [
+   "London Necropolis railway station",
+   "Brookwood Cemetery station",
+   "London Necropolis railway station"
+  ],
+  "angle": "The London Necropolis railway station operated dedicated trains to transport coffins and mourners to a cemetery.",
+  "score": 9,
+  "added": "2026-11-25"
+ },
+ {
+  "key": "kentucky_bend",
+  "lang": "en",
+  "kind": "wonder",
+  "wiki": [
+   "Kentucky Bend"
+  ],
+  "art": [
+   "Kentucky Bend map",
+   "Madrid Bend Mississippi River",
+   "Kentucky Bend"
+  ],
+  "angle": "Kentucky Bend is an exclave of Kentucky completely surrounded by Missouri and Tennessee along the Mississippi River.",
+  "score": 8,
+  "added": "2026-11-25"
  }
 ]
