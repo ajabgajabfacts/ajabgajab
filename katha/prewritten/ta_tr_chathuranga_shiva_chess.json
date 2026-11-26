@@ -1,0 +1,58 @@
+{
+ "script": {
+  "title": "சதுரங்கத்தில் ராஜாவை வீழ்த்தி இளவரசியை மணந்த சித்தர் யார் 🙏",
+  "hook_text": "ராஜாவை சதுரங்கத்தில் வீழ்த்திய சித்தர்",
+  "kicker": "புராணக் கதை",
+  "sentences": [
+   "ராஜாவோட சதுரங்கம் ஆடி ஜெயிச்சு, அவர் மகளையே கல்யாணம் பண்ணினார் ஒரு சித்தர்.",
+   "எல்லாரும் சதுரங்கம் பேசுற இந்த நேரத்துல, இது திருவாரூர் மாவட்டத்து கோயிலோட புராணக் கதை.",
+   "குழந்தை இல்லாத வாசுதேவன் ராஜா, சிவனை வேண்டிக்கிட்டார்.",
+   "புராணப்படி, பார்வதி தேவியே அவருக்கு ராஜராஜேஸ்வரின்னு மகளா பொறந்தாங்க.",
+   "ஒருநாள் சித்தர் வேஷத்துல ஒருத்தர் ராஜா முன்னாடி வந்தார்.",
+   "சதுரங்கத்துல ராஜாவை அவர் தோற்கடிச்சார், அதனால ராஜராஜேஸ்வரியை அவரே கல்யாணம் பண்ணிக்கிட்டார்.",
+   "அந்த சித்தர் வேற யாரும் இல்ல, சிவபெருமானே தான்.",
+   "அதான் நீடாமங்கலத்துக்கும் மன்னார்குடிக்கும் நடுவுல இருக்குற அந்த கோயில்ல, சிவனோட பேரே சதுரங்க வல்லபநாதர்."
+  ],
+  "cta": "கமெண்ட் பண்ணுங்க",
+  "description": "சதுரங்கத்தில் ராஜாவை வென்று ராஜராஜேஸ்வரியை மணந்த சித்தர் பற்றிய புராணக் கதை.\nதிருவாரூர் மாவட்டத்து சதுரங்க வல்லபநாதர் கோயில்.",
+  "hashtags": [
+   "சதுரங்கம்",
+   "சதுரங்கவல்லபநாதர்",
+   "WorldChessChampionship",
+   "Chess",
+   "TamilTemple"
+  ],
+  "visuals": [
+   "Chathuranga Vallabhanathar Temple Poovanur",
+   "Poovanur temple Tiruvarur gopuram",
+   "Shiva Parvati marriage painting"
+  ],
+  "claims_en": [
+   "According to Hindu legend, a childless king named Vasudevan worshipped Shiva.",
+   "As a result, Parvathi was born to him as Rajarajeswari.",
+   "Shiva appeared to the king in the guise of a siddha and beat him in a game of chess.",
+   "As a consequence, he married Rajarajeswari.",
+   "The temple lies between Needamangalam and Mannargudi in Tiruvarur district, Tamil Nadu.",
+   "The presiding deity, Shiva, is called Chathuranga Vallabhanathar."
+  ],
+  "scenes": [
+   "Extreme close-up of an ancient Tamil king's face, crowned, eyes wide in stunned disbelief as he stares down at a chessboard, warm oil-lamp light in a stone palace hall.",
+   "Wide shot of a granite South Indian temple tower rising over green paddy fields in the Kaveri delta at golden sunrise, a carved stone chessboard pattern on the temple floor in the foreground.",
+   "Medium shot of a childless Tamil king in silk and gold ornaments kneeling before a Shiva lingam in a dim temple sanctum, hands folded, face full of longing, lamp smoke curling upward.",
+   "Medium shot of a joyful king and queen in an ancient Tamil palace holding a newborn baby girl wrapped in silk, a soft divine glow around the child, warm morning light through carved pillars.",
+   "Medium shot of a tall serene ascetic siddha with matted hair, rudraksha beads and a saffron cloth walking into a royal court of carved stone pillars, courtiers turning to look, afternoon light.",
+   "Over-the-shoulder shot of the calm siddha moving a chess piece on an ancient chaturanga board while the crowned king opposite him freezes in shock, the young princess Rajarajeswari watching from behind a pillar.",
+   "Medium shot of the siddha revealed as Lord Shiva in traditional iconography, blue-throated with crescent moon and trident, dignified and fully clothed, standing in divine light as the king bows in awe.",
+   "Wide shot of the stone gopuram and mandapam of a quiet village Shiva temple in Tiruvarur district at dusk, oil lamps glowing at the entrance, devotees walking in."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-26T00:27+00:00",
+ "for_slot": "trend 2026-11-27"
+}

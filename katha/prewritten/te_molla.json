@@ -1,0 +1,63 @@
+{
+ "script": {
+  "title": "ఒక్క నిమిషంలో రెండు పద్యాలు చెప్పమన్న కవులకు మొల్ల జవాబు 🙏",
+  "hook_text": "ఒక్క నిమిషం, రెండు పద్యాలు, మొల్ల",
+  "kicker": "నిజమైన కథ",
+  "sentences": [
+   "రాజసభలో కవులు మొల్లకు ఇచ్చిన సమయం ఒక్క నిమిషమే.",
+   "ఆమె పదహారో శతాబ్దపు తెలుగు కవయిత్రి, కుమ్మరి కేసన కూతురు.",
+   "ఇప్పుడు అందరూ రామాయణం గురించే మాట్లాడుతున్నారు, ఆమె రాసింది మొల్ల రామాయణం.",
+   "అప్పట్లో కవులు గ్రంథాన్ని రాజుకు అంకితం ఇచ్చేవారు, మొల్ల మాత్రం ఏ రాజుకూ ఇవ్వలేదు.",
+   "శ్రీకృష్ణదేవరాయల ముందు ఎనిమిది మంది కవులు ఆమెను పరీక్షించాలనుకున్నారు.",
+   "గజేంద్రుణ్ణి మొసలి నుంచి కాపాడిన కథ మీద, ఒకే ఛందస్సులో రెండు పద్యాలు చెప్పాలి.",
+   "మొల్ల కళ్లు మూసుకుని శ్రీరాముణ్ణి తలచుకుని, సమయం లోపే రెండు పద్యాలూ పాడారు.",
+   "కవులంతా నోరు మెదపలేదు, ఆమెకు కవిరత్న బిరుదు ఇచ్చారు.",
+   "ఆమె రామాయణం శ్రీకంఠ మల్లేశ్వరుడికే అంకితం."
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "రాజుకు అంకితం ఇవ్వని తెలుగు రామాయణం రాసిన మొల్ల కథ.\nరాజసభలో ఒక్క నిమిషంలో రెండు పద్యాలు చెప్పిన కవయిత్రి.",
+  "hashtags": [
+   "మొల్లరామాయణం",
+   "మొల్ల",
+   "Ramayana",
+   "TeluguPoet",
+   "తెలుగు"
+  ],
+  "visuals": [
+   "Atukuri Molla statue Tank Bund Hyderabad",
+   "Molla Ramayanam",
+   "Krishnadevaraya court painting"
+  ],
+  "claims_en": [
+   "In the royal court, poets gave Molla only one minute to think before composing.",
+   "Molla was a 16th-century Telugu poet, daughter of the potter Kesana.",
+   "She authored Molla Ramayanam, a Telugu version of the Ramayana.",
+   "Poets of the time generally dedicated their works to a king; Molla refused to dedicate her Ramayana to any king.",
+   "In front of the emperor Krishnadevaraya, the eight court poets wanted to test her talent.",
+   "They asked her to compose two stanzas in a particular metre on how the elephant (Gajendra) was saved from the crocodile.",
+   "Molla closed her eyes, prayed to Sri Rama and sang the two poems within the prescribed time.",
+   "All the poets were struck dumb and gave her the title Kavi Ratna.",
+   "Her Ramayana was dedicated to Sri Kantha Malleswara."
+  ],
+  "scenes": [
+   "Extreme close-up of 16th-century Telugu poet Molla's face, a woman in a simple cotton saree, eyes closed in calm concentration while a royal court waits, warm lamp light on her face.",
+   "Medium shot of young Molla in a plain village saree beside her father, a potter at his wheel shaping a clay pot in a sunlit Andhra village courtyard.",
+   "Medium shot of Molla seated cross-legged writing on palm-leaf manuscripts with a stylus under a mango tree, focused and serene, soft afternoon light.",
+   "Medium shot of Molla gently but firmly pushing a palm-leaf manuscript back toward a royal messenger holding a gold tray, her face steady, village house verandah.",
+   "Wide shot of the grand Vijayanagara royal court with carved stone pillars, the emperor Krishnadevaraya on a jewelled throne and eight robed court poets staring sceptically at Molla standing alone.",
+   "Close-up of a painted temple mural style scene of the elephant Gajendra in a lotus lake, trunk raised as a crocodile grips its leg, used as the poets' challenge.",
+   "Medium shot of Molla standing in the court with eyes closed and palms joined, singing, the court poets frozen mid-gesture, golden light from high windows.",
+   "Medium shot of the eight court poets bowing their heads in silent respect toward Molla as the emperor raises his hand in honour, warm torchlight.",
+   "Wide shot of the Srisailam hill temple at dawn with a palm-leaf manuscript placed respectfully on a stone step before the shrine, oil lamps glowing."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-26T00:27+00:00",
+ "for_slot": "trend 2026-11-27"
+}

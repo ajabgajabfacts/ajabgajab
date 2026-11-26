@@ -670,5 +670,70 @@
    "score": 8
   },
   "added": "2026-11-25"
+ },
+ {
+  "key": "tr_chathuranga_shiva_chess",
+  "lang": "ta",
+  "kind": "myth",
+  "wiki": [
+   "Chathuranga Vallabhanathar Temple"
+  ],
+  "art": [
+   "Chathuranga Vallabhanathar Temple Poovanur",
+   "Poovanur temple gopuram Tiruvarur",
+   "Shiva Parvati marriage painting"
+  ],
+  "angle": "legend of Poovanur: Shiva came as a siddha, beat King Vasudevan at chess and won the hand of the princess Rajarajeswari (Parvati); the god is still called the Lord of Chess",
+  "trend": {
+   "why": "the FIDE World Championship match (Gukesh vs Sindarov) runs in Geneva from 24 Nov; chess is in Tamil news and feeds, and Poovanur is Tamil Nadu's own chess temple",
+   "signals": [
+    "YouTube most popular IN: 'Gukesh vs Sindarov | Game 1 | Salesforce FIDE World Championship'",
+    "Khel Now/365Chess: match Game 1 24 Nov, runs to 12 Dec",
+    "temple drew national attention at the 2022 Chennai Chess Olympiad (DT Next)"
+   ],
+   "until": "2026-11-30",
+   "score": 8
+  },
+  "added": "2026-11-27"
+ },
+ {
+  "key": "tr_black_friday_1869",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Black Friday (1869)"
+  ],
+  "art": [
+   "Black Friday 1869 gold panic",
+   "Jay Gould portrait",
+   "New York Gold Room 1869"
+  ],
+  "angle": "before Black Friday meant shopping it meant 24 Sep 1869, when Jay Gould and Jim Fisk tried to corner America's gold and President Grant broke them by selling federal gold",
+  "trend": {
+   "why": "Black Friday is Fri 27 Nov; the whole US and UK are searching the term, and its first meaning was a gold-market crash",
+   "signals": [
+    "Black Friday 27 Nov 2026 (US/UK retail)",
+    "Google Trends US: Thanksgiving week shopping and gas-price searches",
+    "UK trends: Poundland, landlord (consumer week)"
+   ],
+   "until": "2026-11-28",
+   "score": 8
+  },
+  "added": "2026-11-27"
+ },
+ {
+  "key": "molla",
+  "lang": "te",
+  "trend": {
+   "why": "Ramayana (2026 film) is still a top-read Telugu Wikipedia page; Molla wrote the best-loved Telugu Ramayana",
+   "signals": [
+    "te.wikipedia most-read 11-23: రామాయణం (2026 సినిమా)",
+    "hi.wikipedia #1 रामायण (2026 फिल्म)",
+    "film passed Rs 1,384 crore worldwide (Business Today, 16 Nov)"
+   ],
+   "until": "2026-11-29",
+   "score": 7
+  },
+  "added": "2026-11-27"
  }
 ]
