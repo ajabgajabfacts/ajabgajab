@@ -1,0 +1,62 @@
+{
+ "script": {
+  "title": "A British governor asked to sit on the Golden Stool. Then ⚔️",
+  "hook_text": "Governor demands to sit on stool",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "Frederick Hodgson demanded to sit on the Ashanti's Golden Stool.",
+   "In March 1900 the British governor reached Kumasi, its king in exile.",
+   "Before the chiefs, he asked why they hadn't brought the Golden Stool for him to sit upon.",
+   "The chiefs listened in silence, then went home to prepare for war.",
+   "To them, the stool stood for the soul of the Ashanti people.",
+   "Queen Mother Yaa Asantewaa said if the men wouldn't fight, the women would.",
+   "Hodgson was besieged in Kumasi Fort until June.",
+   "In Parliament, Lloyd George likened Hodgson's hunt to the quest for the Holy Grail."
+  ],
+  "cta": "Comment below",
+  "description": "A governor asked for a chair. An empire answered.\nKumasi, 1900.",
+  "hashtags": [
+   "GoldenStool",
+   "Ashanti",
+   "YaaAsantewaa",
+   "history",
+   "Ghana"
+  ],
+  "visuals": [
+   "Golden Stool Ashanti",
+   "Yaa Asantewaa",
+   "Kumasi Fort"
+  ],
+  "claims_en": [
+   "Frederick Hodgson wanted the Golden Stool to sit upon",
+   "Hodgson arrived in Kumasi on 25 March 1900",
+   "The Ashanti king Prempeh I was in exile",
+   "Hodgson made a speech from a platform to the assembled Ashanti leaders",
+   "He asked why they did not bring the Golden Stool for him to sit upon",
+   "The speech was received in silence and the chiefs began war preparations on returning home",
+   "The Stool was seen as a spiritual representation of the soul of the Ashanti people",
+   "Queen Mother Yaa Asantewaa said that if the men of Ashanti would not go forward, the women would",
+   "Hodgson was besieged in Kumasi Fort and broke out on 23 June",
+   "On 19 March 1901 David Lloyd George said in Parliament that Hodgson's quest of the Golden Stool was like the quest of the Holy Grail"
+  ],
+  "scenes": [
+   "Extreme close-up of a proud Victorian British colonial governor's face, white helmet, moustache, eyes fixed hungrily on something off-frame, harsh tropical sunlight",
+   "A British colonial column with a governor and his wife entering a West African town in 1900, children lining the road, wide shot, bright daylight",
+   "The governor standing on a wooden platform gesturing impatiently beside a plain wooden chair, Ashanti chiefs in kente cloth seated before him, medium shot",
+   "Ashanti chiefs in kente cloth sitting in total silence, faces grave, then rising and walking away under the trees, dusk light",
+   "The Golden Stool of the Ashanti resting on its own, gleaming softly in a dim sacred room, reverent close-up",
+   "An elderly Ashanti Queen Mother in dark cloth standing tall before a gathering of men, speaking with fierce determination, firelight",
+   "A small square stone fort with corner turrets in a West African town, the governor looking out anxiously from the walls, overcast light",
+   "A 1901 British House of Commons chamber, a young Welsh MP with a moustache standing and speaking, the benches listening, warm interior light"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-26T19:50Z",
+ "for_slot": "2026-11-27 slot 5"
+}
