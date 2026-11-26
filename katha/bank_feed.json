@@ -862,5 +862,69 @@
   "angle": "Kentucky Bend is an exclave of Kentucky completely surrounded by Missouri and Tennessee along the Mississippi River.",
   "score": 8,
   "added": "2026-11-25"
+ },
+ {
+  "key": "diella_ai_system",
+  "lang": "en",
+  "kind": "science",
+  "wiki": [
+   "Diella (AI system)"
+  ],
+  "art": [
+   "eAlbania",
+   "National Agency for Information Society Albania",
+   "Diella (AI system)"
+  ],
+  "angle": "Albania formally appointed an artificial intelligence system named Diella as a cabinet-level virtual minister.",
+  "score": 9,
+  "added": "2026-11-26"
+ },
+ {
+  "key": "curse_of_the_billy_goat",
+  "lang": "en",
+  "kind": "sport",
+  "wiki": [
+   "Curse of the Billy Goat"
+  ],
+  "art": [
+   "Billy Goat Tavern Chicago",
+   "Wrigley Field 1945",
+   "Curse of the Billy Goat"
+  ],
+  "angle": "After a fan and his pet goat were ejected in 1945, the Chicago Cubs faced a 71-year curse.",
+  "score": 9,
+  "added": "2026-11-26"
+ },
+ {
+  "key": "1964_illinois_house_of_representatives_e",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "1964 Illinois House of Representatives election"
+  ],
+  "art": [
+   "Illinois State Capitol",
+   "Illinois House of Representatives",
+   "1964 Illinois House of Representatives election"
+  ],
+  "angle": "In 1964, Illinois failed to redistrict and elected all 177 House members statewide on one ballot.",
+  "score": 8,
+  "added": "2026-11-26"
+ },
+ {
+  "key": "metro_2",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "Metro-2"
+  ],
+  "art": [
+   "Moscow Metro",
+   "Metro-2 Moscow",
+   "Metro-2"
+  ],
+  "angle": "Metro-2 is a secret underground metro line in Moscow connecting Russian government facilities.",
+  "score": 8,
+  "added": "2026-11-26"
  }
 ]
