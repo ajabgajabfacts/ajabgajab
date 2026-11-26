@@ -1,0 +1,335 @@
+{
+ "lang": "hi",
+ "date": "2026-11-29",
+ "collection": "marvels",
+ "by": "claude-routine",
+ "written": "2026-11-26T18:50Z",
+ "chapters": [
+  {
+   "key": "sushruta",
+   "script": {
+    "title": "सर्जरी का पहला चीरा लौकी पर, सुश्रुत संहिता का नियम 🤯",
+    "hook_text": "पहला चीरा लौकी पर",
+    "kicker": "प्राचीन विज्ञान",
+    "sentences": [
+     "सर्जरी सीखने वाला छात्र पहला चीरा लौकी पर लगाता था।",
+     "यह नियम लिखा है सुश्रुत संहिता में, जो आयुर्वेद के बुनियादी ग्रंथों में गिनी जाती है।",
+     "ग्रंथ में सुश्रुत अपने गुरु दिवोदास की सीख आगे सुनाते दिखते हैं।",
+     "पुरानी बौद्ध जातक कथाओं में भी दिवोदास नाम के एक वैद्य हैं, जो काशी में पढ़ाते थे।",
+     "इसकी सबसे पुरानी बची प्रति नेपाल की कैसर लाइब्रेरी में है, ताड़ के पत्तों पर, 878 ईस्वी की।",
+     "और लौकी अकेली नहीं थी।",
+     "कद्दू और खीरे पर भी चीरा लगाने का अभ्यास होता था।",
+     "फिर बारी आती थी तरल से भरी चमड़े की थैलियों की।",
+     "सुनने में ये रसोई का सामान लगता है, सर्जरी का नहीं।",
+     "चरक संहिता में सर्जरी का ज़िक्र है, पर बस थोड़ा सा।",
+     "सुश्रुत संहिता में सर्जरी, औज़ारों और ट्रेनिंग पर ऐसे अध्याय हैं, जो इतिहास में अनोखे हैं।",
+     "यह उन पहले ग्रंथों में भी है, जो कहते हैं कि सर्जन मृत शरीर की व्यवस्थित जाँच से अंगों को पहचाने।",
+     "और लौकी का राज़ ये है कि छात्र पहले उन चीज़ों पर अभ्यास करे, जो शरीर के हिस्सों जैसी हों।",
+     "उस ज़माने में सर्जन बनने का पहला सबक, एक सब्ज़ी के छिलके पर लिखा जाता था।"
+    ],
+    "visuals": [
+     "Sushruta Samhita manuscript",
+     "Sushruta statue",
+     "bottle gourd Lagenaria"
+    ],
+    "claims_en": [
+     "The Sushruta Samhita says a surgery student should practise incisions on objects such as gourd.",
+     "The Sushruta Samhita is one of the foundational texts of Ayurveda.",
+     "In the text Sushruta is presented as narrating the teaching of his guru Divodasa.",
+     "Early Buddhist Jatakas mention a Divodasa as a physician who lived and taught in ancient Kashi (Varanasi).",
+     "The oldest surviving manuscript is a palm-leaf manuscript dated to 878 AD.",
+     "It is preserved at the Kaiser Library, Nepal.",
+     "Incision practice is recommended on squash, gourd and cucumber.",
+     "Practice is also recommended on leather bags filled with fluids.",
+     "The Charaka Samhita mentions surgery, but only briefly.",
+     "The Sushruta Samhita has historically unique chapters on surgical training, instruments and procedures.",
+     "It is amongst the first medical treatises to suggest a surgery student learn the body and organs by systematically examining a dead body.",
+     "The text says a student should practise on objects resembling the diseased or body part."
+    ]
+   }
+  },
+  {
+   "key": "zero",
+   "script": {
+    "title": "ब्रह्मगुप्त ने शून्य के नियम लिखे, पर एक सवाल छोड़ दिया 🤯",
+    "hook_text": "ब्रह्मगुप्त का अधूरा छोड़ा सवाल",
+    "kicker": "गणित",
+    "sentences": [
+     "628 में ब्रह्मगुप्त ने शून्य के नियम लिखे, पर एक सवाल छोड़ दिया।",
+     "उनका जन्म 598 में भिल्लमाल में हुआ था, जिसे आज राजस्थान का भीनमाल कहते हैं।",
+     "30 साल की उम्र में उन्होंने ब्राह्मस्फुटसिद्धांत लिखा, 24 अध्याय और 1008 श्लोक।",
+     "बाद में भास्कर द्वितीय ने उन्हें गणकचक्रचूड़ामणि कहा, यानी गणितज्ञों के मंडल का रत्न।",
+     "बेबीलोन में शून्य की जगह बस खाली जगह या एक निशान होता था, जिसे संख्या नहीं माना गया।",
+     "ब्रह्मगुप्त की किताब पहली ज्ञात किताब है, जिसने शून्य को अपने आप में एक संख्या माना।",
+     "उन्होंने शून्य और ऋण संख्याओं के साथ हिसाब के नियम दिए।",
+     "फिर आया सबसे टेढ़ा सवाल, किसी संख्या को शून्य से भाग दें तो क्या मिलेगा।",
+     "शून्य को शून्य से भाग देने पर उन्होंने जवाब शून्य लिखा।",
+     "पर किसी दूसरी संख्या को शून्य से भाग देने पर उन्होंने कोई पक्का जवाब नहीं दिया।",
+     "और आज का गणित भी शून्य से भाग को परिभाषित नहीं करता, उसे खुला ही छोड़ देता है।",
+     "यानी भीनमाल के उस गणितज्ञ ने जहाँ कलम रोकी थी, आज का गणित भी वहीं ठहरा हुआ है।"
+    ],
+    "visuals": [
+     "Brahmagupta",
+     "Brahmasphutasiddhanta manuscript",
+     "Bhinmal Rajasthan"
+    ],
+    "claims_en": [
+     "In 628 Brahmagupta composed the Brahmasphutasiddhanta, which gives rules for arithmetic with zero.",
+     "Brahmagupta was born in 598 CE in Bhillamala, modern Bhinmal in Rajasthan.",
+     "He composed the Brahmasphutasiddhanta at the age of 30; it has 24 chapters and 1008 verses.",
+     "Bhaskara II described Brahmagupta as ganaka-chakra-chudamani, the gem of the circle of mathematicians.",
+     "Babylonians indicated zero by a space and later by placeholder signs, which were not considered a numerical value.",
+     "The Brahmasphutasiddhanta is the earliest known text to treat zero as a number in its own right.",
+     "It is the first book to give rules for arithmetic manipulations that apply to zero and to negative numbers.",
+     "Brahmagupta stated that zero divided by zero is zero.",
+     "For a non-zero number divided by zero he did not commit himself.",
+     "In modern mathematics division by zero is left undefined."
+    ]
+   }
+  },
+  {
+   "key": "bakhshali",
+   "script": {
+    "title": "खेत से निकली भोजपत्र की किताब, लिखने वाला 'गणकों का राजा' 🤯",
+    "hook_text": "खेत से निकली गणित की किताब",
+    "kicker": "पुरानी किताब",
+    "sentences": [
+     "एक किसान के खेत से भोजपत्र पर लिखी गणित की किताब निकली।",
+     "साल था 1881, गाँव था बख्शाली, जो आज पाकिस्तान में मरदान के पास है।",
+     "इसे बख्शाली पांडुलिपि कहते हैं, और ये शायद भारतीय गणित की सबसे पुरानी बची हुई पांडुलिपि है।",
+     "आज ये ऑक्सफ़ोर्ड यूनिवर्सिटी की बोडलियन लाइब्रेरी में रखी है।",
+     "इसके 70 पन्ने बचे हैं, पर वो किस क्रम में थे, ये कोई नहीं जानता।",
+     "अंदर भिन्न, वर्गमूल और समीकरणों के सवाल भरे हैं।",
+     "सवाल कविता में हैं, और उनका हल गद्य में समझाया गया है।",
+     "नफ़े-नुकसान के हिसाब और सोने की शुद्धता नापने वाले सवाल भी हैं।",
+     "एक हिस्से के अंत में लिखने वाले ने अपनी पहचान भी छोड़ी है।",
+     "वो एक ब्राह्मण था, 'छजक का बेटा', जिसे 'गणकों का राजा' कहा गया।",
+     "और उसने ये हिस्सा वसिष्ठ के बेटे हसिक के लिए लिखा था।",
+     "पर असली कमाल उसका तरीका है।",
+     "हर सवाल के बाद नियम को दोहराते हुए, कदम-दर-कदम हल निकाला जाता है।",
+     "फिर आख़िर में जाँचा जाता है कि जवाब सच में सवाल पर खरा उतरता है या नहीं।",
+     "बाद के ग्रंथों में ये जाँच वाला कदम छूट गया, पर भोजपत्र के इन पन्नों पर वो आज भी सलामत है।"
+    ],
+    "visuals": [
+     "Bakhshali manuscript",
+     "Bakhshali manuscript birch bark folio",
+     "Bodleian Library Oxford"
+    ],
+    "claims_en": [
+     "The Bakhshali manuscript is a mathematical text written on birch bark, unearthed in a field by a peasant.",
+     "It was found in 1881 in the village of Bakhshali, near Mardan in present-day Pakistan.",
+     "It is perhaps the oldest extant manuscript in Indian mathematics.",
+     "It is kept at the Bodleian Library at the University of Oxford.",
+     "It consists of 70 leaves of birch bark whose intended order is not known.",
+     "Topics include fractions, square roots and equations.",
+     "The sample problems are in verse and the commentary is in prose.",
+     "Rules cover negative numbers (profit and loss) and measuring the fineness of gold.",
+     "A colophon to one section names the writer.",
+     "The writer was a brahmin identified as the son of Chajaka, a king of calculators.",
+     "It was written for the use of Vasistha's son Hasika.",
+     "Each example is worked out step by step following the rule while quoting it.",
+     "Each example ends with a verification that the solution satisfies the problem.",
+     "This emphasis on verification became obsolete in later works."
+    ]
+   }
+  },
+  {
+   "key": "raman_effect",
+   "script": {
+    "title": "हिसाब का अफ़सर बेवक्त लैब जाता था, फिर मिला नोबेल 🔥",
+    "hook_text": "अफ़सर जो नोबेल ले आया",
+    "kicker": "सच्ची कहानी",
+    "sentences": [
+     "हिसाब का एक सरकारी अफ़सर, बेवक्त प्रयोगशाला पहुँच जाता था।",
+     "ये थे सी. वी. रमन, जो 19 साल की उम्र में कलकत्ता में असिस्टेंट अकाउंटेंट जनरल बने।",
+     "शहर में भारत का पहला रिसर्च संस्थान था, इंडियन एसोसिएशन फ़ॉर द कल्टिवेशन ऑफ़ साइंस।",
+     "वहाँ उन्हें खाली वक्त में रिसर्च की इजाज़त मिली, कई बार बड़े अजीब घंटों में।",
+     "दस साल बाद उन्होंने अफ़सरी छोड़ी और प्रोफ़ेसर बने, जबकि तनख्वाह लगभग आधी रह गई।",
+     "1921 में जहाज़ से घर लौटते हुए भूमध्य सागर का नीला रंग उन्हें खटक गया।",
+     "उस वक्त माना जाता था कि समुद्र बस आसमान का नीला रंग लौटाता है, और रमन को ये बात गलत लगी।",
+     "फिर रोशनी पर लंबे प्रयोग चले, अपने शिष्य के. एस. कृष्णन के साथ।",
+     "लेज़र तब थे ही नहीं, बस पारे का लैंप और फ़ोटो की प्लेटें थीं।",
+     "1928 में उन्होंने पाया कि पारदर्शी चीज़ से गुज़रती रोशनी का कुछ हिस्सा अपनी तरंग-लंबाई बदल लेता है।",
+     "यही रमन प्रभाव कहलाया, और 1930 में इसी पर उन्हें भौतिकी का नोबेल मिला, पहले एशियाई को।",
+     "खोज का दिन, 28 फ़रवरी, आज राष्ट्रीय विज्ञान दिवस है, जिसकी शुरुआत एक अफ़सर की बेवक्त जलती बत्ती से हुई।"
+    ],
+    "visuals": [
+     "C. V. Raman",
+     "Indian Association for the Cultivation of Science Kolkata",
+     "Raman spectrograph"
+    ],
+    "claims_en": [
+     "C. V. Raman joined the Indian Finance Service in Calcutta as Assistant Accountant General at age 19.",
+     "In Calcutta he became acquainted with the Indian Association for the Cultivation of Science, the first research institute in India.",
+     "He got permission to research at IACS in his own time, even at very unusual hours.",
+     "He resigned as a civil servant after a decade of service to become a professor, at roughly half his salary.",
+     "In 1921, on a voyage home, he contemplated the blue colour of the Mediterranean Sea.",
+     "He identified the prevailing explanation, that the sea reflects the sky's light, as incorrect.",
+     "He worked with his student K. S. Krishnan.",
+     "Lasers were not available; Raman and Krishnan used a mercury lamp and photographic plates.",
+     "In 1928 they discovered that when light traverses a transparent material, some deflected light changes its wavelength.",
+     "This became the Raman effect; in 1930 he received the Nobel Prize in Physics, the first Asian to do so.",
+     "The discovery day, 28 February, is celebrated as National Science Day in India."
+    ]
+   }
+  },
+  {
+   "key": "aryabhata_sat",
+   "script": {
+    "title": "भारत का पहला उपग्रह पाँच दिन में चुप, फिर नोट पर छपा 😱",
+    "hook_text": "पाँच दिन में चुप उपग्रह",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "भारत का पहला उपग्रह पाँच दिन में चुप हो गया।",
+     "उसका नाम था आर्यभट, छठी सदी के खगोलशास्त्री और गणितज्ञ आर्यभट के नाम पर।",
+     "इसे इसरो ने बनाया, और 19 अप्रैल 1975 को सोवियत संघ के कपुस्तिन यार से छोड़ा गया।",
+     "सौदा ये था कि सोवियत संघ भारत के उपग्रह छोड़ेगा, और बदले में उसके जहाज़ भारत के बंदरगाह इस्तेमाल करेंगे।",
+     "उपग्रह 26 पहलुओं वाला था, करीब 1.4 मीटर चौड़ा।",
+     "ऊपर और नीचे को छोड़कर, हर पहलू पर सोलर सेल लगे थे।",
+     "कक्षा में पहुँचते ही वो लड़खड़ाते हुए घूमने लगा।",
+     "एक उपकरण की बिजली भी जवाब दे गई।",
+     "इंजीनियरों ने 45वें चक्कर तक उसे संभाल लिया।",
+     "पर चार दिन और 60 चक्करों के बाद बिजली की गड़बड़ी ने सारे प्रयोग रोक दिए।",
+     "पाँच दिन के बाद उससे कोई सिग्नल नहीं आया।",
+     "फिर भी आर्यभट की कहानी यहीं ख़त्म नहीं हुई।",
+     "1976 से 1997 तक उसकी तस्वीर दो रुपये के नोट पर छपती रही, और वो खुद 10 फ़रवरी 1992 को धरती के वायुमंडल में लौटा।",
+     "पाँच दिन का काम, और 1997 तक लोगों की जेब में उसकी तस्वीर।"
+    ],
+    "visuals": [
+     "Aryabhata satellite",
+     "Aryabhata satellite two rupee banknote",
+     "Kapustin Yar"
+    ],
+    "claims_en": [
+     "Aryabhata was India's first satellite.",
+     "It was named after the 6th-century astronomer and mathematician Aryabhata.",
+     "It was built by ISRO and launched on 19 April 1975 from Kapustin Yar in the Soviet Union.",
+     "The USSR agreed to launch Indian satellites in exchange for using Indian ports for tracking ships and launching vessels.",
+     "The spacecraft was a 26-sided polyhedron 1.4 metres in diameter.",
+     "All faces except the top and bottom were covered with solar cells.",
+     "After launch the satellite experienced tumbling.",
+     "The aeronomy instrument's power supply failed.",
+     "Engineers stabilised the satellite by the 45th orbit.",
+     "A power failure halted experiments after four days and 60 orbits.",
+     "All signals from the spacecraft were lost after five days of operation.",
+     "Its image appeared on the reverse of Indian two-rupee banknotes between 1976 and 1997.",
+     "The satellite entered Earth's atmosphere on 10 February 1992."
+    ]
+   }
+  },
+  {
+   "key": "mangalyaan",
+   "script": {
+    "title": "15 महीनों में बना मंगलयान, फिर करीब आठ साल मंगल के चक्कर 🔥",
+    "hook_text": "15 महीनों में मंगल का यान",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "मंगल जाने वाला यान सिर्फ़ 15 महीनों में बनकर तैयार हो गया।",
+     "ये था इसरो का मार्स ऑर्बिटर मिशन, जिसे सब मंगलयान कहते हैं।",
+     "इसे 3 अगस्त 2012 को मंज़ूरी मिली, और 5 नवंबर 2013 को ये श्रीहरिकोटा से उड़ा।",
+     "मंगल तक ईंधन बचाने वाले रास्ते का मौका हर 26 महीने में एक बार आता है।",
+     "ये मौका छूटता, तो अगली बारी 2016 में आती।",
+     "ऊपर से प्रशांत महासागर के खराब मौसम ने लॉन्च 28 अक्टूबर से खिसकाकर 5 नवंबर कर दिया।",
+     "वैज्ञानिक रोज़ 18 से 20 घंटे काम करते रहे।",
+     "पूरा मिशन करीब 450 करोड़ रुपये में हुआ, अब तक का सबसे सस्ता मंगल मिशन।",
+     "298 दिन के सफ़र के बाद, 24 सितंबर 2014 को ये मंगल की कक्षा में पहुँच गया।",
+     "अप्रैल 2022 में ये सात घंटे लंबे ग्रहण में फँसा, जिसे झेलने के लिए इसे बनाया ही नहीं गया था।",
+     "उसके बाद धरती से इसका संपर्क हमेशा के लिए टूट गया।",
+     "अब सवाल ये कि इतना बड़ा यान 15 महीनों में बना कैसे।",
+     "इसकी एक बड़ी वजह थी चंद्रयान-2 के ऑर्बिटर का ढाँचा, जिसे बदलकर मंगलयान में लगाया गया।",
+     "जल्दी में बना यह यान, करीब आठ साल मंगल के चक्कर लगाता रहा।"
+    ],
+    "visuals": [
+     "Mars Orbiter Mission spacecraft",
+     "PSLV-C25 launch Mars Orbiter Mission",
+     "Mars from Mars Orbiter Mission"
+    ],
+    "claims_en": [
+     "The Mars Orbiter Mission spacecraft was completed in a record 15 months.",
+     "The Mars Orbiter Mission by ISRO is unofficially known as Mangalyaan.",
+     "The project was approved on 3 August 2012 and launched on 5 November 2013 from Sriharikota.",
+     "Launch opportunities for a fuel-saving Hohmann transfer orbit occur every 26 months.",
+     "The next opportunities would have been in 2016 and 2018.",
+     "The launch planned for 28 October 2013 was postponed to 5 November due to poor weather in the Pacific Ocean delaying tracking ships.",
+     "Scientists worked long days of 18 to 20 hours.",
+     "The total cost was approximately 450 crore rupees, the least-expensive Mars mission to date.",
+     "After a 298-day transit it was put into Mars orbit on 24 September 2014.",
+     "In April 2022 it entered a seven-hour eclipse period it was not designed to survive.",
+     "It irrecoverably lost communications with Earth.",
+     "The fast build was partly due to using a reconfigured Chandrayaan-2 orbiter bus.",
+     "It operated around Mars for eight years from orbit insertion."
+    ]
+   }
+  },
+  {
+   "key": "chandrayaan3",
+   "script": {
+    "title": "चाँद पर उतरने के बाद विक्रम ने छलांग क्यों लगाई 🤯",
+    "hook_text": "चाँद पर विक्रम की छलांग",
+    "kicker": "अंतरिक्ष",
+    "sentences": [
+     "चाँद पर उतरने के बाद विक्रम लैंडर ने एक छोटी सी छलांग लगाई।",
+     "ये चंद्रयान-3 का लैंडर था, जो 23 अगस्त 2023 को चाँद के दक्षिणी ध्रुव के पास उतरा था।",
+     "उसके साथ प्रज्ञान रोवर था, छह पहियों वाला, वज़न 26 किलो।",
+     "दोनों के पास बस एक चंद्र दिन था, यानी धरती के 14 दिन।",
+     "चाँद की रात की माइनस 120 डिग्री वाली ठंड झेलने के लिए ये बने ही नहीं थे।",
+     "3 सितंबर को रोवर ने अपना सारा काम पूरा किया, और उसे सुला दिया गया।",
+     "उसी दिन विक्रम ने अपने इंजन फिर से चालू किए।",
+     "वो सतह से 40 सेंटीमीटर ऊपर उठा, और 50 सेंटीमीटर बगल में जाकर फिर बैठ गया।",
+     "छलांग से पहले उपकरण और रोवर वाली ढलान समेटी गई, बाद में फिर खोली गई।",
+     "चाँद पर ऐसा करने वाला ये दूसरा लैंडर बना, पहला था नासा का सर्वेयर 6।",
+     "फिर 22 सितंबर को लैंडर और रोवर ने जागने की पुकार का जवाब नहीं दिया।",
+     "पर छलांग अपना काम कर चुकी थी, ये चाँद से नमूने धरती पर लाने वाले भविष्य के मिशनों की तैयारी थी।",
+     "चाँद पर आधे मीटर की वो छलांग, असल में धरती पर लौटने के सपने की पहली रिहर्सल थी।"
+    ],
+    "visuals": [
+     "Chandrayaan-3 Vikram lander on Moon",
+     "Pragyan rover",
+     "Moon south pole"
+    ],
+    "claims_en": [
+     "After landing, the Vikram lander fired its engines for a brief hop on the lunar surface.",
+     "Vikram is Chandrayaan-3's lander; it touched down near the lunar south pole on 23 August 2023.",
+     "The Pragyan rover is six-wheeled with a mass of 26 kilograms.",
+     "The lander and rover were expected to operate for one lunar daylight period, or 14 Earth days.",
+     "The electronics were not designed to withstand the -120 °C nighttime temperatures on the Moon.",
+     "On 3 September the rover was put into sleep mode after completing all its assignments.",
+     "On 3 September Vikram fired its engines for the hop.",
+     "It ascended 40 cm off the surface and moved 50 cm laterally.",
+     "The instruments and rover deployment ramp were retracted for the hop and redeployed afterwards.",
+     "Vikram became the second lander to perform a hop on the Moon, after NASA's Surveyor 6.",
+     "On 22 September the lander and rover missed their wake-up calls.",
+     "The test demonstrated capabilities for potential future sample return missions."
+    ]
+   }
+  }
+ ],
+ "frame": {
+  "title": "लौकी पर पहला चीरा, चाँद पर छलांग: भारत के 7 कमाल",
+  "intro": [
+   "सर्जरी सीखने वाले का पहला चीरा, लौकी पर लगता था।",
+   "हिसाब का एक अफ़सर बेवक्त लैब जाता था, और फिर उसे नोबेल मिला।",
+   "और चाँद पर उतरने के बाद विक्रम ने छलांग क्यों लगाई, ये भी आज जानेंगे।",
+   "सात कहानियाँ, और हर एक में भारत का एक अलग कमाल।"
+  ],
+  "outro": [
+   "इन सात कहानियों में से किसने आपको सबसे ज़्यादा हैरान किया, कमेंट में ज़रूर बताइए।",
+   "ऐसी ही सच्ची कहानियों के लिए चैनल को सब्सक्राइब कर लीजिए।"
+  ],
+  "thumb_text": "लौकी से चाँद तक",
+  "kicker": "भारत के कमाल",
+  "chapter_word": "अध्याय",
+  "intro_label": "परिचय",
+  "outro_label": "समापन",
+  "subscribe": "सब्सक्राइब करें",
+  "description": "सुश्रुत संहिता, ब्रह्मगुप्त और बख्शाली की किताब से लेकर रमन, आर्यभट, मंगलयान और चंद्रयान-3 तक।\nभारत के विज्ञान, गणित और अंतरिक्ष की 7 सच्ची कहानियाँ, एक ही वीडियो में।\nकौन सी कहानी आपको सबसे ज़्यादा हैरान कर गई, कमेंट में बताइए।",
+  "hashtags": [
+   "भारत_के_कमाल",
+   "इसरो",
+   "ISRO",
+   "IndianScience",
+   "चंद्रयान3",
+   "Brahmagupta"
+  ]
+ }
+}
