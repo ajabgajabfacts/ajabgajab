@@ -58,8 +58,13 @@
   "problems": [],
   "by": "claude self-check"
  },
- "verified": false,
+ "verified": true,
  "by": "claude-trend-scout",
  "written": "2026-11-27T00:55Z",
- "for_slot": "trend 2026-11-27"
+ "for_slot": "trend 2026-11-27",
+ "gemini_check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ }
 }
