@@ -926,5 +926,53 @@
   "angle": "Metro-2 is a secret underground metro line in Moscow connecting Russian government facilities.",
   "score": 8,
   "added": "2026-11-26"
+ },
+ {
+  "key": "chicken_gun",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "Chicken gun"
+  ],
+  "art": [
+   "chicken gun bird strike test",
+   "aircraft windshield bird strike test",
+   "Chicken gun"
+  ],
+  "angle": "Engineers use compressed-air cannons to fire bird carcasses at aircraft parts to test impact resistance.",
+  "score": 9,
+  "added": "2026-11-27"
+ },
+ {
+  "key": "dagen_h",
+  "lang": "en",
+  "kind": "history",
+  "wiki": [
+   "Dagen H"
+  ],
+  "art": [
+   "Dagen H Stockholm 1967",
+   "Kungsgatan Dagen H 1967",
+   "Dagen H"
+  ],
+  "angle": "On 3 September 1967, Sweden switched its road traffic from driving on the left to the right.",
+  "score": 9,
+  "added": "2026-11-27"
+ },
+ {
+  "key": "tv_pickup",
+  "lang": "en",
+  "kind": "engineering",
+  "wiki": [
+   "TV pickup"
+  ],
+  "art": [
+   "National Grid control room UK",
+   "electric kettle boiling water",
+   "TV pickup"
+  ],
+  "angle": "High-rating television broadcasts cause sudden spikes in electrical power consumption.",
+  "score": 8,
+  "added": "2026-11-27"
  }
 ]
