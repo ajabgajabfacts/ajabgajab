@@ -59,11 +59,25 @@ def keys_for(lang, day):
     return out
 
 
+# From 2026-11-28 (owner) Ajab is a Telugu + Tamil channel. Kannada stays only for a live Karnataka event: the
+# Mysore records (89k, 28k) were Dasara-day Shorts, while everyday kn Shorts had a median of 10 views. The other
+# languages sat at 10-120 views, and ten languages on one channel give the feed no single audience to learn.
+# English is the separate Wait, That's Real? channel. Events and trend stories in any other language are ignored.
+FOCUS = dt.date(2026, 11, 28)
+FOCUS_LANGS = ("te", "ta", "kn", "en")
+
+
+def in_focus(lang, day):
+    if isinstance(day, str):
+        day = dt.date.fromisoformat(day)
+    return day < FOCUS or lang in FOCUS_LANGS
+
+
 def langs_for(day):
     """Languages active events want today, in event order (for the rotating slots)."""
     out = []
     for _, _, _, by_lang in active(day):
-        out += [l for l in by_lang if l not in out]
+        out += [l for l in by_lang if l not in out and in_focus(l, day)]
     return out
 
 

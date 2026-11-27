@@ -297,6 +297,21 @@ def _done_before(day):
             if r.get("status") in ("posted", "failed_check") and r.get("date", "") < str(day)}
 
 
+def _focus_lang(slot, day):
+    """Telugu + Tamil channel (festivals.FOCUS, owner 2026-11-28): 08:05 IST Tamil, 12:05 Telugu, 18:05 Tamil,
+    20:35 Telugu (slot 3, above). The 18:05 evening slot goes to a Tamil or Kannada event or trend story when one
+    is waiting, which is the only way Kannada still posts. Telugu events need no routing: pick() serves a
+    language's trend stories first in any slot, and festival stories in its evening slot 3."""
+    done = _done_before(day)                      # start-of-day view: every slot that day sees the same list
+    want = [l for l in dict.fromkeys(festivals.evening_langs(day, done) + trends.langs_for(day, done))
+            if l in ("ta", "kn")]
+    if slot == 2 and want:
+        return want[0]
+    if slot == festivals.EXTRA_SLOT and len(want) > 1:
+        return want[1]
+    return {0: "ta", 1: "te", 2: "ta"}.get(slot, "ta")
+
+
 def slot_lang(slot, day=None):
     day = day or dt.date.today()
     if day < EPOCH2:
@@ -304,6 +319,8 @@ def slot_lang(slot, day=None):
         return "hi" if slot in (0, 2) else REGIONAL[(2 * d + (slot == 3)) % len(REGIONAL)]
     if slot == 3:
         return "te"
+    if day >= festivals.FOCUS:
+        return _focus_lang(slot, day)
     if slot == 2 and day < HI_OFF:
         return "hi"
     if slot == 2 and HI_DEV[0] <= day <= HI_DEV[1] and not festivals.evening_langs(day, _done_before(day)):

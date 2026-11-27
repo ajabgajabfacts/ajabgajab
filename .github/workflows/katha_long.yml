@@ -68,7 +68,8 @@ jobs:
           # Telugu the strongest language) instead of the weekly regional rotation. Review after 2026-11-02.
           C="${{ inputs.collection }}"
           if [ -n "${{ inputs.lang }}" ]; then L="${{ inputs.lang }}"
-          elif [ "$(date -u +%u)" = "7" ]; then L=hi; C="${C:-mysteries}"
+          # From 2026-11-29 Sunday is Tamil (owner 2026-11-28: Ajab is a Telugu + Tamil channel, katha/festivals.py FOCUS).
+          elif [ "$(date -u +%u)" = "7" ]; then L=ta; C="${C:-mysteries}"
           else L=te; C="${C:-devotion}"
           fi
           # A Claude-written script for today (katha/longplan.py) picks its own collection; longform.py ignores

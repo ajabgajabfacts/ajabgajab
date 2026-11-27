@@ -59,8 +59,10 @@ def keys_for(lang, day=None):
 
 def langs_for(day=None, done=frozenset()):
     """Languages with an active trend story not yet told (done = {(key, lang)}), best score first."""
+    import festivals                                   # Ajab's Telugu + Tamil focus from 11-28 (festivals.FOCUS)
     es = sorted(active(day), key=lambda e: -e["trend"].get("score", 0))
-    return list(dict.fromkeys(e["lang"] for e in es if (e["key"], e["lang"]) not in done))
+    return list(dict.fromkeys(e["lang"] for e in es if (e["key"], e["lang"]) not in done
+                              and festivals.in_focus(e["lang"], day or dt.date.today())))
 
 
 def validate():

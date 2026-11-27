@@ -27,7 +27,7 @@ from longcollections import COLLECTIONS, FRAME, ledger, pick_collection
 
 DIR = HERE / "prewritten_long"
 # katha_long.yml's crons: Sunday Hindi, Wednesday Telugu (Python weekday: Mon=0 ... Sun=6).
-LONG_DAYS = {6: "hi", 2: "te"}
+LONG_DAYS = {6: "ta", 2: "te"}   # Sunday was Hindi until 2026-11-28; Ajab is Telugu + Tamil from then (festivals.FOCUS)
 # One-off runs outside that schedule, dispatched by hand: (date, lang). The Telugu script written for 10-30 (it
 # replaces the 10-28 slot GitHub never fired; the 10-29 Gemini-written retry ran out of quota after 6 chapters)
 # was never dispatched that day, so it was re-dated and run on 10-31.
