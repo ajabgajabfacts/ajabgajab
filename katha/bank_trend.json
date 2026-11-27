@@ -735,5 +735,67 @@
    "score": 7
   },
   "added": "2026-11-27"
+ },
+ {
+  "key": "tr_snow_bowl_1950",
+  "lang": "en",
+  "kind": "sport",
+  "wiki": [
+   "Snow Bowl (1950)"
+  ],
+  "art": [
+   "1950 Snow Bowl Ohio Stadium blizzard",
+   "Ohio Stadium Columbus",
+   "Michigan Ohio State football 1950"
+  ],
+  "angle": "Michigan beat Ohio State in a blizzard without making a single first down, in a game with 45 punts",
+  "trend": {
+   "why": "Ohio State hosts Michigan in The Game on Sat Nov 28, the biggest US college football rivalry weekend",
+   "signals": [
+    "The Game set for Nov 28 2026, noon ET on FOX at Ohio Stadium (ohiostatebuckeyes.com)",
+    "US Google Trends dominated by sports (spurs 10000+, clemson vs colorado state 500+)"
+   ],
+   "until": "2026-11-28",
+   "score": 8
+  },
+  "added": "2026-11-27"
+ },
+ {
+  "key": "parashurama",
+  "lang": "hi",
+  "trend": {
+   "why": "Ramayana: Rise of a Legend (Part 1, Rama's wedding to Sita's abduction) still in its 4th week; Parashurama's challenge to Rama comes right after the wedding",
+   "signals": [
+    "hi.wikipedia #3 रामायण (2026 फिल्म), also on te and or lists",
+    "Google Trends IN-OR: ramayana box office collection (day 21)"
+   ],
+   "until": "2026-11-29",
+   "score": 7
+  },
+  "added": "2026-11-27"
+ },
+ {
+  "key": "tr_kaal_bhairav_kashi",
+  "lang": "hi",
+  "kind": "myth",
+  "wiki": [
+   "Bhairava"
+  ],
+  "art": [
+   "Kaal Bhairav temple Varanasi",
+   "Bhairava sculpture",
+   "Kala Bhairava painting"
+  ],
+  "angle": "Bhairava cut off Brahma's fifth head for a lie; Brahma's skull stayed stuck to his hand through the three worlds until it fell away in Kashi",
+  "trend": {
+   "why": "Kalabhairav Jayanti falls on Dec 1 (Nov 30 in some panchangs); Varanasi's Kaal Bhairav temple is its centre",
+   "signals": [
+    "Kalabhairav Jayanti 1 Dec 2026 (bhaktibharat, hindutone); Drik Panchang lists 30 Nov",
+    "not in festivals.py"
+   ],
+   "until": "2026-12-01",
+   "score": 7
+  },
+  "added": "2026-11-30"
  }
 ]
