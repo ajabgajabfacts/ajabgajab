@@ -269,6 +269,10 @@ EPOCH = dt.date(2026, 10, 19)
 ROTATING = ["ta", "kn", "bn", "mr", "kn", "ml", "gu", "or", "pa"]
 EPOCH2 = dt.date(2026, 10, 20)
 KN_DAILY = dt.date(2026, 10, 26)
+# Kannada-every-day ENDED 2026-11-28: 28 kn Shorts since the slot began, median 10 views (ta 398, gu 122, te ~250).
+# The Mysore records were Dasara-day event spikes; the feed does not seed our everyday kn Shorts. Slot 0 now draws
+# from the insights weights like slot 1, where kn keeps its (lowest) weight so it is still tested.
+KN_OFF = dt.date(2026, 11, 28)
 # From 2026-11-01 slot 2 is no longer Hindi every day (owner approved the content strategy 10-31): Hindi Shorts
 # had the channel's lowest median (44 views, slot 2, 10-19..10-29) while the rotating regional languages ran
 # ~100-580. Slot 2 now draws from the same weights as slot 1, with Hindi kept in at the lowest weight so it is
@@ -306,12 +310,13 @@ def slot_lang(slot, day=None):
         return "hi"
     # From 2026-10-26 slot 0 is Kannada every day (owner): kn is the channel's record language
     # (Mysore Palace 70k, elephant 22k) but the weighted draw left it out 10-23..10-25.
-    if slot == 0 and day >= KN_DAILY:
+    if slot == 0 and KN_DAILY <= day < KN_OFF:
         return "kn"
     # Trend languages (trends.py, 2026-11-14) without a fixed slot of their own take rotating slot 1, and slot 2
     # when no festival wants it. Start-of-day view, so every slot that day sees the same list.
     if slot in (1, 2) and day >= trends.FROM:
-        tl = [l for l in trends.langs_for(day, _done_before(day)) if l not in ("kn", "te", "en")]
+        own = ("kn", "te", "en") if day < KN_OFF else ("te", "en")   # languages with a fixed slot of their own
+        tl = [l for l in trends.langs_for(day, _done_before(day)) if l not in own]
         if slot == 1 and tl:
             return tl[0]
         if slot == 2 and len(tl) > 1 and not (day >= HI_OFF and festivals.evening_langs(day, _done_before(day))):
@@ -327,7 +332,7 @@ def slot_lang(slot, day=None):
     # Reposts of deleted Shorts in the rotating languages go first: slot 0 the oldest, slot 1 the next.
     rot = [l for k, l in redos(day) if l not in ("te", "hi", "en")]
     rot = list(dict.fromkeys(rot))
-    if day >= KN_DAILY:
+    if KN_DAILY <= day < KN_OFF:
         rot = [l for l in rot if l != "kn"]
         if len(rot) > slot - 1:
             return rot[slot - 1]                     # slot 1 the oldest repost, slot 2 the next
@@ -345,6 +350,9 @@ def slot_lang(slot, day=None):
             w.pop(slot_lang(earlier, day), None)
         for l in festivals.evening_langs(day, _done_before(day))[:2]:   # ...or a festival posts this evening
             w.pop(l, None)
+        if slot == 0 and day >= KN_OFF and day >= trends.FROM:      # ...or a trend story takes slot 1/2 later today
+            for l in trends.langs_for(day, _done_before(day))[:2]:
+                w.pop(l, None)
         for r in ledger():                           # ...including what actually posted (a festival may have
             if r.get("date") == str(day) and r.get("status") == "posted":   # taken that slot's language)
                 w.pop(r.get("lang"), None)
