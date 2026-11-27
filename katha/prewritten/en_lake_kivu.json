@@ -1,0 +1,65 @@
+{
+ "script": {
+  "title": "Engineers Pump Fuel Out of an Exploding African Lake 🤯",
+  "hook_text": "Engineers pump an exploding lake",
+  "kicker": "TRUE STORY",
+  "sentences": [
+   "Engineers are pumping fuel out of an exploding African lake.",
+   "Two million people live beside Lake Kivu in Rwanda and DR Congo.",
+   "Until 2004, a local brewery burned its gas in boilers.",
+   "It seemed like free power.",
+   "Then lake overturns in Cameroon made researchers check Kivu's floor.",
+   "They found massive local extinctions roughly every thousand years.",
+   "Underneath, volcanic springs trap methane and 256 cubic kilometers of carbon dioxide.",
+   "Heating that bottom water could spark the methane and send suffocating gas ashore.",
+   "Yet offshore barges still pump that methane to onshore power plants."
+  ],
+  "cta": "Comment below",
+  "description": "Lake Kivu holds massive reserves of methane and carbon dioxide beneath its deep waters.\nEngineers now pump that methane to onshore power plants in Rwanda.",
+  "hashtags": [
+   "LakeKivu",
+   "Rwanda",
+   "HistoryShorts",
+   "GeographyFacts",
+   "ScienceHistory"
+  ],
+  "visuals": [
+   "Lake Kivu Gisenyi Rwanda",
+   "KivuWatt barge Lake Kivu",
+   "Bralirwa brewery Gisenyi Lake Kivu",
+   "Lake Nyos Cameroon limnic eruption",
+   "Lake Kivu Democratic Republic of the Congo"
+  ],
+  "claims_en": [
+   "Engineers pump methane gas out of Lake Kivu for fuel and electricity using offshore barges and onshore power plants.",
+   "Lake Kivu is one of three lakes in the world known to undergo limnic eruptions.",
+   "Approximately two million people live beside Lake Kivu in Rwanda and the Democratic Republic of the Congo.",
+   "Until 2004, gas extracted from Lake Kivu was used to run boilers at the Bralirwa brewery in Gisenyi.",
+   "Lake Kivu's methane was originally viewed merely as a cheap natural resource for generating power.",
+   "Analysis of lake overturns at Lake Nyos and Lake Monoun in Cameroon revealed the risk posed by Lake Kivu.",
+   "Researchers found evidence of massive local extinctions around Lake Kivu roughly every thousand years.",
+   "Volcanic hot springs beneath Lake Kivu trap methane and an estimated 256 cubic kilometers of carbon dioxide.",
+   "Sufficient volcanic heating of Lake Kivu's bottom water could spark a methane explosion and send suffocating carbon dioxide rolling ashore."
+  ],
+  "scenes": [
+   "Extreme close-up of an engineer's tense, focused face wearing a hard hat and safety goggles, staring out over dark rippling Lake Kivu at dawn from an offshore steel barge, cool morning mist and warm deck lights reflecting in his eyes.",
+   "Wide illustrated view looking across the misty blue waters of Lake Kivu nestled between green terraced hills in Rwanda and the Democratic Republic of the Congo, with lakeside settlements and wooden boats along the curving shore in morning sunlight.",
+   "Medium shot inside a brick industrial boiler room in Gisenyi around 2004, a worker in coveralls wiping sweat from his brow with a serious expression while checking brass pressure gauges beside blue-flamed gas burners heating large boilers.",
+   "Medium-wide illustration of engineers on a lakeshore dock in late afternoon golden light, smiling calmly as they inspect a simple metal gas pipe rising out of calm turquoise Lake Kivu water toward a small onshore building.",
+   "Medium close-up of a field researcher crouched on a wooden research boat on Lake Kivu, furrowed brow and alarmed eyes as she examines dark sediment core samples pulled from the deep lake floor under overcast grey skies.",
+   "Close-up of a researcher in a dimly lit lakeside lab holding a magnifying glass over dark layered lake-bed sediment, his face grim and deeply concerned under a warm desk lamp.",
+   "Atmospheric underwater cross-section illustration of Lake Kivu's pitch-dark abyssal floor, glowing orange hydrothermal vents pulsing beneath heavy layered deep water filled with rising shimmering gas bubbles.",
+   "Dramatic wide illustration of Lake Kivu's dark surface churning violently at dusk as a glowing underwater heat source disturbs the depths, dense pale plumes of mist and gas rolling ominously toward the quiet green hills on shore.",
+   "Wide golden-hour shot of an offshore extraction barge anchored on calm Lake Kivu with engineers in reflective vests working steadily on deck, an underwater pipeline leading toward illuminated onshore power plant buildings along the green hillside."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-27T12:21+00:00",
+ "for_slot": "2026-11-28 slot 5"
+}
