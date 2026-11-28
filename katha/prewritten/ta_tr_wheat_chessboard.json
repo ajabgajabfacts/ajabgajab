@@ -1,0 +1,64 @@
+{
+ "script": {
+  "title": "சதுரங்கம் கண்டுபிடித்தவர் கேட்ட பரிசு, ராஜா சிரித்தார் 🤯",
+  "hook_text": "ராஜாவை தோற்கடித்த தானியப் பரிசு",
+  "kicker": "செஸ் கதை",
+  "sentences": [
+   "சதுரங்கத்தை கண்டுபிடித்த செஸ்ஸா, ராஜாவிடம் பரிசாக கேட்டது வெறும் தானியம்.",
+   "உலக செஸ் சாம்பியன்ஷிப் நடக்கிற இந்த வாரம், இந்த பழைய கதையை கேளுங்க.",
+   "கதைப்படி செஸ்ஸா ஒரு பண்டைய இந்திய அமைச்சர்.",
+   "முதல் கட்டத்துல ஒரு தானியம், அடுத்ததுல இரண்டு, அப்புறம் நாலு, இப்படியே 64 கட்டம் வரைக்கும் இரட்டிப்பு.",
+   "இவ்வளவு சின்ன பரிசா என்று ராஜா சிரித்தார்.",
+   "கருவூல அதிகாரிகள் கணக்கு போட்டு பார்த்தாங்க.",
+   "மொத்தம் இருபது இலக்க எண், உலகமே ஒரு வருஷம் விளைவிக்கிற கோதுமையைவிட 1,400 மடங்குக்கு மேல.",
+   "ராஜாவோட மொத்த செல்வமும் அதுக்கு போதாது.",
+   "சில கதைகள்ல செஸ்ஸா பெரிய ஆலோசகர் ஆனார், சிலதுல உயிரையே இழந்தார்."
+  ],
+  "cta": "கமெண்ட் பண்ணுங்க",
+  "description": "செஸ் கண்டுபிடித்தவர் கேட்ட சின்ன பரிசு ஒரு ராஜ்ஜியத்தையே மிஞ்சியது.\nஉலக செஸ் சாம்பியன்ஷிப் நேரத்தில் ஒரு பழைய கதை.",
+  "hashtags": [
+   "WorldChessChampionship",
+   "சதுரங்கம்",
+   "Chess",
+   "செஸ்",
+   "TamilStories"
+  ],
+  "visuals": [
+   "Chessboard with grains of wheat",
+   "Wheat grains heap",
+   "Ancient Indian chess chaturanga"
+  ],
+  "claims_en": [
+   "In a version of the legend, the inventor of chess asked his ruler for grain as a reward",
+   "In some tellings the inventor is Sessa, an ancient Indian minister",
+   "One grain on the first square, two on the second, four on the third, doubling on each of the 64 squares",
+   "The ruler laughed it off as a meager prize for a brilliant invention",
+   "The court treasurers reported the number of grains",
+   "The total is 2^64 - 1 = 18,446,744,073,709,551,615 grains, a 20-digit number",
+   "That is over 1,400 times the global production of wheat",
+   "The grain would outstrip the ruler's resources",
+   "Versions differ as to whether the inventor becomes a high-ranking advisor or is executed",
+   "(Context, not from the source: the World Chess Championship is being played this week)"
+  ],
+  "scenes": [
+   "Extreme close-up of an ancient Indian minister's face, calm knowing smile, eyes glinting, holding a single grain between two fingers, warm oil-lamp light in a royal court",
+   "A modern-day crowd of Tamil family members watching a chess game on a phone screen together, excited faces, evening living-room light, medium shot",
+   "An ancient Indian minister in a simple white dhoti and angavastram standing before a carved wooden chessboard in a royal court, lamps and pillars, medium shot",
+   "Hands placing grains of wheat on a chessboard, one, two, four, piles growing square by square, warm golden light, top-down close-up",
+   "An Indian king on a throne laughing heartily, jewelled crown and silk robes, courtiers smiling, bright palace hall, medium shot",
+   "Royal treasurers with palm-leaf ledgers counting and frowning in a dim treasury lit by lamps, scrolls everywhere, medium shot",
+   "An endless sea of wheat grain spilling out of the palace and over the hills to the horizon, tiny figures staring, epic wide shot, golden light",
+   "The king staring at his near-empty granaries, the laugh gone from his face, worried courtiers behind him, dusk light, medium shot",
+   "The minister standing alone by the chessboard in the empty court, a single lamp burning, thoughtful expression, quiet wide shot"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-trend-scout",
+ "written": "2026-11-28T00:55Z",
+ "for_slot": "trend 2026-11-28"
+}

@@ -797,5 +797,72 @@
    "score": 7
   },
   "added": "2026-11-30"
+ },
+ {
+  "key": "tr_mosquito_bowl",
+  "lang": "en",
+  "kind": "sport",
+  "wiki": [
+   "Mosquito Bowl",
+   "Dave Schreiner",
+   "Tony Butkovich"
+  ],
+  "art": [
+   "Guadalcanal 1944 Marines",
+   "6th Marine Division Okinawa",
+   "Dave Schreiner Wisconsin football"
+  ],
+  "angle": "Dave Schreiner, a Detroit Lions first-round pick, chose the Marines; on Christmas Eve 1944 he played in a Guadalcanal game of college stars that ended 0-0, and he and fellow #11 pick Tony Butkovich were killed on Okinawa months later",
+  "trend": {
+   "why": "Netflix's The Mosquito Bowl hit streaming on 25 Nov for Thanksgiving week; US viewers are looking up the real game",
+   "signals": [
+    "en.wikipedia most-read 26 Nov: The Mosquito Bowl 65,116 views",
+    "Netflix streaming premiere 25 Nov 2026 (hollywoodlife, sortiraparis)",
+    "football weekend: rivalry Saturday 28 Nov"
+   ],
+   "until": "2026-12-01",
+   "score": 8
+  },
+  "added": "2026-11-28"
+ },
+ {
+  "key": "tr_wheat_chessboard",
+  "lang": "ta",
+  "kind": "folk",
+  "wiki": [
+   "Wheat and chessboard problem"
+  ],
+  "art": [
+   "Chessboard with grains",
+   "Wheat grains heap",
+   "Chaturanga ancient chess India"
+  ],
+  "angle": "in the legend the Indian minister who invented chess asked only for grain doubling on each of 64 squares; the king laughed, but the total is a 20-digit number, over 1,400 times the world's wheat harvest",
+  "trend": {
+   "why": "World Chess Championship in Geneva (from 24 Nov) has Tamil Nadu glued to chess; the oldest Indian chess legend fits the moment",
+   "signals": [
+    "YouTube IN most popular: 'Gukesh vs Sindarov Game 3' (ChessBase India) 2.19M views",
+    "match began 24 Nov, 14 games (outlookindia/mykhel)",
+    "ta follow-on to tr_chathuranga_shiva_chess (posted 27 Nov)"
+   ],
+   "until": "2026-12-01",
+   "score": 8
+  },
+  "added": "2026-11-28"
+ },
+ {
+  "key": "markandeya",
+  "lang": "te",
+  "trend": {
+   "why": "Karthika Somavaram on Monday 30 Nov: Telugu homes fast and do Shiva abhishekam; Markandeya, saved by Shiva from Yama, is the Monday story",
+   "signals": [
+    "Karthika Masam 10 Nov-8 Dec 2026, Somavarams 16/23/30 Nov and 7 Dec (hindutone, Drik Panchang)",
+    "te.wikipedia list: కేదారేశ్వర వ్రతకల్పం, త్రినాథ వ్రతకల్పం (Karthika vratams) in top 15",
+    "Google Trends IN-AP: కార్తీక దీపం"
+   ],
+   "until": "2026-11-30",
+   "score": 7
+  },
+  "added": "2026-11-29"
  }
 ]
