@@ -494,8 +494,13 @@ def produce(a, L, e):
             c["img"] = Image.open(work / f"img_{i}.jpg")
     else:
         # Illustrated character scenes first (aiart.py, owner 2026-11-23); Wikimedia when it is off or fails.
+        # NOT for English (Wait, That's Real?), from 2026-11-28: its AI-illustrated Shorts 11-24..11-28 got 2-63 views
+        # each (median ~20), while its real-photo Shorts that month ran 300-3,000 (median ~700; the one photo
+        # fallback in that week got 1,124). AI drawings of real people (Lincoln, Galileo) read as fake to that
+        # audience. Ajab's te/ta AI Shorts held their photo-era range, so Indian languages keep the illustrations.
         import aiart
-        shots = aiart.shots(s, e.get("kind"), a.lang, L["name"], story_en) if aiart.enabled() else None
+        use_ai = aiart.enabled() and a.lang != "en"
+        shots = aiart.shots(s, e.get("kind"), a.lang, L["name"], story_en) if use_ai else None
         if not shots:
             shots = media.images(e, s.get("visuals"), story_en, need=8, lines=s["sentences"])
         for i, c in enumerate(shots):

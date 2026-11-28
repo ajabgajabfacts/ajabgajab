@@ -499,6 +499,25 @@ add2("lohri_dulla_bhatti", "pa", "folk", ["Lohri", "Dulla Bhatti"], ["Lohri bonf
      "why Punjab sings about an outlaw, Dulla Bhatti, around the Lohri bonfire")
 add2("makaravilakku", "ml", "myth", ["Makaravilakku", "Sabarimala"], ["Makaravilakku Sabarimala", "Sabarimala temple", "Ponnambalamedu"],
      "the light that appears on a distant hill at Sabarimala on Makara Sankranti evening")
+# Ayyappa season for Telugu + Tamil (owner 2026-11-28: "change something to go viral"). The Mandala vow runs
+# ~Nov 17-Dec 27 and the season ends at Makaravilakku (Jan 14); millions of Ayyappa devotees in AP, Telangana
+# and Tamil Nadu keep it, and Ayyappa Shorts channels in te/ta run 20k-60k medians right now (yt_scout 11-28).
+# Sources checked 11-28: the en "Ayyappan", "Harivarasanam", "Vavar", "Pandalam" articles carry every angle.
+# Never touch the women-entry dispute; frame legends as legend. ("Mahishi" on en.wiki is a Bihar village: don't use.)
+add2("ayyappa_tiger_milk", "all", "myth", ["Ayyappan", "Pandalam"], ["Ayyappan riding tiger", "Ayyappa tiger painting", "Sabarimala Ayyappan"],
+     "the queen faked an illness and demanded tiger's milk to get rid of the boy prince Manikantha, and he came back riding a tiger")
+add2("harivarasanam", "all", "art", ["Harivarasanam", "Ayyappan"], ["Sabarimala temple night", "Ayyappan painting", "Sabarimala Sannidhanam"],
+     "the lullaby sung every night to put Ayyappa to sleep, whose true composer is still disputed because temple offerings went unsigned")
+add2("ayyappa_mahishi", "all", "myth", ["Ayyappan"], ["Ayyappan painting", "Ayyappan tiger", "Sabarimala Ayyappan"],
+     "the demoness Mahishi asked the celibate warrior Manikantha to marry her, and his refusal ended an old curse")
+add2("vavar_swami", "all", "folk", ["Vavar", "Ayyappan"], ["Vavar mosque Erumely", "Erumely Petta Thullal", "Ayyappan painting"],
+     "the pirate Vavar lost to the young Ayyappa, became his trusted lieutenant, and pilgrims still pray at his shrine before the climb")
+add2("ayyappa_found_baby", "all", "myth", ["Ayyappan", "Pandalam"], ["Pandalam Palace", "Pamba River Sabarimala", "Ayyappan painting"],
+     "a childless king found a baby boy on the banks of the Pamba and raised him as his heir, Manikantha")
+add2("ayyappa_swami_vow", "all", "folk", ["Ayyappan"], ["Sabarimala pilgrims irumudi", "Sabarimala pilgrims", "Ayyappan painting"],
+     "for the weeks of the Sabarimala vow every pilgrim calls every other pilgrim 'swami', god, and every difference of rank is dropped")
+add2("thiruvabharanam_pandalam", "all", "myth", ["Pandalam", "Makaravilakku"], ["Thiruvabharanam procession", "Pandalam Palace", "Valiyakoikkal Temple"],
+     "every year Ayyappa's sacred ornaments leave his foster father's palace at Pandalam for Sabarimala, three days before Makaravilakku")
 add2("pongal", "ta", "food", ["Pongal (festival)"], ["Pongal festival Tamil Nadu", "Pongal pot boiling", "Mattu Pongal cattle"],
      "a harvest festival named after the moment the rice pot boils over")
 add2("sankranti", "all", "folk", ["Makar Sankranti"], ["Makar Sankranti kites", "Sankranti rangoli", "Gangireddu"],

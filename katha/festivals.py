@@ -36,12 +36,23 @@ EVENTS = [
     ("Karthigai Deepam / Karthika Pournami", D(2026, 11, 22), D(2026, 11, 24), {
         "ta": ["tiruvannamalai_deepam"], "te": ["pancharama"]}),
     ("Guru Nanak Jayanti", D(2026, 11, 23), D(2026, 11, 24), {"pa": ["guru_nanak"]}),
+    # Ayyappa season for the Telugu + Tamil channel (owner 2026-11-28, see bank.py): a long window on purpose, so the
+    # evening slots (ta 18:05, te 20:35 IST) tell one Ayyappa story a day until these five run out (~12-03). That
+    # concentrates the channel on the biggest live devotional moment in both states, the Mysore-hit pattern.
+    # Judge ~12-06: views of these ten Shorts vs the te/ta November medians (ta 398, te ~250).
+    ("Ayyappa Mandala season", D(2026, 11, 29), D(2026, 12, 24), {
+        "ta": ["ayyappa_tiger_milk", "harivarasanam", "ayyappa_mahishi", "vavar_swami", "ayyappa_found_baby"],
+        "te": ["ayyappa_tiger_milk", "harivarasanam", "ayyappa_mahishi", "vavar_swami", "ayyappa_found_baby"]}),
     ("Vaikunta Ekadashi", D(2026, 12, 19), D(2026, 12, 20), {
         "te": ["vaikunta_tirumala"], "ta": ["srirangam_vaikunta"]}),
-    ("Mandala Pooja", D(2026, 12, 26), D(2026, 12, 27), {"ml": ["ayyappan"]}),
+    ("Mandala Pooja", D(2026, 12, 26), D(2026, 12, 27), {
+        "ml": ["ayyappan"], "ta": ["ayyappa_swami_vow"], "te": ["ayyappa_swami_vow"]}),
     ("Lohri", D(2027, 1, 12), D(2027, 1, 13), {"pa": ["lohri_dulla_bhatti"]}),
     # before Sankranti: only two rotating slots, and Kerala's Makaravilakku outranks gu/mr Sankranti
-    ("Makaravilakku", D(2027, 1, 13), D(2027, 1, 14), {"ml": ["makaravilakku"]}),
+    ("Thiruvabharanam procession", D(2027, 1, 10), D(2027, 1, 11), {
+        "ta": ["thiruvabharanam_pandalam"], "te": ["thiruvabharanam_pandalam"]}),
+    ("Makaravilakku", D(2027, 1, 13), D(2027, 1, 14), {
+        "ml": ["makaravilakku"], "ta": ["makaravilakku"], "te": ["makaravilakku"]}),
     ("Sankranti / Pongal", D(2027, 1, 13), D(2027, 1, 15), {
         "ta": ["pongal"], "te": ["sankranti"], "kn": ["sankranti"], "gu": ["sankranti"], "mr": ["sankranti"]}),
 ]
