@@ -1,0 +1,61 @@
+{
+ "script": {
+  "title": "అయ్యప్పకు జోలపాట రాసి పేరు పెట్టనిది ఎవరు? 🙏",
+  "hook_text": "అయ్యప్ప జోలపాట రాసింది ఎవరు?",
+  "kicker": "నిజ కథ",
+  "sentences": [
+   "అయ్యప్ప స్వామిని రోజూ నిద్రపుచ్చే పాట ఎవరు రాశారో ఖచ్చితంగా తెలియదు.",
+   "శబరిమలలో గుడి మూసేటప్పుడు పాడే హరివరాసనం అదే.",
+   "ఒక వాదన ప్రకారం, కొన్నకత్తు జానకి అమ్మ దాన్ని స్వామికి కానుకగా రాశారు.",
+   "అప్పుడు శబరిమల ప్రధాన పూజారి అయిన తన తండ్రి అనంతకృష్ణ అయ్యర్‌కు ఇచ్చారు.",
+   "కానీ కుటుంబం దగ్గర ఉన్న చేతిరాత ప్రతులన్నింటిలో సంకలనకర్తగా శ్రీనివాస అయ్యర్ పేరే ఉంది.",
+   "ఇంకో వాదన కంబంకుడి కులత్తు అయ్యర్ రాశారని చెబుతుంది.",
+   "ఆ రోజుల్లో గుడికి కానుకగా ఇచ్చే రచనపై ఎవరూ పేరు రాసేవారు కాదని నమ్ముతారు.",
+   "1923లో రాసిన జోలపాటను ఇప్పటికీ సంతకం లేకుండానే పాడుతున్నారు."
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "అయ్యప్పను నిద్రపుచ్చే హరివరాసనం.\nరాసినవారి పేరు ఎందుకు లేదు?",
+  "hashtags": [
+   "హరివరాసనం",
+   "అయ్యప్ప",
+   "Sabarimala",
+   "Harivarasanam",
+   "TeluguShorts"
+  ],
+  "visuals": [
+   "Sabarimala temple night",
+   "Sabarimala Sannidhanam",
+   "Ayyappan painting"
+  ],
+  "claims_en": [
+   "Harivarasanam is the lullaby sung to put Lord Ayyappan to sleep at the end of each day's rituals at Sabarimala",
+   "It is sung during the daily temple closing ceremony at Sabarimala",
+   "The exact origin and composer of the song is unclear and contested",
+   "One claim says Konnakathu Janaki Amma composed it as an offering to Lord Ayyappa",
+   "She submitted it to her father Ananthakrishna Iyer, then the Sabarimala Melshanthi (chief priest)",
+   "The family's handwritten records all mention Srinivasa Iyer as the compiler",
+   "Another claim names Kambankudi Kulathu Iyer as the composer",
+   "It is believed that people then did not write their name on a creative work submitted as an offering at the temple",
+   "Harivarasanam was originally written in 1923"
+  ],
+  "scenes": [
+   "Extreme close-up of an elderly Kerala temple priest's face in 1950s Sabarimala, eyes half closed in quiet devotion as he sings at night, warm oil-lamp glow on his face, deep shadows, intimate framing",
+   "Sabarimala hill temple at night, priest drawing the sanctum doors shut, rows of brass oil lamps flickering, devotees in black clothes watching silently, wide shot, warm amber light",
+   "A young Kerala woman in a 1920s white mundu-neriyathu, seated on a wooden floor writing devotional verses on paper by lamplight, focused and serene, medium close-up",
+   "The same young woman handing folded handwritten pages to her father, a traditional Kerala temple chief priest with sacred thread, in a simple tiled-roof house veranda, soft morning light, respectful mood",
+   "Close-up of old yellowed handwritten Malayalam manuscript pages spread on a wooden table, a hand pointing at a margin, dim daylight from a window, no readable text",
+   "A 1920s Tamil Brahmin scholar with a palm-leaf bundle sitting on a temple corridor step, thoughtful expression, stone pillars behind, late afternoon light, medium shot",
+   "A devotee in 1920s Kerala placing an unsigned folded offering of written pages before a temple lamp, face calm and humble, hands joined, warm lamp light, side view",
+   "Night view of Sabarimala Sannidhanam with lamps glowing, Lord Ayyappan in traditional iconography seated in yogic posture with band around knees, dignified, calm, soft golden light, wide framing"
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "by": "claude self-check"
+ },
+ "verified": false,
+ "by": "claude-routine",
+ "written": "2026-11-28T19:45Z",
+ "for_slot": "2026-11-29 slot 3"
+}
