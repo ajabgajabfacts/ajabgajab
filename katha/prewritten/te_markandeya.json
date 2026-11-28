@@ -1,0 +1,62 @@
+{
+ "script": {
+  "title": "మార్కండేయుడి మెడకు యముడు పాశం వేస్తే ఏమైంది? 🙏",
+  "hook_text": "పదహారేళ్లకే మార్కండేయుడికి కాలం ఆగిపోయింది",
+  "kicker": "పురాణ గాథ",
+  "sentences": [
+   "పురాణాల ప్రకారం, పదహారేళ్లకే చనిపోవాల్సిన మార్కండేయుడికి కాలం అక్కడే ఆగిపోయింది.",
+   "మృకండ మహర్షి, మనస్విని దంపతులకు శివుడి వరంతో అతడు పుట్టాడు.",
+   "మంచి గుణాలున్నా పదహారేళ్లే ఆయుష్షు.",
+   "గడువు రాగానే మార్కండేయుడు శివలింగాన్ని పూజిస్తుంటే, ఆ భక్తి వల్ల యమభటులు దగ్గరకు కూడా వెళ్లలేకపోయారు.",
+   "చివరకు యముడే వచ్చి, శివలింగాన్ని కౌగిలించుకున్న అతని మెడకు పాశం వేశాడు.",
+   "ఆ పాశం శివలింగానికీ చుట్టుకోవడంతో, శివుడు లింగం నుంచే వచ్చి యముడిని సంహరించాడు.",
+   "దేవతల కోరికతో యముడిని బతికించినా, మార్కండేయుడు ఎప్పటికీ పదహారేళ్లవాడిగానే ఉండే షరతు పెట్టాడు.",
+   "అలా యముడిని ఓడించిన శివుడికి కాలాంతకుడు అనే పేరు వచ్చిందట."
+  ],
+  "cta": "కింద కామెంట్ చేయండి",
+  "description": "పదహారేళ్ల మార్కండేయుడిని యముడి నుంచి శివుడు కాపాడిన పురాణ కథ.\nకాలాంతకుడిగా శివుడికి పేరు తెచ్చిన ఈ గాథపై మీ అభిప్రాయాన్ని చెప్పండి.",
+  "hashtags": [
+   "మార్కండేయుడు",
+   "శివుడు",
+   "Markandeya",
+   "TeluguShorts",
+   "HinduMythology"
+  ],
+  "visuals": [
+   "Markandeya Mahadeva Temple Kaithi Varanasi",
+   "Triprangode Siva Temple Kerala",
+   "Khandya Markandeya Shiva Linga Chikmaglur",
+   "Kalantaka Shiva Markandeya sculpture",
+   "Yama Hindu god of death sculpture"
+  ],
+  "claims_en": [
+   "According to the Puranas, Markandeya was destined to die at age sixteen, yet time stopped for him there.",
+   "Markandeya was born to sage Mrikanda and his wife Manasvini by Shiva's boon.",
+   "He was virtuous, yet had a lifespan of only sixteen years.",
+   "When his destined time arrived, Markandeya worshipped a Shiva Lingam, and Yama's messengers could not go near him due to his devotion.",
+   "Finally Yama came in person and threw his noose around the neck of Markandeya while he embraced the Shiva Lingam.",
+   "As the noose also circled the Shiva Lingam, Shiva emerged from the lingam itself and slayed Yama.",
+   "Though Shiva revived Yama at the request of the devas, he placed a condition that Markandeya would remain sixteen years old forever.",
+   "According to legend, Shiva acquired the name Kalantaka after defeating Yama."
+  ],
+  "scenes": [
+   "Extreme close-up of sixteen-year-old ancient Indian sage Markandeya's face at the peak of emotion, sacred vibhuti ash on his forehead, wide eyes filled with fierce devotion and awe as soft golden divine light illuminates his features inside a dark carved stone temple sanctum, dramatic rim lighting.",
+   "Ancient Indian sage Mrikanda and his wife Manasvini in simple traditional unstitched cotton garments smiling with serene joy as they cradle their newborn baby Markandeya in a peaceful forest hermitage with thatched huts, soft morning sunlight filtering through trees, medium shot.",
+   "Young boy Markandeya in traditional sage attire sitting beside his father Mrikanda in the forest hermitage studying palm-leaf scriptures, warm afternoon light, while Mrikanda and Manasvini look at him with quiet pride mixed with deep sorrow on their faces, medium wide shot.",
+   "Sixteen-year-old Markandeya seated in intense prayer before a stone Shiva Lingam inside a dimly lit temple, a soft protective radiance glowing around him, while shadowy messengers of Yama halt helplessly at the temple doorway unable to step forward, wide atmospheric shot.",
+   "Yama, the traditional Hindu god of death in ornate royal golden garments and crown holding a glowing golden noose, throwing the rope toward sixteen-year-old Markandeya who tightly embraces the stone Shiva Lingam in desperation, dynamic low-angle shot, stormy blue and amber lighting.",
+   "Lord Shiva in his majestic traditional Kalantaka iconography, dignified and fully clothed in tiger skin and sacred garments, emerging powerfully from the glowing stone Shiva Lingam holding his trident as the golden noose encircles both Markandeya and the Lingam, confronting Yama with no blood or gore, epic wide shot.",
+   "Dignified Lord Shiva standing calmly beside the stone Shiva Lingam as celestial devas bow in prayer in the misty heavens above, reviving Yama who folds his hands respectfully, while sixteen-year-old Markandeya kneels peacefully bathed in eternal youthful golden radiance, balanced wide composition.",
+   "Majestic Lord Shiva as Kalantaka standing serenely in the ancient stone temple sanctum holding his trident with a calm expression of grace over time and death, young sage Markandeya bowing gratefully at his feet, warm glowing oil lamps lighting the carved walls, cinematic medium-wide shot."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-28T11:42+00:00",
+ "for_slot": "2026-11-29 slot 1"
+}

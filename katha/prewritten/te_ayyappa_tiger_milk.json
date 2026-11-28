@@ -1,0 +1,56 @@
+{
+ "script": {
+  "title": "మణికంఠుడిని చంపాలని రాణి పులి పాలు కోరినప్పుడు ఏం జరిగింది? 👑",
+  "hook_text": "పులిపై వచ్చిన పన్నెండేళ్ల బాలుడు",
+  "kicker": "పురాణ గాథ",
+  "sentences": [
+   "పులిపై స్వారీ చేస్తూ రాజభవనంలోకి వచ్చిన పన్నెండేళ్ల బాలుడిని చూసి రాణి గజగజ వణికిపోయింది.",
+   "మలయాళ కథనం ప్రకారం, పందళం రాజు మణికంఠుడిని యువరాజుగా చేయాలనుకున్నాడు.",
+   "తన కన్నబిడ్డ కోసం రాణి ఒక రహస్య కుట్ర పన్నింది.",
+   "తనకు రోగం వచ్చిందని నటిస్తూ, పులి పాలు తెస్తేనే తగ్గుతుందని మొండికేసింది.",
+   "అడవి మృగాల చేతిలో బాలుడు అంతం కావాలన్నదే ఆమె ఆలోచన.",
+   "కానీ మణికంఠుడు మహిషిని సంహరించి, ఏకంగా పులి మీదే రాజ్యంలోకి అడుగుపెట్టాడు.",
+   "బాలుడిని చంపాలనుకున్న రాణి కుట్రే, చివరకు ఆయన దైవత్వాన్ని లోకానికి చాటింది."
+  ],
+  "cta": "కామెంట్ చేయండి",
+  "description": "మణికంఠుడిని అంతం చేయాలని రాణి పన్నిన పులి పాల కుట్ర కథ.\nఅయ్యప్ప స్వామి పులిపై తిరిగివచ్చిన అద్భుత ఘట్టం.",
+  "hashtags": [
+   "AyyappaSwami",
+   "Manikantha",
+   "Sabarimala",
+   "Pandalam",
+   "TeluguDevotional"
+  ],
+  "visuals": [
+   "Ayyappan riding tiger painting Sabarimala",
+   "Pandalam Palace Kerala heritage",
+   "Mahishi demoness Ayyappa art Kerala",
+   "Sabarimala temple Western Ghats"
+  ],
+  "claims_en": [
+   "According to Malayalam lore, Pandalam king wanted to make 12-year-old Manikantha his heir.",
+   "The queen objected in favor of her biological child and faked an illness.",
+   "The queen demanded tiger's milk as a cure to get rid of Manikantha in the forest.",
+   "Manikantha went into the forest, defeated the demoness Mahishi, and returned riding on the back of a tiger.",
+   "The king recognized Manikantha's divine nature upon his return."
+  ],
+  "scenes": [
+   "Extreme close-up of a royal Indian queen's terrified face, wide eyes filled with pure shock and fear inside a Kerala palace.",
+   "The noble King of Pandalam placing a traditional golden crown near a glowing 12-year-old boy prince in a wooden palace durbar.",
+   "The scheming queen whispering in secret to her confidante in dimly lit palace chambers, wearing traditional royal silks.",
+   "The queen reclining on a royal bed feigning acute illness, dramatically pleading with court physicians.",
+   "Young boy prince Manikantha calmly volunteering and stepping barefoot with a bow into a dark, dense jungle.",
+   "Dignified young warrior prince Manikantha riding atop a magnificent Bengal tiger, stepping triumphantly into the palace gates.",
+   "The Pandalam king folding hands in awe before the divine boy sitting on the tiger as palace courtiers bow down."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-28T11:49+00:00",
+ "for_slot": "2026-11-29 slot 3"
+}

@@ -1,0 +1,61 @@
+{
+ "script": {
+  "title": "மணிகண்டனைக் காட்டுக்கு விரட்ட ராணி போட்ட புலிப்பால் திட்டம் 🙏",
+  "hook_text": "புலி மேல உட்கார்ந்து வந்த மணிகண்டன்",
+  "kicker": "புராணக் கதை",
+  "sentences": [
+   "12 வயசு மணிகண்டன் புலி மேல உட்கார்ந்து அரண்மனைக்கே வந்தான்.",
+   "மலையாளக் கதைப்படி, பம்பை கரையில கிடைச்ச அவன பந்தள ராஜா வளர்த்தாரு.",
+   "அவனுக்குப் பட்டம் கட்டப் போனப்ப, தன் மகனுக்காக ராணி தடுத்தாங்க.",
+   "மணிகண்டன விரட்ட, உடம்பு சரியில்லன்னு நடிச்சு புலிப்பால் கேட்டாங்க.",
+   "அவனும் மறுக்காம காட்டுக்குப் போனான்.",
+   "வழியில கல்யாணம் கேட்ட மகிஷி அரக்கியை வதம் பண்ணிட்டு, புலி மேலயே திரும்பினான்.",
+   "அப்பதான் அவன் தெய்வம்னு ராஜா உணர, மணிகண்டன் ஐயப்பனா மாறினான்.",
+   "புலிப்பால் கேட்ட ராணி, புலி மேல வந்த பையனப் பார்த்து என்ன நினைச்சிருப்பாங்க?"
+  ],
+  "cta": "கமெண்ட்ல சொல்லுங்க",
+  "description": "பந்தள இளவரசன் மணிகண்டன் புலி மேல வந்த கதை.\nசபரிமலை ஐயப்பனின் பிரபலமான புராண ஐதீகம்.",
+  "hashtags": [
+   "ஐயப்பன்",
+   "மணிகண்டன்",
+   "சபரிமலை",
+   "Ayyappan",
+   "TamilShorts"
+  ],
+  "visuals": [
+   "Sabarimala Ayyappan temple Kerala",
+   "Pandalam Valiyakoikkal temple Kerala",
+   "Pamba river Sabarimala Kerala",
+   "Ayyappan riding tiger painting"
+  ],
+  "claims_en": [
+   "According to Malayalam legend, the king of Pandalam raised a baby boy found on the banks of the Pamba river.",
+   "The boy was named Manikantha.",
+   "When Manikantha was 12 years old, the king wanted to crown him as heir, which the queen opposed in favor of her younger biological son.",
+   "To get rid of Manikantha, the queen feigned an illness and demanded tiger's milk.",
+   "Manikantha went into the forest without refusing.",
+   "In the forest, the celibate Manikantha defeated the demoness Mahishi who wanted to marry him.",
+   "Manikantha returned to the palace riding on a tiger.",
+   "The king realized Manikantha was divine, and Manikantha transformed into Ayyappan."
+  ],
+  "scenes": [
+   "Extreme close-up of 12-year-old Prince Manikantha's calm, resolute face, traditional gold ornaments and sacred ash on forehead, warm golden daylight in a palace courtyard, a hint of a Bengal tiger's striped fur beside him, cinematic framing, no text.",
+   "Medium shot of the Pandalam king in traditional Kerala royal attire gently cradling a newborn baby boy near the lush banks of the Pamba river at dawn, soft morning mist, serene joyful expression, historical South Indian illustration, no text.",
+   "Inside a carved wooden Kerala palace hall, the Pandalam king holds a ceremonial crown looking at 12-year-old Manikantha, while the queen stands aside with a tense gaze holding her younger son's shoulder, warm oil-lamp lighting, wide shot, no text.",
+   "Medium shot in a dimly lit royal chamber, the queen lying on a wooden bed pretending to be ill with a cunning expression, gesturing toward the king and young Manikantha standing nearby, warm amber lamplight, no text.",
+   "Wide shot of 12-year-old Manikantha in traditional attire walking calmly and fearlessly into a dense, sunlit Kerala forest carrying a bow and arrows, dappled sunlight through tall trees, no text.",
+   "Dynamic wide shot in a deep forest clearing, young warrior Manikantha standing calmly in traditional attire as the defeated buffalo-headed demoness Mahishi falls in the distance, while a majestic Bengal tiger bows peacefully beside him, warm sunset light, no text.",
+   "Medium shot in the Pandalam palace courtyard, the king folding his hands in awe and reverence before Manikantha glowing softly in yogic posture as Lord Ayyappan wearing traditional clothes and a bell around his neck, warm divine twilight, no text.",
+   "Close-up reaction shot of the Pandalam queen peeking from behind a carved wooden palace pillar, her face filled with shock and disbelief looking toward the courtyard, warm palace daylight, no text."
+  ]
+ },
+ "check": {
+  "ok": true,
+  "problems": [],
+  "fixed_sentences": []
+ },
+ "verified": true,
+ "by": "gemini",
+ "written": "2026-11-28T11:48+00:00",
+ "for_slot": "2026-11-29 slot 2"
+}
