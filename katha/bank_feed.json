@@ -974,5 +974,37 @@
   "angle": "High-rating television broadcasts cause sudden spikes in electrical power consumption.",
   "score": 8,
   "added": "2026-11-27"
+ },
+ {
+  "key": "cargo_cult",
+  "lang": "en",
+  "kind": "folk",
+  "wiki": [
+   "Cargo cult"
+  ],
+  "art": [
+   "Cargo cult airplane wooden",
+   "John Frum movement Tanna",
+   "Cargo cult"
+  ],
+  "angle": "Melanesian islanders built wooden airfields, straw control towers, and carved headphones hoping aircraft would return with cargo.",
+  "score": 8,
+  "added": "2026-11-28"
+ },
+ {
+  "key": "te_urewera",
+  "lang": "en",
+  "kind": "nature",
+  "wiki": [
+   "Te Urewera"
+  ],
+  "art": [
+   "Lake Waikaremoana Te Urewera",
+   "Te Urewera forest New Zealand",
+   "Te Urewera"
+  ],
+  "angle": "New Zealand gave an 800-square-mile national park the legal rights and status of a living person.",
+  "score": 8,
+  "added": "2026-11-28"
  }
 ]
